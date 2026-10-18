@@ -35,7 +35,7 @@ cat /PYLOVARA-SYSTEM/ARBEITERBIENEN/CONTROL-BASH/LINUX-SHELL/SETUP/INSTALL/info.
 
  # INSTALLATION 
 
-git clone https://github.com/Pylovara/Pylovara.git
+git clone https://github.com/Pylovara/PYLOVARA-SYSTEM.git
 cd /PYLOVARA-SYSTEM/ARBEITERBIENEN/CONTROL-BASH/LINUX-SHELL/SETUP/INSTALL
 sudo ./full.install-core
 
