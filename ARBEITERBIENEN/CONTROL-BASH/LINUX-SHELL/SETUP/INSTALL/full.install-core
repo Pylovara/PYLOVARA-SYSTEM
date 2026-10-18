@@ -1,5 +1,5 @@
 #!/bin/bash
-# v0.4.1
+# v0.4.2
 # Pylovara Root-Installer
 # führe aus mit: sudo ./full.install-core
 # Quelle : /PYLOVARA-SYSTEM/ARBEITERBIENEN/CONTROL-BASH/LINUX-SHELL/SETUP/INSTALL/full.install-core
@@ -27,17 +27,23 @@ if [ "$EUID" -ne 0 ]; then
   exit 1
 fi
 
-## 2. REPO KLONEN 
+## 2. IN SICHERES VERZEICHNIS WECHSELN (WICHTIG!)
+# Wechsle in ein Verzeichnis, das nicht gelöscht wird, 
+# damit "git clone" ein gültiges Arbeitsverzeichnis hat.
+cd / || exit 1
+
+## 3. REPO KLONEN 
 if [ -d "$PV_DIR" ]; then
   log_warn "Alte Installation gefunden. Entferne..."
   rm -rf "$PV_DIR"
 fi
 
 log_info "Klone Repository nach $PV_DIR..."
+# Der Clone-Befehl erstellt das Verzeichnis automatisch, wenn es nicht existiert.
 git clone "$REPO_URL" "$PV_DIR"
 log_ok "Repository geklont."
 
-## 3. WRAPPER PRÜFEN
+## 4. WRAPPER PRÜFEN
 if [ ! -f "$WRAPPER_SOURCE" ]; then
   log_err "Wrapper nicht gefunden: $WRAPPER_SOURCE"
   log_info "Prüfe den Pfad: ls -la $PV_DIR/ARBEITERBIENEN/CONTROL-BASH/LINUX-SHELL/SETUP/INSTALL/usr/bin/"
@@ -45,13 +51,13 @@ if [ ! -f "$WRAPPER_SOURCE" ]; then
 fi
 log_ok "Wrapper gefunden: $WRAPPER_SOURCE"
 
-## 4. WRAPPER NACH /usr/local/bin KOPIEREN
+## 5. WRAPPER NACH /usr/local/bin KOPIEREN
 log_info "Kopiere Wrapper nach $WRAPPER_TARGET..."
 cp "$WRAPPER_SOURCE" "$WRAPPER_TARGET"
 chmod +x "$WRAPPER_TARGET"
 log_ok "Wrapper installiert: $WRAPPER_TARGET"
 
-## 5. IN /etc/shells EINTRAGEN
+## 6. IN /etc/shells EINTRAGEN
 if ! grep -Fxq "$WRAPPER_TARGET" /etc/shells; then
   log_info "Trage $WRAPPER_TARGET in /etc/shells ein..."
   echo "$WRAPPER_TARGET" >> /etc/shells
@@ -60,7 +66,7 @@ else
   log_info "$WRAPPER_TARGET ist bereits in /etc/shells."
 fi
 
-## 6. STANDARD-SHELL SETZEN 
+## 7. STANDARD-SHELL SETZEN 
 REAL_USER="${SUDO_USER:-$(logname)}"
 if [ -z "$REAL_USER" ]; then
   log_warn "Konnte echten Nutzer nicht ermitteln."
@@ -72,7 +78,7 @@ else
   }
 fi
 
-## 7. CONTROL.PV-CONF IN .bashrc/.zshrc EINBINDEN
+## 8. CONTROL.PV-CONF IN .bashrc/.zshrc EINBINDEN
 USER_HOME=$(eval echo "~$REAL_USER")
 if [ -f "$CONTROL_CONF" ]; then
   for RC in "$USER_HOME/.bashrc" "$USER_HOME/.zshrc"; do
@@ -91,7 +97,7 @@ else
   log_info "Prüfe den Pfad: ls -la $PV_DIR/ARBEITERBIENEN/CONTROL-BASH/"
 fi
 
-## 8. ABSCHLUSS
+## 9. ABSCHLUSS
 echo ""
 log_ok "PYLOVARA LINUX SHELL erfolgreich installiert."
 echo ""
