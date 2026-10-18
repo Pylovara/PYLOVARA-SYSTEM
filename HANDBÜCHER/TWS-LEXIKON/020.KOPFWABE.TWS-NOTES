@@ -18,13 +18,13 @@ MUTTERMODUL # KOPFWABE
  AXIOM ¡ KE ⏍ KE
 
  # AXIOM | MASTER
- AXIOM ¡ MA ⧓ KE
+ AXIOM ¡ MAID ⧓ KE
 
  # AXIOM | BION-ID
- AXIOM ¡ ID ⧓ NR Ξ 
+ AXIOM ¡ BIID ⧓ NR Ξ 
 
- # AXIOM | WEITERVERBINDEN
- AXIOM ¡ ID ⧑ ID
+ # AXIOM | WEITERVERBINDUNG
+ AXIOM ¡ BIID ⧑ BIID
  
 ###==============================INFORMATIONEN==============================###
 

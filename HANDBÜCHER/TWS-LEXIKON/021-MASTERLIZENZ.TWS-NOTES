@@ -1,0 +1,45 @@
+@waben-nr: 21 =================== LEXIKON NAVIGATION TERMINAL = waben <NR> =###
+###= SEITEN-SYSTEM-ID : ⠆⢄⢈⡄ ===PYLOVARA-SYSTEM=============================###
+###==============================MUTTERMODUL================================###
+
+MUTTERMODUL # MASTERKERNWABE
+
+ WABEN-ID # MK
+
+ BION-NR # NR
+
+ BION-ID # BIID
+
+ BSK-ID # BAID
+
+ BION # BION
+
+ BSK # BSK
+
+ # AXIOM | BION-ID
+ AXIOM ¡ MK ⧓ NR Ξ BIID
+
+ # AXIOM | WEITERVERBINDUNG
+ AXIOM ¡ BIID ⧑ BIID
+
+###==============================INFORMATIONEN==============================###
+
+ DIE MASTERKERNWABE BEINHALTET DIE GESAMTEN WABEN PROGRAMME UND BILDET NACH DER 
+ KOPFWABE DIE ANLAUFSTELLE ZU ALLEN HAUPTPROGRAMMEN.
+
+###==========================VERWENDETE-WABEN-NR============================###
+
+ GLEICHE SEITEN NUMMER , FERTIG 
+
+###===================ENTWICKLER-PROGRAMMIERUNGSBEREICH=====================###
+
+ # BION-ID
+ AXIOM ¡ ⠆⢄⢐⠒ ⧓ ⠆⢄⢐⠔ Ξ ⠆⢄⢐⠢
+
+### GRUNDSTRUKTUR:
+<OPERAND1> ⧓ <OPERAND2> Ξ <ERGEBNIS>
+
+# ⧓ = VERBINDE (KOMBINIERE OPERAND1 UND OPERAND2)
+# Ξ = ISTGLEICH (WEISE DAS ERGEBNIS ZU)
+
+###=====================INDUSTRIE-STANDARD-DER-ZUKUNFT======================###
