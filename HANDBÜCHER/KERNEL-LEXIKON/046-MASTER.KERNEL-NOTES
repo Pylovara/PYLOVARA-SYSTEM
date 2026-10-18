@@ -3,10 +3,47 @@
  #             MASTER = THE MASTER SOURCE OF SINGLE ENTRY POINT              #
 ###===============================STARTPUNKT================================###
 
+MUTTERMODUL # MASTERLIZENZWABE
 
+ WABEN-ID # MA
 
+ BION-NR # 046
 
+ BION-ID # MA046
 
+ BSK-ID # MAMA
+
+ BION # MA046
+
+ BSK # MAMA
+
+ # AXIOM | BION-ID
+ AXIOM ¡ WAID ⧓ NR Ξ 
+
+ # MASTERBINDUNG 
+ MASTER # MASTER
+ MASTER # KOPFWABE
+ MASTER # KOMPONENTE 
+ MASTER # LIZENZ-KOMPONENTE
+ MASTER # KOMPONENTEN-ID 
+ MASTER # BION-NR 
+ MASTER # BION-ID 
+ MASTER # MASTER-ID 
+ MASTER # AXIOM ¡  
+ MASTER # DATENBANK
+ MASTER # PROGRAMM-ANZAHL
+ MASTER # AUSFÜHRUNGS-FREIGABE
+ MASTER # MASTERLINK
+
+ # AXIOM | MASTER 
+ AXIOM ¡ 
+ AXIOM ¡
+ AXIOM ¡
+
+ # AXIOM | WEITERVERBINDUNG
+ # TRANSAKTIONSRAHMEN
+ AXIOM ¡ MAID ⧑ KE 
+ # …USW
 
 ###====================================|====================================###
 ###===========================KOMPAKTE-WABEN-PFADE==========================###

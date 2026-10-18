@@ -1,0 +1,48 @@
+@waben-nr: 27 =================== LEXIKON NAVIGATION TERMINAL = waben <NR> =###
+###= SEITEN-SYSTEM-ID : ⠆⢄⢂⡠ ===PYLOVARA-SYSTEM=============================###
+###==============================MUTTERMODUL================================###
+
+MUTTERMODUL # SUPERLIZENZWABE
+
+ LIZENZ-KOMPONENTE # KE
+
+ WABEN-ID # SU
+
+ BION-NR # NR
+
+ BION-ID # BIID
+
+ BSK-ID # BAID
+
+ BION # BION
+
+ BSK # BSK
+
+ # AXIOM | BION-ID
+ AXIOM ¡ WAID ⧓ NR Ξ 
+
+ # AXIOM | WEITERVERBINDUNG
+ AXIOM ¡ BIID ⧑ BIID
+
+ # DATENBANK 
+
+ PROGRAMM-ANZAHL  X
+ AUSFÜHRUNGS-FREIGABE  X
+
+ # AXIOM | DATENFREIGABE
+ AXIOM ¡ 
+
+ # PROZESS LINK
+ MASTERLINK # 
+
+ # AXIOM | PROZESSLINK
+ AXIOM ¡   
+
+ # AXIOM | PROZESS STOP
+ AXIOM ¡  ⑅ (KOPFWABE SYSTEM-ID-KENNUNG) 
+
+###==============================INFORMATIONEN==============================###
+
+ MASTER INTERN, SYSTEM.
+
+###=====================INDUSTRIE-STANDARD-DER-ZUKUNFT======================###
