@@ -1,14 +1,14 @@
 #!/bin/bash
-# v0.2
+# v0.3
 ## Quelle : /PYLOVARA-SYSTEM/ARBEITERBIENEN/CONTROL-BASH/LINUX-SHELL/SETUP/INSTALL/usr/bin/pylovara.wrapper-shell
 
 export PV_DIR="/PYLOVARA-SYSTEM"
 
 # Lade zentrale Config
-if [ -f "$PV_DIR//ARBEITERBIENEN/CONTROL-BASH/CONTROL.PV-CONF" ]; then
+if [ -f "$PV_DIR/ARBEITERBIENEN/CONTROL-BASH/CONTROL.PV-CONF" ]; then
     source "$PV_DIR//ARBEITERBIENEN/CONTROL-BASH/CONTROL.PV-CONF"
     
-    # (Funktionen werden über control.pv-conf/bashrc geladen)
+    # (Funktionen werden über CONTROL.PV-CONF/bashrc geladen)
 fi
 
 # Starte Bash mit allen Definitionen
