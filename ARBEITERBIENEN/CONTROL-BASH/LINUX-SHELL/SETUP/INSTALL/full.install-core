@@ -1,65 +1,101 @@
-# … !/bin/bash
-# v0.4
+#!/bin/bash
+# v0.4.1
 # Pylovara Root-Installer
-# führe aus mit: sudo ./installer.pylovara
-# Quelle : /Pylovara/Setup/Pylovara-System/full.install-core
+# führe aus mit: sudo ./full.install-core
+# Quelle : /PYLOVARA-SYSTEM/ARBEITERBIENEN/CONTROL-BASH/LINUX-SHELL/SETUP/INSTALL/full.install-core
 
 set -e
+
+## KONFIGURATION 
 PV_DIR="/PYLOVARA-SYSTEM"
-REPO_URL="https://github.com/Pylovara/Pylovara.git"
+REPO_URL="https://github.com/Pylovara/PYLOVARA-SYSTEM.git"
 WRAPPER_NAME="pylovara.wrapper-shell"
-WRAPPER_PATH="/usr/local/bin/$WRAPPER_NAME"
+WRAPPER_SOURCE="$PV_DIR/ARBEITERBIENEN/CONTROL-BASH/LINUX-SHELL/SETUP/INSTALL/usr/bin/$WRAPPER_NAME"
+WRAPPER_TARGET="/usr/local/bin/pylovara"
+CONTROL_CONF="$PV_DIR/ARBEITERBIENEN/CONTROL-BASH/CONTROL.PV-CONF"
 
-echo "📦 STARTET DEN SHELL VORGANG UND ÜBERTRÄGT DAS VERZEICHNIS..."
+## FUNKTIONEN 
+log_info() { echo "ℹ️  $1"; }
+log_ok()   { echo "✅ $1"; }
+log_warn() { echo "⚠️  $1"; }
+log_err()  { echo "❌ $1"; }
 
-# 1. Root-Prüfung
+## 1. ROOT-PRÜFUNG
 if [ "$EUID" -ne 0 ]; then
-  echo "❌ Dieses Skript muss als root laufen | führe aus mit: sudo ./installer.pylovara"
+  log_err "Dieses Skript muss als root laufen."
+  log_info "Führe aus mit: sudo $0"
   exit 1
 fi
 
-# 2. Ordner vorbereiten
+## 2. REPO KLONEN 
 if [ -d "$PV_DIR" ]; then
-  echo "🔁 Entferne alte Installation..."
+  log_warn "Alte Installation gefunden. Entferne..."
   rm -rf "$PV_DIR"
 fi
 
-echo "⬇️ Klone Repository..."
+log_info "Klone Repository nach $PV_DIR..."
 git clone "$REPO_URL" "$PV_DIR"
+log_ok "Repository geklont."
 
-# 3. Wrapper setzen
-if [ -f "$PV_DIR/ARBEITERBIENEN/CONTROL-BASH/LINUX-SHELL/SETUP/INSTALL/usr/bin/pylovara.wrapper-shell/$WRAPPER_NAME" ]; then
-  cp "$PV_DIR/ARBEITERBIENEN/CONTROL-BASH/LINUX-SHELL/SETUP/INSTALL/usr/bin/$WRAPPER_NAME" "$WRAPPER_PATH"
-  chmod +x "$WRAPPER_PATH"
-else
-  echo "❌ Wrapper nicht gefunden: $PV_DIR/ARBEITERBIENEN/CONTROL-BASH/LINUX-SHELL/SETUP/INSTALL/usr/bin/$WRAPPER_NAME"
+## 3. WRAPPER PRÜFEN
+if [ ! -f "$WRAPPER_SOURCE" ]; then
+  log_err "Wrapper nicht gefunden: $WRAPPER_SOURCE"
+  log_info "Prüfe den Pfad: ls -la $PV_DIR/ARBEITERBIENEN/CONTROL-BASH/LINUX-SHELL/SETUP/INSTALL/usr/bin/"
   exit 1
 fi
+log_ok "Wrapper gefunden: $WRAPPER_SOURCE"
 
-# 4. In /etc/shells eintragen
-if ! grep -Fxq "$WRAPPER_PATH" /etc/shells; then
-  echo "$WRAPPER_PATH" >> /etc/shells
+## 4. WRAPPER NACH /usr/local/bin KOPIEREN
+log_info "Kopiere Wrapper nach $WRAPPER_TARGET..."
+cp "$WRAPPER_SOURCE" "$WRAPPER_TARGET"
+chmod +x "$WRAPPER_TARGET"
+log_ok "Wrapper installiert: $WRAPPER_TARGET"
+
+## 5. IN /etc/shells EINTRAGEN
+if ! grep -Fxq "$WRAPPER_TARGET" /etc/shells; then
+  log_info "Trage $WRAPPER_TARGET in /etc/shells ein..."
+  echo "$WRAPPER_TARGET" >> /etc/shells
+  log_ok "Eingetragen."
+else
+  log_info "$WRAPPER_TARGET ist bereits in /etc/shells."
 fi
 
-# 5. Standard-Shell setzen für echten Nutzer
-REAL_USER=${SUDO_USER:-$(logname)}
-chsh -s "$WRAPPER_PATH" "$REAL_USER" || {
-  echo "⚠️ Fehler beim chsh – bitte manuell ausführen: chsh -s $WRAPPER_PATH"
-}
+## 6. STANDARD-SHELL SETZEN 
+REAL_USER="${SUDO_USER:-$(logname)}"
+if [ -z "$REAL_USER" ]; then
+  log_warn "Konnte echten Nutzer nicht ermitteln."
+  log_info "Setze Shell manuell: chsh -s $WRAPPER_TARGET <nutzer>"
+else
+  log_info "Setze Shell für $REAL_USER auf $WRAPPER_TARGET..."
+  chsh -s "$WRAPPER_TARGET" "$REAL_USER" || {
+    log_warn "chsh fehlgeschlagen. Manuell: chsh -s $WRAPPER_TARGET $REAL_USER"
+  }
+fi
 
-# 6. Optional .bashrc/.zshrc ergänzen
+## 7. CONTROL.PV-CONF IN .bashrc/.zshrc EINBINDEN
 USER_HOME=$(eval echo "~$REAL_USER")
-if [ -f "$USER_HOME/.bashrc" ]; then
-  grep -q "source $PV_DIR/ARBEITERBIENEN/CONTROL-BASH/control.pv-conf" "$USER_HOME/.bashrc" || \
-    echo "source $PV_DIR/ARBEITERBIENEN/CONTROL-BASH/control.pv-conf" >> "$USER_HOME/.bashrc"
+if [ -f "$CONTROL_CONF" ]; then
+  for RC in "$USER_HOME/.bashrc" "$USER_HOME/.zshrc"; do
+    if [ -f "$RC" ]; then
+      if ! grep -q "source $CONTROL_CONF" "$RC"; then
+        log_info "Ergänze source-Zeile in $RC..."
+        echo "source $CONTROL_CONF" >> "$RC"
+        log_ok "Ergänzt."
+      else
+        log_info "source-Zeile existiert bereits in $RC."
+      fi
+    fi
+  done
+else
+  log_warn "control.pv-conf nicht gefunden: $CONTROL_CONF"
+  log_info "Prüfe den Pfad: ls -la $PV_DIR/ARBEITERBIENEN/CONTROL-BASH/"
 fi
 
-if [ -f "$USER_HOME/.zshrc" ]; then
-  grep -q "source $PV_DIR/ARBEITERBIENEN/CONTROL-BASH/control.pv-conf" "$USER_HOME/.zshrc" || \
-    echo "source $PV_DIR/ARBEITERBIENEN/CONTROL-BASH/control.pv-conf" >> "$USER_HOME/.zshrc"
-fi
-
+## 8. ABSCHLUSS
 echo ""
-echo "✅ PYLOVARA LINUX SHELL, erfolgreich installiert."
-echo "🔄 Bitte neu anmelden oder Shell neu starten:"
-echo "exec $WRAPPER_PATH <- SystemBrigde"
+log_ok "PYLOVARA LINUX SHELL erfolgreich installiert."
+echo ""
+log_info "Bitte neu anmelden oder Shell neu starten:"
+echo "  exec $WRAPPER_TARGET"
+echo ""
+log_info "Oder: source $CONTROL_CONF"
