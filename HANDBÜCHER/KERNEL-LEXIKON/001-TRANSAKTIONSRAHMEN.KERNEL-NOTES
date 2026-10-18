@@ -3,7 +3,29 @@
  #       TRANSAKTIONSRAHMEN =  THE PROGRAMMING LANGUAGE DATA EXECUTE LAW     #
 ###===============================STARTPUNKT================================###
 
+MUTTERMODUL # KOPFWABE
 
+ KOMPONENTE # NAME
+
+ KOMPONENTEN-ID # PRÄFIX
+
+ BION-NR # NR 
+
+ BION-ID # BIID
+
+ MASTER-ID # MAID
+
+ # AXIOM | KOMPONENTE
+ AXIOM ¡ KE ⏍ KE
+
+ # AXIOM | MASTER
+ AXIOM ¡ MA ⧓ KE
+
+ # AXIOM | BION-ID
+ AXIOM ¡ ID ⧓ NR Ξ 
+
+ # AXIOM | WEITERVERBINDEN
+ AXIOM ¡ ID ⧑ ID
 
 
 

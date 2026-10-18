@@ -1,0 +1,39 @@
+@waben-nr: 20 =================== LEXIKON NAVIGATION TERMINAL = waben <NR> =###
+###= SEITEN-SYSTEM-ID : ⠆⢄⢈⡁ ===PYLOVARA-SYSTEM=============================###
+###==============================MUTTERMODUL================================###
+
+MUTTERMODUL # KOPFWABE
+
+ KOMPONENTE # NAME
+
+ KOMPONENTEN-ID # PRÄFIX
+
+ BION-NR # NR 
+
+ BION-ID # BIID
+
+ MASTER-ID # MAID
+
+ # AXIOM | KOMPONENTE
+ AXIOM ¡ KE ⏍ KE
+
+ # AXIOM | MASTER
+ AXIOM ¡ MA ⧓ KE
+
+ # AXIOM | BION-ID
+ AXIOM ¡ ID ⧓ NR Ξ 
+
+ # AXIOM | WEITERVERBINDEN
+ AXIOM ¡ ID ⧑ ID
+ 
+###==============================INFORMATIONEN==============================###
+
+ DIE KOPFWABE TRÄGT DIE KOMPONENTE.
+
+###==========================VERWENDETE-WABEN-NR============================###
+
+ NR = SEITEN NUMMER
+
+###===================ENTWICKLER-PROGRAMMIERUNGSBEREICH=====================###
+
+###=====================INDUSTRIE-STANDARD-DER-ZUKUNFT======================###
