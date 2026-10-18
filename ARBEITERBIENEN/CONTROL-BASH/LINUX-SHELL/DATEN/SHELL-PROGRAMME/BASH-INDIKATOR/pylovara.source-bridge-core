@@ -7,9 +7,9 @@
 # Benutzung: ./pylovara.source-bridge-needle [--check]
 #   --check: prüft nur, ob Eintrag bereits existiert
 
-Vara_Dir="/Pylovara/System/Shell/Vara"
+Vara_Dir="/PYLOVARA-SYSTEM/ARBEITERBIENEN/CONTROL-BASH/LINUX-SHELL/DATEN/SHELL-PROGRAMME/VARA"
 
-CONFIG_FILE="/Pylovara/Control/control.pv-conf"
+CONFIG_FILE="/PYLOVARA-SYSTEM/ARBEITERBIENEN/CONTROL-BASH/CONTROL.PV-CONF"
 BASH_PROFILE="/etc/profile"
 ZSH_PROFILE="/etc/zsh/zprofile"
 ZSH_RC="$HOME/.zshrc"
