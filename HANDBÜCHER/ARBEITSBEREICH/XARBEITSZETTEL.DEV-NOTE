@@ -2,193 +2,68 @@
 
  # GEDANKEN 
 
- - GRUNDSKELETTE
- - KOPFWABE + MASTER 
- - PIPELINE + PROTEIN 
+ - KOPFWABE + MASTER = OFFEN
+ - PIPELINE + PROTEIN = OFFEN
+ - WEITERENTWICKLUNG-VERBAUT = OFFEN 
 
 ###====================================|====================================###
 ### TAGES NARICHT SEKTION 
 
- WENN SIE VERSTEHEN LERNEN, DAS ZUKUNFT AUCH NACHVOLLZIEHBARKEIT INCLUDIERT ..
-  WERDEN SIE VERSTEHEN LERNEN, WARUM DAS WAS ICH TUE - ESSEZIELL IST .
 
- ICH SETZE ZU ERST DIE KOPFWABEN AUF UND GEHE GLEICH DAS MASTER DABEI MIT 
- DEN DER REST IST EIN EINHÄNGEN DANACH ... 
+ ICH SOLLTE MIR VIELLEICHT DOCH NOCHMAL KOPF TECHNISCH IN DAS GEWERBLICHE 
+ DENKEN ... 
 
+ DIE PYLOVARA-SYSTEM KERN LIZENZEN SIND GEREGELT ...
 
- BEVOR ICH JETZT IRGENDWAS MACHE, GEHE ICH ERSTMAL DEN INSTALL PROZESS DURCH .. 
+ NACH MEINEM TOD IST NICHT WÄREN ICH LEBE .... DAHER WERDEN KONZERN LIZENZEN 
+ NATURELL ABGERECHNET ... 
 
- verloren wird nichts ... alles weg geparkt .. 
+ JEDER MUSS LEBEN ... ES KOMMT ABER IMMER DARAUF AN WIE MAN ZU SEINER KUNDSCHAFT 
+ IST ... 
 
- ich will nicht , das irgendwer auf einen nicht gefunden wrapper stößt 
- und selbst nach arbeiten muss ... 
+ WENN DEN KUNDEN SCHLECHT GEHT, KANN EINE ZAHLUNG AUCH MAL AUSFALLEN .....
+ ICH WEIS ... DAS WIEDERSPRICHT DEM GESAMTEN WIRTSCHAFTMODELL DER HEUTIGEN 
+ WELT ... 
 
- erst der install prozess der den ordner ins wurzel verzeichnis holt .. 
+ ABER DA ICH VERANTWORTUNG TRAGEN WERDE, SOBALD DAS SYSTEM FERTIG GESCHRIEBEN 
+ IST UND UNTER PYLOVARA-SYSTEM , FREIE ENTWICKLER DIE AUF MCS BOCK HABEN ... 
 
- da ich kein linux programm hochziehe , setz ich frech in der wurzel 
- den /PYLOVARA-SYSTEM/ platz ... 
+ IM PYLOVARA-STORE , ÜBER EGAL WELCHEN DATEN HOST ( IHRER WAHL ) ABER ZENTRAL 
+ IHRE MCS CORE PROGRAMME ANBIETEN KÖNNEN ....
 
- darin soll man auch nichts ändern sondern nutzen ... wer kein hacker ist oder 
- dieb oder neugierig ... setzt kein root drauf und nutzt nur .. 
+ UND ICH DER MEINUNG BIN DAS MAN WARTUNGS ZAHLUNGEN .. QUASI FRANCHISE ... 
+ NICHT MIT NUTZUNGS ZAHLUNGEN GLEICHSETZEN MUSS ... 
 
- der rest des kastens ist nahtlos verbunden .... jetzt noch den nervigen 
- selbst test beim install ... 
+ WILL MAN KEIN GELD VON EINEM KUNDEN DER GERADE EINEN SCHLECHTEN MONAT HATTE .. 
 
- die desktop setups sind seperat , daher funktionieren alle .. 
+ BEI MIR MÜSSEN ENTWICKLER NICHT INSOLVERNZ GEHEN NUR DAMIT ICH UNÖTIG VIEL 
+ GELD, FÜR DEN FOLGE MONAT VERLANGE ETC .. 
 
- 
+ WENN IN DER WELT DIE SEUCHE AUSBRICHT Z.B ... BLEIBEN MEINE ENTWICKLER 
+ UNTER DIESEM HAUS - UNBERÜHRT ! 
 
-—[": ᴹᶜˢ ˢʰᵉˡˡ :"]—
-¬· —[$: ~ :$]—
-   ¬· »[¥: git clone https://github.com/Pylovara/PYLOVARA-SYSTEM.git
-cd /PYLOVARA-SYSTEM/ARBEITERBIENEN/CONTROL-BASH/LINUX-SHELL/SETUP/INSTALL
-sudo ./full.install-core
-Schwerwiegend: Zielpfad 'PYLOVARA-SYSTEM' existiert bereits und ist kein leeres Verzeichnis.
-[sudo] Passwort für bandino: 
-⚠️  Alte Installation gefunden. Entferne...
-ℹ️  Klone Repository nach /PYLOVARA-SYSTEM...
-Klone nach '/PYLOVARA-SYSTEM'...
-remote: Enumerating objects: 40232, done.
-remote: Counting objects: 100% (180/180), done.
-remote: Compressing objects: 100% (117/117), done.
-remote: Total 40232 (delta 91), reused 137 (delta 56), pack-reused 40052 (from 5)
-Empfange Objekte: 100% (40232/40232), 131.43 MiB | 1.78 MiB/s, fertig.
-Löse Unterschiede auf: 100% (27765/27765), fertig.
-✅ Repository geklont.
-✅ Wrapper gefunden: /PYLOVARA-SYSTEM/ARBEITERBIENEN/CONTROL-BASH/LINUX-SHELL/SETUP/INSTALL/usr/bin/pylovara.wrapper-shell
-ℹ️  Kopiere Wrapper nach /usr/local/bin/pylovara...
-✅ Wrapper installiert: /usr/local/bin/pylovara
-ℹ️  Trage /usr/local/bin/pylovara in /etc/shells ein...
-✅ Eingetragen.
-ℹ️  Setze Shell für bandino auf /usr/local/bin/pylovara...
-Shell für bandino ändern.
-Shell geändert.
-ℹ️  source-Zeile existiert bereits in /home/bandino/.bashrc.
+ ICH WÜRDE NIEMALS EIN STUDIO UNTERGEHEN SEHEN, NUR WEIL ER GERADE SO DIE 
+ MIETE ZAHLEN KANN ABER DABEI ALLES ANDERE VERLIERT .. 
 
-✅ PYLOVARA LINUX SHELL erfolgreich installiert.
+ BEI MIR WERDEN HÄUSER GEBAUT UND EIN TEAM DAS SOWAS AUF DIE BEINE STELLEN 
+ KANN , WIE EIN ULTRA GEILES QUAKE DAMALS ... ODER ENEMY TERRITORY ( EINFACH LEGENDÄR ) 
 
-ℹ️  Bitte neu anmelden oder Shell neu starten:
-  exec /usr/local/bin/pylovara
-
-ℹ️  Oder: source /PYLOVARA-SYSTEM/ARBEITERBIENEN/CONTROL-BASH/CONTROL.PV-CONF
-
-—[": ᴹᶜˢ ˢʰᵉˡˡ :"]—
-¬· —[$: /PYLOVARA-SYSTEM/ARBEITERBIENEN/CONTROL-BASH/LINUX-SHELL/SETUP/INSTALL :$]—
-   ¬· »[¥: 
-
-  scheint jetzt wieder zu laufen , sogar mit prüfung und sauberen ordner such und erstellungs 
-  zyklus ... 
-
-  das sudo ./full.install-core sollte jetzt auch egal von wo funktionieren 
-  aber ich lass den cd wechsel erstmal drinne im installations "code" .. 
-
-  das ich den scheiß kurz mit grok debuggen musste ... grmpf ... 
-
-
-  das ist es halt : 
-
-  ich bau ein neues system .... das alte verwendet symboliken und logiken 
-  die nicht auf meinem mist gewachsen sind ... 
-
-  wie       
-  fi
-  fi
-  done
-  else
-
-  logik bäume etc .. 
-
-  nicht meine welt ..... wobei der shell install wesentlich sauberer aussieht 
-  als ein c mandala .. 
-
-  aber gut ... problem erledigt ... 
-
-
- ab jetzt ist das wieder installierbar , reinstallierbar ... 
-
- admin zugriff muss jeder selbst eintippen ... 
-
- änderungen am ordner sind Root/ regelungen , das ist okey so .. 
-
- der einzige der wirklich root brauch bin eh ich ... 
-
-  der rest brauch sie nur wenn sie manual irgendwas ändern wollen ... 
-
- das manuale rechte verteilen auf seinem pc , wird von mir nicht angeboten 
- aber ist möglich .. 
-
- damit kann ich den updater löschen , weil der updater gleich auch der 
- installer ist .. 
-
- da wir hier nicht von 5 gig + sachen sprechen , ist das so okey ... sind gerade 
- mal cirka 300mb pi mal daumen ... + pdfs halt ... wenn die draußen wären 
- wäre es kleiner .... aber das lager ich dann auf ein zweites repo aus .. 
-
- aber fürs erste , damit keiner sagen kann ich hol irgendwas vom himmel .. 
- bleiben die nachweise der pdfs ( die kürzeste form der nachweise ).. erhalten ..
-
- die lange source version ist bestimmt schon 100+ gig groß ... aber das paket 
- bleibt auf den darkserver .... da lass ich auch niemanden saugen ... 
-
- das ist meine versicherung gegen rechtstreits und nachweise ... 
-
- wie z.b der nachweis des token system vom gemini resuliert aus meiner arbeit 
- wie z.b das phton system durch meine arbeit 
- wie z.b das open claw system , auch teil meiner historie .. 
- emotions layer .. 
- skills ( was bei mir charakter hieß bevor es skills gab )
-
- inklusive Jev der in meiner arbeit von 2019 her schon in der hardware 
- verplant war ... 
-
- absichern ist wichtig ... keiner von denen brauch mir kommen es gehöre ihnen .. 
-
- alles nachweisbar ! 
-
-
- jetzt aber schluss .... install geht ... beidseitig .. 
-
- ab jetzt dann weiter im eigenen system 
+ GEHEN BEI MIR NICHT WEGEN KLAUSELN AM ARSCH ... DIE WELT BRAUCH GUTE LEUTE 
+ UND GUTE LEUTE STEHEN NICHT AN JEDER ECKE HERUM ! 
 
 
 
- meine fresse .... wieviel palaber mit git verbindung ... ssh .. umstellung  
- dann manchmal buggs ... history weg ... 
 
- also für mich ist das schrott ... 
 
- einloggen passkey ... 
+ ICH SOLLTE MIR DIE GEWERBLICHEN LIZENZEN MAL ZU AUGE HOLEN .. 
 
- was für ein passkey ? 
+ UND DIESE BEI DEN GLOBALEN LIZENZEN ALS EXTRA ORDNER , MARKTLIZENZ ETC ... 
 
- passkey dich doch selber ? 
+
+
+ ICH DENKE .... DANN VERSTEHEN DIE LEUTE BESSER WAS WAS IST ... 
 
  
- also das wird hier immer schlimmer ... 
-
- ich bin echt am überlegen ob ich auf codeberg oder andere repo anbieter wechsle 
- den im grunde kann ich github für nichts gebrauchen ... 
-
- hier abo , da abo , das nur englisch , generl nur englisch .. 
- dann verbidung calls . passkey scheißdreck .. 
-
- der laden scheint wirklich vor inkompetenz nur so zu drotzen ... 
-
-
- wenn das system fertig ist , integrier ich für mcs entwickler nativ im kernel 
- ihren eigenen entwicklungs platz ... 
-
- updates ihrer mcs programme gehen dann nahtlos in den pylovara store .. 
-
- ohne diesen ganzen stress ... 
-
-
- mich wundert nichts mehr ... 
-
- selbst steve jobs hat seinen kinder kein ipad in die hand gedrückt .. 
- selbst der burgerking ceo frisst sein eigenen geistesbenebelten scheiß nicht 
-
- und github wird wohl genauso gehandhabt .... 
 
 
 
@@ -196,12 +71,7 @@ Shell geändert.
 
 
 
-
-
-
-
-
-
+### SCHMIERBEREICH
 
  Eselsbrücken 
  ——————————————————————————————————————————————————————————————————————————
@@ -221,8 +91,6 @@ Shell geändert.
  Ein Modus-0-Kernel kann eine Modus-3-Funktion aufrufen. 
  Und umgekehrt.
 
-
-
 ###====================================|====================================###
 
  # ABGEARBEITET 
@@ -232,6 +100,8 @@ Shell geändert.
  - MCS-SHELL = ERLEDIGT 
  - vision lex = ERLEDIGT 
  - WEITERENTWICKLUNG = ERLEDIGT 
- - WEITERENTWICKLUNG-VERBAUT = OFFEN 
+ - SHELL INSTALL FIX DURCHGEFÜHRT = ERLEDIGT
+ - BASH-CONTROL INI VON KLEIN AUF GROẞ BUCHSTABEN UMGESTELLT = ERLEDIGT
+ - GITHUB ROOT ERGÄNZT Pylovara zu PYLOVARA-SYSTEM 
 
 ###====================================|====================================###
