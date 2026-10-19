@@ -3,126 +3,47 @@
  # GEDANKEN 
 
  - GRUNDSKELETTE
- - KOPFWABE + MASTER 
  - PIPELINE + PROTEIN 
  - KGW ÜBERARBEITEN...
+ - GLÄTTUNG VON TWS SEITE 002 = OFFEN IM BEREICH TEMPORÄRE HALTER 
 
 ###====================================|====================================###
 ### TAGES NARICHT SEKTION 
 
- WENN SIE VERSTEHEN LERNEN, DAS ZUKUNFT AUCH NACHVOLLZIEHBARKEIT INCLUDIERT ..
-  WERDEN SIE VERSTEHEN LERNEN, WARUM DAS WAS ICH TUE - ESSEZIELL IST .
+ SO .... ICH BIN MIT DEM ÜBERGANG SOWEIT ZUFRIEDEN ... 
 
- ICH SETZE ZU ERST DIE KOPFWABEN AUF UND GEHE GLEICH DAS MASTER DABEI MIT 
- DEN DER REST IST EIN EINHÄNGEN DANACH ... 
+ ICH SOLLTE JETZT ALLE 4 KOMPONENTEN BZW RESTLICHEN 2 BIS HAUPTWABE 
+ DURCH SCHREIBEN UND DANACH DANN DIREKT ALS FIRST STEP IN DIE PIPELINE 
+ WANDERN .. 
 
+ DIE PIPELINE SELBST BRAUCH DANN DEN 
 
- 
-
- so .... erstmal einen überblick verschaffen ... vielleicht noch einen kaffe 
- trinken gehen ... 
-
- heute erst masterlizenz und superlizenz durch gehen ... dann sauber das master 
- mit dem kopf verbinden .... 
-
- ... lach 
-
- nur mal so bydoway ... 
-
- das ding heißt „ das wabennest system " ... bienen ... honig ..... sogar 
- könnigin .... und einen wabenimpulsschlag ... 
-
- das ding liest sich wie ein schlechter witz von einem geistlich hartnäckigen 
- drecks kerl, der die halbe kernel basierte industrie zum einsturz bringen will 
- und dann noch knochen trocken von blüten und honig bis hin zum master control 
- system ( nicht nur schwafelt) sondern hinklatscht ... 
+ - STECKSCHLÜSSE
+ - PIPELINE DATENSTROM 
+ - STECKSCHLÜSSEL SKIN PACKETE ( KOSTENLOS DABEI FÜR INDIVIDUALISIERUNG )
 
 
- ich definiere selbst , berücksichtige keine hochschul begriffe für irgend 
- einen aspekt ... 
+ DANACH DENK ICH WEITER ... AUF JEDENFALL EIN GUTER ERSTER SCHRITT UND ES 
+ LÖST DAS PROBLEM DES RAUS GERISSENEN PIPELINE HERZES AUS DER 00-79 BIS ZU 
+ 00-82 ... 
 
+ SOBALD DIE PIPELINE WIEDER LÄUFT ( UND DIESMAL EXTREM PRÄZISE ), LASSEN 
+ SICH ALLE KOMPONENTEN EINHÄNGEN DIE REIN MÜSSEN ... 
 
- also wenn ich mich nicht selbst kennen würde , wäre ich übelst angepisst ... 
+ UND DIE RESTLICHEN IN SICH EINHÄNGEN .. 
 
+ DAS WÄRE DANN DER STARTSCHUSS FÜRS DURCH PROGRAMMIEREN .. 
 
- was labbert der da von "Easy" .... was geht bei dem für ein Film !!! 
+ VIELLEICHT VORHER NOCH DIE AXIOMATISCHE PROGRAMMIERUNGS LOGIK DURCH GEHEN ... 
+ DAMIT DAS DING AUCH GLEICH AUF DEM NEUSTEN STAND IST ... 
 
- usw .... 
+ BIS ZUR HAUPTWABE MUSS ICH KEI9NE PROZESS STOPEN ... DERR KERNEL 
+ MUSS SCHLIEẞLICH SEINE PROZESS HALTER HABEN ... 
 
- lach .... doofer gedanke am frühen morgen aber ich merk schon , kaffe 
- wäre ein guter anfang ( zumindest für meinen kopf ) 
-
-
-
-
-naja moment , noch ein gedanke :
+ AB STARTWABE WERDEN DANN NACH JEDEM DURCHGANG DIE WABEN GESTOPT, UM DIE 
+ PERFORMANCE IM FOKUS ZU BEHALTEN UND GLEICH WEITER VERBUNDEN ... 
 
  
- # 1 KANAL ANGABEN 
- ↓:   = U|   = LINKER DATENSTROM = RUNTER
- ↑:   = H|   = LINKER DATENSTROM = HOCH
- ←:   = L|   = LINKER DATENSTROM = LINKS
- →:   = R|   = LINKER DATENSTROM = RECHTS
-  :↓  =  |U  = RECHTER DATENSTROM = RUNTER
-  :↑  =  |H  = RECHTER DATENSTROM = HOCH 
-  :←  =  |L  = RECHTER DATENSTROM = LINKS 
-  :→  =  |R  = RECHTER DATENSTROM = RECHTS 
-
- # 2 KANAL ANGABEN
- ↑:↑  = H|H
- ↑:↓  = H|U
- ↑:→  = H|R
- ↑:←  = H|L
- →:↑  = R|H
- ←:↑  = L|H
-
- →:↓  = R|U
- ←:↓  = S|U
- ↓:←  = U|L
- ↓:→  = U|R
- ↓:↑  = U|O
- ↓:↓  = U|U
-
- ich denke das ich die meiste zeut auf ↓:↑  = U|O setzen werde ... 
-
- eine feinere granularität , lässt sich jeder zeit umsetzen ... 
-
- ich werde die mcs bibliothek im ersten durchgang auf stufe 1 schreiben 
- mit dem neuen bzw ausgearbeiteten pipeline steckschlüssel system ... 
-
- und erst im nachgang die stufe 0 hinzufüge .... 
-
- wäre sinnvoller ... 
-
-
- ich könnte natürlich auch einen compiler schreiben der die stufe 0 
- als compilierte datei betrachtet und alle andere stufen als uncompiliert .. 
-
- hmm ....... ob das sinn macht?
-
- so jetzt erstmal kaffe .... 
-
- ich denke ich geh gleich zurück zur masterlizenz ... 
-
- von dort aus wird an , aus , secure etc geschaltet ... 
-
- erstmal nur kern , programmanzahl , freigegeben ... 
-
- das master wird mich sowieso entweder permanent oder böse 
- am schluss , nochmal zeit kosten ... 
-
- aber die verbindung zur kopfwabe steht .... 
-
- damit kann ich jetzt sauber runter arbeiten ... 
-
- ich setze erst alle komponenten mit kopfwaben masterwaben bindungen zu 
- und dann gehts in die programme ... 
-
- master rein zur superlizenz ... superlizenz zurück zur kopfwabe ... 
-
-
-
-
 
 
 
@@ -157,5 +78,8 @@ naja moment , noch ein gedanke :
  - vision lex = ERLEDIGT 
  - WEITERENTWICKLUNG = ERLEDIGT 
  - WEITERENTWICKLUNG-VERBAUT = OFFEN 
+ - MASTER INTEGRATION = ERLEDIGT 
+ - TEMPORÄRE TWS PLATZHALTER = ERLEDIGT 
+ - BSK RÜCKIMPLEMENTIERUNG = ERLEDIGT 
 
 ###====================================|====================================###
