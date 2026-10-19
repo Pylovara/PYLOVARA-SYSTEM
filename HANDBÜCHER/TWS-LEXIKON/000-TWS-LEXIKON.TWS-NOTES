@@ -17,7 +17,7 @@
  #  14 ⠆⢄⢈⠰ WABENHÄRTER              |  15      ARBEITERBIENEN               #
  #  16      BIENENKÖNIGIN            |  17                                   #
 ###=========================MUTTERWABEN-MODULE==============================###
- #  20 ⠆⢄⢈⡁ KOPFWABE                 |  21 ⠆⢄⢈⡄ MASTERKERNWABE               #
+ #  20 ⠆⢄⢈⡁ KOPFWABE                 |  21 ⠆⢄⢈⡄ KERNWABE                     #
  #  22      HAUPTWABE                |  23      STARTWABE                    #
  #  24      BAUWABE                  |  25      TRAKTORWABE                  #
  #  26      ENDWABE                  |  29                                   #
@@ -45,7 +45,7 @@
  # PROGRAMMIERSPRACHE ⠆⢄⢐⠑ MCS 7.5 | MASCHINEN-CODE-SPEECH   #     ⠆⢄⢐⠘      #
  # KERNELSPRACHE  ⠆⢄⢐⢈ TWS 0.3 | THE-WABE-NEST-SYSTEM        #               #
  # TASTATURSTANDARD ⠆⢄⢐⠒ UTF -8 | DEUTSCHER-STANDARD         #               #
- # LIZENZEN ⠆⢄⢐⠤ LV 1.6 | LIZENZVERTRAG                      #               #
+ # LIZENZEN ⠆⢄⢐⠤ LV 1.6 | LIZENZVERTRAG                      #             # #
 ###=================================IMPRESSUM===============================###
  # TWS-LEXIKON VERSION ⠆⢄⢐⠘ 00-03 | THE-WABE-NEST-SYSTEM                     #
  # AUTOR ⠆⢄⢐⡄ OWS-ID-DNA-THOMAS-ZIMMERMANN-þþZRB68                 GITHUB    #
