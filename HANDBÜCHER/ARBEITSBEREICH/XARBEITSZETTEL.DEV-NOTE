@@ -55,6 +55,53 @@
 
 
 
+naja moment , noch ein gedanke :
+
+ 
+ # 1 KANAL ANGABEN 
+ ↓:   = U|   = LINKER DATENSTROM = RUNTER
+ ↑:   = H|   = LINKER DATENSTROM = HOCH
+ ←:   = L|   = LINKER DATENSTROM = LINKS
+ →:   = R|   = LINKER DATENSTROM = RECHTS
+  :↓  =  |U  = RECHTER DATENSTROM = RUNTER
+  :↑  =  |H  = RECHTER DATENSTROM = HOCH 
+  :←  =  |L  = RECHTER DATENSTROM = LINKS 
+  :→  =  |R  = RECHTER DATENSTROM = RECHTS 
+
+ # 2 KANAL ANGABEN
+ ↑:↑  = H|H
+ ↑:↓  = H|U
+ ↑:→  = H|R
+ ↑:←  = H|L
+ →:↑  = R|H
+ ←:↑  = L|H
+
+ →:↓  = R|U
+ ←:↓  = S|U
+ ↓:←  = U|L
+ ↓:→  = U|R
+ ↓:↑  = U|O
+ ↓:↓  = U|U
+
+ ich denke das ich die meiste zeut auf ↓:↑  = U|O setzen werde ... 
+
+ eine feinere granularität , lässt sich jeder zeit umsetzen ... 
+
+ ich werde die mcs bibliothek im ersten durchgang auf stufe 1 schreiben 
+ mit dem neuen bzw ausgearbeiteten pipeline steckschlüssel system ... 
+
+ und erst im nachgang die stufe 0 hinzufüge .... 
+
+ wäre sinnvoller ... 
+
+
+ ich könnte natürlich auch einen compiler schreiben der die stufe 0 
+ als compilierte datei betrachtet und alle andere stufen als uncompiliert .. 
+
+ hmm ....... ob das sinn macht?
+
+
+
 
 
 
