@@ -47,37 +47,37 @@ MUTTERWABEN-KATEGORIE ⠆⢄⢁⢐ MASTERKERNWABE
  AXIOM ¡ ⠆⢄⢁⢠ ⧓ ⠆⢄⢁⣀ Ξ ⠆⢄⢂⠃
 
  # AXIOM | WEITERVERBINDUNG
- AXIOM ¡ ⠆⢄⢂⠃ ⧑ BIID
+ AXIOM ¡ ⠆⢄⢂⠃ ⧑ ⠆⢄⢁⠡
 
 ###====================================|====================================###
+###=================================RUNTIME=================================###
 ###====================================|====================================###
-###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE # HAUPTWABE 
+MUTTERWABEN-KATEGORIE ⠆⢄⢂⠌ HAUPTWABE 
 
- PROGRAMM-KERN # NA
+ PROGRAMM-KERN ⠆⢄⢂⠑ RUNTIME
 
- WABEN-ID # HT
+ WABEN-ID ⠆⢄⢂⠒ HT
 
- BION-NR # NR
+ BION-NR ⠆⢄⢁⠘ 001
 
- BION-ID # BIID
+ BION-ID ⠆⢄⢁⠡ HT001
 
- BSK-KG # BAKG
+ BSK-KG ⠆⢄⢁⠢ RUN
 
- BSK-ID # BAID
+ BSK-ID ⠆⢄⢁⠤ TAHT-RUN
 
- BION # BION
+ BION ⠆⢄⢁⠨ TA001MK001HT001
 
- BSK # BSK
+ BSK ⠆⢄⢁⠰ TAMK+TAHT-RUN
 
  # AXIOM | BION-ID
- AXIOM ¡ WAID ⧓ NR Ξ BIID
+ AXIOM ¡ ⠆⢄⢂⠒ ⧓ ⠆⢄⢁⠘ Ξ ⠆⢄⢁⠡
 
  # AXIOM | WEITERVERBINDUNG
- AXIOM ¡ BIID ⧑ BIID
+ AXIOM ¡ ⠆⢄⢁⠡ ⧑ BIID
 
-
+###====================================|====================================###
 
 
 
