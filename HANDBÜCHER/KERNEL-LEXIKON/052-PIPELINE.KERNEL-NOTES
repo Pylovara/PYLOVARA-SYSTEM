@@ -3,17 +3,17 @@
  #                   PIPELINE = KOORDINATIONSMANAGEMENT                      #
 ###===============================STARTPUNKT================================###
 
-MUTTERWABEN-KATEGORIE # KOPFWABE
+MUTTERWABEN-KATEGORIE ⠆⢄⢁⡁ KOPFWABE
 
- KOMPONENTE # KE
+ KOMPONENTE ⠆⢄⢁⡂ PIPELINE
 
- KOMPONENTEN-ID # KOID
+ KOMPONENTEN-ID ⠆⢄⢁⡄ PL
 
- BION-NR # NR 
+ BION-NR # 052
 
- BION-ID # BIID
+ BION-ID # PL052
 
- MASTER-ID # MAID
+ MASTER-ID # MA046SU002
 
  # AXIOM | KOMPONENTE
  AXIOM ¡ KE ⏍ KE
@@ -27,6 +27,57 @@ MUTTERWABEN-KATEGORIE # KOPFWABE
  # AXIOM | WEITERVERBINDEN
  AXIOM ¡ BIID ⧑ BIID
 
+###====================================|====================================###
+
+MUTTERWABEN-KATEGORIE # MASTERKERNWABE
+
+ WABEN-ID # MK
+
+ BION-NR # NR
+
+ BION-ID # BIID
+
+ BSK-ID # BAID
+
+ BION # BION
+
+ BSK # BSK
+
+ # AXIOM | BION-ID
+ AXIOM ¡ WAID ⧓ NR Ξ BIID
+
+ # AXIOM | WEITERVERBINDUNG
+ AXIOM ¡ BIID ⧑ BIID
+
+###====================================|====================================###
+###====================================|====================================###
+###====================================|====================================###
+
+MUTTERWABEN-KATEGORIE # HAUPTWABE 
+
+ PROGRAMM-KERN # PIPELINE
+
+ WABEN-ID # HT
+
+ BION-NR # NR
+
+ BION-ID # BIID
+
+ BSK-KG # PIPE
+
+ BSK-ID # BAID
+
+ BION # BION
+
+ BSK # BSK
+
+ # AXIOM | BION-ID
+ AXIOM ¡ WAID ⧓ NR Ξ BIID
+
+ # AXIOM | WEITERVERBINDUNG
+ AXIOM ¡ BIID ⧑ BIID
+
+###====================================|====================================###
 
 
 
