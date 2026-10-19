@@ -3,35 +3,48 @@
  #       TRANSAKTIONSRAHMEN =  THE PROGRAMMING LANGUAGE DATA EXECUTE LAW     #
 ###===============================STARTPUNKT================================###
 
-MUTTERWABEN-KATEGORIE # KOPFWABE
+MUTTERWABEN-KATEGORIE ⠆⢄⢈⠉ KOPFWABE
 
- KOMPONENTE # KE
+ KOMPONENTE ⠆⢄⢈⠊ TRANSAKTIONSRAHMEN
 
- KOMPONENTEN-ID # KOID
+ KOMPONENTEN-ID ⠆⢄⢈⠌ TA
 
- BION-NR # NR 
+ BION-NR ⠆⢄⢈⠑ 001 
 
- BION-ID # BIID
+ BION-ID ⠆⢄⢂⠔ TA001
 
- MASTER-ID # MAID
+ MASTER-ID # MASU001
 
  # AXIOM | KOMPONENTE
- AXIOM ¡ KE ⏍ KE
+ AXIOM ¡ ⠆⢄⢈⠊ ⏍ ⠆⢄⢈⠊
 
  # AXIOM | MASTER
  AXIOM ¡ MAID ⧓ KE
 
  # AXIOM | BION-ID
- AXIOM ¡ KOID ⧓ NR Ξ 
+ AXIOM ¡ ⠆⢄⢈⠌ ⧓ ⠆⢄⢈⠑ Ξ ⠆⢄⢂⠔
 
  # AXIOM | WEITERVERBINDEN
- AXIOM ¡ BIID ⧑ BIID
-
-
-
-
+ AXIOM ¡ ⠆⢄⢂⠔ ⧑ BIID
 
 ###====================================|====================================###
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ###===========================KOMPAKTE-WABEN-PFADE==========================###
  #  BAUSTELLE !
  PFAD-PROGRAMM   =  
