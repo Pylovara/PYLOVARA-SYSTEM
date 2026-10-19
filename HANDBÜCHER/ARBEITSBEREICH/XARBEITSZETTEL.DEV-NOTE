@@ -83,6 +83,14 @@
  - trennbefehl und bindungsbefehl zusammenschmeißen = <neue Komponente>
    !- aber proton ; weg und auf boxis verkabelung setzen ... 
 
+ [<bxmk>|<bxmk>] # TRENNBEFEHL
+ [<bxmk>|<bxmk|<POMK>] # TRENNBEFEHL
+ [<bxmk>ſ<bxmk] # BINDER
+ [<bxmk>ſ<bxmk>ſ<POMK>] # BINDER
+
+ DER BINDER KLEBT DEN GESAMTEN KONTEXT VON LINKS NACH RECHTS ZUSAMMEN 
+ DAMIT AUS EINZELSTÜCKE, GESAMTE STRÄNGE WERDEN .
+
  Notiz :
 
  Modus 0 - Für Kernel-Entwickler.
