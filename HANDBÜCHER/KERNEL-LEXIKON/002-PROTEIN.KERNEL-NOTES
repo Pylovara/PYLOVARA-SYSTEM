@@ -27,13 +27,64 @@ MUTTERWABEN-KATEGORIE # KOPFWABE
  # AXIOM | WEITERVERBINDEN
  AXIOM ¡ BIID ⧑ BIID
 
+###====================================|====================================###
+
+MUTTERWABEN-KATEGORIE # MASTERKERNWABE
+
+ WABEN-ID # KW
+
+ BION-NR # NR
+
+ BION-ID # BIID
+
+ BSK-ID # BAID
+
+ BION # BION
+
+ BSK # BSK
+
+ # AXIOM | BION-ID
+ AXIOM ¡ WAID ⧓ NR Ξ BIID
+
+ # AXIOM | WEITERVERBINDUNG
+ AXIOM ¡ BIID ⧑ BIID
+
+###====================================|====================================###
+###====================================|====================================###
+###====================================|====================================###
+
+MUTTERWABEN-KATEGORIE # HAUPTWABE 
+
+ PROGRAMM-KERN # NA
+
+ WABEN-ID # HT
+
+ BION-NR # NR
+
+ BION-ID # BIID
+
+ BSK-KG # BAKG
+
+ BSK-ID # BAID
+
+ BION # BION
+
+ BSK # BSK
+
+ # AXIOM | BION-ID
+ AXIOM ¡ WAID ⧓ NR Ξ BIID
+
+ # AXIOM | WEITERVERBINDUNG
+ AXIOM ¡ BIID ⧑ BIID
+
+###====================================|====================================###
 
 
 
 
 
 
-
+###====================================|====================================###
 
 ###====================================|====================================###
 ###===========================KOMPAKTE-WABEN-PFADE==========================###

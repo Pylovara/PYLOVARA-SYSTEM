@@ -36,6 +36,8 @@ MUTTERMODUL # HAUPTWABE
 ###==========================VERWENDETE-WABEN-NR============================###
 
  TA001 = HT001 |
+ PI001 = HT002 |
+
 
 ###===================ENTWICKLER-PROGRAMMIERUNGSBEREICH=====================###
 
