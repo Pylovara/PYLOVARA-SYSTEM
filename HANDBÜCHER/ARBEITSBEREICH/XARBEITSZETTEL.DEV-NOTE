@@ -102,6 +102,10 @@
  Ein Modus-0-Kernel kann eine Modus-3-Funktion aufrufen. 
  Und umgekehrt.
 
+ NOTIZ : 
+
+ vielleicht sollte ich noch eine boxi machen die über die bsk 
+ programme ansteuert ... 
 
 
 ###====================================|====================================###
