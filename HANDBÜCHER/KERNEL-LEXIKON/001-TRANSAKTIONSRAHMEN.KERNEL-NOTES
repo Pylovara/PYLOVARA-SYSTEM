@@ -29,10 +29,51 @@ MUTTERWABEN-KATEGORIE ⠆⢄⢈⠉ KOPFWABE
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE # 
+MUTTERWABEN-KATEGORIE # KERNWABE
 
+ WABEN-ID # MK
 
+ BION-NR # 001
 
+ BION-ID # KW001
+
+ BSK-ID # TAMK
+
+ BION # BION
+
+ BSK # TAMK
+
+ # AXIOM | BION-ID
+ AXIOM ¡ WAID ⧓ NR Ξ BIID
+
+ # AXIOM | WEITERVERBINDUNG
+ AXIOM ¡ BIID ⧑ BIID
+
+###====================================|====================================###
+
+MUTTERWABEN-KATEGORIE # HAUPTWABE 
+
+ PROGRAMM-KERN # NA
+
+ WABEN-ID # HT
+
+ BION-NR # NR
+
+ BION-ID # BIID
+
+ BSK-KG # BAKG
+
+ BSK-ID # BAID
+
+ BION # BION
+
+ BSK # BSK
+
+ # AXIOM | BION-ID
+ AXIOM ¡ WAID ⧓ NR Ξ BIID
+
+ # AXIOM | WEITERVERBINDUNG
+ AXIOM ¡ BIID ⧑ BIID
 
 
 

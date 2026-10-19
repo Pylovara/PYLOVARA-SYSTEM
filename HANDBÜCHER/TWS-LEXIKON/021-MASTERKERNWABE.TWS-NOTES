@@ -2,7 +2,7 @@
 ###= SEITEN-SYSTEM-ID : ⠆⢄⢈⡄ ===PYLOVARA-SYSTEM=============================###
 ###==============================MUTTERMODUL================================###
 
-MUTTERMODUL # KERNWABE
+MUTTERMODUL # MASTERKERNWABE
 
  WABEN-ID # KW
 
@@ -33,13 +33,5 @@ MUTTERMODUL # KERNWABE
 
 ###===================ENTWICKLER-PROGRAMMIERUNGSBEREICH=====================###
 
- # BION-ID
- AXIOM ¡ ⠆⢄⢐⠒ ⧓ ⠆⢄⢐⠔ Ξ ⠆⢄⢐⠢
-
-### GRUNDSTRUKTUR:
-<OPERAND1> ⧓ <OPERAND2> Ξ <ERGEBNIS>
-
-# ⧓ = VERBINDE (KOMBINIERE OPERAND1 UND OPERAND2)
-# Ξ = ISTGLEICH (WEISE DAS ERGEBNIS ZU)
 
 ###=====================INDUSTRIE-STANDARD-DER-ZUKUNFT======================###

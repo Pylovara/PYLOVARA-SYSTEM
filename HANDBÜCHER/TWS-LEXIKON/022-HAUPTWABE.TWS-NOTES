@@ -1,0 +1,40 @@
+@waben-nr: 22 =================== LEXIKON NAVIGATION TERMINAL = waben <NR> =###
+###= SEITEN-SYSTEM-ID : ⠆⢄⢁⢂ ===PYLOVARA-SYSTEM=============================###
+###==============================MUTTERMODUL================================###
+
+MUTTERMODUL # HAUPTWABE 
+
+ PROGRAMM-KERN # NA
+
+ WABEN-ID # HT
+
+ BION-NR # NR
+
+ BION-ID # BIID
+
+ BSK-KG # BAKG
+
+ BSK-ID # BAID
+
+ BION # BION
+
+ BSK # BSK
+
+ # AXIOM | BION-ID
+ AXIOM ¡ WAID ⧓ NR Ξ BIID
+
+ # AXIOM | WEITERVERBINDUNG
+ AXIOM ¡ BIID ⧑ BIID
+
+###==============================INFORMATIONEN==============================###
+
+ HAUPTWABEN SIND PROGRAMME DIE IM GESAMTEN BIS ZUR ENDWABE EINE VOLLSTÄNDIGE 
+ KOMPONENTEN NUTZUNG PROGRAMMIEREN UND AUSFÜHREN.
+
+###==========================VERWENDETE-WABEN-NR============================###
+
+ TA001 = HT001 |
+
+###===================ENTWICKLER-PROGRAMMIERUNGSBEREICH=====================###
+
+###=====================INDUSTRIE-STANDARD-DER-ZUKUNFT======================###
