@@ -53,6 +53,44 @@ MUTTERMODUL ⠆⢄⢂⢁ MASTERLIZENZWABE
 
 ###====================================|====================================###
 
+MUTTERMODUL ⠆⢄⢂⠡ SUPERLIZENZWABE
+
+ LIZENZ-KOMPONENTE # TRANSAKTIONSRAHMEN
+
+ WABEN-ID # SU
+
+ BION-NR # NR
+
+ BION-ID # BIID
+
+ BSK-ID # BAID
+
+ BION # BION
+
+ BSK # BSK
+
+ # AXIOM | BION-ID
+ AXIOM ¡ WAID ⧓ NR Ξ 
+
+ # AXIOM | WEITERVERBINDUNG
+ AXIOM ¡ BIID ⧑ BIID
+
+ # DATENBANK 
+
+ PROGRAMM-ANZAHL  1
+ AUSFÜHRUNGS-FREIGABE  0
+
+ # AXIOM | DATENFREIGABE
+ AXIOM ¡ 
+
+ # AXIOM | PROZESS STOP UND MAID KE RÜCKVERBINDUNG
+ MASTERLINK ⠆⢄⢂⠢ 
+
+ # AXIOM | PROZESSLINK
+ AXIOM ¡ BIID ⦳ ⧖⧖ ⑀ ⠆⢄⢂⠢
+
+###====================================|====================================###
+
 
 
 
