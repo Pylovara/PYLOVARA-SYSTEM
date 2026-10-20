@@ -10,8 +10,14 @@
  #   NR NOTIZ S-ID NAMEN               | NR NOTIZ S-ID NAMEN         源真理   #
  #:::::::::::::::::::::::::::::::::::::|:::::::::::::::::::::::::::::::::::::#
  #   01  - Ŋ  ⠆⢄⢐⠉ TRANSAKTIONSRAHMEN  | 02  - Ŋ  ⠆⢄⢈⠒ PROTEIN               #
- #   03  - -       PROTON              | 04  - F       TRENNBEFEHL           #
- #   05  - F       BINDUNGSBEFEHL      | 06  - -       AKTIONSDRAHT          #
+ #   03  - -       ? NEUE KOMPONENTE   | 04  - -       AKTIONS...            #
+ #   05  - -                           | 06  - -                             #
+ #   07  - -                           | 08  - -                             #
+ #   09  - -                           | 10  - -                             #
+ #   11  - -                           | 12  - -                             #
+ #==================ABFOLGE=ÄNDERUNGEN=GEPLANT=UND=MERGES====================#
+ #   03  - F       PROTON(MERGE BOXIS) | 04  ? F       TRENNBEFEHL           #
+ #   05  ? F       BINDUNGSBEFEHL      | 06  - -       AKTIONSDRAHT          #
  #   07  - -       REX                 | 08  - -       ICTUS                 #
  #   09  - -       BOXIS               | 10  - -       SENTIATOR             #
  #   11  - -       NITROX              | 12  - -       FEED                  #
@@ -35,7 +41,7 @@
  # SYSTEM ⠆⢄⢐⡠ PNS 2.6.4 PYLOVARA—NETZWERK—SYSTEM            #            #  #
  # PROGRAMMIERSPRACHE # MCS 7.5 | MASCHINEN-CODE-SPEECH      #     ⠆⢄⢐⡠      #
  # KERNELSPRACHE  ⠆⢄⢐⢈ TWS 0.3 | THE-WABE-NEST-SYSTEM        #               #
- # TASTATURSTANDARD ⠆⢄⢐⠒ UTF -8 DEUTSCHER-STANDARD           #               #
+ # TASTATURSTANDARD ⠆⢄⢐⠒ UTF -8 DEUTSCHER-STANDARD           #  #            #
  # LIZENZEN ⠆⢄⢐⠤ LV 1.6 LIZENZVERTRAG                        #               #
  # SINGLE SOURCE OF TRUTH # SSoT LEXIKON VERSION 00-83       #            #  #
 ###=================================IMPRESSUM===============================###
