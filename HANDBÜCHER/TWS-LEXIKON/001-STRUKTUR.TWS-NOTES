@@ -2,11 +2,8 @@
 ###= SEITEN-SYSTEM-ID : ⠆⢄⢐⣀ ===PYLOVARA-SYSTEM=============================###
 ###================================STRUKTUR=================================###
 
- INFORMATIONSSEITE : STRUKTUR 
-
- ZWECK : VERSTÄNDNIS | VORWORT
-
-###==============================INFORMATIONEN==============================###
+ STRUKTUR
+ ————————
 
  WILLKOMMEN IM TWS LEXIKON .
 
@@ -104,9 +101,10 @@ THE-WABE-NEST-LEXIKON (TWS 0.3)
 │
 ├── VORKENNTNISSE (01-04)
 │   ├── 01 STRUKTUR
-│   ├── 02 WABENAUFBAU
+│   ├── 02 WABENSTRUKTUR
 │   ├── 03 AXIOMPROGRAMMIERUNG
-│   └── 04 SYSTEM-ID
+│   ├── 04 SYSTEM-ID
+│   └── 05 WABENPLATZHALTER
 │
 ├── GENERALWABEN-KATALOG (10-16)
 │   ├── 10 MUTTERWABE
