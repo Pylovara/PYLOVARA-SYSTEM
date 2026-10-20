@@ -11,11 +11,13 @@
 
  DIES WIRD IM VERLAUF HIER NOTIERT : 
 
+ HALTER  | FÜR 
+
  MUKA    = MUTTER-KATEGORIE
  TOKA    = TOCHTER-KATEGORIE
  KIKA    = KINDER-KATEGORIE
  HONY    = HONIGTROPFEN
- WAHR    = WABEN-HÄRTER
+ WART    = WABEN-HÄRTER
 
  KE      = KOMPONENTE
  KEID    = KOMPONENTEN-ID 
@@ -26,6 +28,34 @@
  BAID    = BSK-ID
  MAID    = MASTER-ID 
  WAID    = WABEN-ID 
+
+
+ # VERSTÄNDNIS BEREICH :
+
+ IN DIESEM BEREICH ENTSTEHEN VON WURZEL BIS VOLLSTÄNDIGE MORPHIC ZUSTAND 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ###=====================INDUSTRIE-STANDARD-DER-ZUKUNFT======================###
 ###================================ENDPUNKT=================================###
