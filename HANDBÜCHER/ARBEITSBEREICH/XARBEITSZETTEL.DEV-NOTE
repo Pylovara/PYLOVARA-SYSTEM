@@ -1,41 +1,15 @@
 ###====================================|====================================###
-
- # GEDANKEN 
+#==================# GEDANKEN 
 
  - GRUNDSKELETTE
  - PIPELINE + PROTEIN 
  - KGW ÜBERARBEITEN...
- - GLÄTTUNG VON TWS SEITE 002 = OFFEN IM BEREICH TEMPORÄRE HALTER 
+ - WEITERENTWICKLUNG-VERBAUT = OFFEN 
+ - KOPF WABE HAUPT -ANSATZ 1 2 46 52 FERTIG STELLEN
+ - PIPELINE VORBEREITEN BEI STARTWABE = STECKSCHLÜSSEL | SKINS | STEUERUNG
 
 ###====================================|====================================###
-### TAGES NARICHT SEKTION 
-
- SO .... ICH BIN MIT DEM ÜBERGANG SOWEIT ZUFRIEDEN ... 
-
- ICH SOLLTE JETZT ALLE 4 KOMPONENTEN BZW RESTLICHEN 2 BIS HAUPTWABE 
- DURCH SCHREIBEN UND DANACH DANN DIREKT ALS FIRST STEP IN DIE PIPELINE 
- WANDERN .. 
-
- DIE PIPELINE SELBST BRAUCH DANN DEN 
-
- - STECKSCHLÜSSE
- - PIPELINE DATENSTROM 
- - STECKSCHLÜSSEL SKIN PACKETE ( KOSTENLOS DABEI FÜR INDIVIDUALISIERUNG )
-
-
- DANACH DENK ICH WEITER ... AUF JEDENFALL EIN GUTER ERSTER SCHRITT UND ES 
- LÖST DAS PROBLEM DES RAUS GERISSENEN PIPELINE HERZES AUS DER 00-79 BIS ZU 
- 00-82 ... 
-
- SOBALD DIE PIPELINE WIEDER LÄUFT ( UND DIESMAL EXTREM PRÄZISE ), LASSEN 
- SICH ALLE KOMPONENTEN EINHÄNGEN DIE REIN MÜSSEN ... 
-
- UND DIE RESTLICHEN IN SICH EINHÄNGEN .. 
- DAS WÄRE DANN DER STARTSCHUSS FÜRS DURCH PROGRAMMIEREN .. 
-
- ABER JETZT ERSTMAL KAFFE SCHNORREN .... DANN NOCHMAL ALLES BEÄUGELN ... 
- DANN NÄCHSTER STEP  
-
+#==================# TAGES NARICHT SEKTION 
 
  —©—[¥: 
  ↓:↑
@@ -55,8 +29,6 @@
  ↓:↑    ↓:
  ↓:↑    —ΩΩ@· »—ĸ—[¥:
 
---------------------
-
   —:—  = PIPELINE STANDART
   —©—  = OPTIONAL PIPELINE 
   —®—  = OPTIONAL PIPELINE  
@@ -69,15 +41,16 @@
   —A— = GEDANKE 
   —Z— = GEDANKE 
 
---------------------
+ —:—[ ]—
+ ↓:↑
+ —:—[ ]—
+ ↓:↑
+ —:—[ ]—
+ ↓:↑
+ —:—[ ]—
 
- —:—[ ]—
- ↓:↑
- —:—[ ]—
- ↓:↑
- —:—[ ]—
- ↓:↑
- —:—[ ]—
+
+#==================# ZWISCHENFALL
 
  auch noch alle krank .... man haben die ein schlechtes imunsystem ... 
  ich sitze bei 0 grad ohne heizung im garten teils im winter und arbeite 
@@ -96,12 +69,7 @@
  bis die wieder flott sind ... 
 
 
-
-
-
-
-
- Eselsbrücken 
+#==================# Eselsbrücken 
  ——————————————————————————————————————————————————————————————————————————
  - logische operatoren = im mcd 
 
@@ -134,15 +102,14 @@
 
 
 ###====================================|====================================###
+#==================# ABGEARBEITET 
 
- # ABGEARBEITET 
  - ORDNER STRUKTUR = FERTIG 
  - LIZENZEN = FERTIG 
  - FRONT LEKIKAS = FERTIG 
  - MCS-SHELL = ERLEDIGT 
  - vision lex = ERLEDIGT 
  - WEITERENTWICKLUNG = ERLEDIGT 
- - WEITERENTWICKLUNG-VERBAUT = OFFEN 
  - MASTER INTEGRATION = ERLEDIGT 
  - TEMPORÄRE TWS PLATZHALTER = ERLEDIGT 
  - BSK RÜCKIMPLEMENTIERUNG = ERLEDIGT 
