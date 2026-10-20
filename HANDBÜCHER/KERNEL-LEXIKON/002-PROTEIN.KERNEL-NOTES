@@ -3,51 +3,51 @@
  #             PROTEIN WABE = THE BOXIS AND PROTON MAINTAINER                #
 ###===============================STARTPUNKT================================###
 
-MUTTERWABEN-KATEGORIE # KOPFWABE
+MUTTERWABEN-KATEGORIE ⠆⢄⢁⡈ KOPFWABE
 
- KOMPONENTE # KE
+ KOMPONENTE ⠆⢄⢁⡐ PROTEIN
 
- KOMPONENTEN-ID # KOID
+ KOMPONENTEN-ID ⠆⢄⢁⡠ PI
 
- BION-NR # NR 
+ BION-NR ⠆⢄⡠⢈ 002 
 
- BION-ID # BIID
+ BION-ID ⠆⢄⡠⢐ PI002
 
- MASTER-ID # MAID
+ MASTER-ID # MA046SU002
 
  # AXIOM | KOMPONENTE
- AXIOM ¡ KE ⏍ KE
+ AXIOM ¡ ⠆⢄⢁⡐ ⏍ ⠆⢄⢁⡐
 
  # AXIOM | MASTER
  AXIOM ¡ MAID ⧑ BIID
 
  # AXIOM | BION-ID
- AXIOM ¡ KOID ⧓ NR Ξ 
+ AXIOM ¡ ⠆⢄⢁⡠ ⧓ ⠆⢄⡠⢈ Ξ ⠆⢄⡠⢐
 
  # AXIOM | WEITERVERBINDEN
- AXIOM ¡ BIID ⧑ BIID
+ AXIOM ¡ ⠆⢄⡠⢐ ⧑ BIID
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE # MASTERKERNWABE
+MUTTERWABEN-KATEGORIE ⠆⢄⡠⣀ MASTERKERNWABE
 
- WABEN-ID # KW
+ WABEN-ID ⠆⢄⢁⠅ MK
 
- BION-NR # NR
+ BION-NR ⠆⢄⢁⠉ NR
 
- BION-ID # BIID
+ BION-ID ⠆⢄⢁⠌ BIID
 
- BSK-ID # BAID
+ BSK-ID ⠆⢄⢁⠑ BAID
 
- BION # BION
+ BION ⠆⢄⢁⠒ BION
 
- BSK # BSK
+ BSK ⠆⢄⢁⠔ BSK
 
  # AXIOM | BION-ID
- AXIOM ¡ WAID ⧓ NR Ξ BIID
+ AXIOM ¡ ⠆⢄⢁⠅ ⧓ ⠆⢄⢁⠉ Ξ ⠆⢄⢁⠌
 
  # AXIOM | WEITERVERBINDUNG
- AXIOM ¡ BIID ⧑ BIID
+ AXIOM ¡ ⠆⢄⢁⠌ ⧑ BIID
 
 ###====================================|====================================###
 ###====================================|====================================###

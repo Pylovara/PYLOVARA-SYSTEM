@@ -3,14 +3,14 @@
 ###=========================PYLOVARA-SYSTEM-LEXIKON=========================###
  #    PYLOVARA-SYSTEM VERSPRICHT : „ PERFORMANCE IST EIN NATURGESETZT “      #
 ###========================ARBEITS-NOTIZ-DEFINITION=========================###
- #          · KEIN EINTRAG | O KONSOLIDIERT | Ŋ = NOTIERUNGSZUSTAND          #
+ #          · KEIN-EINTRAG | O KONSOLIDIERT | Ŋ = NOTIERUNGSZUSTAND          #
  #              + AKTIV  | - NICHT AKTIV  | X = TEIL-VOLLSTÄNDIG             #
- #                  Æ STRUKTUR ERNEUERT | F = OBSOLET | ! = ZUKUNFT          #
+ #              Æ STRUKTUR ERNEUERT | F = OBSOLET | ! = ZUKUNFT              #
 ###===============================KOMPONENTEN===============================###
  #   NR NOTIZ S-ID NAMEN               | NR NOTIZ S-ID NAMEN         源真理   #
  #:::::::::::::::::::::::::::::::::::::|:::::::::::::::::::::::::::::::::::::#
  #   01  - Ŋ  ⠆⢄⢐⠉ TRANSAKTIONSRAHMEN  | 02  - Ŋ  ⠆⢄⢈⠒ PROTEIN               #
- #   03  - -       PROTON              | 04  - F       TRENNBEFEHL           #
+ #   03  - F       PROTON              | 04  - F       TRENNBEFEHL           #
  #   05  - F       BINDUNGSBEFEHL      | 06  - -       AKTIONSDRAHT          #
  #   07  - -       REX                 | 08  - -       ICTUS                 #
  #   09  - -       BOXIS               | 10  - -       SENTIATOR             #
