@@ -5,17 +5,20 @@
 
 MUTTERWABEN-KATEGORIE ⠆⢄⢂⢁ MASTERLIZENZWABE
 
- WABEN-ID ⠆⢄⢂⢈ MA
+ LIZENZ-ID ⠆⢄⢂⢈ MA
 
  BION-NR ⠆⢄⢂⢐ 046
 
  BION-ID ⠆⢄⢂⢠ MA046
 
- BSK-ID ⠆⢄⢂⣀ MAMA
+ BSK-ID ⠆⢄⢂⣀ MA
 
  BION ⠆⢄⢈⠅ MA046
 
- BSK ⠆⢄⢈⠃ MAMA
+ BSK ⠆⢄⢈⠃ MA
+
+ # AXIOM | LIID GLEICH BSK-ID
+ AXIOM ¡ ⠆⢄⢂⢈ Ξ ⠆⢄⢂⣀
 
  # AXIOM | BION-ID
  AXIOM ¡ ⠆⢄⢂⢈ ⧓ ⠆⢄⢂⢐ Ξ ⠆⢄⢂⢠
@@ -68,6 +71,9 @@ MUTTERWABEN-KATEGORIE ⠆⢄⢂⠡ SUPERLIZENZWABE
 
  BSK ⠆⢄⢂⡈ MAMA+MASU-TA
 
+ # AXIOM | BAID MIT BAKN
+ AXIOM ¡ WAID ⧓ WAID ⧓ BAKN Ξ BAID
+
  # AXIOM | BION-ID
  AXIOM ¡ ⠆⢄⢂⠨ ⧓ ⠆⢄⢂⠰ Ξ ⠆⢄⢂⡁
 
@@ -75,28 +81,76 @@ MUTTERWABEN-KATEGORIE ⠆⢄⢂⠡ SUPERLIZENZWABE
  AXIOM ¡ ⠆⢄⢂⢠ ⧓ ⠆⢄⢂⡁ Ξ ⠆⢄⡠⠡ 
 
  # AXIOM | SUPERLIZENZ MASTERIZENZ MAID
- MASTERLIZENZ  ⠆⢄⡠⠡
+ MASTERLIZENZ ⠆⢄⡠⠡
 
  # AXIOM | WEITERVERBINDUNG
- AXIOM ¡ BIID ⧑ ⠆⢄⡠⠡ 
+ AXIOM ¡ ⠆⢄⢂⡁ ⧑ ⠆⢄⡠⠡ 
 
  # DATENBANK 
- PROGRAMM-ANZAHL # 1
- AUSFÜHRUNGS-FREIGABE # 0
+ PROGRAMM-ANZAHL ⠆⢄⡠⠢ 1
+ AUSFÜHRUNGS-FREIGABE ⠆⢄⡠⠤ 0
 
  # AXIOM | DATENFREIGABE
  AXIOM ¡ 
 
  # AXIOM | PROZESSSTOP
- AXIOM ¡ BIID ⦳ ⧖⧖ ⠆⢄⡠⠡ 
+ AXIOM ¡ ⠆⢄⢂⡁ ⦳ ⧖⧖ ⠆⢄⡠⠡ 
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE #
+MUTTERWABEN-KATEGORIE ⠆⢄⡠⠨ SUPERLIZENZWABE
+
+ LIZENZ-KOMPONENTE ⠆⢄⡠⠰ PROTEIN
+
+ WABEN-ID ⠆⢄⡠⡁ SU
+
+ BION-NR ⠆⢄⡠⡂ 002
+
+ BION-ID ⠆⢄⡠⡄ SU002
+
+ BSK-KN ⠆⢄⡠⡈ PI
+
+ BSK-ID ⠆⢄⡠⡐ MASU-PI
+
+ BION ⠆⢄⡐⢠ MA046SU002
+
+ BSK ⠆⢄⡐⣀ BSK
+
+ # AXIOM | BAID MIT BAKN
+ AXIOM ¡ WAID ⧓ WAID ⧓ BAKN Ξ BAID
+
+ # AXIOM | BION-ID
+ AXIOM ¡ ⠆⢄⡠⡁ ⧓ ⠆⢄⡠⡂ Ξ ⠆⢄⡠⡄
+
+ # AXIOM | MASTERLIZENZ SUPERLIZENZ KE MASTER-ID
+ AXIOM ¡ ⠆⢄⢂⢠ ⧓ ⠆⢄⡠⡄ Ξ ⠆⢄⡠⢁ 
+
+ # AXIOM | SUPERLIZENZ MASTER PRODUKT
+ MASTERLIZENZ ⠆⢄⡠⢁ 
+
+ # AXIOM | WEITERVERBINDUNG
+ AXIOM ¡ ⠆⢄⡠⡄ ⧑ ⠆⢄⡠⢁ 
+
+ # DATENBANK 
+ PROGRAMM-ANZAHL ⠆⢄⡠⢂ 1
+ AUSFÜHRUNGS-FREIGABE ⠆⢄⡐⢐ 0
+
+ # AXIOM | DATENFREIGABE
+ AXIOM ¡ 
+
+ # AXIOM | PROZESSSTOP
+ AXIOM ¡ ⠆⢄⡠⡄ ⦳ ⧖⧖ ⠆⢄⡠⢁ 
+
+###====================================|====================================###
+
+MUTTERWABEN-KATEGORIE # 
 
 
 
 
+
+
+###====================================|====================================###
 
 
 
