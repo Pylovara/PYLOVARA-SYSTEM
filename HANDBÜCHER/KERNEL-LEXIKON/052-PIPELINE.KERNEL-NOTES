@@ -30,63 +30,63 @@ MUTTERWABEN-KATEGORIE ⠆⢄⢁⡁ KOPFWABE
  AXIOM ¡ ⠆⢄⢁⡄ ⧓ ⠆⢄⡠⠊ Ξ ⠆⢄⡠⠌
 
  # AXIOM | WEITERVERBINDEN
- AXIOM ¡ ⠆⢄⡠⠌ ⧑ BIID
+ AXIOM ¡ ⠆⢄⡠⠌ ⧑ ⠆⢄⡈⡐
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE # MASTERKERNWABE
+MUTTERWABEN-KATEGORIE ⠆⢄⡈⡁ MASTERKERNWABE
 
- WABEN-ID # MK
+ WABEN-ID ⠆⢄⡈⡂ MK
 
- BION-NR # NR
+ BION-NR ⠆⢄⡈⡄ 052
 
- BION-ID # BIID
+ BION-ID ⠆⢄⡈⡐ MK052
 
- BSK-ID # BAID
+ BSK-ID ⠆⢄⡈⡠ PIMK
 
- BION # BION
+ BION ⠆⢄⡈⢁ PL052
 
- BSK # BSK
+ BSK ⠆⢄⡈⢂ PLMK
 
  # AXIOM | KEID + WAID 
- AXIOM ¡ KEID ⧓ WAID Ξ BAID
+ AXIOM ¡ ⠆⢄⢁⡄ ⧓ ⠆⢄⡈⡂ Ξ ⠆⢄⡈⡠
 
  # AXIOM | BION-ID
- AXIOM ¡ WAID ⧓ NR Ξ BIID
+ AXIOM ¡ ⠆⢄⡈⡂ ⧓ ⠆⢄⡈⡄ Ξ ⠆⢄⡈⡐
 
  # AXIOM | WEITERVERBINDUNG
- AXIOM ¡ BIID ⧑ BIID
+ AXIOM ¡ ⠆⢄⡈⡐ ⧑ ⠆⢄⡐⠘
 
 ###====================================|====================================###
+###===================================PIPE==================================###
 ###====================================|====================================###
-###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE # HAUPTWABE 
+MUTTERWABEN-KATEGORIE ⠆⢄⡐⠌ HAUPTWABE 
 
- PROGRAMM-KERN # NA
+ PROGRAMM-KERN ⠆⢄⡐⠑ PIPE
 
- WABEN-ID # HT
+ WABEN-ID ⠆⢄⡐⠒ HT
 
- BION-NR # NR
+ BION-NR ⠆⢄⡐⠔ 003
 
- BION-ID # BIID
+ BION-ID ⠆⢄⡐⠘ HT003
 
- BSK-KN # BAKG
+ BSK-KN ⠆⢄⡐⠡ PIPE
 
- BSK-ID # BAID
+ BSK-ID ⠆⢄⡈⠤ PLHT-PIPE
 
- BION # BION
+ BION ⠆⢄⡈⠨ PL052MK052HT003
 
- BSK # BSK
+ BSK ⠆⢄⡈⠰ PLMK+PLHT-PIPE
 
  # AXIOM | KEID + WAID + BAKN
- AXIOM ¡ KEID ⧓ WAID ⧓ BAKN Ξ BAID
+ AXIOM ¡ ⠆⢄⢁⡄ ⧓ ⠆⢄⡐⠒ ⧓ ⠆⢄⡐⠡ Ξ ⠆⢄⡈⠤
 
  # AXIOM | BION-ID
- AXIOM ¡ WAID ⧓ NR Ξ BIID
+ AXIOM ¡ ⠆⢄⡐⠒ ⧓ ⠆⢄⡐⠔ Ξ ⠆⢄⡐⠘
 
  # AXIOM | WEITERVERBINDUNG
- AXIOM ¡ BIID ⧑ BIID
+ AXIOM ¡ ⠆⢄⡐⠘ ⧑ BIID
 
 ###====================================|====================================###
 

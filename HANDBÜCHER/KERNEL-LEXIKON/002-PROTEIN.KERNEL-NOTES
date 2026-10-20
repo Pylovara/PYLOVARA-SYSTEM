@@ -30,7 +30,7 @@ MUTTERWABEN-KATEGORIE ⠆⢄⢁⡈ KOPFWABE
  AXIOM ¡ ⠆⢄⡠⢁ ⧑ ⠆⢄⡠⢐
 
  # AXIOM | WEITERVERBINDEN
- AXIOM ¡ ⠆⢄⡠⢐ ⧑ BIID
+ AXIOM ¡ ⠆⢄⡠⢐ ⧑ ⠆⢄⢁⠌
 
 ###====================================|====================================###
 
@@ -38,13 +38,13 @@ MUTTERWABEN-KATEGORIE ⠆⢄⡠⣀ MASTERKERNWABE
 
  WABEN-ID ⠆⢄⢁⠅ MK
 
- BION-NR ⠆⢄⢁⠉ NR
+ BION-NR ⠆⢄⢁⠉ 002
 
  BION-ID ⠆⢄⢁⠌ BIID
 
- BSK-ID ⠆⢄⢁⠑ PIMK
+ BSK-ID ⠆⢄⢁⠑ MK002
 
- BION ⠆⢄⢁⠒ BION
+ BION ⠆⢄⢁⠒ PI002MK002
 
  BSK ⠆⢄⢁⠔ PIMK
 
@@ -55,35 +55,38 @@ MUTTERWABEN-KATEGORIE ⠆⢄⡠⣀ MASTERKERNWABE
  AXIOM ¡ ⠆⢄⢁⠅ ⧓ ⠆⢄⢁⠉ Ξ ⠆⢄⢁⠌
 
  # AXIOM | WEITERVERBINDUNG
- AXIOM ¡ ⠆⢄⢁⠌ ⧑ BIID
+ AXIOM ¡ ⠆⢄⢁⠌ ⧑ ⠆⢄⡈⣀
 
 ###====================================|====================================###
 ###====================================|====================================###
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE # HAUPTWABE 
+MUTTERWABEN-KATEGORIE ⠆⢄⡐⢁ HAUPTWABE 
 
- PROGRAMM-KERN # NA
+ PROGRAMM-KERN ⠆⢄⡐⢂ BAUSTEIN
 
- WABEN-ID # HT
+ WABEN-ID ⠆⢄⡐⢈ HT
 
- BION-NR # NR
+ BION-NR ⠆⢄⡈⢠ 002
 
- BION-ID # BIID
+ BION-ID ⠆⢄⡈⣀ HT002
 
- BSK-KG # BAKG
+ BSK-KG ⠆⢄⡐⠃ BAUSTEIN
 
- BSK-ID # BAID
+ BSK-ID ⠆⢄⡐⠅ PIHT-BAUSTEIN
 
- BION # BION
+ BION ⠆⢄⡐⠉ PI002MK002HT002
 
- BSK # PIMK+PIHT
+ BSK ⠆⢄⡐⠊ PIMK+PIHT-BAUSTEIN
+
+ # AXIOM | KEID + WAID + BAKN
+ AXIOM ¡ ⠆⢄⢁⡠ ⧓ ⠆⢄⡐⢈ ⧓ ⠆⢄⡐⠃ Ξ ⠆⢄⡐⠅
 
  # AXIOM | BION-ID
- AXIOM ¡ WAID ⧓ NR Ξ BIID
+ AXIOM ¡ ⠆⢄⡐⢈ ⧓ ⠆⢄⡈⢠ Ξ ⠆⢄⡈⣀
 
  # AXIOM | WEITERVERBINDUNG
- AXIOM ¡ BIID ⧑ BIID
+ AXIOM ¡ ⠆⢄⡈⣀ ⧑ BIID
 
 ###====================================|====================================###
 

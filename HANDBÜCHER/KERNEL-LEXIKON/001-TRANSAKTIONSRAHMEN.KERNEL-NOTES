@@ -80,7 +80,7 @@ MUTTERWABEN-KATEGORIE ⠆⢄⢂⠌ HAUPTWABE
  BSK ⠆⢄⢁⠰ TAMK+TAHT-RUN
 
  # AXIOM | KEID + WAID + BAKN
- AXIOM ¡ KEID ⧓ WAID ⧓ BAKN Ξ BAID
+ AXIOM ¡ ⠆⢄⢈⠌ ⧓ ⠆⢄⢂⠒ ⧓ ⠆⢄⢁⠢ Ξ ⠆⢄⢁⠤
 
  # AXIOM | BION-ID
  AXIOM ¡ ⠆⢄⢂⠒ ⧓ ⠆⢄⢁⠘ Ξ ⠆⢄⢁⠡
@@ -90,63 +90,9 @@ MUTTERWABEN-KATEGORIE ⠆⢄⢂⠌ HAUPTWABE
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE # 
-
- 
-
-HAUPTWABE 
-
- PROGRAMM-KERN # NA
-
- WABEN-ID # HT
-
- BION-NR # NR
-
- BION-ID # BIID
-
- BSK-KG # BAKG
-
- BSK-ID # BAID
-
- BION # BION
-
- BSK # BSK
-
- # AXIOM | KEID + WAID 
- AXIOM ¡ KEID ⧓ WAID Ξ BAID
-
- # AXIOM | BION-ID
- AXIOM ¡ WAID ⧓ NR Ξ BIID
-
- # AXIOM | WEITERVERBINDUNG
- AXIOM ¡ BIID ⧑ BIID
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+MUTTERWABEN-KATEGORIE #
 
 ###====================================|====================================###
-
-
-
-
-
 ###===========================KOMPAKTE-WABEN-PFADE==========================###
  #  BAUSTELLE !
  PFAD-PROGRAMM   =  
