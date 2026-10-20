@@ -10,7 +10,7 @@
  #   NR NOTIZ S-ID NAMEN               | NR NOTIZ S-ID NAMEN         源真理   #
  #:::::::::::::::::::::::::::::::::::::|:::::::::::::::::::::::::::::::::::::#
  #   01  - Ŋ  ⠆⢄⢐⠉ TRANSAKTIONSRAHMEN  | 02  - Ŋ  ⠆⢄⢈⠒ PROTEIN               #
- #   03  - F       PROTON              | 04  - F       TRENNBEFEHL           #
+ #   03  - -       PROTON              | 04  - F       TRENNBEFEHL           #
  #   05  - F       BINDUNGSBEFEHL      | 06  - -       AKTIONSDRAHT          #
  #   07  - -       REX                 | 08  - -       ICTUS                 #
  #   09  - -       BOXIS               | 10  - -       SENTIATOR             #
