@@ -43,9 +43,12 @@ MUTTERWABEN-KATEGORIE ⠆⢄⢂⢁ MASTERLIZENZWABE
  # AXIOM | WEITERVERBINDUNG
 
  # TRANSAKTIONSRAHMEN
- AXIOM ¡ ⠆⢄⢂⢠ ⧑ BIID 
+ AXIOM ¡ ⠆⢄⢂⢠ ⧑ ⠆⢄⢂⡁ 
 
  # PROTEIN
+ AXIOM ¡ ⠆⢄⢂⢠ ⧑ ⠆⢄⡠⡄ 
+
+ # …USW
  AXIOM ¡ ⠆⢄⢂⢠ ⧑ BIID 
 
  # …USW
@@ -63,16 +66,16 @@ MUTTERWABEN-KATEGORIE ⠆⢄⢂⠡ SUPERLIZENZWABE
 
  BION-ID ⠆⢄⢂⡁ SU001
 
- BSK-KG ⠆⢄⢂⡐ TA
+ BSK-KN ⠆⢄⢂⡐ TA
 
- BSK-ID ⠆⢄⢂⡂ MASU
+ BSK-ID ⠆⢄⢂⡂ MASU-TA
 
  BION ⠆⢄⢂⡄ MA046SU001
 
- BSK ⠆⢄⢂⡈ MAMA+MASU-TA
+ BSK ⠆⢄⢂⡈ MA+MASU-TA
 
- # AXIOM | BAID MIT BAKN
- AXIOM ¡ WAID ⧓ WAID ⧓ BAKN Ξ BAID
+ # AXIOM | LLID WAID BAKN GLEICH BAID 
+ AXIOM ¡ ⠆⢄⢂⢈ ⧓ ⠆⢄⢂⠨ ⧓ ⠆⢄⢂⡐ Ξ ⠆⢄⢂⡂
 
  # AXIOM | BION-ID
  AXIOM ¡ ⠆⢄⢂⠨ ⧓ ⠆⢄⢂⠰ Ξ ⠆⢄⢂⡁
@@ -114,10 +117,10 @@ MUTTERWABEN-KATEGORIE ⠆⢄⡠⠨ SUPERLIZENZWABE
 
  BION ⠆⢄⡐⢠ MA046SU002
 
- BSK ⠆⢄⡐⣀ BSK
+ BSK ⠆⢄⡐⣀ MA-MASU-TA
 
- # AXIOM | BAID MIT BAKN
- AXIOM ¡ WAID ⧓ WAID ⧓ BAKN Ξ BAID
+ # AXIOM | LLID WAID BAKN GLEICH BAID 
+ AXIOM ¡ ⠆⢄⢂⢈ ⧓ ⠆⢄⡠⡁ ⧓ ⠆⢄⡠⡈ Ξ ⠆⢄⡠⡐
 
  # AXIOM | BION-ID
  AXIOM ¡ ⠆⢄⡠⡁ ⧓ ⠆⢄⡠⡂ Ξ ⠆⢄⡠⡄

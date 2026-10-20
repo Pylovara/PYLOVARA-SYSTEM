@@ -15,10 +15,10 @@ MUTTERWABEN-KATEGORIE ⠆⢄⢈⠉ KOPFWABE
 
  MASTER-ID ⠆⢄⡠⠡ MASU001
 
- BSK-ID # TA
+ BSK-ID ⠆⢄⡠⠃ TA
 
  # AXIOM | KEID GLEICH BSK-ID
- AXIOM ¡ KEID Ξ BAID
+ AXIOM ¡ ⠆⢄⢈⠌ Ξ ⠆⢄⡠⠃
 
  # AXIOM | KOMPONENTE
  AXIOM ¡ ⠆⢄⢈⠊ ⏍ ⠆⢄⢈⠊
@@ -49,7 +49,7 @@ MUTTERWABEN-KATEGORIE ⠆⢄⢁⢐ MASTERKERNWABE
  BSK ⠆⢄⢂⠊ TAMK
 
  # AXIOM | KEID + WAID 
- AXIOM ¡ KEID ⧓ WAID Ξ BAID
+ AXIOM ¡ ⠆⢄⢈⠌ ⧓ ⠆⢄⢁⢠ Ξ ⠆⢄⢂⠅
 
  # AXIOM | BION-ID
  AXIOM ¡ ⠆⢄⢁⢠ ⧓ ⠆⢄⢁⣀ Ξ ⠆⢄⢂⠃
