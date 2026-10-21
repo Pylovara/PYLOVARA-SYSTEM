@@ -1,7 +1,0 @@
-[Desktop Entry]
-Name=Pylovara-Desktop
-Comment=Pylovara System Tiling Wayland Compositor
-Exec=bash -c "source /Pylovara/Control/control.pv-conf && pylo-desktop"
-Type=Application
-DesktopNames=Pylovara
-Keywords=tiling;wayland;compositor;pylovara;
