@@ -19,7 +19,7 @@
  #  16      BIENENKÖNIGIN            |  17                                   #
 ###=========================MUTTERWABEN-MODULE==============================###
  #  20 ⠆⢄⢈⡁ KOPFWABE                 |  21 ⠆⢄⢈⡄ MASTERKERNWABE               #
- #  22 ⠆⢄⢁⢂ HAUPTWABE                |  23      STARTWABE                    #
+ #  22 ⠆⢄⢁⢂ HAUPTWABE                |  23 ⠆⢄⡈⢈ STARTWABE                    #
  #  24      BAUWABE                  |  25      TRAKTORWABE                  #
  #  26      ENDWABE                  |  29                                   #
 ###===================MUTTERWABEN-MODULE-SYSTEM-INTERN======================###
@@ -42,7 +42,7 @@
 ###==========================WABENHÄRTER-MODULE=============================###
  # 301      VERTEILERHÄRTER          | 302                                   #
 ###===============================VERSIONSDATEN=============================###
- # SYSTEM ⠆⢄⢐⡐ PNS 2.6.4 PYLOVARA—NETZWERK—SYSTEM            #               #
+ # SYSTEM ⠆⢄⢐⡐ PNS 2.6.4 PYLOVARA—NETZWERK—SYSTEM            #           #   #
  # PROGRAMMIERSPRACHE ⠆⢄⢐⠑ MCS 7.5 | MASCHINEN-CODE-SPEECH   #     ⠆⢄⢐⠘      #
  # KERNELSPRACHE  ⠆⢄⢐⢈ TWS 0.3 | THE-WABE-NEST-SYSTEM        #               #
  # TASTATURSTANDARD ⠆⢄⢐⠒ UTF -8 | DEUTSCHER-STANDARD         #   #           #
