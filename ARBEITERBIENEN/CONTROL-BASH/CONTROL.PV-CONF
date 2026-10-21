@@ -33,9 +33,6 @@ to() {
     source "$SHELL_DIR/DNA/to.to-dna"
     to "$@"
 }
-helpme() {
-    source "$SHELL_DIR/DNA/helpme.cut-dna" "$@"
-}
 kernel() {
     source "$SHELL_DIR/DNA/kernel.cut-dna" "$@"
 }

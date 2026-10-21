@@ -33,7 +33,7 @@ $PV_COLOR_SYMBOL—:—@· —:—[\"$PV_COLOR_USER: LEXIKONS :$PV_COLOR_SYMBOL\
 $PV_COLOR_KANAL↓:↑   —:—@·¤ —:—[\"$PV_COLOR_USER: kernel lex | waben lex | mcs lex :$PV_COLOR_SYMBOL\"]
 $PV_COLOR_KANAL↓:↑
 $PV_COLOR_SYMBOL—:—@· —:—[\"$PV_COLOR_USER: WERKZEUGE :$PV_COLOR_SYMBOL\"]—
-$PV_COLOR_KANAL↓:↑   —:—@·¤ —:—[\"$PV_COLOR_USER: to | p | pylo | callme :$PV_COLOR_SYMBOL\"]
+$PV_COLOR_KANAL↓:↑   —:—@·¤ —:—[\"$PV_COLOR_USER: to | p | callme :$PV_COLOR_SYMBOL\"]
 $PV_COLOR_KANAL↓:↑
 $PV_COLOR_SYMBOL—:—@·¤ —:—[\$: $PV_COLOR_PATH\$PV_CURRENT_DIR $PV_COLOR_SYMBOL:\$]
 $PV_COLOR_KANAL       ↓:↑
@@ -59,7 +59,7 @@ fi
 #↓:↑   —:—@·¤ [": kernel lex | waben lex | mcs lex :"]
 #↓:↑
 #—:—@· —:—[": WERKZEUGE :"]—
-#↓:↑   —:—@·¤ [": to | p | pylo | callme :"]
+#↓:↑   —:—@·¤ [": to | p | callme :"]
 #↓:↑
 #—:—@·¤ —:—[$: ~ :$]—
 #       ↓:↑
