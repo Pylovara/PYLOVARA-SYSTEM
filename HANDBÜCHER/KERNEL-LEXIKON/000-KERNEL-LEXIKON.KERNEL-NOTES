@@ -10,7 +10,7 @@
  #   NR NOTIZ S-ID NAMEN               | NR NOTIZ S-ID NAMEN         源真理   #
  #:::::::::::::::::::::::::::::::::::::|:::::::::::::::::::::::::::::::::::::#
  #   01  - Ŋ  ⠆⢄⢐⠉ TRANSAKTIONSRAHMEN  | 02  - Ŋ  ⠆⢄⢈⠒ PROTEIN               #
- #   03  - -       PONTIFEX            | 04  - -       AKTIONSDRAHT          #
+ #   03  - Ŋ       PONTIFEX            | 04  - -       AKTIONSDRAHT          #
  #   05  - -       REX                 | 06  - -       ICTUS                 #
  #   07  - -       BOXIS               | 08  - -       SENTIATOR             #
  #   09  - -       NITROX              | 10  - -       FEED                  #
@@ -27,7 +27,7 @@
  #   NR NOTIZ S-ID NAMEN               | NR NOTIZ S-ID NAMEN                 #
  #   50  - -       ABSOLULATOR         | 51  - -       WABINATOR             #
  #   52  - Ŋ  ⠆⢄⢐⠌ PIPELINE            | 53  - -       BIENENKÖNIGIN         #
- #   54  - F       ARBEITERBIENEN      | 55  - -       WABENIMPULS           #
+ #   54  - -       ARBEITERBIENEN      | 55  - -       WABENIMPULS           #
 ###==========IDENTIFIKATION-BERECHTIGUNG-FÜR-ENTWICKLER=====================###
  #   90  - -       IDENTIFIKATION      | 91  - -                             #
 ###===============================VERSIONSDATEN=============================###
