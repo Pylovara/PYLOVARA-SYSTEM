@@ -26,7 +26,6 @@ $PV_COLOR_KANAL↓:↑   —:—@·¤ —:—[\"$PV_COLOR_USER: \u \h :$PV_COLOR
 $PV_COLOR_KANAL↓:↑   —:—@·¤ —:—[\"$PV_COLOR_USER: $PV_KERNEL :$PV_COLOR_SYMBOL\"]
 $PV_COLOR_KANAL↓:↑
 $PV_COLOR_SYMBOL—:—@·¤ —:—[\$: $PV_COLOR_PATH\$PV_CURRENT_DIR $PV_COLOR_SYMBOL:\$]
-$PV_COLOR_KANAL       ↓:↑
 $PV_COLOR_SYMBOL       —:—@· »—:—[¥: $PV_COLOR_RESET"
 '
 
