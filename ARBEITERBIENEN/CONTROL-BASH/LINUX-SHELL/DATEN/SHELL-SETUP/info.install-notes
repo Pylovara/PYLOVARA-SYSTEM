@@ -1,58 +1,75 @@
-#### Installations Setup
+###====================================|====================================###
+### INSTALLATION
 
-Für einen vollständigen Installations Vorgang verwende bitte
+ FÜR DIE INSTALLATION, WIE AUCH UPDATES, VERWENDE BITTE :
 
 sudo ./full.install-core
 
-##############################################################
+ GILT SYSTEMWEIT ( AUCH IM HOME )
+ 
+ANSONNSTEN :
 
-Für einen Vernünftigen Desktop benutze den Empfohlenen Desktop 
-Ordner .
+sudo /PYLOVARA-SYSTEM/ARBEITERBIENEN/CONTROL-BASH/LINUX-SHELL/DATEN/SHELL-SETUP/full.install-core
 
-Wenn Noch Nichts installiert ist :
+###====================================|====================================###
+### DESKTOP EMPFEHLUNG
 
-cd ~/Pylovara
-cd Setup
-cd Desktop-Empfohlen
+ WIR EMPFEHLEN TILLING WINDOW DESKTOPS DIE HIER ZU FINDEN SIND:
+
+cd /PYLOVARA-SYSTEM/ARBEITERBIENEN/LINUX-DESKTOP-EMPFOHLEN
 xtree
 
-Wenn Schon Installiert im Wurzelverzeichnis :
+ ALLE DERIVATE KÖNNEN IM LINUX CLEAN INSTALL PROZESS BEQUEM AUS DEM 
+ HOMEVERZEICHNIS ANGESTEUERT WERDEN. 
 
-cd /
-cd Pylovara/
-cd Setup
-cd Desktop-Empfohlen
-xtree
+ (DER AKTIVE PYLOVARA-SYSTEM CONTROL LIEGT IM WURZEL VERZEICHNIS.)
 
-Wichtig : Alle Derivate können im Linux Clean Install Prozess
-bequem aus dem Homeverzeichnis nach dem laden angesteuert werden.
-Man kann somit Pylovara Ziehen mit git clone und hat alles was 
-man braucht in einem Wisch .
+ IHR KÖNNT PYLOVARA-SYSTEM ZIEHEN UND DANACH EASY EUEREN DESKTOP EINRICHTEN 
+ IN EINEM ABWISCH. 
 
-Es wird Emfohlen keine zsh zu nutzen sondern bei bash zu bleiben , 
-da Pylovara bugfrei über Bash Funktioniert und Bash durch Control/
-die Priorität oberhalb des Bash besitzt .
 
-##############################################################
+ WAS MAN WISSEN SOLLTE : 
 
-Möchtetest du vara pakete updaten unter archlinux , verwende bitte
+ DIE ANBIETER SIND SEHR SCHNELL MIT IHREN REINIGUNGEN UND VERLANGEN 
+ EIN HOHES UPDATE FREUNDLICHES UMFELD.
+
+ WENN IHR NUR GENIEẞEN WOLLT UND NICHT GENERVT, DANN MÜSST IHR 
+ NACH EINEM SAUBEREN CLEAN INSTAL, LEDIGLICH BEI JAKOOLIT DAS AQUAMARIN 
+ PAKET AUF DIE NICHT UPDATE LISTE IN EURER PACMAN.CONF LEGEN .
+
+ WER NICHT WEIS WIE DAS GEHT, SOLLTE EINER KI EINFACH DIESES INFOBLATT 
+ BEILEGEN ... 
+
+ INFO DESKTOPS 
+
+ JAKOOLIT HYPRLAND 
+
+sudo nano /etc/pacman.conf
+ 
+ DANN SUCHT IHR DIE STELLE : 
+
+# Pacman won't upgrade packages listed in IgnorePkg and members of IgnoreGroup
+IgnorePkg = 
+#IgnoreGroup =
+
+UND SCHREIBT IN IgnorePkG DANN FOLGENDES REIN : 
+
+ hyprland hyprutils aquamarine hyprland-qtutils
+
+SOMIT HABT IHR DANN EINEN STABILEN DESKTOP, OHNE NACHARBEITEN.
+DIES GILT BESONDERS FÜR ARBEITSGERÄTE.
+
+###====================================|====================================###
+### VARA PAKETE
+
+ MÖCHTEST DU DIE VARA PAKETE UPDATEN VERWENDE :
 
 sudo ./paket.updater-core
 
-##############################################################
+###====================================|====================================###
+### IMPRESSUM 
 
-Möchtest du ein Pylovara System Update dann Verwende bitte
-
-sudo ./pylovara.updater-needle
-
-##############################################################
-
-Möchtest du zuckünftig in das Pylovara Chat Netzwerk dann installiere bitte
-
-sudo ./nc.install-core
-
-##############################################################
-
-Impressum wie Issues schaue in
+IMPRESSUM DATEN WIE ISSUES, SCHAUE IN : 
 
 cat policy.security-alert
+###====================================|====================================###
