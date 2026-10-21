@@ -9,6 +9,7 @@ export PV_COLOR_USER='\[\e[38;5;250m\]'    # User / Host / Info
 export PV_COLOR_PV='\[\e[38;5;208m\]'      # Pylovara Brand
 export PV_COLOR_PATH='\[\e[38;5;202m\]'    # Pfad
 export PV_COLOR_SYMBOL='\[\e[38;5;231m\]'  # Symbole
+export PV_COLOR_KANAL='\[\e[38;6;202m\]'  # Symbole
 
 # Kernel-Version einmalig beim Laden bestimmen
 PV_KERNEL="$(uname -r)"
@@ -17,23 +18,20 @@ PV_KERNEL="$(uname -r)"
 export PROMPT_COMMAND='
     PV_CURRENT_DIR="${PWD/#$HOME/\~}"
     export PS1="
-$PV_COLOR_SYMBOL—[\"$PV_COLOR_PV: MCS-PYLOVARA-SHELL :$PV_COLOR_SYMBOL\"]—
-$PV_COLOR_SYMBOL¬· —[\"$PV_COLOR_USER: SYSTEM :$PV_COLOR_SYMBOL\"]—
-$PV_COLOR_SYMBOL|  ¬·¤ [\"$PV_COLOR_USER: \u \h :$PV_COLOR_SYMBOL\"]
-$PV_COLOR_SYMBOL|  ¬·¤ [\"$PV_COLOR_USER: $PV_KERNEL :$PV_COLOR_SYMBOL\"]
-$PV_COLOR_SYMBOL|
-$PV_COLOR_SYMBOL¬· —[\"$PV_COLOR_USER: LEXIKONS :$PV_COLOR_SYMBOL\"]—
-$PV_COLOR_SYMBOL|  ¬·¤ [\"$PV_COLOR_USER: kernel lex | waben lex | mcs lex :$PV_COLOR_SYMBOL\"]
-$PV_COLOR_SYMBOL|
-$PV_COLOR_SYMBOL¬· —[\"$PV_COLOR_USER: WERKZEUGE :$PV_COLOR_SYMBOL\"]—
-$PV_COLOR_SYMBOL|  ¬·¤ [\"$PV_COLOR_USER: to | p | pylo | callme :$PV_COLOR_SYMBOL\"]
-$PV_COLOR_SYMBOL|
-$PV_COLOR_SYMBOL¬· —[\"$PV_COLOR_USER: BETA-TEST :$PV_COLOR_SYMBOL\"]—
-$PV_COLOR_SYMBOL|  ¬·¤ [\"$PV_COLOR_USER: pylo-desktop :$PV_COLOR_SYMBOL\"]
-$PV_COLOR_SYMBOL|
-$PV_COLOR_SYMBOL¬· —[\$: $PV_COLOR_PATH\$PV_CURRENT_DIR $PV_COLOR_SYMBOL:\$]—
-$PV_COLOR_SYMBOL   |
-$PV_COLOR_SYMBOL   ¬· »[¥: $PV_COLOR_RESET"
+$PV_COLOR_SYMBOL—:—[\"$PV_COLOR_PV: MCS-PYLOVARA-SHELL :$PV_COLOR_SYMBOL\"]—
+$PV_COLOR_SYMBOL—:—@· —:—[\"$PV_COLOR_USER: SYSTEM :$PV_COLOR_SYMBOL\"]—
+$PV_COLOR_KANAL↓:↑   —:—@·¤ —:—[\"$PV_COLOR_USER: \u \h :$PV_COLOR_SYMBOL\"]
+$PV_COLOR_KANAL↓:↑   —:—@·¤ —:—[\"$PV_COLOR_USER: $PV_KERNEL :$PV_COLOR_SYMBOL\"]
+$PV_COLOR_KANAL↓:↑
+$PV_COLOR_SYMBOL—:—@· —:—[\"$PV_COLOR_USER: LEXIKONS :$PV_COLOR_SYMBOL\"]—
+$PV_COLOR_KANAL↓:↑   —:—@·¤ —:—[\"$PV_COLOR_USER: kernel lex | waben lex | mcs lex :$PV_COLOR_SYMBOL\"]
+$PV_COLOR_KANAL↓:↑
+$PV_COLOR_SYMBOL—:—@· —:—[\"$PV_COLOR_USER: WERKZEUGE :$PV_COLOR_SYMBOL\"]—
+$PV_COLOR_KANAL↓:↑   —:—@·¤ —:—[\"$PV_COLOR_USER: to | p | pylo | callme :$PV_COLOR_SYMBOL\"]
+$PV_COLOR_KANAL↓:↑
+$PV_COLOR_SYMBOL—:—@· —:—[\$: $PV_COLOR_PATH\$PV_CURRENT_DIR $PV_COLOR_SYMBOL:\$]—
+$PV_COLOR_KANAL      ↓:↑
+$PV_COLOR_SYMBOL      —:—@· »—:—[¥: $PV_COLOR_RESET"
 '
 
 if [[ -r /usr/share/bash-completion/bash_completion ]]; then
