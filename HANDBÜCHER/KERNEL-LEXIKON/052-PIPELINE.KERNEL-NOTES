@@ -159,18 +159,19 @@ MUTTERWABEN-KATEGORIE ⠆⢄⡈⢐ STARTWABE
  PRÄFIX ⠆⢄⡂⢐ PL-XR
 
  # PRÄFIX STEUERUNG 2 KANAL
- PRÄFIX ⠆⢄⡁⢐ PL-
- PRÄFIX ⠆⢄⡁⢠ 
- PRÄFIX ⠆⢄⡁⣀ 
- PRÄFIX ⠆⢄⡂⠃
- PRÄFIX ⠆⢄⡄⠅
- PRÄFIX ⠆⢄⡄⠉
- PRÄFIX ⠆⢄⡄⡂
- PRÄFIX ⠆⢄⡄⡈
- PRÄFIX ⠆⢄⡂⢠
- PRÄFIX ⠆⢄⡂⣀
- PRÄFIX ⠆⢄⡂⠅
- PRÄFIX ⠆⢄⡂⠉
+ PRÄFIX ⠆⢄⡁⢐ PL-HH
+ PRÄFIX ⠆⢄⡁⢠ PL-HU
+ PRÄFIX ⠆⢄⡁⣀ PL-HR
+ PRÄFIX ⠆⢄⡂⠃ PL-HL
+ PRÄFIX ⠆⢄⡄⠅ PL-RH
+ PRÄFIX ⠆⢄⡄⠉ PL-LH
+
+ PRÄFIX ⠆⢄⡄⡂ PL-RU
+ PRÄFIX ⠆⢄⡄⡈ PL-LU
+ PRÄFIX ⠆⢄⡂⢠ PL-UL
+ PRÄFIX ⠆⢄⡂⣀ PL-UR
+ PRÄFIX ⠆⢄⡂⠅ PL-UH
+ PRÄFIX ⠆⢄⡂⠉ PL-UU
 
  # AXIOM | PRODUKT BAUEN
  AXIOM ¡ TT ⦻ TT Ξ SY
@@ -207,10 +208,10 @@ MUTTERWABEN-KATEGORIE ⠆⢄⡈⢐ STARTWABE
  PRODUKT PD ←:↑  = L|H
 
  PRODUKT PD →:↓  = R|U
- PRODUKT PD ←:↓  = S|U
+ PRODUKT PD ←:↓  = L|U
  PRODUKT PD ↓:←  = U|L
  PRODUKT PD ↓:→  = U|R
- PRODUKT PD ↓:↑  = U|O
+ PRODUKT PD ↓:↑  = U|H
  PRODUKT PD ↓:↓  = U|U
 
  PRODUKT PD
