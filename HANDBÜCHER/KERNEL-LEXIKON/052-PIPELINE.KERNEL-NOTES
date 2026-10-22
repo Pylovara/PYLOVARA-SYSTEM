@@ -42,7 +42,7 @@ MUTTERWABEN-KATEGORIE ⠆⢄⡈⡁ MASTERKERNWABE
 
  BION-ID ⠆⢄⡈⡐ MK052
 
- BSK-ID ⠆⢄⡈⡠ PIMK
+ BSK-ID ⠆⢄⡈⡠ PLMK
 
  BION ⠆⢄⡈⢁ PL052
 
@@ -86,7 +86,7 @@ MUTTERWABEN-KATEGORIE ⠆⢄⡐⠌ HAUPTWABE
  AXIOM ¡ ⠆⢄⡐⠒ ⧓ ⠆⢄⡐⠔ Ξ ⠆⢄⡐⠘
 
  # AXIOM | WEITERVERBINDUNG
- AXIOM ¡ ⠆⢄⡐⠘ ⧑ BIID
+ AXIOM ¡ ⠆⢄⡐⠘ ⧑ ⠆⢄⡈⠉
 
 ###====================================|====================================###
 
@@ -94,28 +94,28 @@ MUTTERWABEN-KATEGORIE ⠆⢄⡈⢐ STARTWABE
 
  PROGRAMM-KERN ⠆⢄⡄⣀ PIPE
 
- WABEN-ID ⠆⢄⡈⠃ HT
+ WABEN-ID ⠆⢄⡈⠃ ST
 
- BION-NR ⠆⢄⡈⠅ 
+ BION-NR ⠆⢄⡈⠅ 003
 
- BION-ID ⠆⢄⡈⠉ BIID
+ BION-ID ⠆⢄⡈⠉ ST003
 
- BSK-KN ⠆⢄⡈⠊ BAKG
+ BSK-KN ⠆⢄⡈⠊ PIPE
 
- BSK-ID ⠆⢄⡈⠌ BAID
+ BSK-ID ⠆⢄⡈⠌ PLST-PIPE
 
- BION ⠆⢄⡈⠑ BION
+ BION ⠆⢄⡈⠑ PL052MK052HT003ST003
 
- BSK ⠆⢄⡈⠒ BSK
+ BSK ⠆⢄⡈⠒ PLMK+PLHT-PIPE+PLST-PIPE
 
  # AXIOM | KEID + WAID + BAKN
- AXIOM ¡ KEID ⧓ WAID ⧓ BAKN Ξ BAID
+ AXIOM ¡ ⠆⢄⢁⡄ ⧓ ⠆⢄⡈⠃ ⧓ ⠆⢄⡈⠊ Ξ ⠆⢄⡈⠌
 
  # AXIOM | BION-ID
- AXIOM ¡ WAID ⧓ NR Ξ BIID
+ AXIOM ¡ ⠆⢄⡈⠃ ⧓ ⠆⢄⡈⠅ Ξ ⠆⢄⡈⠉
 
  # AXIOM | WEITERVERBINDUNG
- AXIOM ¡ BIID ⧑ BIID
+ AXIOM ¡ ⠆⢄⡈⠉ ⧑ BIID
 
  # TASTEN
  TASTENCODE ⠆⢄⡈⠔ ALTGR
@@ -136,13 +136,9 @@ MUTTERWABEN-KATEGORIE ⠆⢄⡈⢐ STARTWABE
  SYMBOLE ⠆⢄⡂⠢ < 
 
  # PRÄFIX
- PRÄFIX ⠆⢄⡂⠤ PR
- PRÄFIX ⠆⢄⡂⠨ PR
- PRÄFIX ⠆⢄⡁⡂ PR
- PRÄFIX ⠆⢄⡁⡄ PR
- PRÄFIX ⠆⢄⡁⡈ PR
- PRÄFIX ⠆⢄⡁⡐ PR
- PRÄFIX ⠆⢄⡁⡠ PR
+ PRÄFIX ⠆⢄⡂⠤ PL-STECKSCHLÜSSEL
+ PRÄFIX ⠆⢄⡂⠨ PL-SKIN
+ PRÄFIX ⠆⢄⡁⡂ PL-STEUERUNG
 
  # AXIOM | PRODUKT BAUEN
  AXIOM ¡ TT ⦻ TT Ξ SY
@@ -150,10 +146,10 @@ MUTTERWABEN-KATEGORIE ⠆⢄⡈⢐ STARTWABE
  AXIOM ¡ SY ⧓ SY Ξ PD
 
  # PRODUKT
- PRODUKT PD
- PRODUKT PD
- PRODUKT PD
- PRODUKT PD
+ PRODUKT ⠆⢄⡁⡠
+ PRODUKT ⠆⢄⡁⡐
+ PRODUKT ⠆⢄⡁⡈
+ PRODUKT ⠆⢄⡁⡄
  PRODUKT PD
  PRODUKT PD
  PRODUKT PD
