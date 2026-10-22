@@ -50,6 +50,9 @@
 /PYLOVARA-SYSTEM/EXTRAS/BETA/PKS-00-80.system-kernel
 /PYLOVARA-SYSTEM/EXTRAS/BETA/PKS-00-81.system-kernel
 
+# SICHERHEIT
+/PYLOVARA-SYSTEM/MELDUNG/
+
 ####################################################################
 # HINWEIS: Falls der Ordner bereits im Git-Index ist:
 # Befehl: git rm -r --cached Pylovara/Handbuch/DevNotes/

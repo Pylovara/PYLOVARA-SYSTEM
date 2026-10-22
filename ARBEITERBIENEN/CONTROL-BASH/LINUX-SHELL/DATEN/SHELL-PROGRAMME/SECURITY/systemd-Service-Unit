@@ -5,7 +5,7 @@ After=network.target
 
 [Service]
 Type=simple
-ExecStart=/PYLOVARA-SYSTEM/ARBEITERBIENEN/CONTROL-BASH/LINUX-SHELL/DATEN/SHELL-PROGRAMME/Security/pylowatchd.sh
+ExecStart=/PYLOVARA-SYSTEM/ARBEITERBIENEN/CONTROL-BASH/LINUX-SHELL/DATEN/SHELL-PROGRAMME/SECURITY/pylowatchd.sh
 Restart=always
 RestartSec=10
 Nice=19

@@ -9,7 +9,7 @@ _dna_completions() {
     COMPREPLY=()
     cur="${COMP_WORDS[COMP_CWORD]}"
 
-    local cmds=$(cd /Pylovara/System/Shell/CMD && $Vara_Dir/ls.vara *.cmd-dna 2>/dev/null | $Vara_Dir/sed.vara 's/.dna-cmd$//')
+    local cmds=$(cd /PYLOVARA-SYSTEM/ARBEITERBIENEN/CONTROL-BASH/LINUX-SHELL/DATEN/SHELL-PROGRAMME/CMD && $Vara_Dir/ls.vara *.cmd-dna 2>/dev/null | $Vara_Dir/sed.vara 's/.dna-cmd$//')
 
     COMPREPLY=( $(compgen -W "$cmds" -- "$cur") )
 }
