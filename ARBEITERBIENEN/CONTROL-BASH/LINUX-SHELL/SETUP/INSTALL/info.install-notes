@@ -7,33 +7,21 @@ cd /PYLOVARA-SYSTEM/ARBEITERBIENEN/CONTROL-BASH/LINUX-SHELL/SETUP/INSTALL
 
  ALLE MÖGLICHKEITEN, VORHANDEN.
 
+
+
+
+
+
+
+
+
+
 ###====================================|====================================###
 ### MCS-SHELL
 
  Möchtest du die MCS-SHELL, dann verwende bitte
 
 sudo ./full.install-core
-
-###====================================|====================================###
-### PAKET-UPDATER
-
- Möchtetest du vara pakete updaten unter archlinux , verwende bitte
-
-sudo ./paket.updater-core
-
-###====================================|====================================###
-### SYSTEM-UPDATER
-
- Möchtest du ein Pylovara System Update dann Verwende bitte
-
-sudo ./pylovara.updater-needle
-
-###====================================|====================================###
-### CHAT INSTALL
-
- Möchtest du zuckünftig in das Pylovara Chat Netzwerk dann installiere bitte
-
-sudo ./nc.install-core
 
 ###====================================|====================================###
 ### IMPRESSUM
