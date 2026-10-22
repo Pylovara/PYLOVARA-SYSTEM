@@ -1,5 +1,0 @@
-# Intern
-
-sudo systemctl enable --now /PYLOVARA-SYSTEM/ARBEITERBIENEN/CONTROL-BASH/LINUX-SHELL/DATEN/SHELL-PROGRAMME/SECURITY/pylowatchd.service
-
-
