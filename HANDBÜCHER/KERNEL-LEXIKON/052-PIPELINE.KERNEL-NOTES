@@ -143,10 +143,34 @@ MUTTERWABEN-KATEGORIE ⠆⢄⡈⢐ STARTWABE
  SYMBOLE ⠆⢄⡄⢠ →
  SYMBOLE ⠆⢄⡄⠃ ↑
 
- # PRÄFIX
+ # PRÄFIX PRIMÄR
  PRÄFIX ⠆⢄⡂⠤ PL-STECKSCHLÜSSEL
  PRÄFIX ⠆⢄⡂⠨ PL-SKIN
- PRÄFIX ⠆⢄⡁⡂ PL-STEUERUNG
+#PRÄFIX ⠆⢄⡁⡂ PL-STEUERUNG
+
+ # PRÄFIX STEUERUNG 1 KANAL
+ PRÄFIX ⠆⢄⡄⡐ PL-LU
+ PRÄFIX ⠆⢄⡂⡈ PL-LH
+ PRÄFIX ⠆⢄⡂⡐ PL-LL
+ PRÄFIX ⠆⢄⡂⡠ PL-LR
+ PRÄFIX ⠆⢄⡂⢁ PL-RU
+ PRÄFIX ⠆⢄⡂⢂ PL-RH
+ PRÄFIX ⠆⢄⡂⢈ PL-RL
+ PRÄFIX ⠆⢄⡂⢐ PL-RR
+
+ # PRÄFIX STEUERUNG 2 KANAL
+ PRÄFIX ⠆⢄⡁⢐ 
+ PRÄFIX ⠆⢄⡁⢠ 
+ PRÄFIX ⠆⢄⡁⣀ 
+ PRÄFIX ⠆⢄⡂⠃
+ PRÄFIX ⠆⢄⡄⠅
+ PRÄFIX ⠆⢄⡄⠉
+ PRÄFIX ⠆⢄⡄⡂
+ PRÄFIX ⠆⢄⡄⡈
+ PRÄFIX ⠆⢄⡂⢠
+ PRÄFIX ⠆⢄⡂⣀
+ PRÄFIX ⠆⢄⡂⠅
+ PRÄFIX ⠆⢄⡂⠉
 
  # AXIOM | PRODUKT BAUEN
  AXIOM ¡ TT ⦻ TT Ξ SY
