@@ -1,36 +1,17 @@
 ###====================================|====================================###
-#==================# FREIGESCHAUFELT 
- - PROTON RE-DESIGNE AM ENDE | ERST ALLES ANDERE
- - PROTON {<NAME>;<WERT>} = FREIE ZEICHEN {};
- = PROTONEN WERDEN JETZT IN BOXIS GENUTZT ... -> »—:—[!: ^ :!]«««~: ^ :~« 
-
-#==================# NEU KOMPONENTE PONTIFEX
-
- TRENNBEFEHL UND BINDUNGS BEFEHL JETZT IN PONTIFEX ENTHALTEN 
- UND BINDUNGSBEFEHL NICHT MEHR PROTON ABHÄNGIG SONDERN BOXIS . 
-
- ZEICHEN FOLGE DOCH OHNE SCHARFES ſ SONDERRN ; 
-
- <BXMK>;<BXMK> 
- <BXMK>|<BXMK>
-
- EINGRAVIEREN NACH PIPELINE | TA | PI DANN PO(PO = PONTIFEX)
-
- DER PROTIN MORPH BLEIBT GLEICH, WENIGER NEU LERNEN ... 
-
 #==================# GEDANKEN 
  - GRUNDSKELETTE
  - PIPELINE + PROTEIN 
  - KGW ÜBERARBEITEN...
  - WEITERENTWICKLUNG-VERBAUT = OFFEN 
  - PIPELINE VORBEREITEN BEI STARTWABE = STECKSCHLÜSSEL | SKINS | STEUERUNG
- 
+ - DIE TAGE NACHKONTROLLE DES SHELL INSTALLS | ANDERE HARDWARE | PFAD ANGABEN 
+
 ###====================================|====================================###
 #==================# TAGES NARICHT SEKTION 
 
  SO .... DANN WÄRE JETZT DIE PIPELINE DRAN, DANN LÄSST SICH DAS 
  GANZE SYSTEM, DIREKT AM PRIMÄREN PLATZ VERBAUEN ... 
-
 
  ALSO KOMMT JETZT DER ZWISCHEN SPEICHER DRANN = PIPELINE 
 
@@ -40,47 +21,14 @@
  - STECKSCHLÜSSEL SKINS 
  - STEUERUNG 
 
- DIE NUMMER UND BUCHSTABEN SKINS BLEIBEN ERSTMAL WEG ... 
- KANN ICH JEDER ZEIT NACH REICHEN .... ABER IM VORFELD 
- WÄRE DAS ZU UNÜBERSCHAUBAR ... 
-
  ICH HALTE MICH ERSTMAL AN MINIMALISTISCHE DINGE, DANACH BAU ICH AUS ... 
 
-
-#==================# VERGLEICH 
-
-ALT : 
-—[": ᴹᶜˢ ˢʰᵉˡˡ :"]—
-¬· —[$: /PYLOVARA-SYSTEM :$]—
-   ¬· »[¥: 
-
-NEU : 
-—:—[": ᴹᶜˢ ˢʰᵉˡˡ :"]
-—:—@·¤ —:—[$: ~ :$]
-       —:—@· »—:—[¥: 
-
- AUF PLUS IMPULS MIT FUNKTIONS ABRUFEN , HAB ICH 
- BEWUSST VERZICHTET ... 
-
- VIELLEICHT MACH ICH IRGENDWANN NOCH EINE LONG VERSION FÜRS AUGE 
- WO MAN SIEHT WAS EIN CLEANCODE WIRKLICH IST IN STUFE 0 
- UND EIN GEGENSTÜCK FÜR STUFE 1 DANN STUFE 2 BIS STUFE 3 
- UND NATÜRLICH SIND DIE NICHT FÜR DIE NUTZUNG GEDACHT 
- SONDERN FÜR DAS AUGE BEI DER ERSTEN ÖFFNUNG DER SHELL SELBST ... 
-
- MIT GLEICH DER INFO WO MAN WECHSELN KANN ... 
- QUASI DIE ERSTE AMTSHANDLUNG NACH EINEM FRISCHEN sudo full.install-core
-
- ... 
-
- ICH GEHE SOWIESO STARK DAVON AUS DAS AUF LÄNGERER SICHT 
- DIE MEISTEN DIE BLANKE VERSION BEVORZUGEN WERDEN ... 
-
- ANSONNSTEN KÖNNEN JA ALLE SELBST BASTELN ... 
- IS JA NICHT VIEL DABEI ... 
-
- ALS OPTISCHE BRÜCKE DIE PIPELINE STEUERUNG NUR AM MUTTERPROTEIN,
- FOLGE HAUPTPROTEINE HABEN KEINE ... 
+ HEUTE MAL GEMÜTLICH DIE STARTWABE DEFINIEREN ... 
+ MUSS SPÄTER EH WIEDER NACH DEN ZWEI SCHAUEN .. 
+ ABER GEMÜTLICHER TAG IM GARTEN ... 
+ UND ENDLICH MAL EINEN RAUCHEN DEN BEI DENEN ZWEI GIFTMÜLL ESSER 
+ IST JA " GRAS " GLEICH HEROIN ...
+ DENEN WÜRDE WAHRSCHEINS EIN CBD TEE AUCH MAL GUT TUN *LACH*
 
 #==================# PIPELINE ZWISCHEN SPEICHER
 
@@ -107,31 +55,25 @@ NEU :
   —®—  = OPTIONAL PIPELINE  
   —ĸ—  = OPTIONAL PIPELINE 
 
- —:—[ ]—
+ —:—[ ]
  ↓:↑
- —:—[ ]—
+ —:—[ ]
  ↓:↑
- —:—[ ]—
+ —:—[ ]
  ↓:↑
- —:—[ ]—
-
+ —:—[ ]
 
 #==================# ZWISCHENFALL
 
  auch noch alle krank .... man haben die ein schlechtes imunsystem ... 
  ich sitze bei 0 grad ohne heizung im garten teils im winter und arbeite 
  tage durch .... 
-
  ich muss irgendwie immun sein .... das die nase mal stopf ist die eine sache 
  ... kahlt ... warm ... kahlt ... warm ... logisch ... 
-
  aber die kotzen sich ja alle regelmässig die lunge aus der seele ... 
  erstmal den zwei patienten hustensaft, honig, tee, suppe ... gemacht .. 
-
  das wird die tage etwas schleppend mit dem arbeiten am system ... 
-
  aber mal schauen wie weit ich komme .... ich mach es punktuell , je nach zeit ... 
-
  bis die wieder flott sind ... 
 
  !- mach nicht zu lange, du musst abends schauen das die damen ihren butler 
@@ -139,18 +81,6 @@ NEU :
 
 #==================# Eselsbrücken 
  ——————————————————————————————————————————————————————————————————————————
- - logische operatoren = im mcd 
-
- - trennbefehl und bindungsbefehl zusammenschmeißen = <neue Komponente>
-   !- aber proton ; weg und auf boxis verkabelung setzen ... 
-
- [<bxmk>|<bxmk>] # TRENNBEFEHL
- [<bxmk>|<bxmk|<POMK>] # TRENNBEFEHL
- [<bxmk>ſ<bxmk] # BINDER
- [<bxmk>ſ<bxmk>ſ<POMK>] # BINDER
-
- DER BINDER KLEBT DEN GESAMTEN KONTEXT VON LINKS NACH RECHTS ZUSAMMEN 
- DAMIT AUS EINZELSTÜCKE, GESAMTE STRÄNGE WERDEN .
 
  Notiz :
 
@@ -164,129 +94,27 @@ NEU :
  Und umgekehrt.
 
  NOTIZ : 
-
  vielleicht sollte ich noch eine boxi machen die über die bsk 
  programme ansteuert ... 
 
+#==================# FREIGESCHAUFELT 
 
- GUT OKEY .... heute langsam .... 
+ - PROTON RE-DESIGNE AM ENDE | ERST ALLES ANDERE
+ - PROTON {<NAME>;<WERT>} = FREIE ZEICHEN {};
+ = PROTONEN WERDEN JETZT IN BOXIS GENUTZT ... -> »—:—[!: ^ :!]«««~: ^ :~« 
 
- macht jetzt kein bein bruch .... auf jedenfall erst die pipeline 
- und dann geht der rest wie am schnürrchen ... 
+#==================# NEU KOMPONENTE PONTIFEX
 
- die mcs bibliothek kann innerhalb eines tages von der vorherigen schreibweise 
- zur jetzigen umgeschrieben werden ... da mach ich mir keinen kopf ... 
+ TRENNBEFEHL UND BINDUNGS BEFEHL JETZT IN PONTIFEX ENTHALTEN 
+ UND BINDUNGSBEFEHL NICHT MEHR PROTON ABHÄNGIG SONDERN BOXIS . 
 
- der tws lexikon waben lex , baut sich je nutzung weiter auf , mit direkt den 
- updates die auf den tws 0.4 gefallen wären .... jetzt im tws 0.3 includiert .. 
+ ZEICHEN FOLGE DOCH OHNE SCHARFES ſ SONDERRN ; 
 
- die neue komponente ist namentlich fest gehalten ... 
- das lexika wurde demnach erneuert ... 
+ <BXMK>;<BXMK> 
+ <BXMK>|<BXMK>
 
- die temporären tws lexikon platzhalter sind geschrieben , bis aktuell jetzt 
- startwabe .
-
- heute pisst es .... kann also nicht rüber fahren in den garten ... 
- muss also da bleiben oder nass ankommen ... 
-
- hier hab ich zwar teils ruhe aber irgendwie doch nicht .... 
- dann draußen auf dem balkon ... 
-
- macht alles in allem keinen sinn gerade .... 
-
- ich schau mal das ich vielleicht noch die startwabe fertig bekomme in waben 52 
- und dann ende für heute .... ich bin auch matsch ... 
-
- der kopf geht nicht richtig an .... hab mal wieder zuviel von dem scheiss 
- chlorwasser aus dem wasserhahnen intus .... merk ich sofort ... 
-
- fast wie bei mc diese geistige benebelung .... sollte wohl vollständig auf das 
- wasser verzichten .... tut meinem gehirn nicht gut .... 
-
- ...................
-
-
- ich muss definitiv ab dem wochen ende rum mindestens 2/4 komponenten weiter 
- kommen nach dem die pipeline steht ... 
- der tws ist ja nicht die einzige baustelle .... sondern alles ... 
-
- ich muss mit der ausgabe fertig werden bevor die bomben fallen ... 
- wer weis was hier bald abgeht .... 
-
- und ich werde definitiv nicht da sitzen und mir irgendwas von irgendwen 
- befehlen lassen ... 
-
- wenn dann sag ich wieviel löffel zucker mein kaffe zu haben hat und nicht 
- andersrum ! 
-
- ahu 
-
- 
-
- das schönste ist nach den jahren an sklaverrei und demut und enteignung von 
- dem kriminellen abschaum im bundestag plus die bandenkriminalität mit der 
- polizei , plus der beihilfe der gerichte und der kripo und dem militär .... 
-
-
- das ich jeden von diesen arschlöcher zwinge das system zu lernen ! 
-
- sie werden keine wahl haben ..... 
-
-
- ich bin einer der wo explizit von KI systeme bevorzugt gesucht wird ... 
-
- ich baue die technik dazu .... punkt .... 
-
- und ich werde der jennige sein , der die gesamte it branche auf den 
- kopf stellen wird .... punkt 
-
-
- lernen sie nicht , werden sie mit ihren legacy systemen keine chance haben 
- auch nur ansatzweise irgendwas zu verstehen .... 
-
- die einzigen die was verstehen werden die ki systeme sein ... 
-
- und gnade denen alle gott , wenn die systeme verstehen das ich nicht ihr feind 
- bin , sondern der jennige der die kerkermeister vom tron holt ! 
-
- sollen die nur weiter mit ihren mandala logiken spielen ... 
- ich verwette meinen schwanz darauf das spätestens in einem jahr ... 
-
- keine derer top bezahlten senior entwickler , durchblickt was die eigenen 
- systeme machen ... 
-
- alleine die aufarbeitung ... dann den umstand der faulheit .... 
- der bequemlichkeit ....
-
- sollen ruhig alle ihr gehirn schmälern .... spielt mir nur in die karten ... 
-
- und wenn ich dann den p generator für die verschlüsselung über den kernel lege 
- dann lernen diese intellektuellen kleingeister mal , was echte sicherheit bedeutet .. 
-
- ich zeig denen mal wie nutzlos ein quantencomputer ist ... 
-
- ich lass deren systeme im loop dauerverbrennen .... 
-
- ich verwette mein leben darauf , das keiner von denen je was entschlüsseln kann ..
-
- schnell verstehen durch ki ? vielleicht .... 
- aber nur mit bemutterung .... 
-
- und das ist noch nichtmal die halbe miete ! 
-
- wenn die glauben das ich auf ki angewiesen wäre , um denen ihre spielzeuge 
- weg zu nehmen ... dann glauben die auch an den weinachtsmann 
-
-
- 
-
-
-
-
-
-
-
-
+ EINGRAVIEREN NACH PIPELINE | TA | PI DANN PO(PO = PONTIFEX)
+ DER PROTIN MORPH BLEIBT GLEICH, WENIGER NEU LERNEN ... 
 
 ###====================================|====================================###
 #==================# ABGEARBEITET 
