@@ -237,3 +237,37 @@
  hmmm ... 
 
 
+
+ noch smarter 
+
+  trennen wäre quasi = links | rechts = sequenziell 
+  binder wäre quasi = links & rechts  = parallel 
+
+
+aber dann verlier ich die schnittstelle für zukünftige inhalte ... 
+
+besser wäre || und && und mittig die schnittstelle : 
+
+|*| &*&
+
+
+wäre dann möglich die abfolge logiken auszubauen 
+
+
+|A| = SEQUENZIELL SEQUENZIELL
+|B| = SEQUENZIELL PARALELL 
+|C| = PARALELL PARALELL 
+|D| = PARALELL SEQUENZIELL
+
+
+ Hmm ... 
+
+
+
+
+
+
+
+
+
+
