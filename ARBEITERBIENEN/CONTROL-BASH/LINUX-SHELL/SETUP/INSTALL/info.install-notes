@@ -106,6 +106,37 @@ GEBRAUCHEN KÖNNEN.
    ERLEDIGEN MÜSST UND GEGEBENENFALLS DANN EUERE DESKTOP WIEDER EINRICHTEN 
    BEI DEN CONFIGS. 
 
+DIES WÄREN DIE AUSWIRKUNGEN DESSEN WAS DANN DEAKTIVIERT IST : 
+
+—:—[": ᴹᶜˢ ˢʰᵉˡˡ :"]
+—:—@·¤ —:—[$: ~ :$]
+       —:—@· »—:—[¥: sudo pacman -Syyu
+[sudo] Passwort für bandino: 
+:: Paketdatenbanken werden synchronisiert …
+ core 128,5 KiB   500 KiB/s 00:00 [----------------------] 100%
+ extra 8,4 MiB   8,4 MiB/s 00:01 [----------------------] 100%
+ multilib 84,0 KiB   416 KiB/s 00:00 [----------------------] 100%
+:: Vollständige Systemaktualisierung wird gestartet …
+Warnung: aquamarine: Ignoriere Paket-Aktualisierung (0.14.0-2 => 0.15.1-1)
+Warnung: hyprland: Ignoriere Paket-Aktualisierung (0.56.2-1 => 0.56.2-4)
+Warnung: hyprutils: Ignoriere Paket-Aktualisierung (0.14.1-1 => 0.14.2-1)
+Abhängigkeiten werden aufgelöst …
+Warnung: Ignoriere Paket aquamarine-0.15.1-1
+Warnung: Kann "libaquamarine.so=14-64" nicht auflösen (eine Abhängigkeit von "hyprtoolkit")
+Warnung: Ignoriere Paket aquamarine-0.15.1-1
+Warnung: Kann "libaquamarine.so=14-64" nicht auflösen (eine Abhängigkeit von "hyprtoolkit")
+Warnung: Kann "libhyprtoolkit.so=6-64" nicht auflösen (eine Abhängigkeit von "hyprland-guiutils")
+Warnung: Ignoriere Paket aquamarine-0.15.1-1
+Warnung: Kann "libaquamarine.so=14-64" nicht auflösen (eine Abhängigkeit von "hyprtoolkit")
+:: Die folgenden Pakete können aufgrund nicht auflösbarer Abhängigkeiten nicht aktualisiert werden:
+      hyprland-guiutils  hyprtoolkit
+
+:: Möchten Sie die oben genannten Pakete bei dieser Aktualisierung überspringen? [j/N] j
+
+
+ DIES SOLLTRE MAN WISSEN, SIND ABER ALLES UNKRITISCHE PAKETE, DA SIE SICH 
+ LEDIGLICH NUR AUF DAS GANZE GUI AUSWIRKEN - UNVERÄNDERTE DATEN HALT.
+
 ###====================================|====================================###
 ### VARA PAKETE
 
