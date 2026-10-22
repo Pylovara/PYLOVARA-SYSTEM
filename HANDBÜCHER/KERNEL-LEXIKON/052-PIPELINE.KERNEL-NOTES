@@ -149,17 +149,17 @@ MUTTERWABEN-KATEGORIE ⠆⢄⡈⢐ STARTWABE
 #PRÄFIX ⠆⢄⡁⡂ PL-STEUERUNG
 
  # PRÄFIX STEUERUNG 1 KANAL
- PRÄFIX ⠆⢄⡄⡐ PL-LU
- PRÄFIX ⠆⢄⡂⡈ PL-LH
- PRÄFIX ⠆⢄⡂⡐ PL-LL
- PRÄFIX ⠆⢄⡂⡠ PL-LR
- PRÄFIX ⠆⢄⡂⢁ PL-RU
- PRÄFIX ⠆⢄⡂⢂ PL-RH
- PRÄFIX ⠆⢄⡂⢈ PL-RL
- PRÄFIX ⠆⢄⡂⢐ PL-RR
+ PRÄFIX ⠆⢄⡄⡐ PL-UX
+ PRÄFIX ⠆⢄⡂⡈ PL-HX
+ PRÄFIX ⠆⢄⡂⡐ PL-LX
+ PRÄFIX ⠆⢄⡂⡠ PL-RX
+ PRÄFIX ⠆⢄⡂⢁ PL-XU
+ PRÄFIX ⠆⢄⡂⢂ PL-XH
+ PRÄFIX ⠆⢄⡂⢈ PL-XL
+ PRÄFIX ⠆⢄⡂⢐ PL-XR
 
  # PRÄFIX STEUERUNG 2 KANAL
- PRÄFIX ⠆⢄⡁⢐ 
+ PRÄFIX ⠆⢄⡁⢐ PL-
  PRÄFIX ⠆⢄⡁⢠ 
  PRÄFIX ⠆⢄⡁⣀ 
  PRÄFIX ⠆⢄⡂⠃
