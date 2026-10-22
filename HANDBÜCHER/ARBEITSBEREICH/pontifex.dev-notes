@@ -254,11 +254,16 @@ besser wäre || und && und mittig die schnittstelle :
 wäre dann möglich die abfolge logiken auszubauen 
 
 
+ # getrennte verarbeitung aber in folge von 
 |A| = SEQUENZIELL SEQUENZIELL
 |B| = SEQUENZIELL PARALELL 
 |C| = PARALELL PARALELL 
 |D| = PARALELL SEQUENZIELL
 
+ # verbundene verarbeitung in folge von 
+ &A& = BEIDES 
+ &B& = LINKS ZUERST
+ &C& = RECHTS ZUERST
 
  Hmm ... 
 
