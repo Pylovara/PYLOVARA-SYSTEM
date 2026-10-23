@@ -66,6 +66,268 @@
  DIE MÜSSEN IHRE WEHWECHEN JETZT SELBST REGELN ... 
  DAS ERWARTE ICH ! 
 
+
+
+ bei näherer betrachtung wäre es eigentlich sinnvoll die steuerung selbst 
+ mit dem steckschlüssel zu verbinden  
+
+
+ das hieße ich sollte darüber nach denken 
+
+ ob ich quasi 
+
+ —:— ( also egal welchen skin ) 
+
+ die — und — elemente für den austausch der steuerung 
+ nehmen 
+
+
+ wenn ich den steckschlüssel selbst auf die mittige 
+ symbole reduzieren würde ... könnte ich rechts und links davon 
+ aggieren ... 
+
+ oder vollständig drauf verzichten und direkt in die steuerung rein knallen 
+  
+
+ würde heißen statt :  
+
+ →:↓[ ]
+ ↑:↓
+ ↑:↓¶@· →:↓[×: 2 ++ 2 :×;×: ÷÷ 2 :×]
+ ↑:↓    ↑:↓ 
+ ↑:↓    ↑:↓@·¤¤  :→[×: ^ :×]
+ ↑:↓
+ ↑:↓Ω@·
+ ↓:↑
+
+ wäre dann aber das alte designe von vorversionen, wo es noch gar keine 
+ —[]— on pipe gab 
+ @·¤ 
+
+ also
+
+ [*************]
+ ¬·
+
+ dann wäre optisch gesehen wieder alles eckelhaft ... 
+ sieht einfach auch fürs blose auge scheiße aus ... 
+
+ gehinr technisch auch doof ... 
+
+ also muss ich den steckschlüssel mit der steuerung 
+ zur auswahl setzen für eine kreis oder einspeißungs logik 
+
+ würde aber bedeuten ich muss die pipeline steuerung abändern ... 
+
+ jetzt gehts noch .... 
+
+
+
+ ich müsste die steueerung auf eine drei schienen netz legen ... 
+
+ ↓↓←
+ 
+ z.b 
+
+ oder rein und raus ←→ auf ein symbol legen ... sagen wir 
+
+ ↑↓:@· 
+
+ dann bräuchte der steckschlüssel selbst ein rein raus symbol 
+
+ und die links davon die steuerung ... 
+ rechts davon der einraster 
+
+ **** <-- 
+
+ <steuerung><rein-raus-symbol><einraster>
+
+ hmmmm .... 
+
+ wie würde es aussehen ? 
+
+ →↓©[**********]
+ ↑↓
+ ↑↓@·
+
+ hmmm .... sieht scheiße aus ... designe ist wichtig ... 
+
+ also dann doch die alte syntax .... nur mit steuerungs zusatz ? 
+
+ →↓—[]
+ ↑↓
+ ↑↓¬· —[]
+ ↑↓
+
+
+ →↓← = mutter protein ... 
+ 
+ ↑↓←→ = hauptprotein etc ... 
+
+ und ab da die selbe steuerung ... hmmmm 
+
+ wenn ich die pipeline generell als steuerung raus arbeite 
+ dann wäre die steuerung selbst dann im steckschlüssel 
+
+ und der steckschlüssel im —[ anfang ... 
+
+ das würde bedeuten .... ich muss die syntax nicht weiter verbessern ... 
+
+ sie ist schon an der spitze ihrer entwicklung ... 
+
+ jetzt versteh ich .... der „ unicon ausfall “ vor paar tagen als ich 
+ das hallo welt geschrieben habe , in der gottesausführung 
+
+ war an mich gerichtet , weil es schon finisch wahr ? 
+
+ naja ... einbildung ist auch eine bildung , nur keine gute * lach + 
+
+ es lässt sich aber viel besser arbeiten wenn der shit granular ausführlich ist 
+ gerade bei der entstehung selbst ... 
+
+ der tws selbst steuert mcs ... in mcs wird dann alles weitere programmiert ... 
+
+ ist der tws überhaupt nötig ? 
+
+ übertreibe ich ? 
+
+ bin ich zu komplex im denken ? 
+
+ ich weis nicht .... ich glaube nicht .... 
+
+ ein kernel brauch microcode ... ohne den kein nichts ... 
+
+ also brauch ich microocode .. und zwar gleich mit dem assembler austausch .. 
+
+ den der wird überflüssig durch bare metal ... 
+
+ eigentlich sollte ich lieber bios und uefi im fokus haben ... 
+
+ wäre bei einer eigenen hardware produktion dann selbstverständlich 
+ ebenfalls überflüssig ... 
+
+ ich kann das ganze noch viel nativer implementieren als ich geglaubt habe .... 
+
+ wenn ich die pipeline .... als " micro managment* betrachte und ihn nutze 
+ um die pipeline in mcs zu steuern ... 
+
+ könnte ich sogar unter umständen , wenn ich die iot kenne ... 
+
+ die eingebrannten driver umgehen .... 
+
+ das würde bedeuten uefi ist nutzlos ... 
+
+ direkte übergang zur cpu ... 
+
+ in mcs wird eh alles von der ersten funktion an selbst gesetzt ... 
+
+ für was brauch ich uefi ? 
+
+ macht keinen sinn .... ja doch schon aber nur bei der billigen fremden 
+ cpu architekturen andere anbieter .... habs ja nicht gebaut ... 
+
+ könnte ich aber bei eigener hardware selbst bestimmen ... 
+
+ deutsche hardware technik plus kernel .... jamjam .... 
+
+ würde meinem BMC zu gunsten kommen .... 
+
+ da bau ich eh alles selber ... 
+
+
+ würde bedeuten .... ich bin fertig ... ich wills nur besser ... 
+
+ ich entwickle auf besser zu und nicht auf machbarkeit ... 
+
+
+ die machbarkeit ist bewiesen .... das zertifikat sagt alles 
+
+
+ ich hab bewiesen das es geht .... 
+ warum also einen syntax wechsel ? 
+
+ fürs auge ? 
+
+ im grunde wäre die steuerung selbst sogar nur ein flipp automatisierter mechanismus 
+
+ von 
+
+
+ →↓← = mutter protein ... 
+ 
+ ↑↓←→ = hauptprotein etc ... 
+
+ mehr nicht .... ein einfacher 2 kanal multiplexer .... nix kompliziertes .. 
+
+ extrem leichtgewichtig und extrem zuverlässig ... 
+
+ im grunde per stromimpuls , von welcher seite er kommt ... 
+ und wo die enden sind ...
+
+ die syntax lässt es zu .... gott bin ich stolz auf das .... 
+
+ dann stellt sich jetzt die frage : 
+
+ soll ich überhaupt weiter entwickeln und härtenoder mcs 7.4 als endgültig 
+ annerkennen  ? 
+
+ ich mein ... das SSP wäre zukunfts sicher .... 
+
+ weit aus sicherer als die c block logik ... 
+
+ weit aus zuverlässiger ... 
+
+ und per zytron wären go geschichten dann obsolet ... 
+
+ hmmm ... 
+
+ ich glaub ich hab ein anderes problem .... 
+
+ ich will die welt demütigen .... deswegen mach ich es noch 
+ besser ... 
+
+ weniger wegen dem zweck ... mehr für die unangefochtene fakten ... 
+
+ soll keiner sagen ich labber scheiße ... eher _ ja er hat recht .. 
+
+ na gut , was wären die optionen ? 
+
+ der krieg kommt , so oder so ... 
+
+ sie werden schreien nach fachpersonal .. so oder so ... 
+
+ ich kann liefern ... so oder so ... 
+
+
+ unbegrenzte mittel = direkte marktfähige hardware und kernel ... 
+
+ ich muss im grunde nur hinter 2-4 leute am tisch sitzen  
+
+ die monitore müssen groß genug sein auf der wand .. 
+
+ ich sag was gemacht wird .. sie schreiben live vor meinem auge 
+
+ und boomb ... finish ... 
+
+ ohne stress ... 
+
+ also kann ich die einfache syntax jederzeit auf dem style 
+ machen ... 
+
+ soll ich auf meinen inneren wichser hören ? 
+
+„ klatsch die neue syntax als doktor arbeit hin und zeige denen das ein 
+  titel nichts wert ist wenn du den kopf nicht besitzt  “
+
+ oder nicht .... 
+
+ hmmmm .... 
+
+ 
+
+
+
+
 #==================# PIPELINE ZWISCHEN SPEICHER
 
 »—©—[¥: <NAME> :¥]«««~: BAUMODUS FUNKTION SPEICHER EINGANG :~«
