@@ -1,0 +1,3961 @@
+[
+ {
+  "pfad": "BASIS-FUNKTIONEN/BOXIS/BX-ABI",
+  "bytes": 371,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 4,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [
+   ""
+  ],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠾⠗"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "BASIS-FUNKTIONEN/BOXIS/BX-ALU",
+  "bytes": 371,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 4,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠾⠞"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "BASIS-FUNKTIONEN/BOXIS/BX-MASCHINENCODE",
+  "bytes": 410,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 4,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠾⠝"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "BASIS-FUNKTIONEN/BOXIS/BX-MCD",
+  "bytes": 363,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 3,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠾⠑"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "BASIS-FUNKTIONEN/BOXIS/BX-NET",
+  "bytes": 370,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 3,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠾⠒"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "BASIS-FUNKTIONEN/BOXIS/BX-OPCODE",
+  "bytes": 380,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 4,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠾⠐"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "BASIS-FUNKTIONEN/BOXIS/BX-PFAD",
+  "bytes": 364,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 3,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠾⠓"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "BASIS-FUNKTIONEN/BOXIS/BX-PRINT",
+  "bytes": 370,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 4,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠾⠟"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "BASIS-FUNKTIONEN/BOXIS/BX-SHELL",
+  "bytes": 370,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 4,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠾⠔"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "BASIS-FUNKTIONEN/BOXIS/BX-SYSCALL",
+  "bytes": 374,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 4,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠾⠕"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "BASIS-FUNKTIONEN/BOXIS/BX.EINGABE",
+  "bytes": 382,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 4,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠾⠖"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "BASIS-FUNKTIONEN/BOXIS/VERMERK.DEV-NOTES",
+  "bytes": 838,
+  "zeilen": 19,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 6,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 2,
+  "abrufe": 2,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠾⠊",
+   "⠀⠾⠗"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "BASIS-FUNKTIONEN/MATHEMATIK/PLATZHALTER/BASIS/R1",
+  "bytes": 466,
+  "zeilen": 14,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 4,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUFRUF",
+   "BAUMODUS FUNKTION SPEICHER AUFRUF",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 2,
+  "abrufe": 2,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠾⡅",
+   "⠀⠾⡆"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "BASIS-FUNKTIONEN/MATHEMATIK/PLATZHALTER/BASIS/R2",
+  "bytes": 466,
+  "zeilen": 14,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 4,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUFRUF",
+   "BAUMODUS FUNKTION SPEICHER AUFRUF",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 2,
+  "abrufe": 2,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠾⡃",
+   "⠀⠾⡄"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "BASIS-FUNKTIONEN/MATHEMATIK/PLATZHALTER/ELEMENT/1",
+  "bytes": 355,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 4,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [
+   "EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke()"
+  ],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠾⡀"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "BASIS-FUNKTIONEN/MATHEMATIK/PLATZHALTER/ELEMENT/2",
+  "bytes": 355,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 4,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [
+   "EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke()"
+  ],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠾⡁"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "BASIS-FUNKTIONEN/MATHEMATIK/PLATZHALTER/ELEMENT/3",
+  "bytes": 355,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 4,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [
+   "EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke()"
+  ],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠾⡂"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "BASIS-FUNKTIONEN/MATHEMATIK/PLATZHALTER/PRÄFIX/*",
+  "bytes": 355,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 4,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [
+   "EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke()"
+  ],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠾⡏"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "BASIS-FUNKTIONEN/MATHEMATIK/PLATZHALTER/PRÄFIX/R",
+  "bytes": 355,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 4,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [
+   "EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke()"
+  ],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠾⡎"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "BASIS-FUNKTIONEN/MATHEMATIK/RECHEN-OPERATOR/ADD",
+  "bytes": 0,
+  "zeilen": 0,
+  "utf8": true,
+  "klasse": "LEER",
+  "bloecke": 0,
+  "labels": [],
+  "zuweisungen": 0,
+  "abrufe": 0,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [],
+  "crlf": false
+ },
+ {
+  "pfad": "BASIS-FUNKTIONEN/MATHEMATIK/RECHEN-OPERATOR/DIV",
+  "bytes": 0,
+  "zeilen": 0,
+  "utf8": true,
+  "klasse": "LEER",
+  "bloecke": 0,
+  "labels": [],
+  "zuweisungen": 0,
+  "abrufe": 0,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [],
+  "crlf": false
+ },
+ {
+  "pfad": "BASIS-FUNKTIONEN/MATHEMATIK/RECHEN-OPERATOR/DIVU",
+  "bytes": 0,
+  "zeilen": 0,
+  "utf8": true,
+  "klasse": "LEER",
+  "bloecke": 0,
+  "labels": [],
+  "zuweisungen": 0,
+  "abrufe": 0,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [],
+  "crlf": false
+ },
+ {
+  "pfad": "BASIS-FUNKTIONEN/MATHEMATIK/RECHEN-OPERATOR/IDIV",
+  "bytes": 0,
+  "zeilen": 0,
+  "utf8": true,
+  "klasse": "LEER",
+  "bloecke": 0,
+  "labels": [],
+  "zuweisungen": 0,
+  "abrufe": 0,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [],
+  "crlf": false
+ },
+ {
+  "pfad": "BASIS-FUNKTIONEN/MATHEMATIK/RECHEN-OPERATOR/MUL",
+  "bytes": 0,
+  "zeilen": 0,
+  "utf8": true,
+  "klasse": "LEER",
+  "bloecke": 0,
+  "labels": [],
+  "zuweisungen": 0,
+  "abrufe": 0,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [],
+  "crlf": false
+ },
+ {
+  "pfad": "BASIS-FUNKTIONEN/MATHEMATIK/RECHEN-OPERATOR/REM",
+  "bytes": 0,
+  "zeilen": 0,
+  "utf8": true,
+  "klasse": "LEER",
+  "bloecke": 0,
+  "labels": [],
+  "zuweisungen": 0,
+  "abrufe": 0,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [],
+  "crlf": false
+ },
+ {
+  "pfad": "BASIS-FUNKTIONEN/MATHEMATIK/RECHEN-OPERATOR/REMU",
+  "bytes": 0,
+  "zeilen": 0,
+  "utf8": true,
+  "klasse": "LEER",
+  "bloecke": 0,
+  "labels": [],
+  "zuweisungen": 0,
+  "abrufe": 0,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [],
+  "crlf": false
+ },
+ {
+  "pfad": "BASIS-FUNKTIONEN/MATHEMATIK/RECHEN-OPERATOR/SDIV",
+  "bytes": 0,
+  "zeilen": 0,
+  "utf8": true,
+  "klasse": "LEER",
+  "bloecke": 0,
+  "labels": [],
+  "zuweisungen": 0,
+  "abrufe": 0,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [],
+  "crlf": false
+ },
+ {
+  "pfad": "BASIS-FUNKTIONEN/MATHEMATIK/RECHEN-OPERATOR/SUB",
+  "bytes": 0,
+  "zeilen": 0,
+  "utf8": true,
+  "klasse": "LEER",
+  "bloecke": 0,
+  "labels": [],
+  "zuweisungen": 0,
+  "abrufe": 0,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [],
+  "crlf": false
+ },
+ {
+  "pfad": "BASIS-FUNKTIONEN/MATHEMATIK/RECHEN-OPERATOR/UDIV",
+  "bytes": 0,
+  "zeilen": 0,
+  "utf8": true,
+  "klasse": "LEER",
+  "bloecke": 0,
+  "labels": [],
+  "zuweisungen": 0,
+  "abrufe": 0,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [],
+  "crlf": false
+ },
+ {
+  "pfad": "BASIS-FUNKTIONEN/MATHEMATIK/RECHEN-SYMBOLE/GETEILT/A÷+",
+  "bytes": 403,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 3,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠾⡈"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "BASIS-FUNKTIONEN/MATHEMATIK/RECHEN-SYMBOLE/GETEILT/A÷-",
+  "bytes": 403,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 3,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠾⡗"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "BASIS-FUNKTIONEN/MATHEMATIK/RECHEN-SYMBOLE/GETEILT/RR÷+",
+  "bytes": 407,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 3,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠾⡍"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "BASIS-FUNKTIONEN/MATHEMATIK/RECHEN-SYMBOLE/GETEILT/RR÷-",
+  "bytes": 408,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 3,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠾⡌"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "BASIS-FUNKTIONEN/MATHEMATIK/RECHEN-SYMBOLE/GETEILT/R÷+",
+  "bytes": 402,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 3,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠾⡊"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "BASIS-FUNKTIONEN/MATHEMATIK/RECHEN-SYMBOLE/GETEILT/R÷-",
+  "bytes": 403,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 3,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠾⡉"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "BASIS-FUNKTIONEN/MATHEMATIK/RECHEN-SYMBOLE/GETEILT/X÷+",
+  "bytes": 403,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 3,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠾⡕"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "BASIS-FUNKTIONEN/MATHEMATIK/RECHEN-SYMBOLE/GETEILT/X÷-",
+  "bytes": 402,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 3,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠾⡖"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "BASIS-FUNKTIONEN/MATHEMATIK/RECHEN-SYMBOLE/GETEILT/÷÷",
+  "bytes": 402,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 3,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠾⡔"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "BASIS-FUNKTIONEN/MATHEMATIK/RECHEN-SYMBOLE/MAL/××",
+  "bytes": 403,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 3,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠾⡒"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "BASIS-FUNKTIONEN/MATHEMATIK/RECHEN-SYMBOLE/MINUS/--",
+  "bytes": 393,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 3,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠾⡑"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "BASIS-FUNKTIONEN/MATHEMATIK/RECHEN-SYMBOLE/PLUS/++",
+  "bytes": 393,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 3,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠾⡿"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "BASIS-FUNKTIONEN/WÖRTERBUCH/WÖRTER-NACH-LÄNGE/11/KOORDINATEN",
+  "bytes": 1863,
+  "zeilen": 51,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 20,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 9,
+  "abrufe": 9,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⠨",
+   "⠀⠽⠩",
+   "⠀⠽⠪",
+   "⠀⠽⠫",
+   "⠀⠽⠬",
+   "⠀⠽⠭",
+   "⠀⠽⠵",
+   "⠀⠽⠶",
+   "⠀⠽⠷"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "BASIS-FUNKTIONEN/WÖRTERBUCH/WÖRTER-NACH-LÄNGE/2/CM",
+  "bytes": 535,
+  "zeilen": 16,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 6,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 2,
+  "abrufe": 2,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⢵",
+   "⠀⠽⢶"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "BASIS-FUNKTIONEN/WÖRTERBUCH/WÖRTER-NACH-LÄNGE/2/MM",
+  "bytes": 362,
+  "zeilen": 11,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 4,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⢷"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "BASIS-FUNKTIONEN/WÖRTERBUCH/WÖRTER-NACH-LÄNGE/2/NM",
+  "bytes": 535,
+  "zeilen": 16,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 6,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 2,
+  "abrufe": 2,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⢨",
+   "⠀⠽⢩"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "BASIS-FUNKTIONEN/WÖRTERBUCH/WÖRTER-NACH-LÄNGE/3/MCD",
+  "bytes": 721,
+  "zeilen": 21,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 8,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 3,
+  "abrufe": 3,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⢪",
+   "⠀⠽⢫",
+   "⠀⠽⢬"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "BASIS-FUNKTIONEN/WÖRTERBUCH/WÖRTER-NACH-LÄNGE/4/CORE",
+  "bytes": 907,
+  "zeilen": 26,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 10,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 4,
+  "abrufe": 4,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⢠",
+   "⠀⠽⢭",
+   "⠀⠽⢮",
+   "⠀⠽⢯"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "BASIS-FUNKTIONEN/WÖRTERBUCH/WÖRTER-NACH-LÄNGE/4/ENDE",
+  "bytes": 734,
+  "zeilen": 21,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 8,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 3,
+  "abrufe": 3,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⢡",
+   "⠀⠽⢢",
+   "⠀⠽⢣"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "BASIS-FUNKTIONEN/WÖRTERBUCH/WÖRTER-NACH-LÄNGE/4/TEXT",
+  "bytes": 734,
+  "zeilen": 21,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 8,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 3,
+  "abrufe": 3,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⢤",
+   "⠀⠽⢥",
+   "⠀⠽⢦"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "BASIS-FUNKTIONEN/WÖRTERBUCH/WÖRTER-NACH-LÄNGE/4/WELT",
+  "bytes": 907,
+  "zeilen": 26,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 10,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 4,
+  "abrufe": 4,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⢘",
+   "⠀⠽⢙",
+   "⠀⠽⢚",
+   "⠀⠽⢧"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "BASIS-FUNKTIONEN/WÖRTERBUCH/WÖRTER-NACH-LÄNGE/5/ABRUF",
+  "bytes": 1093,
+  "zeilen": 31,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 12,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 5,
+  "abrufe": 5,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⢛",
+   "⠀⠽⢜",
+   "⠀⠽⢝",
+   "⠀⠽⢞",
+   "⠀⠽⢟"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "BASIS-FUNKTIONEN/WÖRTERBUCH/WÖRTER-NACH-LÄNGE/5/HALLO",
+  "bytes": 920,
+  "zeilen": 26,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 10,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 4,
+  "abrufe": 4,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⢐",
+   "⠀⠽⢑",
+   "⠀⠽⢒",
+   "⠀⠽⢓"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "BASIS-FUNKTIONEN/WÖRTERBUCH/WÖRTER-NACH-LÄNGE/5/START",
+  "bytes": 920,
+  "zeilen": 26,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 10,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 4,
+  "abrufe": 4,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⢔",
+   "⠀⠽⢕",
+   "⠀⠽⢖",
+   "⠀⠽⢗"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "BASIS-FUNKTIONEN/WÖRTERBUCH/WÖRTER-NACH-LÄNGE/6/OBJEKT",
+  "bytes": 1279,
+  "zeilen": 36,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 14,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 6,
+  "abrufe": 6,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⢈",
+   "⠀⠽⢉",
+   "⠀⠽⢊",
+   "⠀⠽⢋",
+   "⠀⠽⢌",
+   "⠀⠽⢍"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "BASIS-FUNKTIONEN/WÖRTERBUCH/WÖRTER-NACH-LÄNGE/6/ZYKLUS",
+  "bytes": 1279,
+  "zeilen": 36,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 14,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 6,
+  "abrufe": 6,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⡹",
+   "⠀⠽⢂",
+   "⠀⠽⢃",
+   "⠀⠽⢄",
+   "⠀⠽⢅",
+   "⠀⠽⢇"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "BASIS-FUNKTIONEN/WÖRTERBUCH/WÖRTER-NACH-LÄNGE/6/ÖFFNEN",
+  "bytes": 935,
+  "zeilen": 26,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 10,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 4,
+  "abrufe": 4,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⢀",
+   "⠀⠽⢁",
+   "⠀⠽⢎",
+   "⠀⠽⢏"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "BASIS-FUNKTIONEN/WÖRTERBUCH/WÖRTER-NACH-LÄNGE/7/AUSGANG",
+  "bytes": 1119,
+  "zeilen": 31,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 12,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 5,
+  "abrufe": 5,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⡻",
+   "⠀⠽⡼",
+   "⠀⠽⡽",
+   "⠀⠽⡾",
+   "⠀⠽⡿"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "BASIS-FUNKTIONEN/WÖRTERBUCH/WÖRTER-NACH-LÄNGE/7/EINGANG",
+  "bytes": 1119,
+  "zeilen": 31,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 12,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 5,
+  "abrufe": 5,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⡰",
+   "⠀⠽⡱",
+   "⠀⠽⡲",
+   "⠀⠽⡳",
+   "⠀⠽⡴"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "BASIS-FUNKTIONEN/WÖRTERBUCH/WÖRTER-NACH-LÄNGE/7/LÖSCHEN",
+  "bytes": 1467,
+  "zeilen": 41,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 16,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 7,
+  "abrufe": 7,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⡨",
+   "⠀⠽⡩",
+   "⠀⠽⡪",
+   "⠀⠽⡫",
+   "⠀⠽⡵",
+   "⠀⠽⡶",
+   "⠀⠽⡷"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "BASIS-FUNKTIONEN/WÖRTERBUCH/WÖRTER-NACH-LÄNGE/7/NEEDLES",
+  "bytes": 1119,
+  "zeilen": 31,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 12,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 5,
+  "abrufe": 5,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⡠",
+   "⠀⠽⡬",
+   "⠀⠽⡭",
+   "⠀⠽⡮",
+   "⠀⠽⡯"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "BASIS-FUNKTIONEN/WÖRTERBUCH/WÖRTER-NACH-LÄNGE/8/BAUMODUS",
+  "bytes": 1478,
+  "zeilen": 41,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 16,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 7,
+  "abrufe": 7,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⡡",
+   "⠀⠽⡢",
+   "⠀⠽⡣",
+   "⠀⠽⡤",
+   "⠀⠽⡥",
+   "⠀⠽⡦",
+   "⠀⠽⡧"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "BASIS-FUNKTIONEN/WÖRTERBUCH/WÖRTER-NACH-LÄNGE/8/FUNKTION",
+  "bytes": 1478,
+  "zeilen": 41,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 16,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 7,
+  "abrufe": 7,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⡘",
+   "⠀⠽⡙",
+   "⠀⠽⡚",
+   "⠀⠽⡛",
+   "⠀⠽⡜",
+   "⠀⠽⡝",
+   "⠀⠽⡞"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "BASIS-FUNKTIONEN/WÖRTERBUCH/WÖRTER-NACH-LÄNGE/8/KOPIEREN",
+  "bytes": 1478,
+  "zeilen": 41,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 16,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 7,
+  "abrufe": 7,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⡐",
+   "⠀⠽⡑",
+   "⠀⠽⡒",
+   "⠀⠽⡓",
+   "⠀⠽⡔",
+   "⠀⠽⡕",
+   "⠀⠽⡟"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "BASIS-FUNKTIONEN/WÖRTERBUCH/WÖRTER-NACH-LÄNGE/8/SPEICHER",
+  "bytes": 1478,
+  "zeilen": 41,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 16,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 7,
+  "abrufe": 7,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⡈",
+   "⠀⠽⡉",
+   "⠀⠽⡊",
+   "⠀⠽⡋",
+   "⠀⠽⡌",
+   "⠀⠽⡖",
+   "⠀⠽⡗"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "BASIS-FUNKTIONEN/WÖRTERBUCH/WÖRTER-NACH-LÄNGE/9/GEOMETRIE",
+  "bytes": 1491,
+  "zeilen": 41,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 16,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 7,
+  "abrufe": 7,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⡀",
+   "⠀⠽⡁",
+   "⠀⠽⡂",
+   "⠀⠽⡃",
+   "⠀⠽⡍",
+   "⠀⠽⡎",
+   "⠀⠽⡏"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "BASIS-FUNKTIONEN/WÖRTERBUCH/WÖRTER-NACH-LÄNGE/9/SCHLIEẞEN",
+  "bytes": 1668,
+  "zeilen": 46,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 18,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 8,
+  "abrufe": 8,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⠸",
+   "⠀⠽⠹",
+   "⠀⠽⠺",
+   "⠀⠽⠻",
+   "⠀⠽⡄",
+   "⠀⠽⡅",
+   "⠀⠽⡆",
+   "⠀⠽⡇"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "BASIS-FUNKTIONEN/WÖRTERBUCH/WÖRTER-NACH-LÄNGE/9/SPEICHERN",
+  "bytes": 1664,
+  "zeilen": 46,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 18,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 8,
+  "abrufe": 8,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⠰",
+   "⠀⠽⠱",
+   "⠀⠽⠲",
+   "⠀⠽⠳",
+   "⠀⠽⠴",
+   "⠀⠽⠽",
+   "⠀⠽⠾",
+   "⠀⠽⠿"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "COMBI-FUNKTIONEN/MATHEMATIK/RECHEN-ARTEN/86_64/GETEILT/GETEILT-RECHNEN",
+  "bytes": 821,
+  "zeilen": 21,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 6,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUFRUF",
+   "BAUMODUS FUNKTION SPEICHER AUFRUF",
+   "BAUMODUS FUNKTION SPEICHER AUFRUF",
+   "BAUMODUS FUNKTION SPEICHER AUFRUF",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 4,
+  "abrufe": 4,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠾⠎",
+   "⠀⠾⠰",
+   "⠀⠾⠱",
+   "⠀⠾⠲"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "COMBI-FUNKTIONEN/MATHEMATIK/RECHEN-ARTEN/86_64/GETEILT/GETEILT-RECHNEN-MIT-VORZEICHEN",
+  "bytes": 836,
+  "zeilen": 21,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 6,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUFRUF",
+   "BAUMODUS FUNKTION SPEICHER AUFRUF",
+   "BAUMODUS FUNKTION SPEICHER AUFRUF",
+   "BAUMODUS FUNKTION SPEICHER AUFRUF",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 4,
+  "abrufe": 4,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠾⠏",
+   "⠀⠾⠳",
+   "⠀⠾⠴",
+   "⠀⠾⠵"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "COMBI-FUNKTIONEN/MATHEMATIK/RECHEN-ARTEN/86_64/GETEILT/GETEILT-RECHNEN-OHNE-VORZEICHEN",
+  "bytes": 837,
+  "zeilen": 21,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 6,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUFRUF",
+   "BAUMODUS FUNKTION SPEICHER AUFRUF",
+   "BAUMODUS FUNKTION SPEICHER AUFRUF",
+   "BAUMODUS FUNKTION SPEICHER AUFRUF",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 4,
+  "abrufe": 4,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠾⠀",
+   "⠀⠾⠨",
+   "⠀⠾⠩",
+   "⠀⠾⠷"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "COMBI-FUNKTIONEN/MATHEMATIK/RECHEN-ARTEN/86_64/MAL/MAL-RECHNEN",
+  "bytes": 817,
+  "zeilen": 21,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 6,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUFRUF",
+   "BAUMODUS FUNKTION SPEICHER AUFRUF",
+   "BAUMODUS FUNKTION SPEICHER AUFRUF",
+   "BAUMODUS FUNKTION SPEICHER AUFRUF",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 4,
+  "abrufe": 4,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠾⠁",
+   "⠀⠾⠽",
+   "⠀⠾⠾",
+   "⠀⠾⠿"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "COMBI-FUNKTIONEN/MATHEMATIK/RECHEN-ARTEN/86_64/MINUS/MINUS-RECHNEN",
+  "bytes": 811,
+  "zeilen": 21,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 6,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUFRUF",
+   "BAUMODUS FUNKTION SPEICHER AUFRUF",
+   "BAUMODUS FUNKTION SPEICHER AUFRUF",
+   "BAUMODUS FUNKTION SPEICHER AUFRUF",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 4,
+  "abrufe": 4,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⣰",
+   "⠀⠾⠺",
+   "⠀⠾⠻",
+   "⠀⠾⠼"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "COMBI-FUNKTIONEN/MATHEMATIK/RECHEN-ARTEN/86_64/PLUS/PLUS-RECHNEN",
+  "bytes": 810,
+  "zeilen": 21,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 6,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUFRUF",
+   "BAUMODUS FUNKTION SPEICHER AUFRUF",
+   "BAUMODUS FUNKTION SPEICHER AUFRUF",
+   "BAUMODUS FUNKTION SPEICHER AUFRUF",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 4,
+  "abrufe": 4,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠾⠃",
+   "⠀⠾⠸",
+   "⠀⠾⠹",
+   "⠀⠾⡇"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "COMBI-FUNKTIONEN/MATHEMATIK/RECHEN-ARTEN/ARM64/GETEILT/GETEILT-RECHNEN-MIT-VORZEICHEN",
+  "bytes": 836,
+  "zeilen": 21,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 6,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUFRUF",
+   "BAUMODUS FUNKTION SPEICHER AUFRUF",
+   "BAUMODUS FUNKTION SPEICHER AUFRUF",
+   "BAUMODUS FUNKTION SPEICHER AUFRUF",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 4,
+  "abrufe": 4,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠾⠄",
+   "⠀⠾⠪",
+   "⠀⠾⠫",
+   "⠀⠾⠭"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "COMBI-FUNKTIONEN/MATHEMATIK/RECHEN-ARTEN/ARM64/GETEILT/GETEILT-RECHNEN-OHNE-VORZEICHEN",
+  "bytes": 837,
+  "zeilen": 21,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 6,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUFRUF",
+   "BAUMODUS FUNKTION SPEICHER AUFRUF",
+   "BAUMODUS FUNKTION SPEICHER AUFRUF",
+   "BAUMODUS FUNKTION SPEICHER AUFRUF",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 4,
+  "abrufe": 4,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠾⠅",
+   "⠀⠾⠠",
+   "⠀⠾⠮",
+   "⠀⠾⠯"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "COMBI-FUNKTIONEN/MATHEMATIK/RECHEN-ARTEN/ARM64/MAL/MAL-RECHNEN",
+  "bytes": 817,
+  "zeilen": 21,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 6,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUFRUF",
+   "BAUMODUS FUNKTION SPEICHER AUFRUF",
+   "BAUMODUS FUNKTION SPEICHER AUFRUF",
+   "BAUMODUS FUNKTION SPEICHER AUFRUF",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 4,
+  "abrufe": 4,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠾⠆",
+   "⠀⠾⠽",
+   "⠀⠾⠾",
+   "⠀⠾⠿"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "COMBI-FUNKTIONEN/MATHEMATIK/RECHEN-ARTEN/ARM64/MINUS/MINUS-RECHNEN",
+  "bytes": 811,
+  "zeilen": 21,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 6,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUFRUF",
+   "BAUMODUS FUNKTION SPEICHER AUFRUF",
+   "BAUMODUS FUNKTION SPEICHER AUFRUF",
+   "BAUMODUS FUNKTION SPEICHER AUFRUF",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 4,
+  "abrufe": 4,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠾⠇",
+   "⠀⠾⠺",
+   "⠀⠾⠻",
+   "⠀⠾⠼"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "COMBI-FUNKTIONEN/MATHEMATIK/RECHEN-ARTEN/ARM64/PLUS/PLUS-RECHNEN",
+  "bytes": 810,
+  "zeilen": 21,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 6,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUFRUF",
+   "BAUMODUS FUNKTION SPEICHER AUFRUF",
+   "BAUMODUS FUNKTION SPEICHER AUFRUF",
+   "BAUMODUS FUNKTION SPEICHER AUFRUF",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 4,
+  "abrufe": 4,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⣸",
+   "⠀⠾⠸",
+   "⠀⠾⠹",
+   "⠀⠾⡇"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "COMBI-FUNKTIONEN/MATHEMATIK/RECHEN-ARTEN/RISC-V/GETEILT/GETEILT-RECHNEN-MIT-VORZEICHEN",
+  "bytes": 836,
+  "zeilen": 21,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 6,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUFRUF",
+   "BAUMODUS FUNKTION SPEICHER AUFRUF",
+   "BAUMODUS FUNKTION SPEICHER AUFRUF",
+   "BAUMODUS FUNKTION SPEICHER AUFRUF",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 4,
+  "abrufe": 4,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⣹",
+   "⠀⠾⠡",
+   "⠀⠾⠢",
+   "⠀⠾⠣"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "COMBI-FUNKTIONEN/MATHEMATIK/RECHEN-ARTEN/RISC-V/GETEILT/GETEILT-RECHNEN-MIT-VORZEICHEN-REM",
+  "bytes": 844,
+  "zeilen": 21,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 6,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUFRUF",
+   "BAUMODUS FUNKTION SPEICHER AUFRUF",
+   "BAUMODUS FUNKTION SPEICHER AUFRUF",
+   "BAUMODUS FUNKTION SPEICHER AUFRUF",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 4,
+  "abrufe": 4,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⣺",
+   "⠀⠾⠘",
+   "⠀⠾⠙",
+   "⠀⠾⠧"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "COMBI-FUNKTIONEN/MATHEMATIK/RECHEN-ARTEN/RISC-V/GETEILT/GETEILT-RECHNEN-OHNE-VORZEICHEN",
+  "bytes": 837,
+  "zeilen": 21,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 6,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUFRUF",
+   "BAUMODUS FUNKTION SPEICHER AUFRUF",
+   "BAUMODUS FUNKTION SPEICHER AUFRUF",
+   "BAUMODUS FUNKTION SPEICHER AUFRUF",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 4,
+  "abrufe": 4,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⣻",
+   "⠀⠾⠤",
+   "⠀⠾⠥",
+   "⠀⠾⠦"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "COMBI-FUNKTIONEN/MATHEMATIK/RECHEN-ARTEN/RISC-V/GETEILT/GETEILT-RECHNEN-OHNE-VORZEICHEN-REMU",
+  "bytes": 846,
+  "zeilen": 21,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 6,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUFRUF",
+   "BAUMODUS FUNKTION SPEICHER AUFRUF",
+   "BAUMODUS FUNKTION SPEICHER AUFRUF",
+   "BAUMODUS FUNKTION SPEICHER AUFRUF",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 4,
+  "abrufe": 4,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⣼",
+   "⠀⠾⠚",
+   "⠀⠾⠛",
+   "⠀⠾⠜"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "COMBI-FUNKTIONEN/MATHEMATIK/RECHEN-ARTEN/RISC-V/MAL/MAL-RECHNEN",
+  "bytes": 817,
+  "zeilen": 21,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 6,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUFRUF",
+   "BAUMODUS FUNKTION SPEICHER AUFRUF",
+   "BAUMODUS FUNKTION SPEICHER AUFRUF",
+   "BAUMODUS FUNKTION SPEICHER AUFRUF",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 4,
+  "abrufe": 4,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⣽",
+   "⠀⠾⠽",
+   "⠀⠾⠾",
+   "⠀⠾⠿"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "COMBI-FUNKTIONEN/MATHEMATIK/RECHEN-ARTEN/RISC-V/MINUS/MINUS-RECHNEN",
+  "bytes": 811,
+  "zeilen": 21,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 6,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUFRUF",
+   "BAUMODUS FUNKTION SPEICHER AUFRUF",
+   "BAUMODUS FUNKTION SPEICHER AUFRUF",
+   "BAUMODUS FUNKTION SPEICHER AUFRUF",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 4,
+  "abrufe": 4,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⣾",
+   "⠀⠾⠺",
+   "⠀⠾⠻",
+   "⠀⠾⠼"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "COMBI-FUNKTIONEN/MATHEMATIK/RECHEN-ARTEN/RISC-V/PLUS/PLUS-RECHNEN",
+  "bytes": 810,
+  "zeilen": 21,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 6,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUFRUF",
+   "BAUMODUS FUNKTION SPEICHER AUFRUF",
+   "BAUMODUS FUNKTION SPEICHER AUFRUF",
+   "BAUMODUS FUNKTION SPEICHER AUFRUF",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 4,
+  "abrufe": 4,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⣿",
+   "⠀⠾⠸",
+   "⠀⠾⠹",
+   "⠀⠾⡇"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/FN-TASTEN/FN",
+  "bytes": 0,
+  "zeilen": 0,
+  "utf8": true,
+  "klasse": "LEER",
+  "bloecke": 0,
+  "labels": [],
+  "zuweisungen": 0,
+  "abrufe": 0,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/GROẞBUCHSTABEN/A",
+  "bytes": 355,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 4,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [
+   "EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke()"
+  ],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⣱"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/GROẞBUCHSTABEN/B",
+  "bytes": 355,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 4,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [
+   "EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke()"
+  ],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⣳"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/GROẞBUCHSTABEN/C",
+  "bytes": 355,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 4,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [
+   "EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke()"
+  ],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⣴"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/GROẞBUCHSTABEN/D",
+  "bytes": 355,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 4,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [
+   "EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke()"
+  ],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⣵"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/GROẞBUCHSTABEN/E",
+  "bytes": 355,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 4,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [
+   "EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke()"
+  ],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⣶"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/GROẞBUCHSTABEN/F",
+  "bytes": 355,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 4,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [
+   "EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke()"
+  ],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⣷"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/GROẞBUCHSTABEN/G",
+  "bytes": 355,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 4,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [
+   "EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke()"
+  ],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⣨"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/GROẞBUCHSTABEN/H",
+  "bytes": 355,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 4,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [
+   "EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke()"
+  ],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⣩"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/GROẞBUCHSTABEN/I",
+  "bytes": 355,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 4,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [
+   "EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke()"
+  ],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⣪"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/GROẞBUCHSTABEN/J",
+  "bytes": 355,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 4,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [
+   "EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke()"
+  ],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⣬"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/GROẞBUCHSTABEN/K",
+  "bytes": 355,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 4,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [
+   "EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke()"
+  ],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⣭"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/GROẞBUCHSTABEN/L",
+  "bytes": 355,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 4,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [
+   "EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke()"
+  ],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⣮"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/GROẞBUCHSTABEN/M",
+  "bytes": 355,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 4,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [
+   "EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke()"
+  ],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⣯"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/GROẞBUCHSTABEN/N",
+  "bytes": 355,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 4,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [
+   "EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke()"
+  ],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⣠"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/GROẞBUCHSTABEN/O",
+  "bytes": 355,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 4,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [
+   "EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke()"
+  ],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⣡"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/GROẞBUCHSTABEN/P",
+  "bytes": 355,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 4,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [
+   "EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke()"
+  ],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⣣"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/GROẞBUCHSTABEN/Q",
+  "bytes": 355,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 4,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [
+   "EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke()"
+  ],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⣤"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/GROẞBUCHSTABEN/R",
+  "bytes": 355,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 4,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [
+   "EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke()"
+  ],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⣥"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/GROẞBUCHSTABEN/S",
+  "bytes": 355,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 4,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [
+   "EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke()"
+  ],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⣦"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/GROẞBUCHSTABEN/T",
+  "bytes": 355,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 4,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [
+   "EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke()"
+  ],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⣘"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/GROẞBUCHSTABEN/U",
+  "bytes": 355,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 4,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [
+   "EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke()"
+  ],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⣚"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/GROẞBUCHSTABEN/W",
+  "bytes": 355,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 4,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [
+   "EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke()"
+  ],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⣜"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/GROẞBUCHSTABEN/X",
+  "bytes": 355,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 4,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [
+   "EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke()"
+  ],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⣝"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/GROẞBUCHSTABEN/Y",
+  "bytes": 355,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 4,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [
+   "EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke()"
+  ],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⣞"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/GROẞBUCHSTABEN/Z",
+  "bytes": 355,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 4,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [
+   "EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke()"
+  ],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⣟"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/GROẞBUCHSTABEN/Ä",
+  "bytes": 356,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 4,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [
+   "EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke()"
+  ],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⣲"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/GROẞBUCHSTABEN/Ö",
+  "bytes": 356,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 4,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [
+   "EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke()"
+  ],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⣢"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/GROẞBUCHSTABEN/Ü",
+  "bytes": 356,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 4,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [
+   "EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke()"
+  ],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⣛"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/GROẞBUCHSTABEN/ẞ",
+  "bytes": 357,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 4,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [
+   "EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke()"
+  ],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⣧"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/KLEINBUCHSTABEN/a",
+  "bytes": 355,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 4,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [
+   "EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke()"
+  ],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⣐"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/KLEINBUCHSTABEN/b",
+  "bytes": 355,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 4,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [
+   "EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke()"
+  ],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⣑"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/KLEINBUCHSTABEN/c",
+  "bytes": 355,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 4,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [
+   "EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke()"
+  ],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⣒"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/KLEINBUCHSTABEN/d",
+  "bytes": 355,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 4,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [
+   "EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke()"
+  ],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⣓"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/KLEINBUCHSTABEN/e",
+  "bytes": 355,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 4,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [
+   "EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke()"
+  ],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⣔"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/KLEINBUCHSTABEN/f",
+  "bytes": 355,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 4,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [
+   "EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke()"
+  ],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⣕"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/KLEINBUCHSTABEN/g",
+  "bytes": 355,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 4,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [
+   "EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke()"
+  ],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⣖"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/KLEINBUCHSTABEN/h",
+  "bytes": 355,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 4,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [
+   "EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke()"
+  ],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⣗"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/KLEINBUCHSTABEN/i",
+  "bytes": 355,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 4,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [
+   "EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke()"
+  ],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⣈"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/KLEINBUCHSTABEN/j",
+  "bytes": 355,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 4,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [
+   "EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke()"
+  ],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⣉"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/KLEINBUCHSTABEN/k",
+  "bytes": 355,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 4,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [
+   "EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke()"
+  ],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⣊"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/KLEINBUCHSTABEN/l",
+  "bytes": 355,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 4,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [
+   "EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke()"
+  ],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⣋"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/KLEINBUCHSTABEN/m",
+  "bytes": 355,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 4,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [
+   "EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke()"
+  ],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⣌"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/KLEINBUCHSTABEN/n",
+  "bytes": 355,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 4,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [
+   "EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke()"
+  ],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⣍"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/KLEINBUCHSTABEN/o",
+  "bytes": 355,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 4,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [
+   "EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke()"
+  ],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⣎"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/KLEINBUCHSTABEN/p",
+  "bytes": 355,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 4,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [
+   "EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke()"
+  ],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⣀"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/KLEINBUCHSTABEN/q",
+  "bytes": 355,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 4,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [
+   "EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke()"
+  ],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⣁"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/KLEINBUCHSTABEN/r",
+  "bytes": 355,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 4,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [
+   "EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke()"
+  ],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⣂"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/KLEINBUCHSTABEN/s",
+  "bytes": 355,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 4,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [
+   "EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke()"
+  ],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⣃"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/KLEINBUCHSTABEN/t",
+  "bytes": 355,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 4,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [
+   "EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke()"
+  ],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⣄"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/KLEINBUCHSTABEN/u",
+  "bytes": 355,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 4,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [
+   "EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke()"
+  ],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⣅"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/KLEINBUCHSTABEN/w",
+  "bytes": 355,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 4,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [
+   "EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke()"
+  ],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⣇"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/KLEINBUCHSTABEN/x",
+  "bytes": 355,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 4,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [
+   "EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke()"
+  ],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⢸"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/KLEINBUCHSTABEN/y",
+  "bytes": 355,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 4,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [
+   "EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke()"
+  ],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⢹"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/KLEINBUCHSTABEN/z",
+  "bytes": 355,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 4,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [
+   "EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke()"
+  ],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⢺"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/KLEINBUCHSTABEN/ö",
+  "bytes": 356,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 4,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [
+   "EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke()"
+  ],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⣏"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/KLEINBUCHSTABEN/ü",
+  "bytes": 356,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 4,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [
+   "EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke()"
+  ],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⣆"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/SONDERZEICHEN/!",
+  "bytes": 0,
+  "zeilen": 0,
+  "utf8": true,
+  "klasse": "LEER",
+  "bloecke": 0,
+  "labels": [],
+  "zuweisungen": 0,
+  "abrufe": 0,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/SONDERZEICHEN/\"",
+  "bytes": 0,
+  "zeilen": 0,
+  "utf8": true,
+  "klasse": "LEER",
+  "bloecke": 0,
+  "labels": [],
+  "zuweisungen": 0,
+  "abrufe": 0,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/SONDERZEICHEN/$",
+  "bytes": 0,
+  "zeilen": 0,
+  "utf8": true,
+  "klasse": "LEER",
+  "bloecke": 0,
+  "labels": [],
+  "zuweisungen": 0,
+  "abrufe": 0,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/SONDERZEICHEN/%",
+  "bytes": 0,
+  "zeilen": 0,
+  "utf8": true,
+  "klasse": "LEER",
+  "bloecke": 0,
+  "labels": [],
+  "zuweisungen": 0,
+  "abrufe": 0,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/SONDERZEICHEN/&",
+  "bytes": 0,
+  "zeilen": 0,
+  "utf8": true,
+  "klasse": "LEER",
+  "bloecke": 0,
+  "labels": [],
+  "zuweisungen": 0,
+  "abrufe": 0,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/SONDERZEICHEN/(",
+  "bytes": 0,
+  "zeilen": 0,
+  "utf8": true,
+  "klasse": "LEER",
+  "bloecke": 0,
+  "labels": [],
+  "zuweisungen": 0,
+  "abrufe": 0,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/SONDERZEICHEN/)",
+  "bytes": 0,
+  "zeilen": 0,
+  "utf8": true,
+  "klasse": "LEER",
+  "bloecke": 0,
+  "labels": [],
+  "zuweisungen": 0,
+  "abrufe": 0,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/SONDERZEICHEN/=",
+  "bytes": 0,
+  "zeilen": 0,
+  "utf8": true,
+  "klasse": "LEER",
+  "bloecke": 0,
+  "labels": [],
+  "zuweisungen": 0,
+  "abrufe": 0,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/SONDERZEICHEN/?",
+  "bytes": 0,
+  "zeilen": 0,
+  "utf8": true,
+  "klasse": "LEER",
+  "bloecke": 0,
+  "labels": [],
+  "zuweisungen": 0,
+  "abrufe": 0,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/SONDERZEICHEN/LINKSSENKRECHTSTRICH",
+  "bytes": 0,
+  "zeilen": 0,
+  "utf8": true,
+  "klasse": "LEER",
+  "bloecke": 0,
+  "labels": [],
+  "zuweisungen": 0,
+  "abrufe": 0,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/SONDERZEICHEN/RECHTSSENKRECHTSTRICH",
+  "bytes": 0,
+  "zeilen": 0,
+  "utf8": true,
+  "klasse": "LEER",
+  "bloecke": 0,
+  "labels": [],
+  "zuweisungen": 0,
+  "abrufe": 0,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/SONDERZEICHEN/VERMERK.DEV-NOTE",
+  "bytes": 31506,
+  "zeilen": 917,
+  "utf8": true,
+  "klasse": "OHNE-ENDE",
+  "bloecke": 69,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG",
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION TASTE DRÜCKEN",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG",
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "BAUMODUS FUNKTION SPEICHER ABRUF",
+   "ZYTRON ZYKLUS 1"
+  ],
+  "zuweisungen": 0,
+  "abrufe": 0,
+  "nativ": [
+   "EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke()"
+  ],
+  "ids": [],
+  "alt_adressen": [],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/SONDERZEICHEN/§",
+  "bytes": 0,
+  "zeilen": 0,
+  "utf8": true,
+  "klasse": "LEER",
+  "bloecke": 0,
+  "labels": [],
+  "zuweisungen": 0,
+  "abrufe": 0,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/TASTEN/ENTER",
+  "bytes": 0,
+  "zeilen": 0,
+  "utf8": true,
+  "klasse": "LEER",
+  "bloecke": 0,
+  "labels": [],
+  "zuweisungen": 0,
+  "abrufe": 0,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/TASTEN/ESC",
+  "bytes": 0,
+  "zeilen": 0,
+  "utf8": true,
+  "klasse": "LEER",
+  "bloecke": 0,
+  "labels": [],
+  "zuweisungen": 0,
+  "abrufe": 0,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/TASTEN/F1",
+  "bytes": 0,
+  "zeilen": 0,
+  "utf8": true,
+  "klasse": "LEER",
+  "bloecke": 0,
+  "labels": [],
+  "zuweisungen": 0,
+  "abrufe": 0,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/TASTEN/F10",
+  "bytes": 0,
+  "zeilen": 0,
+  "utf8": true,
+  "klasse": "LEER",
+  "bloecke": 0,
+  "labels": [],
+  "zuweisungen": 0,
+  "abrufe": 0,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/TASTEN/F11",
+  "bytes": 0,
+  "zeilen": 0,
+  "utf8": true,
+  "klasse": "LEER",
+  "bloecke": 0,
+  "labels": [],
+  "zuweisungen": 0,
+  "abrufe": 0,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/TASTEN/F12",
+  "bytes": 0,
+  "zeilen": 0,
+  "utf8": true,
+  "klasse": "LEER",
+  "bloecke": 0,
+  "labels": [],
+  "zuweisungen": 0,
+  "abrufe": 0,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/TASTEN/F2",
+  "bytes": 0,
+  "zeilen": 0,
+  "utf8": true,
+  "klasse": "LEER",
+  "bloecke": 0,
+  "labels": [],
+  "zuweisungen": 0,
+  "abrufe": 0,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/TASTEN/F3",
+  "bytes": 0,
+  "zeilen": 0,
+  "utf8": true,
+  "klasse": "LEER",
+  "bloecke": 0,
+  "labels": [],
+  "zuweisungen": 0,
+  "abrufe": 0,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/TASTEN/F4",
+  "bytes": 0,
+  "zeilen": 0,
+  "utf8": true,
+  "klasse": "LEER",
+  "bloecke": 0,
+  "labels": [],
+  "zuweisungen": 0,
+  "abrufe": 0,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/TASTEN/F5",
+  "bytes": 0,
+  "zeilen": 0,
+  "utf8": true,
+  "klasse": "LEER",
+  "bloecke": 0,
+  "labels": [],
+  "zuweisungen": 0,
+  "abrufe": 0,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/TASTEN/F6",
+  "bytes": 0,
+  "zeilen": 0,
+  "utf8": true,
+  "klasse": "LEER",
+  "bloecke": 0,
+  "labels": [],
+  "zuweisungen": 0,
+  "abrufe": 0,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/TASTEN/F7",
+  "bytes": 0,
+  "zeilen": 0,
+  "utf8": true,
+  "klasse": "LEER",
+  "bloecke": 0,
+  "labels": [],
+  "zuweisungen": 0,
+  "abrufe": 0,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/TASTEN/F8",
+  "bytes": 0,
+  "zeilen": 0,
+  "utf8": true,
+  "klasse": "LEER",
+  "bloecke": 0,
+  "labels": [],
+  "zuweisungen": 0,
+  "abrufe": 0,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/TASTEN/F9",
+  "bytes": 0,
+  "zeilen": 0,
+  "utf8": true,
+  "klasse": "LEER",
+  "bloecke": 0,
+  "labels": [],
+  "zuweisungen": 0,
+  "abrufe": 0,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/TASTEN/SHIFT",
+  "bytes": 0,
+  "zeilen": 0,
+  "utf8": true,
+  "klasse": "LEER",
+  "bloecke": 0,
+  "labels": [],
+  "zuweisungen": 0,
+  "abrufe": 0,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/TASTEN/SHIFT-HALTEN",
+  "bytes": 84,
+  "zeilen": 1,
+  "utf8": true,
+  "klasse": "LEER",
+  "bloecke": 0,
+  "labels": [],
+  "zuweisungen": 0,
+  "abrufe": 0,
+  "nativ": [],
+  "ids": [],
+  "alt_adressen": [],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/ZAHLEN/0",
+  "bytes": 355,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 4,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [
+   "EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke()"
+  ],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⢴"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/ZAHLEN/1",
+  "bytes": 355,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 4,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [
+   "EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke()"
+  ],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⢳"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/ZAHLEN/2",
+  "bytes": 355,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 4,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [
+   "EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke()"
+  ],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⢲"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/ZAHLEN/3",
+  "bytes": 355,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 4,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [
+   "EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke()"
+  ],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⢱"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/ZAHLEN/4",
+  "bytes": 355,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 4,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [
+   "EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke()"
+  ],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⢰"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/ZAHLEN/5",
+  "bytes": 355,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 4,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [
+   "EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke()"
+  ],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⢿"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/ZAHLEN/6",
+  "bytes": 355,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 4,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [
+   "EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke()"
+  ],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⢾"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/ZAHLEN/7",
+  "bytes": 355,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 4,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [
+   "EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke()"
+  ],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⢽"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/ZAHLEN/8",
+  "bytes": 355,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 4,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [
+   "EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke()"
+  ],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⢼"
+  ],
+  "crlf": false
+ },
+ {
+  "pfad": "TASTATUR/ZAHLEN/9",
+  "bytes": 355,
+  "zeilen": 10,
+  "utf8": true,
+  "klasse": "VOLL",
+  "bloecke": 4,
+  "labels": [
+   "BAUMODUS FUNKTION SPEICHER EINGANG",
+   "BAUMODUS FUNKTION SPEICHER AUSGANG"
+  ],
+  "zuweisungen": 1,
+  "abrufe": 1,
+  "nativ": [
+   "EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke()"
+  ],
+  "ids": [],
+  "alt_adressen": [
+   "⠀⠽⢻"
+  ],
+  "crlf": false
+ }
+]
