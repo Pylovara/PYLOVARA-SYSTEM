@@ -54,8 +54,8 @@ MUTTERWABEN-KATEGORIE ⠆⢄⢁⢐ MASTERKERNWABE
  # AXIOM | BION-ID
  AXIOM ¡ ⠆⢄⢁⢠ ⧓ ⠆⢄⢁⣀ Ξ ⠆⢄⢂⠃
 
- # AXIOM | WEITERVERBINDUNG
- AXIOM ¡ ⠆⢄⢂⠃ ⧑ ⠆⢄⢁⠡
+ # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
+ AXIOM ¡ ⠆⢄⢂⠃ ⦳ ⠆⢄⢁⠡
 
 ###====================================|====================================###
 ###=================================RUNTIME=================================###
@@ -85,8 +85,8 @@ MUTTERWABEN-KATEGORIE ⠆⢄⢂⠌ HAUPTWABE
  # AXIOM | BION-ID
  AXIOM ¡ ⠆⢄⢂⠒ ⧓ ⠆⢄⢁⠘ Ξ ⠆⢄⢁⠡
 
- # AXIOM | WEITERVERBINDUNG
- AXIOM ¡ ⠆⢄⢁⠡ ⧑ BIID
+ # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
+ AXIOM ¡ ⠆⢄⢁⠡ ⦳ BIID
 
 ###====================================|====================================###
 

@@ -43,25 +43,25 @@ MUTTERWABEN-KATEGORIE ⠆⢄⢂⢁ MASTERLIZENZWABE
  # AXIOM | WEITERVERBINDUNG
 
  # TRANSAKTIONSRAHMEN
- AXIOM ¡ ⠆⢄⢂⢠ ⧑ ⠆⢄⢂⡁ 
+ AXIOM ¡ ⠆⢄⢂⢠ ⦳ ⠆⢄⢂⡁ 
 
  # PROTEIN
- AXIOM ¡ ⠆⢄⢂⢠ ⧑ ⠆⢄⡠⡄ 
+ AXIOM ¡ ⠆⢄⢂⢠ ⦳ ⠆⢄⡠⡄ 
 
  # …USW
- AXIOM ¡ ⠆⢄⢂⢠ ⧑ BIID 
+ AXIOM ¡ ⠆⢄⢂⢠ ⦳ BIID 
 
  # …USW
- AXIOM ¡ ⠆⢄⢂⢠ ⧑ BIID 
+ AXIOM ¡ ⠆⢄⢂⢠ ⦳ BIID 
 
  # …USW
- AXIOM ¡ ⠆⢄⢂⢠ ⧑ BIID 
+ AXIOM ¡ ⠆⢄⢂⢠ ⦳ BIID 
 
  # …USW
- AXIOM ¡ ⠆⢄⢂⢠ ⧑ BIID 
+ AXIOM ¡ ⠆⢄⢂⢠ ⦳ BIID 
 
  # PIPELINE
- AXIOM ¡ ⠆⢄⢂⢠ ⧑ ⠆⢄⡐⠰ 
+ AXIOM ¡ ⠆⢄⢂⢠ ⦳ ⠆⢄⡐⠰ 
 
 ###====================================|====================================###
 
@@ -94,9 +94,6 @@ MUTTERWABEN-KATEGORIE ⠆⢄⢂⠡ SUPERLIZENZWABE
 
  # AXIOM | SUPERLIZENZ MASTERIZENZ MAID
  MASTERLIZENZ ⠆⢄⡠⠡
-
- # AXIOM | WEITERVERBINDUNG
- AXIOM ¡ ⠆⢄⢂⡁ ⧑ ⠆⢄⡠⠡ 
 
  # DATENBANK 
  PROGRAMM-ANZAHL ⠆⢄⡠⠢ 1
@@ -139,9 +136,6 @@ MUTTERWABEN-KATEGORIE ⠆⢄⡠⠨ SUPERLIZENZWABE
 
  # AXIOM | SUPERLIZENZ MASTER PRODUKT
  MASTERLIZENZ ⠆⢄⡠⢁ 
-
- # AXIOM | WEITERVERBINDUNG
- AXIOM ¡ ⠆⢄⡠⡄ ⧑ ⠆⢄⡠⢁ 
 
  # DATENBANK 
  PROGRAMM-ANZAHL ⠆⢄⡠⢂ 1

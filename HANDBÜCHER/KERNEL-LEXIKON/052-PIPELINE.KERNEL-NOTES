@@ -54,8 +54,8 @@ MUTTERWABEN-KATEGORIE ⠆⢄⡈⡁ MASTERKERNWABE
  # AXIOM | BION-ID
  AXIOM ¡ ⠆⢄⡈⡂ ⧓ ⠆⢄⡈⡄ Ξ ⠆⢄⡈⡐
 
- # AXIOM | WEITERVERBINDUNG
- AXIOM ¡ ⠆⢄⡈⡐ ⧑ ⠆⢄⡐⠘
+ # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
+ AXIOM ¡ ⠆⢄⡈⡐ ⦳ ⠆⢄⡐⠘
 
 ###====================================|====================================###
 ###===================================PIPE==================================###
@@ -85,8 +85,8 @@ MUTTERWABEN-KATEGORIE ⠆⢄⡐⠌ HAUPTWABE
  # AXIOM | BION-ID
  AXIOM ¡ ⠆⢄⡐⠒ ⧓ ⠆⢄⡐⠔ Ξ ⠆⢄⡐⠘
 
- # AXIOM | WEITERVERBINDUNG
- AXIOM ¡ ⠆⢄⡐⠘ ⧑ ⠆⢄⡈⠉
+ # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
+ AXIOM ¡ ⠆⢄⡐⠘ ⦳ ⠆⢄⡈⠉
 
 ###====================================|====================================###
 
@@ -113,9 +113,6 @@ MUTTERWABEN-KATEGORIE ⠆⢄⡈⢐ STARTWABE
 
  # AXIOM | BION-ID
  AXIOM ¡ ⠆⢄⡈⠃ ⧓ ⠆⢄⡈⠅ Ξ ⠆⢄⡈⠉
-
- # AXIOM | WEITERVERBINDUNG
- AXIOM ¡ ⠆⢄⡈⠉ ⧑ BIID
 
  # TASTEN
  TASTENCODE ⠆⢄⡈⠔ ALTGR
