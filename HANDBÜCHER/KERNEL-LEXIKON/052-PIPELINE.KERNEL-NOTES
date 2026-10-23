@@ -174,7 +174,6 @@ MUTTERWABEN-KATEGORIE ⠆⢄⡈⢐ STARTWABE
  AXIOM ¡ ⠆⢄⡄⠃ ⧓ ⠆⢄⡂⠑ ⧓ ⠆⢄⡄⢈ Ξ ⠆⢄⡂⡁
  AXIOM ¡ ⠆⢄⡄⢠ ⧓ ⠆⢄⡂⠑ ⧓ ⠆⢄⡄⠃ Ξ ⠆⢄⡂⡄
  AXIOM ¡ ⠆⢄⡄⢈ ⧓ ⠆⢄⡂⠑ ⧓ ⠆⢄⡄⠃ Ξ ⠆⢄⡁⠉
-
  AXIOM ¡ ⠆⢄⡄⢠ ⧓ ⠆⢄⡂⠑ ⧓ ⠆⢄⡄⢐ Ξ ⠆⢄⡁⠊
  AXIOM ¡ ⠆⢄⡄⢈ ⧓ ⠆⢄⡂⠑ ⧓ ⠆⢄⡄⢐ Ξ ⠆⢄⡁⠌
  AXIOM ¡ ⠆⢄⡄⢐ ⧓ ⠆⢄⡂⠑ ⧓ ⠆⢄⡄⢈ Ξ ⠆⢄⡁⠑
@@ -207,7 +206,6 @@ MUTTERWABEN-KATEGORIE ⠆⢄⡈⢐ STARTWABE
  PRODUKT ⠆⢄⡂⡁ ↑:←
  PRODUKT ⠆⢄⡂⡄ →:↑
  PRODUKT ⠆⢄⡁⠉ ←:↑
-
  PRODUKT ⠆⢄⡁⠊ →:↓
  PRODUKT ⠆⢄⡁⠌ ←:↓
  PRODUKT ⠆⢄⡁⠑ ↓:←
@@ -220,14 +218,16 @@ MUTTERWABEN-KATEGORIE ⠆⢄⡈⢐ STARTWABE
  PRÄFIX ⠆⢄⡁⡂ PL-STEUERUNG
 
  # PRÄFIX STEUERUNG 1 KANAL
- PRÄFIX ⠆⢄⡄⡐ PL-UX
- PRÄFIX ⠆⢄⡂⡈ PL-HX
+
  PRÄFIX ⠆⢄⡂⡐ PL-LX
+ PRÄFIX ⠆⢄⡄⡐ PL-UX
  PRÄFIX ⠆⢄⡂⡠ PL-RX
- PRÄFIX ⠆⢄⡂⢁ PL-XU
- PRÄFIX ⠆⢄⡂⢂ PL-XH
+ PRÄFIX ⠆⢄⡂⡈ PL-HX
+ 
  PRÄFIX ⠆⢄⡂⢈ PL-XL
+ PRÄFIX ⠆⢄⡂⢁ PL-XU
  PRÄFIX ⠆⢄⡂⢐ PL-XR
+ PRÄFIX ⠆⢄⡂⢂ PL-XH
 
  # PRÄFIX STEUERUNG 2 KANAL
  PRÄFIX ⠆⢄⡁⢐ PL-HH
@@ -244,44 +244,32 @@ MUTTERWABEN-KATEGORIE ⠆⢄⡈⢐ STARTWABE
  PRÄFIX ⠆⢄⡂⠉ PL-UU
 
  # AXIOM | PRÄFIX TAGGEN UND RAM  
+ AXIOM ¡ ⠆⢄⡁⡠ ⥗ ⠆⢄⡂⠤ ⍠ ⠆⢄⡁⠡
+
+ AXIOM ¡ ⠆⢄⡁⡐ ⥗ ⠆⢄⡂⠤ ⍠ ⠆⢄⡁⠢
+ AXIOM ¡ ⠆⢄⡁⡈ ⥗ ⠆⢄⡂⠤ ⍠ ⠆⢄⡁⠨
+ AXIOM ¡ ⠆⢄⡁⡄ ⥗ ⠆⢄⡂⠤ ⍠ ⠆⢄⡁⠰
+ AXIOM ¡ ⠆⢄⡄⢁ ⥗ ⠆⢄⡂⠤ ⍠ ⠆⢄⠰⡄
+ AXIOM ¡ ⠆⢄⡄⢂ ⥗ ⠆⢄⡂⠤ ⍠ ⠆⢄⠰⡈
+
+ AXIOM ¡ ⠆⢄⡄⠌ ⥗ ⠆⢄⡂⡐ ⍠ ⠆⢄⠰⡐
+ AXIOM ¡ ⠆⢄⡂⠨ ⥗ ⠆⢄⡄⡐ ⍠ ⠆⢄⠰⡠
+ AXIOM ¡ ⠆⢄⡄⠑ ⥗ ⠆⢄⡂⡠ ⍠ ⠆⢄⠰⢁
+ AXIOM ¡ ⠆⢄⡄⠊ ⥗ ⠆⢄⡂⡈ ⍠ ⠆⢄⠰⢂
+
+ AXIOM ¡ ⠆⢄⡄⠘ ⥗ ⠆⢄⡂⢈ ⍠ ⠆⢄⠰⢐
+ AXIOM ¡ ⠆⢄⡄⠒ ⥗ ⠆⢄⡂⢁ ⍠ ⠆⢄⠰⢠
+ AXIOM ¡ ⠆⢄⡄⠡ ⥗ ⠆⢄⡂⢐ ⍠ ⠆⢄⠰⣀
+ AXIOM ¡ ⠆⢄⡄⠔ ⥗ ⠆⢄⡂⢂ ⍠ ⠆⢄⠰⢂
+
+
  AXIOM ¡ PD ⥗ PR ⍠ RA
  AXIOM ¡ PD ⥗ PR ⍠ RA
  AXIOM ¡ PD ⥗ PR ⍠ RA
  AXIOM ¡ PD ⥗ PR ⍠ RA
  AXIOM ¡ PD ⥗ PR ⍠ RA
  AXIOM ¡ PD ⥗ PR ⍠ RA
- AXIOM ¡ PD ⥗ PR ⍠ RA
- AXIOM ¡ PD ⥗ PR ⍠ RA
- AXIOM ¡ PD ⥗ PR ⍠ RA
- AXIOM ¡ PD ⥗ PR ⍠ RA
- AXIOM ¡ PD ⥗ PR ⍠ RA
- AXIOM ¡ PD ⥗ PR ⍠ RA
- AXIOM ¡ PD ⥗ PR ⍠ RA
- AXIOM ¡ PD ⥗ PR ⍠ RA
- AXIOM ¡ PD ⥗ PR ⍠ RA
- AXIOM ¡ PD ⥗ PR ⍠ RA
- AXIOM ¡ PD ⥗ PR ⍠ RA
- AXIOM ¡ PD ⥗ PR ⍠ RA
- AXIOM ¡ PD ⥗ PR ⍠ RA
- AXIOM ¡ PD ⥗ PR ⍠ RA
- AXIOM ¡ PD ⥗ PR ⍠ RA
- AXIOM ¡ PD ⥗ PR ⍠ RA
- AXIOM ¡ PD ⥗ PR ⍠ RA
- AXIOM ¡ PD ⥗ PR ⍠ RA
- AXIOM ¡ PD ⥗ PR ⍠ RA
- AXIOM ¡ PD ⥗ PR ⍠ RA
- AXIOM ¡ PD ⥗ PR ⍠ RA
- AXIOM ¡ PD ⥗ PR ⍠ RA
- AXIOM ¡ PD ⥗ PR ⍠ RA
- AXIOM ¡ PD ⥗ PR ⍠ RA
- AXIOM ¡ PD ⥗ PR ⍠ RA
- AXIOM ¡ PD ⥗ PR ⍠ RA
- AXIOM ¡ PD ⥗ PR ⍠ RA
- AXIOM ¡ PD ⥗ PR ⍠ RA
- AXIOM ¡ PD ⥗ PR ⍠ RA
- AXIOM ¡ PD ⥗ PR ⍠ RA
- AXIOM ¡ PD ⥗ PR ⍠ RA
- AXIOM ¡ PD ⥗ PR ⍠ RA
+
  AXIOM ¡ PD ⥗ PR ⍠ RA
  AXIOM ¡ PD ⥗ PR ⍠ RA
  AXIOM ¡ PD ⥗ PR ⍠ RA
@@ -290,36 +278,30 @@ MUTTERWABEN-KATEGORIE ⠆⢄⡈⢐ STARTWABE
  AXIOM ¡ PD ⥗ PR ⍠ RA
 
  # EINHEIT | RAM
+ EINHEIT ⠆⢄⡁⠡ —:— PL-STECKSCHLÜSSEL
+ EINHEIT ⠆⢄⡁⠢ —©— PL-STECKSCHLÜSSEL
+ EINHEIT ⠆⢄⡁⠨ —®— PL-STECKSCHLÜSSEL
+ EINHEIT ⠆⢄⡁⠰ —ĸ— PL-STECKSCHLÜSSEL
+ EINHEIT ⠆⢄⠰⡄ —<— PL-STECKSCHLÜSSEL
+ EINHEIT ⠆⢄⠰⡈ —>— PL-STECKSCHLÜSSEL
+
+ EINHEIT ⠆⢄⠰⡐ ←: PL-LX
+ EINHEIT ⠆⢄⠰⡠ ↓: PL-UX
+ EINHEIT ⠆⢄⠰⢁ →: PL-RX
+ EINHEIT ⠆⢄⠰⢂ ↑: PL-HX
+
+ EINHEIT ⠆⢄⠰⢐ :← PL-XL
+ EINHEIT ⠆⢄⠰⢠ :↓ PL-XU
+ EINHEIT ⠆⢄⠰⣀ :→ PL-XR
+ EINHEIT ⠆⢄⡁⠃ :↑ PL-XH
+
  EINHEIT RA
  EINHEIT RA
  EINHEIT RA
  EINHEIT RA
  EINHEIT RA
  EINHEIT RA
- EINHEIT RA
- EINHEIT RA
- EINHEIT RA
- EINHEIT RA
- EINHEIT RA
- EINHEIT RA
- EINHEIT RA
- EINHEIT RA
- EINHEIT RA
- EINHEIT RA
- EINHEIT RA
- EINHEIT RA
- EINHEIT RA
- EINHEIT RA
- EINHEIT RA
- EINHEIT RA
- EINHEIT RA
- EINHEIT RA
- EINHEIT RA
- EINHEIT RA
- EINHEIT RA
- EINHEIT RA
- EINHEIT RA
- EINHEIT RA
+ 
  EINHEIT RA
  EINHEIT RA
  EINHEIT RA
