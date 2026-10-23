@@ -129,13 +129,13 @@ MUTTERWABEN-KATEGORIE ⠆⢄⡈⢐ STARTWABE
  TASTENCODE ⠆⢄⡁⢁ Z
  TASTENCODE ⠆⢄⡁⢂ U
  TASTENCODE ⠆⢄⡁⢈ I
--------------------------------
- # AXIOM | PRODUKT BAUEN
+
+ # AXIOM | SYMBOL BAUEN
+ AXIOM ¡ TT ⦻ TT ⦻ TT Ξ SY
  AXIOM ¡ TT ⦻ TT Ξ SY
  AXIOM ¡ TT ⦻ TT Ξ SY
  AXIOM ¡ TT ⦻ TT Ξ SY
- AXIOM ¡ TT ⦻ TT Ξ SY
--------------------------------
+
  # SYMBOLE FERTIG
  SYMBOLE ⠆⢄⡂⠌ —
  SYMBOLE ⠆⢄⡂⠑ :
@@ -148,10 +148,10 @@ MUTTERWABEN-KATEGORIE ⠆⢄⡈⢐ STARTWABE
  SYMBOLE ⠆⢄⡄⢐ ↓
  SYMBOLE ⠆⢄⡄⢠ →
  SYMBOLE ⠆⢄⡄⠃ ↑
--------------------------------
+
  # AXIOM | PRODUKT BAUEN
  AXIOM ¡  AXIOM ¡ SY ⧓ SY Ξ PD
--------------------------------
+
  # PRODUKT | STECKSCHLÜSSEL SKINS
  PRODUKT ⠆⢄⡁⡠ —:—
  PRODUKT ⠆⢄⡁⡐ —©—
@@ -212,8 +212,8 @@ MUTTERWABEN-KATEGORIE ⠆⢄⡈⢐ STARTWABE
  PRÄFIX ⠆⢄⡂⣀ PL-UR
  PRÄFIX ⠆⢄⡂⠅ PL-UH
  PRÄFIX ⠆⢄⡂⠉ PL-UU
----------------------------------------
- # AXIOM | RAM ABLAGE PLUS PRÄFIX 
+
+ # AXIOM | PRÄFIX TAGGEN UND RAM  
  AXIOM ¡ PD ⥗ PR ⍠ RA
  AXIOM ¡ PD ⥗ PR ⍠ RA
  AXIOM ¡ PD ⥗ PR ⍠ RA
@@ -258,13 +258,7 @@ MUTTERWABEN-KATEGORIE ⠆⢄⡈⢐ STARTWABE
  AXIOM ¡ PD ⥗ PR ⍠ RA
  AXIOM ¡ PD ⥗ PR ⍠ RA
  AXIOM ¡ PD ⥗ PR ⍠ RA
- AXIOM ¡ PD ⥗ PR ⍠ RA
- AXIOM ¡ PD ⥗ PR ⍠ RA
- AXIOM ¡ PD ⥗ PR ⍠ RA
- AXIOM ¡ PD ⥗ PR ⍠ RA
- AXIOM ¡ PD ⥗ PR ⍠ RA
- AXIOM ¡ PD ⥗ PR ⍠ RA
----------------------------------------
+
  # EINHEIT | RAM
  EINHEIT RA
  EINHEIT RA
