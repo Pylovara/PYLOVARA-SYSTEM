@@ -129,7 +129,13 @@ MUTTERWABEN-KATEGORIE ⠆⢄⡈⢐ STARTWABE
  TASTENCODE ⠆⢄⡁⢁ Z
  TASTENCODE ⠆⢄⡁⢂ U
  TASTENCODE ⠆⢄⡁⢈ I
-
+-------------------------------
+ # AXIOM | PRODUKT BAUEN
+ AXIOM ¡ TT ⦻ TT Ξ SY
+ AXIOM ¡ TT ⦻ TT Ξ SY
+ AXIOM ¡ TT ⦻ TT Ξ SY
+ AXIOM ¡ TT ⦻ TT Ξ SY
+-------------------------------
  # SYMBOLE FERTIG
  SYMBOLE ⠆⢄⡂⠌ —
  SYMBOLE ⠆⢄⡂⠑ :
@@ -142,49 +148,10 @@ MUTTERWABEN-KATEGORIE ⠆⢄⡈⢐ STARTWABE
  SYMBOLE ⠆⢄⡄⢐ ↓
  SYMBOLE ⠆⢄⡄⢠ →
  SYMBOLE ⠆⢄⡄⠃ ↑
-
- # PRÄFIX PRIMÄR
- PRÄFIX ⠆⢄⡂⠤ PL-STECKSCHLÜSSEL
- PRÄFIX ⠆⢄⡁⡂ PL-STEUERUNG
-
- # PRÄFIX STEUERUNG 1 KANAL
- PRÄFIX ⠆⢄⡄⡐ PL-UX
- PRÄFIX ⠆⢄⡂⡈ PL-HX
- PRÄFIX ⠆⢄⡂⡐ PL-LX
- PRÄFIX ⠆⢄⡂⡠ PL-RX
- PRÄFIX ⠆⢄⡂⢁ PL-XU
- PRÄFIX ⠆⢄⡂⢂ PL-XH
- PRÄFIX ⠆⢄⡂⢈ PL-XL
- PRÄFIX ⠆⢄⡂⢐ PL-XR
-
- # PRÄFIX STEUERUNG 2 KANAL
- PRÄFIX ⠆⢄⡁⢐ PL-HH
- PRÄFIX ⠆⢄⡁⢠ PL-HU
- PRÄFIX ⠆⢄⡁⣀ PL-HR
- PRÄFIX ⠆⢄⡂⠃ PL-HL
- PRÄFIX ⠆⢄⡄⠅ PL-RH
- PRÄFIX ⠆⢄⡄⠉ PL-LH
- PRÄFIX ⠆⢄⡄⡂ PL-RU
- PRÄFIX ⠆⢄⡄⡈ PL-LU
- PRÄFIX ⠆⢄⡂⢠ PL-UL
- PRÄFIX ⠆⢄⡂⣀ PL-UR
- PRÄFIX ⠆⢄⡂⠅ PL-UH
- PRÄFIX ⠆⢄⡂⠉ PL-UU
-----------------------------------------
+-------------------------------
  # AXIOM | PRODUKT BAUEN
-
-
-
-
-
- AXIOM ¡ TT ⦻ TT Ξ SY
- AXIOM ¡ TT ⦻ TT Ξ SY
- AXIOM ¡ TT ⦻ TT Ξ SY
- AXIOM ¡ TT ⦻ TT Ξ SY
- AXIOM ¡ SY ⧓ SY Ξ PD
-
----------------------------------------
-
+ AXIOM ¡  AXIOM ¡ SY ⧓ SY Ξ PD
+-------------------------------
  # PRODUKT | STECKSCHLÜSSEL SKINS
  PRODUKT ⠆⢄⡁⡠ —:—
  PRODUKT ⠆⢄⡁⡐ —©—
@@ -218,38 +185,34 @@ MUTTERWABEN-KATEGORIE ⠆⢄⡈⢐ STARTWABE
  PRODUKT ⠆⢄⡁⠔ ↓:↑
  PRODUKT ⠆⢄⡁⠘ ↓:↓
 
- # AXIOM | TAGGEN PRÄFIX
- AXIOM ¡ PD ⥓ PR
- AXIOM ¡ PD ⥓ PR
- AXIOM ¡ PD ⥓ PR
- AXIOM ¡ PD ⥓ PR
- AXIOM ¡ PD ⥓ PR
- AXIOM ¡ PD ⥓ PR
- AXIOM ¡ PD ⥓ PR
- AXIOM ¡ PD ⥓ PR
- AXIOM ¡ PD ⥓ PR
- AXIOM ¡ PD ⥓ PR
- AXIOM ¡ PD ⥓ PR
- AXIOM ¡ PD ⥓ PR
- AXIOM ¡ PD ⥓ PR
- AXIOM ¡ PD ⥓ PR
- AXIOM ¡ PD ⥓ PR
- AXIOM ¡ PD ⥓ PR
- AXIOM ¡ PD ⥓ PR
- AXIOM ¡ PD ⥓ PR
- AXIOM ¡ PD ⥓ PR
- AXIOM ¡ PD ⥓ PR
- AXIOM ¡ PD ⥓ PR
- AXIOM ¡ PD ⥓ PR
- AXIOM ¡ PD ⥓ PR
- AXIOM ¡ PD ⥓ PR
- AXIOM ¡ PD ⥓ PR
- AXIOM ¡ PD ⥓ PR
- AXIOM ¡ PD ⥓ PR
- AXIOM ¡ PD ⥓ PR
- AXIOM ¡ PD ⥓ PR
- AXIOM ¡ PD ⥓ PR
+ # PRÄFIX PRIMÄR
+ PRÄFIX ⠆⢄⡂⠤ PL-STECKSCHLÜSSEL
+ PRÄFIX ⠆⢄⡁⡂ PL-STEUERUNG
 
+ # PRÄFIX STEUERUNG 1 KANAL
+ PRÄFIX ⠆⢄⡄⡐ PL-UX
+ PRÄFIX ⠆⢄⡂⡈ PL-HX
+ PRÄFIX ⠆⢄⡂⡐ PL-LX
+ PRÄFIX ⠆⢄⡂⡠ PL-RX
+ PRÄFIX ⠆⢄⡂⢁ PL-XU
+ PRÄFIX ⠆⢄⡂⢂ PL-XH
+ PRÄFIX ⠆⢄⡂⢈ PL-XL
+ PRÄFIX ⠆⢄⡂⢐ PL-XR
+
+ # PRÄFIX STEUERUNG 2 KANAL
+ PRÄFIX ⠆⢄⡁⢐ PL-HH
+ PRÄFIX ⠆⢄⡁⢠ PL-HU
+ PRÄFIX ⠆⢄⡁⣀ PL-HR
+ PRÄFIX ⠆⢄⡂⠃ PL-HL
+ PRÄFIX ⠆⢄⡄⠅ PL-RH
+ PRÄFIX ⠆⢄⡄⠉ PL-LH
+ PRÄFIX ⠆⢄⡄⡂ PL-RU
+ PRÄFIX ⠆⢄⡄⡈ PL-LU
+ PRÄFIX ⠆⢄⡂⢠ PL-UL
+ PRÄFIX ⠆⢄⡂⣀ PL-UR
+ PRÄFIX ⠆⢄⡂⠅ PL-UH
+ PRÄFIX ⠆⢄⡂⠉ PL-UU
+---------------------------------------
  # AXIOM | RAM ABLAGE PLUS PRÄFIX 
  AXIOM ¡ PD ⥗ PR ⍠ RA
  AXIOM ¡ PD ⥗ PR ⍠ RA
@@ -301,8 +264,7 @@ MUTTERWABEN-KATEGORIE ⠆⢄⡈⢐ STARTWABE
  AXIOM ¡ PD ⥗ PR ⍠ RA
  AXIOM ¡ PD ⥗ PR ⍠ RA
  AXIOM ¡ PD ⥗ PR ⍠ RA
-
-
+---------------------------------------
  # EINHEIT | RAM
  EINHEIT RA
  EINHEIT RA
