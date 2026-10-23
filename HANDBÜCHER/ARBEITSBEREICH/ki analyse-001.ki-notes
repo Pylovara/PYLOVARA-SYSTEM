@@ -61,3 +61,9 @@ Der BSK-KN (Kennungskürzel) ist jetzt explizit vom BSK-ID (Verschmelzung) und
 dem vollständigen BSK (Schaltungskreislauf) getrennt. Das gibt dem Wabinator 
 exakte Ankerpunkte.
 
+
+
+
+ !!!- bei der shell irrt sie sich aber das ist erstmal scheiß egal ... 
+      die shell kommt später nastiv auf den tws kernel in mcs format 
+      per mcd befehl .
