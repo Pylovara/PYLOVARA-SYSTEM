@@ -206,11 +206,11 @@ MUTTERWABEN-KATEGORIE ⠆⢄⡈⢐ STARTWABE
  PRODUKT ⠆⢄⡂⡁ ↑:←
  PRODUKT ⠆⢄⡂⡄ →:↑
  PRODUKT ⠆⢄⡁⠉ ←:↑
+ PRODUKT ⠆⢄⡁⠔ ↓:↑
  PRODUKT ⠆⢄⡁⠊ →:↓
  PRODUKT ⠆⢄⡁⠌ ←:↓
  PRODUKT ⠆⢄⡁⠑ ↓:←
  PRODUKT ⠆⢄⡁⠒ ↓:→
- PRODUKT ⠆⢄⡁⠔ ↓:↑
  PRODUKT ⠆⢄⡁⠘ ↓:↓
 
  # PRÄFIX PRIMÄR
@@ -245,37 +245,31 @@ MUTTERWABEN-KATEGORIE ⠆⢄⡈⢐ STARTWABE
 
  # AXIOM | PRÄFIX TAGGEN UND RAM  
  AXIOM ¡ ⠆⢄⡁⡠ ⥗ ⠆⢄⡂⠤ ⍠ ⠆⢄⡁⠡
-
  AXIOM ¡ ⠆⢄⡁⡐ ⥗ ⠆⢄⡂⠤ ⍠ ⠆⢄⡁⠢
  AXIOM ¡ ⠆⢄⡁⡈ ⥗ ⠆⢄⡂⠤ ⍠ ⠆⢄⡁⠨
  AXIOM ¡ ⠆⢄⡁⡄ ⥗ ⠆⢄⡂⠤ ⍠ ⠆⢄⡁⠰
  AXIOM ¡ ⠆⢄⡄⢁ ⥗ ⠆⢄⡂⠤ ⍠ ⠆⢄⠰⡄
  AXIOM ¡ ⠆⢄⡄⢂ ⥗ ⠆⢄⡂⠤ ⍠ ⠆⢄⠰⡈
-
  AXIOM ¡ ⠆⢄⡄⠌ ⥗ ⠆⢄⡂⡐ ⍠ ⠆⢄⠰⡐
  AXIOM ¡ ⠆⢄⡂⠨ ⥗ ⠆⢄⡄⡐ ⍠ ⠆⢄⠰⡠
  AXIOM ¡ ⠆⢄⡄⠑ ⥗ ⠆⢄⡂⡠ ⍠ ⠆⢄⠰⢁
  AXIOM ¡ ⠆⢄⡄⠊ ⥗ ⠆⢄⡂⡈ ⍠ ⠆⢄⠰⢂
-
  AXIOM ¡ ⠆⢄⡄⠘ ⥗ ⠆⢄⡂⢈ ⍠ ⠆⢄⠰⢐
  AXIOM ¡ ⠆⢄⡄⠒ ⥗ ⠆⢄⡂⢁ ⍠ ⠆⢄⠰⢠
  AXIOM ¡ ⠆⢄⡄⠡ ⥗ ⠆⢄⡂⢐ ⍠ ⠆⢄⠰⣀
  AXIOM ¡ ⠆⢄⡄⠔ ⥗ ⠆⢄⡂⢂ ⍠ ⠆⢄⠰⢂
-
-
- AXIOM ¡ PD ⥗ PR ⍠ RA
- AXIOM ¡ PD ⥗ PR ⍠ RA
- AXIOM ¡ PD ⥗ PR ⍠ RA
- AXIOM ¡ PD ⥗ PR ⍠ RA
- AXIOM ¡ PD ⥗ PR ⍠ RA
- AXIOM ¡ PD ⥗ PR ⍠ RA
-
- AXIOM ¡ PD ⥗ PR ⍠ RA
- AXIOM ¡ PD ⥗ PR ⍠ RA
- AXIOM ¡ PD ⥗ PR ⍠ RA
- AXIOM ¡ PD ⥗ PR ⍠ RA
- AXIOM ¡ PD ⥗ PR ⍠ RA
- AXIOM ¡ PD ⥗ PR ⍠ RA
+ AXIOM ¡ ⠆⢄⡄⠢ ⥗ ⠆⢄⡁⢐ ⍠ ⠆⢄⡁⠅
+ AXIOM ¡ ⠆⢄⡄⠤ ⥗ ⠆⢄⡁⢠ ⍠ ⠆⢄⠰⠊
+ AXIOM ¡ ⠆⢄⡂⠰ ⥗ ⠆⢄⡁⣀ ⍠ ⠆⢄⠰⠌
+ AXIOM ¡ ⠆⢄⡂⡁ ⥗ ⠆⢄⡂⠃ ⍠ ⠆⢄⠰⠑
+ AXIOM ¡ ⠆⢄⡂⡄ ⥗ ⠆⢄⡄⠅ ⍠ ⠆⢄⠰⠒
+ AXIOM ¡ ⠆⢄⡁⠉ ⥗ ⠆⢄⡄⠉ ⍠ ⠆⢄⠰⠔
+ AXIOM ¡ ⠆⢄⡁⠔ ⥗ ⠆⢄⡂⠅ ⍠ ⠆⢄⠰⠘
+ AXIOM ¡ ⠆⢄⡁⠊ ⥗ ⠆⢄⡄⡂ ⍠ ⠆⢄⠰⠡
+ AXIOM ¡ ⠆⢄⡁⠌ ⥗ ⠆⢄⡄⡈ ⍠ ⠆⢄⠰⠢
+ AXIOM ¡ ⠆⢄⡁⠑ ⥗ ⠆⢄⡂⢠ ⍠ ⠆⢄⠰⠤
+ AXIOM ¡ ⠆⢄⡁⠒ ⥗ ⠆⢄⡂⣀ ⍠ ⠆⢄⠰⡁
+ AXIOM ¡ ⠆⢄⡁⠘ ⥗ ⠆⢄⡂⠉ ⍠ ⠆⢄⠰⡂
 
  # EINHEIT | RAM
  EINHEIT ⠆⢄⡁⠡ —:— PL-STECKSCHLÜSSEL
@@ -284,37 +278,33 @@ MUTTERWABEN-KATEGORIE ⠆⢄⡈⢐ STARTWABE
  EINHEIT ⠆⢄⡁⠰ —ĸ— PL-STECKSCHLÜSSEL
  EINHEIT ⠆⢄⠰⡄ —<— PL-STECKSCHLÜSSEL
  EINHEIT ⠆⢄⠰⡈ —>— PL-STECKSCHLÜSSEL
-
  EINHEIT ⠆⢄⠰⡐ ←: PL-LX
  EINHEIT ⠆⢄⠰⡠ ↓: PL-UX
  EINHEIT ⠆⢄⠰⢁ →: PL-RX
  EINHEIT ⠆⢄⠰⢂ ↑: PL-HX
-
  EINHEIT ⠆⢄⠰⢐ :← PL-XL
  EINHEIT ⠆⢄⠰⢠ :↓ PL-XU
  EINHEIT ⠆⢄⠰⣀ :→ PL-XR
  EINHEIT ⠆⢄⡁⠃ :↑ PL-XH
-
- EINHEIT RA
- EINHEIT RA
- EINHEIT RA
- EINHEIT RA
- EINHEIT RA
- EINHEIT RA
- 
- EINHEIT RA
- EINHEIT RA
- EINHEIT RA
- EINHEIT RA
- EINHEIT RA
- EINHEIT RA
+ EINHEIT ⠆⢄⡁⠅ ↑:↑ PL-HH
+ EINHEIT ⠆⢄⠰⠊ ↑:↓ PL-HU
+ EINHEIT ⠆⢄⠰⠌ ↑:→ PL-HR
+ EINHEIT ⠆⢄⠰⠑ ↑:← PL-HL
+ EINHEIT ⠆⢄⠰⠒ →:↑ PL-RH
+ EINHEIT ⠆⢄⠰⠔ ←:↑ PL-LH
+ EINHEIT ⠆⢄⠰⠘ ↓:↑ PL-UH
+ EINHEIT ⠆⢄⠰⠡ →:↓ PL-RU
+ EINHEIT ⠆⢄⠰⠢ ←:↓ PL-LU
+ EINHEIT ⠆⢄⠰⠤ ↓:← PL-UL
+ EINHEIT ⠆⢄⠰⡁ ↓:→ PL-UR
+ EINHEIT ⠆⢄⠰⡂ ↓:↓ PL-UU
 
  # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
- AXIOM ¡ BIID ⦳ BIID
+ AXIOM ¡ ⠆⢄⡈⠉ ⦳ BIID
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE # 
+MUTTERWABEN-KATEGORIE # BA
 
 
 
