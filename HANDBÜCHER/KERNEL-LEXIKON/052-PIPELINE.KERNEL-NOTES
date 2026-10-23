@@ -128,10 +128,17 @@ MUTTERWABEN-KATEGORIE ⠆⢄⡈⢐ STARTWABE
  TASTENCODE ⠆⢄⡁⢈ I
 
  # AXIOM | SYMBOL BAUEN
- AXIOM ¡ TT ⦻ TT ⦻ TT Ξ SY
- AXIOM ¡ TT ⦻ TT Ξ SY
- AXIOM ¡ TT ⦻ TT Ξ SY
- AXIOM ¡ TT ⦻ TT Ξ SY
+ AXIOM ¡ ⠆⢄⡈⠔ ⦻ ⠆⢄⡈⠘ ⦻ ⠆⢄⡈⠢ Ξ ⠆⢄⡂⠌
+ AXIOM ¡ ⠆⢄⡈⠘ ⦻ ⠆⢄⡈⠡ Ξ ⠆⢄⡂⠑
+ AXIOM ¡ ⠆⢄⡈⠔ ⦻ ⠆⢄⡈⠘ ⦻ ⠆⢄⡄⠨ Ξ ⠆⢄⡂⠒
+ AXIOM ¡ ⠆⢄⡈⠔ ⦻ ⠆⢄⡈⠘ ⦻ ⠆⢄⡄⠰ Ξ ⠆⢄⡂⠔
+ AXIOM ¡ ⠆⢄⡈⠔ ⦻ ⠆⢄⡄⡁ Ξ ⠆⢄⡂⠘
+ AXIOM ¡ ⠆⢄⡈⠘ ⦻ ⠆⢄⡄⡠ Ξ ⠆⢄⡂⠡
+ AXIOM ¡ ⠆⢄⡄⡠ Ξ ⠆⢄⡂⠢
+ AXIOM ¡ ⠆⢄⡈⠔ ⦻ ⠆⢄⡁⢁ Ξ ⠆⢄⡄⢈
+ AXIOM ¡ ⠆⢄⡈⠔ ⦻ ⠆⢄⡁⢂ Ξ ⠆⢄⡄⢐
+ AXIOM ¡ ⠆⢄⡈⠔ ⦻ ⠆⢄⡁⢈ Ξ ⠆⢄⡄⢠
+ AXIOM ¡ ⠆⢄⡈⠔ ⦻ ⠆⢄⡈⠘ ⦻ ⠆⢄⡁⢂ Ξ ⠆⢄⡄⠃
 
  # SYMBOLE FERTIG
  SYMBOLE ⠆⢄⡂⠌ —
