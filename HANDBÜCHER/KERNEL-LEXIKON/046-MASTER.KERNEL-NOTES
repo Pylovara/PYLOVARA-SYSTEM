@@ -40,28 +40,28 @@ MUTTERWABEN-KATEGORIE ⠆⢄⢂⢁ MASTERLIZENZWABE
  # AXIOM | MASTER 
  AXIOM ¡ ⠆⢄⢂⢠ Ξ ⠆⢄⢂⢠
 
- # AXIOM | WEITERVERBINDUNG
+# AXIOM | HAUPTWABEN AUSFÜHRUNG BEI VERBINDUNG 
 
  # TRANSAKTIONSRAHMEN
- AXIOM ¡ ⠆⢄⢂⢠ ⦳ ⠆⢄⢂⡁ 
+ AXIOM ¡ ⠆⢄⢂⢠ ⧖⧖ ⠆⢄⢂⡁ ͽ
 
  # PROTEIN
- AXIOM ¡ ⠆⢄⢂⢠ ⦳ ⠆⢄⡠⡄ 
+ AXIOM ¡ ⠆⢄⢂⢠ ⧖⧖ ⠆⢄⡠⡄ ͽ
 
  # …USW
- AXIOM ¡ ⠆⢄⢂⢠ ⦳ BIID 
+ AXIOM ¡ ⠆⢄⢂⢠ ⧖⧖ BIID ͽ
 
  # …USW
- AXIOM ¡ ⠆⢄⢂⢠ ⦳ BIID 
+ AXIOM ¡ ⠆⢄⢂⢠ ⧖⧖ BIID ͽ
 
  # …USW
- AXIOM ¡ ⠆⢄⢂⢠ ⦳ BIID 
+ AXIOM ¡ ⠆⢄⢂⢠ ⧖⧖ BIID ͽ
 
  # …USW
- AXIOM ¡ ⠆⢄⢂⢠ ⦳ BIID 
+ AXIOM ¡ ⠆⢄⢂⢠ ⧖⧖ BIID ͽ
 
  # PIPELINE
- AXIOM ¡ ⠆⢄⢂⢠ ⦳ ⠆⢄⡐⠰ 
+ AXIOM ¡ ⠆⢄⢂⢠ ⧖⧖ ⠆⢄⡐⠰ ͽ
 
 ###====================================|====================================###
 
@@ -103,7 +103,7 @@ MUTTERWABEN-KATEGORIE ⠆⢄⢂⠡ SUPERLIZENZWABE
  AXIOM ¡ 
 
  # AXIOM | PROZESSSTOP
- AXIOM ¡ ⠆⢄⢂⡁ ⦳ ⧖⧖ ⠆⢄⡠⠡ 
+ AXIOM ¡ ⠆⢄⢂⡁ ⦳ ⧖⧖ ⠆⢄⡠⠡ ⦱
 
 ###====================================|====================================###
 
@@ -145,7 +145,7 @@ MUTTERWABEN-KATEGORIE ⠆⢄⡠⠨ SUPERLIZENZWABE
  AXIOM ¡ 
 
  # AXIOM | PROZESSSTOP
- AXIOM ¡ ⠆⢄⡠⡄ ⦳ ⧖⧖ ⠆⢄⡠⢁ 
+ AXIOM ¡ ⠆⢄⡠⡄ ⦳ ⧖⧖ ⠆⢄⡠⢁ ⦱
 
 ###====================================|====================================###
 

@@ -22,8 +22,8 @@ MUTTERMODUL # MASTERKERNWABE
  # AXIOM | BION-ID
  AXIOM ¡ WAID ⧓ NR Ξ BIID
 
- # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
- AXIOM ¡ BIID ⦳ BIID
+ # AXIOM | HAUPTWABEN AUSFÜHRUNG BEI VERBINDUNG 
+ AXIOM ¡ # ⧖⧖ # ͽ
 
 ###==============================INFORMATIONEN==============================###
 
