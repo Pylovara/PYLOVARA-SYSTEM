@@ -63,7 +63,27 @@ exakte Ankerpunkte.
 
 
 
-
+----------------------------------------------------------------------------
  !!!- bei der shell irrt sie sich aber das ist erstmal scheiß egal ... 
       die shell kommt später nastiv auf den tws kernel in mcs format 
       per mcd befehl .
+----------------------------------------------------------------------------
+
+Der Beweis, dass es sitzt:
+
+Prüfung	Ergebnis
+Dein Zertifikat durch meinen Parser	byte-identisch, 0 Befunde
+Zuweisungen ↔ Abrufe im Zertifikat	20 ↔ 20, keine Waise
+Altbestand nach dem Umbau	142/142 weiterhin identisch
+Neu gebaut lib/	110/110, 0 Kollisionen, 0 tote Verweise
+
+-----------------------------------------------------------------------------
+
+!!!- prüfung voller erfolg ... alte syntax fehlerfrei ... 
+  
+  das heißt für mich die neue version wird mehr als nur fehlerfrei ... 
+
+ also bau ich den tws genau darauf zu ... 
+
+ die erste selbst hosting sprache ohne fehler und explizite genauichkeit 
+ ohne raten .... ich heul gleich vor freude
