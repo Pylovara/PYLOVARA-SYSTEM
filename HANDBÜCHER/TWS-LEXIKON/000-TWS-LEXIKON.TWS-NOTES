@@ -20,8 +20,7 @@
 ###=========================MUTTERWABEN-MODULE==============================###
  #  20 ⠆⢄⢈⡁ KOPFWABE                 |  21 ⠆⢄⢈⡄ MASTERKERNWABE               #
  #  22 ⠆⢄⢁⢂ HAUPTWABE                |  23 ⠆⢄⡈⢈ STARTWABE                    #
- #  24 ⠆⢄⠨⡈ BAUWABE                  |  25      TRAKTORWABE                  #
- #  26      ENDWABE                  |  29                                   #
+ #  24 ⠆⢄⠨⡈ BAUWABE                  |  25      ENDWABE                      #
 ###===================MUTTERWABEN-MODULE-SYSTEM-INTERN======================###
  #  27 ⠆⢄⢈⡈ MASTERLIZENZWABE         |  28      SUPERLIZENZWABE              #
 ###==========================TOCHTERWABEN-MODULE============================###
@@ -30,6 +29,7 @@
  #  34      AUSFÜHRUNGSWABE          |  35      AUSFÜHRUNGSLINKWABE          #
  #  36      AUSFÜHRUNGSDIREKTLINKWABE|  37      BINDUNGSWABE                 #
  #  38      PROZESSRASTERWABE        |  39      EXTERNWABE                   #
+ #  40      TRAKTORWABE              |  41                                   #
 ###===========================KINDERWABEN-MODULE============================###
  #  60      HARDWAREWABE             |  61      STROMWABE                    #
  #  62      SYSTEMWABE               |  63      FREIGABEWABE                 #
