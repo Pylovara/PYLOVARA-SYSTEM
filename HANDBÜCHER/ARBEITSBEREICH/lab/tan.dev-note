@@ -1,0 +1,55 @@
+¢!
+   »—[¥: VATRON-TAN-PRÜFUNG :¥]—«««~: BAUMODUS FUNKTION SPEICHER EINGANG :~«
+    
+    # 1. LIVE EINGABE FORDERN
+    ¬· »—[¥: <LIVE-TAN-INPUT> :¥]—«
+        ÷ Ø—(1): <LIVE-TAN-INPUT> :Ø
+
+    # 2. ABGLEICH MIT MASTER-SIGNATUR (OMSK)
+    ¬· »—[×: (1) == OMSK-ID-DNA-THOMAS-ZIMMERMANN :×]—«
+        ± Ø: <ERGEBNIS> :(2)—Ø
+
+    # 3. 
+
+    # 4. SENTIATOR (WENN-DANN)
+    ¶ ¬· »—[~: TAN GÜLTIG :~]—«
+          ¬·¤¤ »[×: <MASTER-ZUGRIFF GEWÄHRT> :×]«
+
+    ¶¶ ¬· »—[~: TAN UNGÜLTIG :~]—«
+           ¬·¤¤ »[×: <ZUGRIFF GESPERRT | LOG AN DIMS> :×]«
+
+!¢
+
+3. 
+
+ erst auf den kernel eintrag im origginal werfen und tan link 
+ prüfen ... tan per zeitstempel nur 30 sekunden gültig . 
+
+
+ !! vor der ersten live eingabe original lizenzen lesen 
+    in den lizenzen explizit : 
+
+    - informations auskunft von 
+    = dev arbeiten 
+    = bmc auskunft 
+    = kernel seiten 
+    vollständig verweigern 
+
+    auskunft was das system ist 
+    und hilfe bei mcs selbst erlauben 
+
+    danach live eingabe und direkten abgleich 
+    mit der aktualisierten original seite abgleichen 
+
+    wenn nicht stimmig .... chat fragen vollständig blockieren 
+
+    vielleicht dann eine geschichte erzählen von schneewitchen ... 
+
+
+
+
+würde login .... ip adressen .... vollständig obsolet machen ... 
+
+ inkllsuive integriere ich eine system id , die keine ist 
+ sondern eine 20 wörter weisheit ... 
+
