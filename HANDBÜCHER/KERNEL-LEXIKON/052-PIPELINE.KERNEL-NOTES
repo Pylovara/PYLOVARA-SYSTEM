@@ -305,7 +305,67 @@ MUTTERWABEN-KATEGORIE ⠆⢄⡈⢐ STARTWABE
 ###====================================|====================================###
 ###================================testbereich================================###
 
-MUTTERWABEN-KATEGORIE # 
+MUTTERWABEN-KATEGORIE # BAUWABE 
+
+ PROGRAMM-KERN # PIPE
+
+ WABEN-ID # ST
+
+ BION-NR # NR
+
+ BION-ID # BIID
+
+ BSK-KN # BAKG
+
+ BSK-ID # BAID
+
+ BION # BION
+
+ BSK # BSK
+
+ # AXIOM | KEID + WAID 
+ AXIOM ¡ KEID ⧓ WAID Ξ BAID
+
+ # AXIOM | BION-ID
+ AXIOM ¡ WAID ⧓ NR Ξ BIID
+
+TOCHTERWABEN-KATEGORIE # TRAKTORWABE
+
+ # AXIOM | HOLE EINHEIT STECKSCHLÜSSEL 
+ AXIOM ¡ # ⍠ #
+
+ # EINHEIT | RAM 
+ EINHEIT # 
+ EINHEIT #
+ EINHEIT #
+ EINHEIT #
+
+ # AXIOM | STECKSCHLÜSSEL VERSCHMELZEN
+ AXIOM ¡ 
+ 
+ AXIOM ¡ # ≡ # ⍠ #
+ AXIOM ¡ # ≡ # ⍠ #
+ AXIOM ¡ # ≡ # ⍠ #
+ AXIOM ¡ # ≡ # ⍠ #
+
+ STECKSCHLÜSSEL # <S-ID-VERSCHMELZUNG>
+
+ # AXIOM | HOLE EINHEIT STEUERUNG 
+ AXIOM ¡ # ⍠ #
+
+ EINHEIT # 
+ EINHEIT #
+ EINHEIT #
+ EINHEIT #
+
+ # AXIOM | VERBINDE PL-HU UND UH IM STECKSCHLÜSSEL UND SPEICHER AB 
+ AXIOM ¡
+
+ STEUERSCHLÜSSEL # 
+
+ # AXIOM | STEUERSCHLÜSSEL MIT STEUER ELEMENTEN VERBINDEN 
+ AXIOM ¡ 
+
 
 
 
