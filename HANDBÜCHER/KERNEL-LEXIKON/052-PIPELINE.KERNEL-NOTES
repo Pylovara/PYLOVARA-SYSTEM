@@ -181,6 +181,12 @@ MUTTERWABEN-KATEGORIE ⠆⢄⡈⢐ STARTWABE
  AXIOM ¡ ⠆⢄⡄⢐ ⧓ ⠆⢄⡂⠑ ⧓ ⠆⢄⡄⠃ Ξ ⠆⢄⡁⠔
  AXIOM ¡ ⠆⢄⡄⢐ ⧓ ⠆⢄⡂⠑ ⧓ ⠆⢄⡄⢐ Ξ ⠆⢄⡁⠘
 
+ # EXTRA | STEUERUNG EINZELN
+ AXIOM ¡ ⠆⢄⡄⢈ Ξ ⠆⢄⠨⡐
+ AXIOM ¡ ⠆⢄⡄⢐ Ξ ⠆⢄⠨⡠
+ AXIOM ¡ ⠆⢄⡄⢠ Ξ ⠆⢄⠨⢁
+ AXIOM ¡ ⠆⢄⡄⠃ Ξ ⠆⢄⠨⢂
+
  # PRODUKT | STECKSCHLÜSSEL SKINS
  PRODUKT ⠆⢄⡁⡠ —:—
  PRODUKT ⠆⢄⡁⡐ —©—
@@ -213,23 +219,32 @@ MUTTERWABEN-KATEGORIE ⠆⢄⡈⢐ STARTWABE
  PRODUKT ⠆⢄⡁⠒ ↓:→
  PRODUKT ⠆⢄⡁⠘ ↓:↓
 
+ # PRODUKT | EXTRA | STEUERUNG EINZELN
+ PRODUKT ⠆⢄⠨⡐ ←
+ PRODUKT ⠆⢄⠨⡠ ↓
+ PRODUKT ⠆⢄⠨⢁ →
+ PRODUKT ⠆⢄⠨⢂ ↑
+
  # PRÄFIX PRIMÄR
  PRÄFIX ⠆⢄⡂⠤ PL-STECKSCHLÜSSEL
- PRÄFIX ⠆⢄⡁⡂ PL-STEUERUNG
 
- # PRÄFIX STEUERUNG 1 KANAL
+ # PRÄFIX STEUERUNG | EXTRA EINZELN
+ PRÄFIX ⠆⢄⠨⢈ PL-L
+ PRÄFIX ⠆⢄⠨⢐ PL-U
+ PRÄFIX ⠆⢄⠨⢠ PL-R
+ PRÄFIX ⠆⢄⠨⣀ PL-H
 
+ # PRÄFIX STEUERUNG | 1 KANAL
  PRÄFIX ⠆⢄⡂⡐ PL-LX
  PRÄFIX ⠆⢄⡄⡐ PL-UX
  PRÄFIX ⠆⢄⡂⡠ PL-RX
  PRÄFIX ⠆⢄⡂⡈ PL-HX
- 
  PRÄFIX ⠆⢄⡂⢈ PL-XL
  PRÄFIX ⠆⢄⡂⢁ PL-XU
  PRÄFIX ⠆⢄⡂⢐ PL-XR
  PRÄFIX ⠆⢄⡂⢂ PL-XH
 
- # PRÄFIX STEUERUNG 2 KANAL
+ # PRÄFIX STEUERUNG | 2 KANAL
  PRÄFIX ⠆⢄⡁⢐ PL-HH
  PRÄFIX ⠆⢄⡁⢠ PL-HU
  PRÄFIX ⠆⢄⡁⣀ PL-HR
@@ -270,6 +285,10 @@ MUTTERWABEN-KATEGORIE ⠆⢄⡈⢐ STARTWABE
  AXIOM ¡ ⠆⢄⡁⠑ ⥗ ⠆⢄⡂⢠ ⍠ ⠆⢄⠰⠤
  AXIOM ¡ ⠆⢄⡁⠒ ⥗ ⠆⢄⡂⣀ ⍠ ⠆⢄⠰⡁
  AXIOM ¡ ⠆⢄⡁⠘ ⥗ ⠆⢄⡂⠉ ⍠ ⠆⢄⠰⡂
+ AXIOM ¡ ⠆⢄⠨⡐ ⥗ ⠆⢄⠨⢈ ⍠ ⠆⢄⠰⠃
+ AXIOM ¡ ⠆⢄⠨⡠ ⥗ ⠆⢄⠨⢐ ⍠ ⠆⢄⠰⠅
+ AXIOM ¡ ⠆⢄⠨⢁ ⥗ ⠆⢄⠨⢠ ⍠ ⠆⢄⠰⠉
+ AXIOM ¡ ⠆⢄⠨⢂ ⥗ ⠆⢄⠨⣀ ⍠ ⠆⢄⠨⠌
 
  # EINHEIT | RAM
  EINHEIT ⠆⢄⡁⠡ —:— PL-STECKSCHLÜSSEL
@@ -298,6 +317,10 @@ MUTTERWABEN-KATEGORIE ⠆⢄⡈⢐ STARTWABE
  EINHEIT ⠆⢄⠰⠤ ↓:← PL-UL
  EINHEIT ⠆⢄⠰⡁ ↓:→ PL-UR
  EINHEIT ⠆⢄⠰⡂ ↓:↓ PL-UU
+ EINHEIT ⠆⢄⠰⠃ ← PL-L
+ EINHEIT ⠆⢄⠰⠅ ↓ PL-U
+ EINHEIT ⠆⢄⠰⠉ → PL-R
+ EINHEIT ⠆⢄⠨⠌ ↑ PL-H
 
  # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
  AXIOM ¡ ⠆⢄⡈⠉ ⦳ BIID
