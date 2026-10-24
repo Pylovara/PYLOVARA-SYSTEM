@@ -367,17 +367,41 @@ TOCHTERWABEN-KATEGORIE # TRAKTORWABE
  EINHEIT #
 
  # AXIOM | SETZE PIPELINE VERBINDUNG 
- AXIOM ¡ # ⌬ # 
- AXIOM ¡ # ⌬ # 
- AXIOM ¡ # ⌬ # 
- AXIOM ¡ # ⌬ # 
- AXIOM ¡ # ⌬ # 
- AXIOM ¡ # ⌬ # 
- AXIOM ¡ # ⌬ # 
- AXIOM ¡ # ⌬ # 
- AXIOM ¡ # ⌬ # 
- AXIOM ¡ # ⌬ # 
- AXIOM ¡ # ⌬ # 
+ AXIOM ¡ # ⌬ # Ξ
+ AXIOM ¡ # ⌬ # Ξ
+ AXIOM ¡ # ⌬ # Ξ
+ AXIOM ¡ # ⌬ # Ξ
+ AXIOM ¡ # ⌬ # Ξ
+ AXIOM ¡ # ⌬ # Ξ
+
+ # COMPILER LOGIK 
+
+ LOGIK # 
+ LOGIK #
+ LOGIK #
+ LOGIK #
+ LOGIK #
+ LOGIK #
+
+ # AXIOM | HOLE EINHEIT STEUERUNG 1 KANAL 
+ AXIOM ¡ # ⍠ #
+ AXIOM ¡ # ⍠ #
+ AXIOM ¡ # ⍠ #
+ AXIOM ¡ # ⍠ #
+
+ # EINHEIT | RAM 
+ EINHEIT # 
+ EINHEIT #
+ EINHEIT #
+ EINHEIT #
+
+
+
+
+
+
+
+
 
 
 
