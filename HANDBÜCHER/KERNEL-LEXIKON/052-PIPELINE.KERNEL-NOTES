@@ -402,13 +402,17 @@ TOCHTERWABEN-KATEGORIE ⠆⢄⠨⡂ TRAKTORWABE
  EINHEIT ⠆⢄⠤⠑ :↓ PL-XU
  EINHEIT ⠆⢄⠤⠒ :→ PL-XR
  EINHEIT ⠆⢄⠤⠔ :↑ PL-XH
-
+--------------------------------------------
  # AXIOM | VERBINDE LOGIK MIT 1 KANAL
- AXIOM ¡ RA ( SPÄTER) LOG  Ξ KA1
+ AXIOM ¡ ⠆⢄⠨⡄ ⧓ ⠆⢄⠤⣀ Ξ ⠆⢄⠤⠡
+ AXIOM ¡ ⠆⢄⠨⡄ ⧓ ⠆⢄⠨⠊ Ξ ⠆⢄⠤⠢
 
-  # KANAL1 | 1 KANAL ID
- KANAL1 KA1 
- KANAL1 KA1 
+
+
+------------------------------------
+ # KANAL1 | 1 KANAL ID
+ KANAL1 ⠆⢄⠤⠡ ←: PL-LX
+ KANAL1 ⠆⢄⠤⠢ :← PL-LX 
  KANAL1 KA1 
  KANAL1 KA1 
  KANAL1 KA1 
