@@ -367,13 +367,18 @@ TOCHTERWABEN-KATEGORIE ⠆⢄⠨⡂ TRAKTORWABE
  EINHEIT ⠆⢄⠤⡠ → PL-R
  EINHEIT ⠆⢄⠤⢁ ↑ PL-H
 
- # AXIOM | SETZE PIPELINE VERBINDUNG 
+ # AXIOM | SETZE STEUERUNGSVERBINDUNG 
  # PL-U
  AXIOM ¡ ⌬ ⠆⢄⠤⡐ Ξ ⠆⢄⠤⢂
  # PL-H
  AXIOM ¡ ⌬ ⠆⢄⠤⢁ Ξ ⠆⢄⠤⢈
+ # PL-U | PL-R
+ AXIOM ¡ ⌬ ⠆⢄⠤⡐  RA Ξ LOG
+ # PL-U | PL-L
+ AXIOM ¡ ⌬ RA ⠆⢄⠤⡐ Ξ LOG
+
  ----------------
- AXIOM ¡ RA ⌬ RA Ξ LOG
+ AXIOM ¡ ⌬ RA RA Ξ LOG
  AXIOM ¡ RA ⌬ RA Ξ LOG
  AXIOM ¡ RA ⌬ RA Ξ LOG
 -------------------
