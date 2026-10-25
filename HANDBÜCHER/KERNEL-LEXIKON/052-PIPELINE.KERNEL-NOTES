@@ -404,17 +404,19 @@ TOCHTERWABEN-KATEGORIE ⠆⢄⠨⡂ TRAKTORWABE
  EINHEIT ⠆⢄⠤⠔ :↑ PL-XH
 --------------------------------------------
  # AXIOM | VERBINDE LOGIK MIT 1 KANAL
- AXIOM ¡ ⠆⢄⠨⡄ ⧓ ⠆⢄⠤⣀ Ξ ⠆⢄⠤⠡
- AXIOM ¡ ⠆⢄⠨⡄ ⧓ ⠆⢄⠨⠊ Ξ ⠆⢄⠤⠢
+ AXIOM ¡ ⠆⢄⠤⢠ ⧓ ⠆⢄⠤⣀ Ξ ⠆⢄⠤⠡
+ AXIOM ¡ ⠆⢄⠤⢠ ⧓ ⠆⢄⠨⠊ Ξ ⠆⢄⠤⠢
 
+ AXIOM ¡ ⠆⢄⠤⢐ ⧓ ⠆⢄⠨⠅ Ξ ⠆⢄⠤⠨
+ AXIOM ¡ ⠆⢄⠤⢐ ⧓ ⠆⢄⠤⠒ Ξ ⠆⢄⠤⠰
 
 
 ------------------------------------
  # KANAL1 | 1 KANAL ID
  KANAL1 ⠆⢄⠤⠡ ←: PL-LX
- KANAL1 ⠆⢄⠤⠢ :← PL-LX 
- KANAL1 KA1 
- KANAL1 KA1 
+ KANAL1 ⠆⢄⠤⠢ :← PL-XL 
+ KANAL1 ⠆⢄⠤⠨ →: PL-RX
+ KANAL1 ⠆⢄⠤⠰ :→ PL-XR
  KANAL1 KA1 
  KANAL1 KA1 
 
