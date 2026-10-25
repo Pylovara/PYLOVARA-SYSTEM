@@ -384,16 +384,24 @@ TOCHTERWABEN-KATEGORIE ⠆⢄⠨⡂ TRAKTORWABE
  LOGIK # ⠆⢄⠤⢠ ↓← PL-U PL-L
 
  # HOLE EINHEIT | KANAL1
- AXIOM ¡ # ⍠ RA
- AXIOM ¡ # ⍠ RA
- AXIOM ¡ # ⍠ RA
- AXIOM ¡ # ⍠ RA
+ AXIOM ¡ ⠆⢄⠰⡐ ⍠ ⠆⢄⠤⣀
+ AXIOM ¡ ⠆⢄⠰⡠ ⍠ ⠆⢄⠨⠃
+ AXIOM ¡ ⠆⢄⠰⢁ ⍠ ⠆⢄⠨⠅
+ AXIOM ¡ ⠆⢄⠰⢂ ⍠ ⠆⢄⠨⠉
+ AXIOM ¡ ⠆⢄⠰⢐ ⍠ ⠆⢄⠨⠊
+ AXIOM ¡ ⠆⢄⠰⢠ ⍠ ⠆⢄⠤⠑
+ AXIOM ¡ ⠆⢄⠰⣀ ⍠ ⠆⢄⠤⠒
+ AXIOM ¡ ⠆⢄⡁⠃ ⍠ ⠆⢄⠤⠔
 
  # EINHEIT | RAM 
- EINHEIT # RA
- EINHEIT # RA
- EINHEIT # RA
- EINHEIT # RA
+ EINHEIT ⠆⢄⠤⣀ ←: PL-LX
+ EINHEIT ⠆⢄⠨⠃ ↓: PL-UX
+ EINHEIT ⠆⢄⠨⠅ →: PL-RX
+ EINHEIT ⠆⢄⠨⠉ ↑: PL-HX
+ EINHEIT ⠆⢄⠨⠊ :← PL-XL
+ EINHEIT ⠆⢄⠤⠑ :↓ PL-XU
+ EINHEIT ⠆⢄⠤⠒ :→ PL-XR
+ EINHEIT ⠆⢄⠤⠔ :↑ PL-XH
 
  # AXIOM | VERBINDE LOGIK MIT 1 KANAL
  AXIOM ¡ RA ( SPÄTER) LOG  Ξ KA1
