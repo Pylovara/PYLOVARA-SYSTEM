@@ -368,16 +368,18 @@ TOCHTERWABEN-KATEGORIE ⠆⢄⠨⡂ TRAKTORWABE
  EINHEIT ⠆⢄⠤⢁ ↑ PL-H
 
  # AXIOM | SETZE PIPELINE VERBINDUNG 
+ # PL-U
+ AXIOM ¡ ⌬ ⠆⢄⠤⡐ Ξ ⠆⢄⠤⢂
+ # PL-H
+ AXIOM ¡ ⌬ ⠆⢄⠤⢁ Ξ ⠆⢄⠤⢈
+ ----------------
  AXIOM ¡ RA ⌬ RA Ξ LOG
  AXIOM ¡ RA ⌬ RA Ξ LOG
  AXIOM ¡ RA ⌬ RA Ξ LOG
- AXIOM ¡ RA ⌬ RA Ξ LOG
- AXIOM ¡ RA ⌬ RA Ξ LOG
- AXIOM ¡ RA ⌬ RA Ξ LOG
-
+-------------------
  # LOGIK | COMPILER ID
- LOGIK # LOG
- LOGIK # LOG
+ LOGIK # ⠆⢄⠤⢂ ↓ PL-U
+ LOGIK # ⠆⢄⠤⢈ ↑ PL-H
  LOGIK # LOG
  LOGIK # LOG
  LOGIK # LOG
