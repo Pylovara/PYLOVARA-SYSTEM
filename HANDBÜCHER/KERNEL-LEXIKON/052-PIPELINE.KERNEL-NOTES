@@ -402,18 +402,17 @@ TOCHTERWABEN-KATEGORIE ⠆⢄⠨⡂ TRAKTORWABE
  EINHEIT ⠆⢄⠤⠑ :↓ PL-XU
  EINHEIT ⠆⢄⠤⠒ :→ PL-XR
  EINHEIT ⠆⢄⠤⠔ :↑ PL-XH
---------------------------------------------
+
  # AXIOM | VERBINDE LOGIK MIT 1 KANAL
  AXIOM ¡ ⠆⢄⠤⢠ ⧓ ⠆⢄⠤⣀ Ξ ⠆⢄⠤⠡
  AXIOM ¡ ⠆⢄⠤⢠ ⧓ ⠆⢄⠨⠊ Ξ ⠆⢄⠤⠢
-
  AXIOM ¡ ⠆⢄⠤⢐ ⧓ ⠆⢄⠨⠅ Ξ ⠆⢄⠤⠨
  AXIOM ¡ ⠆⢄⠤⢐ ⧓ ⠆⢄⠤⠒ Ξ ⠆⢄⠤⠰
-
  AXIOM ¡ ⠆⢄⠤⢂ ⧓ ⠆⢄⠨⠃ Ξ ⠆⢄⠤⡁
  AXIOM ¡ ⠆⢄⠤⢂ ⧓ ⠆⢄⠤⠑ Ξ ⠆⢄⠤⡂
+ AXIOM ¡ ⠆⢄⠤⢈ ⧓ ⠆⢄⠨⠉ Ξ ⠆⢄⠤⡄
+ AXIOM ¡ ⠆⢄⠤⢈ ⧓ ⠆⢄⠤⠔ Ξ ⠆⢄⠤⡈
 
-------------------------------------
  # KANAL1 | 1 KANAL ID
  KANAL1 ⠆⢄⠤⠡ ←: PL-LX
  KANAL1 ⠆⢄⠤⠢ :← PL-XL 
@@ -421,9 +420,9 @@ TOCHTERWABEN-KATEGORIE ⠆⢄⠨⡂ TRAKTORWABE
  KANAL1 ⠆⢄⠤⠰ :→ PL-XR
  KANAL1 ⠆⢄⠤⡁ ↓: PL-UX
  KANAL1 ⠆⢄⠤⡂ :↓ PL-XU
- KANAL1
- KANAL1
-
+ KANAL1 ⠆⢄⠤⡄ ↑: PL-HX
+ KANAL1 ⠆⢄⠤⡈ :↑ PL-XH
+-----------------------------------------
  # AXIOM | HOLE EINHEIT | KANAL2
  AXIOM ¡ # ⍠ RA
  AXIOM ¡ # ⍠ RA
@@ -446,7 +445,7 @@ TOCHTERWABEN-KATEGORIE ⠆⢄⠨⡂ TRAKTORWABE
  KANAL2 # KA2
  KANAL2 # KA2
  KANAL2 # KA2
-
+-----------------------------------------
  # AXIOM | HOLE EINHEIT STECKSCHLÜSSEL 
  AXIOM ¡ # ⍠ RA
 
