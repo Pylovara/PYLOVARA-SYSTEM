@@ -127,14 +127,6 @@
 
  hmm ... 
 
- › —[ ]
-   › 
-
-—:——[]
-↓:↑
-—:—› —[]
-
-
 
  —:—[]
     › —:—[]
@@ -146,29 +138,90 @@
        ↓:↑
        —:—›·
 
- hmmm ... ein königreich für eine eigene tastaturen farbrik ... 
+ —:—[]
+ ↓:↑
+ —:—›· —:—[]
+ ↓:↑   ↓:↑
+ ↓:↑   —:—›·
+ —:—[]
+ ↓:↑
+ —:—›· —:—[]
+       ↓:↑
+       —:—¶·
 
- aber die gelder kommen erst bei investoren ... 
 
- davor muss ich mit dem utf schrott arbeiten weil .... 
- alle damit arbeiten und alle tastaturen kompaktibel sind 
- und es noch keine eigene auf dem markt gibt ... 
+ egal wie ich es drehe und wende ... 
 
- ich muss die zeichen folge so einfach halten wie nur möglich ... 
+ entweder ie pipeline isttt nativ dabei 
+ oder scheiße ... quasi mcs 2.2 
 
- ich kann permanente ascii codes von den leuten nicht abverlangen ... 
- das wäre zu komplex .... die sachen müssen nativ vorhanden sein .. 
+
+-------------------
+mcs 7.4
+
+ —[]—
+ ¬· —[]—
+    ¬··
+
+ =:=—[]—
+ ↓:↑
+ =:=¬· =:=—[]—
+       =:=¬··
+
+ hmmm ... 
+-------------------
+mcs 7.5 beta
+
+ —[]
+ ¬· —[]
+    ¬··
+
+ =:=—[]
+ ↓:↑
+ =:=¬· =:=—[]
+       =:=¬··
+
+... hmm 
+-------------------
+ mcs 7.5 redesigne
+
+ —[]
+ @· —[]
+    @··
+
+ =:=—[]
+ ↓:↑
+ =:=@· =:=—[]
+       =:=@··
+
+ hmmm ... 
+-------------------
 
  
 
- ich fass es einfach nicht das das zeichen ¬ so unormal unmittig ist ... 
- grmpf .... da waren wieder schmuddler am werk ... 
+ ich .... weis nicht .... 
+ wenn dem istgleich im system die alte bedeutung weg 
+ nehme und es für den zweck verwende , dürfte das scheiß 
+ teil auch nicht buggen später .... 
 
- bei denen fliegen die socken auch im schrank einzelnd rum ... 
+ aber was dann für istgleich? 
 
+ .... ich muss mit schrott arbeiten ... nur weil schrott 
+ nie in frage gestellt wurde .... 
 
+ native symbolische dinge fehlen vollständig auf jeder tastatur nativ ... 
 
+ alleine nur die klammern ... nur 3 stück ... 3! 
 
+ hmmm 
+
+ obwohl ... alu ist alu .... syntax ist syntax .... 
+
+ pipeline ist pipeline ... 
+
+ das problem nur ... zuviele kompromisse ... 
+
+ 
 
 
 
