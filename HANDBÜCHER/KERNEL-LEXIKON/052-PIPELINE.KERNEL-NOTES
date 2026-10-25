@@ -326,28 +326,29 @@ MUTTERWABEN-KATEGORIE ⠆⢄⡈⢐ STARTWABE
  AXIOM ¡ ⠆⢄⡈⠉ ⦳ BIID
 
 ###====================================|====================================###
+###====================================|====================================###
 ###================================testbereich================================###
 
-MUTTERWABEN-KATEGORIE # BAUWABE 
+MUTTERWABEN-KATEGORIE ⠆⢄⠨⠑ BAUWABE 
 
- PROGRAMM-KERN # PIPE
+ PROGRAMM-KERN ⠆⢄⠨⠒ PIPE
 
- WABEN-ID # ST
+ WABEN-ID ⠆⢄⠨⠔ ST
 
- BION-NR # NR
+ BION-NR ⠆⢄⠨⠘ NR
 
- BION-ID # BIID
+ BION-ID ⠆⢄⠨⠡ BIID
 
- BSK-KN # BAKG
+ BSK-KN ⠆⢄⠨⠢ BAKG
 
- BSK-ID # BAID
+ BSK-ID ⠆⢄⠨⠤ BAID
 
- BION # BION
+ BION ⠆⢄⠨⠰ BION
 
- BSK # BSK
+ BSK ⠆⢄⠨⡁ BSK
 
- # AXIOM | KEID + WAID 
- AXIOM ¡ KEID ⧓ WAID Ξ BAID
+ # AXIOM | KEID + WAID + BAIKN
+ AXIOM ¡ ⠆⢄⢁⡄ ⧓ ⠆⢄⠨⠔ ⧓ ⠆⢄⠨⠢ Ξ ⠆⢄⠨⠤
 
  # AXIOM | BION-ID
  AXIOM ¡ WAID ⧓ NR Ξ BIID
