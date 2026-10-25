@@ -410,6 +410,8 @@ TOCHTERWABEN-KATEGORIE ⠆⢄⠨⡂ TRAKTORWABE
  AXIOM ¡ ⠆⢄⠤⢐ ⧓ ⠆⢄⠨⠅ Ξ ⠆⢄⠤⠨
  AXIOM ¡ ⠆⢄⠤⢐ ⧓ ⠆⢄⠤⠒ Ξ ⠆⢄⠤⠰
 
+ AXIOM ¡ ⠆⢄⠤⢂ ⧓ ⠆⢄⠨⠃ Ξ ⠆⢄⠤⡁
+ AXIOM ¡ ⠆⢄⠤⢂ ⧓ ⠆⢄⠤⠑ Ξ ⠆⢄⠤⡂
 
 ------------------------------------
  # KANAL1 | 1 KANAL ID
@@ -417,8 +419,10 @@ TOCHTERWABEN-KATEGORIE ⠆⢄⠨⡂ TRAKTORWABE
  KANAL1 ⠆⢄⠤⠢ :← PL-XL 
  KANAL1 ⠆⢄⠤⠨ →: PL-RX
  KANAL1 ⠆⢄⠤⠰ :→ PL-XR
- KANAL1 KA1 
- KANAL1 KA1 
+ KANAL1 ⠆⢄⠤⡁ ↓: PL-UX
+ KANAL1 ⠆⢄⠤⡂ :↓ PL-XU
+ KANAL1
+ KANAL1
 
  # AXIOM | HOLE EINHEIT | KANAL2
  AXIOM ¡ # ⍠ RA
