@@ -2,7 +2,7 @@
 ###= SEITEN-SYSTEM-ID : # ===PYLOVARA-SYSTEM=============================###
 ###=============================TOCHTERMODUL================================###
 
-!!!!!!!!!!!!!! BAUSTELLE 
+!!!!!!!!!!!!!!!!!!!!!!!!!! BAUSTELLE !!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 TOCHTERMODUL # TRAKTORWABE
 
@@ -108,20 +108,8 @@ TOCHTERMODUL # TRAKTORWABE
 
 -------------------------------------------------------------
 
-
  !!! AB HIER DIE EIGENTLICHE RASTER ALLER KOMPONENTEN 
      DIE ANGESCHLOSSEN WERDEN ... 
-
-
-
-
-
-
-
-
-
-
-
 
 
 ####
@@ -130,7 +118,9 @@ TOCHTERMODUL # TRAKTORWABE
 
 ###==============================INFORMATIONEN==============================###
  
- #
+ DIE TRAKTORWABE IST EIN KERNPROZESS DER NICHT GESTOPPT WIRD .
+ ER VERSCHLIEẞT DIE PIPELINE MIT ALLEN KOMPONENTEN ZU EINEM GANZEN 
+ UND WIR EXPLIZIT NUR IN DER PIPELINE VERWENDET.
 
 ###==========================VERWENDETE-WABEN===============================###
 
