@@ -25,7 +25,7 @@ $PV_COLOR_KANAL↓:↑   —:—@·¤ —:—[\"$PV_COLOR_USER: \u \h :$PV_COLOR
 $PV_COLOR_KANAL↓:↑   —:—@·¤ —:—[\"$PV_COLOR_USER: $PV_KERNEL :$PV_COLOR_SYMBOL\"]
 $PV_COLOR_KANAL↓:↑
 $PV_COLOR_SYMBOL—:—@· —:—[\"$PV_COLOR_USER: LEXIKONS :$PV_COLOR_SYMBOL\"]
-$PV_COLOR_KANAL↓:↑   —:—@·¤ —:—[\"$PV_COLOR_USER: kernel lex | waben lex | mcs lex :$PV_COLOR_SYMBOL\"]
+$PV_COLOR_KANAL↓:↑   —:—@·¤ —:—[\"$PV_COLOR_USER: kernel lex | waben lex oder tws lex | mcs lex :$PV_COLOR_SYMBOL\"]
 $PV_COLOR_KANAL↓:↑
 $PV_COLOR_SYMBOL—:—@· —:—[\"$PV_COLOR_USER: WERKZEUGE :$PV_COLOR_SYMBOL\"]
 $PV_COLOR_KANAL↓:↑   —:—@·¤ —:—[\"$PV_COLOR_USER: to | p | callme :$PV_COLOR_SYMBOL\"]
