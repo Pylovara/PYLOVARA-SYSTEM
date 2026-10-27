@@ -13,7 +13,7 @@ WRAPPER_NAME="pylovara.wrapper-shell"
 WRAPPER_SOURCE="$PV_DIR/ARBEITERBIENEN/CONTROL-BASH/LINUX-SHELL/SETUP/INSTALL/usr/bin/$WRAPPER_NAME"
 WRAPPER_TARGET="/usr/local/bin/pylovara"
 CONTROL_CONF="$PV_DIR/ARBEITERBIENEN/CONTROL-BASH/CONTROL.PV-CONF"
-
+                                        
 ## FUNKTIONEN 
 log_info() { echo "ℹ️  $1"; }
 log_ok()   { echo "✅ $1"; }
@@ -26,6 +26,30 @@ if [ "$EUID" -ne 0 ]; then
   log_info "Führe aus mit: sudo $0"
   exit 1
 fi
+
+## 1. ROOT-PRÜFUNG
+if [ "$EUID" -ne 0 ]; then
+  log_err "Dieses Skript muss als root laufen."
+  log_info "Führe aus mit: sudo $0"
+  exit 1
+fi
+
+## HEADER
+echo ""
+echo '          ▖  ▖▘▜ ▜ ▌                     '
+echo '          ▌▞▖▌▌▐ ▐ ▙▘▛▌▛▛▌▛▛▌█▌▛▌        '
+echo '          ▛ ▝▌▌▐▖▐▖▛▖▙▌▌▌▌▌▌▌▙▖▌▌        '
+echo '                                         '
+echo '                  ▄▖▖ ▖                  '
+echo '                  ▐ ▛▖▌                  '
+echo '                  ▟▖▌▝▌                  '
+echo '                                         '
+echo '      ▄▖▖▖▖ ▄▖▖▖▄▖▄▖▄▖  ▄▖▖▖▄▖▄▖▄▖▖  ▖   '
+echo '      ▙▌▌▌▌ ▌▌▌▌▌▌▙▘▌▌▄▖▚ ▌▌▚ ▐ ▙▖▛▖▞▌   '
+echo '      ▌ ▐ ▙▖▙▌▚▘▛▌▌▌▛▌  ▄▌▐ ▄▌▐ ▙▖▌▝ ▌   '
+echo ""
+log_info "Willkommen beim Pylovara System Installer"
+echo ""
 
 ## 2. IN SICHERES VERZEICHNIS WECHSELN (WICHTIG!)
 # Wechsle in ein Verzeichnis, das nicht gelöscht wird, 
@@ -102,6 +126,14 @@ echo ""
 log_ok "PYLOVARA LINUX SHELL erfolgreich installiert."
 echo ""
 log_info "Bitte neu anmelden oder Shell neu starten:"
-echo "  exec $WRAPPER_TARGET"
 echo ""
 log_info "Oder: source $CONTROL_CONF"
+echo ""
+log_info "Du kannst ab jetzt sobald du deine shell aufrufst,das ganze updaten"
+echo ""
+log_info "gibt einfach : SHELLUPDATE ein und drück Enter"
+echo ""
+log_info "Da dieses Repo noch oft umgebaut wird, ist der Reinstall das Update"
+echo ""
+log_info "SHELLUPDATE wird momentan täglich bis Wöchentlich Empfohlen"
+echo "  exec $WRAPPER_TARGET"

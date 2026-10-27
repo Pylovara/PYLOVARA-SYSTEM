@@ -22,6 +22,11 @@ SHELL_DIR="/PYLOVARA-SYSTEM/ARBEITERBIENEN/CONTROL-BASH/LINUX-SHELL/DATEN/SHELL-
 source "$MASTER_DIR/SHELL.CONF"
 
 ###====================================|====================================###
+### REINSTALL | UPDATE 
+
+alias SHELLUPDATE='sudo /PYLOVARA-SYSTEM/ARBEITERBIENEN/CONTROL-BASH/LINUX-SHELL/SETUP/INSTALL/full.install-core'
+
+###====================================|====================================###
 ### ALIAS SEKTOR 
 
 alias dna='/PYLOVARA-SYSTEM/ARBEITERBIENEN/CONTROL-BASH/LINUX-SHELL/DATEN/SHELL-PROGRAMME/DNA/dna.shell-dna'
