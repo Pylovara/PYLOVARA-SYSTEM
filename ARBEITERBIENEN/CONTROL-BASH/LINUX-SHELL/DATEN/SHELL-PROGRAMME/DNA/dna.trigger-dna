@@ -1,4 +1,13 @@
 #!/bin/bash
+# ==============================================================================
+# kernel.cut-dna [0.4]
+# ==============================================================================
+# Ort   : /PYLOVARA-SYSTEM/ARBEITERBIENEN/CONTROL-BASH/LINUX-SHELL/DATEN/SHELL-PROGRAMME/DNA/dna.trigger-dna
+# Zweck : dna trigger für cmd befehle, beta.
+# Status: test bereich
+# TERMINAL : dna <cmd>
+# ==============================================================================
+
 export PV_COLOR_RESET='\e[0m'
 export PV_COLOR_CMD_SUCCESS='\e[38;5;82m'  # Grün
 export PV_COLOR_CMD_ERROR='\e[38;5;196m'   # Rot

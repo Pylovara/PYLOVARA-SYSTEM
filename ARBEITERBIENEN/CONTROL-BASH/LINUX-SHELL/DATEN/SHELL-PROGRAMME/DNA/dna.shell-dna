@@ -1,4 +1,12 @@
 #!/bin/bash
+# ==============================================================================
+# dna.shell-dna [0.2]
+# ==============================================================================
+# Ort   : /PYLOVARA-SYSTEM/ARBEITERBIENEN/CONTROL-BASH/LINUX-SHELL/DATEN/SHELL-PROGRAMME/DNA/dna.shell-dna
+# Zweck : prototyp version .
+# Status: instabil
+# TERMINAL : dna <cmd>
+# ==============================================================================
 
 # dna.shell-dna – Benutzereingabe für DNA-CMDs
 

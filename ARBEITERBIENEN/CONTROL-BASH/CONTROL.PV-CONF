@@ -45,7 +45,7 @@ waben() {
     source "$SHELL_DIR/DNA/waben.cut-dna" "$@"
 }
 tws() {
-    source "$SHELL_DIR/DNA/waben.cut-dna" "$@"
+    source "$SHELL_DIR/DNA/tws.cut-dna" "$@"
 }
 mcs() {
     source "$SHELL_DIR/DNA/mcs.cut-dna" "$@"

@@ -1,8 +1,8 @@
 #!/bin/bash
 # ==============================================================================
-# mcs.cut-dna [3.5]
+# mcs.cut-dna [0.3]
 # ==============================================================================
-# Ort   : Pylovara/System/Shell/Dna/mcs.cut-dna
+# Ort   : /PYLOVARA-SYSTEM/ARBEITERBIENEN/CONTROL-BASH/LINUX-SHELL/DATEN/SHELL-PROGRAMME/DNA/mcs.cut-dna
 # Zweck : Zentrales Hilfesystem mit AST-ID und *.MCS-NOTES Anbindung
 # Status: STABIL - AST kompatibel - KEIN Lexikon nötig - Unabhängig
 # TERMINAL : mcs lex | mcs <nr>

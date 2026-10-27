@@ -1,9 +1,9 @@
 #!/bin/bash
 # ==============================================================================
-# wabe.cut-dna [3.5]
+# wabe.cut-dna [3.6]
 # ==============================================================================
-# Ort   : Pylovara/System/Shell/Dna/kernel.cut-dna
-# Zweck : Zentrales Hilfesystem mit AST-ID und *.KERNEL-NOTES Anbindung
+# Ort   : /PYLOVARA-SYSTEM/ARBEITERBIENEN/CONTROL-BASH/LINUX-SHELL/DATEN/SHELL-PROGRAMME/DNA/waben.cut-dna
+# Zweck : Zentrales Hilfesystem mit AST-ID und *.TWS-NOTES Anbindung
 # Status: STABIL - AST kompatibel - KEIN Lexikon nötig - Unabhängig
 # TERMINAL : waben lex | waben <nr>
 # ==============================================================================

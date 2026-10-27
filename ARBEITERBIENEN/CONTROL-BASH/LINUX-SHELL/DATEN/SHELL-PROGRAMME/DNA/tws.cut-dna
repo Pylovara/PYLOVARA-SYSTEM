@@ -1,0 +1,68 @@
+#!/bin/bash
+# ==============================================================================
+# tws.cut-dna [0.2]
+# ==============================================================================
+# Ort   : /PYLOVARA-SYSTEM/ARBEITERBIENEN/CONTROL-BASH/LINUX-SHELL/DATEN/SHELL-PROGRAMME/DNA/tws.cut-dna
+# Zweck : Zentrales Hilfesystem mit AST-ID und *.TWS-NOTES Anbindung
+# Status: STABIL - AST kompatibel - KEIN Lexikon nötig - Unabhängig
+# TERMINAL : tws lex | tws <nr>
+# ==============================================================================
+
+Vara_Dir="/PYLOVARA-SYSTEM/ARBEITERBIENEN/CONTROL-BASH/LINUX-SHELL/DATEN/SHELL-PROGRAMME/VARA"
+BASE_DIR="/PYLOVARA-SYSTEM/HANDBÜCHER/TWS-LEXIKON"
+INPUT="$1"
+
+# GENERAL SUCHE 00
+extract_waben_nr() {
+    $Vara_Dir/grep.vara -i '@waben-nr:' "$1" | $Vara_Dir/head.vara -n 1 | $Vara_Dir/sed.vara -E 's/.*@waben-nr:[[:space:]]*([^#[:space:]]+).*/\1/I'
+}
+
+if [[ -z "$INPUT" || "$INPUT" == "00" ]]; then
+    echo "[INFO] Übersicht aller verfügbaren *.TWS-NOTES mit Nummern:"
+    $Vara_Dir/find.vara "$BASE_DIR" -type f -name "*.TWS-NOTES" | while read -r file; do
+        nr=$(extract_waben_nr "$file")
+        name=$($Vara_Dir/basename.vara "$file")
+        if [[ -n "$nr" ]]; then
+            printf "%-10s -> %s\n" "$nr" "$name"
+        fi
+    done
+    printf "[INFO] Vorgang abgeschlossen. [ENTER] zum Beenden."
+    read
+    return
+fi
+
+# === Fall 1: Nummernsuche ===
+if [[ "$INPUT" =~ ^[0-9a-zA-Z_-]+$ ]]; then
+    FOUND_PATH=$($Vara_Dir/find.vara "$BASE_DIR" -type f -name "*.TWS-NOTES" | while read -r file; do
+        nr=$(extract_waben_nr "$file")
+        [[ "$nr" == "$INPUT" ]] && echo "$file" && break
+    done)
+
+    if [[ -n "$FOUND_PATH" ]]; then
+        echo "[INFO] Datei mit @waben-nr: $INPUT gefunden → $FOUND_PATH"
+        echo "----------------------------------------"
+        $Vara_Dir/cat.vara "$FOUND_PATH"
+    else
+        echo "[!] Keine .TWS-NOTES mit Nummer '$INPUT' gefunden."
+    fi
+    printf "\n[ENTER] zum Beenden.\n"
+    read
+    return
+fi
+
+# === Fall 2: Dateinamen-Suche ===
+SEARCH_NAME=$(echo "$INPUT" | $Vara_Dir/awk.vara '{print tolower($0)}')
+FOUND_PATH=$($Vara_Dir/find.vara "$BASE_DIR" -type f -iname "${SEARCH_NAME}.TWS-NOTES" | $Vara_Dir/head.vara -n 1)
+
+if [[ -n "$FOUND_PATH" ]]; then
+    echo "[INFO] Datei '${SEARCH_NAME}.TWS-NOTES' gefunden → $FOUND_PATH"
+    echo "----------------------------------------"
+    $Vara_Dir/cat.vara "$FOUND_PATH"
+else
+    echo "[!] Keine passende .TWS-NOTES gefunden für: $SEARCH_NAME"
+fi
+
+printf "\n[ENTER] zum Beenden.\n"
+read
+return
+

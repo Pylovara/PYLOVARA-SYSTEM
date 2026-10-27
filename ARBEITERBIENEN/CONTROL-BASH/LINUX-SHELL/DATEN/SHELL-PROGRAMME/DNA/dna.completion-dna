@@ -1,6 +1,13 @@
 #!/bin/bash
-# dna-completion – Bash Tab-Vervollständigung für DNA-Kommandos
-# main.core-dna sucht shell cmd .cmd-dna
+# ==============================================================================
+# dna.completion-dna [0.3]
+# ==============================================================================
+# Ort   : /PYLOVARA-SYSTEM/ARBEITERBIENEN/CONTROL-BASH/LINUX-SHELL/DATEN/SHELL-PROGRAMME/DNA/dna.completion-dna
+# Zweck : prototyp version , Tab-Vervollständigung für DNA-Kommandos
+# Status: instabil
+# TERMINAL : dna <cmd>
+# notiz : main.core-dna sucht shell cmd .cmd-dna
+# ==============================================================================
 
 Vara_Dir="/PYLOVARA-SYSTEM/ARBEITERBIENEN/CONTROL-BASH/LINUX-SHELL/DATEN/SHELL-PROGRAMME/VARA"
 

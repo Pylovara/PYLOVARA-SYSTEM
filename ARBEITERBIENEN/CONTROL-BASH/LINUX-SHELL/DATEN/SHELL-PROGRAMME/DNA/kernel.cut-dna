@@ -1,8 +1,8 @@
 #!/bin/bash
 # ==============================================================================
-# kernel.cut-dna [3.5]
+# kernel.cut-dna [3.6]
 # ==============================================================================
-# Ort   : Pylovara/System/Shell/Dna/kernel.cut-dna
+# Ort   : /PYLOVARA-SYSTEM/ARBEITERBIENEN/CONTROL-BASH/LINUX-SHELL/DATEN/SHELL-PROGRAMME/DNA/kernel.cut-dna
 # Zweck : Zentrales Hilfesystem mit AST-ID und *.KERNEL-NOTES Anbindung
 # Status: STABIL - AST kompatibel - KEIN Lexikon nötig - Unabhängig
 # TERMINAL : kernel lex | kernel <nr>
