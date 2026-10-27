@@ -97,29 +97,6 @@ ich muss es schreiben ... ich wurde 3 mal abgerippt ...
 
  das einzige wäre dann das die richtungen konstant bleiben .. 
 
- und je nach haltestelle dann der signal fluss in der 
- weiter gabe ... 
-
- das heißt ich muss mir jetzt wirklich die restliche nacht 
- leiterbahnen geben ... 
-
- ob die isolatoren drinne haben oder nicht ... 
-
- und wenn nicht dann auch nicht im chip 
-
- ich hoffe signalle gehen vor und zurück auf der selben bahn 
-
- die frage ist nur hinter einander oder gleichzeitig 
-
- und dfas gleichzeitig wage ich fast schon zu bezweifleln .. 
-
- aber was willste machen .... wenn affen technik bauen ... 
-
- aber abwarten ... 
-
- .... aber erstmal essen ... immer noch nichts drinne ... 
- hunger ... dann guck ich film ess was dann bauart abchecken .. 
-
  ich will so nahe wie nur möglich an der eigentlichen hardware logik bleiben .. 
 
  umso näher , umso schneller ... performance ... 
@@ -155,6 +132,40 @@ ich muss es schreiben ... ich wurde 3 mal abgerippt ...
  den ruf ich dann eh ab sobald er gebraucht wird .. 
 
  
+ -
+
+ aber nicht mehr heute .... 
+
+
+ ich hab 3 laptops mit geschlossenen bootloader plus supervisor passwort im uefi 
+ knacken müssen , nur weil die mal gemacht wurden und sich einfach nicht gemerkt 
+ haben ... 
+
+ inklusive 3 mal archinstall plus ( für die ) kde installieren müssen ...
+ nichts gegen kde aber ich kam mir falsch vor ... nutze selbst nur tilling .. 
+ 
+ hatte aber bei der gelegenheit die möglichkeit das eigene setup zu testen ... 
+ die nutzen eh keine konsole und haben jetzt alle 3 mein installer drauf ... 
+
+ der install selbst ist falsch ... geht nicht in den richtigen ordner rein 
+ warum auch immer ... 
+
+ das korrigier ich heute kurz und setz ein alias im control.pv-conf 
+
+ danach mach ich schluss .... der kopf brennt ... 
+ ich setz mich dann morgen an die pipeline ... 
+
+ das ist der härteste procken überhaupt ... der rest ist dann ein kinderspiel 
+ gegenüber der PL ... 
+
+ ... 
+
+
+
+
+
+
+
 
 
 #==================# PIPELINE ZWISCHEN SPEICHER
