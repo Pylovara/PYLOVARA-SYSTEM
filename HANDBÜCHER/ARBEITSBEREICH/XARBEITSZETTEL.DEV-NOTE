@@ -38,68 +38,50 @@
 ###====================================|====================================###
 #==================# TAGES NARICHT SEKTION 
 
-ich muss es schreiben ... ich wurde 3 mal abgerippt ... 
+
+ das wars für heute ... keine weltwunder ... nur ein fix .... für den install 
+ und SHELLUPDATE befehl direkt ... 
+
+ ich bau das irgendwann in das dna profil mit rein ... dazu hab ichs angelegt ... 
+ sobald ich es wieder in gang gesetzt habe ... momentan haben es nur die 
+ wo lange vor dem umbau schon installiert haben ... 
+
+ dna taski 
+
+ usw ... 
+
+ das prinzip bau ich aus , ist nur zeitweilig verschuwnden ... 
+
+ aber erst wenn genug programme dafür sinnvoll vorliegen ... 
+ quasi das selbe spiel wie bei allen linux derivaten ... 
+
+ api 
+ pacman 
+
+ etc 
+ der dna trigger will ich eher dann fürs eigene system 
+
+ für heute feierabend .... 3 laptops ... 3 mal bottloader knacken ... 
+ 3 mal arch installer ... 3 mal kde @.@ 
+
+ was man nicht alles für die familie tut ... und freunde ... 
+
+ morgen dann nochmal reset für den traktor ... 
+ ich geh die sache anders an .... 
+
+ steckschlüssel nur links zu → 
+ pipeline nur 1 kanal ... 
+
+ die hardware von heute macht es sonnst nicht wirklich ... 
+ und sheldures akak mux und demux prinzipien ... 
+
+ verbau ich lieber sinnvoller .... 
+
+
+
+
 
  052 = zeile 448 
-
- zweikanal logik ... am besten ich erweitere die logik 
- 
- hoch runter zusammen ... 
-
- das ist eigentlich der bereich wo ich die 
- leiterbahnen selbst bestimmen müsste ... 
-
- ich muss jetzt erst recherchieren , in wie weit 
- eine leiterbahn vom iot überhaupt in der lage ist 
- zwei signale auf zu nehmen ... 
-
- oder ob die keinen issulation in die mitte gelegt haben .. 
-
- wenn das recherchiert ist , gehts um die software seite 
- möglichkeit ... 
-
- wenn hardware nicht passt aber software ... bau ich es 
-
- wenn beides nicht geht ... bau ich es als brücke trotztem .. 
-
- grundsätzlich muss ich mehr in die richtung des bmc gehen 
- anstatt von deren bauarten ... 
-
- ich speicher die bmc version seperat ab ... 
- und die reguläre für den rest ... 
-
- wenn das nicht umsetzbar sein sollte .. 
-
- bau ich nur ein kanal aber nehme die zwei kanal 
- symbolik und setze es dann im kreis , da die schlüssel 
- alle aufnehmen und abgeben ... 
-
- ich denke somit fahr ich am sichersten ... 
-
- wenn ich aber auf ein mainboard schaue , sehe ich nur 
- dumm brot leiterbahnen ... ohne isolator in der mitte .. 
-
- das würde heißen die bauen absichtlich flaschenhälse ein ... 
- und die gatter in den chips nur mono statts geschichtet.. 
-
- irgendwie will ich das nicht glauben aber wenns so sein sollte 
- wäre das wieder ein moment wo ich mit dem kopf schüttle .. 
-
-
- ich könnte mir den stress aber auch ganz einfach machen .. 
-
- hoch runter .... 
-
- beim steckschlüssel hoch runter rechts und hoch runter links  
- und hochrunter rechts links .. 
-
- einfach vollständig verknoten ... 
-
- das einzige wäre dann das die richtungen konstant bleiben .. 
-
- ich will so nahe wie nur möglich an der eigentlichen hardware logik bleiben .. 
-
- umso näher , umso schneller ... performance ... 
 
  ------------------------------------------ 
 
@@ -115,58 +97,6 @@ ich muss es schreiben ... ich wurde 3 mal abgerippt ...
  ↓:                    ↓:
  ↓:                    —>—÷ Ø—(<NR>): <ZUFÜHRUNG> :Ø  
  ↓:                      
-
- da funktionen dann bis zum ram laufen , brauch es 
- von natur aus keine generelle doppelte logik ... 
-
- aber erstmal schauen ... 
- wenn ja ... dann halt so ...
-
- im schlüssel dann nur 
-
- ↓:→
-
- nicht mehr ... 
-
- der rest ist verarbeitung selbst und dann ram cash 
- den ruf ich dann eh ab sobald er gebraucht wird .. 
-
- 
- -
-
- aber nicht mehr heute .... 
-
-
- ich hab 3 laptops mit geschlossenen bootloader plus supervisor passwort im uefi 
- knacken müssen , nur weil die mal gemacht wurden und sich einfach nicht gemerkt 
- haben ... 
-
- inklusive 3 mal archinstall plus ( für die ) kde installieren müssen ...
- nichts gegen kde aber ich kam mir falsch vor ... nutze selbst nur tilling .. 
- 
- hatte aber bei der gelegenheit die möglichkeit das eigene setup zu testen ... 
- die nutzen eh keine konsole und haben jetzt alle 3 mein installer drauf ... 
-
- der install selbst ist falsch ... geht nicht in den richtigen ordner rein 
- warum auch immer ... 
-
- das korrigier ich heute kurz und setz ein alias im control.pv-conf 
-
- danach mach ich schluss .... der kopf brennt ... 
- ich setz mich dann morgen an die pipeline ... 
-
- das ist der härteste procken überhaupt ... der rest ist dann ein kinderspiel 
- gegenüber der PL ... 
-
- ... 
-
-
-
-
-
-
-
-
 
 #==================# PIPELINE ZWISCHEN SPEICHER
 
