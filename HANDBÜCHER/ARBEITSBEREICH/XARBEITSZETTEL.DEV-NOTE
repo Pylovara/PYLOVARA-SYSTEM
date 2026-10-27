@@ -99,7 +99,49 @@
   und etwas für grafik junkies ... 
 
 
+ dna scheint zu gehen ... morgen vielleicht noch mal testen bei einem frischen 
+ install ... auf meinem arbeits gerät klar , alles vorhanden und richtig 
 
+ —:—[": ᴹᶜˢ ˢʰᵉˡˡ :"]
+—:—@·¤ —:—[$: ~ :$]
+       —:—@· »—:—[¥: dna taski
+🧬 Prozessliste (Top 10 nach RAM)
+----------------------------------------
+  PID   %MEM COMMAND
+20285   10.6 /usr/lib/chromium/chromium
+20550    6.8 /usr/lib/chromium/chromium
+47336    5.9 /usr/lib/chromium/chromium
+ 2406    5.2 /opt/vscodium-bin/codium
+20158    5.2 /usr/lib/chromium/chromium
+20711    5.0 /usr/lib/chromium/chromium
+ 1991    4.5 /opt/vscodium-bin/codium
+104640    4.1 /usr/lib/chromium/chromium
+ 1886    3.8 /opt/vscodium-bin/codium
+109069    3.6 /usr/lib/chromium/chromium
+
+🧬 Speicherauslastung
+----------------------------------------
+              gesamt       benutzt     frei      gemns.  Puffer/Cache verfügbar
+Speicher:      6,7Gi       4,8Gi       440Mi       175Mi       1,9Gi       1,9Gi
+Swap:          3,3Gi        72Mi       3,3Gi
+
+💡 Tipps:
+- dna taski kill <pid>        => Beendet einen spezifischen Prozess
+- dna taski killall <name>   => Töte alle Prozesse dieses Namens
+
+—:—[": ᴹᶜˢ ˢʰᵉˡˡ :"]
+—:—@·¤ —:—[$: ~ :$]
+       —:—@· »—:—[¥: 
+
+ und soweit .. 
+
+ vielleicht ein dna lexikon ... aber kein monster ... 
+ nur ein kleines ... schnelles ... smartes ... kein universum bauen erstmal 
+
+ damit die nutzer überhaupt wissen das es vorhanden ist ... 
+
+ vielleicht zodiak mit aufnehmen beim dna trigger ... wäre sinnvoll 
+ bequem ... 
 
 
 
