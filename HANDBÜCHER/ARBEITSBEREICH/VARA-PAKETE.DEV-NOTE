@@ -1,0 +1,80 @@
+###====================================|====================================###
+#==================# VARA PAKETE - SHELL LEXIKON DATENSEITE
+
+### VARA PAKETE OVERVIEW
+
+# Die vara pakete sind die interneren werkzeuge der bash shell lexikon kette .
+# Jeder vara eintrag ist eine kopie eines cli tools mit der endung .vara im
+# shell-programme vara verzeichnis .
+
+### PAKET-ANALYSE :
+
+- awk.vara        => GNU Awk             : Version 5.4.1 , API 4.1 , GNU MPFR 4.2.2 , GNU MP 6.3.0
+- basename.vara   => GNU coreutils       : Version 9.12
+- bc.vara          => GNU bc              : Version 1.08.2
+- cat.vara         => GNU coreutils       : Version 9.12
+- curl.vara        => curl                : Version 8.23.0 ( x86_64-pc-linux-gnu ) libcurl/8.23.0 OpenSSL/3.6.5 zlib/1.3.2 brotli/1.2.0 zstd/1.5.7 libidn2/2.3.8 libpsl/0.21.5 libssh2/1.11.1 nghttp2/1.70.0 nghttp3/1.18.0 mit-krb5/1.22.2
+- cut.vara         => GNU coreutils       : Version 9.12
+- df.vara          => GNU coreutils       : Version 9.12
+- du.vara          => GNU coreutils       : Version 9.12
+- dwl.vara         => dwl                 : Wayland Dynamic Window List ( invalid option )
+- echo.vara        => GNU coreutils       : Version 9.7
+- fdisk.vara       => util-linux          : Version 2.42.4
+- find.vara        => GNU findutils       : Version 4.11.0-modified
+- free.vara        => procps-ng           : Version 4.0.7
+- fzf.vara         => junghunn fzf        : Version 0.74.5 ( c0a193e0 )
+- git.vara         => git-scm            : Version 2.56.0
+- grep.vara        => GNU grep            : Version 3.12-modified
+- gzip.vara        => GNU gzip            : Version 1.15
+- head.vara        => GNU coreutils       : Version 9.12
+- less.vara        => less                : Version 710 ( PCRE2 regular expressions )
+- lsblk.vara       => util-linux          : Version 2.42.4
+- lscpu.vara       => util-linux          : Version 2.42.4
+- lshw.vara        => lshw                : Version B.02.20
+- lspci.vara       => pciutils           : Version 3.15.0
+- lsusb.vara       => usbutils           : Version 019
+- ls.vara          => GNU coreutils       : Version 9.12
+- nano.vara        => GNU nano            : Version 9.2
+- nc.vara          => OpenBSD netcat     : invalid option
+- ps.vara          => procps-ng           : Version 4.0.7
+- rofi.vara        => rofi                : Version leer
+- sed.vara         => GNU sed             : Version 4.10
+- sort.vara        => GNU coreutils       : Version 9.12
+- tail.vara        => GNU coreutils       : Version 9.12
+- tar.vara         => GNU tar             : Version 1.35
+- top.vara         => procps-ng           : Version 4.0.7
+- tree.vara        => tree                : Version 2.3.2 © 1996 - 2026 by Steve Baker, Thomas Moore, Francesc Rocher, Florian Sesser, Kyosuke Tokoro
+- waybar.vara      => waybar              : Version 0.15.0
+- wc.vara          => GNU coreutils       : Version 9.12
+- which.vara       => GNU which           : Version 2.25 , Copyright (C) 1999 - 2026 Carlo Wood.
+- xz.vara          => XZ Utils            : Version 5.8.4
+- terminal.vara    => kitty               : Symlink -> /usr/bin/kitty
+
+### ENTWICKLER + BAU DATEN :
+
+# GNU Projekt        : coreutils , gawk , findutils , grep , sed , sort , tar , gzip , head , tail , wc , echo , basename
+# util-linux        : fdisk , lsblk , lscpu , lspci , lsusb
+# procps-ng         : free , ps , top
+# git-scm           : git
+# junghunn          : fzf
+# curl              : daniel stenberg / curl
+# OpenBSD           : nc
+# lshw              : lshw
+# nano              : nano
+# less              : less
+# tree              : tree
+# xz               : XZ Utils
+# which             : GNU which
+# waybar            : waybar
+# rofi              : rofi
+# dwl              : dwl ( Wayland Dynamic Window List )
+
+### BAU / RELEASE DATEN :
+
+# Die genauen bau daten der binaries sind ueber die versions strings abbildbar .
+# Release daten entstammen aus den jeweiligen upstream projekten .
+
+###====================================|====================================###
+#   DIESES LEXIKON BEFINDET SICH IM AUFBAU UND WIRD DEMNÄCHST ERWEITERT     #
+###====================================|====================================###
+###===============================LEXIKON-ENDE==============================###
