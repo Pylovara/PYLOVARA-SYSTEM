@@ -1,5 +1,30 @@
 
- IDEE DATEITYPEN SYSTEM ==============================
+ MODUS = 0 = GOLDSTANDART  = PENIBLE SYSTEME 
+ MODUS = 1 = OHNE DATENFLUSS = NORMALE ENTWICKLER 
+ MODUS = 2 = FUNKTION ABRUF  = BEDIENT AN DER BIBLIOTHEK 
+ MODUS = 3 = EINFACH PRINT HALLO WELT GESCHRIEBEN ... EINZEILER ... 
+
+#==================# FREIGESCHAUFELT 
+
+ - PROTON RE-DESIGNE AM ENDE | ERST ALLES ANDERE
+ - PROTON {<NAME>;<WERT>} = FREIE ZEICHEN {};
+ = PROTONEN WERDEN JETZT IN BOXIS GENUTZT ... -> »—:—[!: ^ :!]«««~: ^ :~« 
+
+
+ PONTIFEX ============================================
+
+ TRENNBEFEHL UND BINDUNGSBEFEHL JETZT IN PONTIFEX ENTHALTEN 
+ UND BINDUNGSBEFEHL NICHT MEHR PROTON ABHÄNGIG SONDERN BOXIS . 
+
+ ZEICHEN FOLGE DOCH OHNE SCHARFES ſ SONDERRN ; 
+
+ <BXMK>|*|<BXMK> 
+ <BXMK>&*&<BXMK>
+
+ EINGRAVIEREN NACH PIPELINE | TA | PI DANN PO(PO = PONTIFEX)
+ DER PROTIN MORPH BLEIBT GLEICH, WENIGER NEU LERNEN ... 
+
+ DATEITYPEN ============================================
 
  # NAMENTLICHE MUSTERBILDER : 
  - MPALL-PLAYER.CORE
@@ -19,45 +44,7 @@
  - BASIS/
    - *.NEEDLES # BASIS PROGRAMMIERUNG | 
 
- SENTIATOR ========================================
- 
-  # prozess beendigungs reflexe 
-  ¶ = bei grün 
-  ¶¶ = bei rot mit kanal angabe 
-
- FEED =============================================
- 
-  CPU VERSCHACHTELUNGS PROGRAMM NACH ARBEITEN 
- 
-  ()() (()) <-- beides 
-
- SYNAPTOR =========================================
- 
- ¿<nr> = priorisierung der ströme von rex
-
- ZYTRON ===========================================
-
- return aber mit mehrfach backschleifen 
-
- BAUMODUS =========================================
-
-   ! DAS GESAMTE LEXIKON WIRD BEI DER 00-83, FÜR DIE 
-   00-83 KOMPLETT ÜBERARBEITET .
-
-   WICHTIGE ASPEKTE SIND KONKRETE :
-
-   - SCHALTUNGS ART 
-   - CODE BLOCK ART 
-   - FUNKTIONS AUFBAU = BAUMODUS 
-   - BOXI UND DEREN EINSATZGEBIETE 
-   - ZYTRON RETURN VERZWEIGBARE RÜCKSCHALTUNG
-   - SYNAPTOR PARALELLE VERBINDUNGSSTRANG 
-   - SENTIATOREN NUTZUNG + LOGIK DER NUTZUNG SELBST 
-   - BAUMODUS SPEICHER UND ABRUF FUNKTION 
-   - FUNKTIONEN NUTZEN 
-   - FUNKTIONSVERSCHACHTELUNG 
-   - ALU NUTZUNG , WIE GENAU 
-   = ALS 00-01 ( IM GRUNDE SCHON VERSION 1.000 ABER EGAL )
+ BAUMODUS ==============================================
 
  REX HAT BEIDE ON|OFF PIPE KANÄLE FREI ZUR VERFÜGUNG 
 
@@ -77,18 +64,15 @@
 
  SYNTAX ==============================================
 
-
- ### TWS 0.4 NOTIZ ZETTEL ( DINGE DIE MIR AUFFALLEN )
-
  - MCS TASTATUR EBENE : MCS - PROGRAMMIERUNG | STANDART ANSTEUERUNG
 
-  @ oder besser ›  = REX m( zeichen ¬ nicht mittig )
-  ·    = KERN-1
-  ··   = KERN-2
-  ···  = KERN-3
-  ···· = KERN-4
-  ¤    = INTERN
-  ¤¤   = EXTERN
+  ›    = REX 
+  ·    = CPU KERN-1
+  ··   = CPU KERN-2
+  ···  = CPU KERN-3
+  ···· = CPU KERN-4
+  ¤    = AUSGABE INTERN
+  ¤¤   = AUSGABE EXTERN
 
   ¶    = PROZESS-WEITER
   ¶¶   = PROZESS-FEHLER
@@ -100,89 +84,15 @@
 
  # NEU | DACH = TEXTMITTELS-ANHALTSPUNKT-FÜR RTL-LTR | FIXPUNKT 
 
-  §: ^ :§  =
-  $: ^ :$  = 
-  ': ^ :'  =
-  Ħ: ^ :Ħ  =
-  ¥: ^ :¥  =
-  ": ^ :"  =
-  ,: ^ :,  = 
-  º: ^ :º  = 
- °°: ^ :°° =
-
- #01 EBENE : ON-PIPE VERBESSERN FÜR MUTTERPROTEINE .
-
- —:—[   = CONNECTOR ON-PIPE PROTEIN START
- ]   = ON-PIPE PROTEIN ENDE
-
- # WEITERENTWICKLUNGEN DER PROTEIN CONTAINER FÜR MEHR FLERXIBILITÄT
-
- —:—[   =
- —©—[   = 
- —®—[   = 
- —ĸ—[   = 
-
- # DANN NOCH FARBSPEKTREN
-
- —:—[  | FARBE =
- —©—[  | FARBE = 
- —®—[  | FARBE = 
- —ĸ—[  | FARBE = 
-
- ]     | GLEICH PROTEIN-ENDE 
-
- # DANACH KÖNNTE MAN ON-PIPE PROTEINE PER FARBE ODER ANKERTYPE WEITER 
-   GRANULARISIEREN .
-
- —:—[  | ROT    = FÜR FUNKTIONSABRUFE
- —:—[  | ORANGE = FÜR MATHEMATISCHE 
- —:—[  | GRÜN   = FÜR MECHANISCHE
-
-
- 052 = zeile 448 
-
- ------------------------------------------ 
-
- alternativ logik ( wenn nötig )
-
-»—©—[¥: <NAME> :¥]«««~: BAUMODUS FUNKTION SPEICHER EINGANG :~«
- ↓:
- —:—@· »—®—[¥:
- ↓:     ↓:
- ↓:     —:—@· »—ĸ—[¥: <NAME> :¥]«««~: BAUMODUS FUNKTION SPEICHER ABRUF :~«
- ↓:            ↓:
- ↓:            —:—@·¤¤ —:—[
- ↓:                    ↓:
- ↓:                    —>—÷ Ø—(<NR>): <ZUFÜHRUNG> :Ø  
- ↓:                      
-
-»—©—[¥: <NAME> :¥]«««~: BAUMODUS FUNKTION SPEICHER EINGANG :~«
- ↑:↓
- —:—@· »—®—[¥:
- ↑:↓    ↑:↓
- ↑:↓    —:—@· »—ĸ—[¥: <NAME> :¥]«««~: BAUMODUS FUNKTION SPEICHER ABRUF :~«
- ↑:↓    ↑:↓    ↑:↓
- ↑:↓    ↑:↓    —:—@·¤¤ —:—[
- ↑:↓    ↑:↓            ↑:↓
- ↑:↓    ↑:↓            —>—÷ Ø—(<NR>): <ZUFÜHRUNG> :Ø  
- ↑:↓    ↑:↓
- ↑:↓    ↑:↓     —<—± Ø: <ABRUF> :(<NR>)—Ø
- ↑:↓    ↑:↓     ↑:↓
- ↑:↓    —:—¶@· »—:—[¥:
- ↑:↓    ↑:↓ 
- ↑:↓    —:—¶¶@· »—:—[¥:
- ↑:↓  
- —:—@· »—®—[¥:
- ↑:↓    ↑:↓
- ↑:↓    —:—Ω@· »—:—[¥:
- ↑:↓    ↑:↓
- ↑:↓    —:—ΩΩ@· »—:—[¥:
-
- # STECKSCHLÜSSEL AUSWAHL
-  —:—  = PIPELINE STANDART
-  —©—  = OPTIONAL PIPELINE 
-  —®—  = OPTIONAL PIPELINE  
-  —ĸ—  = OPTIONAL PIPELINE 
+  §: ^ :§  = IP ADRESSEN
+  $: ^ :$  = PFAD ANGABEN
+  ': ^ :'  = SHELL BEFEHLE
+  Ħ: ^ :Ħ  = ABI COMMANDOS
+  ¥: ^ :¥  = FUNKTIONEN
+  ": ^ :"  = PRINT
+  ,: ^ :,  = SYSCALLS
+  º: ^ :º  = OPCODES
+ °°: ^ :°° = MASCHINENCODES
 
 ############################################## ARBEITSBEREICH 
 
@@ -221,227 +131,18 @@
  # 3 KANAL ANGABEN BLEIBEN VORERST WEG, 
  #     MITTE BLEIBT AUF STATUS : NOCH NICHT VERWENDET | VORERST = KEINE FUNKTION
 
- # NEU | REX SYMBOL WECHSEL ( DESIGNE ENTSCHEIDUNG )
- VON ¬ ZU @  = REX ( DAS ZEICHEN ¬ PASST NICHT GUT ZUM STECKSCHLÜSSEL —¬ ÜBERGANG )
-
- # NEU | STECKSCHLÜSSEL FÜR DIE PIPELINE  
-
- ****  = STECKSCHLÜSSEL
-
- # NEU | PIPELINE OPTIONALE AUSWAHL | REINE VORLIEBEN FUNKTION | INDIVIDUEL
- —:—  = PIPELINE STANDART
- —©—  = OPTIONAL PIPELINE 
- —®—  = OPTIONAL PIPELINE  
- —ĸ—  = OPTIONAL PIPELINE  
-
-
- # MUTTER UND HAUPTPROTEIN , SPRACHLICH EINFÜHREN  
-
- —©—[<BXMK>]
- —ĸ—[<BXMK>]
- —:—[<BXMK>]
-
- !- SÄMTLICHE PIPELINE SKINS, HABEN DIE SELBE FUNKTION = IN UND OUT KANAL | AUSWÄHLBAR UND SCHLICHT 
- !- UND DA DIE OFF-PIPE PROTEINE WEG FALLEN , WERDEN DIE UNKOMPLIZIERTEREN GENOMMEN .
-
- # SENTIATOREN : OPERATOREN | KOMPAKTIBEL MIT 1 WIE 2 KANAL |
-
- ¶:: = PROZESS-WEITER 
- ::¶ = PROZESS-WEITER
- :¶¶ = PROZESS-FEHLER
- ¶¶: = PROZESS-FEHLER
- Ω:: = WENN-KANN
- ::Ω = WENN-KANN
- :ΩΩ = WENN-NICHT
- ΩΩ: = WENN-NICHT
-
- # NITROX FEED | KOMPAKTIBEL MIT 1 UND 2 KANAL 
-
- ÷:: Ø—(<NR>): <KOPIE> :Ø
- ::÷ Ø—(<NR>): <KOPIE> :Ø
-
- ±:: Ø: <KOPIE> :(<NR>)—Ø
- ::± Ø: <KOPIE> :(<NR>)—Ø
-
-
- # schlussfolgernde schaltungsverbesserung 
-
-
- MODUS = 0 = GOLDSTANDART  = PENIBLE SYSTEME 
-
- —:—[¥: 
- ↑:↓
- —:—@· »—!—[¥:
- ↑:↓    ↓:↑
- ↑:↓    —:—@· »—!—[¥:
- ↑:↓    ↓:↑    ↑:↓
- ↑:↓    ↓:↑    ::÷ Ø—(<NR>): <KOPIE> :Ø  
- ↑:↓    ↓:↑ 
- ↑:↓    ¶::@· »—!—[¥:
- ↑:↓    ↓:↑
- ↑:↓    :¶¶@· »—!—[¥:
- ↑:↓
- —:—@· »—!—[¥:
- ↑:↓    ↓:↑
- ↑:↓    Ω::@· »—!—[¥:
- ↑:↓    ↓:↑
- ↑:↓    :ΩΩ@· »—!—[¥:
-
- MODUS = 1 = OHNE DATENFLUSS = NORMALE ENTWICKLER 
-
- —:—[¥:  
- —:—@· »—!—[¥:
-
-        —:—@· »—!—[¥:
-                 ÷ Ø—(<NR>): <KOPIE> :Ø  
-
-          ¶@· »—!—[¥:
-
-         ¶¶@· »—!—[¥:
-
- —:—@· »—!—[¥:
-
-          Ω@· »—!—[¥:
-
-         ΩΩ@· »—!—[¥:
-
- MODUS = 2 = FUNKTION ABRUF  = BEDIENT AN DER BIBLIOTHEK 
-
-
- »—:—[¥: MUSTER :¥]«««~: BAUMODUS FUNKTION SPEICHER ABRUF :~«
-
-  —:—@· »—!—[
-
-
- MODUS = 3 = EINFACH PRINT HALLO WELT GESCHRIEBEN ... EINZEILER ... 
-
- »—:—[": HALLO WELT :"]«
-
-
- #--------------------
-
- —:—[ ]
- ↓:↑
- —:—[ ]
- ↓:↑
- —:—@· —:—[ ]
- ↓:↑
- —:—[ ]
-
- #--------------------
-
- ### 7.5 MCS ( VERBESSERUNG BEVOR 7.5 ÜBERHAUPT FERTIG WAR - KANN DIREKT EINGEBAUT WERDEN )
-
- ¢!
- »—©—[¥: HALLO WELT :¥]«««~: BAUMODUS FUNKTION SPEICHER EINGANG :~«
-  ↑:↓
-  —:—@· —:—[": WÖRTERBUCH FUNKTIONEN :"]
-  ↑:↓   ↑:↓
-  ↑:↓   —:—@· »—:—[": WÖRTERBUCH FUNKTIONEN :"]«««~: BAUMODUS FUNKTION SPEICHER ABRUF :~«
-  ↑:↓          ↑:↓
-  ↑:↓          ↑:↓
-  ↑:↓          —:—@· »—:—[¥: HALLO :¥]«««~: BAUMODUS FUNKTION SPEICHER ABRUF :~«
-  ↑:↓          ↑:↓    ↑:↓
-  ↑:↓          ↑:↓    —:—@· »—:—[¥: H :¥]«««~: BAUMODUS FUNKTION SPEICHER ABRUF :~«
-  ↑:↓          ↑:↓    ↑:↓    ↑:↓ 
-  ↑:↓          ↑:↓    ↑:↓    —:—@· »—:—[Ħ: EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke() :Ħ]«
-  ↑:↓          ↑:↓    ↑:↓           ↑:↓
-  ↑:↓          ↑:↓    ↑:↓           —:—@·¤ »—:—[ * ]«
-  ↑:↓          ↑:↓    ↑:↓                   ↑:↓
-  ↑:↓          ↑:↓    ↑:↓                   ::÷ Ø—(<NR>): <KOPIE> :Ø Ø—(20): * :Ø
-  ↑:↓          ↑:↓    ↑:↓                   ↑:↓
-  ↑:↓          ↑:↓    ↑:↓                   ↑:↓    ::± Ø: * :(20)—Ø
-  ↑:↓          ↑:↓    ↑:↓                   —:—@· »—:—[ (20) ]«
-  ↑:↓          ↑:↓    ↑:↓                          ↑:↓
-  ↑:↓          ↑:↓    ↑:↓                          —:—@·¤ »—:—[ * ]—«««~: BAUMODUS FUNKTION SPEICHER AUSGANG :~«
-  ↑:↓          ↑:↓    ↑:↓                                  ↑:↓
-  ↑:↓          ↑:↓    ↑:↓                                  —:—@·¤¤ »—:—[ * ]«
-  ↑:↓          ↑:↓    ↑:↓                                  ↑:↓
-  ↑:↓          ↑:↓    ↑:↓                                  ::÷ Ø—(1): * :Ø
-  ↑:↓          ↑:↓    ↑:↓
-  ↑:↓          ↑:↓    —:—@· »—:—[¥: A :¥]—«««~: BAUMODUS FUNKTION SPEICHER ABRUF :~«
-  ↑:↓          ↑:↓    ↑:↓    ↑:↓ 
-  ↑:↓          ↑:↓    ↑:↓    —:—@· »—:—[Ħ: EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke() :Ħ]«
-  ↑:↓          ↑:↓    ↑:↓           ↑:↓
-  ↑:↓          ↑:↓    ↑:↓           —:—@·¤ »—:—[ * ]«
-  ↑:↓          ↑:↓    ↑:↓                   ↑:↓
-  ↑:↓          ↑:↓    ↑:↓                   ::÷ Ø—(<NR>): <KOPIE> :Ø Ø—(21): * :Ø
-  ↑:↓          ↑:↓    ↑:↓                   ↑:↓
-  ↑:↓          ↑:↓    ↑:↓                   ↑:↓    ::± Ø: * :(21)—Ø
-  ↑:↓          ↑:↓    ↑:↓                   —:—@· »—:—[ (21) ]«
-  ↑:↓          ↑:↓    ↑:↓                          ↑:↓
-  ↑:↓          ↑:↓    ↑:↓                          —:—@·¤ »—:—[ * ]—«««~: BAUMODUS FUNKTION SPEICHER AUSGANG :~«
-  ↑:↓          ↑:↓    ↑:↓                                  ↑:↓
-  ↑:↓          ↑:↓    ↑:↓                                  —:—@·¤¤ »—:—[ * ]«
-  ↑:↓          ↑:↓    ↑:↓                                  ↑:↓
-  ↑:↓          ↑:↓    ↑:↓                                  ::÷ Ø—(2): * :Ø
-  ↑:↓          ↑:↓    ↑:↓
-  ↑:↓          ↑:↓    —:—@· »—:—[¥: L :¥]—«««~: BAUMODUS FUNKTION SPEICHER ABRUF :~«
-  ↑:↓          ↑:↓    ↑:↓    ↑:↓ 
-  ↑:↓          ↑:↓    ↑:↓    —:—@· »—:—[Ħ: EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke() :Ħ]«
-  ↑:↓          ↑:↓    ↑:↓           ↑:↓
-  ↑:↓          ↑:↓    ↑:↓           —:—@·¤ »—:—[ * ]«
-  ↑:↓          ↑:↓    ↑:↓                   ↑:↓
-  ↑:↓          ↑:↓    ↑:↓                   ::÷ Ø—(<NR>): <KOPIE> :Ø Ø—(22): * :Ø
-  ↑:↓          ↑:↓    ↑:↓                   ↑:↓
-  ↑:↓          ↑:↓    ↑:↓                   ↑:↓    ::± Ø: * :(22)—Ø
-  ↑:↓          ↑:↓    ↑:↓                   —:—@· »—:—[ (22) ]«
-  ↑:↓          ↑:↓    ↑:↓                          ↑:↓
-  ↑:↓          ↑:↓    ↑:↓                          —:—@·¤ »—:—[ * ]—«««~: BAUMODUS FUNKTION SPEICHER AUSGANG :~«
-  ↑:↓          ↑:↓    ↑:↓                                  ↑:↓
-  ↑:↓          ↑:↓    ↑:↓                                  —:—@·¤¤ »—:—[ * ]«
-  ↑:↓          ↑:↓    ↑:↓                                  ↑:↓
-  ↑:↓          ↑:↓    ↑:↓                                  ::÷ Ø—(3): * :Ø
-  ↑:↓          ↑:↓    ↑:↓
-  ↑:↓          ↑:↓    —:—@· »—:—[¥: O :¥]—«««~: BAUMODUS FUNKTION SPEICHER ABRUF :~«
-  ↑:↓          ↑:↓    ↑:↓    ↑:↓ 
-  ↑:↓          ↑:↓    ↑:↓    —:—@· »—:—[Ħ: EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke() :Ħ]«
-  ↑:↓          ↑:↓    ↑:↓           ↑:↓
-  ↑:↓          ↑:↓    ↑:↓           —:—@·¤ »—:—[ * ]«
-  ↑:↓          ↑:↓    ↑:↓                   ↑:↓
-  ↑:↓          ↑:↓    ↑:↓                   ::÷ Ø—(<NR>): <KOPIE> :Ø Ø—(23): * :Ø
-  ↑:↓          ↑:↓    ↑:↓                   ↑:↓
-  ↑:↓          ↑:↓    ↑:↓                   ↑:↓    ::± Ø: * :(23)—Ø
-  ↑:↓          ↑:↓    ↑:↓                   —:—@· »—:—[ (23) ]«
-  ↑:↓          ↑:↓    ↑:↓                          ↑:↓
-  ↑:↓          ↑:↓    ↑:↓                          —:—@·¤ »—:—[ * ]—«««~: BAUMODUS FUNKTION SPEICHER AUSGANG :~«
-  ↑:↓          ↑:↓    ↑:↓                                  ↑:↓
-  ↑:↓          ↑:↓    ↑:↓                                  —:—@·¤¤ »—:—[ * ]«
-  ↑:↓          ↑:↓    ↑:↓                                  ↑:↓
-  ↑:↓          ↑:↓    ↑:↓                                  ::÷ Ø—(4): * :Ø
-  ↑:↓          ↑:↓    ↑:↓  
-  ↑:↓          ↑:↓    ↑:± Ø: * :(1)—Ø
-  ↑:↓          ↑:↓    ↑:± Ø: * :(2)—Ø
-  ↑:↓          ↑:↓    ↑:± Ø: * :(3)—Ø
-  ↑:↓          ↑:↓    ↑:± Ø: * :(4)—Ø
-  ↑:↓          ↑:↓    —:—@· »—:—[ (1(2(3(4())))) ]«
-  ↑:↓          ↑:↓           ↑:↓
-  ↑:↓          ↑:↓           —:—@·¤ »—:—[ HALLO ]—«««~: BAUMODUS FUNKTION SPEICHER AUSGANG :~«
-  ↑:↓          ↑:↓                   ↑:↓
-  ↑:↓          ↑:↓                    —:—@·¤¤ »—:—[ HALLO ]«
-  ↑:↓          ↑:↓                    ↑:↓      ↑:÷ Ø—(5): HALLO :Ø
-  ↑:↓          ↑:↓
-  ↑:↓          ↑:↓
-  ↑:↓          ↑:↓
-  ↑:↓          —:—@· »—:—[¥: WELT :¥]«««~: BAUMODUS FUNKTION SPEICHER ABRUF :~«
-  ↑:↓          ↑:↓    ↑:↓
-  ↑:↓          ↑:↓    —:—@· »—:—[¥: W :¥]«««~: BAUMODUS FUNKTION SPEICHER ABRUF :~«
-  ↑:↓
-  ↑:↓
-  ↑:↓
-  ↑:↓
 ###################################################################################
 ###################################################################################
 ### eventuelle lösung 
 
-  —L— # links ↓:↑←
-  —R— # rechts ↓:↑→
-  —ĸ— # kreislauf ↓:↑←→
-  —©— # nur mutter protein # →:↓←
-
-  
-
+  —L— # links ↑:↓←
+  —R— # rechts ↑:↓→
+  —ĸ— # kreislauf ↑:↓←→
+  —©— # hmm # →:↓←
 
   # ausfürhbares mutter-protein 
 
   »—©—[¥: * :¥]«««~: * :~«
+
+
+

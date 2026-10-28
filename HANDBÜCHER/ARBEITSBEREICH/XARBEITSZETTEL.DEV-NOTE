@@ -60,45 +60,6 @@
  DIE TAGE AUF DEN TEST GERÄTEN NACHKONTROLLIEREN ... 
  IN DER VIERTUELLEN UMGEBUNG GING ALLES SUPER ... 
 
-
-
-#==================# Eselsbrücken 
- ——————————————————————————————————————————————————————————————————————————
-
- Notiz :
-
- Modus 0 - Für Kernel-Entwickler.
- Modus 1 - Für App-Entwickler.
- Modus 2 - Für Bibliotheks-Nutzer.
- Modus 3 - Für Prototypen.
- 
- Alle vier Modi funktionieren zusammen. 
- Ein Modus-0-Kernel kann eine Modus-3-Funktion aufrufen. 
- Und umgekehrt.
-
- NOTIZ : 
- vielleicht sollte ich noch eine boxi machen die über die bsk 
- programme ansteuert ... 
-
-#==================# FREIGESCHAUFELT 
-
- - PROTON RE-DESIGNE AM ENDE | ERST ALLES ANDERE
- - PROTON {<NAME>;<WERT>} = FREIE ZEICHEN {};
- = PROTONEN WERDEN JETZT IN BOXIS GENUTZT ... -> »—:—[!: ^ :!]«««~: ^ :~« 
-
-#==================# PONTIFEX
-
- TRENNBEFEHL UND BINDUNGSBEFEHL JETZT IN PONTIFEX ENTHALTEN 
- UND BINDUNGSBEFEHL NICHT MEHR PROTON ABHÄNGIG SONDERN BOXIS . 
-
- ZEICHEN FOLGE DOCH OHNE SCHARFES ſ SONDERRN ; 
-
- <BXMK>|*|<BXMK> 
- <BXMK>&*&<BXMK>
-
- EINGRAVIEREN NACH PIPELINE | TA | PI DANN PO(PO = PONTIFEX)
- DER PROTIN MORPH BLEIBT GLEICH, WENIGER NEU LERNEN ... 
-
 ###====================================|====================================###
 ###====================================|====================================###
 #==================# ABGEARBEITET 
