@@ -1,12 +1,11 @@
 #!/bin/bash
-# pylovara.shell-layout – Standart Pylovara Brand Layout
+# pylovara.shell-layout+++
 
 Vara_Dir="/Pylovara/System/Shell/Vara"
 
 # Farbcodes definieren ANSI-Farbcodes im 256-Farben-Modus
-# WICHTIG: \[ und \] verhindern Prompt-Wrapping-Fehler in Bash
 export PV_COLOR_RESET='\[\e[0m\]'
-export PV_COLOR_USER='\[\e[38;5;250m\]'    # User / Host
+export PV_COLOR_USER='\[\e[38;5;250m\]'    # User / Host / Info
 export PV_COLOR_PV='\[\e[38;5;208m\]'      # Pylovara Brand
 export PV_COLOR_PATH='\[\e[38;5;202m\]'    # Pfad
 export PV_COLOR_SYMBOL='\[\e[38;5;231m\]'  # Symbole
@@ -21,10 +20,11 @@ export PROMPT_COMMAND='
     export PS1="
 $PV_COLOR_SYMBOL—:—[\"$PV_COLOR_PV: ᴹᶜˢ ˢʰᵉˡˡ :$PV_COLOR_SYMBOL\"]
 $PV_COLOR_KANAL↓:↑
-$PV_COLOR_SYMBOL—:—@·¤ —:—[\"$PV_COLOR_USER: $PV_KERNEL :$PV_COLOR_SYMBOL\"]
+$PV_COLOR_KANAL—:—@·¤ —:—[\"$PV_COLOR_USER: $PV_KERNEL :$PV_COLOR_SYMBOL\"]
 $PV_COLOR_KANAL↓:↑
 $PV_COLOR_SYMBOL—:—@·¤ —:—[\$: $PV_COLOR_PATH\$PV_CURRENT_DIR $PV_COLOR_SYMBOL:\$]
-$PV_COLOR_SYMBOL       —:—@· »—:—[': $PV_COLOR_RESET"
+$PV_COLOR_KANAL       ↓:↑
+$PV_COLOR_SYMBOL       —:—@· »—:—[: $PV_COLOR_RESET"
 '
 
 if [[ -r /usr/share/bash-completion/bash_completion ]]; then
