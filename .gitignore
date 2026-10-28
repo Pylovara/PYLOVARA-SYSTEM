@@ -65,3 +65,10 @@
 # MASTER-CONTROL-SYSTEM/KKIS.KERNEL
 
 ####################################################################
+# RUNTIME STATE | UPDATE CHECK TIMESTAMP
+
+# Temporaere State-Datei des Update-Suchers .
+# Lokaler Check-Zeitstempel pro User - KEINE Versionskontrolle noetig .
+.last_check
+
+####################################################################
