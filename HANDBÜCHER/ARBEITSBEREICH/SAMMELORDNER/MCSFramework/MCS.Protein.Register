@@ -1,8 +1,0 @@
-#!/usr/bin/env bash
-# MCS.Protein.Register v0.1
-
-declare -A PROTEIN_REG
-PROTEIN_REG[echo]="SYSTEM_MESSAGE"
-PROTEIN_REG[send]="FILE_TRANSFER"
-PROTEIN_REG[run]="PROCESS_EXEC"
-PROTEIN_REG[bestätigen]="USER_INPUT_CHECK"

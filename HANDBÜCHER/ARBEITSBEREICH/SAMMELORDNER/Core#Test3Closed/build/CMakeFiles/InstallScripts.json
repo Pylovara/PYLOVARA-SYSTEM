@@ -1,7 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/Pylovara/System/Kernel/Core/build/cmake_install.cmake"
-	],
-	"Parallel" : false
-}

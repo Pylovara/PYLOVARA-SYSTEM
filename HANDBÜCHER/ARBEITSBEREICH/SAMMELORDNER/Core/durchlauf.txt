@@ -1,0 +1,423 @@
+—:—[": ᴹᶜˢ ˢʰᵉˡˡ :"]
+↓:↑
+—:—›·¤ —:—[$: /PYLOVARA-SYSTEM/HANDBÜCHER/ARBEITSBEREICH/SAMMELORDNER/Core/build :$]
+       ↓:↑
+       —:—›· »—:—[: #skelett build test:
+cd /PYLOVARA-SYSTEM/HANDBÜCHER/ARBEITSBEREICH/SAMMELORDNER/Core/build && make clean && make && ./test_if
+
+#test.mcs :
+cd /PYLOVARA-SYSTEM/HANDBÜCHER/ARBEITSBEREICH/SAMMELORDNER/Core/build && make clean && make && echo "--- CODE ---" && cat /PYLOVARA-SYSTEM/HANDBÜCHER/ARBEITSBEREICH/SAMMELORDNER/Core/mcscodes/test.mcs && echo "--- OUTPUT ---" && ./mcs /PYLOVARA-SYSTEM/HANDBÜCHER/ARBEITSBEREICH/SAMMELORDNER/Core/mcscodes/test.mcs
+
+#test_echo.mcs
+cd /PYLOVARA-SYSTEM/HANDBÜCHER/ARBEITSBEREICH/SAMMELORDNER/Core/build && make clean && make && echo "--- CODE ---" && cat /PYLOVARA-SYSTEM/HANDBÜCHER/ARBEITSBEREICH/SAMMELORDNER/Core/mcscodes/test_echo.mcs && echo "--- OUTPUT ---" && ./mcs /PYLOVARA-SYSTEM/HANDBÜCHER/ARBEITSBEREICH/SAMMELORDNER/Core/mcscodes/test_echo.mcs
+
+#test_wahrheiten.mcs
+cd /PYLOVARA-SYSTEM/HANDBÜCHER/ARBEITSBEREICH/SAMMELORDNER/Core/build && make clean && make && echo "--- CODE ---" && cat /PYLOVARA-SYSTEM/HANDBÜCHER/ARBEITSBEREICH/SAMMELORDNER/Core/mcscodes/test_wahrheiten.mcs && echo "--- OUTPUT ---" && ./mcs /PYLOVARA-SYSTEM/HANDBÜCHER/ARBEITSBEREICH/SAMMELORDNER/Core/mcscodes/test_wahrheiten.mcs
+
+
+#test_operatoren.mcs
+cd /PYLOVARA-SYSTEM/HANDBÜCHER/ARBEITSBEREICH/SAMMELORDNER/Core/build && make clean && make && echo "--- CODE ---" && cat /PYLOVARA-SYSTEM/HANDBÜCHER/ARBEITSBEREICH/SAMMELORDNER/Core/mcscodes/test_operatoren.mcs && echo "--- OUTPUT ---" && ./mcs /PYLOVARA-SYSTEM/HANDBÜCHER/ARBEITSBEREICH/SAMMELORDNER/Core/mcscodes/test_operatoren.mcs
+
+#test_parallel_wait.mcs
+cd /PYLOVARA-SYSTEM/HANDBÜCHER/ARBEITSBEREICH/SAMMELORDNER/Core/build && make clean && make && echo "--- CODE ---" && cat /PYLOVARA-SYSTEM/HANDBÜCHER/ARBEITSBEREICH/SAMMELORDNER/Core/mcscodes/test_parallel_wait.mcs && echo "--- OUTPUT ---" && ./mcs /PYLOVARA-SYSTEM/HANDBÜCHER/ARBEITSBEREICH/SAMMELORDNER/Core/mcscodes/test_parallel_wait.mcs
+
+#test_semantic_dispatcher.mcs
+cd /PYLOVARA-SYSTEM/HANDBÜCHER/ARBEITSBEREICH/SAMMELORDNER/Core/build && make clean && make && echo "--- CODE ---" && cat /PYLOVARA-SYSTEM/HANDBÜCHER/ARBEITSBEREICH/SAMMELORDNER/Core/mcscodes/test_semantic_dispatcher.mcs && echo "--- OUTPUT ---" && ./mcs /PYLOVARA-SYSTEM/HANDBÜCHER/ARBEITSBEREICH/SAMMELORDNER/Core/mcscodes/test_semantic_dispatcher.mcs
+
+#test_register.mcs
+cd /PYLOVARA-SYSTEM/HANDBÜCHER/ARBEITSBEREICH/SAMMELORDNER/Core/build && make clean && make && echo "--- CODE ---" && cat /PYLOVARA-SYSTEM/HANDBÜCHER/ARBEITSBEREICH/SAMMELORDNER/Core/mcscodes/test_register.mcs && echo "--- OUTPUT ---" && ./mcs /PYLOVARA-SYSTEM/HANDBÜCHER/ARBEITSBEREICH/SAMMELORDNER/Core/mcscodes/test_register.mcs
+
+#test_ausführungslogik.mcs
+cd /PYLOVARA-SYSTEM/HANDBÜCHER/ARBEITSBEREICH/SAMMELORDNER/Core/build && make clean && make && echo "--- CODE ---" && cat /PYLOVARA-SYSTEM/HANDBÜCHER/ARBEITSBEREICH/SAMMELORDNER/Core/mcscodes/test_ausführungslogik.mcs && echo "--- OUTPUT ---" && ./mcs /PYLOVARA-SYSTEM/HANDBÜCHER/ARBEITSBEREICH/SAMMELORDNER/Core/mcscodes/test_ausführungslogik.mcs
+[  4%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_action.c.o
+[  8%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_argument.c.o
+[ 12%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_feed.c.o
+[ 16%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_protein.c.o
+[ 20%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_proton.c.o
+[ 24%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_warp.c.o
+[ 28%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_wahrheiten.c.o
+[ 32%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_semantics.c.o
+[ 36%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_operatoren.c.o
+[ 40%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_transaktion.c.o
+[ 44%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_eingaben.c.o
+[ 48%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_cmd_register.c.o
+[ 52%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_runner.c.o
+[ 56%] Building C object CMakeFiles/mcs_core.dir/Logic/mcs_lexer.c.o
+[ 60%] Linking C static library libmcs_core.a
+[ 60%] Built target mcs_core
+[ 64%] Building C object CMakeFiles/test_lexer.dir/Lab/test_lexer.c.o
+[ 68%] Linking C executable test_lexer
+[ 68%] Built target test_lexer
+[ 72%] Building C object CMakeFiles/test_action.dir/Lab/test_action.c.o
+[ 76%] Linking C executable test_action
+[ 76%] Built target test_action
+[ 80%] Building C object CMakeFiles/test_if.dir/Lab/test_if.c.o
+[ 84%] Linking C executable test_if
+[ 84%] Built target test_if
+[ 88%] Building C object CMakeFiles/test_trans.dir/Lab/test_trans.c.o
+[ 92%] Linking C executable test_trans
+[ 92%] Built target test_trans
+[ 96%] Building C object CMakeFiles/mcs.dir/main.c.o
+[100%] Linking C executable mcs
+[100%] Built target mcs
+Token 1: WAHRHEIT (IF)
+Token 2: WAHRHEIT (ELSE)
+[  4%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_action.c.o
+[  8%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_argument.c.o
+[ 12%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_feed.c.o
+[ 16%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_protein.c.o
+[ 20%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_proton.c.o
+[ 24%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_warp.c.o
+[ 28%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_wahrheiten.c.o
+[ 32%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_semantics.c.o
+[ 36%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_operatoren.c.o
+[ 40%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_transaktion.c.o
+[ 44%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_eingaben.c.o
+[ 48%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_cmd_register.c.o
+[ 52%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_runner.c.o
+[ 56%] Building C object CMakeFiles/mcs_core.dir/Logic/mcs_lexer.c.o
+[ 60%] Linking C static library libmcs_core.a
+[ 60%] Built target mcs_core
+[ 64%] Building C object CMakeFiles/test_lexer.dir/Lab/test_lexer.c.o
+[ 68%] Linking C executable test_lexer
+[ 68%] Built target test_lexer
+[ 72%] Building C object CMakeFiles/test_action.dir/Lab/test_action.c.o
+[ 76%] Linking C executable test_action
+[ 76%] Built target test_action
+[ 80%] Building C object CMakeFiles/test_if.dir/Lab/test_if.c.o
+[ 84%] Linking C executable test_if
+[ 84%] Built target test_if
+[ 88%] Building C object CMakeFiles/test_trans.dir/Lab/test_trans.c.o
+[ 92%] Linking C executable test_trans
+[ 92%] Built target test_trans
+[ 96%] Building C object CMakeFiles/mcs.dir/main.c.o
+[100%] Linking C executable mcs
+[100%] Built target mcs
+--- CODE ---
+¢!
+# Datei test.mcs
+# Feed transport | Blankernenner | SystemCMD | Argument ««t1 |
+»['pgrep'|¨firefox¨|(1)¨$pgrep firefox¨]«
+»['kill'|(1)¨¨]«««t1
+»['echo'|¨Firefox¨|(1)¨¨|¨beendet¨]«
+!¢
+--- OUTPUT ---
+[FEED] RAM-Cache initialisiert (256 Einträge)
+✅ MCS executed successfully.
+[  4%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_action.c.o
+[  8%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_argument.c.o
+[ 12%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_feed.c.o
+[ 16%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_protein.c.o
+[ 20%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_proton.c.o
+[ 24%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_warp.c.o
+[ 28%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_wahrheiten.c.o
+[ 32%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_semantics.c.o
+[ 36%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_operatoren.c.o
+[ 40%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_transaktion.c.o
+[ 44%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_eingaben.c.o
+[ 48%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_cmd_register.c.o
+[ 52%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_runner.c.o
+[ 56%] Building C object CMakeFiles/mcs_core.dir/Logic/mcs_lexer.c.o
+[ 60%] Linking C static library libmcs_core.a
+[ 60%] Built target mcs_core
+[ 64%] Building C object CMakeFiles/test_lexer.dir/Lab/test_lexer.c.o
+[ 68%] Linking C executable test_lexer
+[ 68%] Built target test_lexer
+[ 72%] Building C object CMakeFiles/test_action.dir/Lab/test_action.c.o
+[ 76%] Linking C executable test_action
+[ 76%] Built target test_action
+[ 80%] Building C object CMakeFiles/test_if.dir/Lab/test_if.c.o
+[ 84%] Linking C executable test_if
+[ 84%] Built target test_if
+[ 88%] Building C object CMakeFiles/test_trans.dir/Lab/test_trans.c.o
+[ 92%] Linking C executable test_trans
+[ 92%] Built target test_trans
+[ 96%] Building C object CMakeFiles/mcs.dir/main.c.o
+[100%] Linking C executable mcs
+[100%] Built target mcs
+--- CODE ---
+¢!
+# Datei : test_echo.mcs
+# SystemCMD | Aktion | Transaktion
+    »['echo'|¨test1.mcs wurde korrekt ausgeführt¨]«
+!¢
+--- OUTPUT ---
+[FEED] RAM-Cache initialisiert (256 Einträge)
+✅ MCS executed successfully.
+[  4%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_action.c.o
+[  8%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_argument.c.o
+[ 12%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_feed.c.o
+[ 16%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_protein.c.o
+[ 20%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_proton.c.o
+[ 24%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_warp.c.o
+[ 28%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_wahrheiten.c.o
+[ 32%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_semantics.c.o
+[ 36%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_operatoren.c.o
+[ 40%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_transaktion.c.o
+[ 44%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_eingaben.c.o
+[ 48%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_cmd_register.c.o
+[ 52%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_runner.c.o
+[ 56%] Building C object CMakeFiles/mcs_core.dir/Logic/mcs_lexer.c.o
+[ 60%] Linking C static library libmcs_core.a
+[ 60%] Built target mcs_core
+[ 64%] Building C object CMakeFiles/test_lexer.dir/Lab/test_lexer.c.o
+[ 68%] Linking C executable test_lexer
+[ 68%] Built target test_lexer
+[ 72%] Building C object CMakeFiles/test_action.dir/Lab/test_action.c.o
+[ 76%] Linking C executable test_action
+[ 76%] Built target test_action
+[ 80%] Building C object CMakeFiles/test_if.dir/Lab/test_if.c.o
+[ 84%] Linking C executable test_if
+[ 84%] Built target test_if
+[ 88%] Building C object CMakeFiles/test_trans.dir/Lab/test_trans.c.o
+[ 92%] Linking C executable test_trans
+[ 92%] Built target test_trans
+[ 96%] Building C object CMakeFiles/mcs.dir/main.c.o
+[100%] Linking C executable mcs
+[100%] Built target mcs
+--- CODE ---
+¢!
+# Datei : test_wahrheiten.mcs
+# Wahrheiten Logik IF Else
+    »['$terminal']«
+    ¶ »['$terminal']
+    ¶¶ ['cd'|¨/Pylovara/]«
+!¢
+--- OUTPUT ---
+[FEED] RAM-Cache initialisiert (256 Einträge)
+✅ MCS executed successfully.
+[  4%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_action.c.o
+[  8%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_argument.c.o
+[ 12%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_feed.c.o
+[ 16%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_protein.c.o
+[ 20%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_proton.c.o
+[ 24%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_warp.c.o
+[ 28%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_wahrheiten.c.o
+[ 32%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_semantics.c.o
+[ 36%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_operatoren.c.o
+[ 40%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_transaktion.c.o
+[ 44%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_eingaben.c.o
+[ 48%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_cmd_register.c.o
+[ 52%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_runner.c.o
+[ 56%] Building C object CMakeFiles/mcs_core.dir/Logic/mcs_lexer.c.o
+[ 60%] Linking C static library libmcs_core.a
+[ 60%] Built target mcs_core
+[ 64%] Building C object CMakeFiles/test_lexer.dir/Lab/test_lexer.c.o
+[ 68%] Linking C executable test_lexer
+[ 68%] Built target test_lexer
+[ 72%] Building C object CMakeFiles/test_action.dir/Lab/test_action.c.o
+[ 76%] Linking C executable test_action
+[ 76%] Built target test_action
+[ 80%] Building C object CMakeFiles/test_if.dir/Lab/test_if.c.o
+[ 84%] Linking C executable test_if
+[ 84%] Built target test_if
+[ 88%] Building C object CMakeFiles/test_trans.dir/Lab/test_trans.c.o
+[ 92%] Linking C executable test_trans
+[ 92%] Built target test_trans
+[ 96%] Building C object CMakeFiles/mcs.dir/main.c.o
+[100%] Linking C executable mcs
+[100%] Built target mcs
+--- CODE ---
+¢!
+# Datei test_operatoren.mcs — sicher, ohne externen Befehl
+»['echo'|(1)¨30¨]«
+»['echo'|(2)¨25¨]«
+> [(1)¨¨|(2)¨¨]      # 30 > 25 → MCS_TRUE → ¶ wird ausgeführt
+  ¶ »['echo'|'30 > 25 → OK']«
+  ¶¶ »['echo'|'UNMÖGLICH']«
+ſ »['feed cache'|¨1¨]«
+ſ »['feed cache'|¨2¨]«
+!¢
+--- OUTPUT ---
+[FEED] RAM-Cache initialisiert (256 Einträge)
+[RUNTIME ERROR] Code -1
+[  4%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_action.c.o
+[  8%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_argument.c.o
+[ 12%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_feed.c.o
+[ 16%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_protein.c.o
+[ 20%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_proton.c.o
+[ 24%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_warp.c.o
+[ 28%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_wahrheiten.c.o
+[ 32%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_semantics.c.o
+[ 36%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_operatoren.c.o
+[ 40%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_transaktion.c.o
+[ 44%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_eingaben.c.o
+[ 48%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_cmd_register.c.o
+[ 52%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_runner.c.o
+[ 56%] Building C object CMakeFiles/mcs_core.dir/Logic/mcs_lexer.c.o
+[ 60%] Linking C static library libmcs_core.a
+[ 60%] Built target mcs_core
+[ 64%] Building C object CMakeFiles/test_lexer.dir/Lab/test_lexer.c.o
+[ 68%] Linking C executable test_lexer
+[ 68%] Built target test_lexer
+[ 72%] Building C object CMakeFiles/test_action.dir/Lab/test_action.c.o
+[ 76%] Linking C executable test_action
+[ 76%] Built target test_action
+[ 80%] Building C object CMakeFiles/test_if.dir/Lab/test_if.c.o
+[ 84%] Linking C executable test_if
+[ 84%] Built target test_if
+[ 88%] Building C object CMakeFiles/test_trans.dir/Lab/test_trans.c.o
+[ 92%] Linking C executable test_trans
+[ 92%] Built target test_trans
+[ 96%] Building C object CMakeFiles/mcs.dir/main.c.o
+[100%] Linking C executable mcs
+[100%] Built target mcs
+--- CODE ---
+¢!
+# Datei test_parallel_wait.mcs
+»['echo'|¨1. Hauptprozess startet¨]«
+    ;; »['exec'|'$date']«««t1
+    ¶= »['echo'|¨2. Parallel-Prozess¨]«««t2
+»['echo'|¨3. Hauptprozess läuft weiter¨]«
+»['echo'|¨Feed 1: ¨|(1)¨¨]«
+!¢
+--- OUTPUT ---
+[FEED] RAM-Cache initialisiert (256 Einträge)
+✅ MCS executed successfully.
+[  4%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_action.c.o
+[  8%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_argument.c.o
+[ 12%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_feed.c.o
+[ 16%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_protein.c.o
+[ 20%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_proton.c.o
+[ 24%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_warp.c.o
+[ 28%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_wahrheiten.c.o
+[ 32%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_semantics.c.o
+[ 36%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_operatoren.c.o
+[ 40%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_transaktion.c.o
+[ 44%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_eingaben.c.o
+[ 48%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_cmd_register.c.o
+[ 52%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_runner.c.o
+[ 56%] Building C object CMakeFiles/mcs_core.dir/Logic/mcs_lexer.c.o
+[ 60%] Linking C static library libmcs_core.a
+[ 60%] Built target mcs_core
+[ 64%] Building C object CMakeFiles/test_lexer.dir/Lab/test_lexer.c.o
+[ 68%] Linking C executable test_lexer
+[ 68%] Built target test_lexer
+[ 72%] Building C object CMakeFiles/test_action.dir/Lab/test_action.c.o
+[ 76%] Linking C executable test_action
+[ 76%] Built target test_action
+[ 80%] Building C object CMakeFiles/test_if.dir/Lab/test_if.c.o
+[ 84%] Linking C executable test_if
+[ 84%] Built target test_if
+[ 88%] Building C object CMakeFiles/test_trans.dir/Lab/test_trans.c.o
+[ 92%] Linking C executable test_trans
+[ 92%] Built target test_trans
+[ 96%] Building C object CMakeFiles/mcs.dir/main.c.o
+[100%] Linking C executable mcs
+[100%] Built target mcs
+--- CODE ---
+¢!
+# Datei : test_semnatic_dispatcher.mcs
+
+»['echo'|¨1¨|(99)¨$echo OK¨]«   # Feed 99 = "OK"
+ ° [(99)¨¨]   # liest Feed 99 → nicht leer → MCS_TRUE → ° negiert → MCS_FALSE
+  ¶ »['echo'|'Feed 99 war leer']«
+!¢
+
+um es auch eindeutig mit operatoren zu handlen wäre es sinn voll ,
+wenn ein operator ein protein anhang logik folgen soll auch immer am anfang eines protein packets [ die regeln anzuheften ...
+
+  damit das auch ein schaltkreis ergibt das selbe gilt dann auch für wahrheiten
+
+  nur direkt unter dem anfang eines protein packets , gehört etwas zu dem protein header , damit das dann auch eine schalt logik hat
+
+
+--- OUTPUT ---
+[FEED] RAM-Cache initialisiert (256 Einträge)
+[RUNTIME ERROR] Code -1
+[  4%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_action.c.o
+[  8%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_argument.c.o
+[ 12%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_feed.c.o
+[ 16%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_protein.c.o
+[ 20%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_proton.c.o
+[ 24%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_warp.c.o
+[ 28%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_wahrheiten.c.o
+[ 32%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_semantics.c.o
+[ 36%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_operatoren.c.o
+[ 40%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_transaktion.c.o
+[ 44%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_eingaben.c.o
+[ 48%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_cmd_register.c.o
+[ 52%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_runner.c.o
+[ 56%] Building C object CMakeFiles/mcs_core.dir/Logic/mcs_lexer.c.o
+[ 60%] Linking C static library libmcs_core.a
+[ 60%] Built target mcs_core
+[ 64%] Building C object CMakeFiles/test_lexer.dir/Lab/test_lexer.c.o
+[ 68%] Linking C executable test_lexer
+[ 68%] Built target test_lexer
+[ 72%] Building C object CMakeFiles/test_action.dir/Lab/test_action.c.o
+[ 76%] Linking C executable test_action
+[ 76%] Built target test_action
+[ 80%] Building C object CMakeFiles/test_if.dir/Lab/test_if.c.o
+[ 84%] Linking C executable test_if
+[ 84%] Built target test_if
+[ 88%] Building C object CMakeFiles/test_trans.dir/Lab/test_trans.c.o
+[ 92%] Linking C executable test_trans
+[ 92%] Built target test_trans
+[ 96%] Building C object CMakeFiles/mcs.dir/main.c.o
+[100%] Linking C executable mcs
+[100%] Built target mcs
+--- CODE ---
+¢!
+# Datei : test_register.mcs
+# MCS CMD | Register Test
+»['echo'|(1)¨30¨]«
+»['echo'|(2)¨25¨]«
+;; »['mcs_feed_dump']«
+ſ »[’feed cache'|¨1¨]«
+ſ »[’feed cache'|¨2¨]«
+;; »['mcs_feed_dump']«
+!¢
+--- OUTPUT ---
+[FEED] RAM-Cache initialisiert (256 Einträge)
+✅ MCS executed successfully.
+[  4%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_action.c.o
+[  8%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_argument.c.o
+[ 12%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_feed.c.o
+[ 16%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_protein.c.o
+[ 20%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_proton.c.o
+[ 24%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_warp.c.o
+[ 28%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_wahrheiten.c.o
+[ 32%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_semantics.c.o
+[ 36%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_operatoren.c.o
+[ 40%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_transaktion.c.o
+[ 44%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_eingaben.c.o
+[ 48%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_cmd_register.c.o
+[ 52%] Building C object CMakeFiles/mcs_core.dir/Lib/mcs_runner.c.o
+[ 56%] Building C object CMakeFiles/mcs_core.dir/Logic/mcs_lexer.c.o
+[ 60%] Linking C static library libmcs_core.a
+[ 60%] Built target mcs_core
+[ 64%] Building C object CMakeFiles/test_lexer.dir/Lab/test_lexer.c.o
+[ 68%] Linking C executable test_lexer
+[ 68%] Built target test_lexer
+[ 72%] Building C object CMakeFiles/test_action.dir/Lab/test_action.c.o
+[ 76%] Linking C executable test_action
+[ 76%] Built target test_action
+[ 80%] Building C object CMakeFiles/test_if.dir/Lab/test_if.c.o
+[ 84%] Linking C executable test_if
+[ 84%] Built target test_if
+[ 88%] Building C object CMakeFiles/test_trans.dir/Lab/test_trans.c.o
+[ 92%] Linking C executable test_trans
+[ 92%] Built target test_trans
+[ 96%] Building C object CMakeFiles/mcs.dir/main.c.o
+[100%] Linking C executable mcs
+[100%] Built target mcs
+--- CODE ---
+¢!
+# Datei : test_ausführungslogik.mcs
+# Testet ob die ausführlogik integriert ist kernel 77
+»['echo'|(1)¨30¨]«
+»['echo'|(2)¨25¨]«
+;; »['mcs_feed_dump']«
+ſ »['feed cache'|¨1¨]«
+ſ »['feed cache'|¨2¨]«
+;; »['mcs_feed_dump']«
+!¢
+--- OUTPUT ---
+[FEED] RAM-Cache initialisiert (256 Einträge)
+✅ MCS executed successfully.
+
+—:—[": ᴹᶜˢ ˢʰᵉˡˡ :"]
+↓:↑
+—:—›·¤ —:—[$: /PYLOVARA-SYSTEM/HANDBÜCHER/ARBEITSBEREICH/SAMMELORDNER/Core/build :$]
+       ↓:↑
+       —:—›· »—:—[: 
