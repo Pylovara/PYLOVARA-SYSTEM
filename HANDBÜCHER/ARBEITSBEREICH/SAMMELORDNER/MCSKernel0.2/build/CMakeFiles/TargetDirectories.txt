@@ -1,8 +1,0 @@
-/Pylovara/MCSKernel/build/CMakeFiles/mcs.dir
-/Pylovara/MCSKernel/build/CMakeFiles/test.dir
-/Pylovara/MCSKernel/build/CMakeFiles/edit_cache.dir
-/Pylovara/MCSKernel/build/CMakeFiles/rebuild_cache.dir
-/Pylovara/MCSKernel/build/CMakeFiles/list_install_components.dir
-/Pylovara/MCSKernel/build/CMakeFiles/install.dir
-/Pylovara/MCSKernel/build/CMakeFiles/install/local.dir
-/Pylovara/MCSKernel/build/CMakeFiles/install/strip.dir

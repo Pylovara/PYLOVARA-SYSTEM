@@ -1,8 +1,0 @@
-¢!
-# Datei test_parallel_wait.mcs
-»['echo'|¨1. Hauptprozess startet¨]«
-    ;; »['exec'|'$date']«««t1
-    ¶= »['echo'|¨2. Parallel-Prozess¨]«««t2
-»['echo'|¨3. Hauptprozess läuft weiter¨]«
-»['echo'|¨Feed 1: ¨|(1)¨¨]«
-!¢

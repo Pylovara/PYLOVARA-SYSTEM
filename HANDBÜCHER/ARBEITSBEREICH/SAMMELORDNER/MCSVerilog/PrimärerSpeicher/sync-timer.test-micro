@@ -1,7 +1,0 @@
-¢|
-    »['MotorA'|{Watt|200}|{Volt|12}]«      # Haupt-Schleife: Motor starten
-    = §MotorA                              # Ausführen
-    ⊕                                      # Sync-Timer startet Parallelität
-    »[{Temp|25}§SensorX]«                  # Parallele Daten: Temp lesen
-    = §(1)Cooler                           # Einspeisen in Kühler
-|¢
