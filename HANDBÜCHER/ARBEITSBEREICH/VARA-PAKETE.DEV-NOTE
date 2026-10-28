@@ -78,3 +78,140 @@
 #   DIESES LEXIKON BEFINDET SICH IM AUFBAU UND WIRD DEMNÄCHST ERWEITERT     #
 ###====================================|====================================###
 ###===============================LEXIKON-ENDE==============================###
+
+
+GNU-PROGRAMME UND KLASSISCHE UNIX-WERKZEUGE
+
+AWK.VARA — GNU AWK (GAWK)
+
+URSPRÜNGLICHE ENTWICKLUNG
+
+PAUL RUBIN BEGANN 1986 MIT DEM ENTWURF UND DER IMPLEMENTIERUNG. JAY FENLASON VERVOLLSTÄNDIGTE DIE ERSTE IMPLEMENTIERUNG. RICHARD STALLMAN HALF BEI DER FERTIGSTELLUNG. DAVID TRUEMAN ÜBERNAHM SPÄTER DIE MASSGEBLICHE WEITERENTWICKLUNG; ARNOLD ROBBINS IST EINE ZENTRALE PERSON IN DER SPÄTEREN ENTWICKLUNG. DIE ZUGRUNDE LIEGENDE UNIX-VERSION VON AWK STAMMT VON ALFRED V. AHO, PETER J. WEINBERGER UND BRIAN W. KERNIGHAN.
+
+GNU
+
+GNU COREUTILS — MEHRERE DEINER EINTRÄGE
+
+INDIVIDUELLE AUTOREN STATT EINES EINZIGEN PAKETAUTORS
+
+DAS OFFIZIELLE AUTORENVERZEICHNIS NENNT UNTER ANDEREM:
+
+BASENAME: DAVID MACKENZIE
+
+CAT: TORBJÖRN GRANLUND, RICHARD M. STALLMAN
+
+CUT: DAVID M. IHNAT, DAVID MACKENZIE, JIM MEYERING
+
+FÜR DF, DU, ECHO, HEAD, LS, SORT, TAIL UND WC SOLLTE EBENFALLS DER JEWEILIGE EINTRAG IN DER OFFIZIELLEN DATEI AUTHORS VERWENDET WERDEN. DIE URHEBERSCHAFT UNTERSCHEIDET SICH JE NACH BEFEHL.
+
+GITHUB
+
+QUELLE: GNU COREUTILS – AUTHORS.
+
+BC.VARA — GNU BC
+
+URSPRÜNGLICHE URHEBERSCHAFT NOCH ANHAND DES QUELLTEXTES ZU PRÄZISIEREN
+
+PHIL NELSON IST DER OFFIZIELL DOKUMENTIERTE MAINTAINER. DAS IST NICHT AUTOMATISCH GLEICHBEDEUTEND MIT DEM URSPRÜNGLICHEN AUTOR. FÜR EINEN HISTORISCH KORREKTEN EINTRAG SOLLTE DIE AUTORENANGABE DER VERWENDETEN GNU-BC-QUELLVERSION HERANGEZOGEN WERDEN.
+
+FREE SOFTWARE FOUNDATION
+
+QUELLE: GNU BC – PROJEKTSEITE.
+
+FIND.VARA — GNU FINDUTILS
+
+PROJEKT MIT HISTORISCH MEHREREN AUTOREN
+
+DAS OFFIZIELLE GNU-PROJEKT VERWEIST FÜR FRÜHERE MAINTAINER UND WICHTIGE MITWIRKENDE AUF AUTHORS, FÜR WEITERE BEITRAGENDE AUF THANKS. JAMES YOUNGMAN, ERIC BLAKE UND BERNHARD VOELKER SIND ALS MAINTAINER DOKUMENTIERT, NICHT ALS ALLEINIGE URSPRÜNGLICHE URHEBER.
+
+FREE SOFTWARE FOUNDATION (FSF)
+
+QUELLE: GNU FINDUTILS – PROJEKTSEITE.
+
+GREP.VARA — GNU GREP
+
+HISTORISCHE AUTORENLISTE ERFORDERLICH
+
+GNU GREP IST EIN GEMEINSCHAFTSPROJEKT. FÜR EINE BELASTBARE URHEBERLISTE SOLLTE DIE AUTHORS-DATEI DER VERWENDETEN QUELLVERSION GEPRÜFT WERDEN. WEGEN DEINER KENNZEICHNUNG 3.12-MODIFIED IST ZUSÄTZLICH ZU BEACHTEN, DASS LOKALE ÄNDERUNGEN EIGENE URHEBERHINWEISE ENTHALTEN KÖNNEN.
+
+GZIP.VARA — GNU GZIP
+
+URSPRÜNGLICHE URHEBER
+
+JEAN-LOUP GAILLY SCHRIEB DAS URSPRÜNGLICHE PROGRAMM. MARK ADLER ENTWICKELTE DEN DEKOMPRESSIONSTEIL.
+
+FREE SOFTWARE FOUNDATION
+
+QUELLE: GNU GZIP – PROJEKTSEITE.
+
+SED.VARA — GNU SED
+
+DOKUMENTIERTE AUTOREN
+
+JAY FENLASON, TOM LORD, KEN PIZZINI, PAOLO BONZINI, JIM MEYERING UND ASSAF GORDON WERDEN IN DER GNU-SED-MANPAGE ALS AUTOREN GENANNT. DAS IST EINE AUTORENLISTE DES PROGRAMMS, KEINE AUSSAGE DARÜBER, DASS ALLE DIE URSPRÜNGLICHE FASSUNG GESCHRIEBEN HÄTTEN.
+
+DEBIAN MANPAGES
+
+QUELLE: GNU SED – PROJEKTSEITE.
+
+TAR.VARA — GNU TAR
+
+URSPRÜNGLICHER AUTOR UND FRÜHE GNU-ENTWICKLUNG
+
+JOHN GILMORE SCHRIEB DAS URSPRÜNGLICHE PROGRAMM. DIE GNU-ERWEITERUNGEN WURDEN ZUNÄCHST VON JAY FENLASON UND DANACH VON JOY KENDALL GESCHRIEBEN. WEITERE MASSGEBLICHE HISTORISCHE MITWIRKENDE WAREN THOMAS BUSHNELL, FRANÇOIS PINARD UND PAUL EGGERT.
+
+GNU
+
+QUELLE: GNU TAR – HANDBUCH, ABSCHNITT 1.5.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Systemwerkzeuge, Hardwareinformationen und Prozessverwaltung
+Programm	Ursprüngliche Urheberschaft / dokumentierte Autoren
+fdisk.vara	Andries E. Brouwer, A. V. Le Blanc und weitere frühe Autoren. Die aktuelle util-linux-Manpage nennt Karel Zak und Davidlohr Bueso als Autoren der heutigen Fassung. 
+Debian Manpages
+free.vara	procps-ng: historisch mehrere Autoren. Der konkrete free-Befehl hat eigene Copyright-Angaben; diese müssen in der passenden Quellversion geprüft werden.
+lsblk.vara	Bestandteil von util-linux. Keine pauschale Einzelurheberschaft für das Gesamtpaket; die konkrete Datei und ihre Copyright-Hinweise sind maßgeblich.
+lscpu.vara	Bestandteil von util-linux. Einzelne Autoren sind anhand der jeweiligen Quelltextdatei zu dokumentieren.
+lshw.vara	Eigenständiges Projekt lshw; der ursprüngliche Autor ist anhand des offiziellen Quelltextes noch zu verifizieren.
+lspci.vara	PCI Utilities: Martin Mares. Das offizielle Repository enthält Copyright-Angaben für den Zeitraum 1997–2026. 
+pciutils/pciutils: The PCI Utilities · GitHub
+lsusb.vara	usbutils: die historische und aktuelle Autorenliste sollte anhand des offiziellen Quelltextes geprüft werden. Greg Kroah-Hartman ist eine wichtige Person in der Projektgeschichte, aber ohne Prüfung der betreffenden Version sollte er nicht als alleiniger Originalautor eingetragen werden.
+ps.vara	Ursprünglich Branko Lankester; Michael K. Johnson schrieb wesentliche Teile neu. Spätere wichtige Beiträge stammen unter anderem von Michael Shields, Charles Blake und Albert Cahalan. 
+Debian Manpages
+top.vara	procps-ng: James C. Warner ist in den Copyright-Angaben für den top-Bereich genannt. Das ist von der Gesamturheberschaft des procps-Projekts zu unterscheiden. 
+Cisco
+xz.vara	Lasse Collin ist der Hauptautor und zentrale Entwickler von XZ Utils. Wichtige Teile der LZMA-Implementierung basieren auf Arbeiten von Igor Pavlov. 
+GitHub
+
+Desktop, Darstellung und weitere Programme
+Programm	Ursprüngliche Urheberschaft / dokumentierter Stand
+dwl.vara	Eigenständiger Wayland-Compositor aus dem Umfeld von suckless. Die ursprünglichen Autoren sollten anhand des offiziellen Repositorys und der historischen Commits geprüft werden.
+rofi.vara	Eigenständiger Anwendungsstarter. Den Originalautor kann ich anhand der bisher verifizierten Quellen nicht sicher genug benennen.
+waybar.vara	Eigenständiges Open-Source-Projekt aus dem Repository Alexays/Waybar. Eine einzelne ursprüngliche Urheberschaft sollte anhand der ersten Commits und Copyright-Vermerke geprüft werden. 
+GitHub
+tree.vara	Steve Baker, Thomas Moore, Francesc Rocher, Florian Sesser und Kyosuke Tokoro werden in deiner Versionsausgabe als Copyright-Inhaber aufgeführt. Für das Lexikon sollte diese Angabe zusätzlich gegen die Copyright-Datei der konkreten Version 2.3.2 geprüft werden.
+which.vara	Carlo Wood ist als Copyright-Inhaber des GNU-which-Projekts dokumentiert. Die von dir angegebene Version 2.25 sollte noch mit der zugehörigen Quellversion abgeglichen werden.
+echo.vara	GNU coreutils: individuelle Autorenangabe aus der AUTHORS-Datei verwenden; nicht pauschal den GNU-Projektgründer als Autor eintragen.
