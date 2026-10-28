@@ -1,0 +1,825 @@
+#!/usr/bin/env bash
+###====================================|====================================###
+### MCS-SHELL | PYLOVARA TERMINAL-FENSTER
+### Quelle : /PYLOVARA-SYSTEM/ARBEITERBIENEN/MCS-SHELL/MCS-SHELL
+### Start   : Super+Shift+Enter (nach SETUP/mcs-shell.install-core)
+### Bash/Zsh laufen unveraendert IN diesem Fenster.
+###====================================|====================================###
+
+set -u
+
+MCS_SHELL_VERSION="1.0.0"
+MCS_SHELL_HOME="$(cd -- "$(dirname -- "$(readlink -f -- "${BASH_SOURCE[0]}")")" && pwd)"
+MCS_SHELL_CONFIG="${MCS_SHELL_CONFIG:-$MCS_SHELL_HOME/MCS-SHELL.CONF}"
+
+# Defaults, falls die CONF fehlt.
+MCS_SHELL_BACKEND="auto"
+MCS_SHELL_SHELL="auto"
+MCS_SHELL_LOGIN="1"
+MCS_SHELL_TITLE="MCS-Shell"
+MCS_SHELL_CLASS="mcs-shell"
+MCS_SHELL_COLS="120"
+MCS_SHELL_ROWS="40"
+MCS_SHELL_WIDTH_PERCENT="92"
+MCS_SHELL_HEIGHT_PERCENT="62"
+MCS_SHELL_TOP_PERCENT="3"
+MCS_SHELL_FONT="FantasqueSansM Nerd Font Mono"
+MCS_SHELL_FONT_SIZE="15"
+MCS_SHELL_OPACITY="0.94"
+MCS_SHELL_HYPR_SPECIAL="mcs-shell"
+MCS_SHELL_FLOAT_NEW="1"
+MCS_SHELL_X11_GEOMETRY="1"
+MCS_SHELL_TOGGLE="1"
+MCS_SHELL_KEY="Return"
+MCS_SHELL_KEYBIND_REPLACE="1"
+MCS_SHELL_DEBUG="0"
+
+if [ -r "$MCS_SHELL_CONFIG" ]; then
+    # shellcheck disable=SC1090
+    . "$MCS_SHELL_CONFIG"
+fi
+
+MCS_BACKEND=""
+MCS_LOGIN_SHELL=""
+MCS_CMD=()
+MCS_SHELL_ARGS=()
+PASSTHROUGH=()
+ACTION="toggle"
+DRY_RUN=0
+
+###====================================|====================================###
+### HILFSFUNKTIONEN
+###====================================|====================================###
+
+mcs_debug() { [ "${MCS_SHELL_DEBUG:-0}" = "1" ] && printf 'MCS-SHELL [debug]: %s\n' "$*" >&2; }
+mcs_warn()  { printf 'MCS-SHELL: %s\n' "$*" >&2; }
+mcs_die()   { printf 'MCS-SHELL: %s\n' "$*" >&2; exit 1; }
+mcs_have()  { command -v "$1" >/dev/null 2>&1; }
+mcs_path_of() { command -v "$1" 2>/dev/null; }
+
+mcs_uint() {
+    case "${1:-}" in
+        ''|*[!0-9]*) printf '%s' "$2" ;;
+        *) printf '%s' "$1" ;;
+    esac
+}
+
+mcs_percent() {
+    local v
+    v=$(mcs_uint "${1:-}" "$2")
+    [ "$v" -ge 1 ] && [ "$v" -le 100 ] || v="$2"
+    printf '%s' "$v"
+}
+
+mcs_top_percent() {
+    local v
+    v=$(mcs_uint "${1:-}" "$2")
+    [ "$v" -le 100 ] || v="$2"
+    printf '%s' "$v"
+}
+
+MCS_SHELL_COLS=$(mcs_uint "${MCS_SHELL_COLS:-120}" 120)
+MCS_SHELL_ROWS=$(mcs_uint "${MCS_SHELL_ROWS:-40}" 40)
+MCS_SHELL_WIDTH_PERCENT=$(mcs_percent "${MCS_SHELL_WIDTH_PERCENT:-92}" 92)
+MCS_SHELL_HEIGHT_PERCENT=$(mcs_percent "${MCS_SHELL_HEIGHT_PERCENT:-62}" 62)
+MCS_SHELL_TOP_PERCENT=$(mcs_top_percent "${MCS_SHELL_TOP_PERCENT:-3}" 3)
+
+mcs_is_wayland() {
+    [ "${XDG_SESSION_TYPE:-}" = "wayland" ] || [ -n "${WAYLAND_DISPLAY:-}" ]
+}
+
+mcs_is_hyprland() {
+    [ -n "${HYPRLAND_INSTANCE_SIGNATURE:-}" ] && mcs_have hyprctl && mcs_have jq
+}
+
+mcs_is_sway() {
+    [ -n "${SWAYSOCK:-}" ] && mcs_have swaymsg && mcs_have jq
+}
+
+mcs_is_i3() {
+    mcs_have i3-msg && mcs_have jq && { [ -n "${I3SOCK:-}" ] || { [ -z "${WAYLAND_DISPLAY:-}" ] && [ -n "${DISPLAY:-}" ]; }; }
+}
+
+mcs_session_name() {
+    if mcs_is_hyprland; then printf 'Hyprland'
+    elif mcs_is_sway; then printf 'Sway'
+    elif mcs_is_i3; then printf 'i3'
+    elif [ -n "${XDG_CURRENT_DESKTOP:-}" ]; then printf '%s' "$XDG_CURRENT_DESKTOP"
+    else printf '%s' "${XDG_SESSION_TYPE:-unbekannt}"
+    fi
+}
+
+# POSIX-sicheres Quoting fuer hyprctl/swaymsg/i3-msg exec.
+mcs_shquote() {
+    local s="${1:-}"
+    if [ -z "$s" ]; then printf "''"; return 0; fi
+    case "$s" in
+        *[!A-Za-z0-9_./:@%+=,-]*)
+            s=${s//\'/\'\\\'\'}
+            printf "'%s'" "$s"
+            ;;
+        *) printf '%s' "$s" ;;
+    esac
+}
+
+mcs_join_shquoted() {
+    local out="" a
+    for a in "$@"; do out+="$(mcs_shquote "$a") "; done
+    printf '%s' "${out% }"
+}
+
+###====================================|====================================###
+### BACKEND / SHELL
+###====================================|====================================###
+
+mcs_backend_candidates() {
+    if mcs_is_wayland; then
+        printf '%s\n' kitty foot alacritty wezterm gnome-terminal konsole xfce4-terminal xterm
+    else
+        printf '%s\n' kitty alacritty xterm konsole gnome-terminal xfce4-terminal
+    fi
+}
+
+mcs_resolve_backend() {
+    local b
+    if [ "${MCS_SHELL_BACKEND:-auto}" != "auto" ]; then
+        b="$MCS_SHELL_BACKEND"
+        if ! mcs_have "$b"; then
+            mcs_warn "Backend '$b' nicht gefunden; suche automatisch."
+        elif [ "$b" = "foot" ] && ! mcs_is_wayland; then
+            mcs_warn "foot ist Wayland-only; suche automatisch."
+        else
+            MCS_BACKEND="$b"
+            return 0
+        fi
+    fi
+    while IFS= read -r b; do
+        if mcs_have "$b"; then
+            MCS_BACKEND="$b"
+            return 0
+        fi
+    done < <(mcs_backend_candidates)
+    MCS_BACKEND=""
+    return 1
+}
+
+mcs_resolve_shell() {
+    local s name
+    if [ "${MCS_SHELL_SHELL:-auto}" = "auto" ]; then
+        s="${SHELL:-}"
+        if [ -n "$s" ] && [ -x "$s" ]; then
+            name="$(basename -- "$s")"
+            case "$name" in
+                nologin|false|sync) s="" ;;
+            esac
+        else
+            s=""
+        fi
+        if [ -z "$s" ]; then
+            s=$(mcs_path_of bash || mcs_path_of zsh || mcs_path_of sh || true)
+        fi
+    else
+        case "$MCS_SHELL_SHELL" in
+            bash|zsh)
+                s=$(mcs_path_of "$MCS_SHELL_SHELL" || true)
+                [ -n "$s" ] || { mcs_warn "Shell '$MCS_SHELL_SHELL' ist nicht installiert."; return 1; }
+                ;;
+            *)
+                s="$MCS_SHELL_SHELL"
+                [ -x "$s" ] || { mcs_warn "Shell '$s' ist nicht ausfuehrbar."; return 1; }
+                ;;
+        esac
+    fi
+    [ -n "$s" ] || return 1
+    MCS_LOGIN_SHELL="$s"
+    return 0
+}
+
+mcs_set_shell_args() {
+    MCS_SHELL_ARGS=("$MCS_LOGIN_SHELL")
+    if [ "${MCS_SHELL_LOGIN:-1}" = "1" ]; then
+        case "$(basename -- "$MCS_LOGIN_SHELL")" in
+            bash|zsh|sh|dash|ksh|mksh|fish|pylovara) MCS_SHELL_ARGS+=("-l") ;;
+        esac
+    fi
+}
+
+mcs_build_command() {
+    local cfg="$MCS_SHELL_HOME/DATEN"
+    MCS_CMD=()
+    case "${MCS_BACKEND:-}" in
+        kitty)
+            MCS_CMD=(kitty)
+            [ -r "$HOME/.config/kitty/kitty.conf" ] && MCS_CMD+=(-c "$HOME/.config/kitty/kitty.conf")
+            MCS_CMD+=(-c "$cfg/KITTY/mcs-shell.conf")
+            MCS_CMD+=(--class "$MCS_SHELL_CLASS" --name "$MCS_SHELL_CLASS" --title "$MCS_SHELL_TITLE")
+            MCS_CMD+=(-o "font_family=$MCS_SHELL_FONT" -o "font_size=$MCS_SHELL_FONT_SIZE")
+            MCS_CMD+=(-o "initial_window_width=${MCS_SHELL_COLS}c" -o "initial_window_height=${MCS_SHELL_ROWS}c")
+            MCS_CMD+=(-o "background_opacity=$MCS_SHELL_OPACITY")
+            MCS_CMD+=(-d "$PWD")
+            MCS_CMD+=(-e "${MCS_SHELL_ARGS[@]}")
+            ;;
+        alacritty)
+            MCS_CMD=(alacritty --class "$MCS_SHELL_CLASS,$MCS_SHELL_CLASS" --title "$MCS_SHELL_TITLE"
+                --config-file "$cfg/ALACRITTY/mcs-shell.toml" --working-directory "$PWD"
+                -e "${MCS_SHELL_ARGS[@]}")
+            ;;
+        foot)
+            MCS_CMD=(foot --app-id "$MCS_SHELL_CLASS" --title "$MCS_SHELL_TITLE"
+                --config "$cfg/FOOT/mcs-shell.ini" --window-size-chars "${MCS_SHELL_COLS}x${MCS_SHELL_ROWS}"
+                "${MCS_SHELL_ARGS[@]}")
+            ;;
+        wezterm)
+            MCS_CMD=(wezterm --config-file "$cfg/WEZTERM/mcs-shell.lua" start
+                --class "$MCS_SHELL_CLASS" --cwd "$PWD" -- "${MCS_SHELL_ARGS[@]}")
+            ;;
+        konsole)
+            MCS_CMD=(konsole --name "$MCS_SHELL_CLASS" --title "$MCS_SHELL_TITLE"
+                --geometry "${MCS_SHELL_COLS}x${MCS_SHELL_ROWS}" --workdir "$PWD"
+                -e "${MCS_SHELL_ARGS[@]}")
+            ;;
+        gnome-terminal)
+            MCS_CMD=(gnome-terminal --class="$MCS_SHELL_CLASS" --title="$MCS_SHELL_TITLE"
+                --working-directory="$PWD" -- "${MCS_SHELL_ARGS[@]}")
+            ;;
+        xfce4-terminal)
+            MCS_CMD=(xfce4-terminal --class="$MCS_SHELL_CLASS" --title="$MCS_SHELL_TITLE"
+                --geometry="${MCS_SHELL_COLS}x${MCS_SHELL_ROWS}" --working-directory="$PWD"
+                -x "${MCS_SHELL_ARGS[@]}")
+            ;;
+        xterm)
+            MCS_CMD=(xterm -class "$MCS_SHELL_CLASS" -name "$MCS_SHELL_CLASS"
+                -title "$MCS_SHELL_TITLE" -geometry "${MCS_SHELL_COLS}x${MCS_SHELL_ROWS}"
+                -e "${MCS_SHELL_ARGS[@]}")
+            ;;
+        *)
+            mcs_warn "Unbekanntes Backend '${MCS_BACKEND:-}'."
+            return 1
+            ;;
+    esac
+    return 0
+}
+
+mcs_build_launch_string() {
+    mcs_build_command || return 1
+    printf 'cd %s && %s' "$(mcs_shquote "$PWD")" "$(mcs_join_shquoted "${MCS_CMD[@]}")"
+}
+
+mcs_run_command() {
+    [ "${#MCS_CMD[@]}" -gt 0 ] || return 1
+    if [ "${MCS_SHELL_DEBUG:-0}" = "1" ]; then
+        printf 'MCS-SHELL [debug]: %s\n' "$(mcs_join_shquoted "${MCS_CMD[@]}")" >&2
+        "${MCS_CMD[@]}"
+        return $?
+    fi
+    if mcs_have setsid; then
+        setsid "${MCS_CMD[@]}" >/dev/null 2>&1 &
+    else
+        "${MCS_CMD[@]}" >/dev/null 2>&1 &
+    fi
+}
+
+###====================================|====================================###
+### HYPRLAND
+###====================================|====================================###
+
+mcs_hypr_clients() { hyprctl clients -j 2>/dev/null; }
+mcs_hypr_monitors() { hyprctl monitors -j 2>/dev/null; }
+
+mcs_hypr_find_window() {
+    mcs_hypr_clients | jq -r --arg c "$MCS_SHELL_CLASS" \
+        '.[] | select((.class == $c) or (.initialClass == $c)) | .address' | head -n1
+}
+
+mcs_hypr_workspace() {
+    mcs_hypr_clients | jq -r --arg a "$1" '.[] | select(.address == $a) | .workspace.name' | head -n1
+}
+
+mcs_hypr_special_open() {
+    local s="special:$1"
+    mcs_hypr_monitors | jq -r '.[] | select(.focused == true) | .specialWorkspace.name' | grep -Fxq "$s"
+}
+
+mcs_hypr_geometry() {
+    local info mx my mw mh ms lw lh w h x y
+    info=$(mcs_hypr_monitors | jq -r '.[] | select(.focused == true) | "\(.x) \(.y) \(.width) \(.height) \(.scale)"' | head -n1)
+    [ -n "$info" ] || return 1
+    read -r mx my mw mh ms <<< "$info"
+    case "$ms" in ''|*[!0-9.]*) ms=1 ;; esac
+    lw=$(awk -v w="$mw" -v s="$ms" 'BEGIN { printf "%d", (w/s)+0.5 }')
+    lh=$(awk -v h="$mh" -v s="$ms" 'BEGIN { printf "%d", (h/s)+0.5 }')
+    w=$(awk -v t="$lw" -v p="$MCS_SHELL_WIDTH_PERCENT" 'BEGIN { printf "%d", (t*p/100)+0.5 }')
+    h=$(awk -v t="$lh" -v p="$MCS_SHELL_HEIGHT_PERCENT" 'BEGIN { printf "%d", (t*p/100)+0.5 }')
+    x=$(( mx + (lw - w) / 2 ))
+    y=$(( my + (lh * MCS_SHELL_TOP_PERCENT / 100) ))
+    printf '%s %s %s %s\n' "$x" "$y" "$w" "$h"
+}
+
+mcs_hypr_apply_layout() {
+    local addr="$1" geo x y w h
+    geo=$(mcs_hypr_geometry) || return 0
+    read -r x y w h <<< "$geo"
+    hyprctl dispatch setfloating "address:$addr" >/dev/null 2>&1 || true
+    hyprctl dispatch resizewindowpixel "exact $w $h,address:$addr" >/dev/null 2>&1 || true
+    hyprctl dispatch movewindowpixel "exact $x $y,address:$addr" >/dev/null 2>&1 || true
+    mcs_debug "Hyprland Layout ${w}x${h} @ ${x},${y} ($addr)"
+}
+
+mcs_hypr_new_window() {
+    local rule="$1" i before after addr a
+    before=$(mcs_hypr_clients | jq -r '.[].address' 2>/dev/null)
+    hyprctl dispatch exec "$rule" >/dev/null 2>&1 || return 1
+    for ((i=0; i<40; i++)); do
+        after=$(mcs_hypr_clients | jq -r '.[].address' 2>/dev/null)
+        addr=""
+        while IFS= read -r a; do
+            [ -n "$a" ] || continue
+            if ! printf '%s\n' "$before" | grep -Fxq "$a"; then addr="$a"; break; fi
+        done <<< "$after"
+        if [ -n "$addr" ]; then printf '%s\n' "$addr"; return 0; fi
+        sleep 0.05
+    done
+    return 1
+}
+
+mcs_hypr_launch_normal() {
+    local cmd addr float_rule="" layout=0
+    cmd=$(mcs_build_launch_string) || return 1
+    if [ "$MCS_SHELL_FLOAT_NEW" = "1" ]; then float_rule="[float] "; layout=1; fi
+    addr=$(mcs_hypr_new_window "${float_rule}${cmd}") || return 1
+    [ "$layout" = "1" ] && mcs_hypr_apply_layout "$addr"
+    hyprctl dispatch focuswindow "address:$addr" >/dev/null 2>&1 || true
+    return 0
+}
+
+mcs_hypr_launch_special() {
+    local special="$1" cmd addr
+    cmd=$(mcs_build_launch_string) || return 1
+    addr=$(mcs_hypr_new_window "[float; workspace special:$special silent] $cmd") || return 1
+    mcs_hypr_apply_layout "$addr"
+    if ! mcs_hypr_special_open "$special"; then
+        hyprctl dispatch togglespecialworkspace "$special" >/dev/null 2>&1 || true
+        sleep 0.15
+    fi
+    hyprctl dispatch focuswindow "address:$addr" >/dev/null 2>&1 || true
+    return 0
+}
+
+mcs_hypr_toggle() {
+    local addr ws special="$MCS_SHELL_HYPR_SPECIAL"
+    addr=$(mcs_hypr_find_window)
+    if [ -n "$addr" ]; then
+        ws=$(mcs_hypr_workspace "$addr")
+        if [ "$ws" = "special:$special" ]; then
+            hyprctl dispatch togglespecialworkspace "$special" >/dev/null 2>&1 || return 1
+            sleep 0.15
+            mcs_hypr_apply_layout "$addr"
+            hyprctl dispatch focuswindow "address:$addr" >/dev/null 2>&1 || true
+        else
+            mcs_hypr_apply_layout "$addr"
+            hyprctl dispatch movetoworkspacesilent "special:$special,address:$addr" >/dev/null 2>&1 || return 1
+            if mcs_hypr_special_open "$special"; then
+                hyprctl dispatch togglespecialworkspace "$special" >/dev/null 2>&1 || true
+            fi
+        fi
+        return 0
+    fi
+    mcs_hypr_launch_special "$special"
+}
+
+###====================================|====================================###
+### SWAY
+###====================================|====================================###
+
+mcs_sway_tree() { swaymsg -t get_tree 2>/dev/null; }
+
+mcs_sway_find_window() {
+    mcs_sway_tree | jq -r --arg c "$MCS_SHELL_CLASS" \
+        '.. | objects | select((.app_id? == $c) or (.window_properties?.class? == $c)) | .id' | head -n1
+}
+
+mcs_sway_in_scratch() {
+    mcs_sway_tree | jq -e --argjson id "$1" '
+        .. | objects | select((.name? == "__sway_scratch") or (.name? == "__i3_scratch")) |
+        .. | objects | select(.id? == $id) | true
+    ' >/dev/null 2>&1
+}
+
+mcs_sway_apply_layout() {
+    local crit
+    for crit in "[app_id=\"$MCS_SHELL_CLASS\"]" "[class=\"$MCS_SHELL_CLASS\"]"; do
+        swaymsg "$crit floating enable" >/dev/null 2>&1 || true
+        swaymsg "$crit resize set ${MCS_SHELL_WIDTH_PERCENT} ppt ${MCS_SHELL_HEIGHT_PERCENT} ppt" >/dev/null 2>&1 || true
+        swaymsg "$crit move position center" >/dev/null 2>&1 || true
+    done
+}
+
+mcs_sway_ids() {
+    mcs_sway_tree | jq -r '.. | objects | .id? // empty' | sort
+}
+
+mcs_sway_new_window() {
+    local cmd="$1" i before after addr a
+    before=$(mcs_sway_ids)
+    swaymsg exec "$cmd" >/dev/null 2>&1 || return 1
+    for ((i=0; i<40; i++)); do
+        after=$(mcs_sway_ids)
+        addr=""
+        while IFS= read -r a; do
+            [ -n "$a" ] || continue
+            if ! printf '%s\n' "$before" | grep -Fxq "$a"; then addr="$a"; break; fi
+        done <<< "$after"
+        if [ -n "$addr" ]; then printf '%s\n' "$addr"; return 0; fi
+        sleep 0.05
+    done
+    return 1
+}
+
+mcs_sway_launch_normal() {
+    local cmd addr
+    cmd=$(mcs_build_launch_string) || return 1
+    addr=$(mcs_sway_new_window "$cmd") || return 1
+    [ "$MCS_SHELL_FLOAT_NEW" = "1" ] && mcs_sway_apply_layout
+    swaymsg "[con_id=$addr] focus" >/dev/null 2>&1 || true
+    return 0
+}
+
+mcs_sway_launch_scratch() {
+    local cmd addr
+    cmd=$(mcs_build_launch_string) || return 1
+    addr=$(mcs_sway_new_window "$cmd") || return 1
+    mcs_sway_apply_layout
+    swaymsg "[con_id=$addr] move scratchpad" >/dev/null 2>&1 \
+        || swaymsg "[app_id=\"$MCS_SHELL_CLASS\"] move scratchpad" >/dev/null 2>&1 || true
+    swaymsg "[con_id=$addr] scratchpad show" >/dev/null 2>&1 \
+        || swaymsg "[app_id=\"$MCS_SHELL_CLASS\"] scratchpad show" >/dev/null 2>&1 || true
+    swaymsg "[con_id=$addr] focus" >/dev/null 2>&1 || true
+    return 0
+}
+
+mcs_sway_toggle() {
+    local addr
+    addr=$(mcs_sway_find_window)
+    if [ -n "$addr" ]; then
+        if mcs_sway_in_scratch "$addr"; then
+            swaymsg "[con_id=$addr] scratchpad show" >/dev/null 2>&1 \
+                || swaymsg "[app_id=\"$MCS_SHELL_CLASS\"] scratchpad show" >/dev/null 2>&1 || return 1
+            mcs_sway_apply_layout
+            swaymsg "[con_id=$addr] focus" >/dev/null 2>&1 || true
+        else
+            mcs_sway_apply_layout
+            swaymsg "[con_id=$addr] move scratchpad" >/dev/null 2>&1 \
+                || swaymsg "[app_id=\"$MCS_SHELL_CLASS\"] move scratchpad" >/dev/null 2>&1 || return 1
+        fi
+        return 0
+    fi
+    mcs_sway_launch_scratch
+}
+
+###====================================|====================================###
+### I3
+###====================================|====================================###
+
+mcs_i3_tree() { i3-msg -t get_tree 2>/dev/null; }
+
+mcs_i3_find_window() {
+    mcs_i3_tree | jq -r --arg c "$MCS_SHELL_CLASS" \
+        '.. | objects | select((.window_properties?.class? == $c) or (.app_id? == $c)) | .id' | head -n1
+}
+
+mcs_i3_in_scratch() {
+    mcs_i3_tree | jq -e --argjson id "$1" '
+        .. | objects | select((.name? == "__i3_scratch") or (.name? == "__sway_scratch")) |
+        .. | objects | select(.id? == $id) | true
+    ' >/dev/null 2>&1
+}
+
+mcs_i3_apply_layout() {
+    local crit="[class=\"$MCS_SHELL_CLASS\"]"
+    i3-msg "$crit floating enable" >/dev/null 2>&1 || true
+    i3-msg "$crit resize set ${MCS_SHELL_WIDTH_PERCENT} ppt ${MCS_SHELL_HEIGHT_PERCENT} ppt" >/dev/null 2>&1 || true
+    i3-msg "$crit move position center" >/dev/null 2>&1 || true
+}
+
+mcs_i3_ids() {
+    mcs_i3_tree | jq -r '.. | objects | .id? // empty' | sort
+}
+
+mcs_i3_new_window() {
+    local cmd="$1" i before after addr a
+    before=$(mcs_i3_ids)
+    i3-msg exec "$cmd" >/dev/null 2>&1 || return 1
+    for ((i=0; i<40; i++)); do
+        after=$(mcs_i3_ids)
+        addr=""
+        while IFS= read -r a; do
+            [ -n "$a" ] || continue
+            if ! printf '%s\n' "$before" | grep -Fxq "$a"; then addr="$a"; break; fi
+        done <<< "$after"
+        if [ -n "$addr" ]; then printf '%s\n' "$addr"; return 0; fi
+        sleep 0.05
+    done
+    return 1
+}
+
+mcs_i3_launch_normal() {
+    local cmd addr
+    cmd=$(mcs_build_launch_string) || return 1
+    addr=$(mcs_i3_new_window "$cmd") || return 1
+    [ "$MCS_SHELL_FLOAT_NEW" = "1" ] && mcs_i3_apply_layout
+    i3-msg "[con_id=$addr] focus" >/dev/null 2>&1 || true
+    return 0
+}
+
+mcs_i3_launch_scratch() {
+    local cmd addr
+    cmd=$(mcs_build_launch_string) || return 1
+    addr=$(mcs_i3_new_window "$cmd") || return 1
+    mcs_i3_apply_layout
+    i3-msg "[con_id=$addr] move scratchpad" >/dev/null 2>&1 \
+        || i3-msg "[class=\"$MCS_SHELL_CLASS\"] move scratchpad" >/dev/null 2>&1 || true
+    i3-msg "[con_id=$addr] scratchpad show" >/dev/null 2>&1 \
+        || i3-msg "[class=\"$MCS_SHELL_CLASS\"] scratchpad show" >/dev/null 2>&1 || true
+    i3-msg "[con_id=$addr] focus" >/dev/null 2>&1 || true
+    return 0
+}
+
+mcs_i3_toggle() {
+    local addr
+    addr=$(mcs_i3_find_window)
+    if [ -n "$addr" ]; then
+        if mcs_i3_in_scratch "$addr"; then
+            i3-msg "[con_id=$addr] scratchpad show" >/dev/null 2>&1 \
+                || i3-msg "[class=\"$MCS_SHELL_CLASS\"] scratchpad show" >/dev/null 2>&1 || return 1
+            mcs_i3_apply_layout
+            i3-msg "[con_id=$addr] focus" >/dev/null 2>&1 || true
+        else
+            mcs_i3_apply_layout
+            i3-msg "[con_id=$addr] move scratchpad" >/dev/null 2>&1 \
+                || i3-msg "[class=\"$MCS_SHELL_CLASS\"] move scratchpad" >/dev/null 2>&1 || return 1
+        fi
+        return 0
+    fi
+    mcs_i3_launch_scratch
+}
+
+###====================================|====================================###
+### X11
+###====================================|====================================###
+
+mcs_x11_find_window() {
+    mcs_have xdotool || return 1
+    xdotool search --class "$MCS_SHELL_CLASS" 2>/dev/null | head -n1
+}
+
+mcs_x11_visible() {
+    mcs_have xdotool || return 1
+    xdotool search --onlyvisible --class "$MCS_SHELL_CLASS" 2>/dev/null | grep -Fxq "$1"
+}
+
+mcs_x11_geometry() {
+    local g wh rest x y w h
+    g=$(xrandr --current 2>/dev/null | awk '/ connected/ { for (i=1;i<=NF;i++) if ($i ~ /^[0-9]+x[0-9]+\+[0-9]+\+[0-9]+$/) { print $i; exit } }')
+    [ -n "$g" ] || g=$(xdotool getdisplaygeometry 2>/dev/null | awk '{print $1"x"$2"+0+0"}')
+    [ -n "$g" ] || return 1
+    case "$g" in *+*+*) ;; *) g="${g}+0+0" ;; esac
+    wh=${g%%+*}; rest=${g#*+}; x=${rest%%+*}; rest=${rest#*+}; y=${rest%%+*}
+    w=${wh%x*}; h=${wh#*x}
+    w=$(( w * MCS_SHELL_WIDTH_PERCENT / 100 ))
+    h=$(( h * MCS_SHELL_HEIGHT_PERCENT / 100 ))
+    x=$(( x + (${wh%x*} - w) / 2 ))
+    y=$(( y + (${wh#*x} * MCS_SHELL_TOP_PERCENT / 100) ))
+    printf '%s %s %s %s\n' "$x" "$y" "$w" "$h"
+}
+
+mcs_x11_apply_geometry() {
+    local win="$1" geo x y w h
+    geo=$(mcs_x11_geometry 2>/dev/null) || return 0
+    read -r x y w h <<< "$geo"
+    if mcs_have xdotool; then
+        xdotool windowsize "$win" "$w" "$h" >/dev/null 2>&1 || true
+        xdotool windowmove "$win" "$x" "$y" >/dev/null 2>&1 || true
+    elif mcs_have wmctrl; then
+        wmctrl -i -r "$win" -e "0,$x,$y,$w,$h" >/dev/null 2>&1 || true
+    fi
+}
+
+mcs_x11_launch_postprocess() {
+    [ "${MCS_SHELL_X11_GEOMETRY:-1}" = "1" ] || return 0
+    [ -n "${DISPLAY:-}" ] || return 0
+    mcs_have xdotool || mcs_have wmctrl || return 0
+    (
+        local i win
+        for ((i=0; i<30; i++)); do
+            win=$(mcs_x11_find_window)
+            if [ -n "$win" ]; then
+                mcs_x11_apply_geometry "$win"
+                break
+            fi
+            sleep 0.1
+        done
+    ) >/dev/null 2>&1 &
+}
+
+mcs_x11_toggle() {
+    local win
+    win=$(mcs_x11_find_window)
+    if [ -n "$win" ]; then
+        if mcs_x11_visible "$win"; then
+            xdotool windowminimize "$win" >/dev/null 2>&1 || true
+        else
+            xdotool windowmap "$win" >/dev/null 2>&1 || true
+            xdotool windowactivate "$win" >/dev/null 2>&1 || true
+            mcs_x11_apply_geometry "$win"
+        fi
+        return 0
+    fi
+    mcs_build_command || return 1
+    mcs_run_command
+    mcs_x11_launch_postprocess
+}
+
+mcs_x11_focus() {
+    local win
+    win=$(wmctrl -lx 2>/dev/null | awk -v c="$MCS_SHELL_CLASS" 'tolower($3) ~ tolower(c) {print $1; exit}')
+    if [ -n "$win" ]; then
+        wmctrl -i -a "$win" >/dev/null 2>&1 || true
+        return 0
+    fi
+    mcs_build_command || return 1
+    mcs_run_command
+    mcs_x11_launch_postprocess
+}
+
+###====================================|====================================###
+### AKTIONEN
+###====================================|====================================###
+
+mcs_toggle_mode() {
+    [ "${MCS_SHELL_TOGGLE:-1}" = "1" ] || { printf 'none'; return; }
+    if mcs_is_hyprland; then printf 'hyprland'; return; fi
+    if mcs_is_sway; then printf 'sway'; return; fi
+    if mcs_is_i3; then printf 'i3'; return; fi
+    if [ -n "${DISPLAY:-}" ] && mcs_have xdotool; then printf 'x11'; return; fi
+    if [ -n "${DISPLAY:-}" ] && mcs_have wmctrl; then printf 'x11-focus'; return; fi
+    printf 'none'
+}
+
+mcs_launch() {
+    if mcs_is_hyprland; then
+        mcs_hypr_launch_normal
+    elif mcs_is_sway; then
+        mcs_sway_launch_normal
+    elif mcs_is_i3; then
+        mcs_i3_launch_normal
+    else
+        mcs_build_command || return 1
+        mcs_run_command
+        mcs_x11_launch_postprocess
+    fi
+}
+
+mcs_do_toggle() {
+    case "$(mcs_toggle_mode)" in
+        hyprland) mcs_hypr_toggle ;;
+        sway) mcs_sway_toggle ;;
+        i3) mcs_i3_toggle ;;
+        x11) mcs_x11_toggle ;;
+        x11-focus) mcs_x11_focus ;;
+        *) return 1 ;;
+    esac
+}
+
+###====================================|====================================###
+### AUSGABE / HILFE
+###====================================|====================================###
+
+mcs_usage() {
+    cat <<EOF
+MCS-SHELL ${MCS_SHELL_VERSION} - Pylovara Terminal (Bash/Zsh)
+
+Nutzung:
+  mcs-shell [--toggle|--new] [--shell NAME] [--backend NAME]
+  mcs-shell --check
+  mcs-shell --print-command
+  mcs-shell -- COMMAND [ARG...]
+
+Optionen:
+  --toggle        Dropdown zeigen/verstecken (Standard)
+  --new           neues Fenster oeffnen
+  --shell NAME    bash | zsh | /absoluter/pfad
+  --backend NAME  kitty | foot | alacritty | wezterm | konsole | ...
+  --cwd PFAD      Arbeitsverzeichnis fuer den Start
+  --check         Umgebung, Backend und Shell pruefen
+  --print-command Startkommando ausgeben, nicht starten
+  -h, --help      diese Hilfe
+  -V, --version   Version
+
+Start nach Installation: Super+Shift+Enter
+Konfiguration: ${MCS_SHELL_CONFIG}
+EOF
+}
+
+mcs_print_missing_backend() {
+    local id
+    id=$(awk -F= '/^ID=/{gsub(/"/,"",$2); print $2; exit}' /etc/os-release 2>/dev/null)
+    mcs_warn "Kein Terminal-Backend gefunden."
+    printf '\nInstallationshinweise:\n' >&2
+    case "$id" in
+        arch) printf '  sudo pacman -S --needed kitty jq\n' >&2 ;;
+        debian|ubuntu) printf '  sudo apt install kitty jq\n' >&2 ;;
+        fedora) printf '  sudo dnf install kitty jq\n' >&2 ;;
+        opensuse*|suse) printf '  sudo zypper install kitty jq\n' >&2 ;;
+        *) printf '  Installiere kitty und jq mit deinem Paketmanager.\n' >&2 ;;
+    esac
+    printf '  Alternativ: MCS_SHELL_BACKEND=foot|alacritty|xterm\n\n' >&2
+}
+
+mcs_print_check() {
+    printf 'MCS-SHELL %s\n' "$MCS_SHELL_VERSION"
+    printf 'Home:     %s\n' "$MCS_SHELL_HOME"
+    printf 'Config:   %s\n' "$MCS_SHELL_CONFIG"
+    printf 'Session:  %s (%s)\n' "$(mcs_session_name)" "${XDG_SESSION_TYPE:-?}"
+    printf 'Display:  WAYLAND_DISPLAY=%s DISPLAY=%s\n' "${WAYLAND_DISPLAY:-}" "${DISPLAY:-}"
+    printf 'Backend:  %s %s\n' "${MCS_BACKEND:-keins}" "$( [ -n "${MCS_BACKEND:-}" ] && mcs_path_of "$MCS_BACKEND" )"
+    printf 'Shell:    %s %s\n' "${MCS_LOGIN_SHELL:-keine}" "$( [ "${MCS_SHELL_LOGIN:-1}" = "1" ] && printf '(login)' )"
+    printf 'Toggle:   %s\n' "$(mcs_toggle_mode)"
+    printf 'Special:  special:%s\n' "$MCS_SHELL_HYPR_SPECIAL"
+    printf 'jq:       %s\n' "$(mcs_path_of jq || printf '-')"
+    printf 'Source:   %s\n' "$( [ -r "$MCS_SHELL_HOME/MCS-SHELL.SOURCE" ] && printf 'ok' || printf 'fehlt' )"
+    if [ "${MCS_BACKEND:-}" = "kitty" ]; then
+        printf 'Kitty:    %s\n' "$(kitty --version 2>/dev/null | head -n1)"
+    fi
+}
+
+###====================================|====================================###
+### MAIN
+###====================================|====================================###
+
+while [ "$#" -gt 0 ]; do
+    case "$1" in
+        -h|--help) mcs_usage; exit 0 ;;
+        -V|--version) printf 'MCS-SHELL %s\n' "$MCS_SHELL_VERSION"; exit 0 ;;
+        --check) ACTION="check"; shift ;;
+        --toggle) ACTION="toggle"; shift ;;
+        --new|--open) ACTION="new"; shift ;;
+        --print-command|--dry-run) DRY_RUN=1; shift ;;
+        --shell)
+            [ "$#" -ge 2 ] || mcs_die "--shell braucht einen Wert."
+            MCS_SHELL_SHELL="$2"; shift 2 ;;
+        --backend)
+            [ "$#" -ge 2 ] || mcs_die "--backend braucht einen Wert."
+            MCS_SHELL_BACKEND="$2"; shift 2 ;;
+        --cwd)
+            [ "$#" -ge 2 ] || mcs_die "--cwd braucht einen Wert."
+            MCS_SHELL_CWD="$2"; shift 2 ;;
+        --)
+            shift; PASSTHROUGH=("$@"); break ;;
+        -*)
+            mcs_die "Unbekannte Option: $1 (siehe --help)" ;;
+        *)
+            PASSTHROUGH=("$@"); break ;;
+    esac
+done
+
+if [ -n "${MCS_SHELL_CWD:-}" ]; then
+    cd -- "$MCS_SHELL_CWD" || mcs_die "Verzeichnis nicht gefunden: $MCS_SHELL_CWD"
+fi
+
+if [ "$ACTION" = "check" ]; then
+    mcs_resolve_backend || true
+    mcs_resolve_shell || true
+    mcs_print_check
+    [ -n "${MCS_BACKEND:-}" ] && exit 0 || exit 1
+fi
+
+if ! mcs_resolve_backend; then
+    mcs_print_missing_backend
+    exit 1
+fi
+
+if [ "${#PASSTHROUGH[@]}" -eq 0 ]; then
+    mcs_resolve_shell || exit 1
+    mcs_set_shell_args
+else
+    MCS_SHELL_ARGS=("${PASSTHROUGH[@]}")
+fi
+
+if [ "$DRY_RUN" = "1" ]; then
+    mcs_build_launch_string || exit 1
+    printf '\n'
+    exit 0
+fi
+
+case "$ACTION" in
+    new)
+        mcs_launch
+        ;;
+    toggle)
+        if ! mcs_do_toggle; then
+            mcs_launch
+        fi
+        ;;
+esac
+
+###====================================|====================================###

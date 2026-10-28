@@ -62,3 +62,16 @@ callme() {
 }
 
 ###====================================|====================================###
+### MCS-SHELL | TERMINAL-FENSTER | SOURCE-BINDUNG
+### Stellt mcs-shell / mcs-shell-new / mcs-shell-check in Bash und Zsh bereit.
+### Start nach Installation: Super+Shift+Enter
+
+if [ -n "${MASTER_DIR:-}" ]; then
+    MCS_SHELL_SOURCE="${MASTER_DIR%/}/../MCS-SHELL/MCS-SHELL.SOURCE"
+    if [ -r "$MCS_SHELL_SOURCE" ]; then
+        . "$MCS_SHELL_SOURCE"
+    fi
+    unset MCS_SHELL_SOURCE
+fi
+
+###====================================|====================================###

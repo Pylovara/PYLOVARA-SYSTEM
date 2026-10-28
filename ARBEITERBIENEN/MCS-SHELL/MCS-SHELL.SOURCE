@@ -1,0 +1,59 @@
+###====================================|====================================###
+### MCS-SHELL | SOURCE-BINDUNG | BETA TEST
+### Quelle : /PYLOVARA-SYSTEM/ARBEITERBIENEN/MCS-SHELL/MCS-SHELL.SOURCE
+### Wird aus CONTROL.PV-CONF geladen.
+### Stellt in Bash und Zsh bereit:
+###   mcs-shell         -> MCS-Shell starten/toggeln
+###   mcs-shell-new     -> neues Fenster
+###   mcs-shell-check   -> Umgebung pruefen
+###   mcs_shell         -> Unterstrich-Variante (skriptsicher)
+###====================================|====================================###
+
+if [ "${MCS_SHELL_SOURCE_LOADED:-0}" = "1" ]; then
+    return 0 2>/dev/null || true
+fi
+MCS_SHELL_SOURCE_LOADED="1"
+
+# Eigenen Pfad in Bash und Zsh ermitteln.
+if [ -n "${BASH_VERSION:-}" ]; then
+    _mcs_source_path="${BASH_SOURCE[0]}"
+elif [ -n "${ZSH_VERSION:-}" ]; then
+    eval '_mcs_source_path="${(%):-%x}"'
+else
+    _mcs_source_path="$0"
+fi
+
+if [ -n "${_mcs_source_path:-}" ]; then
+    MCS_SHELL_HOME="$(cd -- "$(dirname -- "$_mcs_source_path")" 2>/dev/null && pwd)"
+else
+    MCS_SHELL_HOME="${MCS_SHELL_HOME:-/PYLOVARA-SYSTEM/ARBEITERBIENEN/MCS-SHELL}"
+fi
+unset _mcs_source_path
+
+MCS_SHELL_BIN="$MCS_SHELL_HOME/MCS-SHELL"
+MCS_SHELL_CONFIG="${MCS_SHELL_CONFIG:-$MCS_SHELL_HOME/MCS-SHELL.CONF}"
+export MCS_SHELL_HOME MCS_SHELL_BIN MCS_SHELL_CONFIG
+
+mcs_shell() {
+    "$MCS_SHELL_BIN" "$@"
+}
+
+mcs_shell_new() {
+    "$MCS_SHELL_BIN" --new "$@"
+}
+
+mcs_shell_toggle() {
+    "$MCS_SHELL_BIN" --toggle "$@"
+}
+
+mcs_shell_check() {
+    "$MCS_SHELL_BIN" --check "$@"
+}
+
+# Kurz-Aliase fuer die interaktive Shell.
+alias mcs-shell='mcs_shell'
+alias mcs-shell-new='mcs_shell_new'
+alias mcs-shell-toggle='mcs_shell_toggle'
+alias mcs-shell-check='mcs_shell_check'
+
+###====================================|====================================###

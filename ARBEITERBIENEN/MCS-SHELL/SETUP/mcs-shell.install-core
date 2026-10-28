@@ -1,0 +1,563 @@
+#!/usr/bin/env bash
+###====================================|====================================###
+### MCS-SHELL | INSTALLER
+### Quelle : /PYLOVARA-SYSTEM/ARBEITERBIENEN/MCS-SHELL/SETUP/mcs-shell.install-core
+### Richtet ein: ~/.local/bin/mcs-shell, Desktop-Eintrag, Super+Shift+Enter.
+### Laeuft als normaler Benutzer. Kein Root noetig.
+###====================================|====================================###
+
+set -u
+
+SELF_DIR="$(cd -- "$(dirname -- "$(readlink -f -- "${BASH_SOURCE[0]}")")" && pwd)"
+MCS_SHELL_HOME="$(cd -- "$SELF_DIR/.." && pwd)"
+MCS_SHELL_BIN="$MCS_SHELL_HOME/MCS-SHELL"
+MCS_SHELL_CONFIG="$MCS_SHELL_HOME/MCS-SHELL.CONF"
+
+MCS_SHELL_KEY="Return"
+MCS_SHELL_KEYBIND_REPLACE="1"
+MCS_SHELL_WIDTH_PERCENT="92"
+MCS_SHELL_HEIGHT_PERCENT="62"
+MCS_SHELL_CLASS="mcs-shell"
+[ -r "$MCS_SHELL_CONFIG" ] && . "$MCS_SHELL_CONFIG"
+
+MARK_BEGIN="# >>> MCS-SHELL | AUTO-INSTALL >>>"
+MARK_END="# <<< MCS-SHELL | AUTO-INSTALL <<<"
+GNOME_SCHEMA="org.gnome.settings-daemon.plugins.media-keys"
+GNOME_PATH="/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/mcs-shell/"
+ACTION="install"
+DRY_RUN=0
+NO_KEYBIND=0
+NO_DESKTOP=0
+INSTALL_DEPS=0
+SKIP_RELOAD="${MCS_SHELL_SKIP_RELOAD:-0}"
+
+log_info() { printf '[MCS-SHELL] %s\n' "$*"; }
+log_ok()   { printf '[MCS-SHELL] OK: %s\n' "$*"; }
+log_warn() { printf '[MCS-SHELL] WARNUNG: %s\n' "$*" >&2; }
+log_err()  { printf '[MCS-SHELL] FEHLER: %s\n' "$*" >&2; }
+have()     { command -v "$1" >/dev/null 2>&1; }
+
+usage() {
+    cat <<EOF
+MCS-SHELL Installer
+
+  $0                 installieren
+  $0 --check         Status pruefen (aendert nichts)
+  $0 --uninstall     Installation entfernen
+  $0 --dry-run       nur anzeigen, was geschrieben wird
+  $0 --no-keybind    nur Binary/Desktop installieren
+  $0 --no-desktop    keinen Desktop-Eintrag schreiben
+  $0 --install-deps  kitty/jq mit dem Paketmanager installieren
+
+Start nach Installation: Super+Shift+Enter
+EOF
+}
+
+# Root vermeiden: als echter Benutzer neu starten.
+if [ "$(id -u)" -eq 0 ]; then
+    if [ -n "${SUDO_USER:-}" ] && [ "$SUDO_USER" != "root" ]; then
+        if have sudo; then
+            exec sudo -u "$SUDO_USER" -H "$0" "$@"
+        fi
+    fi
+    log_err "Bitte als normaler Benutzer ausfuehren, nicht als root."
+    exit 1
+fi
+
+HOME_DIR="${HOME:?}"
+XDG_CONFIG_HOME="${XDG_CONFIG_HOME:-$HOME_DIR/.config}"
+XDG_DATA_HOME="${XDG_DATA_HOME:-$HOME_DIR/.local/share}"
+BIN_DIR="$HOME_DIR/.local/bin"
+DESKTOP_DIR="$XDG_DATA_HOME/applications"
+DESKTOP_FILE="$DESKTOP_DIR/mcs-shell.desktop"
+
+detect_session() {
+    if [ -n "${HYPRLAND_INSTANCE_SIGNATURE:-}" ] && have hyprctl; then printf 'hyprland'
+    elif [ -n "${SWAYSOCK:-}" ] && have swaymsg; then printf 'sway'
+    elif have i3-msg && [ -n "${DISPLAY:-}" ]; then printf 'i3'
+    elif [ "${XDG_CURRENT_DESKTOP:-}" = *GNOME* ] || [ "${XDG_CURRENT_DESKTOP:-}" = *Unity* ]; then printf 'gnome'
+    elif [ "${XDG_CURRENT_DESKTOP:-}" = *KDE* ] || [ "${DESKTOP_SESSION:-}" = *plasma* ]; then printf 'kde'
+    elif [ "${XDG_CURRENT_DESKTOP:-}" = *XFCE* ]; then printf 'xfce'
+    elif have sxhkd && [ -f "$XDG_CONFIG_HOME/sxhkd/sxhkdrc" ]; then printf 'sxhkd'
+    elif have xbindkeys && [ -f "$HOME_DIR/.xbindkeysrc" ]; then printf 'xbindkeys'
+    elif [ -n "${DISPLAY:-}" ]; then printf 'x11'
+    else printf 'unknown'
+    fi
+}
+
+find_backend() {
+    local b
+    for b in "${MCS_SHELL_BACKEND:-auto}" kitty foot alacritty wezterm gnome-terminal konsole xfce4-terminal xterm; do
+        [ "$b" = "auto" ] && continue
+        if have "$b"; then printf '%s' "$b"; return 0; fi
+    done
+    return 1
+}
+
+print_pkg_hint() {
+    local id
+    id=$(awk -F= '/^ID=/{gsub(/"/,"",$2); print $2; exit}' /etc/os-release 2>/dev/null)
+    case "$id" in
+        arch) log_info "sudo pacman -S --needed kitty jq" ;;
+        debian|ubuntu) log_info "sudo apt install kitty jq" ;;
+        fedora) log_info "sudo dnf install kitty jq" ;;
+        opensuse*|suse) log_info "sudo zypper install kitty jq" ;;
+        *) log_info "Installiere kitty und jq mit deinem Paketmanager." ;;
+    esac
+}
+
+install_deps() {
+    if have pacman; then
+        sudo pacman -S --needed --noconfirm kitty jq
+    elif have apt-get; then
+        sudo apt-get update && sudo apt-get install -y kitty jq
+    elif have dnf; then
+        sudo dnf install -y kitty jq
+    elif have zypper; then
+        sudo zypper --non-interactive install kitty jq
+    else
+        return 1
+    fi
+}
+
+backup_file() {
+    [ -n "${1:-}" ] && [ -f "$1" ] || return 0
+    [ -f "$1.mcs-shell.bak" ] || cp -a "$1" "$1.mcs-shell.bak" 2>/dev/null || true
+}
+
+remove_block() {
+    local file="${1:-}"
+    [ -f "$file" ] || return 0
+    grep -Fq "$MARK_BEGIN" "$file" || return 0
+    if [ "$DRY_RUN" = "1" ]; then
+        log_info "[dry-run] entferne MCS-SHELL-Block aus $file"
+        return 0
+    fi
+    backup_file "$file"
+    awk -v b="$MARK_BEGIN" -v e="$MARK_END" '
+        $0 == b { skip = 1; next }
+        $0 == e { skip = 0; next }
+        !skip { print }
+    ' "$file" > "$file.mcs-tmp.$$" && mv "$file.mcs-tmp.$$" "$file"
+}
+
+install_block() {
+    local file="${1:-}" content="${2:-}"
+    [ -n "$file" ] || return 1
+    if [ "$DRY_RUN" = "1" ]; then
+        log_info "[dry-run] schreibe nach $file:"
+        printf '%s\n%s\n%s\n' "$MARK_BEGIN" "$content" "$MARK_END"
+        return 0
+    fi
+    mkdir -p "$(dirname -- "$file")" || return 1
+    remove_block "$file"
+    backup_file "$file"
+    {
+        printf '\n%s\n' "$MARK_BEGIN"
+        printf '%s\n' "$content"
+        printf '%s\n' "$MARK_END"
+    } >> "$file"
+}
+
+wm_command() {
+    if [[ "$MCS_SHELL_BIN" == *[[:space:]]* ]]; then
+        printf '"%s" --toggle' "$MCS_SHELL_BIN"
+    else
+        printf '%s --toggle' "$MCS_SHELL_BIN"
+    fi
+}
+
+hypr_target() {
+    local main="$XDG_CONFIG_HOME/hypr/hyprland.conf"
+    local user="$XDG_CONFIG_HOME/hypr/UserConfigs/UserKeybinds.conf"
+    if [ -f "$user" ] && { [ ! -f "$main" ] || grep -Fq "UserKeybinds.conf" "$main"; }; then
+        printf '%s' "$user"
+    elif [ -f "$main" ]; then
+        printf '%s' "$main"
+    else
+        printf '%s' "$user"
+    fi
+}
+
+install_hyprland() {
+    local target content reload_cmd
+    target=$(hypr_target)
+    content="# MCS-SHELL | Super+Shift+${MCS_SHELL_KEY}"
+    if [ "${MCS_SHELL_KEYBIND_REPLACE:-1}" = "1" ]; then
+        content="${content}
+unbind = SUPER SHIFT, ${MCS_SHELL_KEY}"
+    fi
+    content="${content}
+bindd = SUPER SHIFT, ${MCS_SHELL_KEY}, MCS-Shell Dropdown, exec, $(wm_command)"
+    install_block "$target" "$content" || return 1
+    log_ok "Hyprland-Keybind in $target"
+    if [ "$DRY_RUN" = "0" ] && [ "$SKIP_RELOAD" != "1" ] && have hyprctl; then
+        if hyprctl reload >/dev/null 2>&1; then
+            log_ok "Hyprland neu geladen."
+            if have jq; then
+                if hyprctl binds -j 2>/dev/null | jq -e --arg d "MCS-Shell Dropdown" '.[] | select(.description == $d)' >/dev/null 2>&1; then
+                    log_ok "Keybind ist registriert."
+                else
+                    log_warn "Keybind noch nicht sichtbar; bitte Hyprland neu laden."
+                fi
+            fi
+        else
+            log_warn "hyprctl reload fehlgeschlagen; bitte manuell neu laden."
+        fi
+    fi
+    return 0
+}
+
+install_sway() {
+    local file="$XDG_CONFIG_HOME/sway/config" content
+    [ -f "$file" ] || file="$HOME_DIR/.sway/config"
+    if [ ! -f "$file" ]; then
+        log_warn "Keine Sway-Konfiguration gefunden; Keybind bitte manuell setzen."
+        return 1
+    fi
+    content="bindsym Super+Shift+${MCS_SHELL_KEY} exec --no-startup-id $(wm_command)
+for_window [app_id=\"${MCS_SHELL_CLASS}\"] floating enable, resize set ${MCS_SHELL_WIDTH_PERCENT} ppt ${MCS_SHELL_HEIGHT_PERCENT} ppt, move position center"
+    if [ "${MCS_SHELL_KEYBIND_REPLACE:-1}" = "1" ]; then
+        content="unbindsym Super+Shift+${MCS_SHELL_KEY}
+${content}"
+    fi
+    install_block "$file" "$content" || return 1
+    log_ok "Sway-Keybind in $file"
+    [ "$DRY_RUN" = "0" ] && [ "$SKIP_RELOAD" != "1" ] && have swaymsg && swaymsg reload >/dev/null 2>&1 || true
+    return 0
+}
+
+install_i3() {
+    local file="$XDG_CONFIG_HOME/i3/config" mod='Mod4' content
+    [ -f "$file" ] || file="$HOME_DIR/.i3/config"
+    if [ ! -f "$file" ]; then
+        log_warn "Keine i3-Konfiguration gefunden; Keybind bitte manuell setzen."
+        return 1
+    fi
+    grep -Eq '^[[:space:]]*set[[:space:]]+\$mod' "$file" && mod='$mod'
+    content="bindsym ${mod}+Shift+${MCS_SHELL_KEY} exec --no-startup-id $(wm_command)
+for_window [class=\"${MCS_SHELL_CLASS}\"] floating enable, resize set ${MCS_SHELL_WIDTH_PERCENT} ppt ${MCS_SHELL_HEIGHT_PERCENT} ppt, move position center"
+    if [ "${MCS_SHELL_KEYBIND_REPLACE:-1}" = "1" ]; then
+        content="unbindsym ${mod}+Shift+${MCS_SHELL_KEY}
+${content}"
+    fi
+    install_block "$file" "$content" || return 1
+    log_ok "i3-Keybind in $file"
+    [ "$DRY_RUN" = "0" ] && [ "$SKIP_RELOAD" != "1" ] && have i3-msg && i3-msg reload >/dev/null 2>&1 || true
+    return 0
+}
+
+install_gnome() {
+    local schema="$GNOME_SCHEMA" path="$GNOME_PATH" current new binding
+    if ! have gsettings; then
+        log_warn "gsettings fehlt; GNOME-Keybind nicht gesetzt."
+        return 1
+    fi
+    current=$(gsettings get "$schema" custom-keybindings 2>/dev/null || printf '@as []')
+    new=$(python3 - "$current" "$path" <<'PY' 2>/dev/null || true
+import ast, sys
+raw, path = sys.argv[1].strip(), sys.argv[2]
+if raw.startswith("@as "):
+    raw = raw[4:]
+try:
+    items = ast.literal_eval(raw)
+    if not isinstance(items, list):
+        items = []
+except Exception:
+    items = []
+if path not in items:
+    items.append(path)
+print("[" + ", ".join("'%s'" % p for p in items) + "]")
+PY
+)
+    if [ -z "$new" ]; then
+        log_warn "GNOME-Keybind-Liste konnte nicht gelesen werden."
+        return 1
+    fi
+    binding="<Super><Shift>${MCS_SHELL_KEY}"
+    if [ "$DRY_RUN" = "1" ]; then
+        log_info "[dry-run] GNOME: $path -> $binding"
+        return 0
+    fi
+    gsettings set "$schema" custom-keybindings "$new" || return 1
+    gsettings set "$schema.custom-keybinding:$path" name "MCS-Shell" || return 1
+    gsettings set "$schema.custom-keybinding:$path" command "$MCS_SHELL_BIN --toggle" || return 1
+    gsettings set "$schema.custom-keybinding:$path" binding "$binding" || return 1
+    log_ok "GNOME-Keybind $binding"
+    return 0
+}
+
+install_kde() {
+    local kw="" binding
+    have kwriteconfig6 && kw="kwriteconfig6"
+    [ -z "$kw" ] && have kwriteconfig5 && kw="kwriteconfig5"
+    if [ -z "$kw" ]; then
+        log_warn "kwriteconfig nicht gefunden; KDE-Keybind bitte in den Systemeinstellungen setzen."
+        return 1
+    fi
+    binding="Meta+Shift+${MCS_SHELL_KEY}"
+    if [ "$DRY_RUN" = "1" ]; then
+        log_info "[dry-run] KDE: $binding"
+        return 0
+    fi
+    "$kw" --file kglobalshortcutsrc --group services --group mcs-shell.desktop \
+        --key _launch "${binding},none,MCS-Shell" || return 1
+    have kbuildsycoca6 && kbuildsycoca6 --noincremental >/dev/null 2>&1 || true
+    have kbuildsycoca5 && kbuildsycoca5 --noincremental >/dev/null 2>&1 || true
+    log_ok "KDE-Keybind $binding (ggf. neu anmelden)"
+    return 0
+}
+
+install_xfce() {
+    local prop="/commands/custom/<Super><Shift>${MCS_SHELL_KEY}"
+    if ! have xfconf-query; then
+        log_warn "xfconf-query fehlt; XFCE-Keybind nicht gesetzt."
+        return 1
+    fi
+    if [ "$DRY_RUN" = "1" ]; then
+        log_info "[dry-run] XFCE: $prop"
+        return 0
+    fi
+    if xfconf-query -c xfce4-keyboard-shortcuts -p "$prop" >/dev/null 2>&1; then
+        xfconf-query -c xfce4-keyboard-shortcuts -p "$prop" -s "$MCS_SHELL_BIN --toggle" || return 1
+    else
+        xfconf-query -c xfce4-keyboard-shortcuts -p "$prop" -n -t string -s "$MCS_SHELL_BIN --toggle" || return 1
+    fi
+    log_ok "XFCE-Keybind $prop"
+    return 0
+}
+
+install_sxhkd() {
+    local file="$XDG_CONFIG_HOME/sxhkd/sxhkdrc" content
+    content="super + shift + ${MCS_SHELL_KEY}
+    $MCS_SHELL_BIN --toggle"
+    install_block "$file" "$content" || return 1
+    log_ok "sxhkd-Keybind in $file"
+    [ "$DRY_RUN" = "0" ] && [ "$SKIP_RELOAD" != "1" ] && pkill -USR1 -x sxhkd 2>/dev/null || true
+    return 0
+}
+
+install_xbindkeys() {
+    local file="$HOME_DIR/.xbindkeysrc" content
+    content="\"$MCS_SHELL_BIN --toggle\"
+  Super+Shift+${MCS_SHELL_KEY}"
+    install_block "$file" "$content" || return 1
+    log_ok "xbindkeys-Keybind in $file"
+    [ "$DRY_RUN" = "0" ] && [ "$SKIP_RELOAD" != "1" ] && pkill -HUP -x xbindkeys 2>/dev/null || true
+    return 0
+}
+
+install_keybind() {
+    case "$(detect_session)" in
+        hyprland) install_hyprland ;;
+        sway) install_sway ;;
+        i3) install_i3 ;;
+        gnome) install_gnome ;;
+        kde) install_kde ;;
+        xfce) install_xfce ;;
+        sxhkd) install_sxhkd ;;
+        xbindkeys) install_xbindkeys ;;
+        x11)
+            log_warn "X11 ohne bekannten Keybind-Manager. Installiere sxhkd oder setze Super+Shift+${MCS_SHELL_KEY} im WM."
+            return 1
+            ;;
+        *)
+            log_warn "Unbekannte Sitzung. Keybind bitte manuell auf $(wm_command) legen."
+            return 1
+            ;;
+    esac
+}
+
+write_desktop() {
+    local exec_line
+    if [[ "$MCS_SHELL_BIN" == *[[:space:]]* ]]; then
+        exec_line="\"$MCS_SHELL_BIN\" --new"
+    else
+        exec_line="$MCS_SHELL_BIN --new"
+    fi
+    if [ "$DRY_RUN" = "1" ]; then
+        log_info "[dry-run] Desktop-Eintrag: $DESKTOP_FILE"
+        return 0
+    fi
+    mkdir -p "$DESKTOP_DIR" || return 1
+    cat > "$DESKTOP_FILE" <<EOF
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=MCS-Shell
+GenericName=Pylovara Terminal
+Comment=Pylovara Terminal-Fenster fuer Bash und Zsh
+Exec=$exec_line
+TryExec=$MCS_SHELL_BIN
+Icon=utilities-terminal
+Terminal=false
+Categories=System;TerminalEmulator;
+Keywords=terminal;shell;bash;zsh;pylovara;mcs;
+StartupWMClass=$MCS_SHELL_CLASS
+EOF
+    chmod 644 "$DESKTOP_FILE" 2>/dev/null || true
+    have update-desktop-database && update-desktop-database "$DESKTOP_DIR" >/dev/null 2>&1 || true
+    log_ok "Desktop-Eintrag: $DESKTOP_FILE"
+}
+
+link_bin() {
+    local target="$BIN_DIR/mcs-shell"
+    if [ "$DRY_RUN" = "1" ]; then
+        log_info "[dry-run] Symlink $target -> $MCS_SHELL_BIN"
+        return 0
+    fi
+    mkdir -p "$BIN_DIR" || return 1
+    if [ -e "$target" ] && [ "$(readlink -f "$target" 2>/dev/null)" != "$(readlink -f "$MCS_SHELL_BIN" 2>/dev/null)" ]; then
+        backup_file "$target"
+    fi
+    ln -sfn "$MCS_SHELL_BIN" "$target" || return 1
+    log_ok "Binary: $target"
+}
+
+remove_keybinds() {
+    local f
+    for f in \
+        "$XDG_CONFIG_HOME/hypr/UserConfigs/UserKeybinds.conf" \
+        "$XDG_CONFIG_HOME/hypr/hyprland.conf" \
+        "$XDG_CONFIG_HOME/sway/config" \
+        "$HOME_DIR/.sway/config" \
+        "$XDG_CONFIG_HOME/i3/config" \
+        "$HOME_DIR/.i3/config" \
+        "$XDG_CONFIG_HOME/sxhkd/sxhkdrc" \
+        "$HOME_DIR/.xbindkeysrc"
+    do
+        [ -f "$f" ] && remove_block "$f"
+    done
+    if have gsettings; then
+        local current new
+        current=$(gsettings get "$GNOME_SCHEMA" custom-keybindings 2>/dev/null || true)
+        if [ -n "$current" ]; then
+            new=$(python3 - "$current" "$GNOME_PATH" <<'PY' 2>/dev/null || true
+import ast, sys
+raw, path = sys.argv[1].strip(), sys.argv[2]
+if raw.startswith("@as "):
+    raw = raw[4:]
+try:
+    items = ast.literal_eval(raw)
+    if not isinstance(items, list):
+        items = []
+except Exception:
+    items = []
+items = [p for p in items if p != path]
+print("[" + ", ".join("'%s'" % p for p in items) + "]")
+PY
+)
+            [ -n "$new" ] && [ "$DRY_RUN" = "0" ] && gsettings set "$GNOME_SCHEMA" custom-keybindings "$new" 2>/dev/null || true
+        fi
+    fi
+    if have kwriteconfig6; then
+        kwriteconfig6 --file kglobalshortcutsrc --group services --group mcs-shell.desktop --key _launch --delete 2>/dev/null || true
+    elif have kwriteconfig5; then
+        kwriteconfig5 --file kglobalshortcutsrc --group services --group mcs-shell.desktop --key _launch --delete 2>/dev/null || true
+    fi
+    if have xfconf-query; then
+        xfconf-query -c xfce4-keyboard-shortcuts -p "/commands/custom/<Super><Shift>${MCS_SHELL_KEY}" -r 2>/dev/null || true
+    fi
+}
+
+remove_files() {
+    if [ "$DRY_RUN" = "1" ]; then
+        log_info "[dry-run] entferne $DESKTOP_FILE und $BIN_DIR/mcs-shell"
+        return 0
+    fi
+    rm -f "$DESKTOP_FILE" 2>/dev/null || true
+    if [ -L "$BIN_DIR/mcs-shell" ] && [ "$(readlink -f "$BIN_DIR/mcs-shell" 2>/dev/null)" = "$(readlink -f "$MCS_SHELL_BIN" 2>/dev/null)" ]; then
+        rm -f "$BIN_DIR/mcs-shell"
+    fi
+    have update-desktop-database && update-desktop-database "$DESKTOP_DIR" >/dev/null 2>&1 || true
+    log_ok "Desktop-Eintrag und Symlink entfernt."
+}
+
+do_check() {
+    local b s target
+    b=$(find_backend 2>/dev/null || true)
+    s=$(detect_session)
+    printf 'MCS-SHELL INSTALL CHECK\n'
+    printf 'Home:      %s\n' "$MCS_SHELL_HOME"
+    printf 'Session:   %s\n' "$s"
+    printf 'Backend:   %s\n' "${b:-KEINS}"
+    printf 'jq:        %s\n' "$(have jq && command -v jq || printf 'FEHLT')"
+    printf 'Desktop:   %s\n' "$( [ -f "$DESKTOP_FILE" ] && printf 'ok' || printf 'fehlt' )"
+    printf 'Symlink:   %s\n' "$( [ -L "$BIN_DIR/mcs-shell" ] && printf 'ok' || printf 'fehlt' )"
+    case "$s" in
+        hyprland)
+            target=$(hypr_target)
+            printf 'Keybind:   %s\n' "$(grep -Fq "$MARK_BEGIN" "$target" 2>/dev/null && printf 'markiert' || printf 'fehlt')"
+            if have hyprctl && have jq; then
+                printf 'Hyprland:  %s\n' "$(hyprctl binds -j 2>/dev/null | jq -r '[.[] | select(.description == "MCS-Shell Dropdown")] | length' 2>/dev/null) Treffer"
+            fi
+            ;;
+        *)
+            printf 'Keybind:   siehe Sitzung %s\n' "$s"
+            ;;
+    esac
+    [ -n "$b" ] && return 0 || return 1
+}
+
+### MAIN
+while [ "$#" -gt 0 ]; do
+    case "$1" in
+        -h|--help) usage; exit 0 ;;
+        --check) ACTION="check"; shift ;;
+        --uninstall) ACTION="uninstall"; shift ;;
+        --dry-run) DRY_RUN=1; shift ;;
+        --no-keybind) NO_KEYBIND=1; shift ;;
+        --no-desktop) NO_DESKTOP=1; shift ;;
+        --install-deps) INSTALL_DEPS=1; shift ;;
+        *) log_err "Unbekannte Option: $1"; usage; exit 2 ;;
+    esac
+done
+
+if [ "$ACTION" = "check" ]; then
+    do_check
+    exit $?
+fi
+
+if [ "$ACTION" = "uninstall" ]; then
+    log_info "Entferne MCS-SHELL-Integration (Repo-Dateien bleiben erhalten)..."
+    remove_keybinds
+    remove_files
+    log_ok "Fertig. Gegebenenfalls Sitzung neu laden."
+    exit 0
+fi
+
+log_info "MCS-SHELL wird fuer $HOME_DIR eingerichtet."
+
+if [ "$INSTALL_DEPS" = "1" ]; then
+    log_info "Installiere kitty und jq..."
+    install_deps || log_warn "Automatische Installation fehlgeschlagen."
+fi
+
+if ! find_backend >/dev/null 2>&1; then
+    log_err "Kein Terminal-Backend gefunden."
+    print_pkg_hint
+    log_info "Mit --install-deps automatisch installieren oder Backend manuell bereitstellen."
+    exit 1
+fi
+
+have jq || log_warn "jq fehlt: Dropdown-Toggle unter Hyprland/Sway/i3 ist eingeschraenkt."
+
+[ -x "$MCS_SHELL_BIN" ] || chmod +x "$MCS_SHELL_BIN" 2>/dev/null || true
+
+link_bin
+[ "$NO_DESKTOP" = "1" ] || write_desktop
+
+if [ "$NO_KEYBIND" = "1" ]; then
+    log_info "Keybind uebersprungen (--no-keybind)."
+else
+    install_keybind || log_warn "Keybind nicht automatisch gesetzt."
+fi
+
+printf '\n'
+log_ok "MCS-SHELL ist eingerichtet."
+log_info "Start: Super+Shift+${MCS_SHELL_KEY}"
+log_info "Test:  $MCS_SHELL_BIN --check"
+log_info "Neu:   $MCS_SHELL_BIN --new"
+printf '\n'
+
+###====================================|====================================###

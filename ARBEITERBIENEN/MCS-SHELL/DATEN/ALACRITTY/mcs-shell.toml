@@ -1,0 +1,57 @@
+# MCS-SHELL | ALACRITTY-PROFIL
+# Wird nur genutzt, wenn kitty/foot nicht verfuegbar sind.
+
+[window]
+dimensions = { columns = 120, lines = 40 }
+padding = { x = 10, y = 10 }
+opacity = 0.94
+decorations = "none"
+dynamic_title = true
+startup_mode = "Windowed"
+
+[font]
+size = 15.0
+normal = { family = "FantasqueSansM Nerd Font Mono", style = "Regular" }
+bold = { family = "FantasqueSansM Nerd Font Mono", style = "Bold" }
+italic = { family = "FantasqueSansM Nerd Font Mono", style = "Italic" }
+
+[colors.primary]
+background = "#0b0f14"
+foreground = "#e8e8e8"
+
+[colors.cursor]
+text = "#0b0f14"
+cursor = "#ff9f1c"
+
+[colors.selection]
+text = "#0b0f14"
+background = "#ff9f1c"
+
+[colors.normal]
+black = "#0b0f14"
+red = "#ff5f5f"
+green = "#5fd75f"
+yellow = "#ffd75f"
+blue = "#5fafff"
+magenta = "#d787ff"
+cyan = "#5fd7d7"
+white = "#d0d0d0"
+
+[colors.bright]
+black = "#4e4e4e"
+red = "#ff8787"
+green = "#87ff87"
+yellow = "#ffff87"
+blue = "#87d7ff"
+magenta = "#ff87ff"
+cyan = "#87ffff"
+white = "#ffffff"
+
+[scrolling]
+history = 10000
+
+[mouse]
+hide_when_typing = true
+
+[cursor]
+style = { shape = "Block", blinking = "On" }

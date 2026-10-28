@@ -1,0 +1,74 @@
+#!/usr/bin/env bash
+###====================================|====================================###
+### MCS-SHELL | SMOKE-TEST
+### Aufruf: ./TESTS/smoke-test
+### Startet kein Fenster. Prueft Syntax, Dateien, Source-Bindung und Backend.
+###====================================|====================================###
+
+set -u
+
+HOME_DIR="$(cd -- "$(dirname -- "$(readlink -f -- "${BASH_SOURCE[0]}")")/.." && pwd)"
+FAILED=0
+
+ok()   { printf 'OK   %s\n' "$*"; }
+fail() { printf 'FAIL %s\n' "$*" >&2; FAILED=$((FAILED + 1)); }
+
+for f in \
+    "$HOME_DIR/MCS-SHELL" \
+    "$HOME_DIR/MCS-SHELL.SOURCE" \
+    "$HOME_DIR/SETUP/mcs-shell.install-core" \
+    "$HOME_DIR/TESTS/smoke-test"
+do
+    if bash -n "$f" 2>/dev/null; then ok "Syntax: ${f#$HOME_DIR/}"; else fail "Syntax: ${f#$HOME_DIR/}"; fi
+done
+
+for f in \
+    "$HOME_DIR/MCS-SHELL.CONF" \
+    "$HOME_DIR/DATEN/KITTY/mcs-shell.conf" \
+    "$HOME_DIR/DATEN/ALACRITTY/mcs-shell.toml" \
+    "$HOME_DIR/DATEN/FOOT/mcs-shell.ini" \
+    "$HOME_DIR/DATEN/WEZTERM/mcs-shell.lua" \
+    "$HOME_DIR/README.MCS-SHELL"
+do
+    if [ -r "$f" ]; then ok "Datei: ${f#$HOME_DIR/}"; else fail "Datei fehlt: ${f#$HOME_DIR/}"; fi
+done
+
+if [ -x "$HOME_DIR/MCS-SHELL" ]; then ok "Starter ist ausfuehrbar"; else fail "Starter ist nicht ausfuehrbar"; fi
+
+if bash -c 'source "$1" >/dev/null 2>&1; type mcs_shell >/dev/null 2>&1' _ "$HOME_DIR/MCS-SHELL.SOURCE"; then
+    ok "Source-Bindung: mcs_shell"
+else
+    fail "Source-Bindung: mcs_shell"
+fi
+
+if "$HOME_DIR/MCS-SHELL" --check >/tmp/mcs-shell-check.$$ 2>&1; then
+    ok "MCS-SHELL --check"
+else
+    fail "MCS-SHELL --check"
+    cat /tmp/mcs-shell-check.$$ >&2
+fi
+rm -f /tmp/mcs-shell-check.$$
+
+if command -v kitty >/dev/null 2>&1; then
+    if "$HOME_DIR/MCS-SHELL" --print-command 2>/dev/null | grep -q 'kitty'; then
+        ok "Startkommando enthaelt kitty"
+    else
+        fail "Startkommando enthaelt kitty"
+    fi
+fi
+
+if "$HOME_DIR/MCS-SHELL" --version | grep -q 'MCS-SHELL'; then
+    ok "Versionsausgabe"
+else
+    fail "Versionsausgabe"
+fi
+
+printf '\n'
+if [ "$FAILED" -eq 0 ]; then
+    printf 'MCS-SHELL Smoke-Test: ALLES OK\n'
+    exit 0
+fi
+printf 'MCS-SHELL Smoke-Test: %s FEHLER\n' "$FAILED" >&2
+exit 1
+
+###====================================|====================================###
