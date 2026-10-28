@@ -13,7 +13,7 @@
 
 PV_REPO="/PYLOVARA-SYSTEM"
 PV_REMOTE="https://github.com/Pylovara/PYLOVARA-SYSTEM.git"
-PV_CHECK="${HOME}/.last_check"
+PV_CHECK="/PYLOVARA-SYSTEM/.last_check"
 PV_TWO_DAYS=172800
 
 PV_NOW=$(date +%s)
