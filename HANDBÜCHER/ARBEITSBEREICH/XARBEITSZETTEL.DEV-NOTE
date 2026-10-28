@@ -46,40 +46,49 @@
 
  DAHEIM BLEIBEN ... UND HIER ARBEITEN SCHWIERIG ... 
 
+ So ... erstmal das git menü auf deutsch bekommen vorhin , abgespeichert 
+ geh ich mal die tage durch .... wichtig .... 
 
- GUT ... dann nutz ich die nächsten tage von zu hause aus die gelegenheit 
- um das ganze shell drittanbieter zeugs ordentlich aufzu setzen ... 
+ erst entwurf der vara pakete , aufgelistet ... erst entwurf ... 
+ muss ich nochmal durchgehen aber da musste ich defintiv mit ki an die sache 
+ ran .... ich aktualisier das sobald ich wieder elan habe ... 
 
- das wäre auch keine dauer arbeit ... eher eine einmalige ... und erweiterung .. 
- da ich hier aktuell nur nachts ruhe habe und tags garnicht ... wäre das die 
- sinnvollste baustelle .... und dabei die pipeline selbst im blick behalten .. 
+ kann man aber erstmal so stehen lassen .... denke das wird so schon 
+ okey sein aber trotzdem ... 
 
- wenn ich das pipeline problem erledigt habe .... dann baut sich der rest 
- mühelos zusammen ... 
+ hät ich gar nicht machen müssen , andere haben es überhaupt nicht ... 
+ aber ich find „ ehre dem wer ehre gebürt  “
 
- bis dort hin wird das wohl eher wie eine baustelle aussehen ... was aber 
- ehrlich gesagt kein großes problem ist ... ich denke das wird keinen groß 
- interessieren .
+ würde ich bei mir auch wollen ... soviel fairness muss sein ... 
 
- beim bereich urheber etc , gehe ich es im ersten durchgang durch und 
- liste auf .. 
+ dann kommen erstmal die shell möglichkeiten hinzu ... 
+
+ ich will das ganze auch auf wrapper stehen lassen .... der linux kernel 
+ selbst ist nicht meine baustelle ... das regeln die anderen ... 
+
+ und so stehe ich auf der sicheren seite ... es läuft und zwar mit gutem 
+ gewissen .... die bash codes gehe ich alle nochmal durch , lücken prüfung .. 
+
+ aber ansonnsten bin ich zufrieden mit dem was momentan stand ist .. 
+
+ das shell lexikon ist ja jetzt auch kein dauerbrenner ... 
+
+ meine eigentliche baustelle ist die pipeline logik ... 
+
+ primär .... danach geht alles viel schneller , die daten liegen vor ... 
+
+ ich sollte noch einen shortcut programm erstellen für die komponenten .. 
+ halt alle ... dann geht es besser ... ohne eigene keyboards anbieten zu können 
+ muss sich jeder mit dem standart zurecht finden ... 
+ 
 
 
- wenn ich soweit bin ... gleiche ist es mit llen ki systemem welt weit ab 
- um eventuelle lüken heraus zu bekommen ... 
 
- alles andere wäre eine nachreichung der jennigen die was finden sollten 
- was noch fehlt oder nicht so ganz stimmt .. 
 
- mehr kann man von mir nicht erwarten aber ich denke mehr wird auch keiner 
- verlangen ... andere haben das nicht mal berücksichtig .... das ist der kernfaktor ... 
 
- eventuell noch beim linux kernel die jetzigen schreiber berücksichtigen .. 
- das wäre sinnvoll und respekt muss irgendwo sein ... 
 
- wer mir deswegen böse ist , soll sich melden halt ... 
 
- kann man jederzeit dann umändern .... 
+
 
 #==================# SHELL UPDATER
  SHELL UPDATER BETA TEST GESTARTET : 
@@ -246,5 +255,6 @@ DRÜBER SCHLAFEN ..........
  - DNA TRIGGER NACHKONTROLLE = ERLEDIGT 
  - README.WIKI-NOTES UPDATER EINGETRAGEN = ERLEDIGT 
  - BETA TEST UPDATESUCHER.PYLOVARA-CORE = FREIGEGEBEN 
+ - VARA PAKETE KANONISCHE LISTE = ERST-ENTWURF
 
 ###====================================|====================================###

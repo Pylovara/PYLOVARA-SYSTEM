@@ -2,8 +2,6 @@
 ###= SEITEN-SYSTEM-ID : ⠆⢄⠢⢁ ===PYLOVARA-SYSTEM=============================###
 ###====================================|====================================###
 
- BAUSTELLE !!!!!!
-
  VARA-PAKETE 
  ———————————
 
@@ -16,7 +14,6 @@
  WIKIPEDIA UND HANDELT SEIN WISSENSPEKTRUM SELBST UND VERBESSERUNGEN WERDEN 
  SAUBER MIT NACHWEISLICHEN DIREKTEN DOKUMENTEN PRÄSENTIERT. ZU HILFE WURDE 
  HIER KI EINGESETZT UM DIE RECHERCHE ETWAS ZU ERLEICHTERN.
-
  ALLE PROGRAMME LAUFEN AUSSCHLIEẞLICH UNTER DEM LINUX KERNEL.
 
  LINUX URHEBER     : LINUS BENEDICT TORVALDS
@@ -25,61 +22,50 @@
 
  LIZENZBEREICH : GNU-PROJEKT 
  ———————————————————————————
-
  PROGRAMM : AWK | GAWK
-
  UNIX         
  URHEBER           : ALFRED V. AHO
- URHEBER           : PETERJ. WEINBERGER
+ URHEBER           : PETER J. WEINBERGER
  URHEBER           : BRIAN W. KERNIGHAN
-
- LINUX
+ LINUX / GNU
  URHEBER           : PAUL RUBIN 
  ENTWICKLUNG       : JAY FENLASON
  MITWIRKUNG        : RICHARD STALLMAN
+ MITWIRKUNG        : JOHN WOODS
  WEITERENTWICKLUNG : DAVID TRUEMAN
- WEITERENTWICKLUNG : ARNOLD ROBBINS
+ WEITERENTWICKLUNG : ARNOLD ROBBINS   (SEIT CA. 1994 HAUPTMAINTAINER)
 
 ###====================================|====================================###
 
  LIZENZBEREICH : GNU-PROJEKT 
  ———————————————————————————
-
  PROGRAMM : COREUTILS 
-
  BEREICH : DF
  URHEBER           : TORBJÖRN GRANLUND
  URHEBER           : DAVID MACKENZIE
  URHEBER           : PAUL EGGERT
-
  BEREICH : DU
  URHEBER           : TORBJÖRN GRANLUND
  URHEBER           : DAVID MACKENZIE
  URHEBER           : PAUL EGGERT
  URHEBER           : JIM MEYERING
-
  BEREICH : ECHO
  URHEBER           : BRIAN FOX
  URHEBER           : CHET RAMEY
-
  BEREICH : HEAD
  URHEBER           : DAVID MACKENZIE
  URHEBER           : JIM MEYERING
-
  BEREICH : LS
  URHEBER           : RICHARD M. STALLMAN
  URHEBER           : DAVID MACKENZIE
-
  BEREICH : SORT
  URHEBER           : MIKE HAERTEL
  URHEBER           : PAUL EGGERT
-
  BEREICH : TAIL
  URHEBER           : PAUL RUBIN
  URHEBER           : DAVID MACKENZIE
  URHEBER           : IAN LANCE TAYLOR
  URHEBER           : JIM MEYERING
-
  BEREICH : WC
  URHEBER           : PAUL RUBIN
  URHEBER           : DAVID MACKENZIE
@@ -88,285 +74,244 @@
 
  LIZENZBEREICH : GNU-PROJEKT 
  ———————————————————————————
-
  PROGRAMM : BC
-
  URHEBER           : PHILIP A. NELSON
+ DC-TEIL           : KEN PIZZINI
 
 ###====================================|====================================###
 
  LIZENZBEREICH : GNU-PROJEKT 
  ———————————————————————————
-
  PROGRAMM : FINDUTILS
-
  BEREICH : FIND
  URHEBER           : ERIC B. DECKER
  WEITERENTWICKLUNG : DAVID J. MACKENZIE
  WEITERENTWICKLUNG : JAY PLETT
  WEITERENTWICKLUNG : TIM WOOD
- MITWIRKUNG        : DAN BERNSTEIN
-
+ MITWIRKUNG        : DAN BERNSTEIN   (-print0 / xargs -0 Idee)
  BEREICH : XARGS
  URHEBER           : MICHAEL RENDELL
  WEITERENTWICKLUNG : DAVID J. MACKENZIE
  WEITERENTWICKLUNG : JAMES YOUNGMAN
  WEITERENTWICKLUNG : DMITRY V. LEVIN
-
  BEREICH : LOCATE
  URHEBER           : JAMES A. WOODS
  WEITERENTWICKLUNG : DAVID J. MACKENZIE
  WEITERENTWICKLUNG : JAMES YOUNGMAN
  WEITERENTWICKLUNG : BAS VAN GOMPEL
+ AKTUELLE MAINTAINER : BERNHARD VOELKER, JAMES YOUNGMAN
 
 ###====================================|====================================###
 
-LIZENZBEREICH : GNU-PROJEKT
-———————————————————————————
-
-PROGRAMM : GREP
-
-URHEBER           : MIKE HAERTEL
-
-###====================================|====================================###
-
-LIZENZBEREICH : GNU-PROJEKT
-———————————————————————————
-
-PROGRAMM : GZIP
-
-URHEBER           : JEAN-LOUP GAILLY
-DEKOMPRESSION     : MARK ADLER
+ LIZENZBEREICH : GNU-PROJEKT
+ ———————————————————————————
+ PROGRAMM : GREP
+ URHEBER           : MIKE HAERTEL
+ 
+ (WEITERE WICHTIGE BEITRÄGE: JAMES A. WOODS, ARTHUR DAVID OLSON, 
+  ISAMU HASEGAWA u. a. für den POSIX-Matcher)
 
 ###====================================|====================================###
 
-LIZENZBEREICH : GNU-PROJEKT
-———————————————————————————
-
-PROGRAMM : SED
-
-URHEBER           : JAY FENLASON
-WEITERENTWICKLUNG : TOM LORD
-WEITERENTWICKLUNG : KEN PIZZINI
-WEITERENTWICKLUNG : PAOLO BONZINI
-WEITERENTWICKLUNG : JIM MEYERING
-WEITERENTWICKLUNG : ASSAF GORDON
+ LIZENZBEREICH : GNU-PROJEKT
+ ———————————————————————————
+ PROGRAMM : GZIP
+ URHEBER           : JEAN-LOUP GAILLY
+ DEKOMPRESSION     : MARK ADLER
+ AKTUELLE MAINTAINER : JIM MEYERING, PAUL EGGERT
 
 ###====================================|====================================###
 
-LIZENZBEREICH : GNU-PROJEKT
-———————————————————————————
-
-PROGRAMM : TAR
-
-URHEBER           : JOHN GILMORE
-GNU-ENTWICKLUNG   : JAY FENLASON
-GNU-ENTWICKLUNG   : JOY KENDALL
-WEITERENTWICKLUNG : THOMAS BUSHNELL
-WEITERENTWICKLUNG : FRANÇOIS PINARD
-WEITERENTWICKLUNG : PAUL EGGERT
+ LIZENZBEREICH : GNU-PROJEKT
+ ———————————————————————————
+ PROGRAMM : SED
+ URHEBER           : JAY FENLASON
+ WEITERENTWICKLUNG : TOM LORD
+ WEITERENTWICKLUNG : KEN PIZZINI
+ WEITERENTWICKLUNG : PAOLO BONZINI
+ WEITERENTWICKLUNG : JIM MEYERING
+ WEITERENTWICKLUNG : ASSAF GORDON
 
 ###====================================|====================================###
 
-LIZENZBEREICH : DRITTANBIETER
-———————————————————————————
-
-PROGRAMM : CURL
-
-URHEBER           : DANIEL STENBERG
-
-###====================================|====================================###
-
-LIZENZBEREICH : DRITTANBIETER
-———————————————————————————
-
-PROGRAMM : UTIL-LINUX
-
-BEREICH : FDISK
-URHEBERSCHAFT     : QUELLVERSION PRÜFEN
-
-BEREICH : LSBLK
-URHEBER           : MILAN BROZ
-WEITERENTWICKLUNG : KAREL ZAK
-
-BEREICH : LSCPU
-URHEBER           : CAI QIAN
+ LIZENZBEREICH : GNU-PROJEKT
+ ———————————————————————————
+ PROGRAMM : TAR
+ URHEBER           : JOHN GILMORE          (Public-Domain-Tar)
+ GNU-ENTWICKLUNG   : JAY FENLASON
+ GNU-ENTWICKLUNG   : JOY KENDALL
+ WEITERENTWICKLUNG : THOMAS BUSHNELL, n/BSG
+ WEITERENTWICKLUNG : FRANÇOIS PINARD
+ WEITERENTWICKLUNG : PAUL EGGERT
+ AKTUELL           : SERGEY POZNYAKOFF
 
 ###====================================|====================================###
 
-LIZENZBEREICH : DRITTANBIETER
-———————————————————————————
-
-PROGRAMM : PROCPS-NG
-
-BEREICH : FREE
-URHEBERSCHAFT     : QUELLVERSION PRÜFEN
-
-BEREICH : PS
-URHEBER           : BRANKO LANKESTER
-NEUIMPLEMENTIERUNG: MICHAEL K. JOHNSON
-WEITERENTWICKLUNG : MICHAEL SHIELDS
-WEITERENTWICKLUNG : CHARLES BLAKE
-WEITERENTWICKLUNG : ALBERT CAHALAN
-
-BEREICH : TOP
-URHEBER           : JAMES C. WARNER
+ LIZENZBEREICH : DRITTANBIETER
+ ———————————————————————————
+ PROGRAMM : CURL
+ URHEBER           : DANIEL STENBERG
 
 ###====================================|====================================###
 
-LIZENZBEREICH : DRITTANBIETER
-———————————————————————————
-
-PROGRAMM : FZF
-
-URHEBER           : JUNEGUNN CHOI
-
-###====================================|====================================###
-
-LIZENZBEREICH : DRITTANBIETER
-———————————————————————————
-
-PROGRAMM : GIT
-
-URHEBER           : LINUS TORVALDS
+ LIZENZBEREICH : DRITTANBIETER
+ ———————————————————————————
+ PROGRAMM : UTIL-LINUX
+ BEREICH : FDISK
+ URHEBERSCHAFT     : HISTORISCH (klassische Unix-fdisk-Tradition, 
+                     moderne util-linux-Version stark von KAREL ZAK 
+                     und dem util-linux-Team geprägt)
+ BEREICH : LSBLK
+ URHEBER           : MILAN BROZ
+ WEITERENTWICKLUNG : KAREL ZAK
+ BEREICH : LSCPU
+ URHEBER           : CAI QIAN
+ WEITERENTWICKLUNG : KAREL ZAK / util-linux-Team
 
 ###====================================|====================================###
 
-LIZENZBEREICH : DRITTANBIETER
-———————————————————————————
-
-PROGRAMM : LESS
-
-URHEBER           : MARK NUDELMAN
-
-###====================================|====================================###
-
-LIZENZBEREICH : DRITTANBIETER
-———————————————————————————
-
-PROGRAMM : LSHW
-
-URHEBER           : LYONEL VINCENT
-QUELLVERSION      : B.02.20 PRÜFEN
+ LIZENZBEREICH : DRITTANBIETER
+ ———————————————————————————
+ PROGRAMM : PROCPS-NG
+ BEREICH : FREE
+ URHEBER           : BRIAN EDMONDS
+ BEREICH : PS
+ URHEBER           : BRANKO LANKESTER
+ NEUIMPLEMENTIERUNG: MICHAEL K. JOHNSON
+ WEITERENTWICKLUNG : MICHAEL SHIELDS
+ WEITERENTWICKLUNG : CHARLES BLAKE
+ WEITERENTWICKLUNG : ALBERT CAHALAN
+ BEREICH : TOP
+ URHEBER           : JAMES C. WARNER
+ (moderne Version stark von ALBERT CAHALAN und dem procps-ng-Team)
 
 ###====================================|====================================###
 
-LIZENZBEREICH : DRITTANBIETER
-———————————————————————————
-
-PROGRAMM : PCIUTILS
-
-BEREICH : LSPCI
-URHEBER           : MARTIN MARES
+ LIZENZBEREICH : DRITTANBIETER
+ ———————————————————————————
+ PROGRAMM : FZF
+ URHEBER           : JUNEGUNN CHOI
 
 ###====================================|====================================###
 
-LIZENZBEREICH : DRITTANBIETER
-———————————————————————————
-
-PROGRAMM : USBUTILS
-
-BEREICH : LSUSB
-URHEBERSCHAFT     : QUELLVERSION PRÜFEN
+ LIZENZBEREICH : DRITTANBIETER
+ ———————————————————————————
+ PROGRAMM : GIT
+ URHEBER           : LINUS TORVALDS
 
 ###====================================|====================================###
 
-LIZENZBEREICH : DRITTANBIETER
-———————————————————————————
-
-PROGRAMM : NANO
-
-URHEBER           : CHRISTOPHER ALLEGRETTA
+ LIZENZBEREICH : DRITTANBIETER
+ ———————————————————————————
+ PROGRAMM : LESS
+ URHEBER           : MARK NUDELMAN
 
 ###====================================|====================================###
 
-LIZENZBEREICH : DRITTANBIETER
-———————————————————————————
-
-PROGRAMM : ROFI
-
-URSPRUNG          : SEAN PRINGLE
-ROFI-ENTWICKLUNG  : DAVE DAVENPORT
+ LIZENZBEREICH : DRITTANBIETER
+ ———————————————————————————
+ PROGRAMM : LSHW
+ URHEBER           : LYONEL VINCENT
 
 ###====================================|====================================###
 
-LIZENZBEREICH : DRITTANBIETER
-———————————————————————————
-
-PROGRAMM : DWL
-
-PROJEKT           : SUCKLESS
-URHEBERSCHAFT     : ERSTEN QUELLSTAND PRÜFEN
+ LIZENZBEREICH : DRITTANBIETER
+ ———————————————————————————
+ PROGRAMM : PCIUTILS
+ BEREICH : LSPCI
+ URHEBER           : MARTIN MARES
 
 ###====================================|====================================###
 
-LIZENZBEREICH : DRITTANBIETER
-———————————————————————————
-
-PROGRAMM : WAYBAR
-
-PROJEKT           : ALEXAYS / WAYBAR
-URHEBERSCHAFT     : ERSTEN QUELLSTAND PRÜFEN
-
-###====================================|====================================###
-
-LIZENZBEREICH : DRITTANBIETER
-———————————————————————————
-
-PROGRAMM : TREE
-
-URHEBER           : STEVE BAKER
-URHEBER           : THOMAS MOORE
-URHEBER           : FRANCESC ROCHER
-URHEBER           : FLORIAN SESSER
-URHEBER           : KYOSUKE TOKORO
+ LIZENZBEREICH : DRITTANBIETER
+ ———————————————————————————
+ PROGRAMM : USBUTILS
+ BEREICH : LSUSB
+ URHEBERSCHAFT     : GREG KROAH-HARTMAN (ursprünglich) + 
+                     spätere Maintainer (David Brownell, Kay Sievers u. a.)
+                     → Quellversion / COPYRIGHT-Dateien der installierten 
+                     Version prüfen
 
 ###====================================|====================================###
 
-LIZENZBEREICH : GNU-PROJEKT
-———————————————————————————
-
-PROGRAMM : WHICH
-
-URHEBER           : CARLO WOOD
+ LIZENZBEREICH : DRITTANBIETER
+ ———————————————————————————
+ PROGRAMM : NANO
+ URHEBER           : CHRISTOPHER ALLEGRETTA
 
 ###====================================|====================================###
 
-LIZENZBEREICH : DRITTANBIETER
-———————————————————————————
-
-PROGRAMM : XZ UTILS
-
-URHEBER           : LASSE COLLIN
-CODEGRUNDLAGE     : IGOR PAVLOV
+ LIZENZBEREICH : DRITTANBIETER
+ ———————————————————————————
+ PROGRAMM : ROFI
+ URSPRUNG          : SEAN PRINGLE
+ ROFI-ENTWICKLUNG  : DAVE DAVENPORT
 
 ###====================================|====================================###
 
-LIZENZBEREICH : DRITTANBIETER
-———————————————————————————
-
-PROGRAMM : KITTY
-
-URHEBER           : KOVID GOYAL
-
-###====================================|====================================###
-
-LIZENZBEREICH : GNU-PROJEKT
-———————————————————————————
-
-PROGRAMM : BC
-
-URHEBER           : PHILIP A. NELSON
+ LIZENZBEREICH : DRITTANBIETER
+ ———————————————————————————
+ PROGRAMM : DWL
+ PROJEKT           : SUCKLESS
+ URHEBERSCHAFT     : ERSTEN QUELLSTAND PRÜFEN
+                     (ursprünglich von DEVIN J. POHLY / dwl-Autoren)
 
 ###====================================|====================================###
 
-LIZENZBEREICH : DRITTANBIETER
-———————————————————————————
+ LIZENZBEREICH : DRITTANBIETER
+ ———————————————————————————
+ PROGRAMM : WAYBAR
+ PROJEKT           : ALEXAYS / WAYBAR
+ URHEBERSCHAFT     : ALEXIS (Alexays) + Mitwirkende
+                     → ersten Quellstand / AUTHORS prüfen
 
-PROGRAMM : UTIL-LINUX / PROCPS-NG
+###====================================|====================================###
 
-HINWEIS           : WEITERE QUELLDATEIEN UND COPYRIGHT-VERMERKE
-DER INSTALLIERTEN VERSION PRÜFEN
+ LIZENZBEREICH : DRITTANBIETER
+ ———————————————————————————
+ PROGRAMM : TREE
+ URHEBER           : STEVE BAKER
+ URHEBER           : THOMAS MOORE
+ URHEBER           : FRANCESC ROCHER
+ URHEBER           : FLORIAN SESSER
+ URHEBER           : KYOSUKE TOKORO
 
+###====================================|====================================###
+
+ LIZENZBEREICH : GNU-PROJEKT
+ ———————————————————————————
+ PROGRAMM : WHICH
+ URHEBER           : CARLO WOOD
+
+###====================================|====================================###
+
+ LIZENZBEREICH : DRITTANBIETER
+ ———————————————————————————
+ PROGRAMM : XZ UTILS
+ URHEBER           : LASSE COLLIN
+ CODEGRUNDLAGE     : IGOR PAVLOV (LZMA SDK)
+
+###====================================|====================================###
+
+ LIZENZBEREICH : DRITTANBIETER
+ ———————————————————————————
+ PROGRAMM : KITTY
+ URHEBER           : KOVID GOYAL
+
+###====================================|====================================###
+
+ LIZENZBEREICH : GNU-PROJEKT
+ ———————————————————————————
+ PROGRAMM : BC
+ URHEBER           : PHILIP A. NELSON
+
+###====================================|====================================###
+
+ LIZENZBEREICH : DRITTANBIETER
+ ———————————————————————————
+ PROGRAMM : UTIL-LINUX / PROCPS-NG
+ HINWEIS           : WEITERE QUELLDATEIEN UND COPYRIGHT-VERMERKE
+ DER INSTALLIERTEN VERSION PRÜFEN
+ 
 ###===========================DRITT-ANBIETER-LIZENZ=========================###
 ###================================ENDPUNKT=================================###
