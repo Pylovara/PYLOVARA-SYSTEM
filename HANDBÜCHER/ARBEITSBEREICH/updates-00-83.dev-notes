@@ -138,6 +138,52 @@
  —:—[  | ORANGE = FÜR MATHEMATISCHE 
  —:—[  | GRÜN   = FÜR MECHANISCHE
 
+
+ 052 = zeile 448 
+
+ ------------------------------------------ 
+
+ alternativ logik ( wenn nötig )
+
+»—©—[¥: <NAME> :¥]«««~: BAUMODUS FUNKTION SPEICHER EINGANG :~«
+ ↓:
+ —:—@· »—®—[¥:
+ ↓:     ↓:
+ ↓:     —:—@· »—ĸ—[¥: <NAME> :¥]«««~: BAUMODUS FUNKTION SPEICHER ABRUF :~«
+ ↓:            ↓:
+ ↓:            —:—@·¤¤ —:—[
+ ↓:                    ↓:
+ ↓:                    —>—÷ Ø—(<NR>): <ZUFÜHRUNG> :Ø  
+ ↓:                      
+
+»—©—[¥: <NAME> :¥]«««~: BAUMODUS FUNKTION SPEICHER EINGANG :~«
+ ↑:↓
+ —:—@· »—®—[¥:
+ ↑:↓    ↑:↓
+ ↑:↓    —:—@· »—ĸ—[¥: <NAME> :¥]«««~: BAUMODUS FUNKTION SPEICHER ABRUF :~«
+ ↑:↓    ↑:↓    ↑:↓
+ ↑:↓    ↑:↓    —:—@·¤¤ —:—[
+ ↑:↓    ↑:↓            ↑:↓
+ ↑:↓    ↑:↓            —>—÷ Ø—(<NR>): <ZUFÜHRUNG> :Ø  
+ ↑:↓    ↑:↓
+ ↑:↓    ↑:↓     —<—± Ø: <ABRUF> :(<NR>)—Ø
+ ↑:↓    ↑:↓     ↑:↓
+ ↑:↓    —:—¶@· »—:—[¥:
+ ↑:↓    ↑:↓ 
+ ↑:↓    —:—¶¶@· »—:—[¥:
+ ↑:↓  
+ —:—@· »—®—[¥:
+ ↑:↓    ↑:↓
+ ↑:↓    —:—Ω@· »—:—[¥:
+ ↑:↓    ↑:↓
+ ↑:↓    —:—ΩΩ@· »—:—[¥:
+
+ # STECKSCHLÜSSEL AUSWAHL
+  —:—  = PIPELINE STANDART
+  —©—  = OPTIONAL PIPELINE 
+  —®—  = OPTIONAL PIPELINE  
+  —ĸ—  = OPTIONAL PIPELINE 
+
 ############################################## ARBEITSBEREICH 
 
 ### NEU | PIPELINE | DATENSTROM ANGABEN | S = SENDE | A = ADD

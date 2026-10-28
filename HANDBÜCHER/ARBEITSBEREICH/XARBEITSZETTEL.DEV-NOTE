@@ -83,13 +83,14 @@
        momentan nicht verfügbar .... passt aber ... 
 
 
+ FÜR HEUTE FERTIG ... HUND ... SCHWESTER SPÄTER ZUM DOKTOR FAHREN ... 
+ RUH DICH AUS .... DU HAST HEUTE VIEL GEMACHT ... 
 
-
-
-
+ SOBALD LUFT SHELL LEXIKON WEITER MACHEN 
 
 
 #==================# SHELL UPDATER
+
  SHELL UPDATER BETA TEST GESTARTET : 
 
 [*] PYLOVARA-SYSTEM : SHELL IST AKTUELL .
@@ -102,97 +103,7 @@
  DIE TAGE AUF DEN TEST GERÄTEN NACHKONTROLLIEREN ... 
  IN DER VIERTUELLEN UMGEBUNG GING ALLES SUPER ... 
 
-#==================# PIPELINE ZWISCHEN SPEICHER
 
-
- 052 = zeile 448 
-
- ------------------------------------------ 
-
- alternativ logik ( wenn nötig )
-
-»—©—[¥: <NAME> :¥]«««~: BAUMODUS FUNKTION SPEICHER EINGANG :~«
- ↓:
- —:—@· »—®—[¥:
- ↓:     ↓:
- ↓:     —:—@· »—ĸ—[¥: <NAME> :¥]«««~: BAUMODUS FUNKTION SPEICHER ABRUF :~«
- ↓:            ↓:
- ↓:            —:—@·¤¤ —:—[
- ↓:                    ↓:
- ↓:                    —>—÷ Ø—(<NR>): <ZUFÜHRUNG> :Ø  
- ↓:                      
-
-
-»—©—[¥: <NAME> :¥]«««~: BAUMODUS FUNKTION SPEICHER EINGANG :~«
- ↑:↓
- —:—@· »—®—[¥:
- ↑:↓    ↑:↓
- ↑:↓    —:—@· »—ĸ—[¥: <NAME> :¥]«««~: BAUMODUS FUNKTION SPEICHER ABRUF :~«
- ↑:↓    ↑:↓    ↑:↓
- ↑:↓    ↑:↓    —:—@·¤¤ —:—[
- ↑:↓    ↑:↓            ↑:↓
- ↑:↓    ↑:↓            —>—÷ Ø—(<NR>): <ZUFÜHRUNG> :Ø  
- ↑:↓    ↑:↓
- ↑:↓    ↑:↓     —<—± Ø: <ABRUF> :(<NR>)—Ø
- ↑:↓    ↑:↓     ↑:↓
- ↑:↓    —:—¶@· »—:—[¥:
- ↑:↓    ↑:↓ 
- ↑:↓    —:—¶¶@· »—:—[¥:
- ↑:↓  
- —:—@· »—®—[¥:
- ↑:↓    ↑:↓
- ↑:↓    —:—Ω@· »—:—[¥:
- ↑:↓    ↑:↓
- ↑:↓    —:—ΩΩ@· »—:—[¥:
-
- # STECKSCHLÜSSEL AUSWAHL
-  —:—  = PIPELINE STANDART
-  —©—  = OPTIONAL PIPELINE 
-  —®—  = OPTIONAL PIPELINE  
-  —ĸ—  = OPTIONAL PIPELINE 
-
- —:—[ ]
- ↓:↑
- —:—¶@· —:—[×: 2 ++ 2 :×;×: ÷÷ 2 :×]
- ↓:↑    ↓:↑ 
- ↓:↑    —:—@·¤¤ —:—[×: ^ :×]
- ↓:↑
- —:—Ω@·
- ↓:↑
-
-#==================# PONTIFEX
-
-—:—[×: 2 ++ 2 :×||×: ÷÷ 2 :×]
-—:—[×: 2 ++ 2 :×ŦŦ×: ÷÷ 2 :×]
-—:—[×: 2 ++ 2 :×&&×: ÷÷ 2 :×]
-—:—[×: 2 ++ 2 :×ÐÐ×: ÷÷ 2 :×]
-—:—[×: 2 ++ 2 :×>>×: ÷÷ 2 :×]
-—:—[×: 2 ++ 2 :×ẞẞ×: ÷÷ 2 :×]
-
-# hmm 
-—:—[×: 2 ++ 2 :×|+|×: ÷÷ 2 :×]
-—:—[×: 2 ++ 2 :×|-|×: ÷÷ 2 :×]
-
-|:T:|
-|:&:|
-
-:&:
-:T:
->T<
->&<
-
-—:—[×: 2 ++ 2 :×|+|×: ÷÷ 2 :×]
-—:—[×: 2 ++ 2 :×|-|×: ÷÷ 2 :×]
-
-|+|
-|-|
-&+&
-&-&
-
-|*| TRENN MIT TRENNUNGSLOGIG ?
-&*& BIND MIT BINDUNGSLOGIK ? 
-
-DRÜBER SCHLAFEN ..........
 
 #==================# Eselsbrücken 
  ——————————————————————————————————————————————————————————————————————————
@@ -218,19 +129,20 @@ DRÜBER SCHLAFEN ..........
  - PROTON {<NAME>;<WERT>} = FREIE ZEICHEN {};
  = PROTONEN WERDEN JETZT IN BOXIS GENUTZT ... -> »—:—[!: ^ :!]«««~: ^ :~« 
 
-#==================# NEU KOMPONENTE PONTIFEX
+#==================# PONTIFEX
 
- TRENNBEFEHL UND BINDUNGS BEFEHL JETZT IN PONTIFEX ENTHALTEN 
+ TRENNBEFEHL UND BINDUNGSBEFEHL JETZT IN PONTIFEX ENTHALTEN 
  UND BINDUNGSBEFEHL NICHT MEHR PROTON ABHÄNGIG SONDERN BOXIS . 
 
  ZEICHEN FOLGE DOCH OHNE SCHARFES ſ SONDERRN ; 
 
- <BXMK>;<BXMK> 
- <BXMK>|<BXMK>
+ <BXMK>|*|<BXMK> 
+ <BXMK>&*&<BXMK>
 
  EINGRAVIEREN NACH PIPELINE | TA | PI DANN PO(PO = PONTIFEX)
  DER PROTIN MORPH BLEIBT GLEICH, WENIGER NEU LERNEN ... 
 
+###====================================|====================================###
 ###====================================|====================================###
 #==================# ABGEARBEITET 
 
@@ -256,4 +168,5 @@ DRÜBER SCHLAFEN ..........
  - BETA TEST UPDATESUCHER.PYLOVARA-CORE = FREIGEGEBEN 
  - VARA PAKETE KANONISCHE LISTE = ERST-ENTWURF
 
+###====================================|====================================###
 ###====================================|====================================###

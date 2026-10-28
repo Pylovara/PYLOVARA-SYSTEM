@@ -1,0 +1,35 @@
+@shell-nr: 01 =================== LEXIKON NAVIGATION TERMINAL = shell <NR> =###
+###= SEITEN-SYSTEM-ID : ⠆⢄⠢⢂ ===PYLOVARA-SYSTEM=============================###
+###=========================THE-WABE-NEST-LEXIKON===========================###
+
+ ALLGEMEINE-FUNKTION
+ ——————————————————— 
+
+ ORDNER WECHSELN : 
+
+ DIE CD ( CALL DIRECTORY ) TRIGGER, SIND BEI UNS WIEDER TO REIMPLEMENTIERT 
+ WEIL ES LEICHTER FÜR DEN KOPF IST UND INTUITIVER. 
+
+ to <PFAD> 
+
+ GREP | SUCHE : 
+
+ WURDE FÜR PROGRAMM SUCHE GEÄNDERT. 
+
+ callme <name>
+
+ DATENBAUM : 
+
+ STATT TREE AUF ENGLISH, WURDE EIN P FÜR PFADANZEIGE GENOMMEN, DER EXPLIZIT 
+ EINEN ORDNER AUFZEIGT 
+
+ p <ORDNER>
+
+
+ HINWEIS : 
+
+ DER PYLO <ORDNER>/- <BEFEHL> TRIGGER, WURDE AUFGRUND VON FEHLER ENTFERNT. 
+ ER WIRD IN ZUKÜNFTIGEN UPDATES WIEDER SEINEN PLATZFINDEN.
+
+###===========================DRITT-ANBIETER-LIZENZ=========================###
+###================================ENDPUNKT=================================###
