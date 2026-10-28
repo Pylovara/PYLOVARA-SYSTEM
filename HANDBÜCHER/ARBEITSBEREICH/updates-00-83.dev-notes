@@ -432,3 +432,69 @@
   ↑:↓
 ###################################################################################
 ###################################################################################
+
+
+
+  ↑:↓
+
+
+  ↑:←
+
+
+  ↑:→
+
+  ↑:↓
+  ↑:←
+
+
+  ↑:↓
+  ↑:→
+
+
+
+
+  ↑↓←
+  ↑↓→
+
+  ↑↓↓
+  ↑↓←
+
+  ↑↓↓
+  ↑↓→
+
+
+
+ ! hmmm ... sieht nach eingehender rex , ausgehender rex und beides aus 
+
+  ↑↓↓
+  ↑↓←→
+
+ und es sieht eher nach einer 3 kanal lösung aus ... 
+
+ dann bräuchte ich ei8n symbol das ←→ vereint ... 
+
+ 
+  ↑↓←→
+  ↑↓¬
+
+  ↑↓↓
+  ↑↓¬›· —:—
+
+
+
+ # hmm ... 
+  —ĸ—[]
+  ↑↓:
+  ↑↓¬®›· —:—[]
+  ↑↓:
+  ↑↓→®›· —:—[]
+  ↑↓←®‹· —:—[] 
+
+  vielleicht sollte ich doch darüber nachdenken die steckschlüssel 
+  selbst mit logik zu füllen .... 
+
+  —L— # links
+  —R— # rechts 
+  —ĸ— # kreislauf
+
+  —:— # selbstsuchend 
