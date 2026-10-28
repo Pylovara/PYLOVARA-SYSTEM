@@ -1,7 +1,7 @@
 #!/bin/bash
 # pylovara.shell-layout – Standart Pylovara Brand Layout
 
-Vara_Dir="/Pylovara/System/Shell/Vara"
+Vara_Dir='/Pylovara/System/Shell/Vara'
 
 # Farbcodes definieren ANSI-Farbcodes im 256-Farben-Modus
 # WICHTIG: \[ und \] verhindern Prompt-Wrapping-Fehler in Bash
@@ -19,9 +19,9 @@ PV_KERNEL="$(uname -r)"
 export PROMPT_COMMAND='
     PV_CURRENT_DIR="${PWD/#$HOME/\~}"
     export PS1="
-$PV_COLOR_SYMBOL—:—[\"$PV_COLOR_PV: ᴹᶜˢ ˢʰᵉˡˡ :$PV_COLOR_SYMBOL\"]
+$PV_COLOR_SYMBOL—:—[\'$PV_COLOR_PV: ᴹᶜˢ ˢʰᵉˡˡ :$PV_COLOR_SYMBOL\']
 $PV_COLOR_SYMBOL—:—@·¤ —:—[\$: $PV_COLOR_PATH\$PV_CURRENT_DIR $PV_COLOR_SYMBOL:\$]
-$PV_COLOR_SYMBOL       —:—@· »—:—[': $PV_COLOR_RESET"
+$PV_COLOR_SYMBOL       —:—@· »—:—[¥: "$PV_COLOR_RESET"
 '
 
 if [[ -r /usr/share/bash-completion/bash_completion ]]; then
