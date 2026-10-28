@@ -1,5 +1,4 @@
 
-
  IDEE DATEITYPEN SYSTEM ==============================
 
  # NAMENTLICHE MUSTERBILDER : 
@@ -20,24 +19,25 @@
  - BASIS/
    - *.NEEDLES # BASIS PROGRAMMIERUNG | 
 
- NITROX ===========================================
-
  SENTIATOR ========================================
  
- WURDEN VOR GEBAUT BIS STARTWABEN 
-
- DIE PROZESS SENTIATOREN BEKOMMEN IHRE SIGNAL BESTÄTIGUNG 
-
- UND DIE WENN SENTIATOREN BEKOMMEN IHRE ZUR AUSWAHL STEHENDE FUNKTION,
- DAS PASSENSTE WIRD AUSGEWÄHLT .
+  # prozess beendigungs reflexe 
+  ¶ = bei grün 
+  ¶¶ = bei rot mit kanal angabe 
 
  FEED =============================================
  
   CPU VERSCHACHTELUNGS PROGRAMM NACH ARBEITEN 
+ 
+  ()() (()) <-- beides 
 
  SYNAPTOR =========================================
+ 
+ ¿<nr> = priorisierung der ströme von rex
 
  ZYTRON ===========================================
+
+ return aber mit mehrfach backschleifen 
 
  BAUMODUS =========================================
 
@@ -82,7 +82,7 @@
 
  - MCS TASTATUR EBENE : MCS - PROGRAMMIERUNG | STANDART ANSTEUERUNG
 
-  @    = REX
+  @ oder besser ›  = REX m( zeichen ¬ nicht mittig )
   ·    = KERN-1
   ··   = KERN-2
   ···  = KERN-3
@@ -121,10 +121,6 @@
  —©—[   = 
  —®—[   = 
  —ĸ—[   = 
- —#—[   = 
- —¡—[   = 
- —!—[   = 
- —)—[   = 
 
  # DANN NOCH FARBSPEKTREN
 
@@ -132,10 +128,6 @@
  —©—[  | FARBE = 
  —®—[  | FARBE = 
  —ĸ—[  | FARBE = 
- —#—[  | FARBE= 
- —¡—[  | FARBE = 
- —!—[  | FARBE = 
- —)—[  | FARBE = 
 
  ]     | GLEICH PROTEIN-ENDE 
 
@@ -146,10 +138,12 @@
  —:—[  | ORANGE = FÜR MATHEMATISCHE 
  —:—[  | GRÜN   = FÜR MECHANISCHE
 
-
 ############################################## ARBEITSBEREICH 
 
 ### NEU | PIPELINE | DATENSTROM ANGABEN | S = SENDE | A = ADD
+
+ # EXTRA EINZELN
+
 
  # 1 KANAL ANGABEN 
 
@@ -193,14 +187,10 @@
  —©—  = OPTIONAL PIPELINE 
  —®—  = OPTIONAL PIPELINE  
  —ĸ—  = OPTIONAL PIPELINE  
- —#—  = OPTIONAL PIPELINE  
- —¡—  = OPTIONAL PIPELINE  
- —!—  = OPTIONAL PIPELINE  
- —)—  = OPTIONAL PIPELINE  
 
- BEISPIEL | OFFPIPE PROTEINE FALLEN WEG |  
 
- —)—[<BXMK>]
+ # MUTTER UND HAUPTPROTEIN , SPRACHLICH EINFÜHREN  
+
  —©—[<BXMK>]
  —ĸ—[<BXMK>]
  —:—[<BXMK>]
@@ -396,5 +386,3 @@
   ↑:↓
 ###################################################################################
 ###################################################################################
-
-

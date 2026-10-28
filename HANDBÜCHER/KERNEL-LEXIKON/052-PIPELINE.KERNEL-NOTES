@@ -133,8 +133,6 @@ MUTTERWABEN-KATEGORIE ⠆⢄⡈⢐ STARTWABE
  AXIOM ¡ ⠆⢄⡈⠔ ⦻ ⠆⢄⡈⠘ ⦻ ⠆⢄⡄⠨ Ξ ⠆⢄⡂⠒
  AXIOM ¡ ⠆⢄⡈⠔ ⦻ ⠆⢄⡈⠘ ⦻ ⠆⢄⡄⠰ Ξ ⠆⢄⡂⠔
  AXIOM ¡ ⠆⢄⡈⠔ ⦻ ⠆⢄⡄⡁ Ξ ⠆⢄⡂⠘
- AXIOM ¡ ⠆⢄⡈⠘ ⦻ ⠆⢄⡄⡠ Ξ ⠆⢄⡂⠡
- AXIOM ¡ ⠆⢄⡄⡠ Ξ ⠆⢄⡂⠢
  AXIOM ¡ ⠆⢄⡈⠔ ⦻ ⠆⢄⡁⢁ Ξ ⠆⢄⡄⢈
  AXIOM ¡ ⠆⢄⡈⠔ ⦻ ⠆⢄⡁⢂ Ξ ⠆⢄⡄⢐
  AXIOM ¡ ⠆⢄⡈⠔ ⦻ ⠆⢄⡁⢈ Ξ ⠆⢄⡄⢠
@@ -146,8 +144,6 @@ MUTTERWABEN-KATEGORIE ⠆⢄⡈⢐ STARTWABE
  SYMBOLE ⠆⢄⡂⠒ ®
  SYMBOLE ⠆⢄⡂⠔ ©
  SYMBOLE ⠆⢄⡂⠘ ĸ
- SYMBOLE ⠆⢄⡂⠡ >
- SYMBOLE ⠆⢄⡂⠢ < 
  SYMBOLE ⠆⢄⡄⢈ ←
  SYMBOLE ⠆⢄⡄⢐ ↓
  SYMBOLE ⠆⢄⡄⢠ →
@@ -158,8 +154,6 @@ MUTTERWABEN-KATEGORIE ⠆⢄⡈⢐ STARTWABE
  AXIOM ¡ ⠆⢄⡂⠌ ⧓ ⠆⢄⡂⠔ ⧓ ⠆⢄⡂⠌ Ξ ⠆⢄⡁⡐
  AXIOM ¡ ⠆⢄⡂⠌ ⧓ ⠆⢄⡂⠒ ⧓ ⠆⢄⡂⠌ Ξ ⠆⢄⡁⡈
  AXIOM ¡ ⠆⢄⡂⠌ ⧓ ⠆⢄⡂⠘ ⧓ ⠆⢄⡂⠌ Ξ ⠆⢄⡁⡄
- AXIOM ¡ ⠆⢄⡂⠌ ⧓ ⠆⢄⡂⠢ ⧓ ⠆⢄⡂⠌ Ξ ⠆⢄⡄⢁
- AXIOM ¡ ⠆⢄⡂⠌ ⧓ ⠆⢄⡂⠡ ⧓ ⠆⢄⡂⠌ Ξ ⠆⢄⡄⢂
  AXIOM ¡ ⠆⢄⡄⢈ ⧓ ⠆⢄⡂⠑ Ξ ⠆⢄⡄⠌
  AXIOM ¡ ⠆⢄⡄⢐ ⧓ ⠆⢄⡂⠑ Ξ ⠆⢄⡂⠨
  AXIOM ¡ ⠆⢄⡄⢠ ⧓ ⠆⢄⡂⠑ Ξ ⠆⢄⡄⠑
@@ -192,8 +186,6 @@ MUTTERWABEN-KATEGORIE ⠆⢄⡈⢐ STARTWABE
  PRODUKT ⠆⢄⡁⡐ —©—
  PRODUKT ⠆⢄⡁⡈ —®—
  PRODUKT ⠆⢄⡁⡄ —ĸ—
- PRODUKT ⠆⢄⡄⢁ —<—
- PRODUKT ⠆⢄⡄⢂ —>—
 
  # PRODUKT | 1 KANAL ANGABEN 
  PRODUKT ⠆⢄⡄⠌ ←:
@@ -263,8 +255,6 @@ MUTTERWABEN-KATEGORIE ⠆⢄⡈⢐ STARTWABE
  AXIOM ¡ ⠆⢄⡁⡐ ⥗ ⠆⢄⡂⠤ ⍠ ⠆⢄⡁⠢
  AXIOM ¡ ⠆⢄⡁⡈ ⥗ ⠆⢄⡂⠤ ⍠ ⠆⢄⡁⠨
  AXIOM ¡ ⠆⢄⡁⡄ ⥗ ⠆⢄⡂⠤ ⍠ ⠆⢄⡁⠰
- AXIOM ¡ ⠆⢄⡄⢁ ⥗ ⠆⢄⡂⠤ ⍠ ⠆⢄⠰⡄
- AXIOM ¡ ⠆⢄⡄⢂ ⥗ ⠆⢄⡂⠤ ⍠ ⠆⢄⠰⡈
  AXIOM ¡ ⠆⢄⡄⠌ ⥗ ⠆⢄⡂⡐ ⍠ ⠆⢄⠰⡐
  AXIOM ¡ ⠆⢄⡂⠨ ⥗ ⠆⢄⡄⡐ ⍠ ⠆⢄⠰⡠
  AXIOM ¡ ⠆⢄⡄⠑ ⥗ ⠆⢄⡂⡠ ⍠ ⠆⢄⠰⢁
@@ -295,8 +285,6 @@ MUTTERWABEN-KATEGORIE ⠆⢄⡈⢐ STARTWABE
  EINHEIT ⠆⢄⡁⠢ —©— PL-STECKSCHLÜSSEL
  EINHEIT ⠆⢄⡁⠨ —®— PL-STECKSCHLÜSSEL
  EINHEIT ⠆⢄⡁⠰ —ĸ— PL-STECKSCHLÜSSEL
- EINHEIT ⠆⢄⠰⡄ —<— PL-STECKSCHLÜSSEL
- EINHEIT ⠆⢄⠰⡈ —>— PL-STECKSCHLÜSSEL
  EINHEIT ⠆⢄⠰⡐ ←: PL-LX
  EINHEIT ⠆⢄⠰⡠ ↓: PL-UX
  EINHEIT ⠆⢄⠰⢁ →: PL-RX
