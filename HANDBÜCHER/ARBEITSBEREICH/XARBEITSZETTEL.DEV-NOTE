@@ -55,6 +55,41 @@
  NOTIZ :
  https://wr.informatik.uni-hamburg.de/_media/teaching/wintersemester_2019_2020/2019_ep_stieler_compilerbau_ausarbeitung.pdf
 
+#############################################################
+- Syntax mit sh und bash
+- --help, --version, --check
+- Alias in Bash aufgelöst und ausgeführt
+- Super+Y-Ersatz SCHLIEẞEN --toggle 
+- MCS-SHELL-Smoke-Test läuft 
+- SPICKZETTEL-Smoke-Test: ALLES OK
+
+# WICHTIG
+Die VARA-Dateien sind x86-64-ELF und dynamisch gelinkt. 
+
+less.vara BRAUCHT :  
+libncursesw.so.6 
+libpcre2-8.so.0 
+libc.so.6
+
+Der Spickzettel ist unabhängig von einem installierten less, 
+aber nicht unabhängig von Architektur und glibc.
+#############################################################
+
+ FERTIG FÜR HEUTE .... DEN SPICKZETTEL UND DIE SHELL DEKO 
+ MACH ICH MORGEN ODER ÜBER MORGEN SAUBERER ... 
+
+ KOPF DICHT .... FERTIG 
+
+
+
+
+
+
+
+
+
+
+
 #==================# SHELL UPDATER BETA
 
 [*] PYLOVARA-SYSTEM : SHELL IST AKTUELL .

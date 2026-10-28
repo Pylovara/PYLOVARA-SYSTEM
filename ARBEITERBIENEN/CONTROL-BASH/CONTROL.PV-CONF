@@ -31,6 +31,10 @@ alias SHELLUPDATE='sudo /PYLOVARA-SYSTEM/ARBEITERBIENEN/CONTROL-BASH/LINUX-SHELL
 
 alias dna='/PYLOVARA-SYSTEM/ARBEITERBIENEN/CONTROL-BASH/LINUX-SHELL/DATEN/SHELL-PROGRAMME/DNA/dna.shell-dna'
 
+### SPICKZETTEL | WIKI-NOTES
+#  SUPER + Y Super+Y | WINDOW MANAGER - SELBER PFAD
+alias spickzettel='${SHELL_DIR%/}/VARA/spickzettel.vara'
+
 ###====================================|====================================###
 ### ALIAS SEKTOR 
 

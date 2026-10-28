@@ -1,0 +1,329 @@
+#!/bin/sh
+###====================================|====================================###
+### SPICKZETTEL | STUFE 1
+### Quelle : /PYLOVARA-SYSTEM/ARBEITERBIENEN/CONTROL-BASH/LINUX-SHELL/DATEN/SHELL-PROGRAMME/VARA/spickzettel.vara
+### Zeigt SPICKZETTEL.WIKI-NOTES mit less.vara aus den VARA-Paketen.
+### Keine GUI, kein yad, keine System-Pager.
+###====================================|====================================###
+
+VERSION="0.1.0"
+
+SELF=$0
+case $SELF in
+    */*) ;;
+    *) SELF=$(command -v "$SELF" 2>/dev/null) || SELF=$0 ;;
+esac
+BASE=${SELF%/*}
+[ -n "$BASE" ] || BASE=.
+
+VARA_DIR=$(CDPATH= cd "$BASE" 2>/dev/null && pwd) || VARA_DIR=$BASE
+SPICKZETTEL_DIR=$(CDPATH= cd "$VARA_DIR/../SPICKZETTEL" 2>/dev/null && pwd) || SPICKZETTEL_DIR=$VARA_DIR/../SPICKZETTEL
+CONF=$SPICKZETTEL_DIR/SPICKZETTEL.CONF
+LESS=$VARA_DIR/less.vara
+CAT=$VARA_DIR/cat.vara
+HEAD=$VARA_DIR/head.vara
+
+TITLE="Pylovara Spickzettel"
+CLASS="spickzettel"
+TERMINAL_CHOICE="auto"
+LESS_OPTS="-R"
+NOTES_NAME="SPICKZETTEL.WIKI-NOTES"
+MODE="show"
+GUI=0
+
+if [ -r "$CONF" ]; then
+    . "$CONF"
+fi
+
+case ${SPICKZETTEL_NOTES:-$NOTES_NAME} in
+    /*) NOTES=$SPICKZETTEL_NOTES ;;
+    *) NOTES=$SPICKZETTEL_DIR/${SPICKZETTEL_NOTES:-$NOTES_NAME} ;;
+esac
+
+TITLE=${SPICKZETTEL_TITLE:-$TITLE}
+CLASS=${SPICKZETTEL_CLASS:-$CLASS}
+TERMINAL_CHOICE=${SPICKZETTEL_TERMINAL:-$TERMINAL_CHOICE}
+LESS_OPTS=${SPICKZETTEL_LESS_OPTS:-$LESS_OPTS}
+
+PAGER=""
+PAGER_OPTS=""
+if [ -x "$LESS" ]; then
+    PAGER=$LESS
+    PAGER_OPTS=$LESS_OPTS
+elif [ -x "$CAT" ]; then
+    PAGER=$CAT
+fi
+
+usage() {
+    printf '%s\n' \
+        "SPICKZETTEL $VERSION" \
+        "" \
+        "Nutzung:" \
+        "  spickzettel              Spickzettel im aktuellen Terminal zeigen" \
+        "  spickzettel --toggle     Fenster oeffnen oder schliessen" \
+        "  spickzettel --check      Pfade, Pager und Terminal pruefen" \
+        "  spickzettel --gui        yad.vara nutzen, falls vorhanden" \
+        "  spickzettel --help       diese Hilfe" \
+        "" \
+        "Notizen: $NOTES" \
+        "Pager:   ${PAGER:-kein Pager gefunden}"
+}
+
+fail() {
+    printf 'FEHLER: %s\n' "$*" >&2
+    exit 1
+}
+
+validate_notes() {
+    [ -e "$NOTES" ] || fail "Notizdatei fehlt: $NOTES"
+    [ -r "$NOTES" ] || fail "Notizdatei ist nicht lesbar: $NOTES"
+    [ -n "$PAGER" ] || fail "Kein Pager verfuegbar. less.vara und cat.vara fehlen in $VARA_DIR"
+}
+
+show_notes() {
+    if [ -s "$NOTES" ]; then
+        set -- $PAGER_OPTS "$NOTES"
+        exec "$PAGER" "$@"
+    fi
+
+    set -- $PAGER_OPTS
+    printf '%s\n' \
+        "Der Spickzettel ist noch leer." \
+        "" \
+        "Datei: $NOTES" \
+        "Inhalt eintragen, dann erneut oeffnen." | "$PAGER" "$@"
+}
+
+terminal_path() {
+    if [ -n "$TERMINAL_CHOICE" ] && [ "$TERMINAL_CHOICE" != "auto" ]; then
+        case $TERMINAL_CHOICE in
+            terminal.vara)
+                if [ -x "$VARA_DIR/terminal.vara" ]; then
+                    printf '%s\n' "$VARA_DIR/terminal.vara"
+                    return 0
+                fi
+                ;;
+            */*)
+                if [ -x "$TERMINAL_CHOICE" ]; then
+                    printf '%s\n' "$TERMINAL_CHOICE"
+                    return 0
+                fi
+                ;;
+            *)
+                if command -v "$TERMINAL_CHOICE" >/dev/null 2>&1; then
+                    printf '%s\n' "$(command -v "$TERMINAL_CHOICE")"
+                    return 0
+                fi
+                ;;
+        esac
+        printf 'HINWEIS: Terminal nicht gefunden: %s\n' "$TERMINAL_CHOICE" >&2
+    fi
+
+    if [ -x "$VARA_DIR/terminal.vara" ]; then
+        printf '%s\n' "$VARA_DIR/terminal.vara"
+        return 0
+    fi
+
+    for t in kitty foot alacritty wezterm konsole gnome-terminal xfce4-terminal xterm; do
+        if command -v "$t" >/dev/null 2>&1; then
+            printf '%s\n' "$(command -v "$t")"
+            return 0
+        fi
+    done
+
+    return 1
+}
+
+launch_terminal() {
+    term=$1
+    name=${term##*/}
+
+    case $name in
+        kitty|terminal.vara)
+            exec "$term" --class "$CLASS" --title "$TITLE" -e "$SELF" --show
+            ;;
+        foot)
+            exec "$term" --app-id="$CLASS" --title="$TITLE" "$SELF" --show
+            ;;
+        alacritty)
+            exec "$term" --class "$CLASS" --title "$TITLE" -e "$SELF" --show
+            ;;
+        wezterm)
+            exec "$term" start --class "$CLASS" -- "$SELF" --show
+            ;;
+        konsole)
+            exec "$term" --title "$TITLE" -e "$SELF" --show
+            ;;
+        gnome-terminal)
+            exec "$term" --class="$CLASS" --title="$TITLE" -- "$SELF" --show
+            ;;
+        xfce4-terminal)
+            exec "$term" --class="$CLASS" --title="$TITLE" -x "$SELF" --show
+            ;;
+        xterm)
+            exec "$term" -class "$CLASS" -T "$TITLE" -e "$SELF" --show
+            ;;
+        *)
+            exec "$term" -e "$SELF" --show
+            ;;
+    esac
+}
+
+show_gui() {
+    if [ -x "$VARA_DIR/yad.vara" ]; then
+        exec "$VARA_DIR/yad.vara" \
+            --text-info \
+            --filename="$NOTES" \
+            --title="$TITLE" \
+            --class="$CLASS" \
+            --name="$TITLE" \
+            --width=1000 \
+            --height=760 \
+            --center \
+            --fixed \
+            --wrap \
+            --margins=20 \
+            --fontname="FantasqueSansM Nerd Font Mono 13" \
+            --escape-ok \
+            --button="Schliessen:0"
+    fi
+
+    return 1
+}
+
+check() {
+    status=0
+
+    printf 'SPICKZETTEL %s\n' "$VERSION"
+    printf 'Programm: %s\n' "$SELF"
+    printf 'VARA: %s\n' "$VARA_DIR"
+    printf 'Notizen: %s\n' "$NOTES"
+
+    if [ -s "$NOTES" ]; then
+        printf 'Inhalt: vorhanden\n'
+    elif [ -e "$NOTES" ]; then
+        printf 'Inhalt: leer\n'
+    else
+        printf 'Inhalt: FEHLT\n'
+        status=1
+    fi
+
+    if [ -x "$LESS" ]; then
+        if [ -x "$HEAD" ]; then
+            printf 'Pager: %s\n' "$("$LESS" --version 2>/dev/null | "$HEAD" -n 1)"
+        else
+            printf 'Pager: %s\n' "$LESS"
+        fi
+    elif [ -x "$CAT" ]; then
+        printf 'Pager: cat.vara (Fallback)\n'
+    else
+        printf 'Pager: FEHLT\n'
+        status=1
+    fi
+
+    if [ -x "$VARA_DIR/yad.vara" ]; then
+        printf 'GUI: yad.vara vorhanden\n'
+    else
+        printf 'GUI: nicht vorhanden\n'
+    fi
+
+    term=$(terminal_path 2>/dev/null) || term=""
+    if [ -n "$term" ]; then
+        printf 'Terminal: %s\n' "$term"
+    else
+        printf 'Terminal: keines gefunden\n'
+        if [ ! -t 0 ] || [ ! -t 1 ]; then
+            status=1
+        fi
+    fi
+
+    if [ -t 0 ] && [ -t 1 ]; then
+        printf 'Modus: aktuelles Terminal\n'
+    else
+        printf 'Modus: neues Terminal\n'
+    fi
+
+    return $status
+}
+
+toggle_window() {
+    uid=${UID:-}
+    if [ -z "$uid" ]; then
+        uid=$(id -u 2>/dev/null) || uid=0
+    fi
+    pidf=${XDG_RUNTIME_DIR:-/tmp}/spickzettel-${uid}.pid
+
+    if [ -r "$pidf" ]; then
+        pid=""
+        read -r pid < "$pidf" || pid=""
+        if [ -n "$pid" ] && kill -0 "$pid" 2>/dev/null; then
+            kill "$pid" 2>/dev/null
+            rm -f "$pidf"
+            exit 0
+        fi
+        rm -f "$pidf"
+    fi
+
+    printf '%s\n' "$$" > "$pidf" || fail "PID-Datei nicht schreibbar: $pidf"
+
+    if [ "$GUI" = 1 ] && show_gui; then
+        :
+    fi
+
+    term=$(terminal_path) || {
+        rm -f "$pidf"
+        fail "Kein Terminal gefunden. Nutze: $SELF --show"
+    }
+
+    launch_terminal "$term"
+    rm -f "$pidf"
+    fail "Terminal konnte nicht gestartet werden: $term"
+}
+
+while [ $# -gt 0 ]; do
+    case $1 in
+        --show) MODE="show" ;;
+        --toggle) MODE="toggle" ;;
+        --check) MODE="check" ;;
+        --gui) GUI=1 ;;
+        -h|--help) usage; exit 0 ;;
+        -V|--version) printf '%s\n' "$VERSION"; exit 0 ;;
+        --) shift; break ;;
+        *)
+            printf 'FEHLER: Unbekannte Option: %s\n' "$1" >&2
+            usage >&2
+            exit 2
+            ;;
+    esac
+    shift
+done
+
+case $MODE in
+    check)
+        check
+        exit $?
+        ;;
+    toggle)
+        if [ -t 0 ] && [ -t 1 ]; then
+            validate_notes
+            show_notes
+        else
+            validate_notes
+            toggle_window
+        fi
+        ;;
+    show)
+        if [ "$GUI" = 1 ] && show_gui; then
+            :
+        fi
+
+        if [ -t 0 ] && [ -t 1 ]; then
+            validate_notes
+            show_notes
+        else
+            validate_notes
+            term=$(terminal_path) || fail "Kein Terminal gefunden. Nutze: $SELF --show"
+            launch_terminal "$term"
+        fi
+        ;;
+esac

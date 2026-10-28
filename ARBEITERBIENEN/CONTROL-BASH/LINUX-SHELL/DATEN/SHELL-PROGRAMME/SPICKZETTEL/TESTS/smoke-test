@@ -1,0 +1,100 @@
+#!/bin/sh
+###====================================|====================================###
+### SPICKZETTEL | SMOKE-TEST
+### Quelle : /PYLOVARA-SYSTEM/ARBEITERBIENEN/CONTROL-BASH/LINUX-SHELL/DATEN/SHELL-PROGRAMME/SPICKZETTEL/TESTS/smoke-test
+###====================================|====================================###
+
+TEST_DIR=$(CDPATH= cd "${0%/*}" 2>/dev/null && pwd) || TEST_DIR=${0%/*}
+SPICKZETTEL_DIR=${TEST_DIR%/*}
+VARA_DIR=$(CDPATH= cd "$SPICKZETTEL_DIR/../VARA" 2>/dev/null && pwd) || VARA_DIR=$SPICKZETTEL_DIR/../VARA
+PROG=$VARA_DIR/spickzettel.vara
+CONF=$SPICKZETTEL_DIR/SPICKZETTEL.CONF
+NOTES=$SPICKZETTEL_DIR/SPICKZETTEL.WIKI-NOTES
+README=$SPICKZETTEL_DIR/README.SPICKZETTEL
+CONTROL=/PYLOVARA-SYSTEM/ARBEITERBIENEN/CONTROL-BASH/CONTROL.PV-CONF
+GREP=$VARA_DIR/grep.vara
+
+FAIL=0
+
+ok() {
+    printf 'OK   %s\n' "$1"
+}
+
+bad() {
+    printf 'FEHLER   %s\n' "$1"
+    FAIL=$((FAIL + 1))
+}
+
+if sh -n "$PROG" 2>/dev/null; then
+    ok "Syntax: spickzettel.vara"
+else
+    bad "Syntax: spickzettel.vara"
+fi
+
+if [ -x "$PROG" ]; then
+    ok "Programm ist ausfuehrbar"
+else
+    bad "Programm ist nicht ausfuehrbar"
+fi
+
+if [ -f "$CONF" ]; then
+    ok "Datei: SPICKZETTEL.CONF"
+else
+    bad "Datei: SPICKZETTEL.CONF"
+fi
+
+if [ -f "$NOTES" ]; then
+    ok "Datei: SPICKZETTEL.WIKI-NOTES"
+else
+    bad "Datei: SPICKZETTEL.WIKI-NOTES"
+fi
+
+if [ -f "$README" ]; then
+    ok "Datei: README.SPICKZETTEL"
+else
+    bad "Datei: README.SPICKZETTEL"
+fi
+
+if [ -x "$VARA_DIR/less.vara" ]; then
+    ok "Paket: less.vara"
+else
+    bad "Paket: less.vara"
+fi
+
+if "$PROG" --version >/dev/null 2>&1; then
+    ok "Versionsausgabe"
+else
+    bad "Versionsausgabe"
+fi
+
+if "$PROG" --check >/dev/null 2>&1; then
+    ok "SPICKZETTEL --check"
+else
+    bad "SPICKZETTEL --check"
+fi
+
+if "$PROG" --help >/dev/null 2>&1; then
+    ok "Hilfeausgabe"
+else
+    bad "Hilfeausgabe"
+fi
+
+if [ -x "$GREP" ] && "$GREP" -Fq "alias spickzettel=" "$CONTROL" 2>/dev/null; then
+    ok "Alias in CONTROL.PV-CONF"
+else
+    bad "Alias in CONTROL.PV-CONF"
+fi
+
+if [ -x "$GREP" ] && "$GREP" -Fq '*' "$README" 2>/dev/null; then
+    bad "README enthaelt Sternchen"
+else
+    ok "README ohne Sternchen"
+fi
+
+if [ "$FAIL" -eq 0 ]; then
+    printf '\nSPICKZETTEL Smoke-Test: ALLES OK\n'
+    exit 0
+fi
+
+printf '\nSPICKZETTEL Smoke-Test: %s FEHLER\n' "$FAIL"
+exit 1
