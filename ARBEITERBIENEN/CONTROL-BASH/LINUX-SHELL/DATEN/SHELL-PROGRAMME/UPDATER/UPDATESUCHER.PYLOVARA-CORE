@@ -10,6 +10,9 @@
 #           Ein Update ist das erneute Laden des aktuellen Stands .
 #           Das reguläre Update ist SHELLUPDATE .
 # ===================================================================== #
+# NOTIZ : KOMMT NUR ALLE 2 TAGE ... VIELLEICHT ERHÖHE ICH DIE ZEIT 
+#         ABER ERST WENN ES RUHIGER WIRD .... MOMENTAN ZUVIELE ÄNDERUNGEN 
+# ===================================================================== #
 
 PV_REPO="/PYLOVARA-SYSTEM"
 PV_REMOTE="https://github.com/Pylovara/PYLOVARA-SYSTEM.git"
