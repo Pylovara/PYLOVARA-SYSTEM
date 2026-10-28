@@ -43,25 +43,3 @@ $PV_COLOR_SYMBOL       —:—@· »—:—[': $PV_COLOR_RESET"
 if [[ -r /usr/share/bash-completion/bash_completion ]]; then
   . /usr/share/bash-completion/bash_completion
 fi
-
-###############################################################################
-#—:—[": ᴹᶜˢ ˢʰᵉˡˡ :"]
-#↓:↑
-#—:—@· —:—[": NEULINGE-LAYOUT-WECHSEL :"]—
-#↓:↑   —:—@·¤ [": nano /Pylovara/Control/shell.conf  :"]
-#↓:↑   —:—@·¤ [": EMPFEHLUNG : PYLOVARA++ :"]
-#↓:↑
-#—:—@· —:—[": SYSTEM :"]—
-#↓:↑   —:—@·¤ —:—[": USER HOST :"]
-#↓:↑   —:—@·¤ —:—[": KERNEL VERSION :"]
-#↓:↑
-#—:—@· —:—[": LEXIKONS :"]—
-#↓:↑   —:—@·¤ [": kernel lex | waben lex | mcs lex :"]
-#↓:↑
-#—:—@· —:—[": WERKZEUGE :"]—
-#↓:↑   —:—@·¤ [": to | p | callme :"]
-#↓:↑
-#—:—@·¤ —:—[$: ~ :$]—
-#       ↓:↑
-#       —:—@· »[': mcs lex
-###############################################################################
