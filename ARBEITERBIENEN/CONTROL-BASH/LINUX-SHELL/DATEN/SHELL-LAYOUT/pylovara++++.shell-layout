@@ -21,7 +21,7 @@ export PROMPT_COMMAND='
     export PS1="
 $PV_COLOR_SYMBOL—:—[\"$PV_COLOR_PV: ᴹᶜˢ ˢʰᵉˡˡ :$PV_COLOR_SYMBOL\"]
 $PV_COLOR_SYMBOL—:—@·¤ —:—[\$: $PV_COLOR_PATH\$PV_CURRENT_DIR $PV_COLOR_SYMBOL:\$]
-$PV_COLOR_SYMBOL       —:—@· »—:—[¥: $PV_COLOR_RESET"
+$PV_COLOR_SYMBOL       —:—@· »—:—[': $PV_COLOR_RESET"
 '
 
 if [[ -r /usr/share/bash-completion/bash_completion ]]; then
