@@ -89,6 +89,60 @@
  SOBALD LUFT SHELL LEXIKON WEITER MACHEN 
 
 
+ ach stimmt .... abspeichern . 
+
+
+    -v, --[no-]verbose    erweiterte Ausgaben
+    -q, --[no-]quiet      weniger Ausgaben
+    --[no-]repo <Repository>
+                          Repository
+    --[no-]all            alle Branches versenden
+    --[no-]branches       Alias für --all
+    --[no-]mirror         alle Referenzen spiegeln
+    -d, --[no-]delete     Referenzen löschen
+    --[no-]tags           Tags versenden (kann nicht mit --all, --branches oder --mirror verwendet werden)
+    -n, --[no-]dry-run    Probelauf
+    --[no-]porcelain      maschinenlesbare Ausgabe
+    -f, --[no-]force      Aktualisierung erzwingen
+    --[no-]force-with-lease[=<Referenzname>:<Erwartungswert>]
+                          Referenz muss sich auf dem angegebenen Wert befinden
+    --[no-]force-if-includes
+                          Aktualisierungen des Remote müssen lokal integriert werden
+    --[no-]recurse-submodules (check|on-demand|no)
+                          rekursiven "push" von Submodulen steuern
+    --[no-]thin           kleinere Pakete verwenden
+    --[no-]receive-pack <receive-pack>
+                          'receive pack' Programm
+    --[no-]exec <receive-pack>
+                          'receive pack' Programm
+    -u, --[no-]set-upstream
+                          Upstream für "git pull/status" setzen
+    --[no-]progress       Fortschrittsanzeige erzwingen
+    --[no-]prune          lokal gelöschte Referenzen entfernen
+    --no-verify           "pre-push hook" umgehen
+    --verify              Gegenteil von --no-verify
+    --[no-]follow-tags    fehlende, aber relevante Tags versenden
+    --[no-]signed[=(yes|no|if-asked)]
+                          signiert "push" mit GPG
+    --[no-]atomic         Referenzen atomar versenden
+    -o, --[no-]push-option <serverspezifisch>
+                          Option übertragen
+    -4, --ipv4            nur IPv4-Adressen benutzen
+    -6, --ipv6            nur IPv6-Adressen benutzen
+
+
+  zumindest ist es mal lesbar ... jetzt verstehe ich zumindest warum 
+  mir das nix bringt .... kein befehl der das tut was er soll .. 
+
+  und wenn fehler kommen, wie oft schon vorgekommen , geht nur force .. 
+
+  also ändere ich nix ... nichts dabei .... ich brauch force ... 
+  das einzige was wirklich tut was es soll .... schade nur das 
+  der force push die historie löscht ... aber egal ... 
+  hab alles auf meinem dark server ... 
+
+
+
 #==================# SHELL UPDATER
 
  SHELL UPDATER BETA TEST GESTARTET : 
