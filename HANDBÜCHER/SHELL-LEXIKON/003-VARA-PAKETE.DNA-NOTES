@@ -121,32 +121,252 @@
 
 ###====================================|====================================###
 
- LIZENZBEREICH : GNU-PROJEKT 
- ———————————————————————————
+LIZENZBEREICH : GNU-PROJEKT
+———————————————————————————
 
+PROGRAMM : GREP
 
-
-
-###====================================|====================================###
-
- LIZENZBEREICH : GNU-PROJEKT 
- ———————————————————————————
-
-
-
-
-
-
-
+URHEBER           : MIKE HAERTEL
 
 ###====================================|====================================###
 
+LIZENZBEREICH : GNU-PROJEKT
+———————————————————————————
 
+PROGRAMM : GZIP
 
+URHEBER           : JEAN-LOUP GAILLY
+DEKOMPRESSION     : MARK ADLER
 
+###====================================|====================================###
 
+LIZENZBEREICH : GNU-PROJEKT
+———————————————————————————
 
+PROGRAMM : SED
 
+URHEBER           : JAY FENLASON
+WEITERENTWICKLUNG : TOM LORD
+WEITERENTWICKLUNG : KEN PIZZINI
+WEITERENTWICKLUNG : PAOLO BONZINI
+WEITERENTWICKLUNG : JIM MEYERING
+WEITERENTWICKLUNG : ASSAF GORDON
+
+###====================================|====================================###
+
+LIZENZBEREICH : GNU-PROJEKT
+———————————————————————————
+
+PROGRAMM : TAR
+
+URHEBER           : JOHN GILMORE
+GNU-ENTWICKLUNG   : JAY FENLASON
+GNU-ENTWICKLUNG   : JOY KENDALL
+WEITERENTWICKLUNG : THOMAS BUSHNELL
+WEITERENTWICKLUNG : FRANÇOIS PINARD
+WEITERENTWICKLUNG : PAUL EGGERT
+
+###====================================|====================================###
+
+LIZENZBEREICH : DRITTANBIETER
+———————————————————————————
+
+PROGRAMM : CURL
+
+URHEBER           : DANIEL STENBERG
+
+###====================================|====================================###
+
+LIZENZBEREICH : DRITTANBIETER
+———————————————————————————
+
+PROGRAMM : UTIL-LINUX
+
+BEREICH : FDISK
+URHEBERSCHAFT     : QUELLVERSION PRÜFEN
+
+BEREICH : LSBLK
+URHEBER           : MILAN BROZ
+WEITERENTWICKLUNG : KAREL ZAK
+
+BEREICH : LSCPU
+URHEBER           : CAI QIAN
+
+###====================================|====================================###
+
+LIZENZBEREICH : DRITTANBIETER
+———————————————————————————
+
+PROGRAMM : PROCPS-NG
+
+BEREICH : FREE
+URHEBERSCHAFT     : QUELLVERSION PRÜFEN
+
+BEREICH : PS
+URHEBER           : BRANKO LANKESTER
+NEUIMPLEMENTIERUNG: MICHAEL K. JOHNSON
+WEITERENTWICKLUNG : MICHAEL SHIELDS
+WEITERENTWICKLUNG : CHARLES BLAKE
+WEITERENTWICKLUNG : ALBERT CAHALAN
+
+BEREICH : TOP
+URHEBER           : JAMES C. WARNER
+
+###====================================|====================================###
+
+LIZENZBEREICH : DRITTANBIETER
+———————————————————————————
+
+PROGRAMM : FZF
+
+URHEBER           : JUNEGUNN CHOI
+
+###====================================|====================================###
+
+LIZENZBEREICH : DRITTANBIETER
+———————————————————————————
+
+PROGRAMM : GIT
+
+URHEBER           : LINUS TORVALDS
+
+###====================================|====================================###
+
+LIZENZBEREICH : DRITTANBIETER
+———————————————————————————
+
+PROGRAMM : LESS
+
+URHEBER           : MARK NUDELMAN
+
+###====================================|====================================###
+
+LIZENZBEREICH : DRITTANBIETER
+———————————————————————————
+
+PROGRAMM : LSHW
+
+URHEBER           : LYONEL VINCENT
+QUELLVERSION      : B.02.20 PRÜFEN
+
+###====================================|====================================###
+
+LIZENZBEREICH : DRITTANBIETER
+———————————————————————————
+
+PROGRAMM : PCIUTILS
+
+BEREICH : LSPCI
+URHEBER           : MARTIN MARES
+
+###====================================|====================================###
+
+LIZENZBEREICH : DRITTANBIETER
+———————————————————————————
+
+PROGRAMM : USBUTILS
+
+BEREICH : LSUSB
+URHEBERSCHAFT     : QUELLVERSION PRÜFEN
+
+###====================================|====================================###
+
+LIZENZBEREICH : DRITTANBIETER
+———————————————————————————
+
+PROGRAMM : NANO
+
+URHEBER           : CHRISTOPHER ALLEGRETTA
+
+###====================================|====================================###
+
+LIZENZBEREICH : DRITTANBIETER
+———————————————————————————
+
+PROGRAMM : ROFI
+
+URSPRUNG          : SEAN PRINGLE
+ROFI-ENTWICKLUNG  : DAVE DAVENPORT
+
+###====================================|====================================###
+
+LIZENZBEREICH : DRITTANBIETER
+———————————————————————————
+
+PROGRAMM : DWL
+
+PROJEKT           : SUCKLESS
+URHEBERSCHAFT     : ERSTEN QUELLSTAND PRÜFEN
+
+###====================================|====================================###
+
+LIZENZBEREICH : DRITTANBIETER
+———————————————————————————
+
+PROGRAMM : WAYBAR
+
+PROJEKT           : ALEXAYS / WAYBAR
+URHEBERSCHAFT     : ERSTEN QUELLSTAND PRÜFEN
+
+###====================================|====================================###
+
+LIZENZBEREICH : DRITTANBIETER
+———————————————————————————
+
+PROGRAMM : TREE
+
+URHEBER           : STEVE BAKER
+URHEBER           : THOMAS MOORE
+URHEBER           : FRANCESC ROCHER
+URHEBER           : FLORIAN SESSER
+URHEBER           : KYOSUKE TOKORO
+
+###====================================|====================================###
+
+LIZENZBEREICH : GNU-PROJEKT
+———————————————————————————
+
+PROGRAMM : WHICH
+
+URHEBER           : CARLO WOOD
+
+###====================================|====================================###
+
+LIZENZBEREICH : DRITTANBIETER
+———————————————————————————
+
+PROGRAMM : XZ UTILS
+
+URHEBER           : LASSE COLLIN
+CODEGRUNDLAGE     : IGOR PAVLOV
+
+###====================================|====================================###
+
+LIZENZBEREICH : DRITTANBIETER
+———————————————————————————
+
+PROGRAMM : KITTY
+
+URHEBER           : KOVID GOYAL
+
+###====================================|====================================###
+
+LIZENZBEREICH : GNU-PROJEKT
+———————————————————————————
+
+PROGRAMM : BC
+
+URHEBER           : PHILIP A. NELSON
+
+###====================================|====================================###
+
+LIZENZBEREICH : DRITTANBIETER
+———————————————————————————
+
+PROGRAMM : UTIL-LINUX / PROCPS-NG
+
+HINWEIS           : WEITERE QUELLDATEIEN UND COPYRIGHT-VERMERKE
+DER INSTALLIERTEN VERSION PRÜFEN
 
 ###===========================DRITT-ANBIETER-LIZENZ=========================###
 ###================================ENDPUNKT=================================###
