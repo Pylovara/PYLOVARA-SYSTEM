@@ -1,1 +1,0 @@
-/usr/bin/cc -Wl,--dependency-file=CMakeFiles/test_if.dir/link.d CMakeFiles/test_if.dir/Lab/test_if.c.o -o test_if  libmcs_core.a

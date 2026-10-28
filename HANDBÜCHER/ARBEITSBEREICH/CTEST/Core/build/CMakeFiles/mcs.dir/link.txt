@@ -1,1 +1,0 @@
-/usr/bin/cc -Wl,--dependency-file=CMakeFiles/mcs.dir/link.d CMakeFiles/mcs.dir/main.c.o -o mcs  libmcs_core.a

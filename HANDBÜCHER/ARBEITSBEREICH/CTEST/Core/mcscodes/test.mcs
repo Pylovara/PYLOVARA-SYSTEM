@@ -1,7 +1,0 @@
-¢!
-# Datei test.mcs
-# Feed transport | Blankernenner | SystemCMD | Argument ««t1 |
-»['pgrep'|¨firefox¨|(1)¨$pgrep firefox¨]«
-»['kill'|(1)¨¨]«««t1
-»['echo'|¨Firefox¨|(1)¨¨|¨beendet¨]«
-!¢

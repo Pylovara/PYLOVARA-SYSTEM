@@ -1,1 +1,0 @@
-/usr/bin/cc -Wl,--dependency-file=CMakeFiles/test_action.dir/link.d CMakeFiles/test_action.dir/Lab/test_action.c.o -o test_action  libmcs_core.a

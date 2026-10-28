@@ -1,1 +1,0 @@
-/usr/bin/cc -Wl,--dependency-file=CMakeFiles/test_trans.dir/link.d CMakeFiles/test_trans.dir/Lab/test_trans.c.o -o test_trans  libmcs_core.a

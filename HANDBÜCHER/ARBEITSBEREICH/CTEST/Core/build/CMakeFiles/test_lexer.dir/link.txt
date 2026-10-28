@@ -1,1 +1,0 @@
-/usr/bin/cc -Wl,--dependency-file=CMakeFiles/test_lexer.dir/link.d CMakeFiles/test_lexer.dir/Lab/test_lexer.c.o -o test_lexer  libmcs_core.a
