@@ -16,7 +16,15 @@ _dna_completions() {
     COMPREPLY=()
     cur="${COMP_WORDS[COMP_CWORD]}"
 
+    local prev="${COMP_WORDS[COMP_CWORD-1]}"
     local cmds=$(cd /PYLOVARA-SYSTEM/ARBEITERBIENEN/CONTROL-BASH/LINUX-SHELL/DATEN/SHELL-PROGRAMME/CMD && $Vara_Dir/ls.vara *.cmd-dna 2>/dev/null | $Vara_Dir/sed.vara 's/.dna-cmd$//')
+
+    # Ebene 2 : dna start <programm> -> Oeffne Tab-Vervollstaendigung fuer Programme
+    if [[ "$prev" == "start" ]]; then
+        local apps=$(ls /usr/share/applications/*.desktop 2>/dev/null | xargs -n1 basename | sed 's/\.desktop$//')
+        COMPREPLY=( $(compgen -W "$apps" -- "$cur") )
+        return 0
+    fi
 
     COMPREPLY=( $(compgen -W "$cmds" -- "$cur") )
 }

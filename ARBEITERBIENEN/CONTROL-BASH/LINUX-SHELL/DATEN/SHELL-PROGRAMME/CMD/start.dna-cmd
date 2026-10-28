@@ -1,0 +1,22 @@
+#!/bin/bash
+# start.dna-cmd – Start/Öffnen eines Programms via dna start <programm>
+
+Varra_Dir="/PYLOVARA-SYSTEM/ARBEITERBIENEN/CONTROL-BASH/LINUX-SHELL/DATEN/SHELL-PROGRAMME/VARA"
+
+DNA_EXEC() {
+    local program="$1"
+
+    if [[ -z "$program" ]]; then
+        echo "❌ Nutzung: dna start <programm>"
+        return 1
+    fi
+
+    if ! command -v "$program" >/dev/null 2>&1; then
+        echo "❌ Programm '$program' wurde nicht gefunden."
+        return 1
+    fi
+
+    echo "🧬 Starte '$program' ..."
+    nohup "$program" >/dev/null 2>&1 &
+    echo "✅ '$program' wird gestartet."
+}
