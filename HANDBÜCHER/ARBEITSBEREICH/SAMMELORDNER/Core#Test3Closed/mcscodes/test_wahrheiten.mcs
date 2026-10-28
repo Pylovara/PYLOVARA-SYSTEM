@@ -1,0 +1,7 @@
+¢!
+# Datei : test_wahrheiten.mcs
+# Wahrheiten Logik IF Else
+    »['$terminal']«
+    ¶ »['$terminal']
+    ¶¶ ['cd'|¨/Pylovara/]«
+!¢

@@ -1,0 +1,5 @@
+¢!
+# Datei : test_echo.mcs
+# SystemCMD | Aktion | Transaktion
+    »['echo'|¨test1.mcs wurde korrekt ausgeführt¨]«
+!¢

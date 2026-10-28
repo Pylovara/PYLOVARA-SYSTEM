@@ -1,0 +1,5 @@
+¢!
+»['pgrep'|¨firefox¨|(1)¨$(pgrep firefox)¨]
+    ['kill'|¨(1)¨]«««t1
+»['echo'|"Firefox Gekillt"]«
+!¢

@@ -1,0 +1,4 @@
+cd /Pylovara/MCSVerilog/Kernprozesse
+iverilog -o mcs_sim.out mcs_sim.v mcs_sim_tb.v ../Proteine/mcs_protein.v
+vvp mcs_sim.out
+gtkwave mcs_sim.vcd
