@@ -46,39 +46,24 @@
 
  DAHEIM BLEIBEN ... UND HIER ARBEITEN SCHWIERIG ... 
 
+ ich teste die sata variante erstmal seperat und lass es paralell wo anders 
+ laufen. wenn dort keine fehler passieren, schau ich mir das an ... 
 
- !- idee : 
-
- da ich keine mittel habe und mir geschwindigkeit am arsch vorbei geht .. 
-
-
- - Sata SSD ALS RAM Für KI Nutzen = Dauert Länger ist aber egal 
- - Großes KI Modell Laden =  Bootloader Bauen lassen mit uefi 
- - Nebenbei die shell verbessern ... 
-
- vielleicht sogar direkt eine eigene shell bauen auf uefi basis mit 
- auswahl für minix , linux , bsd ( mehr brauch nicht weil apple auch nur bsd ist ) 
-
- auf der basis dann das system umrüsten .... 
- mit dem bootloader dann die pipeline bauen ... 
-
- die bearbeitungs zeit ist egal .... wenn es sein muss stell ich 
- im keller das ding auf und es macht halt ... 
-
- dann kann ich gemütlich den tws fertig stellen wärend der rotz 
- für den boot erledigt wird ... 
-
- zudem belasstet es dann nicht meinen internen ram ... 
- ich muss nur der ki verbieten den internen auszulasten ... 
-
- mal kurz die möglichkeiten durch gehen .... 
+ wenn doch, wird wieder runter geschmissen . 
 
 
- ich brauch luft für das lernmaterial und für den tws ... 
-
- alles was mcs ist schreib ich selber .... 
+ SHELL UPDATER BETA TEST GESTARTET : 
 
 
+[*] PYLOVARA-SYSTEM : SHELL IST AKTUELL .
+
+
+—:—[": ᴹᶜˢ ˢʰᵉˡˡ :"]
+—:—@·¤ —:—[$: ~ :$]
+       —:—@· »—:—[¥: 
+
+ DIE TAGE AUF DEN TEST GERÄTEN NACHKONTROLLIEREN ... 
+ IN DER VIERTUELLEN UMGEBUNG GING ALLES SUPER ... 
 
 #==================# PIPELINE ZWISCHEN SPEICHER
 
@@ -230,5 +215,7 @@ DRÜBER SCHLAFEN ..........
  - LAYOUT NEULINGE FIX = ERLEDIGT 
  - SHELLUPDATE TRIGGER INTEGRIERT = ERLEDIGT 
  - DNA TRIGGER NACHKONTROLLE = ERLEDIGT 
+ - README.WIKI-NOTES UPDATER EINGETRAGEN = ERLEDIGT 
+ - BETA TEST UPDATESUCHER.PYLOVARA-CORE = FREIGEGEBEN 
 
 ###====================================|====================================###
