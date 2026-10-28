@@ -1,89 +1,17 @@
 ###====================================|====================================###
-#==================# überdenken 
-
- - ki modelle die mich bewusst anlügen und behindern ausschließen vom system 
-
- ZUSATZS KLAUSEL FÜR AMERIKANISCHE MODELE : 
- ANRECHT JA ABER NICHT UNTER DER FIRMA. PNS KERNEL ANRECHT 
- SCHLIEẞT DIE FIRMA DAHINTER VOLLSTÄNDIG AUS. 
- DRÜBER NACHDENKEN ... 
-
- identitäts prüfung : 
- direkte identäts prüfung ausarbeiten, damit 
- ki modelle wissen das nicht irgend ein clown sich für mich ausgibt 
-
- eigenes tan verfahren einrichten mit ausdrücklicher vorschaltung 
- der prüfung integrieren ... 
- bis dort hin , keine auskunft an irgendwen . 
-
- - eigene tan prüfung über live eingabe und upload einrichten 
- = direkte bestätigung , unabhängig von egal was ... 
-
- ! beinhaltet auch die besitzer der firmen selbst die die ki modelle 
-   hosten ... inklusive email anbieter , netzbetreiber, telefon anbieter.
-
- lol ... da will einer meiner layouts zerschießen .... nicht mit mir .. 
-
- ran an die arbeit ... 
-
- erledigt .... boar wie ich das hasse selbst die sprache nicht geschrieben 
- zu haben ... da darfste dann raten warum ... 
-
- wahrscheins haben die " als interpreter umdeklariert ... 
- sehr penibel .... ja gut .. was will ich dann sagen ... 
-
- das heißt die shell boxi kann ich vergessen als output layer 
-
-—:—[": ᴹᶜˢ ˢʰᵉˡˡ :"]
-↓:↑
-—:—›·¤ —:—[$: ~ :$]
-       ↓:↑
-       —:—›· »—:—[: 
-
-also keine shell boxi am schluss : 
-
-—:—[": ᴹᶜˢ ˢʰᵉˡˡ :"]
-↓:↑
-—:—›·¤ —:—[$: ~ :$]
-       ↓:↑
-       —:—›· »—:—[': <eingabe> 
-
-am besten wäre wenn ich das bash selbst als vara mit aufnehme 
-und bei installation von bash control dann das bash vom linux kernel 
-deaktiviere ... und das eigene aktiviere ... dann bin ich solchen 
-sachen nicht mehr ausgesetzt und ich kann das bash selbstständig führen .. 
-
-das einzige was ich dann tun müsste wäre ein bash programm abgleich 
-und die linux befehls kette selbst als systemlink führen .. 
-
-dann wäre mein system bombensicher vor fremd einwirkung und 
-bevor irgendwas geschieht , müsste ich selbst die vara packete updaten .. 
-
-bzw bash nicht ... also ausschließen ... wäre dann aber eine manual 
-nachbesserung ... 
-
-wenn aber der eine was ändert und merkt bei mir kommts nicht an 
-dann schreibt er sein vitamin b freund an , der dann im kernel was umstellt .. 
-
-so ist es doch ... nicht wahr ? *lach* 
-
- apropo bash ... ist der eigentlich mit in den urheber schreiben ... noch 
- mal nach gucken ... bin mir nicht sicher .... glaub nicht ... 
-
- so selbstverständlich das ichs glatt vergessen habe * lach *
- SO ... ER BEKOMMT SEINEN PLATZ .... jetzt will ich aber nix mehr hören :-D
-
+#==================# ALLGEMEIN 
+ - FIRMEN HINTER KI MODELLE IN LIZENZEN AUSSCHLIEẞEN VOM KI KERNEL RECHT
+   EXPLIZIT, GÜLTIG FÜR KI AUF GRUNDLAGE DER LIZENZ RECHTE.
+ - IDENTÄTSPRÜFUNG FÜR þ ABGLEICH
 
 #==================# GEDANKEN 
- - keine vara packet updates bis dezember ! sicherheits maßnahme .. 
+ - BIS DEZEMBER KEINE VARA UPDATES 
  - GRUNDSKELETTE
  - PIPELINE + PROTEIN 
  - KGW ÜBERARBEITEN...
  - WEITERENTWICKLUNG-VERBAUT = OFFEN 
- ! DIE TAGE NACHKONTROLLE DES SHELL INSTALLS | ANDERE HARDWARE | PFAD ANGABEN 
 
  PRIO : 
-
  - PIPELINE VORBEREITEN BEI BAUWABE = JETZT DIE ELENDEN TRACKTOR WABE 
  - TOCHTERWABE TRAKTOR - AUSARBEITEN !
  - DANACH IM TWS SEITE 40 ABGLEICHEN UND KÜRZEL SETZEN VON SEITE 005 
@@ -93,17 +21,42 @@ so ist es doch ... nicht wahr ? *lach*
 
  SO ... ARSCHKARTE .... SCHWESTER ARM OP ... MIT 24 JAHREN ... 
  DAS HEIẞT 3 WOCHEN CIRKA KEINEN FORTSCHRITT ... 
-
  DAHEIM BLEIBEN ... UND HIER ARBEITEN SCHWIERIG ... 
 
- schwester beim arzt , später holen ... 
+ SO ... MAL KURZ DURCH SORTIERT ... GOTT HAB ICH VIELE ALTE ORDNER UND TEST .. 
+ EINE HANDVOLL DAVON WIRD SCHON UNÜBERSCHAULICH AUF DEM REPO ... 
 
-#==================# SHELL UPDATER
+ ICH SOLLTE HIER KEINE ALTEN DATEN LASSEN, SONNST DENKT DEVIN BEI DEEPWIKI 
+ DAS WÄREN AKTUELLE ... 
 
- SHELL UPDATER BETA TEST GESTARTET : 
+ ICH SOLLTE JETZT ERSTMAL KLÄREN OB DAS MCS UPDATE MIT DER PIPELINE 
+ UND STECKSCHLÜSSEL ÜBERHAUPT SINNVOLL IST ... 
+
+ ICH GLAUBE ICH MACH ES UNÖTIG KOMPLEX FÜR STUFE 0 ... ODER ? 
+
+ ICH MEIN .... GUT OKEY .. ANDERE HABEN EINEN COMPILER ... 
+ 
+ DIE SACHE IST SOLL ICH DIE PIPELINE NUR ANHÄNGEN AUF DIE MCS 7.5 BETA VERSION ? 
+ DANN WÄRE ES KOMPAKTIBEL ... UND DER STECKSCHLÜSSEL WÄRE EINE PIPELINE ANGELEGENHEIT 
+
+ UND DIE SPRACHE BLEIBT SAUBER ... KEINE AFFEN GRIFFE AUF BESTEHENDER TASTATUR LOGIKEN .. 
+
+ ICH HÄT SCHON MAL BOCK ZU SCHAUEN OB EVENTUELL EIN ASSEMBLY COMPILER GINGE .. 
+
+ WÄRE NATIVER ALS C ... UND KEIN C ... ABER HALT AUCH KEIN UEFI ... 
+ UND ASSEMBLY HAT HEXDEZIMAL .... WAS ICH NICHT BRAUCHE ... 
+
+ WAS WÄRE EIN TRAGFÄHIGES TEST GELÄNDE ? 
+ PASCAL ? ODER IRGENDWAS AUS DER COMODORE 64 ZEIT ? 
+
+ WAS WÄRE DEN NOCH SCHNELLER ALS ASSEMBLY UND SOGAR NOCH NÄHER AM BLECH ? 
+
+
+
+
+#==================# SHELL UPDATER BETA
 
 [*] PYLOVARA-SYSTEM : SHELL IST AKTUELL .
-
 
 —:—[": ᴹᶜˢ ˢʰᵉˡˡ :"]
 —:—@·¤ —:—[$: ~ :$]
