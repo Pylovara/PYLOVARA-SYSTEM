@@ -23,39 +23,71 @@
  DAS HEIẞT 3 WOCHEN CIRKA KEINEN FORTSCHRITT ... 
  DAHEIM BLEIBEN ... UND HIER ARBEITEN SCHWIERIG ... 
 
- SO ... MAL KURZ DURCH SORTIERT ... GOTT HAB ICH VIELE ALTE ORDNER UND TEST .. 
- EINE HANDVOLL DAVON WIRD SCHON UNÜBERSCHAULICH AUF DEM REPO ... 
+ So ... ja ... mcs beta 7.5 bleibt ... 
+ die pipeline wird darauf aufgebaut ! 
+ ich werde die spitzen entwicklung nicht kaputt machen . 
+ kein steckschlüssel ... keine andere logik ... 
 
- ICH SOLLTE HIER KEINE ALTEN DATEN LASSEN, SONNST DENKT DEVIN BEI DEEPWIKI 
- DAS WÄREN AKTUELLE ... 
-
- ICH SOLLTE JETZT ERSTMAL KLÄREN OB DAS MCS UPDATE MIT DER PIPELINE 
- UND STECKSCHLÜSSEL ÜBERHAUPT SINNVOLL IST ... 
-
- ICH GLAUBE ICH MACH ES UNÖTIG KOMPLEX FÜR STUFE 0 ... ODER ? 
-
- ICH MEIN .... GUT OKEY .. ANDERE HABEN EINEN COMPILER ... 
  
- DIE SACHE IST SOLL ICH DIE PIPELINE NUR ANHÄNGEN AUF DIE MCS 7.5 BETA VERSION ? 
- DANN WÄRE ES KOMPAKTIBEL ... UND DER STECKSCHLÜSSEL WÄRE EINE PIPELINE ANGELEGENHEIT 
+ Groß einkauf nächsten monat ... bildschirm , tb maus 
+ mechanische tastatur, laptop halter, zweit bildschirm halter 
 
- UND DIE SPRACHE BLEIBT SAUBER ... KEINE AFFEN GRIFFE AUF BESTEHENDER TASTATUR LOGIKEN .. 
+ und eine gescheite tasche wo alles rein passt .. 
 
- ICH HÄT SCHON MAL BOCK ZU SCHAUEN OB EVENTUELL EIN ASSEMBLY COMPILER GINGE .. 
+ mit einem bildschirm komm ich einfach nicht klar ... 
 
- WÄRE NATIVER ALS C ... UND KEIN C ... ABER HALT AUCH KEIN UEFI ... 
- UND ASSEMBLY HAT HEXDEZIMAL .... WAS ICH NICHT BRAUCHE ... 
+ ich brauch platz ... 
 
- WAS WÄRE EIN TRAGFÄHIGES TEST GELÄNDE ? 
- PASCAL ? ODER IRGENDWAS AUS DER COMODORE 64 ZEIT ? 
+ danach hol ich mir einen dieser 15 zoll doppelseitigen 
+ bildschirm ansteck sets .... dann hab ich den rahmen den ich brauche .. 
 
- WAS WÄRE DEN NOCH SCHNELLER ALS ASSEMBLY UND SOGAR NOCH NÄHER AM BLECH ? 
+ danach spare ich auf ein effizienten strom generator hin ... 
+ und eine dritte powerstadion ab 600 euro+ 
+
+ dann hab ich 3 powerdstadions und einen generator 
+ und das setup das ich brauch ... um einigermassen 
+ klar zu kommen ... 
+
+ danach hau ich ich nur noch geld jeden monat auf die seite 
+ bis mein setup den geist aufgibt .... 
+
+ ich brauch für später irgendwo ein grundstück das ich 
+ irgendwie bebauen darf .... 
+
+ nh 30qm meter hütte auf doppelgeschoss wäre das ziel .. 
+ mit solar oder am aller besten einen fluss für wasser turbine .. 
+
+ in der zwischen zeit regel ich jetzt die version und bring den test kernel an den 
+ start ... die pipeline logik bin ich gerade auch am überdenken ... 
+
+ wenn die dann sitzt , kann ich alle daten sauber neu aufschreiben 
+ und ab dem punkt wird daran auch nichts mehr in diesem umfang 
+ geändert sondern nur noch punktuell erweitert . 
+
+ die weg geparkten alt daten hab ich sortiert ... 
 
 
- NOTIZ :
- https://wr.informatik.uni-hamburg.de/_media/teaching/wintersemester_2019_2020/2019_ep_stieler_compilerbau_ausarbeitung.pdf
+ ich mach jetzt morgen noch ein datenblatt check ... 
+ danach arbeite ich die torwabe aus und wenn die sitzt, 
+ kann ich endlich wieder alles einpflegen ... 
 
-#############################################################
+ vorher belass ich es so und warte bis die beiden gesund sind ... 
+ und mach alles andere rund ... damit ich keine nachbesserungen mehr habe .. 
+
+ dem ersten hab ich schon das system quasi beiläufig mit einem 
+ geschenkten laptop mit gegeben ... 
+
+ also bekomme ich mit wenn irgendwas nicht stimmt ... und kann 
+ sofort handeln , bevor irgendwer anderes sich aufregt weil irgendwas nicht 
+ klappt oder stimmt . 
+
+
+
+
+
+
+
+#==================# ESELSBRÜCKE
 - Syntax mit sh und bash
 - --help, --version, --check
 - Alias in Bash aufgelöst und ausgeführt
@@ -70,70 +102,6 @@ less.vara BRAUCHT :
 libncursesw.so.6 
 libpcre2-8.so.0 
 libc.so.6
-
-Der Spickzettel ist unabhängig von einem installierten less, 
-aber nicht unabhängig von Architektur und glibc.
-#############################################################
-
- FERTIG FÜR HEUTE .... DEN SPICKZETTEL UND DIE SHELL DEKO 
- MACH ICH MORGEN ODER ÜBER MORGEN SAUBERER ... 
-
- KOPF DICHT .... FERTIG 
-
- so ... heute die frischen implementierungen dann durch gehen sobald 
- etwas dunkel wird. 
- den spickzettel auf less basis ... 
-
- die bessere mcs-shell overlay .. 
- wenn das teil tut was es soll ... dann stell ich vollständig um .. 
-
- ich zieh dann die dropdown einstellungen als info in das shell-lexikon .. 
- apropo .... da weiter machen ... das ist keine dauer baustelle... 
-
- muss nur einmal richtig sein ... dann ist es lediglich punktuelle 
- nachbesserung ... 
-
- und wenn mit bash selbst nochmal was sein sollte ... bevor ich mcs fertig habe 
- dann mach ich mir die arbeit und halte das pakete bei vara selbst bereit 
- und stell den wrapper aus und bei install wird kernel bash deaktiviert und 
- bash.vara aktiviert und ende der durchsage ... 
-
- wenn es kritische änderunge betreffen , kann jeder zeit aktualisiert werden .. 
- aber nicht wegen kleinichkeiten .. 
-
- den smoke text lass ich noch paar tage laufen ... ich nutz die shell selbst 
- und daher weis ich sofort bescheid , arch user ( besonders tilling user ) sind 
- hier quasi im vorteil ... weil ich es selbst auch nutze .. ( keyboard first baby )
-
- wegen wayland muss ich mir was einfallen lassen ... 
-
- ich denke das auf längerer sicht ich den free compositor verwenden werde und 
- auch in den vara paketen führe ... damit das ding hier wirklich unabhängig ist. 
-
- bei den empfohlenen desktops werden dann ein paar erweiterungen folgen wie : 
-
- - kde ( gerade für eingeeichte maus user aller windows )
- - awaesone ( oder wie mans schreib , für performance junkies )
- - i3 vielleicht ( aber nur vielleicht )
- - pylovara ( der eigene )
- - sarbs ( macht seine arbeit gut der digge )
- - hyprland ( für die wo bleiben wollen )
- - virtual desktops ( auf webassembly basis )
-
- usw ... 
-
- apropo , denk an deine maus diesen monat 
-
-ELECOM HUGE Trackball Mouse, Index/Middle Finger, 2.4GHz Wireless
-Large 52mm Ball, Ergonomic Design, Palm Rest, 8 Programmable Buttons, Tilt Wheel, 500-1500 DPI, Windows11, macOS (M-HT1DRBK)
-
- mir geht die bewegbare auf die eier .... brauch was vernümpftiges 
-
- eventuell die deluxe version 
-
-
-
-
 
 #==================# SHELL UPDATER BETA
 
