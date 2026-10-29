@@ -315,7 +315,7 @@ MUTTERWABEN-KATEGORIE ⠆⢄⡈⢐ STARTWABE
 
 ###====================================|====================================###
 ###====================================|====================================###
-###================================testbereich================================###
+###===============================testbereich===============================###
 
 MUTTERWABEN-KATEGORIE ⠆⢄⠨⠑ BAUWABE 
 
@@ -341,133 +341,11 @@ MUTTERWABEN-KATEGORIE ⠆⢄⠨⠑ BAUWABE
  # AXIOM | BION-ID
  AXIOM ¡ ⠆⢄⠨⠔ ⧓ ⠆⢄⠨⠘ Ξ ⠆⢄⠨⠡
 
-TOCHTERWABEN-KATEGORIE ⠆⢄⠨⡂ TRAKTORWABE
-
- # AXIOM | HOLE EINHEIT EXTRA STEUERUNG EINZELND
- AXIOM ¡ ⠆⢄⠰⠃ ⍠ ⠆⢄⠨⡄
- AXIOM ¡ ⠆⢄⠰⠅ ⍠ ⠆⢄⠤⡐
- AXIOM ¡ ⠆⢄⠰⠉ ⍠ ⠆⢄⠤⡠
- AXIOM ¡ ⠆⢄⠨⠌ ⍠ ⠆⢄⠤⢁
-
- # EINHEIT | RAM 
- EINHEIT ⠆⢄⠨⡄ ← PL-L
- EINHEIT ⠆⢄⠤⡐ ↓ PL-U
- EINHEIT ⠆⢄⠤⡠ → PL-R
- EINHEIT ⠆⢄⠤⢁ ↑ PL-H
-
- # AXIOM | SETZE STEUERUNGSVERBINDUNG 
- # PL-U
- AXIOM ¡ ⌬ ⠆⢄⠤⡐ Ξ ⠆⢄⠤⢂
- # PL-H
- AXIOM ¡ ⌬ ⠆⢄⠤⢁ Ξ ⠆⢄⠤⢈
- # PL-U | PL-R
- AXIOM ¡ ⌬ ⠆⢄⠤⡐ ⠆⢄⠤⡠ Ξ ⠆⢄⠤⢐
- # PL-U | PL-L
- AXIOM ¡ ⌬ ⠆⢄⠨⡄ ⠆⢄⠤⡐ Ξ ⠆⢄⠤⢠
-
- # LOGIK | STEUERUNG ID
- LOGIK # ⠆⢄⠤⢂ ↓ PL-U
- LOGIK # ⠆⢄⠤⢈ ↑ PL-H
- LOGIK # ⠆⢄⠤⢐ ↓→ PL-U PL-R
- LOGIK # ⠆⢄⠤⢠ ↓← PL-U PL-L
-
- # HOLE EINHEIT | KANAL1
- AXIOM ¡ ⠆⢄⠰⡐ ⍠ ⠆⢄⠤⣀
- AXIOM ¡ ⠆⢄⠰⡠ ⍠ ⠆⢄⠨⠃
- AXIOM ¡ ⠆⢄⠰⢁ ⍠ ⠆⢄⠨⠅
- AXIOM ¡ ⠆⢄⠰⢂ ⍠ ⠆⢄⠨⠉
- AXIOM ¡ ⠆⢄⠰⢐ ⍠ ⠆⢄⠨⠊
- AXIOM ¡ ⠆⢄⠰⢠ ⍠ ⠆⢄⠤⠑
- AXIOM ¡ ⠆⢄⠰⣀ ⍠ ⠆⢄⠤⠒
- AXIOM ¡ ⠆⢄⡁⠃ ⍠ ⠆⢄⠤⠔
-
- # EINHEIT | RAM 
- EINHEIT ⠆⢄⠤⣀ ←: PL-LX
- EINHEIT ⠆⢄⠨⠃ ↓: PL-UX
- EINHEIT ⠆⢄⠨⠅ →: PL-RX
- EINHEIT ⠆⢄⠨⠉ ↑: PL-HX
- EINHEIT ⠆⢄⠨⠊ :← PL-XL
- EINHEIT ⠆⢄⠤⠑ :↓ PL-XU
- EINHEIT ⠆⢄⠤⠒ :→ PL-XR
- EINHEIT ⠆⢄⠤⠔ :↑ PL-XH
-
- # AXIOM | VERBINDE LOGIK MIT 1 KANAL
- AXIOM ¡ ⠆⢄⠤⢠ ⧓ ⠆⢄⠤⣀ Ξ ⠆⢄⠤⠡
- AXIOM ¡ ⠆⢄⠤⢠ ⧓ ⠆⢄⠨⠊ Ξ ⠆⢄⠤⠢
- AXIOM ¡ ⠆⢄⠤⢐ ⧓ ⠆⢄⠨⠅ Ξ ⠆⢄⠤⠨
- AXIOM ¡ ⠆⢄⠤⢐ ⧓ ⠆⢄⠤⠒ Ξ ⠆⢄⠤⠰
- AXIOM ¡ ⠆⢄⠤⢂ ⧓ ⠆⢄⠨⠃ Ξ ⠆⢄⠤⡁
- AXIOM ¡ ⠆⢄⠤⢂ ⧓ ⠆⢄⠤⠑ Ξ ⠆⢄⠤⡂
- AXIOM ¡ ⠆⢄⠤⢈ ⧓ ⠆⢄⠨⠉ Ξ ⠆⢄⠤⡄
- AXIOM ¡ ⠆⢄⠤⢈ ⧓ ⠆⢄⠤⠔ Ξ ⠆⢄⠤⡈
-
- # KANAL1 | 1 KANAL ID
- KANAL1 ⠆⢄⠤⠡ ←: PL-LX
- KANAL1 ⠆⢄⠤⠢ :← PL-XL 
- KANAL1 ⠆⢄⠤⠨ →: PL-RX
- KANAL1 ⠆⢄⠤⠰ :→ PL-XR
- KANAL1 ⠆⢄⠤⡁ ↓: PL-UX
- KANAL1 ⠆⢄⠤⡂ :↓ PL-XU
- KANAL1 ⠆⢄⠤⡄ ↑: PL-HX
- KANAL1 ⠆⢄⠤⡈ :↑ PL-XH
------------------------------------------
- # AXIOM | HOLE EINHEIT | KANAL2
- AXIOM ¡ # ⍠ RA
- AXIOM ¡ # ⍠ RA
- AXIOM ¡ # ⍠ RA
- AXIOM ¡ # ⍠ RA
-
- # EINHEIT | RAM 
- EINHEIT # RA 
- EINHEIT # RA
- EINHEIT # RA
- EINHEIT # RA
-
- # AXIOM | VERBINDE LOGIK MIT 2 KANAL
- AXIOM ¡ RA ( SPÄTER) RA  Ξ KA2
-
-  # KANAL2 | 1 KANAL ID
- KANAL2 # KA2
- KANAL2 # KA2
- KANAL2 # KA2
- KANAL2 # KA2
- KANAL2 # KA2
- KANAL2 # KA2
------------------------------------------
- # AXIOM | HOLE EINHEIT STECKSCHLÜSSEL 
- AXIOM ¡ # ⍠ RA
-
- # EINHEIT | RAM 
- EINHEIT # RA
- EINHEIT # RA
- EINHEIT # RA
- EINHEIT # RA
-
- # AXIOM | STECKSCHLÜSSEL VERSCHMELZEN
- AXIOM ¡ RA ≡ STECKS
- AXIOM ¡ RA ≡ STECKS
- AXIOM ¡ RA ≡ STECKS
- AXIOM ¡ RA ≡ STECKS
- AXIOM ¡ # ⑅ RA RA RA RA Ξ 
-
- # STECKSCHLÜSSEL | STECKS 
- STECKSCHLÜSSEL # STECKS
-
- # STEUERSCHLÜSSEL ID
- STEUERSCHLÜSSEL # STEUES
-
- # AXIOM | VERBINDE PL-HU UND UH IM STEUERSCHLÜSSEL
- AXIOM ¡ STEUES (AXP)
+TOCHTERWABEN-KATEGORIE ⠆⢄⠨⡂ 
 
 
--------------------------------------------------------------
 
- !!! AB HIER DIE EIGENTLICHE RASTER ALLER KOMPONENTEN 
-     DIE ANGESCHLOSSEN WERDEN ... 
-
-
-####
- ⟲
+!!! BAUSTELLE
 
 
 
@@ -475,6 +353,7 @@ TOCHTERWABEN-KATEGORIE ⠆⢄⠨⡂ TRAKTORWABE
 
 
 
+###====================================|====================================###
 
 
 
