@@ -80,9 +80,54 @@ aber nicht unabhängig von Architektur und glibc.
 
  KOPF DICHT .... FERTIG 
 
+ so ... heute die frischen implementierungen dann durch gehen sobald 
+ etwas dunkel wird. 
+ den spickzettel auf less basis ... 
 
+ die bessere mcs-shell overlay .. 
+ wenn das teil tut was es soll ... dann stell ich vollständig um .. 
 
+ ich zieh dann die dropdown einstellungen als info in das shell-lexikon .. 
+ apropo .... da weiter machen ... das ist keine dauer baustelle... 
 
+ muss nur einmal richtig sein ... dann ist es lediglich punktuelle 
+ nachbesserung ... 
+
+ und wenn mit bash selbst nochmal was sein sollte ... bevor ich mcs fertig habe 
+ dann mach ich mir die arbeit und halte das pakete bei vara selbst bereit 
+ und stell den wrapper aus und bei install wird kernel bash deaktiviert und 
+ bash.vara aktiviert und ende der durchsage ... 
+
+ wenn es kritische änderunge betreffen , kann jeder zeit aktualisiert werden .. 
+ aber nicht wegen kleinichkeiten .. 
+
+ den smoke text lass ich noch paar tage laufen ... ich nutz die shell selbst 
+ und daher weis ich sofort bescheid , arch user ( besonders tilling user ) sind 
+ hier quasi im vorteil ... weil ich es selbst auch nutze .. ( keyboard first baby )
+
+ wegen wayland muss ich mir was einfallen lassen ... 
+
+ ich denke das auf längerer sicht ich den free compositor verwenden werde und 
+ auch in den vara paketen führe ... damit das ding hier wirklich unabhängig ist. 
+
+ bei den empfohlenen desktops werden dann ein paar erweiterungen folgen wie : 
+
+ - kde ( gerade für eingeeichte maus user aller windows )
+ - awaesone ( oder wie mans schreib , für performance junkies )
+ - i3 vielleicht ( aber nur vielleicht )
+ - pylovara ( der eigene )
+ - sarbs ( macht seine arbeit gut der digge )
+ - hyprland ( für die wo bleiben wollen )
+ - virtual desktops ( auf webassembly basis )
+
+ usw ... 
+
+ apropo , denk an deine maus diesen monat 
+
+ELECOM HUGE Trackball Mouse, Index/Middle Finger, 2.4GHz Wireless
+Large 52mm Ball, Ergonomic Design, Palm Rest, 8 Programmable Buttons, Tilt Wheel, 500-1500 DPI, Windows11, macOS (M-HT1DRBK)
+
+ mir geht die bewegbare auf die eier .... brauch was vernümpftiges 
 
 
 
