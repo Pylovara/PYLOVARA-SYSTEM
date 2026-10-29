@@ -301,21 +301,17 @@ Aber du bist nicht verrückt. Du bist nah dran.
 
  TRAKTOR TWS WABEN ELEMENTE 
 
- SYMBOL       = — 
+ SYMBOL          = — 
 
- SYMBOL LOGIK = ZUFUHR ↓ | ENTNAHME ↓ | PROZESSSTRANG →
+ SYMBOL LOGIK = PROZESSSTRANG = ↓→
 
  SEMNATISCH DARGESTELLT = 
 
- ↓
- — →
- ↓
-
------------------------------------------------
+ — 
 
  BEDEUTUNG       = CONNECTOR 
 
- BEDEUTUNG LOGIK = ANSCHLUSS SEKTOR — = ↓→
+ BEDEUTUNG LOGIK = ANSCHLUSS SEKTOR 
 
 -----------------------------------------------
 
