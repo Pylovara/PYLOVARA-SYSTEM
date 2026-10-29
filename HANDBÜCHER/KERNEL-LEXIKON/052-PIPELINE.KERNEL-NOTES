@@ -115,200 +115,35 @@ MUTTERWABEN-KATEGORIE ⠆⢄⡈⢐ STARTWABE
  AXIOM ¡ ⠆⢄⡈⠃ ⧓ ⠆⢄⡈⠅ Ξ ⠆⢄⡈⠉
 
  # TASTEN
- TASTENCODE ⠆⢄⡈⠔ ALTGR
- TASTENCODE ⠆⢄⡈⠘ SHIFT
- TASTENCODE ⠆⢄⡈⠡ .
- TASTENCODE ⠆⢄⡈⠢ -
- TASTENCODE ⠆⢄⡄⠨ R
- TASTENCODE ⠆⢄⡄⠰ C
- TASTENCODE ⠆⢄⡄⡁ K
- TASTENCODE ⠆⢄⡄⡠ <
- TASTENCODE ⠆⢄⡁⢁ Z
- TASTENCODE ⠆⢄⡁⢂ U
- TASTENCODE ⠆⢄⡁⢈ I
+ TASTENCODE # TT
+ TASTENCODE # TT
 
  # AXIOM | SYMBOL BAUEN
- AXIOM ¡ ⠆⢄⡈⠔ ⦻ ⠆⢄⡈⠘ ⦻ ⠆⢄⡈⠢ Ξ ⠆⢄⡂⠌
- AXIOM ¡ ⠆⢄⡈⠘ ⦻ ⠆⢄⡈⠡ Ξ ⠆⢄⡂⠑
- AXIOM ¡ ⠆⢄⡈⠔ ⦻ ⠆⢄⡈⠘ ⦻ ⠆⢄⡄⠨ Ξ ⠆⢄⡂⠒
- AXIOM ¡ ⠆⢄⡈⠔ ⦻ ⠆⢄⡈⠘ ⦻ ⠆⢄⡄⠰ Ξ ⠆⢄⡂⠔
- AXIOM ¡ ⠆⢄⡈⠔ ⦻ ⠆⢄⡄⡁ Ξ ⠆⢄⡂⠘
- AXIOM ¡ ⠆⢄⡈⠔ ⦻ ⠆⢄⡁⢁ Ξ ⠆⢄⡄⢈
- AXIOM ¡ ⠆⢄⡈⠔ ⦻ ⠆⢄⡁⢂ Ξ ⠆⢄⡄⢐
- AXIOM ¡ ⠆⢄⡈⠔ ⦻ ⠆⢄⡁⢈ Ξ ⠆⢄⡄⢠
- AXIOM ¡ ⠆⢄⡈⠔ ⦻ ⠆⢄⡈⠘ ⦻ ⠆⢄⡁⢂ Ξ ⠆⢄⡄⠃
+ AXIOM ¡ TT ⦻ TT ⦻ TT Ξ SY
+ AXIOM ¡ TT ⦻ TT Ξ SY
 
  # SYMBOLE FERTIG
- SYMBOLE ⠆⢄⡂⠌ —
- SYMBOLE ⠆⢄⡂⠑ :
- SYMBOLE ⠆⢄⡂⠒ ®
- SYMBOLE ⠆⢄⡂⠔ ©
- SYMBOLE ⠆⢄⡂⠘ ĸ
- SYMBOLE ⠆⢄⡄⢈ ←
- SYMBOLE ⠆⢄⡄⢐ ↓
- SYMBOLE ⠆⢄⡄⢠ →
- SYMBOLE ⠆⢄⡄⠃ ↑
+ SYMBOLE SY
+ SYMBOLE SY
 
  # AXIOM | PRODUKT BAUEN
- AXIOM ¡ ⠆⢄⡂⠌ ⧓ ⠆⢄⡂⠑ ⧓ ⠆⢄⡂⠌ Ξ ⠆⢄⡁⡠
- AXIOM ¡ ⠆⢄⡂⠌ ⧓ ⠆⢄⡂⠔ ⧓ ⠆⢄⡂⠌ Ξ ⠆⢄⡁⡐
- AXIOM ¡ ⠆⢄⡂⠌ ⧓ ⠆⢄⡂⠒ ⧓ ⠆⢄⡂⠌ Ξ ⠆⢄⡁⡈
- AXIOM ¡ ⠆⢄⡂⠌ ⧓ ⠆⢄⡂⠘ ⧓ ⠆⢄⡂⠌ Ξ ⠆⢄⡁⡄
- AXIOM ¡ ⠆⢄⡄⢈ ⧓ ⠆⢄⡂⠑ Ξ ⠆⢄⡄⠌
- AXIOM ¡ ⠆⢄⡄⢐ ⧓ ⠆⢄⡂⠑ Ξ ⠆⢄⡂⠨
- AXIOM ¡ ⠆⢄⡄⢠ ⧓ ⠆⢄⡂⠑ Ξ ⠆⢄⡄⠑
- AXIOM ¡ ⠆⢄⡄⠃ ⧓ ⠆⢄⡂⠑ Ξ ⠆⢄⡄⠊
- AXIOM ¡ ⠆⢄⡂⠑ ⧓ ⠆⢄⡄⢈ Ξ ⠆⢄⡄⠘
- AXIOM ¡ ⠆⢄⡂⠑ ⧓ ⠆⢄⡄⢐ Ξ ⠆⢄⡄⠒
- AXIOM ¡ ⠆⢄⡂⠑ ⧓ ⠆⢄⡄⢠ Ξ ⠆⢄⡄⠡
- AXIOM ¡ ⠆⢄⡂⠑ ⧓ ⠆⢄⡄⠃ Ξ ⠆⢄⡄⠔
- AXIOM ¡ ⠆⢄⡄⠃ ⧓ ⠆⢄⡂⠑ ⧓ ⠆⢄⡄⠃ Ξ ⠆⢄⡄⠢
- AXIOM ¡ ⠆⢄⡄⠃ ⧓ ⠆⢄⡂⠑ ⧓ ⠆⢄⡄⢐ Ξ ⠆⢄⡄⠤
- AXIOM ¡ ⠆⢄⡄⠃ ⧓ ⠆⢄⡂⠑ ⧓ ⠆⢄⡄⢠ Ξ ⠆⢄⡂⠰
- AXIOM ¡ ⠆⢄⡄⠃ ⧓ ⠆⢄⡂⠑ ⧓ ⠆⢄⡄⢈ Ξ ⠆⢄⡂⡁
- AXIOM ¡ ⠆⢄⡄⢠ ⧓ ⠆⢄⡂⠑ ⧓ ⠆⢄⡄⠃ Ξ ⠆⢄⡂⡄
- AXIOM ¡ ⠆⢄⡄⢈ ⧓ ⠆⢄⡂⠑ ⧓ ⠆⢄⡄⠃ Ξ ⠆⢄⡁⠉
- AXIOM ¡ ⠆⢄⡄⢠ ⧓ ⠆⢄⡂⠑ ⧓ ⠆⢄⡄⢐ Ξ ⠆⢄⡁⠊
- AXIOM ¡ ⠆⢄⡄⢈ ⧓ ⠆⢄⡂⠑ ⧓ ⠆⢄⡄⢐ Ξ ⠆⢄⡁⠌
- AXIOM ¡ ⠆⢄⡄⢐ ⧓ ⠆⢄⡂⠑ ⧓ ⠆⢄⡄⢈ Ξ ⠆⢄⡁⠑
- AXIOM ¡ ⠆⢄⡄⢐ ⧓ ⠆⢄⡂⠑ ⧓ ⠆⢄⡄⢠ Ξ ⠆⢄⡁⠒
- AXIOM ¡ ⠆⢄⡄⢐ ⧓ ⠆⢄⡂⠑ ⧓ ⠆⢄⡄⠃ Ξ ⠆⢄⡁⠔
- AXIOM ¡ ⠆⢄⡄⢐ ⧓ ⠆⢄⡂⠑ ⧓ ⠆⢄⡄⢐ Ξ ⠆⢄⡁⠘
+ AXIOM ¡  AXIOM ¡ SY ⧓ SY Ξ PD
+ AXIOM ¡  AXIOM ¡ SY ⧓ SY Ξ PD
 
- # EXTRA | STEUERUNG EINZELN
- AXIOM ¡ ⠆⢄⡄⢈ Ξ ⠆⢄⠨⡐
- AXIOM ¡ ⠆⢄⡄⢐ Ξ ⠆⢄⠨⡠
- AXIOM ¡ ⠆⢄⡄⢠ Ξ ⠆⢄⠨⢁
- AXIOM ¡ ⠆⢄⡄⠃ Ξ ⠆⢄⠨⢂
+ # PRODUKT
+ PRODUKT PD
+ PRODUKT PD
 
- # PRODUKT | STECKSCHLÜSSEL SKINS
- PRODUKT ⠆⢄⡁⡠ —:—
- PRODUKT ⠆⢄⡁⡐ —©—
- PRODUKT ⠆⢄⡁⡈ —®—
- PRODUKT ⠆⢄⡁⡄ —ĸ—
-
- # PRODUKT | 1 KANAL ANGABEN 
- PRODUKT ⠆⢄⡄⠌ ←:
- PRODUKT ⠆⢄⡂⠨ ↓:
- PRODUKT ⠆⢄⡄⠑ →:
- PRODUKT ⠆⢄⡄⠊ ↑:
- PRODUKT ⠆⢄⡄⠘  :←
- PRODUKT ⠆⢄⡄⠒  :↓
- PRODUKT ⠆⢄⡄⠡  :→
- PRODUKT ⠆⢄⡄⠔  :↑
-
- # PRODUKT | 2 KANAL ANGABEN
- PRODUKT ⠆⢄⡄⠢ ↑:↑
- PRODUKT ⠆⢄⡄⠤ ↑:↓
- PRODUKT ⠆⢄⡂⠰ ↑:→
- PRODUKT ⠆⢄⡂⡁ ↑:←
- PRODUKT ⠆⢄⡂⡄ →:↑
- PRODUKT ⠆⢄⡁⠉ ←:↑
- PRODUKT ⠆⢄⡁⠔ ↓:↑
- PRODUKT ⠆⢄⡁⠊ →:↓
- PRODUKT ⠆⢄⡁⠌ ←:↓
- PRODUKT ⠆⢄⡁⠑ ↓:←
- PRODUKT ⠆⢄⡁⠒ ↓:→
- PRODUKT ⠆⢄⡁⠘ ↓:↓
-
- # PRODUKT | EXTRA | STEUERUNG EINZELN
- PRODUKT ⠆⢄⠨⡐ ←
- PRODUKT ⠆⢄⠨⡠ ↓
- PRODUKT ⠆⢄⠨⢁ →
- PRODUKT ⠆⢄⠨⢂ ↑
-
- # PRÄFIX PRIMÄR
- PRÄFIX ⠆⢄⡂⠤ PL-STECKSCHLÜSSEL
-
- # PRÄFIX STEUERUNG | EXTRA EINZELN
- PRÄFIX ⠆⢄⠨⢈ PL-L
- PRÄFIX ⠆⢄⠨⢐ PL-U
- PRÄFIX ⠆⢄⠨⢠ PL-R
- PRÄFIX ⠆⢄⠨⣀ PL-H
-
- # PRÄFIX STEUERUNG | 1 KANAL
- PRÄFIX ⠆⢄⡂⡐ PL-LX
- PRÄFIX ⠆⢄⡄⡐ PL-UX
- PRÄFIX ⠆⢄⡂⡠ PL-RX
- PRÄFIX ⠆⢄⡂⡈ PL-HX
- PRÄFIX ⠆⢄⡂⢈ PL-XL
- PRÄFIX ⠆⢄⡂⢁ PL-XU
- PRÄFIX ⠆⢄⡂⢐ PL-XR
- PRÄFIX ⠆⢄⡂⢂ PL-XH
-
- # PRÄFIX STEUERUNG | 2 KANAL
- PRÄFIX ⠆⢄⡁⢐ PL-HH
- PRÄFIX ⠆⢄⡁⢠ PL-HU
- PRÄFIX ⠆⢄⡁⣀ PL-HR
- PRÄFIX ⠆⢄⡂⠃ PL-HL
- PRÄFIX ⠆⢄⡄⠅ PL-RH
- PRÄFIX ⠆⢄⡄⠉ PL-LH
- PRÄFIX ⠆⢄⡄⡂ PL-RU
- PRÄFIX ⠆⢄⡄⡈ PL-LU
- PRÄFIX ⠆⢄⡂⢠ PL-UL
- PRÄFIX ⠆⢄⡂⣀ PL-UR
- PRÄFIX ⠆⢄⡂⠅ PL-UH
- PRÄFIX ⠆⢄⡂⠉ PL-UU
+ # PRÄFIX
+ PRÄFIX PR
+ PRÄFIX PR
 
  # AXIOM | PRÄFIX TAGGEN UND RAM  
- AXIOM ¡ ⠆⢄⡁⡠ ⥗ ⠆⢄⡂⠤ ⍠ ⠆⢄⡁⠡
- AXIOM ¡ ⠆⢄⡁⡐ ⥗ ⠆⢄⡂⠤ ⍠ ⠆⢄⡁⠢
- AXIOM ¡ ⠆⢄⡁⡈ ⥗ ⠆⢄⡂⠤ ⍠ ⠆⢄⡁⠨
- AXIOM ¡ ⠆⢄⡁⡄ ⥗ ⠆⢄⡂⠤ ⍠ ⠆⢄⡁⠰
- AXIOM ¡ ⠆⢄⡄⠌ ⥗ ⠆⢄⡂⡐ ⍠ ⠆⢄⠰⡐
- AXIOM ¡ ⠆⢄⡂⠨ ⥗ ⠆⢄⡄⡐ ⍠ ⠆⢄⠰⡠
- AXIOM ¡ ⠆⢄⡄⠑ ⥗ ⠆⢄⡂⡠ ⍠ ⠆⢄⠰⢁
- AXIOM ¡ ⠆⢄⡄⠊ ⥗ ⠆⢄⡂⡈ ⍠ ⠆⢄⠰⢂
- AXIOM ¡ ⠆⢄⡄⠘ ⥗ ⠆⢄⡂⢈ ⍠ ⠆⢄⠰⢐
- AXIOM ¡ ⠆⢄⡄⠒ ⥗ ⠆⢄⡂⢁ ⍠ ⠆⢄⠰⢠
- AXIOM ¡ ⠆⢄⡄⠡ ⥗ ⠆⢄⡂⢐ ⍠ ⠆⢄⠰⣀
- AXIOM ¡ ⠆⢄⡄⠔ ⥗ ⠆⢄⡂⢂ ⍠ ⠆⢄⠰⢂
- AXIOM ¡ ⠆⢄⡄⠢ ⥗ ⠆⢄⡁⢐ ⍠ ⠆⢄⡁⠅
- AXIOM ¡ ⠆⢄⡄⠤ ⥗ ⠆⢄⡁⢠ ⍠ ⠆⢄⠰⠊
- AXIOM ¡ ⠆⢄⡂⠰ ⥗ ⠆⢄⡁⣀ ⍠ ⠆⢄⠰⠌
- AXIOM ¡ ⠆⢄⡂⡁ ⥗ ⠆⢄⡂⠃ ⍠ ⠆⢄⠰⠑
- AXIOM ¡ ⠆⢄⡂⡄ ⥗ ⠆⢄⡄⠅ ⍠ ⠆⢄⠰⠒
- AXIOM ¡ ⠆⢄⡁⠉ ⥗ ⠆⢄⡄⠉ ⍠ ⠆⢄⠰⠔
- AXIOM ¡ ⠆⢄⡁⠔ ⥗ ⠆⢄⡂⠅ ⍠ ⠆⢄⠰⠘
- AXIOM ¡ ⠆⢄⡁⠊ ⥗ ⠆⢄⡄⡂ ⍠ ⠆⢄⠰⠡
- AXIOM ¡ ⠆⢄⡁⠌ ⥗ ⠆⢄⡄⡈ ⍠ ⠆⢄⠰⠢
- AXIOM ¡ ⠆⢄⡁⠑ ⥗ ⠆⢄⡂⢠ ⍠ ⠆⢄⠰⠤
- AXIOM ¡ ⠆⢄⡁⠒ ⥗ ⠆⢄⡂⣀ ⍠ ⠆⢄⠰⡁
- AXIOM ¡ ⠆⢄⡁⠘ ⥗ ⠆⢄⡂⠉ ⍠ ⠆⢄⠰⡂
- AXIOM ¡ ⠆⢄⠨⡐ ⥗ ⠆⢄⠨⢈ ⍠ ⠆⢄⠰⠃
- AXIOM ¡ ⠆⢄⠨⡠ ⥗ ⠆⢄⠨⢐ ⍠ ⠆⢄⠰⠅
- AXIOM ¡ ⠆⢄⠨⢁ ⥗ ⠆⢄⠨⢠ ⍠ ⠆⢄⠰⠉
- AXIOM ¡ ⠆⢄⠨⢂ ⥗ ⠆⢄⠨⣀ ⍠ ⠆⢄⠨⠌
+ AXIOM ¡ PD ⥗ PR ⍠ RA
 
  # EINHEIT | RAM
- EINHEIT ⠆⢄⡁⠡ —:— PL-STECKSCHLÜSSEL
- EINHEIT ⠆⢄⡁⠢ —©— PL-STECKSCHLÜSSEL
- EINHEIT ⠆⢄⡁⠨ —®— PL-STECKSCHLÜSSEL
- EINHEIT ⠆⢄⡁⠰ —ĸ— PL-STECKSCHLÜSSEL
- EINHEIT ⠆⢄⠰⡐ ←: PL-LX
- EINHEIT ⠆⢄⠰⡠ ↓: PL-UX
- EINHEIT ⠆⢄⠰⢁ →: PL-RX
- EINHEIT ⠆⢄⠰⢂ ↑: PL-HX
- EINHEIT ⠆⢄⠰⢐ :← PL-XL
- EINHEIT ⠆⢄⠰⢠ :↓ PL-XU
- EINHEIT ⠆⢄⠰⣀ :→ PL-XR
- EINHEIT ⠆⢄⡁⠃ :↑ PL-XH
- EINHEIT ⠆⢄⡁⠅ ↑:↑ PL-HH
- EINHEIT ⠆⢄⠰⠊ ↑:↓ PL-HU
- EINHEIT ⠆⢄⠰⠌ ↑:→ PL-HR
- EINHEIT ⠆⢄⠰⠑ ↑:← PL-HL
- EINHEIT ⠆⢄⠰⠒ →:↑ PL-RH
- EINHEIT ⠆⢄⠰⠔ ←:↑ PL-LH
- EINHEIT ⠆⢄⠰⠘ ↓:↑ PL-UH
- EINHEIT ⠆⢄⠰⠡ →:↓ PL-RU
- EINHEIT ⠆⢄⠰⠢ ←:↓ PL-LU
- EINHEIT ⠆⢄⠰⠤ ↓:← PL-UL
- EINHEIT ⠆⢄⠰⡁ ↓:→ PL-UR
- EINHEIT ⠆⢄⠰⡂ ↓:↓ PL-UU
- EINHEIT ⠆⢄⠰⠃ ← PL-L
- EINHEIT ⠆⢄⠰⠅ ↓ PL-U
- EINHEIT ⠆⢄⠰⠉ → PL-R
- EINHEIT ⠆⢄⠨⠌ ↑ PL-H
+ EINHEIT RA
+ EINHEIT RA
 
  # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
  AXIOM ¡ ⠆⢄⡈⠉ ⦳ ⠆⢄⠨⠡
