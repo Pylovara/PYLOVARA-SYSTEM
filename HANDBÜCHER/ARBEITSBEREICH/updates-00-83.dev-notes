@@ -218,10 +218,9 @@ Aber du bist nicht verrückt. Du bist nah dran.
 
 
 
-#########################################################
-
-
- TRAKTOR TWS WABEN ELEMENTE 
+###############ARBEITSBEREICH######################
+---------------------------------------------------
+ # TRAKTOR TWS WABEN ELEMENTE 
 
  SYMBOL       = — 
  BEDEUTUNG    = CONNECTOR 
@@ -245,61 +244,9 @@ Aber du bist nicht verrückt. Du bist nah dran.
  AUSFÜHRUNGSERLAUBNIS # IMPULS
  AUSFÜHRUNGSERLAUBNIS # PLUS-IMPULS
 
+---------------------------------------------------
 
-
-  so und jetzt denke ich das ich die pfeil logik wahrscheins sogar 
-  als anker in die komponenten logik hinein arbeiten muss damit daraus 
-  ein schuh wird .... gott .... wenn das ding steht ... steht das system ... 
-
-  ja ich muss es noch erneuert aufbauen ... aber das ist das geringste problem! 
-
-
-  wenn dieser eine punkt steht , steht der tws in voller pracht ... 
-  inklusive kann ich endlich sagen : der tws ist soweit ... 
-
-  ohne ihn kein mcs ... 
-
-  den tws schaltet die logik ... definiert die pipeline und 
-  definiert die dazugehörigkeit der komponenten in mcs selbst 
-
-  die system-id ist das ISTGLEICH mit itegrierte expliziter adresse 
-
-  die ich in der axiomatischen programmierung dann verschalten kann .. 
-
-  wenn ich das fertig habe und irgendwer versteht was der tws ist .. 
-  wird er staunen über diese art der technik ... 
-
-  ich glaube dann brauch ich nur noch die honigtropfen für die opcodes 
-  oder uefi trigger und die arbeiter bienen für den kümmerlichen rest fremd 
-  code , den ich danach heraus arbeiten kann ... 
-
-  das wäre das erste system das den assembly in die ecke drängt ... 
-  und zwar auf eine art wie es noch keine sprache geschafft hat .. 
-
-  ich kann sogar über die bion-id und bion adressierung , die in kombination 
-  mit der bsk-id und bsk verkettung ... dann endgültig den hexdezimal scheiß 
-  in rente schicken .... 
-
-  ich glaube ganz fest daran und ich werde weinen wenn ich es geschafft habe ! 
-
-
-  ich werde der erste weltweit sein , der bestehende technologie , aus dem 
-  weg räumt und sie wirklich bis in die wurzel , bekämpft|verbessert und 
-  zum abschluss gepracht hat .. 
-
-  alles andere wäre nur noch ein anschließen auf neuere chip technik hardware .. 
-
-  quasi direkte maschinen instruktionen zum tws ... damit wäre uefi später 
-  auch überflüssig .. 
-
-  bare metal for live baby ... ahu !!!!!
-
-
-
-
-------------------------------------------------
-
- TRAKTOR TWS WABEN ELEMENTE 
+ # BESCHREIBUNG FÜR CONNECTOR LOGIK
 
  SYMBOL          = — 
 
@@ -313,40 +260,33 @@ Aber du bist nicht verrückt. Du bist nah dran.
 
  BEDEUTUNG LOGIK = ANSCHLUSS SEKTOR 
 
------------------------------------------------
+---------------------------------------------------
 
  KOPF-BEREICH = ANSCHLUSS ZUFUHR
 
- KOPF BEREICH LOGIK = ZUFUHR ↓← ZU — 
+ KOPF BEREICH LOGIK = ↓← 
 
------------------------------------------------
+ SEMANTISCH DARGESTELLT = 
+
+ ↓←
+ —
+
+---------------------------------------------------
 
  FUẞ-BEREICH  = ANSCHLUSS ENTNAHME
 
- FUẞ BEREICH LOGIK = ENTNAHME — ZU ↓→
+ FUẞ BEREICH LOGIK = ↓→
 
------------------------------------------------
-
-
+ SEMANTISCH DARGESTELLT = 
 
 
+ —
+ ↓→
+
+---------------------------------------------------
+
+###############ARBEITSBEREICH######################
 
 
 
-
-
- # CONNECTOR BAUM 
-
- CONNECTOR # SYNAPTOR NUMMER
- CONNECTOR # ZYTRON EINGANG NUMMER
- CONNECTOR # NITROX
- CONNECTOR # PROTEIN
- CONNECTOR # NITROX
- CONNECTOR # ZYTRON AUSGANG NUMMER
- CONNECTOR # REX ICTUS
- CONNECTOR # SENTIATOR REX ICTUS PROTEIN
-
- # AUSFÜHRUNGS ERLAUBNIS | AKTIONSDRAHT
-
- AUSFÜHRUNGSERLAUBNIS # IMPULS
- AUSFÜHRUNGSERLAUBNIS # PLUS-IMPULS
+ ICH GLASUB ICH HABS .... ICH LIEBE MEINE VERDAMMTEN 5 MINUTEN HOCHLEISTUNG !
