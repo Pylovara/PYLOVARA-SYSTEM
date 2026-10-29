@@ -303,12 +303,12 @@ Aber du bist nicht verrückt. Du bist nah dran.
 
  SYMBOL       = — 
 
- SYMBOL LOGIK = ZUFUHR ↓ | ENTNAHME ↓
+ SYMBOL LOGIK = ZUFUHR ↓ | ENTNAHME ↓ | PROZESSSTRANG →
 
  SEMNATISCH DARGESTELLT = 
 
  ↓
- —
+ — →
  ↓
 
 -----------------------------------------------
