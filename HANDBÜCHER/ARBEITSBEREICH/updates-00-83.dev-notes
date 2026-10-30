@@ -394,3 +394,311 @@ Das ist Architektur auf höchstem Niveau.
 
 
  ich muss das verkraften .... ich bin ein unicorn .... 
+
+
+
+
+
+
+
+
+
+
+
+
+moment ... da muss ich kurz einrasten ... die weiter entwicklung wurde eingestampf ... 
+
+aus folgendem grund : es war unötig zuviel ... 
+
+die entwicklung wird proton streichen ... strom angaben in eine neue boxis definieren ... 
+trennbefehl und bindungs befehl werden als komponente geführt : pontifex . 
+
+damit späße wie variabeln generell mit boxis passieren statts irgendwo im luft leeren raum wie in c oder sonnstigen forks ... 
+
+die proteine bleiben bei der on und off pipe protein logik ... jedoch wander das — <-- zeichen in die pipeline und folge komponente wie nitrox synaptor zytron sentiatoren , werden in der symbolik selbst mit der pipeline verknüpft . 
+
+daraus resultiert dann das mcs auf diesem stand bleibt : 
+
+###====================================|====================================###
+
+ # DER 12 OKTOBER 2026 | WEINHEIM
+
+ ZERTIFIKAT : HALLO-WELT.MCS-ZERTIFIKAT
+
+ VOR-NAME   : THOMAS
+ NACH-NAME  : ZIMMERMANN
+
+ JAHRGANG   : 23.04.1988
+ HERKUNFT   : GERMANISCH RÖMISCH 
+
+ KONTAKT    : +49 176 88218035
+ REFERENZ   : TWS | MCS - URHEBER
+
+ # DOKUMENTEN SPEKTRUM
+
+ DOKUMENT KLASSE : PROFESSIONELL
+ DOKUMENT ART    : SCHALTUNGSPROGRAMMIERSPRACHE
+ DOKUMENT FORM   : WISSENSNACHWEIS
+ 
+ # VERSION
+
+ MCS-VERSION     : 7.5 (BETA-VERSION)
+
+ # FUNKTIONSÖFFNUNGSART
+
+ FUNKTION ÖFFNUNG : ABRUF 
+ FUNKTION ABRUF   : VOLLSTÄNDIG
+
+###====================================|====================================###
+
+ # KURZ ERKLÄRUNG 
+
+ DER ZERTIFIKAT MODUS IST DER NACHWEIS FÜR EINE VOLLSTÄNDIGE 
+                                      MCS GESCHRIEBENE ABSTRAKTIONS-SCHICHT.
+
+                                                          VON KOPF BIS WURZEL.
+
+###====================================|====================================###
+
+ # AUSFÜHRLICH | VOLLSTÄNDIG
+
+ ¢!
+
+ »—[¥: HALLO WELT :¥]—«««~: BAUMODUS FUNKTION SPEICHER EINGANG :~«
+
+  ¬· —[": WÖRTERBUCH BASIS :"]—
+
+     ¬· »—[¥: HALLO :¥]—«««~: BAUMODUS FUNKTION SPEICHER ABRUF :~«
+
+         ¬· »—[¥: H :¥]—«««~: BAUMODUS FUNKTION SPEICHER ABRUF :~«
+             ¬· »—[Ħ: EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke() :Ħ]—«
+                 ¬· »—[ * ]—«
+                     ÷ Ø—(20): * :Ø
+
+                 ± Ø: * :(20)—Ø
+             ¬· »—[ (20) ]—«
+                 ¬·¤ »—[ * ]—«««~: BAUMODUS FUNKTION SPEICHER AUSGANG :~«
+                      ¬·¤¤ »—[ * ]—«
+                            ÷ Ø—(1): * :Ø
+
+         ¬· »—[¥: A :¥]—«««~: BAUMODUS FUNKTION SPEICHER ABRUF :~«
+             ¬· »—[Ħ: EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke() :Ħ]—«
+                 ¬· »—[ * ]—«
+                     ÷ Ø—(21): * :Ø
+
+                 ± Ø: * :(21)—Ø
+             ¬· »—[ (21) ]—«
+                 ¬·¤ »—[ * ]—«««~: BAUMODUS FUNKTION SPEICHER AUSGANG :~«
+                      ¬·¤¤ »—[ * ]—«
+                            ÷ Ø—(2): * :Ø
+
+         ¬· »—[¥: L :¥]—«««~: BAUMODUS FUNKTION SPEICHER ABRUF :~«
+             ¬· »—[Ħ: EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke() :Ħ]—«
+                 ¬· »—[ * ]—«
+                     ÷ Ø—(22): * :Ø
+
+                 ± Ø: * :(22)—Ø
+             ¬· »—[ (22) ]—«
+                 ¬·¤ »—[ * ]—«««~: BAUMODUS FUNKTION SPEICHER AUSGANG :~«
+                      ¬·¤¤ »—[ * ]—«
+                            ÷ Ø—(3): * :Ø
+
+         ¬· »—[¥: O :¥]—«««~: BAUMODUS FUNKTION SPEICHER ABRUF :~«
+             ¬· »—[Ħ: EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke() :Ħ]—«
+                 ¬· »—[ * ]—«
+                     ÷ Ø—(23): * :Ø
+
+                 ± Ø: * :(23)—Ø
+             ¬· »—[ (23) ]—«
+                 ¬·¤ »—[ * ]—«««~: BAUMODUS FUNKTION SPEICHER AUSGANG :~«
+                      ¬·¤¤ »—[ * ]—«
+                            ÷ Ø—(4): * :Ø
+
+             ± Ø: * :(1)—Ø
+             ± Ø: * :(2)—Ø
+             ± Ø: * :(3)—Ø
+             ± Ø: * :(4)—Ø
+         ¬· »—[ (1(2(3(4())))) ]—«
+             ¬·¤ »—[ HALLO ]—«««~: BAUMODUS FUNKTION SPEICHER AUSGANG :~«
+                  ¬·¤¤ »—[ HALLO ]—«
+                        ÷ Ø—(5): HALLO :Ø
+
+     ¬· »—[¥: WELT :¥]—«««~: BAUMODUS FUNKTION SPEICHER ABRUF :~«
+
+         ¬· »—[¥: W :¥]—«««~: BAUMODUS FUNKTION SPEICHER ABRUF :~«
+             ¬· »—[Ħ: EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke() :Ħ]—«
+                 ¬· »—[ * ]—«
+                     ÷ Ø—(24): * :Ø
+
+                 ± Ø: * :(24)—Ø
+             ¬· »—[ (24) ]—«
+                 ¬·¤ »—[ * ]—«««~: BAUMODUS FUNKTION SPEICHER AUSGANG :~«
+                      ¬·¤¤ »—[ * ]—«
+                            ÷ Ø—(6): * :Ø
+
+         ¬· »—[¥: E :¥]—«««~: BAUMODUS FUNKTION SPEICHER ABRUF :~«
+             ¬· »—[Ħ: EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke() :Ħ]—«
+                 ¬· »—[ * ]—«
+                     ÷ Ø—(25): * :Ø
+
+                 ± Ø: * :(25)—Ø
+             ¬· »—[ (25) ]—«
+                 ¬·¤ »—[ * ]—«««~: BAUMODUS FUNKTION SPEICHER AUSGANG :~«
+                      ¬·¤¤ »—[ * ]—«
+                            ÷ Ø—(7): * :Ø
+
+         ¬· »—[¥: L :¥]—«««~: BAUMODUS FUNKTION SPEICHER ABRUF :~«
+             ¬· »—[Ħ: EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke() :Ħ]—«
+                 ¬· »—[ * ]—«
+                     ÷ Ø—(26): * :Ø
+
+                 ± Ø: * :(26)—Ø
+             ¬· »—[ (26) ]—«
+                 ¬·¤ »—[ * ]—«««~: BAUMODUS FUNKTION SPEICHER AUSGANG :~«
+                      ¬·¤¤ »—[ * ]—«
+                            ÷ Ø—(8): * :Ø
+
+         ¬· »—[¥: T :¥]—«««~: BAUMODUS FUNKTION SPEICHER ABRUF :~«
+             ¬· »—[Ħ: EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke() :Ħ]—«
+                 ¬· »—[ * ]—«
+                     ÷ Ø—(27): * :Ø
+
+                 ± Ø: * :(27)—Ø
+             ¬· »—[ (27) ]—«
+                 ¬·¤ »—[ * ]—«««~: BAUMODUS FUNKTION SPEICHER AUSGANG :~«
+                      ¬·¤¤ »—[ * ]—«
+                            ÷ Ø—(9): * :Ø
+
+             ± Ø: * :(6)—Ø
+             ± Ø: * :(7)—Ø
+             ± Ø: * :(8)—Ø
+             ± Ø: * :(9)—Ø
+         ¬· »—[ (6(7(8(9)))) ]—«
+             ¬·¤ »—[ WELT ]—«««~: BAUMODUS FUNKTION SPEICHER AUSGANG :~«
+                  ¬·¤¤ »—[ WELT ]—«
+                        ÷ Ø—(10): WELT :Ø
+
+  ¬· —[": BOXIS LADEN :"]—
+
+     ¬· »—[¥: PRINT :¥]—«««~: BAUMODUS FUNKTION SPEICHER EINGANG :~«
+         ¬· »—[~: BAUMODUS AUSWAHL KOMPONENTE BX-PRINT ERSTELLEN :~]—« 
+             ¬·¤ »—[":  :"]—«
+                  ÷ Ø—(28): ":  :" :Ø 
+
+             ± Ø: ":  :" :(28)—Ø
+         ¬· »—[(28)]—«
+             ¬·¤ »—[":  :"]—«««~: BAUMODUS FUNKTION SPEICHER AUSGANG :~«
+                  ¬·¤¤ »—[":  :"]—«
+                        ÷ Ø—(40): ":  :" :Ø
+
+  ¬· —[": SYMBIOSE | ERGEBNIS :"]—
+
+         ± Ø: ":  :" :(40)—Ø
+         ± Ø: HALLO :(5)—Ø
+         ± Ø: WELT :(10)—Ø
+     ¬· »—[(40 (5 (10)) )]—«
+         ¬·¤ »—[": HALLO WELT :"]—«««~: BAUMODUS FUNKTION SPEICHER AUSGANG :~«
+ !¢
+
+ # AUFRUFEND | FUNKTION
+
+ ¢!
+
+ »—[¥: HALLO WELT :¥]—«««~: BAUMODUS FUNKTION SPEICHER ABRUF:~«
+  ¬·¤¤ »—[": HALLO WELT :"]—«
+
+ !¢
+
+ # VOLLSTÄNDIGE ABSTRAKTION | NATIV 
+
+ ¢!
+ »[": HALLO WELT :"]«
+ !¢
+
+###====================================|====================================###
+
+bei diesem zertifikat , das ich mir selbst ausgestellt hasbe , weil es richtig ist , ging es nur um buchstaben und wört bildungen ... 
+
+in den sentiatoren werden operatoren für wortlänge integriert ... WENN-LÄNGE-KANN und WENN-LÄNGE-NICHT 
+
+symbolisch von links nach rechts mit den begriffen von oben verstanden : Ω und ΩΩ 
+
+die werden raster bekommen ..... block raster da segmente in blocks erzeugt werden .... die operatoren lesen die block länge ... ob 2 spalten ... oder 30-60 ... je nach wort länge und möglichkeiten ... ( harte  obergrenze werden in verschachtelte wort bildungen gelegt ) 
+
+also fanatsie wörterbildungen die man zusammen schreiben kann aber kein satz oder wort bilden , sondern nur dem ego dienen ... ausnahmen sind chemische wörter und medizinische .. in der länge .... keine battlerap wort bildungen ... wirds nicht geben ... kann außerhalb dann geschrieben werden .... 
+
+oder in WENN-LÄNGE-NICHT  ΩΩ als sofort print ausgegeben werden ohne logik ... 
+
+
+was ich mit dem jetzigen update tue ist mathe und entscheidungen mit der neuen pontifex komponente zu erzeugen : 
+
+| <-- trennbefehl ( wie davor auch ) 
+& <-- bindungsbefehl ( der vorher in den protonen war , die jetzt raus fliegen und die strom logik in den boxis statt findet ( neue boxi dann : BX-STROM =   —[!: ^ :!] IM PROTEIN ( BESSER DARGESTELLT ALS OHNE ) 
+
+da die verarbeitungen ja dann funktions bedingt im baumodus dann durchgehen und durch nitrox extraktor abgefangen werden ÷ und in den ram gehen durch tragenden feed : 
+Ø—(<nr>): inhalt> :Ø
+
+brauch von der seite keine weitere prozess logik ... sondern nur ein ende ... was in den funktionen durch das mcd ~: BAUMODUS FUNKTION SPEICHER AUSGANG :~ das im pluss impuls geschrieben werden kann und sollte ««<BX-MCD>« damit passiert weil ich den ausgang im mcd im befehl des wortes selbst gleich mit exit verknüpfe .... der dann kommen rex-ictus-<nr>-interne-ausgabe : ¬·¤ zeigt das ergebnis des verarbeiten prozesses ... und drückt sich dann in den ram ... ab da brauch es keine backschleife mit return 0 ... 
+
+der zytron wäre return .... per nummer fixier bar ... da muss die pipeline nur greifen und im tws selbst in der zytron komponente in den waben eingebaut werden und mehrfach mit dieser nummer dann triggerbar ... ähnlich eines startpunktes mit mehrere ausgangssignale ... um die funktionen neu zu triggern .... wäre bei ¶¶ ( sentiator wenn-prozess-fehler ) oder wenn-länge-nicht ΩΩ nutzbare schleifen logik .... 
+
+der nitrox selbst ... als der injektor ± holt die daten aus dem führenden feed >( ram mit nummer ) in den nitrox injektor ( mit tragendem feed , ram plus selbe nummer als zyklische aktualisierung - wenn benutzt ) und drückt es dann wieder in ein anderes protein  mit — 
+
+das sogenannte on-pipe-protein ... 
+
+dadurch ensteht der daten fluß .... keine block logik nötig ... kein wort wie : return <nr> wie bei c ... kein goto schleife für spagetti c codes ... alles obsolet ... 
+
+
+was ich bei diesem update tue ist die pipeline bauen und pontifex ... 
+
+die pipeline um endlich den selbst geschmiedenen nagel in den tws zu schlagen , mit einem blosen stein in der hand .. 
+
+und die ponitfex komponente für boxis bindungen und trennungen zu nutzen : 
+
+—[<BXMK>|<BXMK>] ODER —[<BXMK>&<BXMK>] 
+
+getrennt oder gebunden ... im mcd kommen dann die befehle rein mit logik für dazu legen , zusammen legen oder , trennen von protein ketten ... also boxis ... sehr nahe an der biologischen schnittstelle .... extrem nahe muss ich sogar dazu sagen .. biologen sagen selbst das sie sich von darwinismus trennen müssen , weil dna nicht exitiert sondern proteine ... wir brauchen eine neue denkensform ... ( liefer ich nativ und per neue boxis auch für den zweck später , wenn es sein muss ) 
+
+
+damit wären wir dann bei zahlen und buchstaben bindungen ... 
+
+ BX-ALU UND BX-PRINT ... auf mcs : ×: ^ :×&": ^ :" ( im protein dann ) —[×: ^ :×&": ^ :"]  
+
+das dach ist die mitte für den mittig asgerichten platzhalter ... such dir raus was drinne sein soll wenn du willst ... 
+
+das heißt wir hätten bindung oder getrennte dinge in proteine ... 
+
+—[×: 1 :×&": DAS HIER KANN ERSCHEINEN :"]
+
+wenn wir das jetzt mit dem rex system interne ausgabe und sentiatoren verknüpfen und eine rechnung stellen wie  
+
+—[×: 1 ++ 0 :×]
+Ł ¬·¤ —[×: 1 :×&": DAS HIER KANN ERSCHEINEN :"]
+Ł ¬·¤ —[×: 8 :×&": DAS HIER KANN ERSCHEINEN :"]
+Ł ¬·¤ —[×: 0 :×&": DAS HIER KANN ERSCHEINEN :"]
+Ł ¬·¤ —[×: 2 :×&": DAS HIER KANN ERSCHEINEN :"]
+
+das Ł steht jetzt als auswahl sentiator als beispiel ... 
+
+können wir damit einige dinge tun , die nativ ohne versteckte logik passieren können ... 
+
+ausgearbeitet ist das jetzt nicht aber in die richtung gehts ... 
+
+natürlich wäre denk ich das hier sinnvoller : 
+
+—[×: 1 ++ 0 :×]
+Ł ¬· —[×: 2 :×]
+        ¬·¤ —[": DAS HIER KANN ERSCHEINEN :"]
+Ł ¬· —[×: 2 :×]
+        ¬·¤ —[": DAS HIER KANN ERSCHEINEN :"]
+Ł ¬· —[×: 2 :×]
+        ¬·¤ —[": DAS HIER KANN ERSCHEINEN :"]
+Ł ¬· —[×: 2 :×]
+        ¬·¤ —[": DAS HIER KANN ERSCHEINEN :"]
+
+wobei noch nicht entschieden wurde wie der Ł schluss endlich entscheidet 
+
+denke mal 1 <= 0 = Ł 
+oder so .. 
+
+aber du versteht 
