@@ -29,6 +29,46 @@
  wird denk ich jedem bewusst sein das das nicht nur ein spickzettel ist 
  sondern eine spezifikation .... smile .... 
 
+ ich bau jetzt erst mal an der pipeline weiter ... 
+
+ der rest ist nur noch einwaben und richtig verknüpfen ... 
+ vieles steht ja schon und muss nur angepasst verbesseertwerden 
+ von den alten waben ... das wird auch gleich umgesetzt .. 
+
+ die innere waben platzhalter grammatik die nur für den sinn dessen steht 
+ was rein gehört für die abfolge usw ... 
+
+ und für den tws nativ seine platzhalter {} symbole ... 
+
+ in wie weit sind protonen platzhalter ? hmmm 
+ müsst ich dafür einen anderen namen finden ? 
+
+ ICH ÜBERLEG MIR DAS HEUTE NACHT DURCH , BEVOR ICH ENTSCHEIDUNGEN 
+ TREFFE ... ICH KÖNNTE DIE PLATZHALTER {} DIREKT IM ABSOLULATOR INTEGRIEREN 
+ UND DAMIT GRUNDSÄTZLICH DIE WABEN STEUERN ... DAS WÄRE DANN SCHLICHT AUCH 
+ DER ANSCHLUSS FÜR KKIS ANSTEUERUNGEN. 
+
+ QUTRON WÜRD ICH IHN GERNE NENNEN ... 
+
+  QUELLSUCHENDERSYNCRONISATOR 
+
+  HALT EIN ANDERES WORT FÜR PLATZHALTER UND GLEICH QUELLSUCHEND IM MASTERKERN 
+  SYSTEM BEI DER MASTERLIZENZWABE , DIE ALLE DRINNE STEHEN HAT DANN .. 
+
+  MAL GUCKEN .... HEUTE NICHT MEHR ... AUSZEIT BEVOR ES RICHTIG LOS GEHT MIT 
+  DER PIPELINE ... ICH MUSS NUR NOCH ORDNEN DANN STEHT DIE ... 
+
+  ICH BERÜCKSICHTIGE JEDE ZUSCHLUSS LOGIK IN 052 DAMIT ICH SIE DANN BEI JEDER KERNWABE 
+  NOCH NACHTRÄGLICH ALS DIREKTE ZUGRIFF DRAUF HAT ... {BXMK} USW ... 
+
+  DIE PROGRAMME WERDEN DANN AUFGELISTET .. 
+
+  BEI PROGRAMMEN DANN {BXHT-NAME} USW ... 
+  SO KANN MAN PRÄFIX ANKER STEUERN , QUASI DAS ALTE GENERALSCHÜSSEL SYSTEM ... 
+  FÜR WABEN KÜRZEL USW .... 
+
+  DRÜBER SCHLAFEN .... BEIDES GINGE ... 
+
 
 
  notizen : 
