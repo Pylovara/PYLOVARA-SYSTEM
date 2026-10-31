@@ -30,59 +30,73 @@
  ich werde die spitzen entwicklung nicht kaputt machen . 
  kein steckschlüssel ... keine andere logik ... 
 
- 
- Groß einkauf nächsten monat ... bildschirm , tb maus 
- mechanische tastatur, laptop halter, zweit bildschirm halter 
+ ich bin froh das ich bei 7.5 beta geblieben bin ... 
 
- und eine gescheite tasche wo alles rein passt .. 
+ ich kann es natürlich jederzeit für extremisten architekten, gerne 
+ auch mit steckschlüssel system schreiben ....
 
- mit einem bildschirm komm ich einfach nicht klar ... 
+ aber die pipeline steht im kopf .... 
+ ich schreibe es einmal sauber runter auf einem zettel und sobald 
+ daraus ein schuh wurde , integriere ich sie ... 
 
- ich brauch platz ... 
-
- danach hol ich mir einen dieser 15 zoll doppelseitigen 
- bildschirm ansteck sets .... dann hab ich den rahmen den ich brauche .. 
-
- danach spare ich auf ein effizienten strom generator hin ... 
- und eine dritte powerstadion ab 600 euro+ 
-
- dann hab ich 3 powerdstadions und einen generator 
- und das setup das ich brauch ... um einigermassen 
- klar zu kommen ... 
-
- danach hau ich ich nur noch geld jeden monat auf die seite 
- bis mein setup den geist aufgibt .... 
-
- ich brauch für später irgendwo ein grundstück das ich 
- irgendwie bebauen darf .... 
-
- nh 30qm meter hütte auf doppelgeschoss wäre das ziel .. 
- mit solar oder am aller besten einen fluss für wasser turbine .. 
-
- in der zwischen zeit regel ich jetzt die version und bring den test kernel an den 
- start ... die pipeline logik bin ich gerade auch am überdenken ... 
-
- wenn die dann sitzt , kann ich alle daten sauber neu aufschreiben 
- und ab dem punkt wird daran auch nichts mehr in diesem umfang 
- geändert sondern nur noch punktuell erweitert . 
-
- die weg geparkten alt daten hab ich sortiert ... 
+ ich werde die steuerung direkt in jede komponente mit eingravieren
+ und einen link in die MK waben integrieren ... 
 
 
- ich mach jetzt morgen noch ein datenblatt check ... 
- danach arbeite ich die torwabe aus und wenn die sitzt, 
- kann ich endlich wieder alles einpflegen ... 
+ außerdem ist mir aufgefallen das ich den synaptor viel besser 
+ integrieren kann .... 
 
- vorher belass ich es so und warte bis die beiden gesund sind ... 
- und mach alles andere rund ... damit ich keine nachbesserungen mehr habe .. 
 
- dem ersten hab ich schon das system quasi beiläufig mit einem 
- geschenkten laptop mit gegeben ... 
+ rex bekommt einen bruder .... nämlich den synaptor 
 
- also bekomme ich mit wenn irgendwas nicht stimmt ... und kann 
- sofort handeln , bevor irgendwer anderes sich aufregt weil irgendwas nicht 
- klappt oder stimmt . 
+ aus beiden werden 
 
+ RETRON und PATRON 
+
+ RETRON = SEQUENZELLER SYNCRONISATOR 
+ PATRON = PARALELLISIERUNGS SYNCRONISATOR
+
+ BEIDES WICHTIG FÜR EINEN TASK MANAGER ... 
+
+ ALSO WIRD VATRON DIE ALTE RETRON SPEZIFIKATION BEKOMMEN 
+ UND BEI VALIDIERUNGSSYNCRONISTATOR PROZESSMANAGER ... 
+
+ IM GRUNDE BRAUCH VATRON NUR DIE DATEN DER CPU UM PROZESSE 
+ DORT REIN LEITEN ZU KÖNNEN ... SO NATIV EINEN ES GLEICH 
+ VALIDIEREN ZU KÖNNEN, WÄRE AUCH BEI EIGENER HARDWARE DANN DIE VORSTUFE 
+ ZU NATIVEN EIGENENTWICKLUNGEN . 
+
+ DESWEGEN WIRD REX ERWEITERT ... 
+
+ ICH TEIL DAS AUF ZWEI KOMPONENTEN AUF DIE QUASI DAS SELBE TUN , BIS AUF DIE
+ ABFOLGE DER PROZESS VERARBEITUNG , ALSO PARALLEL UND SEUQENZIELL .. 
+
+
+ DANN KANN MAN IM REX SLOT 
+
+ { RETRON 
+ } PATRON
+
+ NUTZEN 
+
+
+ —[]
+ {·¤
+
+ —[]
+ }·¤
+
+ UND REX UND SYNAPTOR ¬ ¿ WÄREN VEREINT ... 
+
+ WER NUR SEQUENZIELL ARBEITEN WILL NUTZ REX 
+ WER DATEN IRGENDWO PARALELISIEREN WILL , NUTZT SYNAPTOR 
+
+ ALSO REX = RETRON = REIHENFOLGEN SYNCRONISTATOR 
+ SYNAPTOR = PATRON = PARALELISIERUNGSSYNCRONISTATOR
+
+ IN ICTUS STECKEN EH DIE CPU KERNE DRINNE , MOMENTAN BEWUSST NUR 4 
+ UND SOMIT BRAUCH MAL DEN SYNAPTOR NICHT MEHR ... WEIL ER NATIV 
+ DABEI IST , .
 
 
  notizen : 
