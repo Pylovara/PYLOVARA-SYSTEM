@@ -25,111 +25,14 @@
  DAS HEIẞT 3 WOCHEN CIRKA KEINEN FORTSCHRITT ... 
  DAHEIM BLEIBEN ... UND HIER ARBEITEN SCHWIERIG ... 
 
- So ... ja ... mcs beta 7.5 bleibt ... 
- die pipeline wird darauf aufgebaut ! 
- ich werde die spitzen entwicklung nicht kaputt machen . 
- kein steckschlüssel ... keine andere logik ... 
-
- ich bin froh das ich bei 7.5 beta geblieben bin ... 
-
- ich kann es natürlich jederzeit für extremisten architekten, gerne 
- auch mit steckschlüssel system schreiben ....
-
- aber die pipeline steht im kopf .... 
- ich schreibe es einmal sauber runter auf einem zettel und sobald 
- daraus ein schuh wurde , integriere ich sie ... 
-
- ich werde die steuerung direkt in jede komponente mit eingravieren
- und einen link in die MK waben integrieren ... 
-
-
- außerdem ist mir aufgefallen das ich den synaptor viel besser 
- integrieren kann .... 
-
-
- rex bekommt einen bruder .... nämlich den synaptor 
-
- aus beiden werden 
-
- RETRON und PATRON 
-
- RETRON = SEQUENZELLER SYNCRONISATOR 
- PATRON = PARALELLISIERUNGS SYNCRONISATOR
-
- BEIDES WICHTIG FÜR EINEN TASK MANAGER ... 
-
- ALSO WIRD VATRON DIE ALTE RETRON SPEZIFIKATION BEKOMMEN 
- UND BEI VALIDIERUNGSSYNCRONISTATOR PROZESSMANAGER ... 
-
- IM GRUNDE BRAUCH VATRON NUR DIE DATEN DER CPU UM PROZESSE 
- DORT REIN LEITEN ZU KÖNNEN ... SO NATIV EINEN ES GLEICH 
- VALIDIEREN ZU KÖNNEN, WÄRE AUCH BEI EIGENER HARDWARE DANN DIE VORSTUFE 
- ZU NATIVEN EIGENENTWICKLUNGEN . 
-
- DESWEGEN WIRD REX ERWEITERT ... 
-
- ICH TEIL DAS AUF ZWEI KOMPONENTEN AUF DIE QUASI DAS SELBE TUN , BIS AUF DIE
- ABFOLGE DER PROZESS VERARBEITUNG , ALSO PARALLEL UND SEUQENZIELL .. 
-
-
- DANN KANN MAN IM REX SLOT 
-
- { RETRON 
- } PATRON
-
- NUTZEN 
-
-
- —[]
- {·¤
-
- —[]
- }·¤
-
- statts 
-
- ¿1
- —[]
- ¬· 
-
- 
- oder noch besser ..... da ich die proton symbole freigeschaufelt 
- habe und momentan in mcs keine funktion haben , werde ich die geschweifte klammern 
- für die platzhalter präfixes
-
-
- —[]
- <·¤  —[]
-
- —[]
- >·¤  —[]
-
-
-und wenn ich den neuen sentiator trigger , nativ als multiplexer liefern kann 
-umso mehr wird man die auswahl möglichkeiten, die nativ mit geliefert werden, einfach
-nur lieben .... 
-
-
- ICH KANN SCHLUSS ENDLICH AUCH EIGENE SKIN EDITOREN 
- ANBIETEN, WO DIE EINZELNEN ENTWICKLER SICH IHRE ZEICHEN PRO KOMPONENTE 
- SELBST RAUS SUCHEN KÖNNEN ... 
-
- INKLUSIVE VON HAUS AUS WELCHE .... 
-
- KANN ICH DAN GEMÜTLICH ALS LETZTES MACHEN ... 
- SOBALD DER PYLOVARA-STORE STEHT ... 
-
- 
-
-
+ Ich denke wenn ich den "spickzettel" ausgebaut habe ... nicht wahr ? 
+ wird denk ich jedem bewusst sein das das nicht nur ein spickzettel ist 
+ sondern eine spezifikation .... smile .... 
 
 
 
  notizen : 
  - EBNF (Extended Backus-Naur Form)
-
-
-
 #==================# ESELSBRÜCKE
 - Syntax mit sh und bash
 - --help, --version, --check
