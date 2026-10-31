@@ -14,9 +14,19 @@
 
 
 ¢!
-»—[~: PROTEIN :~]«««~: BAUMODUS FUNKTION SPEICHER ABRUF :~«
- []
+»—[~: PROTEIN-ON-PIPE-OFF-PIPE :~]«««~: BAUMODUS FUNKTION SPEICHER ABRUF :~«
  —[]
+ []
+!¢
+
+¢!
+»—[~: PROTEIN-ON-PIPE :~]«««~: BAUMODUS FUNKTION SPEICHER ABRUF :~«
+ —[]
+!¢
+
+¢!
+»—[~: PROTEIN-OFF-PIPE :~]«««~: BAUMODUS FUNKTION SPEICHER ABRUF :~«
+ []
 !¢
 
 ¢!
