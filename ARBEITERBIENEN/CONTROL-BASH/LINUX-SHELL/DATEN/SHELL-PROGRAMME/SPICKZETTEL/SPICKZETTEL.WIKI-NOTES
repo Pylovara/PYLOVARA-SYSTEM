@@ -47,6 +47,71 @@
 !¢
 
 ¢!
+»—[~: BOXIS-BXHT-PRINT :~]«««~: BAUMODUS FUNKTION SPEICHER ABRUF :~«
+ ": ^ :"
+!¢
+
+¢!
+»—[~: BOXIS-BXHT-ALU :~]«««~: BAUMODUS FUNKTION SPEICHER ABRUF :~«
+ ×: ^ :×
+!¢
+
+¢!
+»—[~: BOXIS-BXHT-MCD :~]«««~: BAUMODUS FUNKTION SPEICHER ABRUF :~«
+ ~: ^ :~
+!¢
+
+¢!
+»—[~: BOXIS-BXHT-SYSCALL :~]«««~: BAUMODUS FUNKTION SPEICHER ABRUF :~«
+ ,: ^ :,
+!¢
+
+¢!
+»—[~: BOXIS-BXHT-SHELL :~]«««~: BAUMODUS FUNKTION SPEICHER ABRUF :~«
+ ': ^ :'
+!¢
+
+¢!
+»—[~: BOXIS-BXHT-EINGABE :~]«««~: BAUMODUS FUNKTION SPEICHER ABRUF :~«
+ ¥: ^ :¥
+!¢
+
+¢!
+»—[~: BOXIS-BXHT-ABI :~]«««~: BAUMODUS FUNKTION SPEICHER ABRUF :~«
+ Ħ: ^ :Ħ
+!¢
+
+¢!
+»—[~: BOXIS-BXHT-OPCODE :~]«««~: BAUMODUS FUNKTION SPEICHER ABRUF :~«
+ °: ^ :°
+!¢
+
+¢!
+»—[~: BOXIS-BXHT-MASCHINENCODE :~]«««~: BAUMODUS FUNKTION SPEICHER ABRUF :~«
+ °°: ^ :°°
+!¢
+
+¢!
+»—[~: BOXIS-BXHT-NETZWERK :~]«««~: BAUMODUS FUNKTION SPEICHER ABRUF :~«
+ §: ^ :§
+!¢
+
+¢!
+»—[~: BOXIS-BXHT-PFAD :~]«««~: BAUMODUS FUNKTION SPEICHER ABRUF :~«
+ $: ^ :$
+!¢
+
+¢!
+»—[~: BOXIS-BXHT-STROM :~]«««~: BAUMODUS FUNKTION SPEICHER ABRUF :~«
+ !: ^ :!
+!¢
+
+¢!
+»—[~: BOXIS-BXHT-TWS :~]«««~: BAUMODUS FUNKTION SPEICHER ABRUF :~«
+ ¿: ^ :¿
+!¢
+
+¢!
 »—[~: RETRON :~]«««~: BAUMODUS FUNKTION SPEICHER ABRUF :~«
  < 
 !¢
