@@ -7,6 +7,19 @@
 !¢
 
 ¢!
+»—[": WILKOMMEN BEI PYLOVARA-SYSTEM :"]«
+ <· »—[": DER SPICKZETTEL GIBT EUCH ETWAS ÜBERBLICK :"]«
+!¢
+
+
+
+¢!
+»—[~: PROTEIN :~]«««~: BAUMODUS FUNKTION SPEICHER ABRUF :~«
+ []
+ —[]
+!¢
+
+¢!
 »—[~: RETRON :~]«««~: BAUMODUS FUNKTION SPEICHER ABRUF :~«
  < 
 !¢
@@ -22,6 +35,16 @@
  ··
  ···
  ····
+!¢
+
+¢!
+»—[~: NITROX-EXTRAKTOR-FÜHRENDER-FEED :~]«««~: BAUMODUS FUNKTION SPEICHER ABRUF :~«
+ ÷ Ø—({NR}): {RAM} :Ø
+!¢
+
+¢!
+»—[~: NITROX-INJEKTOR-TRAGENDER-FEED :~]«««~: BAUMODUS FUNKTION SPEICHER ABRUF :~«
+ ÷ Ø: {RAM} :({NR})—Ø
 !¢
 
 ¢!
