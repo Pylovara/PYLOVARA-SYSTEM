@@ -6,17 +6,10 @@
 
 #==================# GEDANKEN 
  - BIS DEZEMBER KEINE VARA UPDATES 
- - GRUNDSKELETTE
  - PIPELINE + PROTEIN 
  - KGW ÜBERARBEITEN...
- - WEITERENTWICKLUNG-VERBAUT = OFFEN 
- - DEZEMBER WIRD DER HISTORIE SCHREDDER GEZÜNDET ( GITIGNORE )
-
-
- PRIO : 
- - PIPELINE VORBEREITEN BEI BAUWABE = JETZT DIE ELENDEN TRACKTOR WABE 
- - TOCHTERWABE TRAKTOR - AUSARBEITEN !
- - DANACH IM TWS SEITE 40 ABGLEICHEN UND KÜRZEL SETZEN VON SEITE 005 
+ - PIPELINE TRACKTORWABE MASTERLINK VOM CONNECTOR-BAUM VERLINKEN
+ - SEITE 40 ABGLEICHEN UND KÜRZEL SETZEN BEI BEENDIGUNG. 
 
 ###====================================|====================================###
 #==================# TAGES NARICHT SEKTION 
@@ -25,80 +18,38 @@
  DAS HEIẞT 3 WOCHEN CIRKA KEINEN FORTSCHRITT ... 
  DAHEIM BLEIBEN ... UND HIER ARBEITEN SCHWIERIG ... 
 
- Ich denke wenn ich den "spickzettel" ausgebaut habe ... nicht wahr ? 
- wird denk ich jedem bewusst sein das das nicht nur ein spickzettel ist 
- sondern eine spezifikation .... smile .... 
+ SO .. DANN WÜRDE ICH SAGEN AB JETZT VORWÄRTS GEARBEITET .. 
 
- ich bau jetzt erst mal an der pipeline weiter ... 
+ ERST GEMÜTLICH DEN TRANSAKTIONSRAHMEN ... 
+ DANACH IN REIHE WEITER ... 
 
- der rest ist nur noch einwaben und richtig verknüpfen ... 
- vieles steht ja schon und muss nur angepasst verbesseertwerden 
- von den alten waben ... das wird auch gleich umgesetzt .. 
+ ICH HAB BEWUSST IN DER PIPELINE NOCH LOGIK BAUTEN OFFEN GELASSEN, 
+ FALLS MAN DARAUF ZURÜCK GREIFEN MÜSSTE.
 
- die innere waben platzhalter grammatik die nur für den sinn dessen steht 
- was rein gehört für die abfolge usw ... 
+ DAS DÜRFTE AB JETZT ALLES KEIN GROẞES PROBLEM MEHR DARSTELLEN , JEDE SEITE 
+ MIT DEM MASTERLIZENZ SUPERLIZENZ WABEN ZU VERKNÜPFEN , INKLUSIVE DIE PIPELINE 
+ ORDENTLICH EIN ZU GRAVIEREN .. 
 
- und für den tws nativ seine platzhalter {} symbole ... 
+ ZWEI FLIEGEN MIT EINER KLAPPE PLUS DIE BSK LOGIK ZURÜCK IMPLEMENTIERT .
 
- in wie weit sind protonen platzhalter ? hmmm 
- müsst ich dafür einen anderen namen finden ? 
+ DAS DÜRFTE JETZT EIN ORDENTLICHES UND DURCHAUS EINMALIGES UNCIATS PRODUKT WERDEN 
+ UND KEINER KANN BEHAUPTEN , DAS SEI DEM C BLOCK DESIGNE UNTERLEGEN ... 
 
- ICH ÜBERLEG MIR DAS HEUTE NACHT DURCH , BEVOR ICH ENTSCHEIDUNGEN 
- TREFFE ... ICH KÖNNTE DIE PLATZHALTER {} DIREKT IM ABSOLULATOR INTEGRIEREN 
- UND DAMIT GRUNDSÄTZLICH DIE WABEN STEUERN ... DAS WÄRE DANN SCHLICHT AUCH 
- DER ANSCHLUSS FÜR KKIS ANSTEUERUNGEN. 
-
- QUTRON WÜRD ICH IHN GERNE NENNEN ... 
-
-  QUELLSUCHENDERSYNCRONISATOR 
-
-  HALT EIN ANDERES WORT FÜR PLATZHALTER UND GLEICH QUELLSUCHEND IM MASTERKERN 
-  SYSTEM BEI DER MASTERLIZENZWABE , DIE ALLE DRINNE STEHEN HAT DANN .. 
-
-  MAL GUCKEN .... HEUTE NICHT MEHR ... AUSZEIT BEVOR ES RICHTIG LOS GEHT MIT 
-  DER PIPELINE ... ICH MUSS NUR NOCH ORDNEN DANN STEHT DIE ... 
-
-  ICH BERÜCKSICHTIGE JEDE ZUSCHLUSS LOGIK IN 052 DAMIT ICH SIE DANN BEI JEDER KERNWABE 
-  NOCH NACHTRÄGLICH ALS DIREKTE ZUGRIFF DRAUF HAT ... {BXMK} USW ... 
-
-  DIE PROGRAMME WERDEN DANN AUFGELISTET .. 
-
-  BEI PROGRAMMEN DANN {BXHT-NAME} USW ... 
-  SO KANN MAN PRÄFIX ANKER STEUERN , QUASI DAS ALTE GENERALSCHÜSSEL SYSTEM ... 
-  FÜR WABEN KÜRZEL USW .... 
-
-  DRÜBER SCHLAFEN .... BEIDES GINGE ... 
+ ES WIRD REGELRECHT , ÜBERLEGEN SEIN UND ZWAR NICHT NUR HAUS HOCH SONDERN 
+ EIN ANDERES UNIVERSUM. 
 
 
 
- notizen : 
- - EBNF (Extended Backus-Naur Form)
-#==================# ESELSBRÜCKE
+
+
+
+#==================# SCHMIERBEREICH
 - Syntax mit sh und bash
 - --help, --version, --check
 - Alias in Bash aufgelöst und ausgeführt
 - Super+Y-Ersatz SCHLIEẞEN --toggle 
 - MCS-SHELL-Smoke-Test läuft 
 - SPICKZETTEL-Smoke-Test: ALLES OK
-
-# WICHTIG
-Die VARA-Dateien sind x86-64-ELF und dynamisch gelinkt. 
-
-less.vara BRAUCHT :  
-libncursesw.so.6 
-libpcre2-8.so.0 
-libc.so.6
-
-#==================# SHELL UPDATER BETA
-
-[*] PYLOVARA-SYSTEM : SHELL IST AKTUELL .
-
-—:—[": ᴹᶜˢ ˢʰᵉˡˡ :"]
-—:—@·¤ —:—[$: ~ :$]
-       —:—@· »—:—[¥: 
-
- DIE TAGE AUF DEN TEST GERÄTEN NACHKONTROLLIEREN ... 
- IN DER VIERTUELLEN UMGEBUNG GING ALLES SUPER ... 
 
 ###====================================|====================================###
 ###====================================|====================================###
@@ -126,7 +77,9 @@ libc.so.6
  - BETA TEST UPDATESUCHER.PYLOVARA-CORE = FREIGEGEBEN 
  - VARA PAKETE KANONISCHE LISTE = ERST-ENTWURF
  - SHELL-LAYOUTS AKTUALISIERT BX-SHELL BEI EINGABE = ERLEDIGT 
- 
+ - MCS LEXIKON AN DIE ERNEUERUNG ANGEPASST = ERLEDIGT
+ - PIPELINE-CONNECTOR-BAUM VORBEREITET = ERLEDIGT
+
 ###====================================|====================================###
 
  WEINACHTSGESCHENK AN MICH SELBST FÜR GITHUB PUSH : 
@@ -140,10 +93,5 @@ Oder Prime-Mitglieder abrufen KOSTENLOSE Lieferung Sa., 31. Okt.
 In den Einkaufswagen
 Andere Angebote
 15,29 €(2 gebrauchte und neue Artikel)
-
-
-
-
-
 
 ###====================================|====================================###
