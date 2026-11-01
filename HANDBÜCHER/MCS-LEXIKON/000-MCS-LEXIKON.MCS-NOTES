@@ -18,13 +18,12 @@
 ###=================DIESER BEREICH WIRD DEMNÄCHST NEU SORTIERT==============###
  # NR S-ID NAMEN                       | NR S-ID NAMEN                       #
  # 01 ⠆⢄⠢⠒ TRANSAKTIONSRAHMEN          | 02 ⠆⢄⠢⠔ PROTEIN                     #
- # 03 <S-ID> PROTON                    | 04 <S-ID> TRENNBEFEHL               #
- # 05 <S-ID> BINDUNGSBEFEHL            | 06 <S-ID> AKTIONSDRAHT              #
- # 07 <S-ID> REX                       | 08 <S-ID> ICTUS                     #
- # 09 <S-ID> BOXIS                     | 10 <S-ID> SENTIATOR                 #
- # 11 <S-ID> NITROX                    | 12 <S-ID> FEED                      #
- # 13 <S-ID> SYNAPTOR                  | 14 <S-ID> ZYTRON                    #
- # 15 <S-ID> MCD                       |                                     #
+ # 03 <S-ID> PONTIFEX                  | 04 <S-ID> AKTIONSDRAHT              #
+ # 05 <S-ID> RETRON                    | 06 <S-ID> PATRON                    #
+ # 07 <S-ID> ICTUS                     | 08 <S-ID> BOXIS                     #
+ # 09 <S-ID> SENTIATOR                 | 10 <S-ID> FEED                      #
+ # 11 <S-ID> NITROX                    | 12 <S-ID> ZYTRON                    #
+ # 13 <S-ID> MCD                       | 14 <S-ID>                           #
 ###===============================LERNMATERIAL==============================###
  # 20 <S-ID> BAUMODUS                  | 21 <S-ID> PLATZHALTER-GRAMMATIK     #
  # 21 <S-ID>BAUSTEINSCHALTUNGSKREISLAUF| 22 <S-ID> FUNKTIONSAUFBAU           #
@@ -37,7 +36,7 @@
  # SYSTEM ⠆⢄⢐⡐ PNS 2.6.4 PYLOVARA—NETZWERK—SYSTEM            #             # #
  # PROGRAMMIERSPRACHE ⠆⢄⢐⠑ MCS 7.5 | MASCHINEN-CODE-SPEECH   #     ⠆⢄⢐⠔      #
  # KERNELSPRACHE  ⠆⢄⢐⢈ TWS 0.3 | THE-WABE-NEST-SYSTEM        #               #
- # TASTATURSTANDARD ⠆⢄⢐⠒ UTF -8 | DEUTSCHER-STANDARD         #               #
+ # TASTATURSTANDARD ⠆⢄⢐⠒ UTF -8 | DEUTSCHER-STANDARD         #   #           #
  # LIZENZEN ⠆⢄⢐⠤ LV 1.6 | LIZENZVERTRAG                      #            #  #
 ###=================================IMPRESSUM===============================###
  # MCS-LEXIKON VERSION ⠆⢄⢐⠔ 00-01 | MASCHINEN-CODE-SPEECH                    #
