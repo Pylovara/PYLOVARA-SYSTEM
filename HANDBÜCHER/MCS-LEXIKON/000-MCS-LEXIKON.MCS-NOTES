@@ -17,7 +17,7 @@
 ###===============================MCS-KATALOG===============================###
 ###=================DIESER BEREICH WIRD DEMNÄCHST NEU SORTIERT==============###
  # NR S-ID NAMEN                       | NR S-ID NAMEN                       #
- # 01 <S-ID> TRANSAKTIONSRAHMEN        | 02 <S-ID> PROTEIN                   #
+ # 01 ⠆⢄⠢⠒ TRANSAKTIONSRAHMEN          | 02 <S-ID> PROTEIN                   #
  # 03 <S-ID> PROTON                    | 04 <S-ID> TRENNBEFEHL               #
  # 05 <S-ID> BINDUNGSBEFEHL            | 06 <S-ID> AKTIONSDRAHT              #
  # 07 <S-ID> REX                       | 08 <S-ID> ICTUS                     #
@@ -34,7 +34,7 @@
  # 51 <S-ID> RECHEN ARTEN              | 52 <S-ID> DUDEN BAUEN               #
  # 53 <S-ID> HALLO WELT                | 54 <S-ID> MENÜ                      #
 ###===============================VERSIONSDATEN=============================###
- # SYSTEM ⠆⢄⢐⡐ PNS 2.6.4 PYLOVARA—NETZWERK—SYSTEM            #               #
+ # SYSTEM ⠆⢄⢐⡐ PNS 2.6.4 PYLOVARA—NETZWERK—SYSTEM            #             # #
  # PROGRAMMIERSPRACHE ⠆⢄⢐⠑ MCS 7.5 | MASCHINEN-CODE-SPEECH   #     ⠆⢄⢐⠔      #
  # KERNELSPRACHE  ⠆⢄⢐⢈ TWS 0.3 | THE-WABE-NEST-SYSTEM        #               #
  # TASTATURSTANDARD ⠆⢄⢐⠒ UTF -8 | DEUTSCHER-STANDARD         #               #

@@ -1,0 +1,128 @@
+@mcs-nr: 01 ==================LEXIKON NAVIGATION TERMINAL ======= mcs <NR> =###
+###= SEITEN-SYSTEM-ID : ⠆⢄⠢⠒ ===PYLOVARA-SYSTEM=============================###
+ #       TRANSAKTIONSRAHMEN =  THE PROGRAMMING LANGUAGE DATA EXECUTE LAW     #
+###==============================MCS-ERKLÄRUNG==============================###
+
+ TRANSAKTIONSRAHMEN 
+ ——————————————————
+
+ SYMBOL : ¢!
+          !¢
+
+ NAMENSDEUTUNG :
+
+ EINE TRANSAKTION TRANSFERIERT ETWAS VON A NACH B.
+ SIE KANN, GELD, INTERNETDATEN, CODE, STANDORTE, ETC - TRANSPORTIEREN.
+
+ WIR TRANSPORTIEREN IN AKTION CODE - IM RAHMEN.
+ SO SETZT SICH DER TRANSAKTIONSRAHMEN NAMENTLICH ZUSAMMEN.
+
+ ERKLÄRUNG :
+
+ ER SORGT FÜR EINDEUTIGE RAHMENBEDINGUNGEN UND LEGT DAS FELD FEST, IN DEM 
+ WAS GILT.
+
+ MAN SIEHT EINDEUTIG WAS ANDERE SPRACHEN FÜR EINEN LEHRMEISTER HATTEN 
+ UND KANN ALLEINE DURCH IHREN BLOCK UND LOGIK AUFBAU ERKENNEN, WOHER 
+ DER WIND WEHT.
+
+ BEISPIELE : 
+
+ JAVA :
+ public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hallo Welt!");
+    }
+ }
+
+
+ C : 
+  #include <stdio.h>
+
+ int main() {
+    printf("Hallo Welt!\n");
+    return 0;
+ }
+
+
+ C++ : 
+
+ #include <iostream>
+
+ int main() {
+    std::cout << "Hallo Welt!" << std::endl;
+    return 0;
+ }
+
+
+ PYTHON : 
+ print("Hallo Welt!") 
+
+ JAVASCRIPT : 
+ console.log("Hallo Welt!"); 
+
+ const message: string = "Hallo Welt!";
+ console.log(message); 
+
+ 
+ ES GIBT NATÜRLICH EXOTEN WIE HTML :
+
+
+ HTML : 
+ <!DOCTYPE html>
+ <html>
+ <head>
+    <title>Beispiel</title>
+ </head>
+ <body>
+    <h1>Hallo Welt!</h1>
+ </body>
+ </html>
+
+ ABER HTML IST EINER DER WIRKLICH WENIGEN AUSNAHMEN, DIE MAN HIER ERWÄHNEN KANN.
+ NATÜRLICH KANN MAN OBJEKTORIENTIERTE SPRACHEN ODER DURCH UND DURCH, SPRACH 
+ ORIENTIERTE, BERÜCKSICHTIGEN - JEDOCH HABEN ALLE EIN FRAGWÜRDIGES VERSTÄNDNIS
+ AUFGEBAUT WAS EINE LOGIK SEIN SOLL. 
+
+ BEI MCS, GIBT ES EINDEUTIGE RAHMENBEDINGUNGEN, DIE AUCH NUR DIESEN EINEN 
+ SPEZIELLEN GRUND EXPLIZIT ERKENNTLICH ZEIGEN.
+
+ ANHAND ZWEI TRANSAKTIONSRAHMEN , MIT UN-AUFÜHRBAREN PRINT BOXIS, UM ZU ZEIGEN 
+ WAS MCS IST - INKLUSIVE DIE INFORMATION DIE VERMITTELT WERDEN SOLL.
+
+ ¢!
+ —[": STARTPUNKT EINES TRANSAKTIONSRAHMENS :"]—
+ <· [": ¢! :"]
+ !¢
+
+ ¢!
+ —[": ENDPUNKT EINES TRANSAKTIONSRAHMENS :"]—
+ <· [": !¢ :"]
+ !¢
+
+
+ BEISPIEL ANHAND EINES BERECHNUNGSBEISPIELS : 
+
+ ¢!
+ —[": BERECHNUNGSBEISPIEL :"]—
+ <· »—[×: 1 ++ 0 :×]—«
+     <· »—[¥ PLUS-RECHNEN ¥]—«««~: BAUMODUS FUNKTIONS SPEICHER ABRUF :~«
+         <·¤¤ —[ 1 ]—
+              ÷ Ø—(1): 1 :Ø
+
+     <· »—[¥ PRINT ¥]—«««~: BAUMODUS FUNKTIONS SPEICHER ABRUF :~«
+         <·¤¤ —[":  :"]—
+              ÷ Ø—(2): ":  :" :Ø
+
+     ± Ø: 1 :(1)—Ø
+     ± Ø: ":  :" :(2)—Ø
+ <· »—[(2 (1) )]—«
+     <·¤ »[": 1 :"]«
+ !¢
+
+ TA = TRANSAKTIONSRAHMEN SIND FREIGABE UND BLOCK REGISTRIERUNG 
+ UND KÖNNEN, JE NACH EINSATZGEBIET, IN VERSCHIEDENEN DATEIEN 
+ EINES PROGRAMMES ALS SPEZIALISIERTEN TA ODER GESAMT CODE TA 
+ VERWENDET WERDEN.
+
+###================================ENDPUNKT=================================###
