@@ -137,24 +137,18 @@ MUTTERWABEN-KATEGORIE ⠆⢄⡈⢐ STARTWABE
  SYMBOLE ⠆⢄⠤⣀ —
 
  # AXIOM | PRODUKT BAUEN
- AXIOM ¡ SY Ξ PD
- AXIOM ¡ SY Ξ PD
- AXIOM ¡ SY Ξ PD
- AXIOM ¡ SY Ξ PD
- AXIOM ¡ SY ⧓ SY Ξ PD
- AXIOM ¡ SY ⧓ SY Ξ PD
- AXIOM ¡ SY ⧓ SY Ξ PD
- AXIOM ¡ SY ⧓ SY Ξ PD
- AXIOM ¡ SY ⧓ SY Ξ PD
- AXIOM ¡ SY ⧓ SY Ξ PD
+ AXIOM ¡ ⠆⢄⠤⢂ Ξ ⠆⢄⠨⡄
+ AXIOM ¡ ⠆⢄⠤⢈ Ξ ⠆⢄⠨⡐
+ AXIOM ¡ ⠆⢄⠤⢐ Ξ ⠆⢄⠨⡠
+ AXIOM ¡ ⠆⢄⠤⢠ Ξ ⠆⢄⠤⠰
+ AXIOM ¡ ⠆⢄⠤⣀ Ξ ⠆⢄⠤⡁
 
  # PRODUKT
- PRODUKT PD 
- PRODUKT PD
- PRODUKT PD 
- PRODUKT PD
- PRODUKT PD 
- PRODUKT PD
+ PRODUKT ⠆⢄⠨⡄ ← 
+ PRODUKT ⠆⢄⠨⡐ ↓
+ PRODUKT ⠆⢄⠨⡠ → 
+ PRODUKT ⠆⢄⠤⠰ ↑
+ PRODUKT ⠆⢄⠤⡁ — 
 
  # PRÄFIX
  PRÄFIX PR PL-LINKS
