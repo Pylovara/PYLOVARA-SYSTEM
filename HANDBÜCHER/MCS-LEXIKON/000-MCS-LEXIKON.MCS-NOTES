@@ -17,7 +17,7 @@
 ###===============================MCS-KATALOG===============================###
 ###=================DIESER BEREICH WIRD DEMNÄCHST NEU SORTIERT==============###
  # NR S-ID NAMEN                       | NR S-ID NAMEN                       #
- # 01 ⠆⢄⠢⠒ TRANSAKTIONSRAHMEN          | 02 <S-ID> PROTEIN                   #
+ # 01 ⠆⢄⠢⠒ TRANSAKTIONSRAHMEN          | 02 ⠆⢄⠢⠔ PROTEIN                     #
  # 03 <S-ID> PROTON                    | 04 <S-ID> TRENNBEFEHL               #
  # 05 <S-ID> BINDUNGSBEFEHL            | 06 <S-ID> AKTIONSDRAHT              #
  # 07 <S-ID> REX                       | 08 <S-ID> ICTUS                     #
@@ -38,7 +38,7 @@
  # PROGRAMMIERSPRACHE ⠆⢄⢐⠑ MCS 7.5 | MASCHINEN-CODE-SPEECH   #     ⠆⢄⢐⠔      #
  # KERNELSPRACHE  ⠆⢄⢐⢈ TWS 0.3 | THE-WABE-NEST-SYSTEM        #               #
  # TASTATURSTANDARD ⠆⢄⢐⠒ UTF -8 | DEUTSCHER-STANDARD         #               #
- # LIZENZEN ⠆⢄⢐⠤ LV 1.6 | LIZENZVERTRAG                      #               #
+ # LIZENZEN ⠆⢄⢐⠤ LV 1.6 | LIZENZVERTRAG                      #            #  #
 ###=================================IMPRESSUM===============================###
  # MCS-LEXIKON VERSION ⠆⢄⢐⠔ 00-01 | MASCHINEN-CODE-SPEECH                    #
  # AUTOR ⠆⢄⢐⡄ OWS-ID-DNA-THOMAS-ZIMMERMANN-þþZRB68                 GITHUB    #
