@@ -263,62 +263,18 @@ TOCHTERWABEN-KATEGORIE ⠆⢄⠨⡂ TRAKTORWABE
  FUẞBEREICH ⠆⢄⠢⢁ SENTIATOR RETRON ICTUS PIPE PROTEIN
  FUẞBEREICH ⠆⢄⠢⢁ SENTIATOR PATRON ICTUS PIPE PROTEIN
 
- # AUSFÜHRUNGS ERLAUBNIS | AKTIONSDRAHT
- AUSFÜHRUNGSERLAUBNIS # IMPULS
- AUSFÜHRUNGSERLAUBNIS # PLUS-IMPULS
+ # AUSFÜHRUNGS-ERLAUBNIS | AKTIONSDRAHT
+ AUSFÜHRUNGSERLAUBNIS ⠆⢄⠢⢂ IMPULS
+ AUSFÜHRUNGSERLAUBNIS ⠆⢄⠢⢈ PLUS-IMPULS
 
  # AXIOM | AKTIONSDRAHT LOGIK
- AXIOM ¡ ⧖⧖ ⑅ Ξ ͽ
- AXIOM ¡ ⧖⧖ ⑅ Ξ ͽ
- AXIOM ¡ ⧖⧖ ⑅ Ξ ͽ
- AXIOM ¡ ⧖⧖ ⑅ Ξ ͽ
-
-
----------------------------------------------------
-
- # BESCHREIBUNG FÜR CONNECTOR LOGIK
-
- SYMBOL          = — 
-
- SYMBOL LOGIK = PROZESSSTRANG = ↓→
-
- SEMNATISCH DARGESTELLT = 
-
- — 
-
- BEDEUTUNG       = PIPELINE 
-
- BEDEUTUNG LOGIK = ANSCHLUSS SEKTOR 
-
----------------------------------------------------
-
- KOPF-BEREICH = ANSCHLUSS ZUFUHR
-
- KOPF BEREICH LOGIK = ↓← 
-
- SEMANTISCH DARGESTELLT = 
-
- ↓←
- —
-
----------------------------------------------------
-
- FUẞ-BEREICH  = ANSCHLUSS ENTNAHME
-
- FUẞ BEREICH LOGIK = ↓→
-
- SEMANTISCH DARGESTELLT = 
-
-
- —
- ↓→
+ AXIOM ¡ ⠆⢄⠢⢂ ⧖⧖ ⑅ ⠆⢄⠢⡠ Ξ ͽ
+ AXIOM ¡ ⠆⢄⠢⢈ ⧖⧖ ⑅ ⠆⢄⠢⡠ Ξ ͽ
 
 
 
 
 
-
-!!! BAUSTELLE
 
 
 ###====================================|====================================###
