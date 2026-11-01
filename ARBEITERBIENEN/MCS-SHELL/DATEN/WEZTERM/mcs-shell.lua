@@ -22,12 +22,12 @@ config.colors = {
   selection_bg = "#ff9f1c",
   selection_fg = "#0b0f14",
   ansi = {
-    "#0b0f14", "#ff5f5f", "#5fd75f", "#ffd75f",
-    "#5fafff", "#d787ff", "#5fd7d7", "#d0d0d0",
+    "#0b0f14", "#ff5f5f", "#e59e61", "#ffd75f",
+    "#b6fc02", "#aa00ff", "#5fd7d7", "#d0d0d0",
   },
   brights = {
     "#4e4e4e", "#ff8787", "#87ff87", "#ffff87",
-    "#87d7ff", "#ff87ff", "#87ffff", "#ffffff",
+    "#87d7ff", "#e000e0", "#003fe0", "#ffffff",
   },
 }
 
