@@ -9,6 +9,27 @@
 
  AN DER AUSARBEITUNG WIRD NOCH GEARBEITET.
 
+# chmod +x/-x 
+dna on <datei>
+dna off <datei>
+
+# MINI TASKI 
+dna taski
+
+# ABFRAGE
+dna fullinfo
+dna cpu 
+dna pci 
+dna ports 
+dna pic
+dna usb 
+dna internet
+dna color
+dna hw 
+dna load 
+
+
+
 —:—[": ᴹᶜˢ ˢʰᵉˡˡ :"]
 ↓:↑
 —:—›·¤ —:—[$: /PYLOVARA-SYSTEM/ARBEITERBIENEN/CONTROL-BASH/LINUX-SHELL/DATEN/SHELL-PROGRAMME :$]
@@ -19,8 +40,6 @@ cpu.dna-cmd
 fullinfo.dna-cmd
 hw.dna-cmd
 internet.dna-cmd
-lex.dna-cmd
-lexi.dna-cmd
 load.dna-cmd
 off.dna-cmd
 on.dna-cmd
