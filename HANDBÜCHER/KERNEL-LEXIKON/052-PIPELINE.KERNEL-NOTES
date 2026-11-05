@@ -191,9 +191,9 @@ MUTTERWABEN-KATEGORIE ⠆⢄⠨⠑ BAUWABE
 
  BSK-ID ⠆⢄⠨⠤ PLBA
 
- BION ⠆⢄⠨⠰ PL052MK052ST003BA001
+ BION ⠆⢄⠨⠰ PL052MK052HT003ST003BA001
 
- BSK ⠆⢄⠨⡁ PLMK+PLHT-PIPE+PLHT-PIPE+PLST-PIPE
+ BSK ⠆⢄⠨⡁ PLMK+PLHT-PIPE+PLST-PIPE
 
  # AXIOM | KEID + WAID + BAIKN
  AXIOM ¡ ⠆⢄⢁⡄ ⧓ ⠆⢄⠨⠔ ⧓ ⠆⢄⠨⠢ Ξ ⠆⢄⠨⠤
@@ -218,10 +218,10 @@ TOCHTERWABEN-KATEGORIE ⠆⢄⠨⡂ TRAKTORWABE
  EINHEIT ⠆⢄⠢⢠ — PL-CONNECTOR
 
  # AXIOM | SETZE STEUERUNGSVERBINDUNG 
- AXIOM ¡ ⌬ ⠆⢄⠤⠤ Ξ ⠆⢄⠢⣀
- AXIOM ¡ ⌬ ⠆⢄⠢⢐ Ξ ⠆⢄⠤⠉
- AXIOM ¡ ⌬ ⠆⢄⠤⠤ ⧑ ⠆⢄⠤⠨ Ξ ⠆⢄⠤⠃
- AXIOM ¡ ⌬ ⠆⢄⠤⠤ ⧑ ⠆⢄⠤⠢ Ξ ⠆⢄⠤⠅
+ AXIOM ¡ ⠆⢄⠤⠤ ⌬ ⠆⢄⠤⠤ Ξ ⠆⢄⠢⣀
+ AXIOM ¡ ⠆⢄⠢⢐ ⌬ ⠆⢄⠢⢐ Ξ ⠆⢄⠤⠉
+ AXIOM ¡ ⠆⢄⠤⠤ ⌬ ⠆⢄⠤⠤ ⧑ ⠆⢄⠤⠨ Ξ ⠆⢄⠤⠃
+ AXIOM ¡ ⠆⢄⠤⠤ ⌬ ⠆⢄⠤⠤ ⧑ ⠆⢄⠤⠢ Ξ ⠆⢄⠤⠅
  AXIOM ¡ ⠆⢄⠢⢠ ⑅ ⠆⢄⠤⠅ Ξ ⠆⢄⠢⠘
  AXIOM ¡ ⠆⢄⠢⢠ ⑅ ⠆⢄⠤⠃ Ξ ⠆⢄⠢⠘
 
@@ -248,6 +248,11 @@ TOCHTERWABEN-KATEGORIE ⠆⢄⠨⡂ TRAKTORWABE
  AXIOM ¡ ⠆⢄⠢⡄ ⍿ ⠆⢄⠤⠃ Ξ ⠆⢄⠢⡠
  AXIOM ¡ ⠆⢄⠢⡈ ⍿ ⠆⢄⠤⠃ Ξ ⠆⢄⠢⢁
 
+----
+KOPFBEREICH ⠆⢄⠢⡐ ZYTRON EINGANG NUMMER
+KOPFBEREICH ⠆⢄⠢⡐ NITROX
+PIPELINE ⠆⢄⠢⡠ PIPE PROTEIN
+----
  # CONNECTOR-BAUM | SYSTEMLINK-ÜBERALL-MK-VERSCHMOLZEN 
  KOPFBEREICH ⠆⢄⠢⡄ ZYTRON EINGANG NUMMER
  KOPFBEREICH ⠆⢄⠢⡄ NITROX
