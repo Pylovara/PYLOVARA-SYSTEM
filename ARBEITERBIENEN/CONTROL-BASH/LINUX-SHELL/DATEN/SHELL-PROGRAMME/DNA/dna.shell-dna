@@ -1,8 +1,8 @@
 #!/bin/bash
 # ==============================================================================
-# dna.shell-dna [0.2]
+# dna.shell-dna [0.3]
 # ==============================================================================
-# Ort   : /PYLOVARA-SYSTEM/ARBEITERBIENEN/CONTROL-BASH/LINUX-SHELL/DATEN/SHELL-PROGRAMME/DNA/dna.shell-dna
+# Ort   : /PYLOVARA-SYSTEM/ARBEITERBIENEN/CONTROL-BASH/LINUX-SHELL/DATEN/SHELL-PROGRAMME/DNA/DNA.shell-dna
 # Zweck : prototyp version .
 # Status: instabil
 # TERMINAL : dna <cmd>
@@ -15,7 +15,7 @@ if ! declare -f DNA > /dev/null; then
 fi
 
 if [[ -z "$1" ]]; then
-    echo "❌ Nutzung: dna <befehl>"
+    echo "❌ Nutzung: DNA <befehl>"
     exit 1
 fi
 

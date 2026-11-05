@@ -2,7 +2,7 @@
 # ==============================================================================
 # vision.cut-dna [1.0]
 # ==============================================================================
-# Ort   : /PYLOVARA-SYSTEM/ARBEITERBIENEN/CONTROL-BASH/LINUX-SHELL/DATEN/SHELL-PROGRAMME/DNA/vision.cut-dna
+# Ort   : /PYLOVARA-SYSTEM/ARBEITERBIENEN/CONTROL-BASH/LINUX-SHELL/DATEN/SHELL-PROGRAMME/LEXIKAS/vision.cut-dna
 # Zweck : Zentrales Hilfesystem mit AST-ID und *.VISION-NOTES Anbindung
 # Status: STABIL - AST kompatibel - KEIN Lexikon nötig - Unabhängig
 # TERMINAL : vision lex | vision <nr>

@@ -39,30 +39,30 @@ alias spickzettel='${SHELL_DIR%/}/VARA/spickzettel.vara'
 ### ALIAS SEKTOR 
 
 to() {
-    source "$SHELL_DIR/DNA/to.to-dna"
+    source "$SHELL_DIR/NAVIGATOREN/to.to-dna"
     to "$@"
 }
-kernel() {
-    source "$SHELL_DIR/DNA/kernel.cut-dna" "$@"
-}
-waben() {
-    source "$SHELL_DIR/DNA/waben.cut-dna" "$@"
-}
-tws() {
-    source "$SHELL_DIR/DNA/tws.cut-dna" "$@"
-}
-mcs() {
-    source "$SHELL_DIR/DNA/mcs.cut-dna" "$@"
-}
-vision() {
-    source "$SHELL_DIR/DNA/vision.cut-dna" "$@"
-}
 p() {
-    source "$SHELL_DIR/DNA/p.tree-dna" "$@"
+    source "$SHELL_DIR/NAVIGATOREN/p.tree-dna" "$@"
 }
 callme() {
-    source "$SHELL_DIR/DNA/callme.basename-dna"
+    source "$SHELL_DIR/NAVIGATOREN/callme.basename-dna"
     callme "$@"
+}
+kernel() {
+    source "$SHELL_DIR/LEXIKAS/kernel.cut-dna" "$@"
+}
+waben() {
+    source "$SHELL_DIR/LEXIKAS/waben.cut-dna" "$@"
+}
+tws() {
+    source "$SHELL_DIR/LEXIKAS/tws.cut-dna" "$@"
+}
+mcs() {
+    source "$SHELL_DIR/LEXIKAS/mcs.cut-dna" "$@"
+}
+vision() {
+    source "$SHELL_DIR/LEXIKAS/vision.cut-dna" "$@"
 }
 
 ###====================================|====================================###
