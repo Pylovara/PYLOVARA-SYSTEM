@@ -75,7 +75,7 @@ MUTTERMODUL # STARTWABE
 ###==========================VERWENDETE-WABEN-NR============================###
 
 
- #TA001 = ST001 |
+ TA001 = ST001 |
  #PI001 = ST002 |
  PL052 = ST003 |
 
