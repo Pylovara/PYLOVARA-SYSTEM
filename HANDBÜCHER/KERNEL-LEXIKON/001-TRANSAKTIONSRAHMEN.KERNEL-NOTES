@@ -153,12 +153,60 @@ MUTTERWABEN-KATEGORIE ⠆⢄⠢⠤ STARTWABE
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE # 
+MUTTERWABEN-KATEGORIE # BAUWABE 
 
+ PROGRAMM-KERN # NA
 
+ WABEN-ID # BA
 
+ BION-NR # NR
 
+ BION-ID # BIID
 
+ BSK-KN # BAKN
+
+ BSK-ID # BAID
+
+ BION # BION
+
+ BSK # BSK
+
+ # AXIOM | KEID + WAID + BAKN
+ AXIOM ¡ KEID ⧓ WAID ⧓ BAKN Ξ BAID
+
+ # AXIOM | BION-ID
+ AXIOM ¡ WAID ⧓ NR Ξ BIID
+
+TOCHTERWABEN-KATEGORIE # COMBOLINKWABE
+
+ # AXIOM | HOLE RAM EINHEIT 
+ AXIOM ¡ # ⍠ RA
+
+ # EINHEIT | RAM 
+ EINHEIT # RA
+
+ # LINK | MASTERKERNWABE 
+ LINK # LI
+
+ # AXIOM | 
+ AXIOM ¡ LI ⍿ MK HT ST BA ED Ξ SG  
+
+ # SCHALTUNG 
+ SCHALTUNG ¡ SG
+
+ # PRÄFIX
+ PRÄFIX PR
+
+ # AXIOM | PRÄFIX TAGGEN UND RAM  
+ AXIOM ¡ SG ⥗ PR ⍠ RA
+
+ # EINHEIT | RAM | VERLINKT FERTIG
+ EINHEIT RA
+
+ # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
+ AXIOM ¡ BIID ⦳ BIID
+
+###====================================|====================================###
 
 
 
