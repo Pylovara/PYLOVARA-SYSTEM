@@ -86,13 +86,13 @@ MUTTERWABEN-KATEGORIE ⠆⢄⢂⠌ HAUPTWABE
  AXIOM ¡ ⠆⢄⢂⠒ ⧓ ⠆⢄⢁⠘ Ξ ⠆⢄⢁⠡
 
  # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
- AXIOM ¡ ⠆⢄⢁⠡ ⦳ BIID
+ AXIOM ¡ ⠆⢄⢁⠡ ⦳ ⠆⢄⠡⢠
 
 ###====================================|====================================###
 
 MUTTERWABEN-KATEGORIE ⠆⢄⠢⠤ STARTWABE 
 
- PROGRAMM-KERN ⠆⢄⠢⠨ RUNTIME
+ PROGRAMM-KERN ⠆⢄⠢⠨ RUN
 
  WABEN-ID ⠆⢄⠢⠰ ST
 
@@ -100,13 +100,13 @@ MUTTERWABEN-KATEGORIE ⠆⢄⠢⠤ STARTWABE
 
  BION-ID ⠆⢄⠡⢠ ST001
 
- BSK-KN ⠆⢄⠡⣀ RUNTIME
+ BSK-KN ⠆⢄⠡⣀ RUN
 
- BSK-ID ⠆⢄⠢⠃ TAST-RUNTIME
+ BSK-ID ⠆⢄⠢⠃ TAST-RUN
 
  BION ⠆⢄⠢⠅ TA001MK001HT001ST001
 
- BSK ⠆⢄⠢⠉ TAMK+TAHT-RUNTIME+TAST-RUNTIME
+ BSK ⠆⢄⠢⠉ TAMK+TAHT-RUNTIME+TAST-RUN
 
  # AXIOM | KEID + WAID + BAKN
  AXIOM ¡ ⠆⢄⡠⠃ ⧓ ⠆⢄⠢⠰ ⧓ ⠆⢄⠡⣀ Ξ ⠆⢄⠢⠃
@@ -115,38 +115,49 @@ MUTTERWABEN-KATEGORIE ⠆⢄⠢⠤ STARTWABE
  AXIOM ¡ ⠆⢄⠢⠰ ⧓ ⠆⢄⠢⡁ Ξ ⠆⢄⠡⢠
 
  # TASTEN
- TASTENCODE # TT
- TASTENCODE # TT
+ TASTENCODE ⠆⢄⠡⡄ ALTGR
+ TASTENCODE ⠆⢄⠡⡠ SHIFT
+ TASTENCODE ⠆⢄⠡⡈ C
+ TASTENCODE ⠆⢄⠡⡐ 1
 
  # AXIOM | SYMBOL BAUEN
- AXIOM ¡ TT ⦻ TT ⦻ TT Ξ SY
- AXIOM ¡ TT ⦻ TT Ξ SY
+ AXIOM ¡ ⠆⢄⠡⡄ ⦻ ⠆⢄⠡⡈ Ξ ⠆⢄⠡⢁
+ AXIOM ¡ ⠆⢄⠡⡠ ⦻ ⠆⢄⠡⡐ Ξ ⠆⢄⠡⢂
 
  # SYMBOLE FERTIG
- SYMBOLE SY
- SYMBOLE SY
+ SYMBOLE ⠆⢄⠡⢁ ¢
+ SYMBOLE ⠆⢄⠡⢂ !
 
  # AXIOM | PRODUKT BAUEN
- AXIOM ¡  AXIOM ¡ SY ⧓ SY Ξ PD
- AXIOM ¡  AXIOM ¡ SY ⧓ SY Ξ PD
+ AXIOM ¡ ⠆⢄⠡⢁ ⧓ ⠆⢄⠡⢂ Ξ ⠆⢄⠡⢐
+ AXIOM ¡ ⠆⢄⠡⢂ ⧓ ⠆⢄⠡⢁ Ξ ⠆⢄⠡⠘
 
  # PRODUKT
- PRODUKT PD
- PRODUKT PD
+ PRODUKT ⠆⢄⠡⠔ ¢!
+ PRODUKT ⠆⢄⠡⠘ !¢
 
  # PRÄFIX
- PRÄFIX PR
- PRÄFIX PR
+ PRÄFIX ⠆⢄⠡⠢ TA-RUN-START
+ PRÄFIX ⠆⢄⠡⠤ TA-RUN-ENDE
 
  # AXIOM | PRÄFIX TAGGEN UND RAM  
- AXIOM ¡ PD ⥗ PR ⍠ RA
+ AXIOM ¡ ⠆⢄⠡⠔ ⥗ ⠆⢄⠡⠢ ⍠ ⠆⢄⠡⠨
+ AXIOM ¡ ⠆⢄⠡⠘ ⥗ ⠆⢄⠡⠤ ⍠ ⠆⢄⠡⠰
 
  # EINHEIT | RAM
- EINHEIT RA
- EINHEIT RA
+ EINHEIT ⠆⢄⠡⠨ ¢! TA-RUNTIME-START
+ EINHEIT ⠆⢄⠡⠰ !¢ TA-RUNTIME-ENDE
 
  # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
- AXIOM ¡ BIID ⦳ BIID
+ AXIOM ¡ ⠆⢄⠡⢠ ⦳ BIID
+
+###====================================|====================================###
+
+MUTTERWABEN-KATEGORIE # 
+
+
+
+
 
 
 
