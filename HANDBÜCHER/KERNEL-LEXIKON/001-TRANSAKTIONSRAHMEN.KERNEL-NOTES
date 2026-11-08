@@ -90,7 +90,68 @@ MUTTERWABEN-KATEGORIE ⠆⢄⢂⠌ HAUPTWABE
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE #
+MUTTERWABEN-KATEGORIE # STARTWABE 
+
+ PROGRAMM-KERN # NA
+
+ WABEN-ID # ST
+
+ BION-NR # NR
+
+ BION-ID # BIID
+
+ BSK-KN # BAKN
+
+ BSK-ID # BAID
+
+ BION # BION
+
+ BSK # BSK
+
+ # AXIOM | KEID + WAID + BAKN
+ AXIOM ¡ KEID ⧓ WAID ⧓ BAKN Ξ BAID
+
+ # AXIOM | BION-ID
+ AXIOM ¡ WAID ⧓ NR Ξ BIID
+
+ # TASTEN
+ TASTENCODE # TT
+ TASTENCODE # TT
+
+ # AXIOM | SYMBOL BAUEN
+ AXIOM ¡ TT ⦻ TT ⦻ TT Ξ SY
+ AXIOM ¡ TT ⦻ TT Ξ SY
+
+ # SYMBOLE FERTIG
+ SYMBOLE SY
+ SYMBOLE SY
+
+ # AXIOM | PRODUKT BAUEN
+ AXIOM ¡  AXIOM ¡ SY ⧓ SY Ξ PD
+ AXIOM ¡  AXIOM ¡ SY ⧓ SY Ξ PD
+
+ # PRODUKT
+ PRODUKT PD
+ PRODUKT PD
+
+ # PRÄFIX
+ PRÄFIX PR
+ PRÄFIX PR
+
+ # AXIOM | PRÄFIX TAGGEN UND RAM  
+ AXIOM ¡ PD ⥗ PR ⍠ RA
+
+ # EINHEIT | RAM
+ EINHEIT RA
+ EINHEIT RA
+
+ # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
+ AXIOM ¡ BIID ⦳ BIID
+ 
+
+
+
+
 
 ###====================================|====================================###
 ###===========================KOMPAKTE-WABEN-PFADE==========================###
