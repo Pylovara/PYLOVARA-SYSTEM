@@ -153,23 +153,23 @@ MUTTERWABEN-KATEGORIE ⠆⢄⠢⠤ STARTWABE
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE # BAUWABE 
+MUTTERWABEN-KATEGORIE ⠆⢄⠡⡂ BAUWABE 
 
- PROGRAMM-KERN # NA
+ PROGRAMM-KERN ⠆⢄⠘⣀ RUN
 
- WABEN-ID # BA
+ WABEN-ID ⠆⢄⠡⠃ BA
 
- BION-NR # NR
+ BION-NR ⠆⢄⠡⠅ NR
 
- BION-ID # BIID
+ BION-ID ⠆⢄⠡⠉ BIID
 
- BSK-KN # BAKN
+ BSK-KN ⠆⢄⠡⠊ BAKN
 
- BSK-ID # BAID
+ BSK-ID ⠆⢄⠡⠌ BAID
 
- BION # BION
+ BION ⠆⢄⠡⠑ BION
 
- BSK # BSK
+ BSK ⠆⢄⠡⠒ BSK
 
  # AXIOM | KEID + WAID + BAKN
  AXIOM ¡ KEID ⧓ WAID ⧓ BAKN Ξ BAID
