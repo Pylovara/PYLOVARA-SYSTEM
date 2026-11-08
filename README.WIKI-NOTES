@@ -42,47 +42,7 @@
  #
 ###======================EXPERIEMNTIELLE ANZEIGE============================###
 
-<!-- MCS-STATS:START -->
- PNS PYLOVARA-SYSTEM // TWS ARCHITEKTUR-METRIK
---------------------------------------------------
- MCS-STATUS        : ERKANNT
- MCS-DATEIEN       : 5 (2 dominant, 3 gemischt)
- MCS-RAHMEN        : 65 (64 top-level, 1 verschachtelt)
- MCS-ZEILEN        : 476 (346 Inhalt + 130 Rahmen)
- MCS-ANTEIL CODE   : 12,9 %
- MCS-ANTEIL TEXT   : 6,1 % (aktiver Text)
- FREMDCODE         : 3.222 Zeilen (52 Dateien)
- DOKU/KONFIG       : 4.122 Zeilen
- MASSENDATEN       : 641.533 Zeilen (nicht in Prozenten)
- BINÄRMEDIEN       : 73 Dateien
- MCS-SPUREN        : 1 Datei (nur Beispiele/Text)
- QUELL-COMMIT      : 28a6500d
- STAND             : 2026-11-08 14:54:15 UTC
-<!-- MCS-STATS:END -->
-
-
-
-![MCS-Status](MCS-STATUS.svg)
-
-<!-- MCS-STATS:START -->
-## MCS-Substanz (automatisch)
-
-**MCS ERKANNT** · 5 Dateien · 65 Rahmen · 476 MCS-Zeilen
-
-```text
-MCS   ███░░░░░░░░░░░░░░░░░░░░░  12,9 % vom Code
-Fremd █████████████████████░░░  87,1 % vom Code
-```
-
-| Bereich | Dateien | Zeilen | Anteil |
-|---|---:|---:|---:|
-| MCS (Eigen) | 5 | 476 | 12,9 % vom Code |
-| Fremdcode | 52 | 3.222 | 87,1 % vom Code |
-| Dokumentation | 54 | 3.540 | 85,9 % vom Doku-/Konfig-Text |
-| Konfiguration | 11 | 582 | 14,1 % vom Doku-/Konfig-Text |
-| Massendaten | 9 | 641.533 | – (nicht in Prozenten) |
-
-<!-- MCS-STATS:END -->
+            ( WIRD EINGEPFLEGT BEI EINFÜHRUNG DER BIBLIOTHEK)
 
 ###====================REGULÄRE LINUX BASH SHELL============================###
 
