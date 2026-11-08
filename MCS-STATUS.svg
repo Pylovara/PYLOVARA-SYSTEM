@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="170" viewBox="0 0 560 170" role="img" aria-label="MCS-Status: ERKANNT">
+  <rect width="560" height="170" rx="12" fill="#0d1117" stroke="#30363d"/>
+  <text x="28" y="32" fill="#8b949e" font-family="monospace" font-size="13">PYLOVARA // MCS-STATUS</text>
+  <text x="532" y="32" fill="#8b949e" font-family="monospace" font-size="12" text-anchor="end">MCS 7.5</text>
+  <text x="28" y="68" fill="#3fb950" font-family="monospace" font-size="24" font-weight="bold">MCS ERKANNT</text>
+  <text x="532" y="68" fill="#e6edf3" font-family="monospace" font-size="24" text-anchor="end">12,9 %</text>
+  <rect x="28" y="86" width="504" height="14" rx="7" fill="#21262d"/>
+  <rect x="28" y="86" width="65" height="14" rx="7" fill="#3fb950"/>
+  <text x="28" y="124" fill="#8b949e" font-family="monospace" font-size="12">476 MCS-Zeilen · 65 Rahmen · 5 Dateien</text>
+  <text x="28" y="144" fill="#8b949e" font-family="monospace" font-size="12">Fremdcode: 3.222 Zeilen · Doku: 3.540 Zeilen</text>
+  <text x="532" y="144" fill="#484f58" font-family="monospace" font-size="10" text-anchor="end">2026-11-08 14:54:15 UTC</text>
+</svg>
