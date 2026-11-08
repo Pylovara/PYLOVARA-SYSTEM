@@ -2,6 +2,9 @@
 # | GIT-SECURITY | KERNEL-PROTECTION | STATUS = BAUSTELLE STUFE 10
 ####################################################################
 
+# danach eintragen 
+# .mcs_analyzer.sh
+
 # Neu Angelegter Sektor
 /PYLOVARA-SYSTEM/EXTRAS/Kernel
 /PYLOVARA-SYSTEM/EXTRAS/*.*-*
