@@ -35,6 +35,7 @@
  PR      = PRÄFIX
  TT      = TASTEN
  SY      = SYMBOL
+ SG      = SCHALTUNG
 
  LOG     = LOGIK
  KAN1    = KANAL1
@@ -45,29 +46,7 @@
  # VERSTÄNDNIS BEREICH :
 
  IN DIESEM BEREICH ENTSTEHEN VON WURZEL BIS VOLLSTÄNDIGE MORPHIC ZUSTAND 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ …
 
 ###=====================INDUSTRIE-STANDARD-DER-ZUKUNFT======================###
 ###================================ENDPUNKT=================================###
