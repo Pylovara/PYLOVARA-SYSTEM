@@ -118,7 +118,7 @@ MUTTERWABEN-KATEGORIE ⠆⢄⠘⢂ STARTWABE
  TASTENCODE ⠆⢄⠘⡁ ALTGR
  TASTENCODE ⠆⢄⠘⡂ 8
  TASTENCODE ⠆⢄⠘⡄ 9
- 
+
  # AXIOM | SYMBOL BAUEN
  AXIOM ¡ ⠆⢄⠘⡁ ⦻ ⠆⢄⠘⡂ Ξ ⠆⢄⠘⠃
  AXIOM ¡ ⠆⢄⠘⡁ ⦻ ⠆⢄⠘⡄ Ξ ⠆⢄⠘⠅
@@ -152,7 +152,73 @@ MUTTERWABEN-KATEGORIE ⠆⢄⠘⢂ STARTWABE
 
 ###====================================|====================================###
 
+MUTTERWABEN-KATEGORIE ⠆⢄⠔⡐ BAUWABE 
+
+ PROGRAMM-KERN ⠆⢄⠔⢁ PROTEIN
+
+ WABEN-ID ⠆⢄⠔⢂ CL
+
+ BION-NR # 003
+
+ BION-ID # BIID
+
+ BSK-KN # BAKN
+
+ BSK-ID # BAID
+
+ BION # BION
+
+ BSK # BSK
+
+ # AXIOM | KEID + WAID + BAKN
+ AXIOM ¡ KEID ⧓ WAID ⧓ BAKN Ξ BAID
+
+ # AXIOM | BION-ID
+ AXIOM ¡ WAID ⧓ NR Ξ BIID
+
+TOCHTERWABEN-KATEGORIE # COMBOLINKWABE
+
+ # AXIOM | HOLE RAM EINHEIT 
+ AXIOM ¡ # ⍠ RA
+
+ # EINHEIT | RAM 
+ EINHEIT # RA
+
+ # LINK | MASTERKERNWABE 
+ LINK # LI
+
+ # AXIOM | BEDINGUNGSCHALTUNG
+ AXIOM ¡ LI ⧖⧖ ⑅ HT ST BA ED Ξ SG  
+
+ # SCHALTUNG 
+ SCHALTUNG ¡ SG
+
+ # PRÄFIX
+ PRÄFIX PR
+
+ # AXIOM | PRÄFIX TAGGEN UND RAM  
+ AXIOM ¡ SG ⥗ PR ⍠ RA
+
+ # EINHEIT | RAM 
+ EINHEIT RA
+
+ # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
+ AXIOM ¡ BIID ⦳ BIID
+
+###====================================|====================================###
+
 MUTTERWABEN-KATEGORIE # 
+
+
+
+
+
+
+
+
+
+
+
 
 
 
