@@ -63,7 +63,7 @@ MUTTERWABEN-KATEGORIE ⠆⢄⡠⣀ MASTERKERNWABE
 
 MUTTERWABEN-KATEGORIE ⠆⢄⡐⢁ HAUPTWABE 
 
- PROGRAMM-KERN ⠆⢄⡐⢂ BAUSTEIN
+ PROGRAMM-KERN ⠆⢄⡐⢂ PROTEIN
 
  WABEN-ID ⠆⢄⡐⢈ HT
 
@@ -71,13 +71,13 @@ MUTTERWABEN-KATEGORIE ⠆⢄⡐⢁ HAUPTWABE
 
  BION-ID ⠆⢄⡈⣀ HT002
 
- BSK-KG ⠆⢄⡐⠃ BAUSTEIN
+ BSK-KG ⠆⢄⡐⠃ PROTEIN
 
- BSK-ID ⠆⢄⡐⠅ PIHT-BAUSTEIN
+ BSK-ID ⠆⢄⡐⠅ PIHT-PROTEIN
 
  BION ⠆⢄⡐⠉ PI002MK002HT002
 
- BSK ⠆⢄⡐⠊ PIMK+PIHT-BAUSTEIN
+ BSK ⠆⢄⡐⠊ PIMK+PIHT-PROTEIN
 
  # AXIOM | KEID + WAID + BAKN
  AXIOM ¡ ⠆⢄⢁⡠ ⧓ ⠆⢄⡐⢈ ⧓ ⠆⢄⡐⠃ Ξ ⠆⢄⡐⠅
@@ -86,67 +86,69 @@ MUTTERWABEN-KATEGORIE ⠆⢄⡐⢁ HAUPTWABE
  AXIOM ¡ ⠆⢄⡐⢈ ⧓ ⠆⢄⡈⢠ Ξ ⠆⢄⡈⣀
 
  # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
- AXIOM ¡ ⠆⢄⡈⣀ ⦳ BIID
+ AXIOM ¡ ⠆⢄⡈⣀ ⦳ ⠆⢄⠘⠡
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE # STARTWABE 
+MUTTERWABEN-KATEGORIE ⠆⢄⠘⢂ STARTWABE 
 
- PROGRAMM-KERN # NA
+ PROGRAMM-KERN ⠆⢄⠘⢈ PROTEIN
 
- WABEN-ID # ST
+ WABEN-ID ⠆⢄⠘⢐ ST
 
- BION-NR # NR
+ BION-NR ⠆⢄⠘⢠ 002
 
- BION-ID # BIID
+ BION-ID ⠆⢄⠘⠡ ST002
 
- BSK-KN # BAKN
+ BSK-KN ⠆⢄⠘⠢ PROTEIN
 
- BSK-ID # BAID
+ BSK-ID ⠆⢄⠘⠤ PIST-PROTEIN
 
- BION # BION
+ BION ⠆⢄⠘⠨ PI002MK002HT002ST002
 
- BSK # BSK
+ BSK ⠆⢄⠘⠰ PIMK+PIHT-PROTEIN+PIST-PROTEIN
 
  # AXIOM | KEID + WAID + BAKN
- AXIOM ¡ KEID ⧓ WAID ⧓ BAKN Ξ BAID
+ AXIOM ¡ ⠆⢄⢁⡠ ⧓ ⠆⢄⠘⢐ ⧓ ⠆⢄⠘⠢ Ξ ⠆⢄⠘⠤
 
  # AXIOM | BION-ID
- AXIOM ¡ WAID ⧓ NR Ξ BIID
+ AXIOM ¡ ⠆⢄⠘⢐ ⧓ ⠆⢄⠘⢠ Ξ ⠆⢄⠘⠡
 
  # TASTEN
- TASTENCODE # TT
- TASTENCODE # TT
-
+ TASTENCODE ⠆⢄⠘⡁ ALTGR
+ TASTENCODE ⠆⢄⠘⡂ 8
+ TASTENCODE ⠆⢄⠘⡄ 9
+ 
  # AXIOM | SYMBOL BAUEN
- AXIOM ¡ TT ⦻ TT ⦻ TT Ξ SY
- AXIOM ¡ TT ⦻ TT Ξ SY
+ AXIOM ¡ ⠆⢄⠘⡁ ⦻ ⠆⢄⠘⡂ Ξ ⠆⢄⠘⠃
+ AXIOM ¡ ⠆⢄⠘⡁ ⦻ ⠆⢄⠘⡄ Ξ ⠆⢄⠘⠅
 
  # SYMBOLE FERTIG
- SYMBOLE SY
- SYMBOLE SY
+ SYMBOLE ⠆⢄⠘⠃ [
+ SYMBOLE ⠆⢄⠘⠅ ]
 
  # AXIOM | PRODUKT BAUEN
- AXIOM ¡ SY ⧓ SY Ξ PD
- AXIOM ¡ SY ⧓ SY Ξ PD
+ AXIOM ¡ ⠆⢄⠘⠃ Ξ ⠆⢄⠘⠉
+ AXIOM ¡ ⠆⢄⠘⠅ Ξ ⠆⢄⠘⠊
 
  # PRODUKT
- PRODUKT PD
- PRODUKT PD
+ PRODUKT ⠆⢄⠘⠉ [
+ PRODUKT ⠆⢄⠘⠊ ]
 
  # PRÄFIX
- PRÄFIX PR
- PRÄFIX PR
+ PRÄFIX ⠆⢄⠘⠌ PI-PROTEIN-START
+ PRÄFIX ⠆⢄⠘⠑ PI-PROTEIN-ENDE
 
  # AXIOM | PRÄFIX TAGGEN UND RAM  
- AXIOM ¡ PD ⥗ PR ⍠ RA
+ AXIOM ¡ ⠆⢄⠘⠉ ⥗ ⠆⢄⠘⠌ ⍠ ⠆⢄⠘⠒
+ AXIOM ¡ ⠆⢄⠘⠊ ⥗ ⠆⢄⠘⠑ ⍠ ⠆⢄⠘⠔
 
  # EINHEIT | RAM
- EINHEIT RA
- EINHEIT RA
+ EINHEIT ⠆⢄⠘⠒ [ PI-PROTEIN-START
+ EINHEIT ⠆⢄⠘⠔ ] PI-PROTEIN-ENDE
 
  # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
- AXIOM ¡ BIID ⦳ BIID
+ AXIOM ¡ ⠆⢄⠘⠡ ⦳ BIID
 
 ###====================================|====================================###
 
