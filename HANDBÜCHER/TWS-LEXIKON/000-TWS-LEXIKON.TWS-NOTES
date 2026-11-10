@@ -12,6 +12,7 @@
  #  01 ⠆⢄⢐⣀ STRUKTUR                 |  02 ⠆⢄⢐⢠ WABENAUFBAU                  #
  #  03 ⠆⢄⢈⠔ AXIOMPROGRAMMIERUNG      |  04 ⠆⢄⢁⡠ SYSTEM-ID                    #
  #  05 ⠆⢄⡠⠑ WABENPLATZHALTER         |  06 ⠆⢄⡂⠊ PIPELINE                     #
+ #  07 ⠆⢄⠘⡈ WABEN-ID                 |  08                                   #
 ###=========================GENERALWABEN-KATALOG============================###
  #  10 ⠆⢄⢈⠡ MUTTERWABE               |  11 ⠆⢄⢈⠢ TOCHTERWABE                  #
  #  12 ⠆⢄⢈⠤ KINDERWABEN              |  13 ⠆⢄⢈⠨ HONIGTROPFEN                 #
@@ -45,7 +46,7 @@
  # SYSTEM ⠆⢄⢐⡐ PNS 2.6.4 PYLOVARA—NETZWERK—SYSTEM            #   #       #   #
  # PROGRAMMIERSPRACHE ⠆⢄⢐⠑ MCS 7.5 | MASCHINEN-CODE-SPEECH   #     ⠆⢄⢐⠘      #
  # KERNELSPRACHE  ⠆⢄⢐⢈ TWS 0.3 | THE-WABE-NEST-SYSTEM        #  #        #   #
- # TASTATURSTANDARD ⠆⢄⢐⠒ UTF -8 | DEUTSCHER-STANDARD         #   #           #
+ # TASTATURSTANDARD ⠆⢄⢐⠒ UTF -8 | DEUTSCHER-STANDARD         #   #   #       #
  # LIZENZEN ⠆⢄⢐⠤ LV 1.6 | LIZENZVERTRAG                      #             # #
 ###=================================IMPRESSUM===============================###
  # TWS-LEXIKON VERSION ⠆⢄⢐⠘ 00-03 | THE-WABE-NEST-SYSTEM                     #
