@@ -8,7 +8,6 @@
  - BIS DEZEMBER KEINE VARA UPDATES 
  - PIPELINE + PROTEIN 
  - KGW ÜBERARBEITEN...
- - PIPELINE TRACKTORWABE MASTERLINK VOM CONNECTOR-BAUM VERLINKEN
  - SEITE 40 ABGLEICHEN UND KÜRZEL SETZEN BEI BEENDIGUNG. 
  - STARTWABEN SYMBOL OPERATOREN AXIOM, BEWUSST BIS ZUM SCHLUSS VERLEGEN.
  - DIE TAGE DIE SHELL LAYOUTS WIEDER AUF DEN IST ZUSTAND UMSCHREIBEN.
@@ -38,7 +37,98 @@
  ALLES ANDERE WIRD DANN IN DER JEWEILIGE DATEI DANN DIREKT SICHTBAR BEI 
  DEBUGGING. 
 
- BEDENKZEIT 2 TAGE . 
+ BEDENKZEIT 1 TAGE . 
+
+ bsk-kn nach haupt/startwabe auf tochter präfix umstellen .... 
+ sinnvollste art .... da waben ohne töchter so oder so , nur einen 
+ anhaltspunkt kennen .... 
+
+
+ AB SPÄTER/MORGEN : 
+
+ - BSK-IDs auf tochterwaben verschieben und die bauwabe ohne lassen 
+ - alles davor bleibt. 
+ - endwaben selbe chema , einheitlich , alles in die tochter 
+
+
+ vermerk : 
+
+ schmierzettel später gemütlich durch gehen , kann tage dauern ... 
+ wird aber interessant .
+
+ ich glaub ich hab endlich die ricghtige frage gefunden die mich so agressiv macht 
+ und endlich einen vernümpftigen anhaltspunkt bekommen ... 
+
+
+ merk dir weiter frage bezüglich maschinen code 
+
+ - sind die codes cpu iot , microcode, leiterbahnen ... oder sind sie 
+   im grunde nur eine programmierung die übersetzt wird 
+
+ - konkrette maschinenlisten , wenn es sein muss per ki aus jeder isa 
+   auf ein datenblatt gepresst, damit ich es abtippen kann ... 
+
+   ( abtippen für den merk prozess im gehirn und vor allem aber auch wegen meiner 
+      ordnungs drang geschichte )
+
+ - gehe weiter auf maschinen codes ein ... 
+
+ sind sie iots .... sind sie c ..... ist es nur eine instruktion .. 
+ machen diese codes alle computer .... wenn nicht , worauf muss ich achten ... 
+
+ denke daran : 
+
+ einen verfickten compiler vollständig in deutsch schreiben zu lassen 
+ und auch jede abkürzung vollständig zu beseitigen ... 
+
+ nur ausgesprochenen wörter .... keine kürzel 
+
+ ich muss verstehen was die amerikaner unter programmierung verstehen ... 
+
+ denen ihre verkritzelden mandala sprachen und alle auf full english ... 
+ bringen mir als deutsche gar nichts .... ich lern kein englisch ... 
+
+ ich beseige dreck ... aber ich lerne kein englisch .. 
+
+ ich brauch 
+
+ - vollständiger funktionierender c compiler auf deutsch .... 
+   ausgesprochenen wörter. 
+
+   der rest ist logik und mathe ... das ist egal ... 
+
+
+   danach kann ich nach weiteren logik fehler in deren programmierungen 
+   suchen und vom block an bis sonderzeichen logik , bis hin zu deren 
+   wort kommandos ... vollständig verstehen und weis direkt wo dumm gedacht wurde 
+   und wo schlau .... und ob das gesamt packet überhaupt nach intelligenz 
+   schreit oder wie ich es in den mandalas bei denen schon sehend vermute , nur dünnschiss .
+
+   ich hab c die variablen genommen ..... verbessert ...... assimiliert 
+   ich bin gerade dabei den assembly vollständig zu upgraden und zu assimilieren 
+   mit dem tws ... 
+
+   mcs selbst wird dann zeigen das anscheinend nur ein deutsche was von ordnung 
+   und ästhetik versteht ....
+
+   danach muss ich noch heraus bekommen warum sie überhaupt bit als mechanik 
+   eingeführt haben und ein bit überhaupt keinen wert hat ... 
+
+   8 bit gleich 1 byte .... aber was ist ein bit ! eins und null ist eine schaltung 
+   und kein bit ..... wenn sie die schaltung als bit bezeichnen , dann wäre 
+   das die nächste burgraben logik die ich heraus ziehe .... 
+
+   ordnung muss sein .... ich kann zwar behaupten das ein pferde kakhaufen 
+   eine torte ist aber der gerucht stinkt dennoch 
+
+   das selbe hab ich bei dem thema bit im urin ...  
+
+
+
+
+
+
+
 
 
 #==================# SCHMIERBEREICH

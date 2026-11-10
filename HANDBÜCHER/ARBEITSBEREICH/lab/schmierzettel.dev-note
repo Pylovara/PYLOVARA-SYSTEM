@@ -1,0 +1,124 @@
+Ein Beispiel für x86-64:
+
+
+Maschinenbefehl	Bedeutung
+MOV	Daten zwischen Registern und Speicher übertragen
+ADD	Werte addieren
+SUB	Werte subtrahieren
+MUL	Werte multiplizieren
+CMP	Werte vergleichen
+JMP	Zu einer anderen Programmstelle springen
+CALL	Eine Funktion aufrufen
+RET	Aus einer Funktion zurückkehren
+PUSH	Wert auf den Stack legen
+POP	Wert vom Stack holen
+AND	Bitweises UND
+OR	Bitweises ODER
+XOR	Bitweises exklusives ODER
+
+Das ist bereits eine echte Programmiersprache auf Maschinenebene – 
+genauer gesagt: Assembly. Jede dieser Anweisungen wird
+ in eine oder mehrere konkrete Maschinen-Code-Bytefolgen übersetzt.
+
+
+Maschinenbefehl-Referenzen für x86-64, ARM64 und RISC-V.
+
+Die tatsächlichen Opcode- und Bytecodierungen.
+
+Historische Quelltexte und Dokumente der ersten Assembler und Compiler.
+
+Bootstrapping-Unterlagen: Wie aus Maschinenbefehlen Assembler, Compiler und schließlich Hochsprachen entstanden.
+
+
+
+1. x86-64 – Intel und AMD
+Offizielle Herstellerdokumentation
+Intel – Software Developer's Manual
+Intel SDM – komplette DokumentensammlungBesonders wichtig:
+- Volume 1: Grundarchitektur, Register und Speicher.
+- Volume 2A–2D: sämtliche Instruktionsbeschreibungen A–Z.
+- Volume 3A–3D: Systemprogrammierung, Interrupts, Speicherverwaltung und Virtualisierung.
+- Volume 4: Model-Specific Registers.
+Volume 2 ist deine wichtigste Opcode-Sammlung. Dort stehen die Befehlsformate, Operanden und Codierungsinformationen. 
+Intel+1
+
+
+AMD – AMD64 Architecture Programmer's Manual
+AMD64 Architecture Programmer's Manual, Volumes 1–5Zusätzlich die einzelnen Bände:
+- Volume 1 – Application Programming
+- Volume 3 – General-Purpose and System Instructions
+AMD dokumentiert dort Mnemonics, Opcodes, Funktionen, Flags und Ausnahmen. 
+Die AMD- und Intel-Dokumentation ergänzen sich, weil x86-64 über beide Hersteller hinweg gewachsen ist. 
+docs.amd.com+1
+
+2. ARM64 / AArch64
+Offizielle Architekturunterlagen
+Arm A-profile A64 Instruction Set Architecture
+A64 – Instruktionsreferenz nach CodierungDas ist besonders interessant für 
+deine gewünschte Darstellung: Die Dokumentation bietet eine Übersicht der Bitfelder 
+und Instruktionsgruppen. Du kannst also vom binären Maschinenbefehl zur 
+passenden Instruktion gelangen.
+
+Weitere Unterlagen:
+- A64 Instruction Set Architecture Guide
+- Arm Architecture Reference Manual – A64
+A64 ist der 64-Bit-Befehlssatz von AArch64. 
+support.arm.com+2
+
+3. RISC-V 64
+Offizielle offene Spezifikation
+RISC-V ist für dein Vorhaben besonders interessant, weil die Architektur 
+offen spezifiziert ist.
+
+Die beiden wichtigsten Handbücher:
+- Volume I – Unprivileged ISA
+- Volume II – Privileged ISA
+Volume I enthält die normalen Prozessorbefehle und Erweiterungen. 
+Volume II enthält privilegierte Befehle, Maschinenmodi und Systemsteuerung.
+
+Zusätzlich eine besonders wertvolle Quelle:
+RISC-V Opcodes – offizielle Opcode-DatenbankDas ist nicht nur ein PDF. 
+Das Repository enthält maschinenlesbare Instruktionsdefinitionen, Bitmasken, 
+Codierungen und ein Werkzeug zur Erzeugung weiterer Tabellen. 
+
+Genau so etwas brauchst du für deine eigene Datenbank. 
+riscv/riscv-opcodes: RISC-V Opcodes · GitHub+2
+
+
+
+- Smithsonian – Originalarchiv: Compiling Routine A-0
+- Computer History Museum – Grace Hopper Oral History
+- Computer History Museum – Geschichte der Programmiersprachen
+Das Smithsonian verzeichnet sogar konkrete Archivunterlagen aus Mai 1952, Box 9, Folder 22. Das Material ist für Forschungszwecke zugänglich; eine vollständige digitale Kopie des ausführbaren A-0-Maschinencodes ist damit allerdings nicht garantiert.
+
+Eine historische Besonderheit: A-0 war nach heutiger Terminologie eher ein System zum Zusammenstellen, Laden und Verknüpfen vorgefertigter Unterprogramme als ein moderner Compiler mit vollständiger Sprachübersetzung. 
+Smithsonian Collections+2
+
+
+Alick Glennie – Manchester Autocode (1952)
+- Manchester Autocodes – historische Dokumentation
+- Manchester Baby – historische Entwicklung
+- Ferranti Mark I – ursprüngliche Maschinenbefehle
+Hier kannst du nachvollziehen, wie frühe Maschinenbefehle in eine lesbarere Notation überführt wurden. 
+curation.cs.manchester.ac.uk+1
+
+
+BCPL – Bootstrapping und Compilerquellcode
+Computer History Museum – BCPL Preservation ArchiveDas ist eine besonders gute Fundstelle. Dort liegen unter anderem:
+- M. Richards: Bootstrapping the BCPL Compiler using INTCODE (1973).
+- BCPL Programming Manual.
+- BCPL-Compilerquellcode.
+- BCPL-Runtime-Quellcode.
+- Alto-Assembler- und Microcode-Unterlagen.
+Hier findest du tatsächlich historische Quelltexte und Dokumente, mit denen du den Aufbau und die Übertragung von Compilern zwischen Maschinen nachvollziehen kannst. 
+softwarepreservation.computerhistory.org
+
+
+FORTRAN – Compiler aus den 1950er-Jahren
+Computer History Museum – FORTRAN Preservation ArchiveDort gibt es unter anderem:
+- FORTRAN-II-Compiler-Listings.
+- Historische Quelltextbestände.
+- Compiler-Ausgaben.
+- Historische Programme und Ausführungsprotokolle.
+Das ist eine weitere wichtige Quelle, um zu sehen, wie aus einer höheren Sprache tatsächlich Maschinencode erzeugt wurde. 
+softwarepreservation.computerhistory.org+1
