@@ -207,12 +207,12 @@ TOCHTERWABEN-KATEGORIE ⠆⢄⠨⡂ TRAKTORWABE
  EINHEIT ⠆⢄⠤⠤ ↓ PL-RUNTER
  EINHEIT ⠆⢄⠤⠨ → PL-RECHTS
  EINHEIT ⠆⢄⠢⢠ — PL-CONNECTOR
-----------------------------------!!!!!!------------------------------
- # AXIOM | SETZE STEUERUNGSVERBINDUNG 
- AXIOM ¡ RUNTER ⧑ RUNTER Ξ LOG
- AXIOM ¡ RUNTER ⧑ RECHTS Ξ LOG
- AXIOM ¡ RUNTER ⧑ LINKS Ξ LOG
 
+ # AXIOM | SETZE STEUERUNGSVERBINDUNG 
+ AXIOM ¡ ⠆⢄⠤⠤ ⧑ ⠆⢄⠤⠤ Ξ ⠆⢄⠢⣀
+ AXIOM ¡ ⠆⢄⠤⠤ ⧑ ⠆⢄⠤⠨ Ξ ⠆⢄⠤⠃
+ AXIOM ¡ ⠆⢄⠤⠤ ⧑ ⠆⢄⠤⠢ Ξ ⠆⢄⠤⠅
+----------------------------------!!!!!!------------------------------
  # AXIOM | STEUERUNGSWEICHE
  AXIOM ¡ PL-CONNECTOR ⧖⧖ X Ξ
  AXIOM ¡ PL-CONNECTOR ⧖⧖ X Ξ
