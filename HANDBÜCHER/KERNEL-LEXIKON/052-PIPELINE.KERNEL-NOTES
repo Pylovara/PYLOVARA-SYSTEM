@@ -126,49 +126,42 @@ MUTTERWABEN-KATEGORIE ⠆⢄⡈⢐ STARTWABE
  AXIOM ¡ ⠆⢄⠨⣀ ⦻ ⠆⢄⠨⢐ Ξ ⠆⢄⠤⢂
  AXIOM ¡ ⠆⢄⠨⣀ ⦻ ⠆⢄⠨⢈ Ξ ⠆⢄⠤⢈
  AXIOM ¡ ⠆⢄⠨⣀ ⦻ ⠆⢄⠨⢂ Ξ ⠆⢄⠤⢐
- AXIOM ¡ ⠆⢄⠨⣀ ⦻ ⠆⢄⠨⢠ ⦻ ⠆⢄⠨⢈ Ξ ⠆⢄⠤⢠
  AXIOM ¡ ⠆⢄⠨⣀ ⦻ ⠆⢄⠨⢠ ⦻ ⠆⢄⠨⢁ Ξ ⠆⢄⠤⣀
 
  # SYMBOLE FERTIG
  SYMBOLE ⠆⢄⠤⢂ ←
  SYMBOLE ⠆⢄⠤⢈ ↓
  SYMBOLE ⠆⢄⠤⢐ →
- SYMBOLE ⠆⢄⠤⢠ ↑
  SYMBOLE ⠆⢄⠤⣀ —
 
  # AXIOM | PRODUKT BAUEN
  AXIOM ¡ ⠆⢄⠤⢂ Ξ ⠆⢄⠨⡄
  AXIOM ¡ ⠆⢄⠤⢈ Ξ ⠆⢄⠨⡐
  AXIOM ¡ ⠆⢄⠤⢐ Ξ ⠆⢄⠨⡠
- AXIOM ¡ ⠆⢄⠤⢠ Ξ ⠆⢄⠤⠰
  AXIOM ¡ ⠆⢄⠤⣀ Ξ ⠆⢄⠤⡁
 
  # PRODUKT
  PRODUKT ⠆⢄⠨⡄ ← 
  PRODUKT ⠆⢄⠨⡐ ↓
  PRODUKT ⠆⢄⠨⡠ → 
- PRODUKT ⠆⢄⠤⠰ ↑
  PRODUKT ⠆⢄⠤⡁ — 
 
  # PRÄFIX
  PRÄFIX ⠆⢄⠤⡂ PL-LINKS
  PRÄFIX ⠆⢄⠤⡐ PL-RUNTER
  PRÄFIX ⠆⢄⠤⢁ PL-RECHTS
- PRÄFIX ⠆⢄⠤⠔ PL-HOCH
  PRÄFIX ⠆⢄⠤⠡ PL-CONNECTOR
 
  # AXIOM | PRÄFIX TAGGEN UND RAM  
  AXIOM ¡ ⠆⢄⠨⡄ ⥗ ⠆⢄⠤⡂ ⍠ ⠆⢄⠤⡄
  AXIOM ¡ ⠆⢄⠨⡐ ⥗ ⠆⢄⠤⡐ ⍠ ⠆⢄⠤⡠
  AXIOM ¡ ⠆⢄⠨⡠ ⥗ ⠆⢄⠤⢁ ⍠ ⠆⢄⠤⠑
- AXIOM ¡ ⠆⢄⠤⠰ ⥗ ⠆⢄⠤⠔ ⍠ ⠆⢄⠤⠒
  AXIOM ¡ ⠆⢄⠤⡁ ⥗ ⠆⢄⠤⠡ ⍠ ⠆⢄⠤⠘
 
  # EINHEIT | RAM
  EINHEIT ⠆⢄⠤⡄ ← PL-LINKS
  EINHEIT ⠆⢄⠤⡠ ↓ PL-RUNTER
  EINHEIT ⠆⢄⠤⠑ → PL-RECHTS
- EINHEIT ⠆⢄⠤⠒ ↑ PL-HOCH
  EINHEIT ⠆⢄⠤⠘ — PL-CONNECTOR
 
  # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
@@ -207,33 +200,36 @@ TOCHTERWABEN-KATEGORIE ⠆⢄⠨⡂ TRAKTORWABE
  AXIOM ¡ ⠆⢄⠤⡄ ⍠ ⠆⢄⠤⠢
  AXIOM ¡ ⠆⢄⠤⡠ ⍠ ⠆⢄⠤⠤
  AXIOM ¡ ⠆⢄⠤⠑ ⍠ ⠆⢄⠤⠨
- AXIOM ¡ ⠆⢄⠤⠒ ⍠ ⠆⢄⠢⢐
  AXIOM ¡ ⠆⢄⠤⠘ ⍠ ⠆⢄⠢⢠
 
  # EINHEIT | RAM 
  EINHEIT ⠆⢄⠤⠢ ← PL-LINKS
  EINHEIT ⠆⢄⠤⠤ ↓ PL-RUNTER
  EINHEIT ⠆⢄⠤⠨ → PL-RECHTS
- EINHEIT ⠆⢄⠢⢐ ↑ PL-HOCH
  EINHEIT ⠆⢄⠢⢠ — PL-CONNECTOR
-----------------------------------------------------------------
+----------------------------------!!!!!!------------------------------
  # AXIOM | SETZE STEUERUNGSVERBINDUNG 
- AXIOM ¡ RUNTER FOLGT RUNTER
- AXIOM ¡ RUNTER GIBT DATENCOPIE AB
- AXIOM ¡ RUNTER NIMMT DATEN AUF
- AXIOM ¡ HOCH FOLG HOCH
+ AXIOM ¡ RUNTER ⧑ RUNTER Ξ LOG
+ AXIOM ¡ RUNTER ⧑ RECHTS Ξ LOG
+ AXIOM ¡ RUNTER ⧑ LINKS Ξ LOG
 
  # AXIOM | STEUERUNGSWEICHE
- AXIOM ¡ PL-CONNECTOR WARTET AUF DANN VERBINDET
- AXIOM ¡ PL-CONNECTOR WARTET AUF DANN VERBINDET
+ AXIOM ¡ PL-CONNECTOR ⧖⧖ X Ξ
+ AXIOM ¡ PL-CONNECTOR ⧖⧖ X Ξ
 
  # LOGIK | STEUERUNG ID 
  LOGIK ⠆⢄⠢⣀ ↓ PL-RUNTER
  LOGIK ⠆⢄⠤⠃ ↓→ PL-RUNTER-PL-RECHTS
  LOGIK ⠆⢄⠤⠅ ↓← PL-RUNTER-PL-LINKS
- LOGIK ⠆⢄⠤⠉ ↑ PL-HOCH
- LOGIK ⠆⢄⠢⠘ — PL-CONNECTOR
 
+ # STEUERUNGSWEICHE
+ WEICHE ⠆⢄⠢⠘ — PL-CONNECTOR
+
+
+
+
+
+-------------------------
  # AXIOM | SYSTEMWEIT ZUGRIFF
  AXIOM ¡ ⠆⢄⠢⠘ ⍠ ⠆⢄⠢⡂
  AXIOM ¡ ⠆⢄⠢⠘ ⍠ ⠆⢄⠢⡄
