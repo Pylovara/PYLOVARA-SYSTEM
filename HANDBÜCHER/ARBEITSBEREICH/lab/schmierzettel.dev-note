@@ -122,3 +122,54 @@ Computer History Museum – FORTRAN Preservation ArchiveDort gibt es unter ander
 - Historische Programme und Ausführungsprotokolle.
 Das ist eine weitere wichtige Quelle, um zu sehen, wie aus einer höheren Sprache tatsächlich Maschinencode erzeugt wurde. 
 softwarepreservation.computerhistory.org+1
+
+
+
+
+
+
+Es existieren bereits Projekte, deren interne Instruktionsdefinitionen du als Datenquelle verwenden kannst.
+
+LLVM TableGen
+LLVM TableGen – offizielle DokumentationBeispiele aus dem Quellcode:
+- X86 Instruction Definitions
+- RISC-V Target Definitions
+TableGen kann seine Instruktionsdefinitionen sogar als JSON ausgeben (-dump-json). Das ist eine sehr gute Grundlage für ein eigenes Lexikon. Allerdings sind die Definitionen auf die Anforderungen des LLVM-Compilers zugeschnitten und nicht automatisch eine vollständige normative ISA-Referenz. 
+LLVM+2
+
+
+RISC-V Opcode-Datenbank
+riscv-opcodesHier bekommst du besonders strukturierte Daten:
+- Instruktionsnamen
+- Bitmasken
+- Opcode-Matches
+- variable Felder
+- Erweiterungszugehörigkeit
+Das kommt deiner Vorstellung einer kopierbaren Maschinenbefehl-Liste schon sehr nahe. 
+riscv/riscv-opcodes: RISC-V Opcodes · GitHub+1
+
+6. Wie ich deine eigene Sammlung strukturieren würde
+Ich würde die Daten nicht einfach nach Alphabet sortieren, sondern nach Prozessorarchitektur und Funktion.
+Datenfeld	Inhalt
+Architektur	x86-64 / AArch64 / RV64
+Befehl	MOV, ADD, LDR, ADDI usw.
+Opcode	Hexadezimale Codierung
+Binärformat	Einzelne Bits und Felder
+Operanden	Register, Speicher, Konstanten
+Funktion	Verständliche deutsche Beschreibung
+Registerwirkung	Welche Register verändert werden
+Flags	Welche Statusbits betroffen sind
+Beispiel	Konkrete Maschinenbytes
+Erweiterung	ISA-Version bzw. Erweiterungsmodul
+
+Eine wichtige technische Besonderheit: Bei x86-64 ist die Instruktionslänge variabel. ARM64 verwendet für A64 grundsätzlich 32-Bit-Instruktionen. RISC-V besitzt unter anderem 16- und 32-Bit-Instruktionen sowie Erweiterungen für weitere Formate. Die Datenbank muss diese Unterschiede berücksichtigen.
+
+Meine Priorität für deine Sammlung wäre:
+1. Intel und AMD x86-64.
+2. ARM64 AArch64.
+3. RISC-V RV64I plus die jeweiligen Erweiterungen.
+4. Historische Compiler und Bootstrapping-Dokumente.
+5. Maschinell auslesbare Instruktionsdefinitionen aus LLVM und den Architektur-Repositories.
+Noch eine wichtige Unterscheidung: Ein Compiler, dessen Quellcode in Assembly geschrieben ist, ist nicht dasselbe wie ein Compiler, dessen vollständiger Quellcode nur als rohe Maschinenbytes vorliegt. Gerade bei den allerersten Compilern sind die historischen Unterlagen lückenhaft. Die Smithsonian- und Computer-History-Museum-Archive sind deshalb wertvoller als irgendwelche angeblichen Komplettkopien aus dubiosen Downloadquellen.
+
+Ich würde als Nächstes eine lokale, durchsuchbare Opcode-Datenbank für Arch Linux aufbauen, die alle drei Architekturen unterstützt und jeden Befehl einzeln mit Hex, Binärdarstellung, deutscher Erklärung und Kopierfunktion anzeigt. Das wäre eine brauchbare technische Grundlage, statt ständig zwischen mehreren hundert Seiten Herstellerhandbüchern wechseln zu müssen.
