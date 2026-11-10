@@ -217,16 +217,15 @@ TOCHTERWABEN-KATEGORIE ⠆⢄⠨⡂ TRAKTORWABE
  LOGIK ⠆⢄⠢⣀ ↓ PL-RUNTER
  LOGIK ⠆⢄⠤⠃ ↓→ PL-RUNTER-PL-RECHTS
  LOGIK ⠆⢄⠤⠅ ↓← PL-RUNTER-PL-LINKS
-----------------------------------!!!!!!------------------------------
+
  # AXIOM | STEUERUNGSWEICHE
- AXIOM ¡ PL-CONNECTOR ⧖⧖ ⑅ RUNTER ⧑ RECHTS Ξ
- AXIOM ¡ PL-CONNECTOR ⧖⧖ ⑅ RUNTER ⧑ LINKS Ξ
+ AXIOM ¡ PL-CONNECTOR ⧖⧖ ⑅ ⠆⢄⠤⠅ Ξ ⠆⢄⠢⠘
+ AXIOM ¡ PL-CONNECTOR ⧖⧖ ⑅ ⠆⢄⠤⠃ Ξ ⠆⢄⠢⠘
 
  # STEUERUNGSWEICHE
  WEICHE ⠆⢄⠢⠘ — PL-CONNECTOR
 
-
--------------------------
+----------------------------------!!!!!!------------------------------
  # AXIOM | SYSTEMWEIT ZUGRIFF
  AXIOM ¡ ⠆⢄⠢⠘ ⍠ ⠆⢄⠢⡂
  AXIOM ¡ ⠆⢄⠢⠘ ⍠ ⠆⢄⠢⡄
