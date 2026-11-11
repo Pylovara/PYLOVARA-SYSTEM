@@ -166,7 +166,7 @@ MUTTERWABEN-KATEGORIE ⠆⢄⠨⠑ STARTWABE
  EINHEIT ⠆⢄⠤⠃ — PL-PIPE
 
  # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
- AXIOM ¡ ⠆⢄⠨⠡ ⦳ BIID
+ AXIOM ¡ ⠆⢄⠨⠡ ⦳ ⠆⢄⠔⠘
 
 ###====================================|====================================###
 
@@ -209,9 +209,13 @@ MUTTERWABEN-KATEGORIE ⠆⢄⠤⠤ BAUWABE
  # AXIOM | BION-ID
  AXIOM ¡ ⠆⢄⠤⠅ ⧓ ⠆⢄⠔⠒ Ξ ⠆⢄⠔⠘
 
-TOCHTERWABEN-KATEGORIE ⠆⢄⠒⢈
+TOCHTERWABEN-KATEGORIE ⠆⢄⠒⢈ BAUSTELLE 
 
+ # AXIOM | HOLE RAM EINHEIT 
+ AXIOM ¡ # ⍠ RA
 
+ # EINHEIT | RAM 
+ EINHEIT # RA
 
 
 
