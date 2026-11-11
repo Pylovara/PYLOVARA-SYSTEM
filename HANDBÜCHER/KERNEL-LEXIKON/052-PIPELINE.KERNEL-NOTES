@@ -86,7 +86,7 @@ MUTTERWABEN-KATEGORIE ⠆⢄⡐⠌ HAUPTWABE
  AXIOM ¡ ⠆⢄⡐⠒ ⧓ ⠆⢄⡐⠔ Ξ ⠆⢄⡐⠘
 
  # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
- AXIOM ¡ ⠆⢄⡐⠘ ⦳ ⠆⢄⡈⠉
+ AXIOM ¡ ⠆⢄⡐⠘ ⦳ ⠆⢄⠨⠡
 
 ###====================================|====================================###
 ##### bis fertigung stehen lassen !
@@ -140,8 +140,8 @@ MUTTERWABEN-KATEGORIE ⠆⢄⠨⠑ STARTWABE
  AXIOM ¡ ⠆⢄⠨⠔ ⧓ ⠆⢄⠨⠘ Ξ ⠆⢄⠨⠡
 
  # TASTEN
- TASTENCODE # TT
- TASTENCODE # TT
+ TASTENCODE ⠆⢄⠨⡂ TT
+ TASTENCODE ⠆⢄⠢⢠ TT
 
  # AXIOM | SYMBOL BAUEN
  AXIOM ¡ TT ⦻ TT ⦻ TT Ξ SY
@@ -156,22 +156,22 @@ MUTTERWABEN-KATEGORIE ⠆⢄⠨⠑ STARTWABE
  AXIOM ¡ SY ⧓ SY Ξ PD
 
  # PRODUKT
- PRODUKT PD
- PRODUKT PD
+ PRODUKT ⠆⢄⠤⠨
+ PRODUKT ⠆⢄⠤⠤
 
  # PRÄFIX
- PRÄFIX PR
- PRÄFIX PR
+ PRÄFIX ⠆⢄⠤⠢
+ PRÄFIX ⠆⢄⠢⣀
 
  # AXIOM | PRÄFIX TAGGEN UND RAM  
  AXIOM ¡ PD ⥗ PR ⍠ RA
 
  # EINHEIT | RAM
- EINHEIT RA
- EINHEIT RA
+ EINHEIT ⠆⢄⠤⠃
+ EINHEIT ⠆⢄⠤⠅
 
  # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
- AXIOM ¡ BIID ⦳ BIID
+ AXIOM ¡ ⠆⢄⠨⠡ ⦳ BIID
 
 ###====================================|====================================###
 

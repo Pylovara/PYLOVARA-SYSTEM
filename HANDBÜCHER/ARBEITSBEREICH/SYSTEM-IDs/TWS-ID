@@ -4162,35 +4162,6 @@
 
  zwischen ablage , scheiß aufs reinigen .... 
 
-
- ⠆⢄⠨⡂ TRAKTORWABE
-
- # AXIOM | HOLE RAM EINHEIT 
- AXIOM ¡ ⠆⢄⠤⡄ ⍠ ⠆⢄⠤⠢
- AXIOM ¡ ⠆⢄⠤⡠ ⍠ ⠆⢄⠤⠤
- AXIOM ¡ ⠆⢄⠤⠑ ⍠ ⠆⢄⠤⠨
- AXIOM ¡ ⠆⢄⠤⠘ ⍠ ⠆⢄⠢⢠
-
- # EINHEIT | RAM 
- EINHEIT ⠆⢄⠤⠢ ← PL-LINKS
- EINHEIT ⠆⢄⠤⠤ ↓ PL-RUNTER
- EINHEIT ⠆⢄⠤⠨ → PL-RECHTS
- EINHEIT ⠆⢄⠢⢠ — PL-CONNECTOR
-
- # AXIOM | SETZE STEUERUNGSVERBINDUNG 
- AXIOM ¡ ⠆⢄⠤⠤ ⧑ ⠆⢄⠤⠤ Ξ ⠆⢄⠢⣀
- AXIOM ¡ ⠆⢄⠤⠤ ⧑ ⠆⢄⠤⠨ Ξ ⠆⢄⠤⠃
- AXIOM ¡ ⠆⢄⠤⠤ ⧑ ⠆⢄⠤⠢ Ξ ⠆⢄⠤⠅
-
- # LOGIK | STEUERUNG ID 
- LOGIK ⠆⢄⠢⣀ ↓ PL-RUNTER
- LOGIK ⠆⢄⠤⠃ ↓→ PL-RUNTER-PL-RECHTS
- LOGIK ⠆⢄⠤⠅ ↓← PL-RUNTER-PL-LINKS
-
- # AXIOM | STEUERUNGSWEICHE
- AXIOM ¡ ⠆⢄⠢⢠ ⧖⧖ ⑅ ⠆⢄⠤⠅ Ξ ⠆⢄⠢⠘
- AXIOM ¡ ⠆⢄⠢⢠ ⧖⧖ ⑅ ⠆⢄⠤⠃ Ξ ⠆⢄⠢⠘
-
  # STEUERUNGSWEICHE
  WEICHE ⠆⢄⠢⠘ — PL-CONNECTOR
 
