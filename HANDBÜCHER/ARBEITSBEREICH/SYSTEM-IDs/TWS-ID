@@ -4163,31 +4163,7 @@
  zwischen ablage , scheiß aufs reinigen .... 
 
 
-MUTTERWABEN-KATEGORIE ⠆⢄⠨⠑ BAUWABE 
-
- PROGRAMM-KERN ⠆⢄⠨⠒ PIPE
-
- WABEN-ID ⠆⢄⠨⠔ TT
-
- BION-NR ⠆⢄⠨⠘ 001
-
- BION-ID ⠆⢄⠨⠡ TT001
-
- BSK-KN ⠆⢄⠨⠢ PIPE
-
- BSK-ID ⠆⢄⠨⠤ PLTT
-
- BION ⠆⢄⠨⠰ PL052MK052HT003ST003TT001
-
- BSK ⠆⢄⠨⡁ PLMK+PLHT-PIPE+PLST-PIPE+PLTT-PIPE
-
- # AXIOM | KEID + WAID + BAIKN
- AXIOM ¡ ⠆⢄⢁⡄ ⧓ ⠆⢄⠨⠔ ⧓ ⠆⢄⠨⠢ Ξ ⠆⢄⠨⠤
-
- # AXIOM | BION-ID
- AXIOM ¡ ⠆⢄⠨⠔ ⧓ ⠆⢄⠨⠘ Ξ ⠆⢄⠨⠡
-
-TOCHTERWABEN-KATEGORIE ⠆⢄⠨⡂ TRAKTORWABE
+ ⠆⢄⠨⡂ TRAKTORWABE
 
  # AXIOM | HOLE RAM EINHEIT 
  AXIOM ¡ ⠆⢄⠤⡄ ⍠ ⠆⢄⠤⠢

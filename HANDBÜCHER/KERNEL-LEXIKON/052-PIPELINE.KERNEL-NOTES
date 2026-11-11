@@ -115,29 +115,29 @@ MUTTERWABEN-KATEGORIE ⠆⢄⡐⠌ HAUPTWABE
 ###================================POSITION=================================###
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE # STARTWABE 
+MUTTERWABEN-KATEGORIE ⠆⢄⠨⠑ STARTWABE 
 
- PROGRAMM-KERN # PIPE
+ PROGRAMM-KERN ⠆⢄⠨⠒ PIPE
 
- WABEN-ID # ST
+ WABEN-ID ⠆⢄⠨⠔ ST
 
- BION-NR # 003
+ BION-NR ⠆⢄⠨⠘ 003
 
- BION-ID # ST003
+ BION-ID ⠆⢄⠨⠡ ST003
 
- BSK-KN # BAKN
+ BSK-KN ⠆⢄⠨⠢ PIPE
 
- BSK-ID # BAID
+ BSK-ID ⠆⢄⠨⠤ PLST-PIPE
 
- BION # PL052MK052HT003ST003
+ BION ⠆⢄⠨⠰ PL052MK052HT003ST003
 
- BSK # BSK
+ BSK ⠆⢄⠨⡁ PLMK+PLHT-PIPE+PLST-PIPE
 
  # AXIOM | KEID + WAID + BAKN
- AXIOM ¡ KEID ⧓ WAID ⧓ BAKN Ξ BAID
+ AXIOM ¡ ⠆⢄⢁⡄ ⧓ ⠆⢄⠨⠔ ⧓ ⠆⢄⠨⠢ Ξ ⠆⢄⠨⠤
 
  # AXIOM | BION-ID
- AXIOM ¡ WAID ⧓ NR Ξ BIID
+ AXIOM ¡ ⠆⢄⠨⠔ ⧓ ⠆⢄⠨⠘ Ξ ⠆⢄⠨⠡
 
  # TASTEN
  TASTENCODE # TT
