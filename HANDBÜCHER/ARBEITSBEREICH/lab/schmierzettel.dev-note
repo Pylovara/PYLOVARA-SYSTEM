@@ -1,22 +1,4 @@
-
-
- ESELSBRÜCKE : 
-
- UNÖTIGE SEMANTIK UND FALSCHE ANNAHME LÖSCHEN ... 
-
- ALLES ANDERE WAS DEN WEG DER ENTWICKLUNG ZEIGT VON DEN BURGRABEN 
- KOLLEGEN - REINZIEHEN UND SORTIEREN ... 
-
- BEREINIGUNG NEBENBEI . 
-
-
-
-
-
-
-
 Ein Beispiel für x86-64:
-
 
 Maschinenbefehl	Bedeutung
 MOV	Daten zwischen Registern und Speicher übertragen
@@ -33,20 +15,6 @@ AND	Bitweises UND
 OR	Bitweises ODER
 XOR	Bitweises exklusives ODER
 
-Das ist bereits eine echte Programmiersprache auf Maschinenebene – 
-genauer gesagt: Assembly. Jede dieser Anweisungen wird
- in eine oder mehrere konkrete Maschinen-Code-Bytefolgen übersetzt.
-
-
-Maschinenbefehl-Referenzen für x86-64, ARM64 und RISC-V.
-
-Die tatsächlichen Opcode- und Bytecodierungen.
-
-Historische Quelltexte und Dokumente der ersten Assembler und Compiler.
-
-Bootstrapping-Unterlagen: Wie aus Maschinenbefehlen Assembler, Compiler und schließlich Hochsprachen entstanden.
-
-
 
 1. x86-64 – Intel und AMD
 Offizielle Herstellerdokumentation
@@ -54,9 +22,11 @@ Intel – Software Developer's Manual
 Intel SDM – komplette DokumentensammlungBesonders wichtig:
 - Volume 1: Grundarchitektur, Register und Speicher.
 - Volume 2A–2D: sämtliche Instruktionsbeschreibungen A–Z.
-- Volume 3A–3D: Systemprogrammierung, Interrupts, Speicherverwaltung und Virtualisierung.
+- Volume 3A–3D: Systemprogrammierung, Interrupts, Speicherverwaltung und 
+Virtualisierung.
 - Volume 4: Model-Specific Registers.
-Volume 2 ist deine wichtigste Opcode-Sammlung. Dort stehen die Befehlsformate, Operanden und Codierungsinformationen. 
+Volume 2 ist deine wichtigste Opcode-Sammlung. Dort stehen die Befehlsformate, 
+Operanden und Codierungsinformationen. 
 Intel+1
 
 
@@ -65,7 +35,8 @@ AMD64 Architecture Programmer's Manual, Volumes 1–5Zusätzlich die einzelnen B
 - Volume 1 – Application Programming
 - Volume 3 – General-Purpose and System Instructions
 AMD dokumentiert dort Mnemonics, Opcodes, Funktionen, Flags und Ausnahmen. 
-Die AMD- und Intel-Dokumentation ergänzen sich, weil x86-64 über beide Hersteller hinweg gewachsen ist. 
+Die AMD- und Intel-Dokumentation ergänzen sich, weil x86-64 über beide 
+Hersteller hinweg gewachsen ist. 
 docs.amd.com+1
 
 2. ARM64 / AArch64
@@ -101,35 +72,18 @@ Codierungen und ein Werkzeug zur Erzeugung weiterer Tabellen.
 Genau so etwas brauchst du für deine eigene Datenbank. 
 riscv/riscv-opcodes: RISC-V Opcodes · GitHub+2
 
-
-
-- Smithsonian – Originalarchiv: Compiling Routine A-0
-- Computer History Museum – Grace Hopper Oral History
-- Computer History Museum – Geschichte der Programmiersprachen
-Das Smithsonian verzeichnet sogar konkrete Archivunterlagen aus Mai 1952, Box 9, Folder 22. Das Material ist für Forschungszwecke zugänglich; eine vollständige digitale Kopie des ausführbaren A-0-Maschinencodes ist damit allerdings nicht garantiert.
-
-Eine historische Besonderheit: A-0 war nach heutiger Terminologie eher ein System zum Zusammenstellen, Laden und Verknüpfen vorgefertigter Unterprogramme als ein moderner Compiler mit vollständiger Sprachübersetzung. 
-Smithsonian Collections+2
-
-
-Alick Glennie – Manchester Autocode (1952)
-- Manchester Autocodes – historische Dokumentation
-- Manchester Baby – historische Entwicklung
-- Ferranti Mark I – ursprüngliche Maschinenbefehle
-Hier kannst du nachvollziehen, wie frühe Maschinenbefehle in eine lesbarere Notation überführt wurden. 
-curation.cs.manchester.ac.uk+1
-
-
 BCPL – Bootstrapping und Compilerquellcode
-Computer History Museum – BCPL Preservation ArchiveDas ist eine besonders gute Fundstelle. Dort liegen unter anderem:
+Computer History Museum – BCPL Preservation ArchiveDas ist eine besonders 
+gute Fundstelle. Dort liegen unter anderem:
 - M. Richards: Bootstrapping the BCPL Compiler using INTCODE (1973).
 - BCPL Programming Manual.
 - BCPL-Compilerquellcode.
 - BCPL-Runtime-Quellcode.
 - Alto-Assembler- und Microcode-Unterlagen.
-Hier findest du tatsächlich historische Quelltexte und Dokumente, mit denen du den Aufbau und die Übertragung von Compilern zwischen Maschinen nachvollziehen kannst. 
+Hier findest du tatsächlich historische Quelltexte und Dokumente, mit 
+denen du den Aufbau und die Übertragung von Compilern zwischen Maschinen 
+nachvollziehen kannst. 
 softwarepreservation.computerhistory.org
-
 
 FORTRAN – Compiler aus den 1950er-Jahren
 Computer History Museum – FORTRAN Preservation ArchiveDort gibt es unter anderem:
@@ -137,23 +91,9 @@ Computer History Museum – FORTRAN Preservation ArchiveDort gibt es unter ander
 - Historische Quelltextbestände.
 - Compiler-Ausgaben.
 - Historische Programme und Ausführungsprotokolle.
-Das ist eine weitere wichtige Quelle, um zu sehen, wie aus einer höheren Sprache tatsächlich Maschinencode erzeugt wurde. 
+Das ist eine weitere wichtige Quelle, um zu sehen, wie aus einer höheren 
+Sprache tatsächlich Maschinencode erzeugt wurde. 
 softwarepreservation.computerhistory.org+1
-
-
-
-
-
-
-Es existieren bereits Projekte, deren interne Instruktionsdefinitionen du als Datenquelle verwenden kannst.
-
-LLVM TableGen
-LLVM TableGen – offizielle DokumentationBeispiele aus dem Quellcode:
-- X86 Instruction Definitions
-- RISC-V Target Definitions
-TableGen kann seine Instruktionsdefinitionen sogar als JSON ausgeben (-dump-json). Das ist eine sehr gute Grundlage für ein eigenes Lexikon. Allerdings sind die Definitionen auf die Anforderungen des LLVM-Compilers zugeschnitten und nicht automatisch eine vollständige normative ISA-Referenz. 
-LLVM+2
-
 
 RISC-V Opcode-Datenbank
 riscv-opcodesHier bekommst du besonders strukturierte Daten:
@@ -164,29 +104,3 @@ riscv-opcodesHier bekommst du besonders strukturierte Daten:
 - Erweiterungszugehörigkeit
 Das kommt deiner Vorstellung einer kopierbaren Maschinenbefehl-Liste schon sehr nahe. 
 riscv/riscv-opcodes: RISC-V Opcodes · GitHub+1
-
-6. Wie ich deine eigene Sammlung strukturieren würde
-Ich würde die Daten nicht einfach nach Alphabet sortieren, sondern nach Prozessorarchitektur und Funktion.
-Datenfeld	Inhalt
-Architektur	x86-64 / AArch64 / RV64
-Befehl	MOV, ADD, LDR, ADDI usw.
-Opcode	Hexadezimale Codierung
-Binärformat	Einzelne Bits und Felder
-Operanden	Register, Speicher, Konstanten
-Funktion	Verständliche deutsche Beschreibung
-Registerwirkung	Welche Register verändert werden
-Flags	Welche Statusbits betroffen sind
-Beispiel	Konkrete Maschinenbytes
-Erweiterung	ISA-Version bzw. Erweiterungsmodul
-
-Eine wichtige technische Besonderheit: Bei x86-64 ist die Instruktionslänge variabel. ARM64 verwendet für A64 grundsätzlich 32-Bit-Instruktionen. RISC-V besitzt unter anderem 16- und 32-Bit-Instruktionen sowie Erweiterungen für weitere Formate. Die Datenbank muss diese Unterschiede berücksichtigen.
-
-Meine Priorität für deine Sammlung wäre:
-1. Intel und AMD x86-64.
-2. ARM64 AArch64.
-3. RISC-V RV64I plus die jeweiligen Erweiterungen.
-4. Historische Compiler und Bootstrapping-Dokumente.
-5. Maschinell auslesbare Instruktionsdefinitionen aus LLVM und den Architektur-Repositories.
-Noch eine wichtige Unterscheidung: Ein Compiler, dessen Quellcode in Assembly geschrieben ist, ist nicht dasselbe wie ein Compiler, dessen vollständiger Quellcode nur als rohe Maschinenbytes vorliegt. Gerade bei den allerersten Compilern sind die historischen Unterlagen lückenhaft. Die Smithsonian- und Computer-History-Museum-Archive sind deshalb wertvoller als irgendwelche angeblichen Komplettkopien aus dubiosen Downloadquellen.
-
-Ich würde als Nächstes eine lokale, durchsuchbare Opcode-Datenbank für Arch Linux aufbauen, die alle drei Architekturen unterstützt und jeden Befehl einzeln mit Hex, Binärdarstellung, deutscher Erklärung und Kopierfunktion anzeigt. Das wäre eine brauchbare technische Grundlage, statt ständig zwischen mehreren hundert Seiten Herstellerhandbüchern wechseln zu müssen.
