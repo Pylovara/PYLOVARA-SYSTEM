@@ -6,17 +6,14 @@
 
 TOCHTERMODUL # TRAKTORWABE
 
-
- AXIOM ¡ # ⍠ RA
- AXIOM ¡ # ⍠ RA
- AXIOM ¡ # ⍠ RA
+ # AXIOM | HOLE RAM EINHEIT 
  AXIOM ¡ # ⍠ RA
 
+ # EINHEIT | RAM 
+ EINHEIT # RA
 
- EINHEIT # RA
- EINHEIT # RA
- EINHEIT # RA
- EINHEIT # RA
+
+---------------------------------!!!!!!!!!!!!----------------------------
 
  # AXIOM | SETZE STEUERUNGSVERBINDUNG 
  AXIOM ¡ ⌬ RA Ξ LOG
