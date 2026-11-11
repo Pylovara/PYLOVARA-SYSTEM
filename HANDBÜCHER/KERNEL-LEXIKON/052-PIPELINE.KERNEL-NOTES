@@ -90,6 +90,42 @@ MUTTERWABEN-KATEGORIE ⠆⢄⡐⠌ HAUPTWABE
 
 ###====================================|====================================###
 
+ KEINE STEUERUNGS LOGIK NÖTIG ! 
+
+ WAS ICH HIER TUN MUSS LEDIGLICH IST DIE BINDUNG AN DER PIPELINE 
+ FÜR DIE DIREKTE BINDUNG ZUM PROTEIN SELBST MIT ALLEN KOMPONENTEN. 
+
+ ESELSBRÜCKE : 
+
+ POSITIONS BESTIMMUNG DURCH BINDUNG DER ZEILEN
+
+ £‹<NR>
+ ±        NITROX INJEKTOR + FEED FF
+ — AUSGANGSPUNKT
+ ÷        NITROX EXTRAKTOR + FEED FT
+ £›<NR>   ZYTRON EINGANG <NR>
+ <·       RETRON + ICTUS
+ >·       PATRON + ICTUS 
+
+ ↑↑↑↑ BINDUNG AN DER ZEILEN POSITION .... MEHR NICHT .... 
+      VERBESSERUNGEN WERDEN NACH GELDMITTEL IN DIE WEGE GELEITET 
+      IST ABER IN DER FORM SCHON EXTREM EXPLIZIT
+
+
+
+
+
+
+
+
+ !!!!!!!! ↓↓↓↓↓↓ HOL DIE SYSTEM-IDs vorher raus, sparsamkeit bei milliarden 
+                 kombinationen , ist bei cirka 4k zeile system ids , noch nötig 
+
+    später werden weit aus mehr erzeugt pro system update . 
+
+
+
+###====================================|====================================###
 MUTTERWABEN-KATEGORIE ⠆⢄⡈⢐ STARTWABE 
 
  PROGRAMM-KERN ⠆⢄⡄⣀ PIPE
