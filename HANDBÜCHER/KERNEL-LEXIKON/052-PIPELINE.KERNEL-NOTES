@@ -151,22 +151,37 @@ MUTTERWABEN-KATEGORIE ⠆⢄⠨⠑ STARTWABE
  SYMBOLE ⠆⢄⠔⠑ —
 
  # AXIOM | PRODUKT BAUEN
- AXIOM ¡ SY ⧓ SY Ξ PD
+ AXIOM ¡ ⠆⢄⠔⠑ Ξ ⠆⢄⠤⠨
 
  # PRODUKT
- PRODUKT ⠆⢄⠤⠨
+ PRODUKT ⠆⢄⠤⠨ —
 
  # PRÄFIX
- PRÄFIX ⠆⢄⠤⠢
+ PRÄFIX ⠆⢄⠤⠢ PL-PIPE
 
  # AXIOM | PRÄFIX TAGGEN UND RAM  
- AXIOM ¡ PD ⥗ PR ⍠ RA
+ AXIOM ¡ ⠆⢄⠤⠨ ⥗ ⠆⢄⠤⠢ ⍠ ⠆⢄⠤⠃
 
  # EINHEIT | RAM
- EINHEIT ⠆⢄⠤⠃
+ EINHEIT ⠆⢄⠤⠃ — PL-PIPE
 
  # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
  AXIOM ¡ ⠆⢄⠨⠡ ⦳ BIID
+
+###====================================|====================================###
+
+ !! ERST DIE PIPE FÜR DIE POSITONS BESTIMMUNG, DANN DIE PIPE IM 
+ PROTEIN RÜBER HOLEN UND DAS PROTEIN ANSCHLIEẞEN ... 
+
+ DAMIT WÄRE DIE POSITONS KLAR , MEHR MUSST DIE "PIPE" NICHT TUN , DER REST WIRD 
+ SO ODER SO JEWEILS IN DEN WABEN VERSCHALTET ... 
+
+ UND ERST GANZ AM SCHLUSS GEHE ICH ALLE STARTWABEN DURCH , NOTIERE MIT 
+ DIE LOGIK UND SCHALTE DIE FEHLENDEN AXIOMATISCHEN PROGRAMMIERUNGS 
+ EBENEN FREI , IN DEM ICH SIE SCHREIBE ... 
+
+ DARAUS WIRD EIN SCHUH UND ALLE PROBLEME DES AUSBAUS VON DAMALS VON DEM PROTEIN 
+ WÄREN ERLEDIGT ... 
 
 ###====================================|====================================###
 
@@ -176,27 +191,41 @@ MUTTERWABEN-KATEGORIE ⠆⢄⠤⠤ BAUWABE
 
  WABEN-ID ⠆⢄⠤⠅ TT
 
- BION-NR # 001
+ BION-NR ⠆⢄⠔⠒ 001
 
- BION-ID # BIID
+ BION-ID ⠆⢄⠔⠘ TT001
 
- BSK-KN # BAKN
+ BSK-KN ⠆⢄⠔⠡ PIPE
 
- BSK-ID # BAID
+ BSK-ID ⠆⢄⠒⡠ PLTT-PIPE
 
- BION # PL052MK052HT003ST003TT001
+ BION ⠆⢄⠒⢁ PL052MK052HT003ST003TT001
 
- BSK # BSK
+ BSK ⠆⢄⠒⢂ PLMK+PLHT-PIPE+PLST-PIPE+PLTT-PIPE
 
  # AXIOM | KEID + WAID + BAKN
- AXIOM ¡ ⠆⢄⢁⡄ ⧓ WAID ⧓ BAKN Ξ BAID
+ AXIOM ¡ ⠆⢄⢁⡄ ⧓ ⠆⢄⠤⠅ ⧓ ⠆⢄⠔⠡ Ξ ⠆⢄⠒⡠
 
  # AXIOM | BION-ID
- AXIOM ¡ WAID ⧓ NR Ξ BIID
+ AXIOM ¡ ⠆⢄⠤⠅ ⧓ ⠆⢄⠔⠒ Ξ ⠆⢄⠔⠘
 
-TOCHTERWABEN-KATEGORIE #
+TOCHTERWABEN-KATEGORIE ⠆⢄⠒⢈
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+###====================================|====================================###
 
 
 ###====================================|====================================###
