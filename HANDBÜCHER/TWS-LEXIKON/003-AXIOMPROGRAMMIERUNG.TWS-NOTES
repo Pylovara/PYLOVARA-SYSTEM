@@ -29,21 +29,31 @@
 
 ###=========================================================================###
 
+ # kurze spiel bereich 
+
 ¢!
 
 —[¥: AXIOMATISCHEPROGRAMMIERUNG :¥]«««~: BAUMODUS FUNKTION SPEICHER EINGANG :~«
-<· »—[ Ξ ]«««~: DRUCK :~«
+<· »—[ Ξ ]«««~: TASTENDRUCK :~«
     <· »—[Ħ: EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke() :Ħ]«
         <·¤ »—[ {TASTENCODE} ]«
              ÷ Ø—(1): {TASTENCODE} :Ø
 
     ± Ø: {TASTENCODE} :(1)—Ø
 <· »—[(1)]«
-    <· »—[ {UTF -8} ]«««~: DRUCK :~«
-        <·¤ »—[": Ξ :"]«
+    <· »—[¿: Ξ :¿]«««~: DRUCK :~«
+        <·¤ »—[": Ξ :"]«««~: BAUMODUS FUNKTION SPEICHER AUSGANG :~«
 
 !¢
 
+NEUE BOXI = UTF ¿:  :¿
+
+ REX SPLITTUNG ¬ UND NEUES ZEICHEN 
+
+ REIHENFOLGE = < = RETRON
+ PARALELL    = > = PATRON 
+
+ 
 
 ###===============================ALTBESTAND================================###
 
