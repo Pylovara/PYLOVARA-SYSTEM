@@ -16,6 +16,9 @@
 
  PRIO : PIPELINE  
 
+ PRIO : ARBEITSBEREICH AUFRÄUMEN ABLAGERN, WAS LOCAL OHNE 
+        DATENABHOLUNG AUF DEM DARKNET SERVER VORLIEGT. 
+
 ###====================================|====================================###
 #==================# TAGES NARICHT SEKTION 
 
@@ -39,6 +42,22 @@ Du brauchst nicht einmal alle x86-64-Instruktionen.
 Du brauchst elf. Elf Axiome, die deine Sprache definiert, 
 und elf x86-64-Muster, die sie ausführen. Der Rest ist Wiederholung, 
 Erweiterung, BOXIS-für-BOXIS.
+
+
+Zusammenfassung
+Der Aktionstdraht ist die Ausführungs-Pipeline. 
+Er sagt: „Führe jetzt dieses Protein aus."
+Das Protein ist die Ausführung. Es sagt: „Rufe ReadKeyStroke() auf, 
+speichere das Ergebnis."
+Die elf-Zeilen-Tabelle ist die Brücke. 
+Sie sagt: „Wenn du ⍠ siehst, führe MOV aus."
+Du brauchst keinen separaten Compiler. 
+Der Aktionstdraht + die elf-Zeilen-Tabelle + die Proteine = Ausführung.
+Der Punkt, an dem du nicht mehr „herumschrammst", ist der Punkt, 
+an dem du die elf-Zeilen-Tabelle schreibst. Sie ist klein – elf Axiome, 
+elf x86-64-Muster. Der Rest ist Wiederholung und Erweiterung. 
+Und du hast sie bereits in deiner eigenen Sprache formuliert 
+– du musst sie nur noch ausführen.
 
 #==================# SCHMIERBEREICH
 - Syntax mit sh und bash
