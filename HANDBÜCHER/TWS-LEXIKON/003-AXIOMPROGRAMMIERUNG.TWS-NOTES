@@ -29,21 +29,20 @@
 
 ###=========================================================================###
 
+¢!
 
+—[¥: AXIOMATISCHEPROGRAMMIERUNG :¥]«««~: BAUMODUS FUNKTION SPEICHER EINGANG :~«
+<· »—[ Ξ ]«««~: DRUCK :~«
+    <· »—[Ħ: EFI_SIMPLE_TEXT_INPUT_PROTOCOL.ReadKeyStroke() :Ħ]«
+        <·¤ »—[ {TASTENCODE} ]«
+             ÷ Ø—(1): {TASTENCODE} :Ø
 
+    ± Ø: {TASTENCODE} :(1)—Ø
+<· »—[(1)]«
+    <· »—[ {UTF -8} ]«««~: DRUCK :~«
+        <·¤ »—[": Ξ :"]«
 
-
-
-
-
-
-
-
-
-
-
-
-
+!¢
 
 
 ###===============================ALTBESTAND================================###
