@@ -89,7 +89,7 @@ MUTTERWABEN-KATEGORIE ⠆⢄⡐⠌ HAUPTWABE
  AXIOM ¡ ⠆⢄⡐⠘ ⦳ ⠆⢄⡈⠉
 
 ###====================================|====================================###
-
+##### bis fertigung stehen lassen !
  KEINE STEUERUNGS LOGIK NÖTIG ! 
 
  WAS ICH HIER TUN MUSS LEDIGLICH IST DIE BINDUNG AN DER PIPELINE 
@@ -111,178 +111,24 @@ MUTTERWABEN-KATEGORIE ⠆⢄⡐⠌ HAUPTWABE
       VERBESSERUNGEN WERDEN NACH GELDMITTEL IN DIE WEGE GELEITET 
       IST ABER IN DER FORM SCHON EXTREM EXPLIZIT
 
- !!!!!!!! ↓↓↓↓↓↓ HOL DIE SYSTEM-IDs vorher raus, sparsamkeit bei milliarden 
-                 kombinationen , ist bei cirka 4k zeile system ids , noch nötig 
-
-    später werden weit aus mehr erzeugt pro system update . 
-
-
+###====================================|====================================###
+###================================POSITION=================================###
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE ⠆⢄⡈⢐ STARTWABE 
 
- PROGRAMM-KERN ⠆⢄⡄⣀ PIPE
 
- WABEN-ID ⠆⢄⡈⠃ ST
 
- BION-NR ⠆⢄⡈⠅ 003
 
- BION-ID ⠆⢄⡈⠉ ST003
 
- BSK-KN ⠆⢄⡈⠊ PIPE
 
- BSK-ID ⠆⢄⡈⠌ PLST-PIPE
 
- BION ⠆⢄⡈⠑ PL052MK052HT003ST003
 
- BSK ⠆⢄⡈⠒ PLMK+PLHT-PIPE+PLST-PIPE
 
- # AXIOM | KEID + WAID + BAKN
- AXIOM ¡ ⠆⢄⢁⡄ ⧓ ⠆⢄⡈⠃ ⧓ ⠆⢄⡈⠊ Ξ ⠆⢄⡈⠌
 
- # AXIOM | BION-ID
- AXIOM ¡ ⠆⢄⡈⠃ ⧓ ⠆⢄⡈⠅ Ξ ⠆⢄⡈⠉
 
- # TASTEN
- TASTENCODE ⠆⢄⠨⣀ ALTGR
- TASTENCODE ⠆⢄⠨⢠ SHIFT
- TASTENCODE ⠆⢄⠨⢐ Z
- TASTENCODE ⠆⢄⠨⢈ U
- TASTENCODE ⠆⢄⠨⢂ I
- TASTENCODE ⠆⢄⠨⢁ -
 
- # AXIOM | SYMBOL BAUEN
- AXIOM ¡ ⠆⢄⠨⣀ ⦻ ⠆⢄⠨⢐ Ξ ⠆⢄⠤⢂
- AXIOM ¡ ⠆⢄⠨⣀ ⦻ ⠆⢄⠨⢈ Ξ ⠆⢄⠤⢈
- AXIOM ¡ ⠆⢄⠨⣀ ⦻ ⠆⢄⠨⢂ Ξ ⠆⢄⠤⢐
- AXIOM ¡ ⠆⢄⠨⣀ ⦻ ⠆⢄⠨⢠ ⦻ ⠆⢄⠨⢁ Ξ ⠆⢄⠤⣀
 
- # SYMBOLE FERTIG
- SYMBOLE ⠆⢄⠤⢂ ←
- SYMBOLE ⠆⢄⠤⢈ ↓
- SYMBOLE ⠆⢄⠤⢐ →
- SYMBOLE ⠆⢄⠤⣀ —
 
- # AXIOM | PRODUKT BAUEN
- AXIOM ¡ ⠆⢄⠤⢂ Ξ ⠆⢄⠨⡄
- AXIOM ¡ ⠆⢄⠤⢈ Ξ ⠆⢄⠨⡐
- AXIOM ¡ ⠆⢄⠤⢐ Ξ ⠆⢄⠨⡠
- AXIOM ¡ ⠆⢄⠤⣀ Ξ ⠆⢄⠤⡁
-
- # PRODUKT
- PRODUKT ⠆⢄⠨⡄ ← 
- PRODUKT ⠆⢄⠨⡐ ↓
- PRODUKT ⠆⢄⠨⡠ → 
- PRODUKT ⠆⢄⠤⡁ — 
-
- # PRÄFIX
- PRÄFIX ⠆⢄⠤⡂ PL-LINKS
- PRÄFIX ⠆⢄⠤⡐ PL-RUNTER
- PRÄFIX ⠆⢄⠤⢁ PL-RECHTS
- PRÄFIX ⠆⢄⠤⠡ PL-CONNECTOR
-
- # AXIOM | PRÄFIX TAGGEN UND RAM  
- AXIOM ¡ ⠆⢄⠨⡄ ⥗ ⠆⢄⠤⡂ ⍠ ⠆⢄⠤⡄
- AXIOM ¡ ⠆⢄⠨⡐ ⥗ ⠆⢄⠤⡐ ⍠ ⠆⢄⠤⡠
- AXIOM ¡ ⠆⢄⠨⡠ ⥗ ⠆⢄⠤⢁ ⍠ ⠆⢄⠤⠑
- AXIOM ¡ ⠆⢄⠤⡁ ⥗ ⠆⢄⠤⠡ ⍠ ⠆⢄⠤⠘
-
- # EINHEIT | RAM
- EINHEIT ⠆⢄⠤⡄ ← PL-LINKS
- EINHEIT ⠆⢄⠤⡠ ↓ PL-RUNTER
- EINHEIT ⠆⢄⠤⠑ → PL-RECHTS
- EINHEIT ⠆⢄⠤⠘ — PL-CONNECTOR
-
- # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
- AXIOM ¡ ⠆⢄⡈⠉ ⦳ ⠆⢄⠨⠡
-
-###====================================|====================================###
-###===============================TESTBEREICH===============================###
-
-MUTTERWABEN-KATEGORIE ⠆⢄⠨⠑ BAUWABE 
-
- PROGRAMM-KERN ⠆⢄⠨⠒ PIPE
-
- WABEN-ID ⠆⢄⠨⠔ TT
-
- BION-NR ⠆⢄⠨⠘ 001
-
- BION-ID ⠆⢄⠨⠡ TT001
-
- BSK-KN ⠆⢄⠨⠢ PIPE
-
- BSK-ID ⠆⢄⠨⠤ PLTT
-
- BION ⠆⢄⠨⠰ PL052MK052HT003ST003TT001
-
- BSK ⠆⢄⠨⡁ PLMK+PLHT-PIPE+PLST-PIPE+PLTT-PIPE
-
- # AXIOM | KEID + WAID + BAIKN
- AXIOM ¡ ⠆⢄⢁⡄ ⧓ ⠆⢄⠨⠔ ⧓ ⠆⢄⠨⠢ Ξ ⠆⢄⠨⠤
-
- # AXIOM | BION-ID
- AXIOM ¡ ⠆⢄⠨⠔ ⧓ ⠆⢄⠨⠘ Ξ ⠆⢄⠨⠡
-
-TOCHTERWABEN-KATEGORIE ⠆⢄⠨⡂ TRAKTORWABE
-
- # AXIOM | HOLE RAM EINHEIT 
- AXIOM ¡ ⠆⢄⠤⡄ ⍠ ⠆⢄⠤⠢
- AXIOM ¡ ⠆⢄⠤⡠ ⍠ ⠆⢄⠤⠤
- AXIOM ¡ ⠆⢄⠤⠑ ⍠ ⠆⢄⠤⠨
- AXIOM ¡ ⠆⢄⠤⠘ ⍠ ⠆⢄⠢⢠
-
- # EINHEIT | RAM 
- EINHEIT ⠆⢄⠤⠢ ← PL-LINKS
- EINHEIT ⠆⢄⠤⠤ ↓ PL-RUNTER
- EINHEIT ⠆⢄⠤⠨ → PL-RECHTS
- EINHEIT ⠆⢄⠢⢠ — PL-CONNECTOR
-
- # AXIOM | SETZE STEUERUNGSVERBINDUNG 
- AXIOM ¡ ⠆⢄⠤⠤ ⧑ ⠆⢄⠤⠤ Ξ ⠆⢄⠢⣀
- AXIOM ¡ ⠆⢄⠤⠤ ⧑ ⠆⢄⠤⠨ Ξ ⠆⢄⠤⠃
- AXIOM ¡ ⠆⢄⠤⠤ ⧑ ⠆⢄⠤⠢ Ξ ⠆⢄⠤⠅
-
- # LOGIK | STEUERUNG ID 
- LOGIK ⠆⢄⠢⣀ ↓ PL-RUNTER
- LOGIK ⠆⢄⠤⠃ ↓→ PL-RUNTER-PL-RECHTS
- LOGIK ⠆⢄⠤⠅ ↓← PL-RUNTER-PL-LINKS
-
- # AXIOM | STEUERUNGSWEICHE
- AXIOM ¡ ⠆⢄⠢⢠ ⧖⧖ ⑅ ⠆⢄⠤⠅ Ξ ⠆⢄⠢⠘
- AXIOM ¡ ⠆⢄⠢⢠ ⧖⧖ ⑅ ⠆⢄⠤⠃ Ξ ⠆⢄⠢⠘
-
- # STEUERUNGSWEICHE
- WEICHE ⠆⢄⠢⠘ — PL-CONNECTOR
-
- # DEFINIERUNG | CONNECTOR
- ZUFUHR    ⠆⢄⠢⡂ KOPFBEREICH 
- CONNECTOR ⠆⢄⠢⡄ KNOTENPUNKT
- ENTNAHME  ⠆⢄⠢⡈ FUẞBEREICHE
-
- # AXIOM | DEF IN LOGIK
- AXIOM ¡ ⠆⢄⠢⡂ ⍿ ⠆⢄⠢⡄ Ξ ⠆⢄⠢⡄
- AXIOM ¡ ⠆⢄⠢⡄ ⍿ ⠆⢄⠤⠅ Ξ ⠆⢄⠢⡠
- AXIOM ¡ ⠆⢄⠢⡄ ⍿ ⠆⢄⠤⠃ Ξ ⠆⢄⠢⡠
- AXIOM ¡ ⠆⢄⠢⡈ ⍿ ⠆⢄⠤⠃ Ξ ⠆⢄⠢⢁
-
- # CONNECTOR-BAUM | SYSTEMLINK-ÜBERALL-MK-VERSCHMOLZEN 
- KOPFBEREICH ⠆⢄⠢⡂ XZYTRON EINGANG NUMMER
- KOPFBEREICH ⠆⢄⠢⡂ XNITROX
- KNOTENPUNKT ⠆⢄⠢⠘ — PL-CONNECTOR
- FUẞBEREICHE ⠆⢄⠢⢁ XNITROX
- FUẞBEREICHE ⠆⢄⠢⢁ XZYTRON AUSGANG NUMMER
- FUẞBEREICHE ⠆⢄⠢⢁ XRETRON ICTUS
- FUẞBEREICHE ⠆⢄⠢⢁ XPATRON ICTUS
- FUẞBEREICHE ⠆⢄⠢⢁ XSENTIATOR RETRON ICTUS PIPE PROTEIN
- FUẞBEREICHE ⠆⢄⠢⢁ XSENTIATOR PATRON ICTUS PIPE PROTEIN
-
- # AUSFÜHRUNGS-ERLAUBNIS | AKTIONSDRAHT
- AUSFÜHRUNGSERLAUBNIS ⠆⢄⠢⢂ IMPULS
- AUSFÜHRUNGSERLAUBNIS ⠆⢄⠢⢈ PLUS-IMPULS
-
- # AXIOM | AKTIONSDRAHT LOGIK
- AXIOM ¡ ⠆⢄⠢⢂ ⧖⧖ ⑅ ⠆⢄⠢⡠ Ξ ͽ
- AXIOM ¡ ⠆⢄⠢⢈ ⧖⧖ ⑅ ⠆⢄⠢⡠ Ξ ͽ
 
 ###====================================|====================================###
 ###===========================KOMPAKTE-WABEN-PFADE==========================###
