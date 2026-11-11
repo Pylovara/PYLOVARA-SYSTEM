@@ -40,9 +40,9 @@ MUTTERWABEN-KATEGORIE ⠆⢄⡠⣀ MASTERKERNWABE
 
  BION-NR ⠆⢄⢁⠉ 002
 
- BION-ID ⠆⢄⢁⠌ BIID
+ BION-ID ⠆⢄⢁⠌ MK002
 
- BSK-ID ⠆⢄⢁⠑ MK002
+ BSK-ID ⠆⢄⢁⠑ PIMK
 
  BION ⠆⢄⢁⠒ PI002MK002
 
@@ -58,7 +58,7 @@ MUTTERWABEN-KATEGORIE ⠆⢄⡠⣀ MASTERKERNWABE
  AXIOM ¡ ⠆⢄⢁⠌ ⧖⧖ ⠆⢄⡈⣀ ͽ
 
 ###====================================|====================================###
-###====================================|====================================###
+###=================================PROTEIN=================================###
 ###====================================|====================================###
 
 MUTTERWABEN-KATEGORIE ⠆⢄⡐⢁ HAUPTWABE 
@@ -71,7 +71,7 @@ MUTTERWABEN-KATEGORIE ⠆⢄⡐⢁ HAUPTWABE
 
  BION-ID ⠆⢄⡈⣀ HT002
 
- BSK-KG ⠆⢄⡐⠃ PROTEIN
+ BSK-KN ⠆⢄⡐⠃ PROTEIN
 
  BSK-ID ⠆⢄⡐⠅ PIHT-PROTEIN
 
@@ -184,8 +184,8 @@ TOCHTERWABEN-KATEGORIE ⠆⢄⠔⠨ COMBOLINKWABE
  # AXIOM | BEDINGUNGSCHALTUNG
  AXIOM ¡ ⠆⢄⠔⡄ ⧖⧖ ⠆⢄⡈⡐ ⑅ ⠆⢄⡐⠘ ⠆⢄⡈⠉ ⠆⢄⠨⠡ Ξ ⠆⢄⠔⡈  
 
- # SCHALTUNG 
- SCHALTUNG ¡ ⠆⢄⠔⡈
+ # SCHALTUNG | S-ID
+ SCHALTUNG ⠆⢄⠔⡈
 
  # AXIOM | HOLE RAM EINHEIT 
  AXIOM ¡ ⠆⢄⠘⠒ ⍠ ⠆⢄⠔⠰
@@ -197,7 +197,7 @@ TOCHTERWABEN-KATEGORIE ⠆⢄⠔⠨ COMBOLINKWABE
  EINHEIT ⠆⢄⠔⡂ ] PI-PROTEIN-ENDE
  EINHEIT ⠆⢄⠔⠉ — PL-CONNECTOR
 
- # AXIOM | BAU 
+ # AXIOM | INDIVIDUELLER BAU 
  AXIOM ¡ 
 
  # PRÄFIX
