@@ -140,46 +140,41 @@ MUTTERWABEN-KATEGORIE ⠆⢄⠨⠑ STARTWABE
  AXIOM ¡ ⠆⢄⠨⠔ ⧓ ⠆⢄⠨⠘ Ξ ⠆⢄⠨⠡
 
  # TASTEN
- TASTENCODE ⠆⢄⠨⡂ TT
- TASTENCODE ⠆⢄⠢⢠ TT
+ TASTENCODE ⠆⢄⠨⡂ ALTGR
+ TASTENCODE ⠆⢄⠢⢠ SHIFT
+ TASTENCODE ⠆⢄⠔⠌ -
 
  # AXIOM | SYMBOL BAUEN
- AXIOM ¡ TT ⦻ TT ⦻ TT Ξ SY
- AXIOM ¡ TT ⦻ TT Ξ SY
+ AXIOM ¡ ⠆⢄⠨⡂ ⦻ ⠆⢄⠢⢠ ⦻ ⠆⢄⠔⠌ Ξ ⠆⢄⠔⠑
 
  # SYMBOLE FERTIG
- SYMBOLE SY
- SYMBOLE SY
+ SYMBOLE ⠆⢄⠔⠑ —
 
  # AXIOM | PRODUKT BAUEN
- AXIOM ¡ SY ⧓ SY Ξ PD
  AXIOM ¡ SY ⧓ SY Ξ PD
 
  # PRODUKT
  PRODUKT ⠆⢄⠤⠨
- PRODUKT ⠆⢄⠤⠤
 
  # PRÄFIX
  PRÄFIX ⠆⢄⠤⠢
- PRÄFIX ⠆⢄⠢⣀
 
  # AXIOM | PRÄFIX TAGGEN UND RAM  
  AXIOM ¡ PD ⥗ PR ⍠ RA
 
  # EINHEIT | RAM
  EINHEIT ⠆⢄⠤⠃
- EINHEIT ⠆⢄⠤⠅
 
  # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
  AXIOM ¡ ⠆⢄⠨⠡ ⦳ BIID
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE # BAUWABE 
+MUTTERWABEN-KATEGORIE ⠆⢄⠤⠤ BAUWABE 
 
- PROGRAMM-KERN # PIPE
+ PROGRAMM-KERN ⠆⢄⠢⣀ PIPE
 
- WABEN-ID # TT
+ WABEN-ID ⠆⢄⠤⠅ TT
 
  BION-NR # 001
 
