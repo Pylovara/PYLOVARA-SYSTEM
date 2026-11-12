@@ -263,6 +263,18 @@ TOCHTERWABEN-KATEGORIE ⠆⢄⠒⢈ (BAUSTELLE) TRAKTORWABE
  POS10 # SENTIATOR
  POS11 # SENTIATOR
 
+ !!! ab hier sollte dann eventuell der aktionsdraht das protein erkennen ob es 
+ ausführbar ist oder nicht ... 
+
+ das würde heißen ich muss die posnr nur mit dem aktionsdraht umschliessen 
+ und somit wäre der impuls und der plus impuls ( damals noch argument genannt)
+ in der richtigen ausfürhungs reihenfolge, das mcd wird grundsätzlich 
+ immer nach dem einlesen als anweisung verstanden also kommando ... 
+
+ aber das hat hier nichts zu suchen , das gehört dann schluss endlich in das mcd 
+ register 
+
+
 
 
 
