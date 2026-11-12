@@ -1,0 +1,35 @@
+@waben-nr: 30 =================== LEXIKON NAVIGATION TERMINAL = waben <NR> =###
+###= SEITEN-SYSTEM-ID : ⠆⢄⠒⢐ ===PYLOVARA-SYSTEM=============================###
+###=============================TOCHTERMODUL================================###
+
+TOCHTERMODUL # COMBOWABE
+
+ # AXIOM | HOLE RAM EINHEIT 
+ AXIOM ¡ # ⍠ RA
+
+ # EINHEIT | RAM 
+ EINHEIT # RA
+
+ # AXIOM | KOMPONENTE BAUEN  
+ AXIOM ¡
+
+ # AXIOM | NAME SETZEN  
+ PRÄFIX #
+
+ # AXIOM | RAM 
+ AXIOM ¡ # ⥓ # ⍠ #
+
+ # EINHEIT | RAM
+ EINHEIT #
+
+ # AXIOM WABEN SYSTEM-ID | PROZESS STOP
+ AXIOM ¡ # ⦳ #
+
+###==============================INFORMATIONEN==============================###
+
+ DIESES MODUL WIRD VERWENDET, UM ERZEUGTE EINZELTEILER ZUSAMMENZUBAUEN.
+
+ SIE DIENT NUR FÜR DEN LOCALEN ZWECK SOBALD DIES ERFORDERT.
+
+###===================ENTWICKLER-PROGRAMMIERUNGSBEREICH=====================###
+###=====================INDUSTRIE-STANDARD-DER-ZUKUNFT======================###
