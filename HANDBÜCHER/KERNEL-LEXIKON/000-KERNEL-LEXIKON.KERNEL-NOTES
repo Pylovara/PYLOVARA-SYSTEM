@@ -26,7 +26,7 @@
 ###============================WABEN-PROGRAMMIERUNG=========================###
  #   NR NOTIZ S-ID NAMEN               | NR NOTIZ S-ID NAMEN                 #
  #   50  - -       ABSOLULATOR         | 51  - -       WABINATOR             #
- #   52  - Ŋ  ⠆⢄⢐⠌ PIPELINE            | 53  - -       BIENENKÖNIGIN         #
+ #   52  - Ŋ  ⠆⢄⢐⠌ POSIFIX             | 53  - -       BIENENKÖNIGIN         #
  #   54  - -       ARBEITERBIENEN      | 55  - -       WABENIMPULS           #
 ###==========IDENTIFIKATION-BERECHTIGUNG-FÜR-ENTWICKLER=====================###
  #   90  - -       IDENTIFIKATION      | 91  - -                             #
