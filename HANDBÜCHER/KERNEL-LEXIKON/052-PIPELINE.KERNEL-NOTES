@@ -235,6 +235,8 @@ TOCHTERWABEN-KATEGORIE ⠆⢄⠒⢈ (BAUSTELLE) TRAKTORWABE
  WABENHÄRTER WH
  WABENHÄRTER WH
  WABENHÄRTER WH
+ WABENHÄRTER WH
+ WABENHÄRTER WH
 
  # AXIOM | WABENHÄRTER AN POSITION KOPPELN
  AXIOM ¡ 
@@ -262,6 +264,28 @@ TOCHTERWABEN-KATEGORIE ⠆⢄⠒⢈ (BAUSTELLE) TRAKTORWABE
  POS09 # SENTIATOR
  POS10 # SENTIATOR
  POS11 # SENTIATOR
+
+ # AUSFÜHRUNGSERLAUBNIS | AKTIONSDRAHT
+ POS20 # IMPULS
+ POS21 # PLUS-IMPULS
+
+ # AXIOM | AKTIONSDRAHT LOGIK
+ AXIOM ¡ ⧖⧖ ⑅ Ξ ͽ
+ AXIOM ¡ ⧖⧖ ⑅ Ξ ͽ
+ AXIOM ¡ ⧖⧖ ⑅ Ξ ͽ
+ AXIOM ¡ ⧖⧖ ⑅ Ξ ͽ
+
+
+
+
+
+
+
+
+
+
+
+
 
  !!! ab hier sollte dann eventuell der aktionsdraht das protein erkennen ob es 
  ausführbar ist oder nicht ... 
