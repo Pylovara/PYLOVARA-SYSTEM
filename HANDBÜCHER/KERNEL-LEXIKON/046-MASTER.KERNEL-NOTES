@@ -42,25 +42,25 @@ MUTTERWABEN-KATEGORIE ⠆⢄⢂⢁ MASTERLIZENZWABE
 
 # AXIOM | HAUPTWABEN AUSFÜHRUNG BEI VERBINDUNG 
 
- # 1 TRANSAKTIONSRAHMEN
+ # 01 TRANSAKTIONSRAHMEN
  AXIOM ¡ ⠆⢄⢂⢠ ⧖⧖ ⠆⢄⢂⡁ ͽ
 
- # 2 PROTEIN
+ # 02 PROTEIN
  AXIOM ¡ ⠆⢄⢂⢠ ⧖⧖ ⠆⢄⡠⡄ ͽ
 
- # 3 PONTIFEX
+ # 03 PONTIFEX
+ AXIOM ¡ ⠆⢄⢂⢠ ⧖⧖ ⠆⢄⠑⡠ ͽ
+
+ # 04 
  AXIOM ¡ ⠆⢄⢂⢠ ⧖⧖ BIID ͽ
 
- # 4 
- AXIOM ¡ ⠆⢄⢂⢠ ⧖⧖ BIID ͽ
-
- # 5
+ # 05
  AXIOM ¡ ⠆⢄⢂⢠ ⧖⧖ BIID ͽ
 
  # 30 PLASK
- AXIOM ¡ ⠆⢄⢂⢠ ⧖⧖ BIID ͽ
+ AXIOM ¡ ⠆⢄⢂⢠ ⧖⧖ ⠆⢄⠒⡁ ͽ
 
- # 52
+ # 52 POSIFEX
  AXIOM ¡ ⠆⢄⢂⢠ ⧖⧖ ⠆⢄⡐⠰ ͽ
 
 ###====================================|====================================###
@@ -148,6 +148,48 @@ MUTTERWABEN-KATEGORIE ⠆⢄⡠⠨ SUPERLIZENZWABE
  AXIOM ¡ ⠆⢄⡠⡄ ⦳ ⧖⧖ ⠆⢄⡠⢁ ⦱
 
 ###====================================|====================================###
+
+MUTTERWABEN-KATEGORIE ⠆⢄⠑⡂ SUPERLIZENZWABE
+
+ LIZENZ-KOMPONENTE ⠆⢄⠑⡄ PONTIFEX
+
+ WABEN-ID ⠆⢄⠑⡈ SU
+
+ BION-NR ⠆⢄⠑⡐ 003
+
+ BION-ID ⠆⢄⠑⡠ SU003
+
+ BSK-KN ⠆⢄⠑⠊ PT
+
+ BSK-ID ⠆⢄⠑⠢ MASU-PT
+
+ BION ⠆⢄⠑⠒ MA046SU003
+
+ BSK ⠆⢄⠑⠔ MASU-PT
+
+ # AXIOM | LIID + WAID + BAKN 
+ AXIOM ¡ ⠆⢄⢂⢈ ⧓ ⠆⢄⠑⡈ ⧓ ⠆⢄⠑⠊ Ξ ⠆⢄⠑⠢
+
+ # AXIOM | BION-ID
+ AXIOM ¡ ⠆⢄⠑⡈ ⧓ ⠆⢄⠑⡐ Ξ ⠆⢄⠑⡠
+
+ # AXIOM | MUKA MASTER BIID & SUPER BIID GLEICH MASTER-ID
+ AXIOM ¡ ⠆⢄⢂⢠ ⧓ ⠆⢄⠑⡠ Ξ ⠆⢄⠑⠰ 
+
+ # AXIOM | SUPERLIZENZ MASTER PRODUKT
+ MASTERLIZENZ ⠆⢄⠑⠰ 
+
+ # DATENBANK 
+ PROGRAMM-ANZAHL ⠆⢄⠑⠘ ?
+ AUSFÜHRUNGS-FREIGABE ⠆⢄⠑⠡ 0
+
+ # AXIOM | DATENFREIGABE
+ AXIOM ¡ 
+
+ # AXIOM | PROZESSSTOP
+ AXIOM ¡ ⠆⢄⠑⡠ ⦳ ⧖⧖ ⠆⢄⠑⠰ ⦱
+
+###====================================|====================================###
 ### SPÄTER KOMMENDE EINTRÄGE VORGESCHRIEBEN 
 ###====================================|====================================###
 
@@ -205,13 +247,13 @@ MUTTERWABEN-KATEGORIE ⠆⢄⡠⠒ SUPERLIZENZWABE
 
  BION-ID ⠆⢄⡐⠰ SU052
 
- BSK-KN ⠆⢄⡐⡁ PX
+ BSK-KN ⠆⢄⡐⡁ PS
 
- BSK-ID ⠆⢄⡠⠔ MASU-PX
+ BSK-ID ⠆⢄⡠⠔ MASU-PS
 
  BION ⠆⢄⡠⠘ MA046SU052
 
- BSK ⠆⢄⡐⡂ MASU-PX
+ BSK ⠆⢄⡐⡂ MASU-PS
 
  # AXIOM | LIID + WAID + BAKN 
  AXIOM ¡ ⠆⢄⢂⢈ ⧓ ⠆⢄⡐⠤ ⧓ ⠆⢄⡐⡁ Ξ ⠆⢄⡠⠔
