@@ -30,7 +30,7 @@
  #  34      AUSFÜHRUNGSWABE          |  35      AUSFÜHRUNGSLINKWABE          #
  #  36      AUSFÜHRUNGSDIREKTLINKWABE|  37      BINDUNGSWABE                 #
  #  38      PROZESSRASTERWABE        |  39      EXTERNWABE                   #
- #  40      TRAKTORWABE              |  41                                   #
+ #  40      POSITIONSWABE            |  41                                   #
 ###===========================KINDERWABEN-MODULE============================###
  #  60      HARDWAREWABE             |  61      STROMWABE                    #
  #  62      SYSTEMWABE               |  63      FREIGABEWABE                 #
