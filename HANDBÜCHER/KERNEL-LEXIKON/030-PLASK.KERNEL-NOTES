@@ -34,12 +34,71 @@ MUTTERWABEN-KATEGORIE ⠆⢄⠑⢁ KOPFWABE
 
 ###====================================|====================================###
 
+MUTTERWABEN-KATEGORIE ⠆⢄⠑⠤ MASTERKERNWABE
+
+ WABEN-ID ⠆⢄⠌⢂ MK
+
+ BION-NR ⠆⢄⠌⢈ 030
+
+ BION-ID ⠆⢄⠌⢐ MK030
+
+ BSK-ID ⠆⢄⠌⢠ MK
+
+ BION ⠆⢄⠌⣀ PA030MK030
+
+ BSK ⠆⢄⠑⠃ PAMK
+
+ # AXIOM | KEID + WAID 
+ AXIOM ¡ ⠆⢄⠒⠔ ⧓ ⠆⢄⠌⢂ Ξ ⠆⢄⠌⢠
+
+ # AXIOM | BION-ID
+ AXIOM ¡ ⠆⢄⠌⢂ ⧓ ⠆⢄⠌⢈ Ξ ⠆⢄⠌⢐
+
+ # AXIOM | HAUPTWABEN AUSFÜHRUNG BEI VERBINDUNG 
+ AXIOM ¡ ⠆⢄⠌⢐ ⧖⧖ ⠆⢄⠌⡄ ͽ
+
+###====================================|====================================###
+
+MUTTERWABEN-KATEGORIE ⠆⢄⠑⠉ HAUPTWABE 
+
+ PROGRAMM-KERN ⠆⢄⠌⠰ ASK
+
+ WABEN-ID ⠆⢄⠌⡁ HT
+
+ BION-NR ⠆⢄⠌⡂ 004
+
+ BION-ID ⠆⢄⠌⡄ HT004
+
+ BSK-KN ⠆⢄⠌⡈ PLASK
+
+ BSK-ID ⠆⢄⠌⡐ PAHT-ASK
+
+ BION ⠆⢄⠌⡠ PA030MK030HT004
+
+ BSK ⠆⢄⠌⢁ PAMK+PAHT-ASK
+
+ # AXIOM | KEID + WAID + BAKN
+ AXIOM ¡ ⠆⢄⠒⠔ ⧓ ⠆⢄⠌⡁ ⧓ ⠆⢄⠌⡈ Ξ ⠆⢄⠌⡐
+
+ # AXIOM | BION-ID
+ AXIOM ¡ ⠆⢄⠌⡁ ⧓ ⠆⢄⠌⡂ Ξ ⠆⢄⠌⡄
+
+ # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
+ AXIOM ¡ ⠆⢄⠌⡄ ⦳ BIID
+
+###====================================|====================================###
+
 MUTTERWABEN-KATEGORIE # 
 
 
+###====================================|====================================###
+
+MUTTERWABEN-KATEGORIE # 
 
 
 ###====================================|====================================###
+
+
 
 
 

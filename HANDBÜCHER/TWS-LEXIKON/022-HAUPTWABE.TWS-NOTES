@@ -40,7 +40,9 @@ MUTTERMODUL # HAUPTWABE
 
  TA001 = HT001 |
  PI001 = HT002 |
- PL052 = HT003 | 
+ PS052 = HT003 | 
+ PA030 = HT004 |
+
 
 ###===================ENTWICKLER-PROGRAMMIERUNGSBEREICH=====================###
 
