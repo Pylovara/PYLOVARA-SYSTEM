@@ -152,84 +152,19 @@ MUTTERWABEN-KATEGORIE ⠆⢄⠘⢂ STARTWABE
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE ⠆⢄⠔⡐ BAUWABE 
-
- PROGRAMM-KERN ⠆⢄⠔⢁ PROTEIN
-
- WABEN-ID ⠆⢄⠔⢂ CL
-
- BION-NR ⠆⢄⠔⢈ 003
-
- BION-ID ⠆⢄⠔⢐ CL003
-
- BSK-KN ⠆⢄⠔⢠ PROTEIN
-
- BSK-ID ⠆⢄⠔⣀ PICL-PROTEIN
-
- BION ⠆⢄⠔⠢ PI002MK002HT002ST002CL003
-
- BSK ⠆⢄⠔⠤ PIMK-PIHT-PROTEIN+PIST-PROTEIN+PICL-PROTEIN
-
- # AXIOM | KEID + WAID + BAKN
- AXIOM ¡ ⠆⢄⢁⡠ ⧓ ⠆⢄⠔⢂ ⧓ ⠆⢄⠔⢠ Ξ ⠆⢄⠔⣀
-
- # AXIOM | BION-ID
- AXIOM ¡ ⠆⢄⠔⢂ ⧓ ⠆⢄⠔⢈ Ξ ⠆⢄⠔⢐
-
-TOCHTERWABEN-KATEGORIE ⠆⢄⠔⠨ COMBOLINKWABE
-
- # LINK | MASTERKERNWABE 
- LINK ⠆⢄⠔⡄ PIPELINE
-
- # AXIOM | BEDINGUNGSCHALTUNG
- AXIOM ¡ ⠆⢄⠔⡄ ⧖⧖ ⠆⢄⡈⡐ ⑅ ⠆⢄⡐⠘ ⠆⢄⡈⠉ ⠆⢄⠨⠡ Ξ ⠆⢄⠔⡈  
-
- # SCHALTUNG | S-ID
- SCHALTUNG ⠆⢄⠔⡈
-
- # AXIOM | HOLE RAM EINHEIT 
- AXIOM ¡ ⠆⢄⠘⠒ ⍠ ⠆⢄⠔⠰
- AXIOM ¡ ⠆⢄⠘⠔ ⍠ ⠆⢄⠔⡂
- AXIOM ¡ ⠆⢄⠢⠘ ⍠ ⠆⢄⠔⠉
-
- # EINHEIT | RAM 
- EINHEIT ⠆⢄⠔⠰ [ PI-PROTEIN-START
- EINHEIT ⠆⢄⠔⡂ ] PI-PROTEIN-ENDE
- EINHEIT ⠆⢄⠔⠉ — PL-CONNECTOR
-
- # AXIOM | INDIVIDUELLER BAU 
- AXIOM ¡ 
-
- # PRÄFIX
- PRÄFIX ⠆⢄⠔⠅ PI-ON-PIPE
-
- # AXIOM | PRÄFIX TAGGEN UND RAM  
- AXIOM ¡ SG ⥗ PR ⍠ RA
-
- # EINHEIT | RAM 
- EINHEIT RA
-
- # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
- AXIOM ¡ BIID ⦳ BIID
+MUTTERWABEN-KATEGORIE # 
 
 ###====================================|====================================###
 
 MUTTERWABEN-KATEGORIE # 
 
+###====================================|====================================###
 
+MUTTERWABEN-KATEGORIE # 
 
+###====================================|====================================###
 
-
-
-
-
-
-
-
-
-
-
-
+MUTTERWABEN-KATEGORIE # 
 
 
 ###====================================|====================================###
