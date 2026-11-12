@@ -3,8 +3,36 @@
  #                    PLASK = PLACEHOLDER DETECTION                          #
 ###===============================STARTPUNKT================================###
 
+MUTTERWABEN-KATEGORIE # KOPFWABE
 
+ KOMPONENTE # KE
 
+ KOMPONENTEN-ID # KOID
+
+ BION-NR # NR 
+
+ BION-ID # BIID
+
+ MASTER-ID ⠆⢄⠒⠉ MA046SU030
+
+ BSK-ID # TA
+
+ # AXIOM | KEID GLEICH BSK-ID
+ AXIOM ¡ KEID Ξ BAID
+
+ # AXIOM | KOMPONENTE
+ AXIOM ¡ KE ⏍ KE
+
+ # AXIOM | BION-ID
+ AXIOM ¡ KEID ⧓ NR Ξ 
+
+ # AXIOM | MASTER
+ AXIOM ¡ MAID ⧑ BIID
+
+ # AXIOM | WEITERVERBINDEN
+ AXIOM ¡ BIID ⧑ BIID
+
+###====================================|====================================###
 
 
 

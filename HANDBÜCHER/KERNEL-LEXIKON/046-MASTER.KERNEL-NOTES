@@ -42,25 +42,25 @@ MUTTERWABEN-KATEGORIE ⠆⢄⢂⢁ MASTERLIZENZWABE
 
 # AXIOM | HAUPTWABEN AUSFÜHRUNG BEI VERBINDUNG 
 
- # TRANSAKTIONSRAHMEN
+ # 1 TRANSAKTIONSRAHMEN
  AXIOM ¡ ⠆⢄⢂⢠ ⧖⧖ ⠆⢄⢂⡁ ͽ
 
- # PROTEIN
+ # 2 PROTEIN
  AXIOM ¡ ⠆⢄⢂⢠ ⧖⧖ ⠆⢄⡠⡄ ͽ
 
- # …USW
+ # 3 PONTIFEX
  AXIOM ¡ ⠆⢄⢂⢠ ⧖⧖ BIID ͽ
 
- # …USW
+ # 4 
  AXIOM ¡ ⠆⢄⢂⢠ ⧖⧖ BIID ͽ
 
- # …USW
+ # 5
  AXIOM ¡ ⠆⢄⢂⢠ ⧖⧖ BIID ͽ
 
- # …USW
+ # 30 PLASK
  AXIOM ¡ ⠆⢄⢂⢠ ⧖⧖ BIID ͽ
 
- # PIPELINE
+ # 52
  AXIOM ¡ ⠆⢄⢂⢠ ⧖⧖ ⠆⢄⡐⠰ ͽ
 
 ###====================================|====================================###
@@ -138,7 +138,7 @@ MUTTERWABEN-KATEGORIE ⠆⢄⡠⠨ SUPERLIZENZWABE
  MASTERLIZENZ ⠆⢄⡠⢁ 
 
  # DATENBANK 
- PROGRAMM-ANZAHL ⠆⢄⡠⢂ 1
+ PROGRAMM-ANZAHL ⠆⢄⡠⢂ ?
  AUSFÜHRUNGS-FREIGABE ⠆⢄⡐⢐ 0
 
  # AXIOM | DATENFREIGABE
@@ -148,12 +148,48 @@ MUTTERWABEN-KATEGORIE ⠆⢄⡠⠨ SUPERLIZENZWABE
  AXIOM ¡ ⠆⢄⡠⡄ ⦳ ⧖⧖ ⠆⢄⡠⢁ ⦱
 
 ###====================================|====================================###
+### SPÄTER KOMMENDE EINTRÄGE VORGESCHRIEBEN 
+###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE #
+MUTTERWABEN-KATEGORIE ⠆⢄⠔⠃ SUPERLIZENZWABE
 
+ LIZENZ-KOMPONENTE ⠆⢄⠒⠤ PLASK
 
+ WABEN-ID ⠆⢄⠒⠨ SU
 
+ BION-NR ⠆⢄⠒⠰ 030
 
+ BION-ID ⠆⢄⠒⡁ SU030
+
+ BSK-KN ⠆⢄⠒⡂ PA
+
+ BSK-ID ⠆⢄⠒⡄ MASU-PA
+
+ BION ⠆⢄⠒⡈ MA046SU030
+
+ BSK ⠆⢄⠒⡐ MASU-PA
+
+ # AXIOM | LIID + WAID + BAKN 
+ AXIOM ¡ ⠆⢄⢂⢈ ⧓ ⠆⢄⠒⠨ ⧓ ⠆⢄⠒⡂ Ξ ⠆⢄⠒⡄
+
+ # AXIOM | BION-ID
+ AXIOM ¡ ⠆⢄⠒⠨ ⧓ ⠆⢄⠒⠰ Ξ ⠆⢄⠒⡁
+
+ # AXIOM | MUKA MASTER BIID & SUPER BIID GLEICH MASTER-ID
+ AXIOM ¡ ⠆⢄⢂⢠ ⧓ ⠆⢄⠒⡁ Ξ ⠆⢄⠒⠉ 
+
+ # AXIOM | SUPERLIZENZ MASTER PRODUKT
+ MASTERLIZENZ ⠆⢄⠒⠉ 
+
+ # DATENBANK 
+ PROGRAMM-ANZAHL ⠆⢄⠒⠊ ?
+ AUSFÜHRUNGS-FREIGABE ⠆⢄⠒⠌ 0
+
+ # AXIOM | DATENFREIGABE
+ AXIOM ¡ 
+
+ # AXIOM | PROZESSSTOP
+ AXIOM ¡ ⠆⢄⠒⡁ ⦳ ⧖⧖ ⠆⢄⠒⠉ ⦱
 
 ###====================================|====================================###
 ### SPÄTER KOMMENDE EINTRÄGE VORGESCHRIEBEN 
@@ -161,7 +197,7 @@ MUTTERWABEN-KATEGORIE #
 
 MUTTERWABEN-KATEGORIE ⠆⢄⡠⠒ SUPERLIZENZWABE
 
- LIZENZ-KOMPONENTE ⠆⢄⡐⠢ PIPELINE
+ LIZENZ-KOMPONENTE ⠆⢄⡐⠢ POSIFIX
 
  WABEN-ID ⠆⢄⡐⠤ SU
 
@@ -169,13 +205,13 @@ MUTTERWABEN-KATEGORIE ⠆⢄⡠⠒ SUPERLIZENZWABE
 
  BION-ID ⠆⢄⡐⠰ SU052
 
- BSK-KN ⠆⢄⡐⡁ PL
+ BSK-KN ⠆⢄⡐⡁ PX
 
- BSK-ID ⠆⢄⡠⠔ MASU-PL
+ BSK-ID ⠆⢄⡠⠔ MASU-PX
 
  BION ⠆⢄⡠⠘ MA046SU052
 
- BSK ⠆⢄⡐⡂ MASU-PL
+ BSK ⠆⢄⡐⡂ MASU-PX
 
  # AXIOM | LIID + WAID + BAKN 
  AXIOM ¡ ⠆⢄⢂⢈ ⧓ ⠆⢄⡐⠤ ⧓ ⠆⢄⡐⡁ Ξ ⠆⢄⡠⠔
