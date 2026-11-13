@@ -88,8 +88,65 @@ MUTTERWABEN-KATEGORIE ⠆⢄⠑⠉ HAUPTWABE
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE # 
+MUTTERWABEN-KATEGORIE ⠆⢄⠌⠑ STARTWABE 
 
+ PROGRAMM-KERN ⠆⢄⠌⠒ ASK
+
+ WABEN-ID ⠆⢄⠌⠔ ST
+
+ BION-NR ⠆⢄⠌⠘ 004
+
+ BION-ID ⠆⢄⠌⠡ ST004
+
+ BSK-KN ⠆⢄⠌⠢ ASK
+
+ BSK-ID ⠆⢄⠌⠤ PAST-ASK
+
+ BION ⠆⢄⠌⠨ PA030MK030HT030ST030
+
+ BSK ⠆⢄⠊⢈ PAMK+PAHT-ASK+PAST-ASK
+
+ # AXIOM | KEID + WAID + BAKN
+ AXIOM ¡ ⠆⢄⠒⠔ ⧓ ⠆⢄⠌⠔ ⧓ ⠆⢄⠌⠘ Ξ ⠆⢄⠌⠡
+
+ # AXIOM | BION-ID
+ AXIOM ¡ ⠆⢄⠌⠔ ⧓ ⠆⢄⠌⠘ Ξ ⠆⢄⠌⠡
+
+ # TASTEN
+ TASTENCODE ⠆⢄⠊⢐ ALTGR
+ TASTENCODE ⠆⢄⠊⢠ 7
+ TASTENCODE ⠆⢄⠊⣀ 9
+
+ # AXIOM | SYMBOL BAUEN
+ AXIOM ¡ ⠆⢄⠊⢐ ⦻ ⠆⢄⠊⢠ Ξ ⠆⢄⠌⠃
+ AXIOM ¡ ⠆⢄⠊⢐ ⦻ ⠆⢄⠊⣀ Ξ ⠆⢄⠌⠅
+
+ # SYMBOLE FERTIG
+ SYMBOLE ⠆⢄⠌⠃ {
+ SYMBOLE ⠆⢄⠌⠅ }
+
+ # AXIOM | PRODUKT BAUEN
+ AXIOM ¡ ⠆⢄⠌⠃ Ξ ⠆⢄⠌⠉
+ AXIOM ¡ ⠆⢄⠌⠅ Ξ PD
+
+ # PRODUKT
+ PRODUKT ⠆⢄⠌⠉ {
+ PRODUKT ⠆⢄⠌⠊ }
+
+ # PRÄFIX
+ PRÄFIX ⠆⢄⠊⡁ PA-START
+ PRÄFIX ⠆⢄⠊⡂ PA-ENDE
+
+ # AXIOM | PRÄFIX TAGGEN UND RAM  
+ AXIOM ¡ ⠆⢄⠌⠉ ⥗ ⠆⢄⠊⡁ ⍠ ⠆⢄⠊⡄
+ AXIOM ¡ ⠆⢄⠌⠊ ⥗ ⠆⢄⠊⡂ ⍠ ⠆⢄⠊⡈
+
+ # EINHEIT | RAM
+ EINHEIT ⠆⢄⠊⡄ { PA-START
+ EINHEIT ⠆⢄⠊⡈ } PA-ENDE
+
+ # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
+ AXIOM ¡ ⠆⢄⠌⠡ ⦳ BIID
 
 ###====================================|====================================###
 
