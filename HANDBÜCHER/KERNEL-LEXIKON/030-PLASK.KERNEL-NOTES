@@ -30,7 +30,7 @@ MUTTERWABEN-KATEGORIE ⠆⢄⠑⢁ KOPFWABE
  AXIOM ¡ ⠆⢄⠒⠉ ⧑ ⠆⢄⠒⠡
 
  # AXIOM | WEITERVERBINDEN
- AXIOM ¡ ⠆⢄⠒⠡ ⧑ BIID
+ AXIOM ¡ ⠆⢄⠒⠡ ⧑ ⠆⢄⠌⢐
 
 ###====================================|====================================###
 
@@ -84,7 +84,7 @@ MUTTERWABEN-KATEGORIE ⠆⢄⠑⠉ HAUPTWABE
  AXIOM ¡ ⠆⢄⠌⡁ ⧓ ⠆⢄⠌⡂ Ξ ⠆⢄⠌⡄
 
  # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
- AXIOM ¡ ⠆⢄⠌⡄ ⦳ BIID
+ AXIOM ¡ ⠆⢄⠌⡄ ⦳ ⠆⢄⠌⠡
 
 ###====================================|====================================###
 
@@ -127,7 +127,7 @@ MUTTERWABEN-KATEGORIE ⠆⢄⠌⠑ STARTWABE
 
  # AXIOM | PRODUKT BAUEN
  AXIOM ¡ ⠆⢄⠌⠃ Ξ ⠆⢄⠌⠉
- AXIOM ¡ ⠆⢄⠌⠅ Ξ PD
+ AXIOM ¡ ⠆⢄⠌⠅ Ξ ⠆⢄⠌⠊
 
  # PRODUKT
  PRODUKT ⠆⢄⠌⠉ {
@@ -150,7 +150,31 @@ MUTTERWABEN-KATEGORIE ⠆⢄⠌⠑ STARTWABE
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE # 
+MUTTERWABEN-KATEGORIE # BAUWABE 
+
+ PROGRAMM-KERN # NA
+
+ WABEN-ID # BA
+
+ BION-NR # NR
+
+ BION-ID # BIID
+
+ BSK-KN # BAKN
+
+ BSK-ID # BAID
+
+ BION # BION
+
+ BSK # BSK
+
+ # AXIOM | KEID + WAID + BAKN
+ AXIOM ¡ KEID ⧓ WAID ⧓ BAKN Ξ BAID
+
+ # AXIOM | BION-ID
+ AXIOM ¡ WAID ⧓ NR Ξ BIID
+
+TOCHTERWABEN-KATEGORIE #
 
 
 ###====================================|====================================###
