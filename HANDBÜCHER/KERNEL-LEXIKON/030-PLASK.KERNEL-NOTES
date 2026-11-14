@@ -69,7 +69,7 @@ MUTTERWABEN-KATEGORIE ⠆⢄⠑⠉ HAUPTWABE
 
  BION-ID ⠆⢄⠌⡄ HT004
 
- BSK-KN ⠆⢄⠌⡈ PLASK
+ BSK-KN ⠆⢄⠌⡈ ASK
 
  BSK-ID ⠆⢄⠌⡐ PAHT-ASK
 
@@ -185,25 +185,12 @@ TOCHTERWABEN-KATEGORIE ⠆⢄⠊⠤ SUCHWABE
  EINHEIT ⠆⢄⠉⢐ } PA-ENDE
 
  # SUCHE | GESCHLOSSENER KREISLAUF 
- PLASK ⠆⢄⠊⠨ PLASK
- PLASK ⠆⢄⠉⢠ BSK-ID 
- PLASK ⠆⢄⠉⣀ BION-ID 
- PLASK ⠆⢄⠊⠃ EINHEIT
+ AWD ⠆⢄⠊⠨ AWD
+ AWD ⠆⢄⠉⢠ BSK-ID 
+ AWD ⠆⢄⠉⣀ BION-ID 
+ AWD ⠆⢄⠊⠃ EINHEIT
  
- # AXIOM | WIRKUNG 
- AXIOM ¡ 
-
-
- gut ... nein ..... die bion-id steht in plask . 
-
- platzhalter sind die zeichen selbst . 
-
- das einegtrage buch ist der tws selbst . 
-
- keine weiteren logiken , es ist nur der import von 
- dinge die vorliegen ... 
-
- ICH GUCK NOCH EIN FILM DANN GEHTS LOS ... 
+ AXIOM ¡ ⠆⢄⠊⠰ 
 
 
 
@@ -212,21 +199,16 @@ TOCHTERWABEN-KATEGORIE ⠆⢄⠊⠤ SUCHWABE
 
 
 
- AXIOM ¡ ( LOGIK AUF MASTERLIZENZWABE BINDEN ALSO ) ( LOGIK = BIID VON MASTER )
- 
- HIER FEHLT DANN NOCH DIE BION-ID BINDUNG ZUR JEWEILIGEN EINHEIT
 
 
 
- ALLES ANDERE IM MASTER KLÄREN ... 
-
- HIER DANN NUR NOCH EIN WABEN STOP BEI BEEDINUNG DER SUCHE , EINGANGSBESTÄTIGUNG 
 
 
- ---- 
 
- HIER DANN DIE ENDWABE .... FINISCH ..... PLASK EXISTIERT ... 
- KLEINE KOMPONENTE , GROẞE AUSWIRKUNG 
+
+
+
+
 
 
 
