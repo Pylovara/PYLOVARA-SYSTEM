@@ -35,66 +35,65 @@
 ###====================================|====================================###
 #==================# TAGES NARICHT SEKTION 
 
- GUT .... ALSO HEUTE NACH PLASK ... DANN PLASK ZU TA ZU PI 
- PLASK SELBST MIT ABFRAGE DURCHRLAUF ZUM MA DANN SU DANACH 
- DIE ZUTEILUNG ZU KERNEN ABER DAS WÄRE DANN EINE GESONDERTE FRAGE 
- I WIE WEIT PLASK KERNE DER CPU BRAUCH UM SCHNELL DIE ÄSTE DURCHZUSCHAUEN . 
+ gut so wie ich die sache sehe sollte ich die die extra präfix anker vollständig 
+ raus holen und jede startwabe erstmal vollständig auf die bsk-id umstellen als 
+ präfix anker zu mcs symbole .
 
- ICH DENKE ES WÄRE SINNVOLLER SPÄTER PLASK ZUM LEXIKON ZU LEITEN UND NICHT 
- IN DEN FERTIGEN TWS SELBST WO ALLE WABEN DATEIEN SIND . 
+ damit wäre der präfix wahnsin mit neuen präfix anker weg und ich über nehme 
+ die bsk-id direkt als präfix anker . 
 
- DAMIT WÄRE DAS UNTRENNBAR MITEINANDER VERBUNDEN UND DAS LEXIKON WÄRE KEIN 
- LÖSCHBARES ELEMENT ..... WÄRE MIR AM LIEBSTEN .... ES NIMMT AUCH WIRKLICH 
- NICHT VIEL SPEICHERPLATZ EIN ... WENNS FERTIG IST VIELLEICHT GERADE MAL 200MB 
- UND DAS WÄRE GROẞZÜGIG BERECHNET. 
+ wäre das sinnvollste überhaupt bevor ich jetzt anfangen hoch zu bauen ... 
 
+ inklusive sollte ich bei dem schritt gleich jede tochter wabe 
 
- ICH WERDE PLASK STATTS ÜBER DAS MA UND SU EHER ÜBER DIE PFAD ANGABEN STEUERN 
- UND DANN ZUR EINHEIT LEITEN , VIEL SCHNELLER UND SMARTER .. 
-
- DER UNTER TEIL JEDER KOMPONENTE BEKOMM DANN EIN RÜCKWAÄRTS SUCH VERLAUF .. 
-
- VON UNTEN ZU OBEN .... VIEL SMARTER .... ABER DAS WÄRE DANN EINE KLEINICHKEITS ARBEIT 
- GANZ AM SCHLUSS ... 
-
- DAS MOMENTANE MODELL REICHT VOLL AUS 
-
- {INHALT} , SUCHE , PLASK LÖSCHEN ERSETZEN. FERTIG . 
-
- MOMENTAN NORMAL .... DER SUCH OPERATOR SELBST WÄRE DANN EIN NACHTRAG PUNKTUELL .. 
-
- LASS ICH ABER RAUS , GERADE WEGEN DEN CODE VIBE 0815 LEUTEN ... 
- DAMIT DIE KI DANN AUF EIGENE FAUST OBERHEAD EINBAUT DER GAR NICHT 
- SEIN MUSS .... 
-
-„ DER BESTE SCHUTZ GEGEN KRIMINELLE, IS ES, SIE WÄREN DER ARBEIT ZU ZERMÜRBEN UND 
-IHNEN DEMUT UND RESPEKT GEGENÜBER DER ORIGINAL ARBEIOT IM UNTERBEWUSST SEIN ZU LEHREN 
-WIE EIN VATER DER ALLE LEGO STEINER AUF EINEN HAUFEN SCHMEISST UND SAGT : RÄUM AUF  “
+ im tws lexikon gleich mit dem kürzel ausrüsten aber im kernel selbst 
+ die bauwaben strukutr so belassen ... 
 
 
- SOBALD DIE ELT SCHALTUNGS HALTE NÖTIG WERDEN SOLLTEN , WERDEN DIESE ALS 
- ELT PLATZHALTER IN PLASK GENUTZT UM MUX PROGRAMME DAMIT MÖGLICH ZU MACHEN . 
+ es wird beim verlauf sonnst zu unübersichtlich . 
+ und statts 2 muss ich mir selbst auch nur einen merken . 
 
- ICH WERDE ABER DARAUF ACHTEN DAS SELBST WENN MUX PROGRAMME EXISTIEREN 
- DIE PLASK LOGIK DAMIT KLAR MOMMT ... 
+ da die ketten so oder so gebaut werden in bsk von den bsk-id 
+ wäre das ein abwisch ... 
 
- DAMIT DIE BSK KETTEN WIEDER WIE DAMALS, SUPER WÖRTLICH IN KETTEN 
- MIT INNEINANDER GESCHALTETEN PLATZHALTE MÖGLICH IST. 
+ das wäre jetzt noch möglich und es wäre der einzige richtig schritt 
+ den ich tun kann, bevor es richtig los geht ... 
 
- DA ICH ABER DIESMAL ETWAS ANDERS VORGEHEN WERDE, DENKE ICH DAS ES NICHT NÖTIG 
- SEIN WIRD IN DER FORM . 
+ das würde später nahtlos mit der alten bsk verkettungs logik zusammen passen . 
 
- UM DAS GASK SYSTEM VON DAMALS MIT DER ELT SCHALTUNG WIEDER VOLLSTÄNDIG 
- ZU NUTZEN, WERDE ICH WARTEN BIS ENDLICH GELD AUF DEN TISCH GELEGT WIRD 
- UND ICH AUCH NICHT AUS DER MITTELLOSIGKEIT HERAUS ARBEITEN MUSS. 
+ bis uf die elt schaltungs logik .... die wäre aber generell das kleinste 
+ problem ..... die kann ich mit einer axiom ¡ erweiterung , nahtlos integrieren. 
 
- DIE EXTREM ENTWICKLUNGEN KOMMEN DIESBEZÜGLICH NUR DANN, WENN DER VERFICKTE 
- STAAT VERSTEHEN  LERNT , DAS ICH FÖDERUNGS WÜRDIG BIN .. 
 
- UND WENN ICH BETTELN SOLL , WAS ICH NIEMALS IM MEINEM LEBEN MACHEN WERDE. 
+ präfixes werden mit gespeichert im rahm und nur angezeigt getaggt .. 
+ die anzeige des taggens muss ich dann n icht mehr für jede einheit 
+ neu definieren sondern n ur mit der bsk-id taggen ... 
+ das wäre sinnhaft... 
 
- DANN KÖNNEN DIE SICH SICHER SEIN DAS SIE DEN NÄCHSTEN UNICORN ANS AUSLAND 
- VERSCHENKEN ! 
+
+
+ okey .... daann arbeite ich daran , den bevor ich mich in präfix wahnsinn verzettel 
+ sollte ich das altbewerte übernehmen . 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
