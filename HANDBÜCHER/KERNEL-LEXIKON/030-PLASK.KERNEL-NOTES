@@ -102,7 +102,7 @@ MUTTERWABEN-KATEGORIE ⠆⢄⠌⠑ STARTWABE
 
  BSK-ID ⠆⢄⠌⠤ PAST-ASK
 
- BION ⠆⢄⠌⠨ PA030MK030HT030ST030
+ BION ⠆⢄⠌⠨ PA030MK030HT004ST004
 
  BSK ⠆⢄⠊⢈ PAMK+PAHT-ASK+PAST-ASK
 
@@ -152,21 +152,21 @@ MUTTERWABEN-KATEGORIE ⠆⢄⠌⠑ STARTWABE
 
 MUTTERWABEN-KATEGORIE ⠆⢄⠊⡐ BAUWABE 
 
- PROGRAMM-KERN ⠆⢄⠊⡠ NA
+ PROGRAMM-KERN ⠆⢄⠊⡠ ASK
 
- WABEN-ID ⠆⢄⠊⢁ 
+ WABEN-ID ⠆⢄⠊⢁ SE
 
- BION-NR ⠆⢄⠊⢂ NR
+ BION-NR ⠆⢄⠊⢂ 004
 
- BION-ID ⠆⢄⠊⠒ BIID
+ BION-ID ⠆⢄⠊⠒ SE004
 
- BSK-KN ⠆⢄⠊⠔ BAKN
+ BSK-KN ⠆⢄⠊⠔ ASK
 
- BSK-ID ⠆⢄⠊⠘ BAID
+ BSK-ID ⠆⢄⠊⠘ PASE-ASK
 
- BION ⠆⢄⠊⠡ BION
+ BION ⠆⢄⠊⠡ PA030MK030HT004ST004SE004
 
- BSK ⠆⢄⠊⠢ BSK
+ BSK ⠆⢄⠊⠢ PAMK+PAHT-ASK+PAST-ASK+PASE-ASK
 
  # AXIOM | KEID + WAID + BAKN
  AXIOM ¡ ⠆⢄⠒⠔ ⧓ ⠆⢄⠊⢁ ⧓ BAKN Ξ BAID
@@ -196,47 +196,44 @@ TOCHTERWABEN-KATEGORIE ⠆⢄⠊⠤ SUCHWABE
  AXIOM ¡ ⠆⢄⠊⠰ ⧓ ⠆⢄⠊⠉ ⧓ ⠆⢄⠉⢐ Ξ ⠆⢄⠊ 
  
  # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
- AXIOM ¡ ⠆⢄⠌⠡ ⧖⧖ ⠆⢄⠊ ⦳ BIID
+ AXIOM ¡ ⠆⢄⠌⠡ ⧖⧖ ⠆⢄⠊ ⦳ ⠆⢄⠉⢁
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE # ENDWABE 
+MUTTERWABEN-KATEGORIE ⠆⢄⠉⡄ ENDWABE 
 
- PROGRAMM-KERN # NA
+ PROGRAMM-KERN ⠆⢄⠉⡈ ASK
 
- WABEN-ID # ED
+ WABEN-ID ⠆⢄⠉⡐ ED
 
- BION-NR # 001
+ BION-NR ⠆⢄⠉⡠ 001
 
- BION-ID # BIID
+ BION-ID ⠆⢄⠉⢁ ED001
 
- BSK-KN # BAKN
+ BSK-KN ⠆⢄⠉⢂ ASK
 
- BSK-ID # BAID
+ BSK-ID ⠆⢄⠉⢈ PAED-ASK
 
- BION # BION
+ BION ⠆⢄⠉⠔ PA030MK030HT004ST004SE004
 
- BSK # BSK
+ BSK ⠆⢄⠉⠘ PAMK+PAHT-ASK+PAST-ASK+PASE-ASK+PAED-ASK
 
  # AXIOM | KEID + WAID + BAKN
- AXIOM ¡ KEID ⧓ WAID ⧓ BAKN Ξ BAID
+ AXIOM ¡ ⠆⢄⠒⠔ ⧓ ⠆⢄⠉⡐ ⧓ ⠆⢄⠉⢂ Ξ ⠆⢄⠉⢈
 
  # AXIOM | BION-ID
- AXIOM ¡ WAID ⧓ NR Ξ BIID
+ AXIOM ¡ ⠆⢄⠉⡐ ⧓ ⠆⢄⠉⡠ Ξ ⠆⢄⠉⢁
 
  # AXIOM | HAUPTWABEN DURCHLAUF BEENDEN
- AXIOM ¡ BIID ⦱
-
-###====================================|====================================###
-
-
+ AXIOM ¡ ⠆⢄⠉⢁ ⦱
 
 ###====================================|====================================###
 ###===========================KOMPAKTE-WABEN-PFADE==========================###
- #  BAUSTELLE !
- PFAD-PROGRAMM   =  
- PFAD-SYSTEM-ID  = 
- PFAD-BION-ID    = 
- PFAD-BION       = 
+
+ PFAD-PROGRAMM = ASK
+ PFAD-BION-ID  = ⠆⢄⠌⢐ ⠆⢄⠌⡄ ⠆⢄⠌⠡ ⠆⢄⠊⠒ ⠆⢄⠉⢁
+ PFAD-BION     = PA030MK030HT004ST004SE004
+ PFAD-BSK      = PAMK+PAHT-ASK+PAST-ASK+PASE-ASK+PAED-ASK
+
 ###=====================INDUSTRIE-STANDARD-DER-ZUKUNFT======================### 
 ###================================ENDPUNKT=================================###

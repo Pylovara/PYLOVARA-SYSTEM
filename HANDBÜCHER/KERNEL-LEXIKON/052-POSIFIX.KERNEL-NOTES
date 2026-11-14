@@ -335,10 +335,11 @@ TOCHTERWABEN-KATEGORIE ⠆⢄⠒⢈ (BAUSTELLE) POSITIONSWABE
 
 ###====================================|====================================###
 ###===========================KOMPAKTE-WABEN-PFADE==========================###
- #  BAUSTELLE !
- PFAD-PROGRAMM   =  
- PFAD-SYSTEM-ID  = 
- PFAD-BION-ID    = 
- PFAD-BION       = 
+
+ PFAD-PROGRAMM = {NAME}
+ PFAD-BION-ID  = {SYSTEM-ID}
+ PFAD-BION     = {WABEN-PFAD}
+ PFAD-BSK      = {BAUSTEINSCHALTUNGS-PFAD}
+ 
 ###=====================INDUSTRIE-STANDARD-DER-ZUKUNFT======================### 
 ###================================ENDPUNKT=================================###
