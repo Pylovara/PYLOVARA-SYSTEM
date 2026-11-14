@@ -146,7 +146,7 @@ MUTTERWABEN-KATEGORIE ⠆⢄⠌⠑ STARTWABE
  EINHEIT ⠆⢄⠊⡈ } PA-ENDE
 
  # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
- AXIOM ¡ ⠆⢄⠌⠡ ⦳ BIID
+ AXIOM ¡ ⠆⢄⠌⠡ ⦳ ⠆⢄⠊⠒
 
 ###====================================|====================================###
 
@@ -174,16 +174,18 @@ MUTTERWABEN-KATEGORIE ⠆⢄⠊⡐ BAUWABE
  # AXIOM | BION-ID
  AXIOM ¡ ⠆⢄⠊⢁ ⧓ ⠆⢄⠊⢂ Ξ ⠆⢄⠊⠒
 
-TOCHTERWABEN-KATEGORIE # SUCHWABE 
+TOCHTERWABEN-KATEGORIE ⠆⢄⠊⠤ SUCHWABE 
 
  # AXIOM | HOLE RAM EINHEIT 
- AXIOM ¡ # ⍠ RA
+ AXIOM ¡ ⠆⢄⠊⡄ ⍠ ⠆⢄⠊⠰
+ AXIOM ¡ ⠆⢄⠊⡈ ⍠ ⠆⢄⠉⢐
 
  # EINHEIT | RAM 
- EINHEIT # RA
+ EINHEIT ⠆⢄⠊⠰ { PA-START
+ EINHEIT ⠆⢄⠉⢐ } PA-ENDE
 
  # SUCHE | GESCHLOSSENER KREISLAUF 
- PLASK # PLASK
+ PLASK ⠆⢄⠊⠨ PLASK
  PLASK # BSK-ID 
  PLASK # BION-ID 
 
