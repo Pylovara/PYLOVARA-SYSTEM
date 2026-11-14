@@ -202,9 +202,32 @@ TOCHTERWABEN-KATEGORIE ⠆⢄⠊⠤ SUCHWABE
 
 MUTTERWABEN-KATEGORIE # ENDWABE 
 
+ PROGRAMM-KERN # NA
 
+ WABEN-ID # ED
 
+ BION-NR # NR
 
+ BION-ID # BIID
+
+ BSK-KN # BAKN
+
+ BSK-ID # BAID
+
+ BION # BION
+
+ BSK # BSK
+
+ # AXIOM | KEID + WAID + BAKN
+ AXIOM ¡ KEID ⧓ WAID ⧓ BAKN Ξ BAID
+
+ # AXIOM | BION-ID
+ AXIOM ¡ WAID ⧓ NR Ξ BIID
+
+ # AXIOM | HAUPTWABEN DURCHLAUF BEENDEN
+ AXIOM ¡ BIID ⦱
+
+###====================================|====================================###
 
 
 
