@@ -125,21 +125,4 @@
  EINES PROGRAMMES ALS SPEZIALISIERTEN TA ODER GESAMT CODE TA 
  VERWENDET WERDEN.
 
-
------------------- BAUSTELLEN BEREICH ------------------
-
- BENUTZUNG : 
-
- UM EINEN TRANSAKTIONSRAHMEN PLATZHALTERKENNUNG ( PLASK ) ZU 
- VERWENDEN NUTZE DIE BSK-ID :
-
- {TACL-RUN}
-
- FÜR 
-
- ¢!
- {PIMK}
-
-
-
 ###================================ENDPUNKT=================================###

@@ -1,0 +1,46 @@
+@mcs-nr: 23 ==================LEXIKON NAVIGATION TERMINAL ======= mcs <NR> =###
+###= SEITEN-SYSTEM-ID : ⠆⢄⠉⠡ ===PYLOVARA-SYSTEM=============================###
+ #                      PLASK = PLACEHOLDER DETECTION                        #
+###==============================MCS-ERKLÄRUNG==============================###
+
+ PLATZHALTERKENNUNG 
+ —————————————————— 
+
+ SYMBOL : { }
+
+ NAMENSDEUTUNG :
+
+ WIR RESERVIEREN DEN PLATZ MIT EINEM HALTER FÜR DIE KENNUNG.
+
+ ERKLÄRUNG :
+
+ 
+
+ DIESER BEREICH WIRD IN KÜRZE VERVOLLSTÄNDIG
+
+
+
+------------------ BAUSTELLEN BEREICH ------------------
+
+ BENUTZUNG : 
+
+ UM DEN ALLGEMEINEN ERSTEN STARTPUNKT ALS PLATZHALTER ZU VERWENDEN 
+ NUTZE : 
+
+ {TAMK}
+
+
+
+
+ UM EINEN TRANSAKTIONSRAHMEN PLATZHALTERKENNUNG ( PLASK ) ZU 
+ VERWENDEN NUTZE DIE BSK-ID :
+
+ {TACL-RUN}
+
+ FÜR 
+
+ ¢!
+ {PIMK}
+
+
+###================================ENDPUNKT=================================###
