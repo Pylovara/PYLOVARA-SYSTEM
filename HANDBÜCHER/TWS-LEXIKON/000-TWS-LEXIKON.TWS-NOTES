@@ -10,14 +10,14 @@
 ###=============================VORKENNTNISSE===============================###
  #  NR S-ID NAMEN                    |  NR S-ID NAMEN                        #
  #  01 ⠆⢄⢐⣀ STRUKTUR                 |  02 ⠆⢄⢐⢠ WABENAUFBAU                  #
- #  !03 ⠆⢄⢈⠔ AXIOMPROGRAMMIERUNG     |  04 ⠆⢄⢁⡠ SYSTEM-ID                    #
+ #  03 ⠆⢄⢈⠔ AXIOMPROGRAMMIERUNG      |  04 ⠆⢄⢁⡠ SYSTEM-ID                    #
  #  05 ⠆⢄⡠⠑ WABENPLATZHALTER         |  06 ⠆⢄⡂⠊ PIPELINE                     #
  #  07 ⠆⢄⠘⡈ WABEN-ID                 |  08                                   #
 ###=========================GENERALWABEN-KATALOG============================###
  #  10 ⠆⢄⢈⠡ MUTTERWABE               |  11 ⠆⢄⢈⠢ TOCHTERWABE                  #
  #  12 ⠆⢄⢈⠤ KINDERWABEN              |  13 ⠆⢄⢈⠨ HONIGTROPFEN                 #
- #  14 ⠆⢄⢈⠰ WABENHÄRTER              |  15      ARBEITERBIENEN               #
- #  16      BIENENKÖNIGIN            |  17                                   #
+ #  14 ⠆⢄⢈⠰ WABENHÄRTER              |  15      ENDWABEN                     #
+ #  16      ARBEITERBIENEN           |  17      BIENENKÖNIGIN                #
 ###=========================MUTTERWABEN-MODULE==============================###
  #  20 ⠆⢄⢈⡁ KOPFWABE                 |  21 ⠆⢄⢈⡄ MASTERKERNWABE               #
  #  22 ⠆⢄⢁⢂ HAUPTWABE                |  23 ⠆⢄⡈⢈ STARTWABE                    #
@@ -30,7 +30,7 @@
  #  34      AUSFÜHRUNGSWABE          |  35      AUSFÜHRUNGSLINKWABE          #
  #  36      AUSFÜHRUNGSDIREKTLINKWABE|  37      BINDUNGSWABE                 #
  #  38      PROZESSRASTERWABE        |  39      EXTERNWABE                   #
- #  40      POSITIONSWABE            |  41                                   #
+ #  40      POSITIONSWABE            |  41      SUCHWABE                     #
 ###===========================KINDERWABEN-MODULE============================###
  #  60      HARDWAREWABE             |  61      STROMWABE                    #
  #  62      SYSTEMWABE               |  63      FREIGABEWABE                 #
