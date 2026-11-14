@@ -16,7 +16,7 @@
  #   09  - -       SENTIATOR           | 10  - -       NITROX                #
  #   11  - -       FEED                | 12  - -       ZYTRON                #
 ###==============================SYSTEM-ELEMENTE============================###
- #   30  - Ŋ  ⠆⢄⠒⣀ PLASK               | 31  - -       MCD                   #
+ #   30  Æ ·  ⠆⢄⠒⣀ PLASK               | 31  - -       MCD                   #
 ###=================================REGISTER================================###
  #   40  - -       DATENTYPEN          | 41  - -       NAVIGATOR             #
  #   42  - -       KKIS                | 43  - -       DATEITYPEN            #
@@ -30,7 +30,7 @@
 ###==========IDENTIFIKATION-BERECHTIGUNG-FÜR-ENTWICKLER=====================###
  #   90  - -       IDENTIFIKATION      | 91  - -                             #
 ###===============================VERSIONSDATEN=============================###
- # SYSTEM ⠆⢄⢐⡠ PNS 2.6.4 PYLOVARA—NETZWERK—SYSTEM            #   #        #  #
+ # SYSTEM ⠆⢄⢐⡠ PNS 2.6.4 PYLOVARA—NETZWERK—SYSTEM            #   #    #   #  #
  # PROGRAMMIERSPRACHE ⠆⢄⢐⠑ MCS 7.5 | MASCHINEN-CODE-SPEECH   #     ⠆⢄⢐⡠      #
  # KERNELSPRACHE  ⠆⢄⢐⢈ TWS 0.3 | THE-WABE-NEST-SYSTEM        #               #
  # TASTATURSTANDARD ⠆⢄⢐⠒ UTF -8 DEUTSCHER-STANDARD           #  #       #    #
