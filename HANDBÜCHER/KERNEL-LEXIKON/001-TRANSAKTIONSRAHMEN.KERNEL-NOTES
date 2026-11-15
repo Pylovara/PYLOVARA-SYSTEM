@@ -79,8 +79,8 @@ MUTTERWABEN-KATEGORIE ⠆⢄⢂⠌ HAUPTWABE
 
  BSK ⠆⢄⢁⠰ TAMK+TAHT-RUN
 
- # AXIOM | KEID + WAID + BAKN
- AXIOM ¡ ⠆⢄⢈⠌ ⧓ ⠆⢄⢂⠒ ⧓ ⠆⢄⢁⠢ Ξ ⠆⢄⢁⠤
+ # AXIOM | KEID + WAID + BSKN
+ AXIOM ¡ ⠆⢄⢈⠌ ⧓ ⠆⢄⢂⠒ ⫯ ⠆⢄⢁⠢ Ξ ⠆⢄⢁⠤
 
  # AXIOM | BION-ID
  AXIOM ¡ ⠆⢄⢂⠒ ⧓ ⠆⢄⢁⠘ Ξ ⠆⢄⢁⠡
@@ -108,8 +108,8 @@ MUTTERWABEN-KATEGORIE ⠆⢄⠢⠤ STARTWABE
 
  BSK ⠆⢄⠢⠉ TAMK+TAHT-RUNTIME+TAST-RUN
 
- # AXIOM | KEID + WAID + BAKN
- AXIOM ¡ ⠆⢄⡠⠃ ⧓ ⠆⢄⠢⠰ ⧓ ⠆⢄⠡⣀ Ξ ⠆⢄⠢⠃
+ # AXIOM | KEID + WAID + BSKN
+ AXIOM ¡ ⠆⢄⡠⠃ ⧓ ⠆⢄⠢⠰ ⫯ ⠆⢄⠡⣀ Ξ ⠆⢄⠢⠃
 
  # AXIOM | BION-ID
  AXIOM ¡ ⠆⢄⠢⠰ ⧓ ⠆⢄⠢⡁ Ξ ⠆⢄⠡⢠
@@ -141,8 +141,8 @@ MUTTERWABEN-KATEGORIE ⠆⢄⠢⠤ STARTWABE
  PRÄFIX PR
 
  # AXIOM | BSK | KEID + WAID + PR
- AXIOM ¡ KEID ⧓ WAID ⧓ PR Ξ BSFX
- AXIOM ¡ KEID ⧓ WAID ⧓ PR Ξ BSFX
+ AXIOM ¡ KEID ⧓ WAID ⫯ PR Ξ BSFX
+ AXIOM ¡ KEID ⧓ WAID ⫯ PR Ξ BSFX
 
  # BSK-PRÄFIX | KENNUNGSERWEITERUNG FÜR EINHEITEN
  BSK-PF BSFX
@@ -179,8 +179,8 @@ MUTTERWABEN-KATEGORIE ⠆⢄⠡⡂ BAUWABE
 
  BSK ⠆⢄⠡⠒ TAMK+TAHT-RUN+TAST-RUN+TACL-RUN
 
- # AXIOM | KEID + WAID + BAKN
- AXIOM ¡ ⠆⢄⡠⠃ ⧓ ⠆⢄⠡⠃ ⧓ ⠆⢄⠡⠊ Ξ ⠆⢄⠡⠌
+ # AXIOM | KEID + WAID + BSKN
+ AXIOM ¡ ⠆⢄⡠⠃ ⧓ ⠆⢄⠡⠃ ⫯ ⠆⢄⠡⠊ Ξ ⠆⢄⠡⠌
 
  # AXIOM | BION-ID
  AXIOM ¡ ⠆⢄⠡⠃ ⧓ ⠆⢄⠡⠅ Ξ ⠆⢄⠡⠉

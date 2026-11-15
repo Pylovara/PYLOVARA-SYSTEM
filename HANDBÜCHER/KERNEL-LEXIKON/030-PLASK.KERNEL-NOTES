@@ -77,8 +77,8 @@ MUTTERWABEN-KATEGORIE ⠆⢄⠑⠉ HAUPTWABE
 
  BSK ⠆⢄⠌⢁ PAMK+PAHT-ASK
 
- # AXIOM | KEID + WAID + BAKN
- AXIOM ¡ ⠆⢄⠒⠔ ⧓ ⠆⢄⠌⡁ ⧓ ⠆⢄⠌⡈ Ξ ⠆⢄⠌⡐
+ # AXIOM | KEID + WAID + BSKN
+ AXIOM ¡ ⠆⢄⠒⠔ ⧓ ⠆⢄⠌⡁ ⫯ ⠆⢄⠌⡈ Ξ ⠆⢄⠌⡐
 
  # AXIOM | BION-ID
  AXIOM ¡ ⠆⢄⠌⡁ ⧓ ⠆⢄⠌⡂ Ξ ⠆⢄⠌⡄
@@ -106,8 +106,8 @@ MUTTERWABEN-KATEGORIE ⠆⢄⠌⠑ STARTWABE
 
  BSK ⠆⢄⠊⢈ PAMK+PAHT-ASK+PAST-ASK
 
- # AXIOM | KEID + WAID + BAKN
- AXIOM ¡ ⠆⢄⠒⠔ ⧓ ⠆⢄⠌⠔ ⧓ ⠆⢄⠌⠘ Ξ ⠆⢄⠌⠡
+ # AXIOM | KEID + WAID + BSKN
+ AXIOM ¡ ⠆⢄⠒⠔ ⧓ ⠆⢄⠌⠔ ⫯ ⠆⢄⠌⠘ Ξ ⠆⢄⠌⠡
 
  # AXIOM | BION-ID
  AXIOM ¡ ⠆⢄⠌⠔ ⧓ ⠆⢄⠌⠘ Ξ ⠆⢄⠌⠡
@@ -138,8 +138,8 @@ MUTTERWABEN-KATEGORIE ⠆⢄⠌⠑ STARTWABE
  PRÄFIX PR ENDE
 
  # AXIOM | BSK | KEID + WAID + PR
- AXIOM ¡ KEID ⧓ WAID ⧓ PR Ξ BSFX
- AXIOM ¡ KEID ⧓ WAID ⧓ PR Ξ BSFX
+ AXIOM ¡ KEID ⧓ WAID ⫯ PR Ξ BSFX
+ AXIOM ¡ KEID ⧓ WAID ⫯ PR Ξ BSFX
 
  # BSK-PRÄFIX | KENNUNGSERWEITERUNG FÜR EINHEITEN
  BSK-PF BSFX
@@ -176,8 +176,8 @@ MUTTERWABEN-KATEGORIE ⠆⢄⠊⡐ BAUWABE
 
  BSK ⠆⢄⠊⠢ PAMK+PAHT-ASK+PAST-ASK+PASE-ASK
 
- # AXIOM | KEID + WAID + BAKN
- AXIOM ¡ ⠆⢄⠒⠔ ⧓ ⠆⢄⠊⢁ ⧓ BAKN Ξ BAID
+ # AXIOM | KEID + WAID + BSKN
+ AXIOM ¡ ⠆⢄⠒⠔ ⧓ ⠆⢄⠊⢁ ⫯ BSKN Ξ BAID
 
  # AXIOM | BION-ID
  AXIOM ¡ ⠆⢄⠊⢁ ⧓ ⠆⢄⠊⢂ Ξ ⠆⢄⠊⠒
@@ -192,7 +192,7 @@ TOCHTERWABEN-KATEGORIE ⠆⢄⠊⠤ SUCHWABE
  EINHEIT ⠆⢄⠊⠰ { PA-START
  EINHEIT ⠆⢄⠉⢐ } PA-ENDE
 
- # ( IN MCS WIRD DANN {BSK-ID} VERWENDET )
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
  # SUCHE | GESCHLOSSENER KREISLAUF 
  AWD ⠆⢄⠊⠨ AWD
@@ -228,8 +228,8 @@ MUTTERWABEN-KATEGORIE ⠆⢄⠉⡄ ENDWABE
 
  BSK ⠆⢄⠉⠘ PAMK+PAHT-ASK+PAST-ASK+PASE-ASK+PAED-ASK
 
- # AXIOM | KEID + WAID + BAKN
- AXIOM ¡ ⠆⢄⠒⠔ ⧓ ⠆⢄⠉⡐ ⧓ ⠆⢄⠉⢂ Ξ ⠆⢄⠉⢈
+ # AXIOM | KEID + WAID + BSKN
+ AXIOM ¡ ⠆⢄⠒⠔ ⧓ ⠆⢄⠉⡐ ⫯ ⠆⢄⠉⢂ Ξ ⠆⢄⠉⢈
 
  # AXIOM | BION-ID
  AXIOM ¡ ⠆⢄⠉⡐ ⧓ ⠆⢄⠉⡠ Ξ ⠆⢄⠉⢁

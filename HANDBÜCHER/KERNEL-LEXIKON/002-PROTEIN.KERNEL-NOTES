@@ -79,8 +79,8 @@ MUTTERWABEN-KATEGORIE ⠆⢄⡐⢁ HAUPTWABE
 
  BSK ⠆⢄⡐⠊ PIMK+PIHT-PROTEIN
 
- # AXIOM | KEID + WAID + BAKN
- AXIOM ¡ ⠆⢄⢁⡠ ⧓ ⠆⢄⡐⢈ ⧓ ⠆⢄⡐⠃ Ξ ⠆⢄⡐⠅
+ # AXIOM | KEID + WAID + BSKN
+ AXIOM ¡ ⠆⢄⢁⡠ ⧓ ⠆⢄⡐⢈ ⟊ ⠆⢄⡐⠃ Ξ ⠆⢄⡐⠅
 
  # AXIOM | BION-ID
  AXIOM ¡ ⠆⢄⡐⢈ ⧓ ⠆⢄⡈⢠ Ξ ⠆⢄⡈⣀
@@ -108,8 +108,8 @@ MUTTERWABEN-KATEGORIE ⠆⢄⠘⢂ STARTWABE
 
  BSK ⠆⢄⠘⠰ PIMK+PIHT-PROTEIN+PIST-PROTEIN
 
- # AXIOM | KEID + WAID + BAKN
- AXIOM ¡ ⠆⢄⢁⡠ ⧓ ⠆⢄⠘⢐ ⧓ ⠆⢄⠘⠢ Ξ ⠆⢄⠘⠤
+ # AXIOM | KEID + WAID + BSKN
+ AXIOM ¡ ⠆⢄⢁⡠ ⧓ ⠆⢄⠘⢐ ⫯ ⠆⢄⠘⠢ Ξ ⠆⢄⠘⠤
 
  # AXIOM | BION-ID
  AXIOM ¡ ⠆⢄⠘⢐ ⧓ ⠆⢄⠘⢠ Ξ ⠆⢄⠘⠡
@@ -140,8 +140,8 @@ MUTTERWABEN-KATEGORIE ⠆⢄⠘⢂ STARTWABE
  PRÄFIX PR
 
  # AXIOM | BSK | KEID + WAID + PR
- AXIOM ¡ KEID ⧓ WAID ⧓ PR Ξ BSFX
- AXIOM ¡ KEID ⧓ WAID ⧓ PR Ξ BSFX
+ AXIOM ¡ KEID ⧓ WAID ⫯ PR Ξ BSFX
+ AXIOM ¡ KEID ⧓ WAID ⫯ PR Ξ BSFX
 
  # BSK-PRÄFIX | KENNUNGSERWEITERUNG FÜR EINHEITEN
  BSK-PF BSFX
