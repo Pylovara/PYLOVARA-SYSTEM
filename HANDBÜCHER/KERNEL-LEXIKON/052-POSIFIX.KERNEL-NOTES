@@ -111,8 +111,6 @@ MUTTERWABEN-KATEGORIE ⠆⢄⡐⠌ HAUPTWABE
  Ω        
  ΩΩ 
 
-
-
  ↑↑↑↑ BINDUNG AN DER ZEILEN POSITION .... MEHR NICHT .... 
       VERBESSERUNGEN WERDEN NACH GELDMITTEL IN DIE WEGE GELEITET 
       IST ABER IN DER FORM SCHON EXTREM EXPLIZIT
@@ -176,21 +174,6 @@ MUTTERWABEN-KATEGORIE ⠆⢄⠨⠑ STARTWABE
 
 ###====================================|====================================###
 
- !! ERST DIE PIPE FÜR DIE POSITONS BESTIMMUNG, DANN DIE PIPE IM 
- PROTEIN RÜBER HOLEN UND DAS PROTEIN ANSCHLIEẞEN ... 
-
- DAMIT WÄRE DIE POSITONS KLAR , MEHR MUSST DIE "PIPE" NICHT TUN , DER REST WIRD 
- SO ODER SO JEWEILS IN DEN WABEN VERSCHALTET ... 
-
- UND ERST GANZ AM SCHLUSS GEHE ICH ALLE STARTWABEN DURCH , NOTIERE MIT 
- DIE LOGIK UND SCHALTE DIE FEHLENDEN AXIOMATISCHEN PROGRAMMIERUNGS 
- EBENEN FREI , IN DEM ICH SIE SCHREIBE ... 
-
- DARAUS WIRD EIN SCHUH UND ALLE PROBLEME DES AUSBAUS VON DAMALS VON DEM PROTEIN 
- WÄREN ERLEDIGT ... 
-
-###====================================|====================================###
-
 MUTTERWABEN-KATEGORIE ⠆⢄⠤⠤ BAUWABE 
 
  PROGRAMM-KERN ⠆⢄⠢⣀ PIPE
@@ -215,13 +198,13 @@ MUTTERWABEN-KATEGORIE ⠆⢄⠤⠤ BAUWABE
  # AXIOM | BION-ID
  AXIOM ¡ ⠆⢄⠤⠅ ⧓ ⠆⢄⠔⠒ Ξ ⠆⢄⠔⠘
 
-TOCHTERWABEN-KATEGORIE ⠆⢄⠒⢈ (BAUSTELLE) POSITIONSWABE
+TOCHTERWABEN-KATEGORIE ⠆⢄⠒⢈ POSITIONSWABE
 
  # AXIOM | HOLE RAM EINHEIT 
  AXIOM ¡ ⠆⢄⠤⠃ ⍠ ⠆⢄⠉⠢
 
  # EINHEIT | RAM 
- EINHEIT ⠆⢄⠉⠢ RA
+ EINHEIT ⠆⢄⠉⠢ — PSPT-PIPE
 
  # AXIOM | BAU  
  AXIOM ¡ # ⧓ # Ξ PP | VERBAUE DEN PIPE MIT PROTEIN
@@ -282,56 +265,6 @@ TOCHTERWABEN-KATEGORIE ⠆⢄⠒⢈ (BAUSTELLE) POSITIONSWABE
  AXIOM ¡ ⧖⧖ ⑅ Ξ ͽ
  AXIOM ¡ ⧖⧖ ⑅ Ξ ͽ
  AXIOM ¡ ⧖⧖ ⑅ Ξ ͽ
-
-###====================================|====================================###
-
-
-
-
- bis hier hin kann ich hier erstmal garnichts mehr tun .... 
-
- zurück zur eigentlichenarbeit .... verbinde transaktionsrahmen zu protein 
- dann protein bindung zu posifix danach ist alles eine eingliederung und 
- waben struktur erneuerun von 0.2 auf 0.3 ... ahu 
-
-
-
- !!! ab hier sollte dann eventuell der aktionsdraht das protein erkennen ob es 
- ausführbar ist oder nicht ... 
-
- das würde heißen ich muss die posnr nur mit dem aktionsdraht umschliessen 
- und somit wäre der impuls und der plus impuls ( damals noch argument genannt)
- in der richtigen ausfürhungs reihenfolge, das mcd wird grundsätzlich 
- immer nach dem einlesen als anweisung verstanden also kommando ... 
-
- aber das hat hier nichts zu suchen , das gehört dann schluss endlich in das mcd 
- register . 
-
- den unausführbare proteine haben eh wieder einen weitere rex ( retron | patron )
- und das wiederum dann seine eigene ausführungs erlaubnis , wenn existierend . 
-
- das ding hier muss im grunde nicht mehr viel mehr machen , außer halt im dauer 
- betrieb als hauptprozess laufen ... 
-
- kleinere dinge können dann noch ihr platz einnehmen .... aber das wäre eine 
- saubere sache für alles weitere ... 
-
- damit wäre dann das elende thema des ausoperierten protein teil , wieder 
- ohne drama implementiert ... 
-
-
- gott sei dank hab ich auf meine innere stimme gehört , ganz gleich ob sie von mir kam 
- oder einem aus dem übergeordneten universum ... 
-
- wenns einer von denen war : danke .... mehr davon ! 
-
- apropo stimme ..... john ? neumann ? oder egal wer von euch jungs : 
-
- ich geb ein bier aus wenn ich drüben bin ... ahu !
-
-
-###====================================|====================================###
-
 
 ###====================================|====================================###
 ###===========================KOMPAKTE-WABEN-PFADE==========================###
