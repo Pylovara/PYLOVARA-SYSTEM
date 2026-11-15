@@ -35,13 +35,38 @@ MUTTERWABEN-KATEGORIE ⠆⢄⠃⡁ KOPFWABE
  AXIOM ¡ ⠆⢄⠃⠊ ⧑ ⠆⢄⠃⠉
 
  # AXIOM | WEITERVERBINDEN
- AXIOM ¡ ⠆⢄⠃⠉ ⧑ BIID
+ AXIOM ¡ ⠆⢄⠃⠉ ⧑ ⠆⢂⣀⠤
 
 ###====================================|====================================###
 
+MUTTERWABEN-KATEGORIE ⠆⢂⣀⢠ MASTERKERNWABE
+
+ WABEN-ID ⠆⢂⣀⠡ MK
+
+ BION-NR ⠆⢂⣀⠢ 008
+
+ BION-ID ⠆⢂⣀⠤ MK008
+
+ BSK-ID ⠆⢂⣀⠨ BXMK
+
+ BION ⠆⢂⣀⠰ BX008MK008
+
+ BSK ⠆⢂⣀⡁ BXMK
+
+ # AXIOM | KEID + WAID 
+ AXIOM ¡ ⠆⢄⠃⡄ ⧓ ⠆⢂⣀⠡ Ξ ⠆⢂⣀⠨
+
+ # AXIOM | BION-ID
+ AXIOM ¡ ⠆⢂⣀⠡ ⧓ ⠆⢂⣀⠢ Ξ ⠆⢂⣀⠤
+
+ # AXIOM | HAUPTWABEN AUSFÜHRUNG BEI VERBINDUNG 
+ AXIOM ¡ ⠆⢂⣀⠤ ⧖⧖ BIID ͽ
+
+###====================================|====================================###
+###===============================BOXIS-PRINT===============================###
+###====================================|====================================###
+
 MUTTERWABEN-KATEGORIE # 
-
-
 
 
 
