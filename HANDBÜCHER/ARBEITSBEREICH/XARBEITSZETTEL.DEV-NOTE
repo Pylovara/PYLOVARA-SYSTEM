@@ -40,6 +40,205 @@
  weiter an die arbeit ... 
 
 
+ SO .... okey .... ich muss noch ein problem lösen bevor 
+ ich das system runter schreiben kann ... 
+
+
+ das dumm wie brot halten der bsk-kn funktioniert in der form nicht ... 
+
+ da grundsätzlich viele waben mehrfach vorkommen können , hje nach komponenten typ .. 
+
+ brauch ich also doch individuelle präfix anker in den bsk-kn 
+
+ ich hab thema in den 6 jahren noch nicht ein einziges mal wirklich 
+ gut heraus arbeiten können ... 
+
+
+ den die einzige richtige antwort würde lauten : 
+
+ unterschiedlichkeit ... 
+
+
+ da fängt dann aber der lernfaktor an .... und der ist nicht zu unterschätzen .. 
+
+
+ das würde heißen ich kann den tws nicht wie mcs behandeln weil mcs 
+ grunsätzlich leichter zu lernen ist und schneller in der geschwindigkeit 
+ sein wird als C ... 
+
+ aber der tws würde trotzdem ein lernaufwand bedeuten , alleine wegen 
+ den bsk ketten selbst ... 
+
+ wie viel zugeständniss müsste ich beim tws machen bei menschen ? 
+
+ umso einfacher , umso besser , umso nativer , umso besser ... 
+
+ kann ich von einem ( und jetzt wirds unangenehm )
+
+
+ IQ100 Menschen erwarten das er das lernt ? 
+ ich mein , der faktor ist wirklich gravierend ... 
+
+ 20 bauwaben mit combolinks oder anderen ... 
+ wäre 20 verschiedene präfixes pro komponente .. 
+
+ egal ob zahlen buchstaben oder sonderzeichen ... es wäre 
+ das selbe affentheater auf gründ .... 
+
+ 
+
+ ich kann im bestenfall nur einsatzbereich wörter heraus arbeiten 
+ und diese dann verwenden , bei genau solchen ketten bildungen ... 
+ aber diese muss man wissen ...... 
+
+ schnell mal nebenbei gelernt ist nicht ... 
+
+ aber ich kann im system dafür sorgen das diese nachschlagbar bleiben 
+ und zwar wie ich es eigentlich auch will : per lexikon ... 
+
+ ein handbuch hat schließlich im system greifbar zu sein und das so 
+ menschen lesbar wie nur möglich .... 
+
+ und nicht irgendwo bei amazon oder buchladen .... 
+
+ gut ... die alte welt hat das immer mit dem doppelten minus zeichen geregelt 
+
+ und dann meist --help hinten drann geklemmt ... 
+
+ unüberschauber layouts teils und alles nur in englisch ... 
+ nichts was ordentlich wäre oder hilfreich ... meist nur eselsbrücken .. 
+
+ das werde ich nicht tun .... bei mir gibts lexikons antriggerbar pro seite 
+ und später auch pro aspekt ... 
+
+ wenn ich 
+
+
+ PICL SCHREIBE ... dann ist die sachlage um was es sich 
+ handelt schon integriert 
+
+ PI = Protein 
+ CL = combolink 
+
+ nach dem sollte dann die stelle das ausdrücken was es tut ... oder ? 
+
+
+ also wenn ich so oder so etwas importer also Linke 
+
+ Dann sollte rhein theorätisch auch der präfix das aussagen .. 
+
+
+ hmmm ... 
+
+ also 
+
+ PICL-<KOMPONENTE> 
+
+ WÜRDE DANN BEI EINEM BOXIS IMPORT QUASI HEIẞEN 
+
+ PICL-BX 
+
+ BEI EINEM PJNTIFEX IMPORT 
+
+ PICL-PO 
+
+ HMMMM ..... 
+
+
+ ICH MUSS MIR DAS GANZ GENAU ÜBERLEGEN DAMIT ICH SO DAS 
+ PROBLEM AN DER WÜRZEL ANGEHEN KANN .... 
+
+ AUF JEDENFALL SOLLTEN DANN ABER AUCH DIE IMPORT PRÄFIXES 
+ AUCH DEN BAUSTEINSCHALTUNGSKREISLAUF PRINZIP BEINHALTEN .. 
+ 
+ VERKOMPLIZIERUNGEN SIND ANSCHEINEND IN DEM EINEN ASPEKT 
+ AUSSICHTLOS ZU BELASSEN .... 
+
+ ABER DIE LOGIK DAHINTER IN DEN WÖRTERN KANN VERBESSERT WERDEN 
+ UND VEREINHEITLICHT ... 
+
+ WENN ICH ALSO SAGEN MUSS : 
+
+ DER TWS IST FÜR MENSCHEN MIT BISS GEDACHT : 
+
+ ALSO JEDER DER SICH VOR DEM LERNEN NICHT SCHEUT .. 
+
+ DANN SOLLTE ICH SO GUT WIE ES JNUR MÖGLICH IST, DER LOGIK DAHINTER 
+ FÜR GEHIRNGERECHTES LERNEN , ENTGEGENKOMMEN .. 
+
+ ICH HAB NÄMLICH NUR ZWEI MÖGLICHKEITEN GENERELL ... 
+
+ 1. WAS DIE WABE TUT ALS PRÄFIX 
+ 2. WAS SIE HOLT 
+
+ DIE DRITTE „ SO STUMPF WIE NUR MÖGLICH “ IST HIER NICHT MEHR MÖGLICH .. 
+
+ UND MÖGLICHKEITE 4 DIE EHER NACH EINEN WITZ KLINGT STATTS NACH EINER 
+ ERNSTHAFTEN MÖGLICHKEIT, WÄRE HIER ZAHLEN SYSTEME ... 
+
+ DAS GEHT BEI DEN BION-ID , WEIL SIE HEX ERSETZT UND DIE WABE ANSICH ZEIGEN SOLL 
+ WO SIE VERBAUT IST , DIE NUMMER IST SO EGAL WIE DAS ESSEN EINES APFELS VOM APFELBAUN. 
+
+ ICH WÜRDE SAGEN ICH VERSUCH EINFACH .... EINFACH MAL VERSUCHEN ... 
+
+ KEINE MATHEMATISCHEN ANALYSEN , KEINE LANGEN ANALYSEN , KEINE DIAGRAMME , KEINE 
+ AUF BLATTGESCHRIEBENE TESTS .... EINFACH MAL VERSUCHEN ... 
+
+ EIN VERSUCH IST SO ODER SO, NICHT NACHWEISLICH SCHLECHTER ALS EINE ANALYSE DAVOR . 
+
+ DAS HÖRT SICH ALLES NACH DEM ALTEN COM SYSTEM AN DAS ICH SCHON HATTE .. DAS FUNKTIONIERTE .. 
+
+
+ OKEY .... DAS DEMORALISIERT GERADE EXTREM .... ABER MACHE ICH .... 
+
+ ICH WERDE DEN LEUTEN SO ODER SO VORWERFEN DAS SIE MICH GEISTLICH ZU DEM GEWZUNGEN 
+ HABEN AUS DER PUREN AGRESSION HERAUS DAS ICH MEIN LEBEN VERSAUEN MUSSTE WEIL ICH 
+ UNTER HURENSÖHNE LEBEN MUSSTE DIE MIR MEIN ANRECHT AUF GRUND UND BODEN MIT EINER 
+ BRINGTSCHULD VERWEIGERT HABEN , NUR UM MIR UND JEDEN ANDEREN DEN BULLSHIT ANS OHR 
+ ZU LABBERN , DAS WIR NICHTS NUTZE WÄREN , WEIL WIR EBEN NICHT FÜR IHRE FIRMEN ARBEITEN 
+ WOLLEN UND DIE SICH EINBILDEN WERTVOLLER ZU SEIN , NUR WEIL SIE ERLAUBNISE BEKOMMEN , 
+ DIE WIR VERWEHRT BEKOMMEN UND WIR ZUSÄTZLICH IN JEDEM ASPEKT BEHINDERT WURDEN . 
+
+ DAS WERDEN DIE SICH SO ODER SO ANHÖREN MÜSSEN ..... DARAN WIRD ES KEINEN EINZIGEN 
+ ZWEIFEL GEBEBN .... JEDER DOKTOR ... JEDER FIRMEN BESITZER .... JEDER KONZERN .. 
+ JEDER PARTEI , JEDER MILITÄR , JEDES POLIZEIPRÄSIDIUM .. 
+
+
+ JEDER DER MIR MAN ANRECHT WIE JEDEM ANDEREN AUCH , AN GRUND UND BODEN VERWEHRT HAT . 
+
+ AUSNAHMLOSE KRIMINELLE SKLAVENHÄNDLER UND VATERLANDSVERÄTER ... 
+ AUSNAHMLOS .... 
+
+
+ MAN HAT MIR DEN BODEN GEKLAUT ... 
+ MAN HAT MIR DIE MUSIK GEKLAUT ... 
+ MAN HAT MIR DAS DEN SPAẞ AM INTERNET GEKLAUT ... 
+ MAN HAT MIR ARMUT AUFGEZWUNGEN ... 
+ MAN HAT MIR KEINE FINAZIERUNG VON IRGENDWAS BEIM ARBEITSAMT GEWÄHRT .. 
+ NICHT MAL EINEN FÜHRERSCHEIN ... 
+ MAN JAGT MICH ÜBERALL WEG .... 
+ MAN LÄSST MIR KEINE EINZIGE FREUDE IN KEINEM ASPEKT DES LEBENS ÜBRIG .. 
+ UND JETZT WOLLEN SIE MIR AUCH NOCH DAS PROGRAMMIEREN KLAUEN ..... 
+
+ DAS WIRD EIN NACHSPIEL HABEN UND DER WIRD BÖSE ENDEN ! 
+
+ KRIMINELLE VATERLANDSVERÄTER DIE MIR EINE BRINGSCHULD DIKTIEREN WOLLEN . 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
