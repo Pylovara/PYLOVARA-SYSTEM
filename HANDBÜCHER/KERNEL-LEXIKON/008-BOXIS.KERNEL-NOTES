@@ -60,7 +60,41 @@ MUTTERWABEN-KATEGORIE ⠆⢂⣀⢠ MASTERKERNWABE
  AXIOM ¡ ⠆⢂⣀⠡ ⧓ ⠆⢂⣀⠢ Ξ ⠆⢂⣀⠤
 
  # AXIOM | HAUPTWABEN AUSFÜHRUNG BEI VERBINDUNG 
+ # BXHT-PRINT
  AXIOM ¡ ⠆⢂⣀⠤ ⧖⧖ ⠆⢂⣀⠊ ͽ
+
+ # BXHT-
+ AXIOM ¡ ⠆⢂⣀⠤ ⧖⧖ BIID ͽ
+
+ # BXHT-
+ AXIOM ¡ ⠆⢂⣀⠤ ⧖⧖ BIID ͽ
+
+ # BXHT-
+ AXIOM ¡ ⠆⢂⣀⠤ ⧖⧖ BIID ͽ
+
+ # BXHT-
+ AXIOM ¡ ⠆⢂⣀⠤ ⧖⧖ BIID ͽ
+
+ # BXHT-
+ AXIOM ¡ ⠆⢂⣀⠤ ⧖⧖ BIID ͽ
+
+ # BXHT-
+ AXIOM ¡ ⠆⢂⣀⠤ ⧖⧖ BIID ͽ
+
+ # BXHT-
+ AXIOM ¡ ⠆⢂⣀⠤ ⧖⧖ BIID ͽ
+
+ # BXHT-
+ AXIOM ¡ ⠆⢂⣀⠤ ⧖⧖ BIID ͽ
+
+ # BXHT-
+ AXIOM ¡ ⠆⢂⣀⠤ ⧖⧖ BIID ͽ
+
+ # BXHT-
+ AXIOM ¡ ⠆⢂⣀⠤ ⧖⧖ BIID ͽ
+
+ # BXHT-
+ AXIOM ¡ ⠆⢂⣀⠤ ⧖⧖ BIID ͽ
 
 ###====================================|====================================###
 ###===============================BOXIS-PRINT===============================###
@@ -183,24 +217,24 @@ MUTTERWABEN-KATEGORIE ⠆⢂⢠⠔ HAUPTWABE
 
  BION-NR ⠆⢂⢐⡠ 006
 
- BION-ID ⠆⢂⢐⢁ BIID
+ BION-ID ⠆⢂⢐⢁ HT006
 
- BSK-KN ⠆⢂⢐⢄ BSKN
+ BSK-KN ⠆⢂⢐⢄ ALU
 
- BSK-ID ⠆⢂⢐⢈ BSID
+ BSK-ID ⠆⢂⢐⢈ BXHT-ALU
 
- BION ⠆⢂⢐⢠ BION
+ BION ⠆⢂⢐⢠ BX008MK008HT006
 
- BSK ⠆⢂⢐⣀ BSK
+ BSK ⠆⢂⢐⣀ BXMK+BXHT-ALU
 
  # AXIOM | KEID + WAID + BSKN
- AXIOM ¡ ⠆⢄⠃⡄ ⧓ WAID ⫯ BSKN Ξ BSID
+ AXIOM ¡ ⠆⢄⠃⡄ ⧓ ⠆⢂⢠⠡ ⫯ ⠆⢂⢐⢄ Ξ ⠆⢂⢐⢈
 
  # AXIOM | BION-ID
- AXIOM ¡ WAID ⧓ NR Ξ BIID
+ AXIOM ¡ ⠆⢂⢠⠡ ⧓ ⠆⢂⢐⡠ Ξ ⠆⢂⢐⢁
 
  # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
- AXIOM ¡ BIID ⦳ BIID
+ AXIOM ¡ ⠆⢂⢐⢁ ⦳ BIID
 
 ###====================================|====================================###
 
