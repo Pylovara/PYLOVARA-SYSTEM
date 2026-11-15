@@ -54,7 +54,7 @@ MUTTERWABEN-KATEGORIE ⠆⢄⢂⢁ MASTERLIZENZWABE
  # 04 
  AXIOM ¡ ⠆⢄⢂⢠ ⧖⧖ BIID ͽ
 
- # 05
+ # 08 BOXIS
  AXIOM ¡ ⠆⢄⢂⢠ ⧖⧖ BIID ͽ
 
  # 30 PLASK
@@ -188,6 +188,50 @@ MUTTERWABEN-KATEGORIE ⠆⢄⠑⡂ SUPERLIZENZWABE
 
  # AXIOM | PROZESSSTOP
  AXIOM ¡ ⠆⢄⠑⡠ ⦳ ⧖⧖ ⠆⢄⠑⠰ ⦱
+
+###====================================|====================================###
+### SPÄTER KOMMENDE EINTRÄGE VORGESCHRIEBEN 
+###====================================|====================================###
+
+MUTTERWABEN-KATEGORIE #  SUPERLIZENZWABE
+
+ LIZENZ-KOMPONENTE # KE
+
+ WABEN-ID # SU
+
+ BION-NR # NR
+
+ BION-ID # BIID
+
+ BSK-KN # BSKN
+
+ BSK-ID # BSID
+
+ BION # BION
+
+ BSK # BSK
+
+ # AXIOM | LIID + WAID + BSKN 
+ AXIOM ¡ ⠆⢄⢂⢈ ⧓ WAID ⫯ BSKN Ξ BSID
+
+ # AXIOM | BION-ID
+ AXIOM ¡ WAID ⧓ NR Ξ 
+
+ # AXIOM | MUKA MASTER BIID & SUPER BIID GLEICH MASTER-ID
+ AXIOM ¡ ⠆⢄⢂⢠ ⧓ SUPERBIID Ξ ⠆⢄⠃⠊ 
+
+ # AXIOM | SUPERLIZENZ MASTER PRODUKT
+ MASTERLIZENZ ⠆⢄⠃⠊ 
+
+ # DATENBANK 
+ PROGRAMM-ANZAHL # 1
+ AUSFÜHRUNGS-FREIGABE # 0
+
+ # AXIOM | DATENFREIGABE
+ AXIOM ¡ 
+
+ # AXIOM | PROZESSSTOP
+ AXIOM ¡ BIID ⦳ ⧖⧖ ⠆⢄⠃⠊ ⦱
 
 ###====================================|====================================###
 ### SPÄTER KOMMENDE EINTRÄGE VORGESCHRIEBEN 
