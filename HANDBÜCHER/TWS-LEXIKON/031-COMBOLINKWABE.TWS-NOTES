@@ -60,7 +60,9 @@ TOCHTERMODUL # COMBOLINKWABE
 ###==========================VERWENDETE-WABEN-NR============================###
 
  TA001 = CL001
- PI002 = CL002 -CL003
+ PI002 = CL002 - CL003
+
+ 
 
 ###======================OPTIONALE-WABEN-ERWEITERUNGEN======================###
 
