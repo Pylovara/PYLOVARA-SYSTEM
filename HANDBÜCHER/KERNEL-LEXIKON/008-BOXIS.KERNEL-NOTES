@@ -8,34 +8,34 @@
  # DIE HÖCHSTE FORM DER GESCHWINDIGKEIT.                                     #
 ###===============================STARTPUNKT================================###
 
-MUTTERWABEN-KATEGORIE # KOPFWABE
+MUTTERWABEN-KATEGORIE ⠆⢄⠃⡁ KOPFWABE
 
- KOMPONENTE # KE
+ KOMPONENTE ⠆⢄⠃⡂ BOXIS
 
- KOMPONENTEN-ID # KEID
+ KOMPONENTEN-ID ⠆⢄⠃⡄ BX
 
- BION-NR # NR 
+ BION-NR ⠆⢄⠃⠅ 008 
 
- BION-ID # BIID
+ BION-ID ⠆⢄⠃⠉ BX008
 
- MASTER-ID # MAID
+ MASTER-ID ⠆⢄⠃⠊ !!
 
- BSK-ID # BSID
+ BSK-ID ⠆⢄⠃⠌ BX
 
  # AXIOM | KEID GLEICH BSK-ID
- AXIOM ¡ KEID Ξ BSID
+ AXIOM ¡ ⠆⢄⠃⡄ Ξ ⠆⢄⠃⠌
 
  # AXIOM | KOMPONENTE
- AXIOM ¡ KE ⏍ KE
+ AXIOM ¡ ⠆⢄⠃⡂ ⏍ ⠆⢄⠃⡂
 
  # AXIOM | BION-ID
- AXIOM ¡ KEID ⧓ NR Ξ 
+ AXIOM ¡ ⠆⢄⠃⡄ ⧓ ⠆⢄⠃⠅ Ξ ⠆⢄⠃⠉
 
  # AXIOM | MASTER
- AXIOM ¡ MAID ⧑ BIID
+ AXIOM ¡ ⠆⢄⠃⠊ ⧑ ⠆⢄⠃⠉
 
  # AXIOM | WEITERVERBINDEN
- AXIOM ¡ BIID ⧑ BIID
+ AXIOM ¡ ⠆⢄⠃⠉ ⧑ BIID
 
 ###====================================|====================================###
 
