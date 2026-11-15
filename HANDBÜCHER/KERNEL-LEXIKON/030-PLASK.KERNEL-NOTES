@@ -192,15 +192,17 @@ TOCHTERWABEN-KATEGORIE ⠆⢄⠊⠤ SUCHWABE
  EINHEIT ⠆⢄⠊⠰ { PA-START
  EINHEIT ⠆⢄⠉⢐ } PA-ENDE
 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ # !!!!!!! PROTOTYP !!!!!!!!!!!!!!!!!!!!!!
 
  # SUCHE | GESCHLOSSENER KREISLAUF 
  AWD ⠆⢄⠊⠨ AWD
+ AWD ⠆⢄⠅⠑ BSK-PR
  AWD ⠆⢄⠉⢠ BSK-ID 
  AWD ⠆⢄⠊⠃ EINHEIT
  
  AXIOM ¡ ⠆⢄⠊⠨ Ξ ⠆⢄⠊⠰
  AXIOM ¡ ⠆⢄⠊⠨ Ξ ⠆⢄⠉⢐
+ AXIOM ¡ ⠆⢄⠊⠨ ⟗ ⠆⢄⠅⠑ Ξ ⠆⢄⠊⠅
  AXIOM ¡ ⠆⢄⠊⠨ ⟗ ⠆⢄⠉⢠ Ξ ⠆⢄⠊⠅
  AXIOM ¡ ⎚ ⠆⢄⠊⠅ ⍠ ⠆⢄⠊⠃ Ξ ⠆⢄⠊⠉
  AXIOM ¡ ⠆⢄⠊⠰ ⧓ ⠆⢄⠊⠉ ⧓ ⠆⢄⠉⢐ Ξ ⠆⢄⠊ 
