@@ -37,6 +37,7 @@
  MAID    = MASTER-ID 
  WAID    = WABEN-ID 
 
+ LI      = LINK
  RA      = EINHEIT
  PD      = PRODUKT
  PR      = PRÄFIX
