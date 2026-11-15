@@ -193,45 +193,45 @@ MUTTERWABEN-KATEGORIE ⠆⢄⠑⡂ SUPERLIZENZWABE
 ### SPÄTER KOMMENDE EINTRÄGE VORGESCHRIEBEN 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE #  SUPERLIZENZWABE
+MUTTERWABEN-KATEGORIE ⠆⢄⠃⠑ SUPERLIZENZWABE
 
- LIZENZ-KOMPONENTE # KE
+ LIZENZ-KOMPONENTE ⠆⢄⠃⠒ BOXIS
 
- WABEN-ID # SU
+ WABEN-ID ⠆⢄⠃⠔ SU
 
- BION-NR # NR
+ BION-NR ⠆⢄⠃⠘ 008
 
- BION-ID # BIID
+ BION-ID ⠆⢂⣀⡈ SU008
 
- BSK-KN # BSKN
+ BSK-KN ⠆⢂⣀⡐ BX
 
- BSK-ID # BSID
+ BSK-ID ⠆⢂⣀⡠ MASU-BX
 
- BION # BION
+ BION ⠆⢂⣀⢁ MA046SU008
 
- BSK # BSK
+ BSK ⠆⢂⣀⢄ MASU-BX
 
  # AXIOM | LIID + WAID + BSKN 
- AXIOM ¡ ⠆⢄⢂⢈ ⧓ WAID ⫯ BSKN Ξ BSID
+ AXIOM ¡ ⠆⢄⢂⢈ ⧓ ⠆⢄⠃⠔ ⫯ ⠆⢂⣀⡐ Ξ ⠆⢂⣀⡠
 
  # AXIOM | BION-ID
- AXIOM ¡ WAID ⧓ NR Ξ 
+ AXIOM ¡ ⠆⢄⠃⠔ ⧓ ⠆⢄⠃⠘ Ξ ⠆⢂⣀⡈
 
  # AXIOM | MUKA MASTER BIID & SUPER BIID GLEICH MASTER-ID
- AXIOM ¡ ⠆⢄⢂⢠ ⧓ SUPERBIID Ξ ⠆⢄⠃⠊ 
+ AXIOM ¡ ⠆⢄⢂⢠ ⧓ ⠆⢂⣀⡈ Ξ ⠆⢄⠃⠊ 
 
  # AXIOM | SUPERLIZENZ MASTER PRODUKT
  MASTERLIZENZ ⠆⢄⠃⠊ 
 
  # DATENBANK 
- PROGRAMM-ANZAHL # 1
- AUSFÜHRUNGS-FREIGABE # 0
+ PROGRAMM-ANZAHL ⠆⢂⣀⢈ ?
+ AUSFÜHRUNGS-FREIGABE ⠆⢂⣀⢐ 0
 
  # AXIOM | DATENFREIGABE
  AXIOM ¡ 
 
  # AXIOM | PROZESSSTOP
- AXIOM ¡ BIID ⦳ ⧖⧖ ⠆⢄⠃⠊ ⦱
+ AXIOM ¡ ⠆⢂⣀⡈ ⦳ ⧖⧖ ⠆⢄⠃⠊ ⦱
 
 ###====================================|====================================###
 ### SPÄTER KOMMENDE EINTRÄGE VORGESCHRIEBEN 
