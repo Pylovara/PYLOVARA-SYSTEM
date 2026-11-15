@@ -84,8 +84,11 @@ MUTTERMODUL # STARTWABE
 ###==========================VERWENDETE-WABEN-NR============================###
 
  TA001 = ST001 |
- PI001 = ST002 |
+ PI002 = ST002 |
+ BX008 = ST005 - ST(!)
  PL052 = ST003 |
+ PA030 = ST004 |
+
 
 ###===================ENTWICKLER-PROGRAMMIERUNGSBEREICH=====================###
 
