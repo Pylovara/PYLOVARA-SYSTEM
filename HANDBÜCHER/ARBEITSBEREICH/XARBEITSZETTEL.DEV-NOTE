@@ -38,6 +38,85 @@
  AUFBAU DER BOXIS = PRIO 
 
 
+ LACH ... 
+
+ —:—[": ᴹᶜˢ ˢʰᵉˡˡ :"]
+↓:↑
+—:—›·¤ —:—[$: ~ :$]
+       ↓:↑
+       —:—›· »—:—[: sudo pacman -Sy
+[sudo] Passwort für bandino: 
+:: Paketdatenbanken werden synchronisiert …
+ core                                                                       127,3 KiB  96,7 KiB/s 00:01 [--------------------------------------------------------------] 100%
+ extra                                                                        8,7 MiB  1797 KiB/s 00:05 [--------------------------------------------------------------] 100%
+ multilib ist aktuell
+
+—:—[": ᴹᶜˢ ˢʰᵉˡˡ :"]
+↓:↑
+—:—›·¤ —:—[$: ~ :$]
+       ↓:↑
+       —:—›· »—:—[: sudo pacman -Syyu
+:: Paketdatenbanken werden synchronisiert …
+ core                                                                       127,3 KiB   113 KiB/s 00:01 [--------------------------------------------------------------] 100%
+ extra                                                                        8,7 MiB  1775 KiB/s 00:05 [--------------------------------------------------------------] 100%
+ multilib                                                                    83,7 KiB  74,4 KiB/s 00:01 [--------------------------------------------------------------] 100%
+:: Vollständige Systemaktualisierung wird gestartet …
+Warnung: aquamarine: Ignoriere Paket-Aktualisierung (0.14.0-2 => 0.16.0-1)
+Warnung: hyprland: Ignoriere Paket-Aktualisierung (0.56.2-1 => 0.57.2-1)
+Warnung: hyprutils: Ignoriere Paket-Aktualisierung (0.14.1-1 => 0.14.3-1)
+Abhängigkeiten werden aufgelöst …
+Warnung: Ignoriere Paket aquamarine-0.16.0-1
+Warnung: Kann "libaquamarine.so=15-64" nicht auflösen (eine Abhängigkeit von "hyprtoolkit")
+Warnung: Ignoriere Paket aquamarine-0.16.0-1
+Warnung: Kann "libaquamarine.so=15-64" nicht auflösen (eine Abhängigkeit von "hyprtoolkit")
+Warnung: Kann "libhyprtoolkit.so=6-64" nicht auflösen (eine Abhängigkeit von "hyprland-guiutils")
+Warnung: Ignoriere Paket aquamarine-0.16.0-1
+Warnung: Kann "libaquamarine.so=15-64" nicht auflösen (eine Abhängigkeit von "hyprtoolkit")
+Warnung: Ignoriere Paket aquamarine-0.16.0-1
+Warnung: Kann "libaquamarine.so=15-64" nicht auflösen (eine Abhängigkeit von "hyprtoolkit")
+Warnung: Ignoriere Paket aquamarine-0.16.0-1
+Warnung: Kann "libaquamarine.so=15-64" nicht auflösen (eine Abhängigkeit von "hyprtoolkit")
+:: Die folgenden Pakete können aufgrund nicht auflösbarer Abhängigkeiten nicht aktualisiert werden:
+      hyprland-guiutils  hyprtoolkit
+
+:: Möchten Sie die oben genannten Pakete bei dieser Aktualisierung überspringen? [j/N] j
+Nach in Konflikt stehenden Paketen wird gesucht …
+Fehler: Vorgang konnte nicht vorbereitet werden (Kann Abhängigkeiten nicht erfüllen)
+:: Installation von hyprgraphics (0.6.0-1) verletzt Abhängigkeit »libhyprgraphics.so=4-64«, benötigt von hyprland
+:: Installation von hyprgraphics (0.6.0-1) verletzt Abhängigkeit »libhyprgraphics.so=4-64«, benötigt von hyprtoolkit
+
+—:—[": ᴹᶜˢ ˢʰᵉˡˡ :"]
+↓:↑
+—:—›·¤ —:—[$: ~ :$]
+       ↓:↑
+       —:—›· »—:—[: 
+
+       '
+ DER JUNGE GLAUBT WIRKLICH DAS ER SCHLAU WÄRE XD 
+
+ SYSTEM UPDATE BLOCKIEREN WEGEN SEINEM PERMANENTEN RUM GEMURGSE 
+
+
+ OKEY KOLLEGE ..... ICH HAB ENDGÜLTIG DIE SCHNAUZE VOLL ... 
+
+ ICH BAU EIN EIGENES TILLING WINDOW UND WAYLAND WIRD RAUS GESCHMISSEN ... 
+
+ ICH BAU EINE ALTERNATIVE ... 
+
+ FREE FOR DOKTRIN .. 
+
+ BIS DORTHIN STELL ICH DAS GESAMMTE SYSTEM AUF IGNORE , DEN MEIN DESKTOP BLEIBT 
+ WIE ER IST .... NICHTS WIRD GEÄNDERN . 
+
+ HAST MIR IN DER VERGANGENHEIT ZU VIEL ZERSCHOSSEN ! 
+
+
+
+
+
+
+
+
 
 
 
