@@ -314,105 +314,106 @@ MUTTERWABEN-KATEGORIE #
 ###==============================BOXIS-SYSCALL==============================###
 ###====================================|====================================###
 
+MUTTERWABEN-KATEGORIE ⠆⢂⢈⣀ HAUPTWABE 
 
-MUTTERWABEN-KATEGORIE # HAUPTWABE 
+ PROGRAMM-KERN ⠆⢂⢐⠃ SYSCALL
 
- PROGRAMM-KERN # NA
+ WABEN-ID ⠆⢂⢐⠅ HT
 
- WABEN-ID # HT
+ BION-NR ⠆⢂⢐⠉ 007
 
- BION-NR # 007
+ BION-ID ⠆⢂⢈⠨ HT007
 
- BION-ID # BIID
+ BSK-KN ⠆⢂⢈⠰ SYSCALL
 
- BSK-KN # BSKN
+ BSK-ID ⠆⢂⢈⡁ BXHT-SYSCALL
 
- BSK-ID # BSID
+ BION ⠆⢂⢈⡂ BX008MK008HT007
 
- BION # BION
-
- BSK # BSK
+ BSK ⠆⢂⢈⡄ BXMK+BXHT-SYSCALL
 
  # AXIOM | KEID + WAID + BSKN
- AXIOM ¡ ⠆⢄⠃⡄ ⧓ WAID ⫯ BSKN Ξ BSID
+ AXIOM ¡ ⠆⢄⠃⡄ ⧓ ⠆⢂⢐⠅ ⫯ ⠆⢂⢈⠰ Ξ ⠆⢂⢈⡁
 
  # AXIOM | BION-ID
- AXIOM ¡ WAID ⧓ NR Ξ BIID
+ AXIOM ¡ ⠆⢂⢐⠅ ⧓ ⠆⢂⢐⠉ Ξ ⠆⢂⢈⠨
 
  # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
- AXIOM ¡ BIID ⦳ BIID
+ AXIOM ¡ ⠆⢂⢈⠨ ⦳ ⠆⢂⢈⠑
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE # STARTWABE 
+MUTTERWABEN-KATEGORIE ⠆⢂⢈⡈ STARTWABE 
 
- PROGRAMM-KERN # NA
+ PROGRAMM-KERN ⠆⢂⢈⡐ SYSCALL
 
- WABEN-ID # ST
+ WABEN-ID ⠆⢂⢈⡠ ST
 
- BION-NR # 007
+ BION-NR ⠆⢂⢈⠌ 007
 
- BION-ID # BIID
+ BION-ID ⠆⢂⢈⠑ ST007
 
- BSK-KN # BSKN
+ BSK-KN ⠆⢂⢈⠒ SYSCALL
 
- BSK-ID # BSID
+ BSK-ID ⠆⢂⢈⠔ BXST-SYSCALL
 
- BION # BION
+ BION ⠆⢂⢈⠘ BX008MK008HT007ST007
 
- BSK # BSK
+ BSK ⠆⢂⢈⠡ BXMK+BXHT-SYSCALL+BXST-SYSCALL
 
  # AXIOM | KEID + WAID + BSKN
- AXIOM ¡ ⠆⢄⠃⡄ ⧓ WAID ⫯ BSKN Ξ BSID
+ AXIOM ¡ ⠆⢄⠃⡄ ⧓ ⠆⢂⢈⡠ ⫯ ⠆⢂⢈⠒ Ξ ⠆⢂⢈⠔
 
  # AXIOM | BION-ID
- AXIOM ¡ WAID ⧓ NR Ξ BIID
+ AXIOM ¡ ⠆⢂⢈⡠ ⧓ ⠆⢂⢈⠌ Ξ ⠆⢂⢈⠑
 
  # TASTEN
- TASTENCODE # TT
- TASTENCODE # TT
+ TASTENCODE ⠆⢂⢈⠢ SHIFT
+ TASTENCODE ⠆⢂⢈⠤ ,
+ TASTENCODE ⠆⢂⢄⢈ .
 
  # AXIOM | SYMBOL BAUEN
- AXIOM ¡ TT ⦻ TT ⦻ TT Ξ SY
- AXIOM ¡ TT ⦻ TT Ξ SY
+ AXIOM ¡ ⠆⢂⢈⠤ Ξ ⠆⢂⢄⢐
+ AXIOM ¡ ⠆⢂⢈⠢ ⦻ ⠆⢂⢄⢈ Ξ ⠆⢂⢄⢠
 
  # SYMBOLE FERTIG
- SYMBOLE SY
- SYMBOLE SY
+ SYMBOLE ⠆⢂⢄⢐ ,
+ SYMBOLE ⠆⢂⢄⢠ :
 
  # AXIOM | PRODUKT BAUEN
- AXIOM ¡ SY ⧓ SY Ξ PD
- AXIOM ¡ SY ⧓ SY Ξ PD
+ AXIOM ¡ ⠆⢂⢄⢐ ⧓ ⠆⢂⢄⢠ Ξ ⠆⢂⢄⣀
+ AXIOM ¡ ⠆⢂⢄⢠ ⧓ ⠆⢂⢄⢐ Ξ ⠆⢂⢈⠅
 
  # PRODUKT
- PRODUKT PD
- PRODUKT PD
+ PRODUKT ⠆⢂⢄⣀ ,:
+ PRODUKT ⠆⢂⢈⠅ :,
 
  # PRÄFIX 
- PRÄFIX PR
- PRÄFIX PR
+ PRÄFIX ⠆⢂⢈⠉ SYSCALLS
+ PRÄFIX ⠆⢂⢈⠊ SYSCALLE
 
  # AXIOM | BSK | KEID + WAID + PR
- AXIOM ¡ ⠆⢄⠃⡄ ⧓ WAID ⫯ PR Ξ BSFX
- AXIOM ¡ ⠆⢄⠃⡄ ⧓ WAID ⫯ PR Ξ BSFX
+ AXIOM ¡ ⠆⢄⠃⡄ ⧓ ⠆⢂⢈⡠ ⫯ ⠆⢂⢈⠉ Ξ ⠆⢂⢄⠰
+ AXIOM ¡ ⠆⢄⠃⡄ ⧓ ⠆⢂⢈⡠ ⫯ ⠆⢂⢈⠊ Ξ ⠆⢂⢄⡁
 
  # BSK-PRÄFIX | KENNUNGSERWEITERUNG FÜR EINHEITEN
- BSK-PF BSFX
- BSK-PF BSFX
+ BSK-PF ⠆⢂⢄⠰ BXST-SYSCALLS
+ BSK-PF ⠆⢂⢄⡁ BXST-SYSCALLE
 
  # AXIOM | PRÄFIX TAGGEN UND RAM  
- AXIOM ¡ PD ⥗ BSFX ⍠ RA
- AXIOM ¡ PD ⥗ BSFX ⍠ RA
+ AXIOM ¡ ⠆⢂⢄⣀ ⥗ ⠆⢂⢄⠰ ⍠ ⠆⢂⢄⡂
+ AXIOM ¡ ⠆⢂⢈⠅ ⥗ ⠆⢂⢄⡁ ⍠ ⠆⢂⢄⡄
 
  # EINHEIT | RAM
- EINHEIT RA
- EINHEIT RA
+ EINHEIT ⠆⢂⢄⡂ ,: BXST-SYSCALLS
+ EINHEIT ⠆⢂⢄⡄ :, BXST-SYSCALLE
 
  # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
- AXIOM ¡ BIID ⦳ BIID
+ AXIOM ¡ ⠆⢂⢈⠑ ⦳ BIID
 
 ###====================================|====================================###
 
+MUTTERWABEN-KATEGORIE # 
 
 
 ###====================================|====================================###
