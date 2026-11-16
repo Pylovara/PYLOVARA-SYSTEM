@@ -1,0 +1,37 @@
+@waben-nr: 41 =================== LEXIKON NAVIGATION TERMINAL = waben <NR> =###
+###= SEITEN-SYSTEM-ID : # ===PYLOVARA-SYSTEM=============================###
+###==============================KINDERMODUL================================###
+
+KINDERMODUL # SYSTEMWABE
+
+ HONIGTROPFEN # <ART>
+
+ # AXIOM | (EINGABE ABGLEICHEN)
+ AXIOM ¡ # ⟗ ⧖⧖ # Ξ #
+
+ # AXIOM | ABGLEICH BEENDET | AUSGABE
+ AXIOM ¡ # ⧑ #
+
+ AUSGABE # <NAME>
+
+ # AXIOM | EINGABEBEHALTEN LÖSCHEN
+ AXIOM ¡ # ⎚
+
+ # AXIOM | RAM 
+ AXIOM ¡ # ⍠ #
+
+ # RAM GEBAUTE EINHEIT
+ EINHEIT # 
+
+ # AXIOM WABEN SYSTEM-ID | PROZESS STOP
+ AXIOM ¡ # ⦳ #
+
+###==============================INFORMATIONEN==============================###
+
+
+
+ 
+###===================ENTWICKLER-PROGRAMMIERUNGSBEREICH=====================###
+
+
+###=====================INDUSTRIE-STANDARD-DER-ZUKUNFT======================###
