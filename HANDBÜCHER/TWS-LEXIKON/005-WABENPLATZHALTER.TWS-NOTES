@@ -37,6 +37,9 @@
  MAID    = MASTER-ID 
  WAID    = WABEN-ID 
 
+ EAAA    = EINGABE-AUSGABE
+ AA      = AUSGABE
+ EA      = EINGABE
  ZW      = ZWISCHENABLAGE
  LI      = LINK
  RA      = EINHEIT
