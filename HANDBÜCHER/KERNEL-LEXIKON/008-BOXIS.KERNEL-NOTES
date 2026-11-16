@@ -81,8 +81,8 @@ MUTTERWABEN-KATEGORIE ⠆⢂⣀⢠ MASTERKERNWABE
  # BXHT-PFAD
  AXIOM ¡ ⠆⢂⣀⠤ ⧖⧖ ⠆⢂⡈⢈ ͽ
 
- # BXHT-
- AXIOM ¡ ⠆⢂⣀⠤ ⧖⧖ BIID ͽ
+ # BXHT-NET
+ AXIOM ¡ ⠆⢂⣀⠤ ⧖⧖ ⠆⢂⡄⠑ ͽ
 
  # BXHT-
  AXIOM ¡ ⠆⢂⣀⠤ ⧖⧖ BIID ͽ
@@ -847,105 +847,106 @@ MUTTERWABEN-KATEGORIE #
 ###================================BOXIS-NET================================###
 ###====================================|====================================###
 
+MUTTERWABEN-KATEGORIE ⠆⢂⡈⠃ HAUPTWABE 
 
-MUTTERWABEN-KATEGORIE # HAUPTWABE 
+ PROGRAMM-KERN ⠆⢂⡄⠉ NET
 
- PROGRAMM-KERN # NA
+ WABEN-ID ⠆⢂⡄⠊ HT
 
- WABEN-ID # HT
+ BION-NR ⠆⢂⡄⠌ 012
 
- BION-NR # 012
+ BION-ID ⠆⢂⡄⠑ HT012
 
- BION-ID # BIID
+ BSK-KN ⠆⢂⡄⠒ NET
 
- BSK-KN # BSKN
+ BSK-ID ⠆⢂⡄⠔ BXHT-NET
 
- BSK-ID # BSID
+ BION ⠆⢂⡄⠘ BX008MK008HT012
 
- BION # BION
-
- BSK # BSK
+ BSK ⠆⢂⡄⠡ BXMK+BXHT-NET
 
  # AXIOM | KEID + WAID + BSKN
- AXIOM ¡ ⠆⢄⠃⡄ ⧓ WAID ⫯ BSKN Ξ BSID
+ AXIOM ¡ ⠆⢄⠃⡄ ⧓ ⠆⢂⡄⠊ ⫯ ⠆⢂⡄⠒ Ξ ⠆⢂⡄⠔
 
  # AXIOM | BION-ID
- AXIOM ¡ WAID ⧓ NR Ξ BIID
+ AXIOM ¡ ⠆⢂⡄⠊ ⧓ ⠆⢂⡄⠌ Ξ ⠆⢂⡄⠑
 
  # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
- AXIOM ¡ BIID ⦳ BIID
+ AXIOM ¡ ⠆⢂⡄⠑ ⦳ ⠆⢂⡂⡄
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE # STARTWABE 
+MUTTERWABEN-KATEGORIE ⠆⢂⡄⠢ STARTWABE 
 
- PROGRAMM-KERN # NA
+ PROGRAMM-KERN ⠆⢂⡄⠤ NET
 
- WABEN-ID # ST
+ WABEN-ID ⠆⢂⡄⠨ ST
 
- BION-NR # 012
+ BION-NR ⠆⢂⡄⠰ 012
 
- BION-ID # BIID
+ BION-ID ⠆⢂⡂⡄ ST012
 
- BSK-KN # BSKN
+ BSK-KN ⠆⢂⡂⡈ NET
 
- BSK-ID # BSID
+ BSK-ID ⠆⢂⡂⡐ BXST-NET
 
- BION # BION
+ BION ⠆⢂⡂⡠ BX008MK008HT012ST012
 
- BSK # BSK
+ BSK ⠆⢂⡂⢁ BXMK+BXHT-NET+BXST-NET
 
  # AXIOM | KEID + WAID + BSKN
- AXIOM ¡ ⠆⢄⠃⡄ ⧓ WAID ⫯ BSKN Ξ BSID
+ AXIOM ¡ ⠆⢄⠃⡄ ⧓ ⠆⢂⡄⠨ ⫯ ⠆⢂⡂⡈ Ξ ⠆⢂⡂⡐
 
  # AXIOM | BION-ID
- AXIOM ¡ WAID ⧓ NR Ξ BIID
+ AXIOM ¡ ⠆⢂⡄⠨ ⧓ ⠆⢂⡄⠰ Ξ ⠆⢂⡂⡄
 
  # TASTEN
- TASTENCODE # TT
- TASTENCODE # TT
+ TASTENCODE ⠆⢂⡂⢄ SHIFT
+ TASTENCODE ⠆⢂⡂⢈ 3
+ TASTENCODE ⠆⢂⡂⢐ .
 
  # AXIOM | SYMBOL BAUEN
- AXIOM ¡ TT ⦻ TT ⦻ TT Ξ SY
- AXIOM ¡ TT ⦻ TT Ξ SY
+ AXIOM ¡ ⠆⢂⡂⢄ ⦻ ⠆⢂⡂⢈ Ξ ⠆⢂⡂⢠
+ AXIOM ¡ ⠆⢂⡂⢄ ⦻ ⠆⢂⡂⢐ Ξ ⠆⢂⡂⣀
 
  # SYMBOLE FERTIG
- SYMBOLE SY
- SYMBOLE SY
+ SYMBOLE ⠆⢂⡂⢠ §
+ SYMBOLE ⠆⢂⡂⣀ :
 
  # AXIOM | PRODUKT BAUEN
- AXIOM ¡ SY ⧓ SY Ξ PD
- AXIOM ¡ SY ⧓ SY Ξ PD
+ AXIOM ¡ ⠆⢂⡂⢠ ⧓ ⠆⢂⡂⣀ Ξ ⠆⢂⡄⠃
+ AXIOM ¡ ⠆⢂⡂⣀ ⧓ ⠆⢂⡂⢠ Ξ ⠆⢂⡄⠅
 
  # PRODUKT
- PRODUKT PD
- PRODUKT PD
+ PRODUKT ⠆⢂⡄⠃ §:
+ PRODUKT ⠆⢂⡄⠅ :§
 
  # PRÄFIX 
- PRÄFIX PR
- PRÄFIX PR
+ PRÄFIX ⠆⢂⡂⠊ NETS
+ PRÄFIX ⠆⢂⡂⠌ NETE
 
  # AXIOM | BSK | KEID + WAID + PR
- AXIOM ¡ ⠆⢄⠃⡄ ⧓ WAID ⫯ PR Ξ BSFX
- AXIOM ¡ ⠆⢄⠃⡄ ⧓ WAID ⫯ PR Ξ BSFX
+ AXIOM ¡ ⠆⢄⠃⡄ ⧓ ⠆⢂⡄⠨ ⫯ ⠆⢂⡂⠊ Ξ ⠆⢂⡂⠑
+ AXIOM ¡ ⠆⢄⠃⡄ ⧓ ⠆⢂⡄⠨ ⫯ ⠆⢂⡂⠌ Ξ ⠆⢂⡂⠒
 
  # BSK-PRÄFIX | KENNUNGSERWEITERUNG FÜR EINHEITEN
- BSK-PF BSFX
- BSK-PF BSFX
+ BSK-PF ⠆⢂⡂⠑ BXST-NETS
+ BSK-PF ⠆⢂⡂⠒ BXST-NETE
 
  # AXIOM | PRÄFIX TAGGEN UND RAM  
- AXIOM ¡ PD ⥗ BSFX ⍠ RA
- AXIOM ¡ PD ⥗ BSFX ⍠ RA
+ AXIOM ¡ ⠆⢂⡄⠃ ⥗ ⠆⢂⡂⠑ ⍠ ⠆⢂⡂⠔
+ AXIOM ¡ ⠆⢂⡄⠅ ⥗ ⠆⢂⡂⠒ ⍠ ⠆⢂⡂⠘
 
  # EINHEIT | RAM
- EINHEIT RA
- EINHEIT RA
+ EINHEIT ⠆⢂⡂⠔ §: BXST-NETS
+ EINHEIT ⠆⢂⡂⠘ :§ BXST-NETE
 
  # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
- AXIOM ¡ BIID ⦳ BIID
+ AXIOM ¡ ⠆⢂⡂⡄ ⦳ BIID
 
 ###====================================|====================================###
 
+MUTTERWABEN-KATEGORIE #
 
 
 ###====================================|====================================###
