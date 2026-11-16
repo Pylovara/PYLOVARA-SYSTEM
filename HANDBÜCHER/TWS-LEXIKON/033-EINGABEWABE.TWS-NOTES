@@ -2,11 +2,29 @@
 ###= SEITEN-SYSTEM-ID : # ===PYLOVARA-SYSTEM=============================###
 ###=============================TOCHTERMODUL================================###
 
-TOCHTERMODUL #
+!!!!!!! baustelle !!!!!!!
 
 
+TOCHTERMODUL # EINGABEWABE
 
+ EINGABE # *
 
+ # AXIOM | VORBAU 
+ AXIOM ¡ # ⧖⧖ ⧓ # Ξ #
+
+ PRODUKT # 
+
+ # AXIOM | RAM 
+ AXIOM ¡ # ⍠ #
+
+ EINHEIT # 
+
+ # AXIOM | (EINGABE COPIE)
+ AXIOM ¡ # Ξ #
+ 
+ EINGABEHALTEN # 
+
+KINDERWABEN-KATEGORIE #
 
 ###==============================INFORMATIONEN==============================###
 
