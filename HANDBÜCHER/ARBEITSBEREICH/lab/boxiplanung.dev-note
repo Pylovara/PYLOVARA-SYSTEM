@@ -16,13 +16,17 @@ ALU ×:	Arithmetik	BUILD	wird zu Opcode emittiert
 ABI Ħ:	Aufrufkonvention	BUILD	Register-Belegung fix	
 OPCODE °:	Mnemonic	BUILD	ISA nötig	
 MASCHINENCODE °°:	Bytes	BUILD	ISA nötig	
-TWS ¿:	eigene Schaltung	BUILD	Backend direkt	
+UTF ¿:	eigene Schaltung	BUILD	Backend direkt	
 SYSCALL "	:"	Syscall	INSTALL	Nummern kennt nur das Ziel-OS
 SHELL ':	Shell-Kommando	INSTALL	welcher Interpreter existiert	
 PRINT """:"	Text	LAUF	Text ist Daten, Senke wechselt	
 PFAD $:	Pfad	LAUF	Wurzel erst beim Start bekannt	
 NETZWERK §:	Netz	LAUF	Endpunkt zur Laufzeit	
 STROM !:	Power	LAUF	Provider-Abhängigkeit	
+
+
+ ↑↑↑ 
+HMMM .... hilft mir nicht .... falsche vorgehensweisen ... 
 
 
 
