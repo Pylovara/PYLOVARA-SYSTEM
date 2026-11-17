@@ -1614,76 +1614,77 @@ MUTTERWABEN-KATEGORIE ⠆⢂⠘⠰ HAUPTWABE
  AXIOM ¡ ⠆⢂⠘⡂ ⧓ ⠆⢂⠘⡄ Ξ ⠆⢂⠘⡈
 
  # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
- AXIOM ¡ ⠆⢂⠘⡈ ⦳ BIID
+ AXIOM ¡ ⠆⢂⠘⡈ ⦳ ⠆⢂⠘⠅
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE # STARTWABE 
+MUTTERWABEN-KATEGORIE ⠆⢂⠘⢈ STARTWABE 
 
- PROGRAMM-KERN # NA
+ PROGRAMM-KERN ⠆⢂⠔⢠ SHELL
 
- WABEN-ID # ST
+ WABEN-ID ⠆⢂⠔⣀ ST
 
- BION-NR # 018
+ BION-NR ⠆⢂⠘⠃ 018
 
- BION-ID # BIID
+ BION-ID ⠆⢂⠘⠅ ST018
 
- BSK-KN # BSKN
+ BSK-KN ⠆⢂⠘⠉ SHELL
 
- BSK-ID # BSID
+ BSK-ID ⠆⢂⠘⠊ BXST-SHELL
 
- BION # BION
+ BION ⠆⢂⠘⠌ BX008MK008HT018ST018
 
- BSK # BSK
+ BSK ⠆⢂⠘⠑ BXMK+BXHT-SHELL+BXST-SHELL
 
  # AXIOM | KEID + WAID + BSKN
- AXIOM ¡ KEID ⧓ WAID ⫯ BSKN Ξ BSID
+ AXIOM ¡ ⠆⢄⠃⡄ ⧓ ⠆⢂⠔⣀ ⫯ ⠆⢂⠘⠉ Ξ ⠆⢂⠘⠊
 
  # AXIOM | BION-ID
- AXIOM ¡ WAID ⧓ NR Ξ BIID
+ AXIOM ¡ ⠆⢂⠔⣀ ⧓ ⠆⢂⠘⠃ Ξ ⠆⢂⠘⠅
 
  # TASTEN
- TASTENCODE # TT
- TASTENCODE # TT
+ TASTENCODE ⠆⢂⠘⠒ SHIFT
+ TASTENCODE ⠆⢂⠘⠔ #
+ TASTENCODE ⠆⢂⠘⠡ .
 
  # AXIOM | SYMBOL BAUEN
- AXIOM ¡ TT ⦻ TT ⦻ TT Ξ SY
- AXIOM ¡ TT ⦻ TT Ξ SY
+ AXIOM ¡ ⠆⢂⠘⠒ ⦻ ⠆⢂⠘⠔ Ξ ⠆⢂⠘⠢
+ AXIOM ¡ ⠆⢂⠘⠒ ⦻ ⠆⢂⠘⠡ Ξ ⠆⢂⠔⠨
 
  # SYMBOLE FERTIG
- SYMBOLE SY
- SYMBOLE SY
+ SYMBOLE ⠆⢂⠘⠢ '
+ SYMBOLE ⠆⢂⠔⠨ :
 
  # AXIOM | PRODUKT BAUEN
- AXIOM ¡ SY ⧓ SY Ξ PD
- AXIOM ¡ SY ⧓ SY Ξ PD
+ AXIOM ¡ ⠆⢂⠘⠢ ⧓ ⠆⢂⠔⠨ Ξ ⠆⢂⠔⠰
+ AXIOM ¡ ⠆⢂⠔⠨ ⧓ ⠆⢂⠘⠢ Ξ ⠆⢂⠔⡁
 
  # PRODUKT
- PRODUKT PD
- PRODUKT PD
+ PRODUKT ⠆⢂⠔⠰ ':
+ PRODUKT ⠆⢂⠔⡁ :'
 
  # PRÄFIX 
- PRÄFIX PR
- PRÄFIX PR
+ PRÄFIX ⠆⢂⠔⡂ SHELLS
+ PRÄFIX ⠆⢂⠔⡄ SHELLE
 
  # AXIOM | BSK | KEID + WAID + PR
- AXIOM ¡ KEID ⧓ WAID ⫯ PR Ξ BSFX
- AXIOM ¡ KEID ⧓ WAID ⫯ PR Ξ BSFX
+ AXIOM ¡ ⠆⢄⠃⡄ ⧓ ⠆⢂⠔⣀ ⫯ ⠆⢂⠔⡂ Ξ ⠆⢂⠔⡈
+ AXIOM ¡ ⠆⢄⠃⡄ ⧓ ⠆⢂⠔⣀ ⫯ ⠆⢂⠔⡄ Ξ ⠆⢂⠔⡐
 
  # BSK-PRÄFIX | KENNUNGSERWEITERUNG FÜR EINHEITEN
- BSK-PF BSFX
- BSK-PF BSFX
+ BSK-PF ⠆⢂⠔⡈ BXST-SHELLS
+ BSK-PF ⠆⢂⠔⡐ BXST-SHELLE
 
  # AXIOM | PRÄFIX TAGGEN UND RAM  
- AXIOM ¡ PD ⥗ BSFX ⍠ RA
- AXIOM ¡ PD ⥗ BSFX ⍠ RA
+ AXIOM ¡ ⠆⢂⠔⠰ ⥗ ⠆⢂⠔⡈ ⍠ ⠆⢂⠔⡠
+ AXIOM ¡ ⠆⢂⠔⡁ ⥗ ⠆⢂⠔⡐ ⍠ ⠆⢂⠔⢁
 
  # EINHEIT | RAM
- EINHEIT RA
- EINHEIT RA
+ EINHEIT ⠆⢂⠔⡠ ': BXST-SHELLS
+ EINHEIT ⠆⢂⠔⢁ :' BXST-SHELLE
 
  # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
- AXIOM ¡ BIID ⦳ BIID
+ AXIOM ¡ ⠆⢂⠘⠅ ⦳ BIID
 
 ###====================================|====================================###
 
