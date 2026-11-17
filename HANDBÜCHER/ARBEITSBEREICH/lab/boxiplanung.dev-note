@@ -12,6 +12,13 @@
 
  boxis 
 
- print = textdaten, keine ausgabe , text halter | ausgabe retron parton intern extern.
+ print = $: :$
+ textdaten, keine ausgabe , text halter 
+ | ausgabe retron parton intern extern.
 
- 
+
+
+ pfad = $: :$
+ wurzelverzeichnis organisierung , findet datenpfade der festplatte. 
+
+
