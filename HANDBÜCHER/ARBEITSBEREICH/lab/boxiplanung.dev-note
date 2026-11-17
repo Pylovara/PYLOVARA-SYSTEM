@@ -44,6 +44,33 @@ GetVariable / SetVariable / GetNextVariableName / QueryVariableInfo
 
  syscall ---------------------------------------------------------
 
+ # <nr>  <abi>    <name>     <entry point>
+ 0       common   read       sys_read
+ 1       common   write      sys_write
+ 2       common   open       sys_open
+ 3       common   close      sys_close
+
+ genau danach hab ich gesucht .... englische wörter raus aus dem ! 
+
+
+
+
+
+
+
+
+#######################################################################
+
+
+
+
+
+
+
+
+
+
+
 
 
 
