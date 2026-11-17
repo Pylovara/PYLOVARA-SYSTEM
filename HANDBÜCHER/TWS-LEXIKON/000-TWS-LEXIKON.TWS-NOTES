@@ -36,10 +36,8 @@
  #  62      SYSTEMWABE               |  63      FREIGABEWABE                 #
  #  64      INTERNWABE               |  65      EXTERNWABE                   #
 ###==========================HONIGTROPFEN-MODULE============================###
- #  90      WATT                     |  91      VOLT                         #
- #  92      A                        |  93      AMPHER                       #
- #  94      GERÄTELISTE              |  95      FONTS                        #
- #  96      RAM                      |  97                                   #
+ #::::::: DIESER BEREICH BETREFFEN DEN EINSATZGEBIET DER HONIGTROPFEN :::::::#
+ #  90      TABELLE                  |  91                                   #
 ###===============================VERSIONSDATEN=============================###
  # SYSTEM ⠆⢄⢐⡐ PNS 2.6.4 PYLOVARA—NETZWERK—SYSTEM            #   #       #   #
  # PROGRAMMIERSPRACHE ⠆⢄⢐⠑ MCS 7.5 | MASCHINEN-CODE-SPEECH   #     ⠆⢄⢐⠘      #
