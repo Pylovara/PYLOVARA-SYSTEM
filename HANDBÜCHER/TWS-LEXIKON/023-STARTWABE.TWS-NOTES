@@ -104,4 +104,38 @@ MUTTERMODUL # STARTWABE
    4. Interrupt-IN-Endpoint pollen: UsbBulkTransfer/UsbInterruptTransfer
       → 8-Byte Boot Report
 
+ BOOT REPORT LAYOUT:
+   Byte 0    Modifier-Bitmap
+   Byte 1    reserved
+   Byte 2-7  bis zu 6 gleichzeitige HID-Usage-Codes (Rollup)
+
+ MODIFIER-BITS (Byte 0):
+   bit0 LCtrl   bit1 LShift   bit2 LAlt   bit3 LGUI
+   bit4 RCtrl   bit5 RShift   bit6 RAlt = AltGr   bit7 RGUI
+
+ HID USAGE PAGE 0x07 (Auszug, DE-Belegung):
+   0x04 a/A   0x05 b/B   ... 0x1D z/Z
+   0x1E 1/!   0x1F 2/"   0x20 3/§   0x21 4/$   0x22 5/%
+   0x23 6/&   0x24 7/{   0x25 8/(   0x26 9/)   0x27 0/=
+   0x2D ß/?   0x2E ´/`   0x2F ü/Ü   0x30 +/*   0x31 #/'
+   0x32 </>   0x33 ö/Ö   0x34 ä/Ä   0x35 ^/°
+   0x36 ,/;   0x37 ./:   0x38 -/_   0x28 Enter  0x29 Esc
+   0x2A Backspace  0x2B Tab  0x2C Space
+
+ DEINE TABELLE — (Modifier, Usage) → MCS-Symbol:
+   SHIFT+0x1F        → "     PRINT
+   SHIFT+0x31        → '     SHELL
+   SHIFT+0x20        → §     NETZWERK
+   SHIFT+0x21        → $     PFAD
+   SHIFT+0x37        → :     (alle Boxis, End-Delimiter)
+   0x36              → ,     SYSCALL
+   ALTGR+0x30        → ~     MCD
+   ALTGR+SHIFT+0x0B  → Ħ     ABI      (h = 0x0B)
+   ALTGR+SHIFT+0x1D  → ¥     EINGABE  (z = 0x1D)
+   ALTGR+SHIFT+0x10  → °     OPCODE   (m = 0x10)
+   ALTGR+SHIFT+0x17  → Ŧ     UTF      (t = 0x17)
+   ALTGR+SHIFT+0x2D  → ¿     TWS      (ß = 0x2D)
+   ALTGR+SHIFT+0x1E  → ¡     STROM    (1 = 0x1E)
+   → °° / ¶¶ / ΩΩ / ·· durch Wiederholung, LONGEST-MATCH im Lexer
+
 ###=====================INDUSTRIE-STANDARD-DER-ZUKUNFT======================###
