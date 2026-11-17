@@ -15,9 +15,23 @@ EFI_SYSTEM_TABLE
 
 Die Runtime Services sind ungefähr ein Dutzend Calls — das ist der ganze Brückenkopf:
 GetVariable / SetVariable / GetNextVariableName / QueryVariableInfo 
+
+
 · GetTime / SetTime · GetWakeupTime / SetWakeupTime · ResetSystem 
 · UpdateCapsule / QueryCapsuleCapabilities · SetVirtualAddressMap / ConvertPointer 
 · GetNextHighMonotonicCount
+
+
+
+ nächster schritt : 
+
+ auswindig machen wie daraus abi syscalls prints , opcodes gesucht werden etc 
+ inklusive utf und hardware calls ... 
+
+ usb , monitor , tastatur , utf driver paket ( müsste kein os bezogenes programm sein )
+
+ uefi calls ... etc 
+
 
 
 
