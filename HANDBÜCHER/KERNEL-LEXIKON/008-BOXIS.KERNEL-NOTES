@@ -1578,12 +1578,41 @@ MUTTERWABEN-KATEGORIE ⠆⢂⠡⠢ STARTWABE
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE #
+MUTTERWABEN-KATEGORIE # 
+
 
 
 ###====================================|====================================###
+###===============================BOXIS-SHELL===============================###
+###====================================|====================================###
 
-!!!! SHELL FEHLT = ': :'
+MUTTERWABEN-KATEGORIE # HAUPTWABE 
+
+ PROGRAMM-KERN # NA
+
+ WABEN-ID # HT
+
+ BION-NR # NR
+
+ BION-ID # BIID
+
+ BSK-KN # BSKN
+
+ BSK-ID # BSID
+
+ BION # BION
+
+ BSK # BSK
+
+ # AXIOM | KEID + WAID + BSKN
+ AXIOM ¡ KEID ⧓ WAID ⫯ BSKN Ξ BSID
+
+ # AXIOM | BION-ID
+ AXIOM ¡ WAID ⧓ NR Ξ BIID
+
+ # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
+ AXIOM ¡ BIID ⦳ BIID
+
 
 
 
