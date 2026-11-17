@@ -1,39 +1,16 @@
-infos : 
-
- ACHSE ISA       x86_64 | aarch64 | rv64
- ACHSE ABI       SYSV | MS64 | AAPCS64
- ACHSE FLÄCHE    MCS-NATIV | UEFI-BS | UEFI-RT | LINUX-SC | NT | XNU | BSD | HOST-LIBC
- ACHSE FORMAT    PE32+ | ELF64 | MACH-O | RAW
- ACHSE KODIERUNG UTF8 | UTF16LE | BINAER
-
- AXIOM ¡ BSK ⧓ ISA ⧓ ABI ⧓ FLÄCHE ⧓ FORMAT ⧓ KODIERUNG Ξ TROPFEN
-
-
-Boxi	   Klasse umschließt	BINDZEIT	warum	
-EINGABE ¥:	Transaktionsrahmen	BUILD	Parser-Zeit, reines MCS	
-MCD ~:	Baumodus Speicher Abruf	BUILD	TWS-AS legt Speicher ab	
-ALU ×:	Arithmetik	BUILD	wird zu Opcode emittiert	
-ABI Ħ:	Aufrufkonvention	BUILD	Register-Belegung fix	
-OPCODE °:	Mnemonic	BUILD	ISA nötig	
-MASCHINENCODE °°:	Bytes	BUILD	ISA nötig	
-UTF ¿:	eigene Schaltung	BUILD	Backend direkt	
-SYSCALL "	:"	Syscall	INSTALL	Nummern kennt nur das Ziel-OS
-SHELL ':	Shell-Kommando	INSTALL	welcher Interpreter existiert	
-PRINT """:"	Text	LAUF	Text ist Daten, Senke wechselt	
-PFAD $:	Pfad	LAUF	Wurzel erst beim Start bekannt	
-NETZWERK §:	Netz	LAUF	Endpunkt zur Laufzeit	
-STROM !:	Power	LAUF	Provider-Abhängigkeit	
-
-
- ↑↑↑ 
-HMMM .... hilft mir nicht .... falsche vorgehensweisen ... 
-
 
  schon näher : EFI System Table (EFI_SYSTEM_TABLE)
 
+EFI_SYSTEM_TABLE
+ ├─ ConIn / ConOut / StdErr        → Console
+ ├─ BootServices      ┐
+ ├─ RuntimeServices   │  die zwei Hälften
+ ├─ ConfigurationTable┘  → ACPI, SMBIOS, DTB (GUID-keyed)
+ └─ HandleDatabase       → alle Protocols
 
+ nächster schritt : 
 
-
+ tabelle suchen .... von dort aus müssen die boxis aufgebaut werden ... 
 
 
  boot ------------------------------------------------------------
