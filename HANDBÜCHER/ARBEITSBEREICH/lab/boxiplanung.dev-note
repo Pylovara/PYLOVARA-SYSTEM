@@ -13,6 +13,15 @@ EFI_SYSTEM_TABLE
  tabelle suchen .... von dort aus müssen die boxis aufgebaut werden ... 
 
 
+Die Runtime Services sind ungefähr ein Dutzend Calls — das ist der ganze Brückenkopf:
+GetVariable / SetVariable / GetNextVariableName / QueryVariableInfo 
+· GetTime / SetTime · GetWakeupTime / SetWakeupTime · ResetSystem 
+· UpdateCapsule / QueryCapsuleCapabilities · SetVirtualAddressMap / ConvertPointer 
+· GetNextHighMonotonicCount
+
+
+
+
  boot ------------------------------------------------------------
 
 
