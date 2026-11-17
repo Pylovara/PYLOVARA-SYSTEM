@@ -92,4 +92,16 @@ MUTTERMODUL # STARTWABE
 
 ###===================ENTWICKLER-PROGRAMMIERUNGSBEREICH=====================###
 
+ BEREICH TASTENCODES : 
+
+ WEG: EFI_USB_IO_PROTOCOL
+   1. LocateHandleBuffer(ByProtocol, UsbIo-GUID) → alle USB-Handles
+   2. UsbGetDeviceDescriptor / UsbGetInterfaceDescriptor
+      → bInterfaceClass=0x03 (HID), bInterfaceSubClass=0x01 (Boot),
+        bInterfaceProtocol=0x01 (Keyboard)
+   3. UsbControlTransfer: SET_PROTOCOL(0) → Boot Protocol erzwingen
+      (bmRequestType=0x21, bRequest=0x0B, wValue=0, wIndex=Interface)
+   4. Interrupt-IN-Endpoint pollen: UsbBulkTransfer/UsbInterruptTransfer
+      → 8-Byte Boot Report
+
 ###=====================INDUSTRIE-STANDARD-DER-ZUKUNFT======================###
