@@ -1,3 +1,22 @@
+infos : 
+
+ ACHSE ISA       x86_64 | aarch64 | rv64
+ ACHSE ABI       SYSV | MS64 | AAPCS64
+ ACHSE FLÄCHE    MCS-NATIV | UEFI-BS | UEFI-RT | LINUX-SC | NT | XNU | BSD | HOST-LIBC
+ ACHSE FORMAT    PE32+ | ELF64 | MACH-O | RAW
+ ACHSE KODIERUNG UTF8 | UTF16LE | BINAER
+
+ AXIOM ¡ BSK ⧓ ISA ⧓ ABI ⧓ FLÄCHE ⧓ FORMAT ⧓ KODIERUNG Ξ TROPFEN
+
+
+
+
+
+
+
+
+
+
 
  boot ------------------------------------------------------------
 
