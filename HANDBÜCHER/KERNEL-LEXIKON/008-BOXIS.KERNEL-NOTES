@@ -99,6 +99,9 @@ MUTTERWABEN-KATEGORIE ⠆⢂⣀⢠ MASTERKERNWABE
  # BXHT-STROM
  AXIOM ¡ ⠆⢂⣀⠤ ⧖⧖ ⠆⢂⠢⠊ ͽ
 
+ # BXHT-SHELL
+ AXIOM ¡ ⠆⢂⣀⠤ ⧖⧖ ⠆⢂⠘⡈ ͽ
+
 ###====================================|====================================###
 ###===============================BOXIS-PRINT===============================###
 ###====================================|====================================###
@@ -1586,32 +1589,32 @@ MUTTERWABEN-KATEGORIE #
 ###===============================BOXIS-SHELL===============================###
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE # HAUPTWABE 
+MUTTERWABEN-KATEGORIE ⠆⢂⠘⠰ HAUPTWABE 
 
- PROGRAMM-KERN # NA
+ PROGRAMM-KERN ⠆⢂⠘⡁ SHELL
 
- WABEN-ID # HT
+ WABEN-ID ⠆⢂⠘⡂ HT
 
- BION-NR # NR
+ BION-NR ⠆⢂⠘⡄ 018
 
- BION-ID # BIID
+ BION-ID ⠆⢂⠘⡈ HT018
 
- BSK-KN # BSKN
+ BSK-KN ⠆⢂⠘⡐ SHELL
 
- BSK-ID # BSID
+ BSK-ID ⠆⢂⠘⡠ BXHT-SHELL
 
- BION # BION
+ BION ⠆⢂⠘⢁ BX008MK008HT017
 
- BSK # BSK
+ BSK ⠆⢂⠘⢄ BXMK+BXHT-SHELL
 
  # AXIOM | KEID + WAID + BSKN
- AXIOM ¡ KEID ⧓ WAID ⫯ BSKN Ξ BSID
+ AXIOM ¡ ⠆⢄⠃⡄ ⧓ ⠆⢂⠘⡂ ⫯ ⠆⢂⠘⡐ Ξ ⠆⢂⠘⡠
 
  # AXIOM | BION-ID
- AXIOM ¡ WAID ⧓ NR Ξ BIID
+ AXIOM ¡ ⠆⢂⠘⡂ ⧓ ⠆⢂⠘⡄ Ξ ⠆⢂⠘⡈
 
  # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
- AXIOM ¡ BIID ⦳ BIID
+ AXIOM ¡ ⠆⢂⠘⡈ ⦳ BIID
 
 ###====================================|====================================###
 
@@ -1621,7 +1624,7 @@ MUTTERWABEN-KATEGORIE # STARTWABE
 
  WABEN-ID # ST
 
- BION-NR # NR
+ BION-NR # 018
 
  BION-ID # BIID
 
