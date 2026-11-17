@@ -109,6 +109,123 @@ arch/x86/entry/syscalls/syscall_64.tbl
 
 
 
+gut .... dann sollte ich darüber nachdenken die isas zu minimieren 
+
+Daten:      mov movzx movsx lea xchg
+Rechnen:    add sub adc sbb and or xor not neg cmp test
+            shl shr sar imul idiv
+Stack:      push pop
+Kontrolle:  jmp jcc call ret
+System:     syscall sysret iretq cli sti hlt
+MSR:        rdmsr wrmsr swapgs rdgsbase wrgsbase
+Kontroll:   mov cr0..cr8, mov dr0..dr7
+Tabellen:   lgdt lidt ltr lldt
+TLB:        invlpg invpcid
+Atomar:     lock cmpxchg, lock xadd
+Barrieren:  mfence lfence sfence
+Info:       cpuid rdtsc rdtscp
+Kontext:    fxsave fxrstor xsave xrstor xgetbv
+I/O:        in out
+Cache:      clflush wbinvd invd
+
+
+ ich gehe davion aus das 50% davon hersteller unfug ist und die andere 50% 
+ gebraucht werden .... wahrscheinlich sogar gemischt damits nicht auffällt .. 
+
+
+
+dann sollte ich den nächsten schriott einplanen : 
+
+
+ isa übergreifende daten 
+
+ das sind alles nur präfixes .... kein code ... nur präfixes für die 
+ ansteuerung ... 
+
+
+ der punkt : Barrieren z.b .... pfff .... brauch keiner ... 
+
+ und wenn ich mir alleine die wörter rein ziehe , allei klein geschrieben 
+ und die abkürzungs varianten alle dem englischen gehirn aufgebaut ... 
+
+
+
+
+ da stellt sich mir doch die frage , was davon wirklich gebraucht wird 
+ damit ein game läuft und ein programm ... 
+
+
+ ich sollte den unötigen teil bei den isas ausbauen ... 
+
+
+
+
+ danach nur die benötigten teile auflisten ... 
+
+ dann die hardgecodet in meine sprache tabellisieren ... 
+
+ und von dort aus dann verwenden .... 
+
+ also recherche .... 
+
+
+
+
+
+
+
+ BINGO : 
+
+ Wenn TWS als UEFI-Application läuft und ExitBootServices() nie aufruft, 
+ hast du Grafik, Tastatur, Storage, Netz und USB — komplett ohne eigene Treiber.
+
+ die antwort der fragen der fragen um alles wegzuschmeissen ..... 
+
+ assembly ..... c .... und der rest ist geschichte ... 
+
+ also doch uefi .... 
+
+ mit dem kompromiss muss ich leben .... aber wenn ich damit lebe 
+ kann ich vollständig neu aufbauen ... 
+
+ gnadenlos und ab da, kompromisslos .... 
+
+ und den uefi layer kann ich befehsl ketten teschnisch erstmal 
+ hardgecodet von englisch auf deutsch übersetzen ... 
+
+ und ab da englisch vollständig raus schmeissen ... 
+
+
+ alles andere wäre dann hardware .... also bmc 3.0 zum upgrade bmc 4.0 
+ und dann nur noch umstüpseln .... 
+
+ ich hab die sprache , ich hab die daten , 6 jahre arbeit ... 
+
+ und hex wäre damit weg .... auch deren umrechnungs tabellen ... 
+ klingt genau nach dem hebel den ich suchte .... 
+
+ und somit wären die fesseln gesprängt .... 
+
+ der rest ist nicht deswegen leichter aber machbarer als vorher ... 
+ keine unlogischen 200 tausend man entwickler gefusche mehr ... 
+
+
+ sondern einheitlich in meinem kopf wo es hingehört und nach meiner 
+ nase ... nicht mehr von übersee ... 
+
+ klingt nach der direkten bindung zum tws ... 
+
+ dann hören auch die restlichen verwirrungen auf und ich kann 
+ den tws besser schreiben , weil ich weis wohin die boxis führen 
+ müssen ... 
+
+ inklusive kann ich alle begriffe äbndern und print ebenfalls 
+ auf die tonne schmeissen ... 
+
+
+
+
+
 
 
 
