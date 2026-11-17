@@ -44,6 +44,8 @@ GetVariable / SetVariable / GetNextVariableName / QueryVariableInfo
 
  syscall ---------------------------------------------------------
 
+arch/x86/entry/syscalls/syscall_64.tbl
+
  # <nr>  <abi>    <name>     <entry point>
  0       common   read       sys_read
  1       common   write      sys_write
@@ -52,7 +54,18 @@ GetVariable / SetVariable / GetNextVariableName / QueryVariableInfo
 
  genau danach hab ich gesucht .... englische wörter raus aus dem ! 
 
+ also einfacher als ich dachte .... kinderkram ... 
 
+ lediglich eine eigene tabelle .... 
+
+ die abi sind direkt enthalten ... 
+ also kann ich das in mcs selbst schreiben un dder tws brauch 
+ nur eine dazugehörigkeits tabelle bei den boxis ... 
+
+ so wie das aussieht, sind die tabellen stumpfer und billiger als ich 
+ angenommen habe ... 
+
+ das heißt für mich upgrade .... 
 
 
 
