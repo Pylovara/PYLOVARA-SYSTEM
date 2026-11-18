@@ -70,6 +70,10 @@
 »—[": FÜR DIE VERMITTULNGSEBENE VERWENDEN WIR BOXIS :"]«
  <· »—[": SIE HABEN NUR EINE ADRESSIERUNGSZUSTAND, AUFGABEN BEZOGEN :"]«
  <· »—[": SIE TRAGEN MEHRERE BEZIFFERUNGEN :"]«
+ <· »—[": BOXIS HABEN KEINE AUSGABE :"]«
+     <· »—[": DIE AUSGABE TRÄGT REX :"]«
+         <· »—[": UND DER AKTIONSDRAHT MIT TEXT IST PRINT :"]«
+             <· »—[": ODER ALS DEFINIERTE AUSGABE (MONITORING) :"]«
 !¢
 
 ¢!
@@ -224,7 +228,7 @@
 !¢
 
 ¢!
-»—[": RETRON ICTUS NUTZUNG  :"]«
+»—[": RETRON ICTUS NUTZUNG :"]«
  <· »—[": REIHENFOLGENSYNCRONISATOR :"]«
  <· »—[": PARALELLISIERUNGSSYNCRONISATOR :"]«
 !¢
@@ -237,6 +241,12 @@
 ¢!
 »—[¥: PATRON-ICTUS :¥]«««~: BAUMODUS FUNKTION SPEICHER ABRUF :~«
  >·
+!¢
+
+¢!
+»—[": AUSGABE  :"]«
+ <·¤ »—[": AUSGABE-INTERN :"]«
+ <·¤¤ »—[": AUSGABE-EXTERN :"]«
 !¢
 
 ¢!
@@ -257,10 +267,23 @@
 ¢!
 »—[": SENTIATOREN MÖGLICHKEITEN  :"]«
  <· »—[": WENN-PROZESS-KANN :"]«
+     ¶
+
  <· »—[": WENN-PROZESS-NICHT :"]«
+     ¶¶
+
  <· »—[": WENN-BLOCKLÄNGE-KANN :"]«
+     Ω
+
  <· »—[": WENN-BLOCKLÄNGE-NICHT :"]«
+     ΩΩ
+
  <· »—[": AUSWAHL-WEICHE :"]«
+     ł
+     ł
+     ł
+     ł
+
 !¢
 
 ¢!
