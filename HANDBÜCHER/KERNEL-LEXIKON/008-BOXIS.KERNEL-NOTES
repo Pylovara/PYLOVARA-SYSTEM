@@ -60,7 +60,7 @@ MUTTERWABEN-KATEGORIE ⠆⢂⣀⢠ MASTERKERNWABE
  AXIOM ¡ ⠆⢂⣀⠡ ⧓ ⠆⢂⣀⠢ Ξ ⠆⢂⣀⠤
 
  # AXIOM | HAUPTWABEN AUSFÜHRUNG BEI VERBINDUNG 
- # BXHT-PRINT
+ # BXHT-TEXT
  AXIOM ¡ ⠆⢂⣀⠤ ⧖⧖ ⠆⢂⣀⠊ ͽ
 
  # BXHT-ALU
@@ -72,7 +72,7 @@ MUTTERWABEN-KATEGORIE ⠆⢂⣀⢠ MASTERKERNWABE
  # BXHT-ABI
  AXIOM ¡ ⠆⢂⣀⠤ ⧖⧖ ⠆⢂⢄⠑ ͽ
 
- # BXHT-EINGABE
+ # BXHT-FUNKTION
  AXIOM ¡ ⠆⢂⣀⠤ ⧖⧖ ⠆⢂⢁⠊ ͽ
 
  # BXHT-MCD
@@ -101,6 +101,16 @@ MUTTERWABEN-KATEGORIE ⠆⢂⣀⢠ MASTERKERNWABE
 
  # BXHT-SHELL
  AXIOM ¡ ⠆⢂⣀⠤ ⧖⧖ ⠆⢂⠘⡈ ͽ
+-----------------------------
+ # BXHT-
+ AXIOM ¡ ⠆⢂⣀⠤ ⧖⧖
+
+ # BXHT-
+ AXIOM ¡ ⠆⢂⣀⠤ ⧖⧖
+
+ # BXHT-
+ AXIOM ¡ ⠆⢂⣀⠤ ⧖⧖
+
 
 ###====================================|====================================###
 ###===============================BOXIS-PRINT===============================###
@@ -108,7 +118,7 @@ MUTTERWABEN-KATEGORIE ⠆⢂⣀⢠ MASTERKERNWABE
 
 MUTTERWABEN-KATEGORIE ⠆⢂⣀⡂ HAUPTWABE 
 
- PROGRAMM-KERN ⠆⢂⣀⡄ PRINT
+ PROGRAMM-KERN ⠆⢂⣀⡄ TEXT
 
  WABEN-ID ⠆⢂⣀⠅ HT
 
@@ -116,13 +126,13 @@ MUTTERWABEN-KATEGORIE ⠆⢂⣀⡂ HAUPTWABE
 
  BION-ID ⠆⢂⣀⠊ HT005
 
- BSK-KN ⠆⢂⣀⠌ PRINT
+ BSK-KN ⠆⢂⣀⠌ TEXT
 
- BSK-ID ⠆⢂⣀⠑ BXHT-PRINT
+ BSK-ID ⠆⢂⣀⠑ BXHT-TEXT
 
  BION ⠆⢂⣀⠒ PI008MK008HT005
 
- BSK ⠆⢂⣀⠔ PIMK+PIHT-PRINT
+ BSK ⠆⢂⣀⠔ PIMK+PIHT-TEXT
 
  # AXIOM | KEID + WAID + BSKN
  AXIOM ¡ ⠆⢄⠃⡄ ⧓ ⠆⢂⣀⠅ ⫯ ⠆⢂⣀⠌ Ξ ⠆⢂⣀⠑
@@ -137,7 +147,7 @@ MUTTERWABEN-KATEGORIE ⠆⢂⣀⡂ HAUPTWABE
 
 MUTTERWABEN-KATEGORIE ⠆⢂⣀⠘ STARTWABE 
 
- PROGRAMM-KERN ⠆⢂⢠⡐ PRINT
+ PROGRAMM-KERN ⠆⢂⢠⡐ TEXT
 
  WABEN-ID ⠆⢂⢠⡠ ST
 
@@ -145,13 +155,13 @@ MUTTERWABEN-KATEGORIE ⠆⢂⣀⠘ STARTWABE
 
  BION-ID ⠆⢂⢠⢄ ST005
 
- BSK-KN ⠆⢂⢠⢈ PRINT
+ BSK-KN ⠆⢂⢠⢈ TEXT
 
- BSK-ID ⠆⢂⢠⢐ BXST-PRINT
+ BSK-ID ⠆⢂⢠⢐ BXST-TEXT
 
  BION ⠆⢂⢠⣀ BX008MK008HT005ST005
 
- BSK ⠆⢂⣀⠃ BXMK+BXHT-PRINT+BXST-PRINT
+ BSK ⠆⢂⣀⠃ BXMK+BXHT-TEXT+BXST-TEXT
 
  # AXIOM | KEID + WAID + BSKN
  AXIOM ¡ ⠆⢄⠃⡄ ⧓ ⠆⢂⢠⡠ ⫯ ⠆⢂⢠⢈ Ξ ⠆⢂⢠⢐
@@ -181,16 +191,16 @@ MUTTERWABEN-KATEGORIE ⠆⢂⣀⠘ STARTWABE
  PRODUKT ⠆⢂⢠⡄ :"
 
  # PRÄFIX 
- PRÄFIX ⠆⢂⢠⡈ PRINTS
- PRÄFIX ⠆⢂⢠⠉ PRINTE
+ PRÄFIX ⠆⢂⢠⡈ TEXTS
+ PRÄFIX ⠆⢂⢠⠉ TEXTE
 
  # AXIOM | BSK | KEID + WAID + PR
  AXIOM ¡ ⠆⢄⠃⡄ ⧓ ⠆⢂⢠⡠ ⫯ ⠆⢂⢠⡈ Ξ ⠆⢂⢠⠊
  AXIOM ¡ ⠆⢄⠃⡄ ⧓ ⠆⢂⢠⡠ ⫯ ⠆⢂⢠⠉ Ξ ⠆⢂⢠⠌
 
  # BSK-PRÄFIX | KENNUNGSERWEITERUNG FÜR EINHEITEN
- BSK-PF ⠆⢂⢠⠊ BXST-PRINTS
- BSK-PF ⠆⢂⢠⠌ BXST-PRINTE
+ BSK-PF ⠆⢂⢠⠊ BXST-TEXTS
+ BSK-PF ⠆⢂⢠⠌ BXST-TEXTE
 
  # AXIOM | PRÄFIX TAGGEN UND RAM  
  AXIOM ¡ ⠆⢂⢠⡂ ⥗ ⠆⢂⢠⠊ ⍠ ⠆⢂⢠⠑
@@ -208,7 +218,7 @@ MUTTERWABEN-KATEGORIE ⠆⢂⣀⠘ STARTWABE
 
 MUTTERWABEN-KATEGORIE # BAUWABE 
 
- PROGRAMM-KERN # NA
+ PROGRAMM-KERN # TEXT
 
  WABEN-ID # BA
 
@@ -627,7 +637,7 @@ MUTTERWABEN-KATEGORIE #
 
 MUTTERWABEN-KATEGORIE ⠆⢂⡠⢠ HAUPTWABE 
 
- PROGRAMM-KERN ⠆⢂⢁⠃ EINGABE
+ PROGRAMM-KERN ⠆⢂⢁⠃ FUNKTION
 
  WABEN-ID ⠆⢂⢁⠅ HT
 
@@ -635,13 +645,13 @@ MUTTERWABEN-KATEGORIE ⠆⢂⡠⢠ HAUPTWABE
 
  BION-ID ⠆⢂⢁⠊ HT009
 
- BSK-KN ⠆⢂⢁⠌ EINGABE
+ BSK-KN ⠆⢂⢁⠌ FUNKTION
 
- BSK-ID ⠆⢂⢁⠑ BXHT-EINGABE
+ BSK-ID ⠆⢂⢁⠑ BXHT-FUNKTION
 
  BION ⠆⢂⢁⠒ BX008MK008HT009
 
- BSK ⠆⢂⢁⠔ BXMK+BXHT-EINGABE
+ BSK ⠆⢂⢁⠔ BXMK+BXHT-FUNKTION
 
  # AXIOM | KEID + WAID + BSKN
  AXIOM ¡ ⠆⢄⠃⡄ ⧓ ⠆⢂⢁⠅ ⫯ ⠆⢂⢁⠌ Ξ ⠆⢂⢁⠑
@@ -656,7 +666,7 @@ MUTTERWABEN-KATEGORIE ⠆⢂⡠⢠ HAUPTWABE
 
 MUTTERWABEN-KATEGORIE ⠆⢂⢁⠘ STARTWABE 
 
- PROGRAMM-KERN ⠆⢂⢁⠡ EINGABE
+ PROGRAMM-KERN ⠆⢂⢁⠡ FUNKTION
 
  WABEN-ID ⠆⢂⡠⠤ ST
 
@@ -664,13 +674,13 @@ MUTTERWABEN-KATEGORIE ⠆⢂⢁⠘ STARTWABE
 
  BION-ID ⠆⢂⡠⠰ ST009
 
- BSK-KN ⠆⢂⡠⡁ EINGABE
+ BSK-KN ⠆⢂⡠⡁ FUNKTION
 
- BSK-ID ⠆⢂⡠⡂ BXST-EINGABE
+ BSK-ID ⠆⢂⡠⡂ BXST-FUNKTION
 
  BION ⠆⢂⡠⡄ BX008MK008HT009ST009
 
- BSK ⠆⢂⡠⡈ BXMK+BXHT-EINGABE
+ BSK ⠆⢂⡠⡈ BXMK+BXHT-FUNKTION
 
  # AXIOM | KEID + WAID + BSKN
  AXIOM ¡ ⠆⢄⠃⡄ ⧓ ⠆⢂⡠⠤ ⫯ ⠆⢂⡠⡁ Ξ ⠆⢂⡠⡁
@@ -701,24 +711,24 @@ MUTTERWABEN-KATEGORIE ⠆⢂⢁⠘ STARTWABE
  PRODUKT ⠆⢂⡠⠃ :¥
 
  # PRÄFIX 
- PRÄFIX ⠆⢂⡠⠅ EINGABES
- PRÄFIX ⠆⢂⡠⠉ EINGABEE
+ PRÄFIX ⠆⢂⡠⠅ FUNKTIONS
+ PRÄFIX ⠆⢂⡠⠉ FUNKTIONE
 
  # AXIOM | BSK | KEID + WAID + PR
  AXIOM ¡ ⠆⢄⠃⡄ ⧓ ⠆⢂⡠⠤ ⫯ ⠆⢂⡠⠅ Ξ ⠆⢂⡠⠊
  AXIOM ¡ ⠆⢄⠃⡄ ⧓ ⠆⢂⡠⠤ ⫯ ⠆⢂⡠⠉ Ξ ⠆⢂⡠⠌
 
  # BSK-PRÄFIX | KENNUNGSERWEITERUNG FÜR EINHEITEN
- BSK-PF ⠆⢂⡠⠊ BXST-EINGABES
- BSK-PF ⠆⢂⡠⠌ BXST-EINGABEE
+ BSK-PF ⠆⢂⡠⠊ BXST-FUNKTIONS
+ BSK-PF ⠆⢂⡠⠌ BXST-FUNKTIONE
 
  # AXIOM | PRÄFIX TAGGEN UND RAM  
  AXIOM ¡ ⠆⢂⡐⣀ ⥗ ⠆⢂⡠⠊ ⍠ ⠆⢂⡠⠑
  AXIOM ¡ ⠆⢂⡠⠃ ⥗ ⠆⢂⡠⠌ ⍠ ⠆⢂⡠⠒
 
  # EINHEIT | RAM
- EINHEIT ⠆⢂⡠⠑ ¥: BXST-EINGABES
- EINHEIT ⠆⢂⡠⠒ :¥ BXST-EINGABEE
+ EINHEIT ⠆⢂⡠⠑ ¥: BXST-FUNKTIONS
+ EINHEIT ⠆⢂⡠⠒ :¥ BXST-FUNKTIONE
 
  # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
  AXIOM ¡ ⠆⢂⡠⠰ ⦳ BIID
@@ -1688,7 +1698,33 @@ MUTTERWABEN-KATEGORIE ⠆⢂⠘⢈ STARTWABE
 
 MUTTERWABEN-KATEGORIE # 
 
+ !!! SETZUNG|SOTIERUNG 
 
+ NAMEN SUCHEN = RAM
+
+
+###====================================|====================================###
+
+MUTTERWABEN-KATEGORIE #
+
+ !!! KOORDINATEN
+
+ NAME SUCHEN = KOORDI
+
+###====================================|====================================###
+
+MUTTERWABEN-KATEGORIE #
+
+ !!! EINGABE 
+
+ NAME SUCHEN = EINGABE
+
+
+###====================================|====================================###
+
+MUTTERWABEN-KATEGORIE #
+
+ ( MAL SCHAUEN BIS HEUTE ABEND )
 
 ###====================================|====================================###
 ###===========================KOMPAKTE-WABEN-PFADE==========================###
