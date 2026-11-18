@@ -35,92 +35,176 @@
 
  PLASK : {BXMK:BXHT-*} {BXHT-*:BXST-*S BXST-*E}
 
- SO, NEUE TAG, NEUES GLÜCK ... 
- ERSTMAL FRISCH MACHEN UND ZUR FAMILIE GEHEN . 
+ … DIE WABEN BILDUNG SIEHT SAUBER AUS ... 
 
- GERÄTE MIT NEHMEN .... VIELLEICHT ARBEITE ICH HEUTE 
- NACH VON ZU HAUSE AUS .... 
+ die waben bildung sieht sauber aus und macht auch absolut sinn ... 
+ der einzige faktor der fehlt ist die bitbreite ... 
 
- KAFFE ..... MEINE SEELE SCHREIT NACH KAFFE .... 
+ die muss so oder so variable bleiben 
 
- DANACH BAUSTELLE VON GESTERN VERFEINERN ... 
- DANACH TWS SEITEN DIESBEZÜGLICH ORDNEN . 
+ *: I :*
 
- DANN LANGSAM DIE BOXIS DAS MIT AUSSTATTEN FERTIG BAUEN 
- UND SCHLIEẞEN ... 
+ I = gleich mitte ... Mitte zieht ende weiter ... 
 
- EVENTUELL DANACH DAS MCS LEXIKON ANFASSEN .
+ wenn ich ein buch per print von retron ausgabe intern bekomme 
 
- DIE REFERENZ ARBEIT WIRD SICH LOHNEN UND ICH 
- BAU TROTZTEM ALLE BOXIS GENAUSO SO . 
+ würde das dann halt so aussehen 
 
- ICH WERDE SIE ALLE BRAUCHEN .... 
+ ": dies ist ein buch vom weinachtsmann und der weinachtsmann hat einen weißen bart 
+ und weil er einen bart hat, juckt es in regelmäßig am kinn und deswegen kratz er sich 
+ und nicht weil er sich nicht gewaschen hätte . :"
 
- DANACH WÄRE PONTIFEX DIE NÄCHSTE BAUSTELLE , DAMIT 
- ICH DIE PROTEIN SEITE KORREKT FERTIG BAUEN KANN ... 
+ angezeigt wird der inhalt der boxis ohne boxi auf dem monitor ... 
+ im code ist die boxi angegeben . 
+ der code zerreist es nicht , weil die ausgabe gezeigt wird ... 
 
- DER TRANSAKTIONSRAHMEN SELBST SCHLIEẞT SICH DANN DAMIT AUCH 
- UND ICH HAB DANN DIE ERSTE 4 SEITEN ERNEUERT UND GRUNDVERBESSERT. 
+ der gezeigte code kann gerahmt sein oder schluss endlich blank erscheinen .. 
+ im code selbst muss halt nur ein leeres 3 feld boxi geschrieben werden ... 
 
- ICH MUSS DANN MAL EINEN TAG ZWISCHEN REIN SCHIEBEN 
- UND SCHAUEN OB NOCH IRGENDWO DATENRESTE IM TWS IN DEN 
- ERKLÄRUNGEN EXISTIEREN, DAMIT DAS AUCH SAUBER IST - WENN NÖTIG . 
+ also wäre die bessere und sinnvollste variante bei text und code ausgaben 
+ das die pfad boxi benutzt wird und eine text datei/code datei geöffnet wird ... 
 
- ÜBER DIE AXIOMATISCHE VORPROGRAMMIERUNGS SEITE SOLLTE ICH 
- MIR KEINEN KOPF MACHEN , DEN SOLANGE ICH PENIBEL AUFGABEN BEZOGEN 
- MEINE ÜBERGANGS ELEMENTE AUFBAUE , KANN ICH OHNE GROẞES 
- PROBLEM , ALLE AXIOM TOOLS , VOLLSTÄNDIG ALS OPERATOREN 
- UMMÜNZEN FÜR DEN TWS ... 
+ das reduziert verzerrungen und der code bleibt sauber , wären der entwickler 
+ eine boxi angeben kann damit das system weis was gedruckt werden soll ... 
 
- ZUR NOT IN ASSEMBLY UND DAS FEHLELERFREI UND DAS NICHT WEIL 
- ICH EIN ASSEMBLY EXPERTE BIN , SONDERN WEIL DAS FEHLERFREI AUCH 
- DURCH KI GETÄTIGT WERDEN KANN. 
+ und im code selbst wird kein roman geschrieben , sondern lediglich auf 
+ eine datei verwiesen wo der text oder code oder bild oder sonnstwas 
+ angezeigt wird ... 
 
- AB DEM PUNKT WO ICH DEN TWS FERTIG HABE , KANN ICH DANN 
- DIE MCS-BIBLIOTHEK AUFBAUEN UND HÄTTE VON DER LETZTEN 7.5 BETA VARIANTE 
- EIN EXTREM GROẞES UPDATE ZU ZEIGEN ... 
+ daher halte ich die print boxi für sinnfrei , außer als echo ... 
+ wenn überhaupt ... 
 
- UND JA : 
+ wenn dann sind print boxis ... 
 
- NATÜRLICH WERDE ICH EIN NEUES ZERTIFIKAT SCHREIBEN MIT GENAU 
- DEM SELBEN HALLO WELT , NUR MIT DER VERBESSERTEN SYNTAX DIE ICH 
- SELBST IM TWS VERFASST HABE . 
+ echo 
+ kommentar 
 
- UND DAS WIRD DANN EBENFALLS EINSORTIERT IM BEREICH ZERTIFIKATE . 
+ je nach dem ob mit aktionsdraht oder ohne , also ausführbares protein mit print 
+ oder unausführbares print als kommentar ... wie in der alten welt das hashtag 
+ dafür verwendet wurde ... 
 
- UND ICH WERDE AUCH DEN MULTIPLEXER DEN ICH GEPLANT HABE 
- SELBSTVERSTÄNDLICH AUCH ALS EXTRA ZERTIFIKAT IN DER SELBEN VERSION 7.5 FINAL 
- ALS ZERTIFIKAT SCHREIBEN . 
+ debugging oder zwischen ergebnise etc , sollten alle boxis seperat mit einer 
+ text datei nutzen und nicht im code selbst ... 
+ 
+ so bleibt der code sauber , die maschine kann arbeiten und der dev 
+ sehen was phase ist ... 
 
- DUMMBABBLER KÖNNTEN SAGEN : 
+ das würde heißen jede boxi brauch eine eigenen text datei type ... 
 
- „ SCHAU DIR DEN AN, DER STELLT SICH SELBST SEINE ZERTIFIKATE AUS “
+ im grunde untrennbar verbunden für den retron ausgabe bereich ... 
+
+ wenn es nur um mathe geht für kleinere rechnungen , reicht der native 
+ platz vollkommen aus ... 
+
+ das würde bedeuten ich muss die systemwabe selbst noch mit einem punkt 
+ füttern für die ausgabe funktion fürs monitoring .... 
+
+ wenn ich einen code schreibe und will im game einen text ausgaben bei 
+ irgend eine sequenz oder npc stelle oder ansich ... 
+
+ brauchs dafür eher die pfad boxis und öffnen statts print boxi ... 
+
+ das wäre sogar sinnvoller .... den das kann man später wunderbar 
+ in den dann mcs geschriebenen fenster manager integrieren ...
+
+ oder sonnst was ... 
+
+ ich denke Menüs wiederum , also das was jedes programm auf der welt hat 
+ sollten die print dann her halten ... 
+
+ und diese sollten dann combiniert werden mit positionsangaben der solution .. 
+
+ da könnte ich mal schauen in wie weit ich daran arbeiten muss oder ob das 
+ existierende solutions system wenigstens port bar ist ... 
+
+ den wenn es portbar wäre , kann ich genau für diesen zweck noch 
+ positions boxis also KOORDINATION BOXIS aufstellen die direkt 
+ auf eine datei verlinken ... 
+
+ das wäre dann eine combination boxi aus 
+
+ PRINT:PFAD:EXECUTE 
+
+ Und darin wiederum ( natürlich ) mcs code der dann alles weitere öffnet .. 
 
 
- DOCH DIE WAHRHEIT IST : 
+ aber es fehlt eine art Koordinations angabe ... 
 
- „ WENN NICHT ICH , WER DANN ? “
+ also meine eigentliche idee das man tische , fenster , menüs , nativ in mcs 
+ schreibt ... 
 
+ und diese ideen hab ich natürlich auf der rückbank parken .... 
 
+ das war quasi die vorstufe zum baumodus der funktionen ... 
 
- also heute bin ich schlaff .... könnt grad wieder pennen gehen ... 
-
- ich glaub das wird nichts ..... vielleicht heut mal ein faulenzia tag ... 
-
- bissel chillen ... mal was zocken ... schlummern ... 
-
- das wäre jetzt so ein tag für mich wo ich seid laaaaaaaaanger 
- zeit sagen würde : 
-
- - bausteinanlage .... fetten goa oder drum and base ... 
- eine exstacy oder bissel pepp ... die müdiigkeit aus den knochen 
- stampfen .... danach fett 18 stunden ausschlafen und dann 
- weiter arbeiten ... 
+ nur hab ich noch das objekt bezogene vergessen ... 
+ was nicht schlimm ist ... 
 
 
- aber wir sind ja nicht bei wünsch dir was , sondern so ist es ... 
- also wie ein alter opa der in seinem leben alles als droge und 
- dummheit abstempeln , altgebacken faulenzen ... 
+ und Pontifex wird es dann verleimen ... 
+
+ sagen wir MusterBuild 
+
+ »—[": text :"&$: Link :$&ĸ: Koordinaten :ĸ]« 
+
+
+ bzw  : 
+
+  »—[ĸ: Koordinaten :ĸ&": text :"&$: Link :$]« 
+
+ dann wäre die frage wie der koordinationsrate aussehen soll .. 
+
+ eigenes Puzzelstück system ? 
+ oder doch eher mal schauen ob der teil von den alten compositoren 
+ zu nutzen wäre ? 
+
+ das selbe kann ich dann auch für website build zur verfügung stellen ... 
+ nahtlos .... da brauchs kein php, html, java ... unötig 
+
+
+ die eigentliche frage ist wie pontifex dann aussehen soll .. 
+
+ trennbefehl wie vorher | 
+ bindungsbefehl = hmm 
+
+ oder ein strich bindung zweistrich trennung .. 
+
+ | und || 
+
+ ein strich bindet, sieht optisch besser aus als & und zwei || trennt .. 
+
+ wäre dann : 
+
+
+»—[ĸ: Koordinaten :ĸ|": text :"|$: Link :$]«
+
+ gebunden ... und getrennt 
+
+ »—[ĸ: Koordinaten :ĸ|": text :"|$: Link :$||§: netlink :§]«
+
+ hmmm ..... wäre sinnvoll .... gleich mal beides angreifen ... 
+ php und html ... c wurde schon assimiliert ... 
+
+ warum als nicht guis und websites ... 
+
+ damit wäre klar : mcs kann das ebenfalls und zwar elegant nativ ... 
+ egal ob local für gui programme oder für internet websites ... 
+
+ und da hört der spaß nicht auf ... 
+
+ aber ( und da muss ich nochmal nachjustieren )
+
+ ich sollte die eingabe boxis , die eigentlich nur für funktionen gedacht sind 
+ auch umbenennen ... in MCS BOXI ... also für die Funktionen ... 
+
+ und eine Eingabe Boxi für eingabe , egal wo .... ob website für 
+ kunden logik ... für bank ... für terminals ... 
+ für was auch immer ... 
+
+ die kombination macht den bau ... 
+
+
+ gut das ich heute nicht arbeite ... Schmunzel ... 
 
 
 
