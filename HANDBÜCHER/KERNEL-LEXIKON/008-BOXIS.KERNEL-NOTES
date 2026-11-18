@@ -1718,13 +1718,16 @@ MUTTERWABEN-KATEGORIE #
  !!! EINGABE 
 
  NAME SUCHEN = EINGABE
-
+ SYMBOLIK = &:  :&
 
 ###====================================|====================================###
-
+!!!! unsafe 
 MUTTERWABEN-KATEGORIE #
 
- ( MAL SCHAUEN BIS HEUTE ABEND )
+ !!! TWS 
+
+ NAME SUCHEN = TWS 
+ SYMBOLIK = Ŋ:  :Ŋ
 
 ###====================================|====================================###
 ###===========================KOMPAKTE-WABEN-PFADE==========================###

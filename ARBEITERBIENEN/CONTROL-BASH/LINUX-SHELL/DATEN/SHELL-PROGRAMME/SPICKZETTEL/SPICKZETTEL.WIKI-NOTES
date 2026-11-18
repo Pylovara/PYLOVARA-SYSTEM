@@ -73,24 +73,27 @@
 !¢
 
 ¢!
-»—[¥: BOXIS-BXMK :¥]«««~: BAUMODUS FUNKTION SPEICHER ABRUF :~«
- ": ^ :"
- ×: ^ :×
- ~: ^ :~
- ,: ^ :,
- ': ^ :'
- ¥: ^ :¥
- Ħ: ^ :Ħ
- °: ^ :°
- °°: ^ :°°
- §: ^ :§
- $: ^ :$
- !: ^ :!
- ¿: ^ :¿
+»—[¥: BOXIS-BXMK :¥]«««~: BAUMODUS FUNKTION SPEICHER ANZEIGE :~«
+ <· —[": {TEXT} :"]
+ <· —[×: {ALU} :×]
+ <· —[~: {MCD} :~]
+ <· —[,: {SYSCALL} :,]
+ <· —[': {SHELL}: ']
+ <· —[¥: {FUNKTION} :¥]
+ <· —[Ħ: {ABI} :Ħ]
+ <· —[º: {OPCODE} :º]
+ <· —[ºº: {MACODE} :ºº]
+ <· —[§: {NET} :§]
+ <· —[$: {PFAD} :$]
+ <· —[!: {STROM} :!]
+ <· —[¿: {UEFI} :¿]
+ <· —[ĸ: {KOORDI} :ĸ]
+ <· —[#: {RAM} :#]
+ <· —[&: {EINGABE} :&]
 !¢
 
 ¢!
-»—[¥: BOXIS-BXHT-PRINT :¥]«««~: BAUMODUS FUNKTION SPEICHER ABRUF :~«
+»—[¥: BOXIS-BXHT-TEXT :¥]«««~: BAUMODUS FUNKTION SPEICHER ABRUF :~«
  ": ^ :"
 !¢
 
@@ -115,7 +118,7 @@
 !¢
 
 ¢!
-»—[¥: BOXIS-BXHT-EINGABE :¥]«««~: BAUMODUS FUNKTION SPEICHER ABRUF :~«
+»—[¥: BOXIS-BXHT-FUNKTION :¥]«««~: BAUMODUS FUNKTION SPEICHER ABRUF :~«
  ¥: ^ :¥
 !¢
 
@@ -135,7 +138,7 @@
 !¢
 
 ¢!
-»—[¥: BOXIS-BXHT-NETZWERK :¥]«««~: BAUMODUS FUNKTION SPEICHER ABRUF :~«
+»—[¥: BOXIS-BXHT-NET :¥]«««~: BAUMODUS FUNKTION SPEICHER ABRUF :~«
  §: ^ :§
 !¢
 
@@ -150,8 +153,23 @@
 !¢
 
 ¢!
-»—[¥: BOXIS-BXHT-TWS :¥]«««~: BAUMODUS FUNKTION SPEICHER ABRUF :~«
+»—[¥: BOXIS-BXHT-UEFI :¥]«««~: BAUMODUS FUNKTION SPEICHER ABRUF :~«
  ¿: ^ :¿
+!¢
+
+¢!
+»—[¥: BOXIS-BXHT-KOORDI :¥]«««~: BAUMODUS FUNKTION SPEICHER ABRUF :~«
+ ĸ: ^ :ĸ
+!¢
+
+¢!
+»—[¥: BOXIS-BXHT-RAM :¥]«««~: BAUMODUS FUNKTION SPEICHER ABRUF :~«
+ #: ^ :#
+!¢
+
+¢!
+»—[¥: BOXIS-BXHT-EINGABE :¥]«««~: BAUMODUS FUNKTION SPEICHER ABRUF :~«
+ &: ^ :&
 !¢
 
 ¢!
@@ -172,7 +190,7 @@
 !¢
 
 ¢!
-»—[": PROZESS KERNE | BETA 4  :"]«
+»—[": PROZESS KERNE | BETA 4 :"]«
  <· »—[": ICTUS SCHLÄGT AUF CPU KERNE EIN UND ARBEITET DORT :"]«
  <· »—[": 4 ZUR AUSWAHL, AUS SCHUTZ GRÜNDEN - SPÄTER MEHR :"]«
 !¢
