@@ -1694,39 +1694,158 @@ MUTTERWABEN-KATEGORIE ⠆⢂⠘⢈ STARTWABE
  AXIOM ¡ ⠆⢂⠘⠅ ⦳ BIID
 
 ###====================================|====================================###
+###=================================BOXIS-RAM===============================###
+###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE # 
+MUTTERWABEN-KATEGORIE ⠆⢂⠔⢄ HAUPTWABE 
 
- !!! SETZUNG|SOTIERUNG 
+ PROGRAMM-KERN ⠆⢂⠔⢈ RAM
 
- NAMEN SUCHEN = RAM
+ WABEN-ID ⠆⢂⠔⢐ HT
 
+ BION-NR ⠆⢂⠒⣀ 019
+
+ BION-ID ⠆⢂⠔⠃ BIID
+
+ BSK-KN ⠆⢂⠔⠅ BSKN
+
+ BSK-ID ⠆⢂⠔⠉ BSID
+
+ BION ⠆⢂⠔⠊ BION
+
+ BSK ⠆⢂⠔⠌ BSK
+
+ # AXIOM | KEID + WAID + BSKN
+ AXIOM ¡ ⠆⢄⠃⡄ ⧓ ⠆⢂⠔⢐ ⫯ BSKN Ξ BSID
+
+ # AXIOM | BION-ID
+ AXIOM ¡ ⠆⢂⠔⢐ ⧓ ⠆⢂⠒⣀ Ξ ⠆⢂⠔⠃
+
+ # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
+ AXIOM ¡ ⠆⢂⠔⠃ ⦳ BIID
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE #
-
- !!! KOORDINATEN
-
- NAME SUCHEN = KOORDI
+MUTTERWABEN-KATEGORIE ⠆⢂⠔⠑ 
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE #
-
- !!! EINGABE 
-
- NAME SUCHEN = EINGABE
- SYMBOLIK = &:  :&
 
 ###====================================|====================================###
-!!!! unsafe 
-MUTTERWABEN-KATEGORIE #
+###===============================BOXIS-KOORDI==============================###
+###====================================|====================================###
 
- !!! TWS 
+MUTTERWABEN-KATEGORIE # HAUPTWABE 
 
- NAME SUCHEN = TWS 
- SYMBOLIK = Ŋ:  :Ŋ
+ PROGRAMM-KERN # KOORDI
+
+ WABEN-ID # HT
+
+ BION-NR # 020
+
+ BION-ID # BIID
+
+ BSK-KN # BSKN
+
+ BSK-ID # BSID
+
+ BION # BION
+
+ BSK # BSK
+
+ # AXIOM | KEID + WAID + BSKN
+ AXIOM ¡ KEID ⧓ WAID ⫯ BSKN Ξ BSID
+
+ # AXIOM | BION-ID
+ AXIOM ¡ WAID ⧓ NR Ξ BIID
+
+ # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
+ AXIOM ¡ BIID ⦳ BIID
+
+###====================================|====================================###
+
+MUTTERWABEN-KATEGORIE ⠆⢂⠔⠑ 
+
+###====================================|====================================###
+
+
+
+###====================================|====================================###
+###===============================BOXIS-EINGABE=============================###
+###====================================|====================================###
+
+MUTTERWABEN-KATEGORIE # HAUPTWABE 
+
+ PROGRAMM-KERN # EINGABE
+
+ WABEN-ID # HT
+
+ BION-NR # 021
+
+ BION-ID # BIID
+
+ BSK-KN # BSKN
+
+ BSK-ID # BSID
+
+ BION # BION
+
+ BSK # BSK
+
+ # AXIOM | KEID + WAID + BSKN
+ AXIOM ¡ KEID ⧓ WAID ⫯ BSKN Ξ BSID
+
+ # AXIOM | BION-ID
+ AXIOM ¡ WAID ⧓ NR Ξ BIID
+
+ # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
+ AXIOM ¡ BIID ⦳ BIID
+
+###====================================|====================================###
+
+MUTTERWABEN-KATEGORIE ⠆⢂⠔⠑ 
+
+###====================================|====================================###
+
+
+###====================================|====================================###
+###=================================BOXIS-TWS===============================###
+###====================================|====================================###
+
+MUTTERWABEN-KATEGORIE ⠆⢂⠔⠒ HAUPTWABE 
+
+ PROGRAMM-KERN ⠆⢂⠔⠘ TWS
+
+ WABEN-ID ⠆⢂⠔⠡ HT
+
+ BION-NR ⠆⢂⠔⠢ 022
+
+ BION-ID ⠆⢂⠔⠤ BIID
+
+ BSK-KN ⠆⢂⠒⠰ BSKN
+
+ BSK-ID ⠆⢂⠒⡁ BSID
+
+ BION ⠆⢂⠒⡂ BION
+
+ BSK ⠆⢂⠒⡄ BSK
+
+ # AXIOM | KEID + WAID + BSKN
+ AXIOM ¡ KEID ⧓ WAID ⫯ BSKN Ξ BSID
+
+ # AXIOM | BION-ID
+ AXIOM ¡ WAID ⧓ NR Ξ BIID
+
+ # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
+ AXIOM ¡ BIID ⦳ BIID
+
+###====================================|====================================###
+
+MUTTERWABEN-KATEGORIE ⠆⢂⠔⠑ 
+
+###====================================|====================================###
+
+
 
 ###====================================|====================================###
 ###===========================KOMPAKTE-WABEN-PFADE==========================###

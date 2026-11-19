@@ -224,8 +224,11 @@
  <· —[ĸ: {KOORDI} :ĸ]
  <· —[#: {RAM} :#]
  <· —[&: {EINGABE} :&]
+ <· —[Ŋ: {TWS} :Ŋ]
 !¢
 
+ NAME SUCHEN = TWS 
+ SYMBOLIK = Ŋ:  :Ŋ
 
  NECTAR-ICTUS-AUSGABE-INTERN
 
