@@ -18,12 +18,37 @@
  - POSIFEX IM LAUFE DER FERTIGUNG JEDER KOMPONENTE, UPDATEN ! 
  - ARBEITE SPÄTER ALLE WABEN KATEGORIEN IM EINHEITLICHER S-ID PRO WABEN NAMEN 
    WEIL DIE WABEN NAMEN IDENTISCH SIND.
+ - NECTAR TRÄGT RETRON PATRON 
 
  PRIO = BOXIS FERTIGSTELLUNG
 
-
 ###====================================|====================================###
 #==================# TAGES NARICHT SEKTION 
+
+ SOOO .... DANN DIE BOXIS GEMÜTLICH WEITER ... 
+
+ ICH SUCH MIR JETZT MEIN LIEBLINGS ABIENTE SOUND HERAUS ... 
+
+ 🌲 Handpan & Violine im Redwood Sanctuary – 1 Stunde Musik für gefühlvolle Besinnung
+ https://www.youtube.com/watch?v=eHek1pgbvcs&list=PLsSRJv298bqAdP52hQY7v6S5fuDFooFDo
+
+ UND GEHE GEMÜTLICH DIE BOXIS WEITER DURCH ..... 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#==================# ZWISCHENSPEICHER | GUI IMPLEMENTIERUNG | HTML/PHP/PROGRAMM-MENÜS
 
  NOTIZ : 
  ANALYSE DER BSK LOGIK : 
@@ -37,144 +62,7 @@
 
  … DIE WABEN BILDUNG SIEHT SAUBER AUS ... 
 
- die waben bildung sieht sauber aus und macht auch absolut sinn ... 
- der einzige faktor der fehlt ist die bitbreite ... 
-
- die muss so oder so variable bleiben 
-
- *: I :*
-
- I = gleich mitte ... Mitte zieht ende weiter ... 
-
- wenn ich ein buch per print von retron ausgabe intern bekomme 
-
- würde das dann halt so aussehen 
-
- ": dies ist ein buch vom weinachtsmann und der weinachtsmann hat einen weißen bart 
- und weil er einen bart hat, juckt es in regelmäßig am kinn und deswegen kratz er sich 
- und nicht weil er sich nicht gewaschen hätte . :"
-
- angezeigt wird der inhalt der boxis ohne boxi auf dem monitor ... 
- im code ist die boxi angegeben . 
- der code zerreist es nicht , weil die ausgabe gezeigt wird ... 
-
- der gezeigte code kann gerahmt sein oder schluss endlich blank erscheinen .. 
- im code selbst muss halt nur ein leeres 3 feld boxi geschrieben werden ... 
-
- also wäre die bessere und sinnvollste variante bei text und code ausgaben 
- das die pfad boxi benutzt wird und eine text datei/code datei geöffnet wird ... 
-
- das reduziert verzerrungen und der code bleibt sauber , wären der entwickler 
- eine boxi angeben kann damit das system weis was gedruckt werden soll ... 
-
- und im code selbst wird kein roman geschrieben , sondern lediglich auf 
- eine datei verwiesen wo der text oder code oder bild oder sonnstwas 
- angezeigt wird ... 
-
- daher halte ich die print boxi für sinnfrei , außer als echo ... 
- wenn überhaupt ... 
-
- wenn dann sind print boxis ... 
-
- echo 
- kommentar 
-
- je nach dem ob mit aktionsdraht oder ohne , also ausführbares protein mit print 
- oder unausführbares print als kommentar ... wie in der alten welt das hashtag 
- dafür verwendet wurde ... 
-
- debugging oder zwischen ergebnise etc , sollten alle boxis seperat mit einer 
- text datei nutzen und nicht im code selbst ... 
- 
- so bleibt der code sauber , die maschine kann arbeiten und der dev 
- sehen was phase ist ... 
-
- das würde heißen jede boxi brauch eine eigenen text datei type ... 
-
- im grunde untrennbar verbunden für den retron ausgabe bereich ... 
-
- wenn es nur um mathe geht für kleinere rechnungen , reicht der native 
- platz vollkommen aus ... 
-
- das würde bedeuten ich muss die systemwabe selbst noch mit einem punkt 
- füttern für die ausgabe funktion fürs monitoring .... 
-
- wenn ich einen code schreibe und will im game einen text ausgaben bei 
- irgend eine sequenz oder npc stelle oder ansich ... 
-
- brauchs dafür eher die pfad boxis und öffnen statts print boxi ... 
-
- das wäre sogar sinnvoller .... den das kann man später wunderbar 
- in den dann mcs geschriebenen fenster manager integrieren ...
-
- oder sonnst was ... 
-
- ich denke Menüs wiederum , also das was jedes programm auf der welt hat 
- sollten die print dann her halten ... 
-
- und diese sollten dann combiniert werden mit positionsangaben der solution .. 
-
- da könnte ich mal schauen in wie weit ich daran arbeiten muss oder ob das 
- existierende solutions system wenigstens port bar ist ... 
-
- den wenn es portbar wäre , kann ich genau für diesen zweck noch 
- positions boxis also KOORDINATION BOXIS aufstellen die direkt 
- auf eine datei verlinken ... 
-
- das wäre dann eine combination boxi aus 
-
- PRINT:PFAD:EXECUTE 
-
- Und darin wiederum ( natürlich ) mcs code der dann alles weitere öffnet .. 
-
-
- aber es fehlt eine art Koordinations angabe ... 
-
- also meine eigentliche idee das man tische , fenster , menüs , nativ in mcs 
- schreibt ... 
-
- und diese ideen hab ich natürlich auf der rückbank parken .... 
-
- das war quasi die vorstufe zum baumodus der funktionen ... 
-
- nur hab ich noch das objekt bezogene vergessen ... 
- was nicht schlimm ist ... 
-
-
- und Pontifex wird es dann verleimen ... 
-
- sagen wir MusterBuild 
-
- »—[": text :"&$: Link :$&ĸ: Koordinaten :ĸ]« 
-
-
- bzw  : 
-
-  »—[ĸ: Koordinaten :ĸ&": text :"&$: Link :$]« 
-
- dann wäre die frage wie der koordinationsrate aussehen soll .. 
-
- eigenes Puzzelstück system ? 
- oder doch eher mal schauen ob der teil von den alten compositoren 
- zu nutzen wäre ? 
-
- das selbe kann ich dann auch für website build zur verfügung stellen ... 
- nahtlos .... da brauchs kein php, html, java ... unötig 
-
-
- die eigentliche frage ist wie pontifex dann aussehen soll .. 
-
- trennbefehl wie vorher | 
- bindungsbefehl = hmm 
-
- oder ein strich bindung zweistrich trennung .. 
-
  | und || 
-
- ein strich bindet, sieht optisch besser aus als & und zwei || trennt .. 
-
- wäre dann : 
-
 
 »—[ĸ: Koordinaten :ĸ|": text :"|$: Link :$]«
 
@@ -182,140 +70,10 @@
 
  »—[ĸ: Koordinaten :ĸ|": text :"|$: Link :$||§: netlink :§]«
 
- hmmm ..... wäre sinnvoll .... gleich mal beides angreifen ... 
- php und html ... c wurde schon assimiliert ... 
-
- warum als nicht guis und websites ... 
-
- damit wäre klar : mcs kann das ebenfalls und zwar elegant nativ ... 
- egal ob local für gui programme oder für internet websites ... 
-
- und da hört der spaß nicht auf ... 
-
- aber ( und da muss ich nochmal nachjustieren )
-
- ich sollte die eingabe boxis , die eigentlich nur für funktionen gedacht sind 
- auch umbenennen ... in MCS BOXI ... also für die Funktionen ... 
-
- und eine Eingabe Boxi für eingabe , egal wo .... ob website für 
- kunden logik ... für bank ... für terminals ... 
- für was auch immer ... 
-
- die kombination macht den bau ... 
-
-
- gut das ich heute nicht arbeite ... Schmunzel ... 
-
- im grunde brauch später der mcs entwickler nur die boxi tabelle .. 
- nicht mehr oder minder .... vielleicht noch das mcd als spickzettel , bis er 
- die befehle kennt ... 
-
- dann im grunde nur eine einarbeitung welche komponente wie geschaltet wird ... 
- also was sie tut ... 
-
- der rest ist dann trivial ... und um welten besser als die billighe c logik für 
- programme zu schreiben ... und für gui entwickler oder spiele entwickler oder 
- website entwickler oder sonnst was , im grunde der beste baukasten den sie je hatten .. 
-
- sie verstehen was los ist ... 
-
- und hacker haben dann alleine schon deswegen keine chance mehr , weil die 
- sprache verständlich genug ist um locker einen angriv sofort zu verstehen .. 
-
- und was das thema angeht , wirds auch eng .... 
-
- den mcs ist eine schaltungs programmiersprache und der tws lässt keine fehler 
- zu ... 
-
- zwei fliegen mit einer klappe ... 
-
- dann bleibt als übeltäter nur noch der hardware hersteller selbst übrig ... lol 
-
- das will ich sehen , mit eigenen augen , wie intel und alle anderen , die direkte 
- schuld für eine reaktor kernschmelze bekommen .... 
-
- den sprachlich und schaltungsbedingt , ist es software seitig nicht mehr möglich .. 
-
- vor allem aber ... das wird jahrzehnte dauern bis überhaupt ein mensch in irgend einer 
- form einen hack finden wird .... 
-
- und da der tws die brutalsten lizenzen überhaupt bekommt , der aber jeden schützt und 
- nicht nur konzerne , sondern auch den privaten user ... 
-
- wird es extrem eng ... 
-
- deswegen werde ich die lizenzen in dem punkt brutaler manifestieren als sie jetzt schon sind 
-
- das ist auch der grund warum keiner zugriff auf den kernel bekommt , egal welcher 
- präsident oder militär ... keiner ... 
-
- nutzen ja ... verschlüsseln ja .... ihre custom wabinatoren schreiben , ja ... 
-
- aber kernel zugriff ... niemand .... und zwar bedinglos ... 
-
- da kann dann jeder mit atom raketen rum brüllen wie er will ... 
-
- das einzige was der jennige dann erreichen wird ist , das sein feind sonder rechte bekommt 
- weil ich mir nicht drohen lasse ... 
-
- und der feind meines feindes ist mein freund ... wenn es sein muss ... 
-
- und alle rechte dieses repos gehen von den globalen lizenzen aus ... 
-
- nicht mal gott höchstpersönlich , hätte ein recht auf kernel zugriff .. punkt 
-
-
- ich kann die welt sicherer machen ... aber ich werde sagen was zu sagen ist .. 
- und ich betrüge mich nicht selbst, meine arbeit ist ehrlich und ordentlich . 
-
- das ist ein unicat ... und das ist beweisbar .... !!
-
- ich erkenne mein system , egal wie perfide man es versucht zu ändern . 
-
-
- ich bin mal gespannt wann es auch der letzte auf dem planet verstanden hat 
- das wenn investitionen getätigt werden müssen : ich der mann der männer bin 
-
- und nicht irgend ein student oder senjor entwickler der nur rotz gelernt hat . 
-
- 100 jahre computer geschichte beweisen es ... 
-
- all in one = MCS = Maschinen code speech 
-
- oder wie ich mein baby gerne nenne = Master control system 
-
- notiz aufschreiben morgen : 
-
- wenn ich die finale 7.5 mcs syntax im tws fertig habe und die dazugehörigen 
- zertifikate schreibe ... 
-
- denkt drann 
-
  1. hallo welt , in der besseren version . 
  2. ein gui zertifikat 
  3. ein routing zertifikat 
-
- und 
-
  4. der eigene multiplexer 
-
-
- BOXIS ERWWEITERUNG : 
-
- - setzungsboxi für tragende feed 
- - koordinaten boxi 
- - eingabe boxi 
- - eingabe boxi für mcs funktionen umbenennen 
- 
- ↑↑↑ ERLEDIGT ... UND JETZT WEG VOM RECHNER !
-
-
- VIELLEICHT DOCH DEN REX ZURÜCK HOLEN 
- UND UNTERHALB DES REX ZWEI PROGRAMME SCHREIBEN 
- DIE IDENTISCH SIND BIS AUF REIHENFOLGE UND PARALLEL 
- BINDUNG ... 
-
- VIELLEICHT PER WABEN UNTERSCHIEDE DEFINIEREN . 
 
 ¢!
 »—[¥: BOXIS-BXMK :¥]«««~: BAUMODUS FUNKTION SPEICHER ABRUF :~«
@@ -338,220 +96,7 @@
 !¢
 
 
- JETZT ABER ... AUS DIE KISTE .... 
- ICH WOLLTE HEUTE NICHTS MACHEN DA DER KOPF MATCH WAHR 
- UND JETZT HOCKK ICH WIEDER DRAN ... 
-
- JUUUUNGE ...... GEH OFFLINE ... 
- WENIGSTENS EINEN VERDAMMTEN TAG ... 
-
-
-!!! BLITZ GEDANKE ... 
-
- NEIN ... ZURÜCK ZU REX ... 
-
- REX HAT RETRON UND PATRON ... 
-
- RETRON UND PATRON WERDEN IN DEN DANN NEUE WABEN 
- BEIDERSEITS DEFINIERT , WEIL REIHE UND PARALELL 
- EIN PROZESS IST ... 
-
- DER ENTSCHEIDET OB NACH EINANDER UND GLEICHZEITIG .. 
-
- UND DA ICTUS MIT EINGEBUNDEN WIRD , KANN 
- DAS DANN EXTREM SMART COMBINIERT UND DENOCH 
- EXPLIZIT PASSIEREN .. 
-
- DAMIT HÄTTE ICH DEN PROZESS MANAGER DIREKT 
- IM FILEMANAGER INTEGRIERT UND ES STELLT SICH 
- KEINE FRAGE MEHR OB DER ALTE RETRON ( WIE DAVOR DEFINIERT IN DEN ALTEN VERSIONEN)
- GESCHRIEBEN WERDEN MUSS , WEIL ER NATIV IN REX INTEGRIERT IST 
- ABER NICHT MEHR SO HEIẞT ... 
-
- GENIAL .... ALS DOCH REX 
-
- UND REX UND DANN STELLT SICH NUR NOCH DIE FRAGE OB 
- ICH DEN NAMEN BEIBEHALTE, DEN ICH OHNE HINTEGRUND GENOMMEN HABE 
- ODER REX DIESMAL EIN BESSERES KÜRZEL GEBEN ... 
-
- UND ICH DENKE ICH WERDE ERSTMAL DARÜBER NACHDENKEN ... 
- DEN DAS WÄRE DANN DER ENDGÜLTIGE NAME DER FÜR ALLE 
- EWIGKEIT GILT .... 
-
- UND JETZT OFFLINE JUNGE , WIRKLICH ! 
- DEIN KOPF SAGT GERADE JA ABER LASS ES WIRKEN .... 
-
-
-
-
-
-
- REX umbenennung und darunter retron patron vereinen 
-
- meine idee mit römischen zusammenhang gesucht :
-
-
-Nektar (griech. nektar) 
-    ist der Trank der Götter – Unsterblichkeit, Lebenssaft.
-
-Die römische Entsprechung ist interessant: 
-Die Römer übernahmen Nektar als nectar, und in der römischen Dichtung 
-(Ovid, Vergil) ist nectar der Trank, der Götter und Menschen verbindet 
-– also ein Vermittlungs-/Übergabestoff. Das passt zu deinem Protein 
-als Übertragungshülle.
-
-Wichtig: Nektar wird von den Göttern verwaltet und verteilt 
-(Ganymed schenkt ihn aus) – es gibt also eine Verwaltungsinstanz. 
-Das ist deine Filemanagement-Ebene.
-
-
-
- hmmmmm ... 
-
- NECTAR
-
- filemanager - ausgabe - fixpunkt - reiehnfolge/paralelisierungs - syncronisatoren 
-
- 07 NECTAR 
-
- <
- >
- ¤
- ¤¤
-
- DAZUGESCHALTET DEN ICTUS 
-
- ····
-
- im gespräch sinnhaft ? 
-
-„ wir schalten das NECTAR HINZU UND BESTIMMEN DEN REIHENFOLGEN ODER 
-PARALELISIERUNG BEREICH UNTERHALB EINES MUTTER ODER HAUPTPROTEINTRÄGERS 
- UND BESTIMMEN DEN ICTUS KERN FÜR DIE CPU VERARBEITUNG    “
-
  NECTAR-ICTUS-AUSGABE-INTERN
-
- hmmm .... 
-
- würde auch zum tws passen ... 
-
- the wabe nest system ... 
-
- bienen ... nektar .... etc 
-
-
- und nektar haben auch protein ketten ... nicht nur genome .. 
-
- zwei fliegen mit einer klappe plus rex austauscht 
-
-
- komponente hat defintions name ... 
-
- - für psychopathen , weil göötlicher trank ... römisch etc 
- - als bienen verständnis ergänzung 
- - schluss endlich passen für proteine ansich für alles 
-
- nectar kann allround mässig verstanden werden .. 
-
- passt zum designe ... lässt sich wunderbar erklären .. 
- der begriffs kontext wäre geklärt ... 
-
- das schöne ist das nectar ansich kein lizenz name ist ... 
- weil lateinisch römischer kontext aus dem griechischen übernommen .. 
-
- kann man als RÖMISCHER GERMANE  so auch absolut nachvollziehen ... 
- auch die angel sachsen in amerika ... die chinesen auch , würde sogar 
- wunderbar in ihre phylosophie passen ... russisch gesehen auch ... 
-
- selbst arabischer natur ... ... ich denke damit könnte die ganze welt 
- als begriff definition leben ... 
-
- REX klingt halt Brachialer , war aber von meiner seite eher 
- hunde namen oder dino namen technischer natur bezogen ... 
- secundär als Registrie  ... 
-
- damit wäre auch klar das die komponente keine isa bezogene sache ist 
- wie bei intel RE(X) sondern TWS Komponente ... 
-
- und wie man es verstehen will , hängt im auge des betrachters ... 
-
- der einzige nachteil NECTAR 5 buchstaben , vorher 3 ... 
- bit breite .... aber per abkürzung dann eh nur zwei ... 
- weil bausteinschakltungskreislauf eauf 4 gebündel plus kontext 
-
- also 8-9 bit breit , namentlich ... maschinell in system-id generell 
- und ausnahmlos 8 bit weil jeweiles 2 punkte pro 8 patter mal 4 
-
- also 2x4 = 8 bit ... und das system kann weit aus mehr als ein 64 bit 
- system das nur namentlich verbaut wurde und istgleich hatte über assembly 
-
- die bitbreite ist daher fest pro einheit aber dafür auf zich tausende 
- kombinationen gesetzt ... was vorher nicht möglich war ... 
-
- gut ... machen wir so ... ich trag alles um , dann bau ich boxi weiter 
-
-
- und wenn ich dann noch bedenke das eine cpu heute 64 bit mit mindestens jeweils 8 kerne hat 
- und jeder kern tausende operationen bearbeiten kann ... 
-
- bin ich alleine mit der auseigenen entwicklung , die ausnahmlos ein unicat ist 
- und nur im tws existieren darf , haus hoch überlegen ... 
-
- und zwar nicht nur um größen ordnungen sondern um diomensionen 
-
- weil die speicher adresse ergibt sich durch die 8 patter maschinencode übersetzuung 
- im unterbau .... das ist die id ... keine weiteren einträge notwendig .. 
-
- deswegen = eigentum von pylovara system 
-
- und ich werde es bis auf das blut schützen und gnade jedem konzern gott 
- der klaut ... ich werde sie auf billionen verklagen ... 
-
- weil das in der form weltweit so nie erdacht wurde und so nie existierte 
-
- das ist geistiges und entwicklungstechnisches eigentum und darf 
- nirgendwo in der form so verwendet werden ... 
-
- und wer glaubt es zu tun , kann sich jetzt schon darauf einstellen das ich 
- ihn bis auf seine exsitenz selbst ausziehen werde ... 
-
- und gnade jedem gott wenn ich geld hab 
-
-
- ich gehe da wirklich bis zu mord und tod schlag wenn es sein muss .. 
-
- söldner sind gleich organisiert ! wenn das gesetzt mich nicht schützen sollte, 
- dann die auslöschung seines lebens ! 
-
- ich wurde schon zu oft beklaut und hier zieh ich meine grenze !!!!! 
-
- und zwar absolut und unweigerlich ! 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 #==================# Elf 
@@ -617,9 +162,9 @@ Und du hast sie bereits in deiner eigenen Sprache formuliert
  - AUSFALLZEIT WEGEN SCHWESTER = ERLEDIGT 
  - BSK-ID KENNUNG AUF TOCHTERWABEN GEBUNDENE WABEN = ERLEDIGT 
  - PIPELINE ZU POSIFIX ( POSITIONSFIXIERUNG) NEU SCHREIBEN = ERLEDIGT 
- - REX SYMBOL UND REIHE/PARALELL MERGE SYNAPTOR | RETRON PATRON = ERLEDIGT 
  - GASK SCHALTUNG REIMPLEMENTIERUNG UNTER PLASK = AM LAUFEN
  - GEPANTE BOXIS ERWEITERUNGEN UEFI|UTF|STROM = ERLEDIGT
+ - REX ZU NECTAR RENAME = ERLEDIGT 
 
 ###====================================|====================================###
 
@@ -636,16 +181,3 @@ Und du hast sie bereits in deiner eigenen Sprache formuliert
 
  GENERELLES PROBLEM = PHP KNALLT SCHNELLER ZUSAMMEN 
                       ALS MCS ES ERSETZEN KANN... 
-
- ICH SOLLTE DEN FOKUS NACH DEM TWS AUF HTML SETZEN FÜR DEN 
- HTML MODUS IM MCD . 
- AM BESTEN NUR ALS ARBEITSMATERIAL VORLAGE , UM ES VOLLSTÄNDIG ABZULÖSEN .
-
-  NOTIZ : PEARL MAL ANSCHAUEN . 
- AUS FOLGENDEM GRUND : 
-
- ER SCHEIONT GENAUSO GEDACHT ZU HABEN WIE ICH ... 
- MEHRERE WEGE UM DAS GLEICHE ZU PROGRAMMIEREN .. 
- DAS WAS MCS VON NATUR AUS KANN . 
- VIELLEICHT GIBTS BEI DER ALTEN VERSION ANHALTSPUNKTE
- ZU DEM UNTERBAU ZU UNIX.

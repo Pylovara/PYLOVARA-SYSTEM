@@ -11,21 +11,10 @@
  #:::::::::::::::::::::::::::::::::::::|:::::::::::::::::::::::::::::::::::::#
  #   01  - Ŋ  ⠆⢄⢐⠉ TRANSAKTIONSRAHMEN  | 02  - Ŋ  ⠆⢄⢈⠒ PROTEIN               #
  #   03  - Ŋ  ⠆⢄⠒⢠ PONTIFEX            | 04  - -       AKTIONSDRAHT          #
-
-
- | REX NAME NEU DEFINIEREN ODER BEIBEHALTEN | RE UND PATRON UNTERHALB DESSEN |
-
- #   05  - -       RETRON              | 06  - -       PATRON                #
-
- BOXIS AUF 07 , ALLE VERBINDUNGEN UMSCHREIBEN , SCHNELL PASSIERT ... 
-
- ERSTER SCHRITT : NAME DEFINIEREN . 
-
-
-
- #   07  - -       ICTUS               | 08  - -       BOXIS                 #
- #   09  - -       SENTIATOR           | 10  - -       NITROX                #
- #   11  - -       FEED                | 12  - -       ZYTRON                #
+ #   05  - Ŋ       NECTAR              | 06  - -       ICTUS                 #
+ #   07  - -       BOXIS               | 08  - -       SENTIATOR             #
+ #   09  - -       NITROX              | 10  - -       FEED                  #         
+ #   11  - -       ZYTRON              | 12  - -                             #
 ###==============================SYSTEM-ELEMENTE============================###
  #   30  Æ ·  ⠆⢄⠒⣀ PLASK               | 31  - -       MCD                   #
 ###=================================REGISTER================================###
@@ -44,7 +33,7 @@
  # SYSTEM ⠆⢄⢐⡠ PNS 2.6.4 PYLOVARA—NETZWERK—SYSTEM            #   #    #   #  #
  # PROGRAMMIERSPRACHE ⠆⢄⢐⠑ MCS 7.5 | MASCHINEN-CODE-SPEECH   #     ⠆⢄⢐⡠      #
  # KERNELSPRACHE  ⠆⢄⢐⢈ TWS 0.3 | THE-WABE-NEST-SYSTEM        #               #
- # TASTATURSTANDARD ⠆⢄⢐⠒ UTF -8 DEUTSCHER-STANDARD           #  #       #    #
+ # TASTATURSTANDARD ⠆⢄⢐⠒ UTF -8 DEUTSCHER-STANDARD           #  #   #   #    #
  # LIZENZEN ⠆⢄⢐⠤ LV 1.6 LIZENZVERTRAG                        #      #        #
 ###=================================IMPRESSUM===============================###
  # KERNEL-LEXIKON VERSION ⠆⢄⢐⡠ 00-83 | KERNEL                                #
