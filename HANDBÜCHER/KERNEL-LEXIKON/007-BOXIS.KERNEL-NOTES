@@ -2047,79 +2047,82 @@ MUTTERWABEN-KATEGORIE ⠆⢂⠔⠒ HAUPTWABE
  AXIOM ¡ ⠆⢂⠔⠡ ⧓ ⠆⢂⠔⠢ Ξ ⠆⢂⠔⠤
 
  # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
- AXIOM ¡ ⠆⢂⠔⠤ ⦳ BIID
+ AXIOM ¡ ⠆⢂⠔⠤ ⦳ ⠆⢂⠉⡐
 
 ###====================================|====================================###
 
 MUTTERWABEN-KATEGORIE ⠆⢂⠔⠑ STARTWABE 
 
- PROGRAMM-KERN # NA
+ PROGRAMM-KERN ⠆⢂⠊⡁ TWS
 
- WABEN-ID # ST
+ WABEN-ID ⠆⢂⠊⡂ ST
 
- BION-NR # NR
+ BION-NR ⠆⢂⠉⡈ 022
 
- BION-ID # BIID
+ BION-ID ⠆⢂⠉⡐ ST022
 
- BSK-KN # BSKN
+ BSK-KN ⠆⢂⠉⡠ TWS
 
- BSK-ID # BSID
+ BSK-ID ⠆⢂⠉⢁ BXST-TWS
 
- BION # BION
+ BION ⠆⢂⠉⢄ BX007MK007HT022ST022
 
- BSK # BSK
+ BSK ⠆⢂⠉⢈ BXMK+BXHT-TWS+BXST-TWS
 
  # AXIOM | KEID + WAID + BSKN
- AXIOM ¡ ⠆⢄⠃⡄ ⧓ WAID ⫯ BSKN Ξ BSID
+ AXIOM ¡ ⠆⢄⠃⡄ ⧓ ⠆⢂⠊⡂ ⫯ ⠆⢂⠉⡠ Ξ ⠆⢂⠉⢁
 
  # AXIOM | BION-ID
- AXIOM ¡ WAID ⧓ NR Ξ BIID
+ AXIOM ¡ ⠆⢂⠊⡂ ⧓ ⠆⢂⠉⡈ Ξ ⠆⢂⠉⡐
 
  # TASTEN
- TASTENCODE # TT
- TASTENCODE # TT
+ TASTENCODE ⠆⢂⠉⠢ ALTGR
+ TASTENCODE ⠆⢂⠉⠤ SHIFT
+ TASTENCODE ⠆⢂⠉⠨ g
+ TASTENCODE ⠆⢂⠉⠰ .
 
  # AXIOM | SYMBOL BAUEN
- AXIOM ¡ TT ⦻ TT ⦻ TT Ξ SY
- AXIOM ¡ TT ⦻ TT Ξ SY
+ AXIOM ¡ ⠆⢂⠉⠢ ⦻ ⠆⢂⠉⠤ ⦻ ⠆⢂⠉⠨ Ξ ⠆⢂⠉⠘
+ AXIOM ¡ ⠆⢂⠉⠤ ⦻ ⠆⢂⠉⠰ Ξ ⠆⢂⠉⠡
 
  # SYMBOLE FERTIG
- SYMBOLE SY
- SYMBOLE SY
+ SYMBOLE ⠆⢂⠉⠘ Ŋ
+ SYMBOLE ⠆⢂⠉⠡ :
 
  # AXIOM | PRODUKT BAUEN
- AXIOM ¡ SY ⧓ SY Ξ PD
- AXIOM ¡ SY ⧓ SY Ξ PD
+ AXIOM ¡ ⠆⢂⠉⠘ ⧓ ⠆⢂⠉⠡ Ξ ⠆⢂⠊⠉
+ AXIOM ¡ ⠆⢂⠉⠡ ⧓ ⠆⢂⠉⠘ Ξ ⠆⢂⠉⠑
 
  # PRODUKT
- PRODUKT PD
- PRODUKT PD
+ PRODUKT ⠆⢂⠊⠉ Ŋ:
+ PRODUKT ⠆⢂⠉⠑ :Ŋ
 
  # PRÄFIX 
- PRÄFIX PR
- PRÄFIX PR
+ PRÄFIX ⠆⢂⠉⢠ TWSS
+ PRÄFIX ⠆⢂⠉⣀ TWSE
 
  # AXIOM | BSK | KEID + WAID + PR
- AXIOM ¡ ⠆⢄⠃⡄ ⧓ WAID ⫯ PR Ξ BSFX
- AXIOM ¡ ⠆⢄⠃⡄ ⧓ WAID ⫯ PR Ξ BSFX
+ AXIOM ¡ ⠆⢄⠃⡄ ⧓ ⠆⢂⠊⡂ ⫯ ⠆⢂⠉⢠ Ξ ⠆⢂⠊⠃
+ AXIOM ¡ ⠆⢄⠃⡄ ⧓ ⠆⢂⠊⡂ ⫯ ⠆⢂⠉⣀ Ξ ⠆⢂⠊⠅
 
  # BSK-PRÄFIX | KENNUNGSERWEITERUNG FÜR EINHEITEN
- BSK-PF BSFX
- BSK-PF BSFX
+ BSK-PF ⠆⢂⠊⠃ BXST-TWSS
+ BSK-PF ⠆⢂⠊⠅ BXST-TWSE
 
  # AXIOM | PRÄFIX TAGGEN UND RAM  
- AXIOM ¡ PD ⥗ BSFX ⍠ RA
- AXIOM ¡ PD ⥗ BSFX ⍠ RA
+ AXIOM ¡ ⠆⢂⠊⠉ ⥗ ⠆⢂⠊⠃ ⍠ ⠆⢂⠉⠒
+ AXIOM ¡ ⠆⢂⠉⠑ ⥗ ⠆⢂⠊⠅ ⍠ ⠆⢂⠉⠔
 
  # EINHEIT | RAM
- EINHEIT RA
- EINHEIT RA
+ EINHEIT ⠆⢂⠉⠒ Ŋ: BXST-TWSS
+ EINHEIT ⠆⢂⠉⠔ :Ŋ BXST-TWSE
 
  # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
- AXIOM ¡ BIID ⦳ BIID
+ AXIOM ¡ ⠆⢂⠉⡐ ⦳ BIID
 
 ###====================================|====================================###
 
+MUTTERWABEN-KATEGORIE ⠆⢂⠉⢐ 
 
 ###====================================|====================================###
 ###===========================KOMPAKTE-WABEN-PFADE==========================###
