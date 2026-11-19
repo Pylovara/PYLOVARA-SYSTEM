@@ -381,24 +381,40 @@ KINDERWABEN-KATEGORIE # SYSTEMWABE
  # AXIOM | EINGABEBEHALTEN LÖSCHEN
  AXIOM ¡ EA ⎚
 
+ danach wird die eingabe ohne weiteren verlauf gelöscht ... 
+
  # PRÄFIX 
  PRÄFIX PR
+
+ der präfix für den inhalt gesetzt
 
  # AXIOM | BSK | KEID + WAID + PR
  AXIOM ¡ KEID ⧓ WAID ⫯ PR Ξ BSFX
 
+ in in den bsk gebunden 
+
  # BSK-PRÄFIX | KENNUNGSERWEITERUNG FÜR EINHEITEN
  BSK-PF BSFX
+
+ der bsk präfix manifestiert 
 
  # AXIOM | PRÄFIX TAGG ERNEUERN UND RAM  
  AXIOM ¡ ZW ⥓ BSFX ⍠ RA
 
+ der inhalt mit dem bsk getaggt
+
  # EINHEIT | RAM
  EINHEIT RA
+
+ und abrufbereit für den einsatz erklärt mit speicher adresse 
+ aka system-id 
 
  # AXIOM WABEN SYSTEM-ID | PROZESS STOP
  AXIOM ¡ # ⦳ #
 
+
+ und die wabe gestoppt und innerhalb der struktur 
+ zum nächsten waben bereich geleitet 
 
 
 
