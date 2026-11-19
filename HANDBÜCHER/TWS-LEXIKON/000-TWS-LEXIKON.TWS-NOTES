@@ -37,7 +37,7 @@
  #  64      INTERNWABE               |  65      EXTERNWABE                   #
 ###==========================HONIGTROPFEN-MODULE============================###
  #::::::: DIESER BEREICH BETREFFEN DEN EINSATZGEBIET DER HONIGTROPFEN :::::::#
- #  90      TABELLE                  |  91      ECC                          #
+ #  TABELLE | ECC                                                            #
 ###===============================VERSIONSDATEN=============================###
  # SYSTEM ⠆⢄⢐⡐ PNS 2.6.4 PYLOVARA—NETZWERK—SYSTEM            #   #  #    #   #
  # PROGRAMMIERSPRACHE ⠆⢄⢐⠑ MCS 7.5 | MASCHINEN-CODE-SPEECH   #  #  ⠆⢄⢐⠘      #
