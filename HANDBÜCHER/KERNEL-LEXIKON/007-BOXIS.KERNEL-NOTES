@@ -242,11 +242,9 @@ TOCHTERWABEN-KATEGORIE ⠆⢂⠉⠃ EINGABEWABE
 
  # AXIOM | HOLE RAM EINHEIT 
  AXIOM ¡ ⠆⢂⢠⠑ ⍠ ⠆⢂⠉⠅
- AXIOM ¡ ⠆⢂⢠⠒ ⍠ ⠆⢂⠉⠊
 
  # EINHEIT | RAM 
  EINHEIT ⠆⢂⠉⠅ ": BXST-S
- EINHEIT ⠆⢂⠉⠊ :" BXST-E
 
  # EINGABE | EINGABE INPUT
  EINGABE ⠆⢂⠉⠌ 𖣇
@@ -263,7 +261,7 @@ KINDERWABEN-KATEGORIE ⠆⢂⠅⠒ SYSTEMWABE
  # AXIOM | EINGABE GLEICH PLATZ AUSGABE 
  AXIOM ¡ ⠆⢂⠉⠌ Ξ ⠆⢂⠅⠢ 
 
- AUSGABE ⠆⢂⠅⠢ 𖣇
+ AUSGABE ⠆⢂⠅⠢ ^
 
  # AXIOM | EINGABE PLATZ-BESTIMMUNG 
  AXIOM ¡ 𖭰⠆⢂⠉⠅𖭿⠆⢂⠅⠢𖭿𖭱 Ξ ⠆⢂⠅⠤
@@ -275,19 +273,19 @@ KINDERWABEN-KATEGORIE ⠆⢂⠅⠒ SYSTEMWABE
  PRÄFIX ⠆⢂⠅⠨ TEXTSI
 
  # AXIOM | BSK | KEID + WAID + PR
- AXIOM ¡ ⠆⢄⠃⡄ ⧓ WAID ⫯ PR Ξ BSFX
+ AXIOM ¡ ⠆⢄⠃⡄ ⧓ ⠆⢂⠅⡠ ⫯ ⠆⢂⠅⠨ Ξ ⠆⢂⠅⡁
 
  # BSK-PRÄFIX | KENNUNGSERWEITERUNG FÜR EINHEITEN
- BSK-PF BSFX
+ BSK-PF ⠆⢂⠅⡁ BXEG-TEXTSI
 
  # AXIOM | PRÄFIX TAGG ERNEUERN UND RAM  
- AXIOM ¡ ⠆⢂⠅⠤ ⥓ BSFX ⍠ RA
+ AXIOM ¡ ⠆⢂⠅⠤ ⥓ ⠆⢂⠅⡁ ⍠ ⠆⢂⠅⡂
 
  # EINHEIT | RAM
- EINHEIT RA
+ EINHEIT ⠆⢂⠅⡂ ": ^ BXEG-TEXTSI
 
  # AXIOM WABEN SYSTEM-ID | PROZESS STOP
- AXIOM ¡ # ⦳ #
+ AXIOM ¡ ⠆⢂⠅⢄ ⦳ #
 
 ###====================================|====================================###
 
