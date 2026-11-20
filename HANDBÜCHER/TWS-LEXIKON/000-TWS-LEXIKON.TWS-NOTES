@@ -35,9 +35,8 @@
  #  60      HARDWAREWABE             |  61      STROMWABE                    #
  #  62 ⠆⢂⠉⡂ SYSTEMWABE               |  63      FREIGABEWABE                 #
  #  64      INTERNWABE               |  65      EXTERNWABE                   #
-###==========================SYSTEM-ID-ADRESSEN=============================###
- # 100 ⠆⢂⠅⠡ TROPFEN                  | 101      KOMPONENTEN-BION             #
- # 101      BSK                      | 102                                   #
+###============================SYSTEM-ADRESSEN==============================###
+ # 100 ⠆⢂⠅⠡ TROPFEN                  | 101 ⠆⢂⠅⠰ PRÄFIX-LISTE                 #
 ###===============================VERSIONSDATEN=============================###
  # SYSTEM ⠆⢄⢐⡐ PNS 2.6.4 PYLOVARA—NETZWERK—SYSTEM            #   #  #    #   #
  # PROGRAMMIERSPRACHE ⠆⢄⢐⠑ MCS 7.5 | MASCHINEN-CODE-SPEECH   #  #  ⠆⢄⢐⠘      #
