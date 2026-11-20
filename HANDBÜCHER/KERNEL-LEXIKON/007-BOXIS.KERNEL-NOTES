@@ -2242,33 +2242,33 @@ MUTTERWABEN-KATEGORIE ⠆⢂⠢⣀ STARTWABE
  EINHEIT ⠆⢂⠡⢠ :Ŧ BXST-UTFE
 
  # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
- AXIOM ¡ ⠆⢂⠤⠊ ⦳ BIID
+ AXIOM ¡ ⠆⢂⠤⠊ ⦳ ⠆⢁⡠⡐
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE # BAUWABE
+MUTTERWABEN-KATEGORIE ⠆⢁⡠⡁ BAUWABE
 
- PROGRAMM-KERN # TEXT
+ PROGRAMM-KERN ⠆⢁⡠⡂ UTF
 
- WABEN-ID # EG
+ WABEN-ID ⠆⢁⡠⡄ EG
 
- BION-NR # 012
+ BION-NR ⠆⢁⡠⡈ 012
 
- BION-ID # BIID
+ BION-ID ⠆⢁⡠⡐ BIID
 
- BSK-KN # BSKN
+ BSK-KN ⠆⢁⡠⢂ BSKN
 
- BSK-ID # BSID
+ BSK-ID ⠆⢁⡠⢄ BSID
 
- BION # BION
+ BION ⠆⢁⡠⢈ BION
 
- BSK # BSK
+ BSK ⠆⢁⡠⢐ BSK
 
  # AXIOM | KEID + WAID + BSKN
- AXIOM ¡ ⠆⢄⠃⡄ ⧓ WAID ⫯ BSKN Ξ BSID
+ AXIOM ¡ ⠆⢄⠃⡄ ⧓ ⠆⢁⡠⡄ ⫯ BSKN Ξ BSID
 
  # AXIOM | BION-ID
- AXIOM ¡ WAID ⧓ NR Ξ BIID
+ AXIOM ¡ ⠆⢁⡠⡄ ⧓ NR Ξ BIID
 
 TOCHTERWABEN-KATEGORIE # EINGABEWABE
 
@@ -2307,7 +2307,7 @@ KINDERWABEN-KATEGORIE # SYSTEMWABE
  PRÄFIX PR
 
  # AXIOM | BSK | KEID + WAID + PR
- AXIOM ¡ ⠆⢄⠃⡄ ⧓ WAID ⫯ PR Ξ BSFX
+ AXIOM ¡ ⠆⢄⠃⡄ ⧓ ⠆⢁⡠⡄ ⫯ PR Ξ BSFX
 
  # BSK-PRÄFIX | KENNUNGSERWEITERUNG FÜR EINHEITEN
  BSK-PF BSFX
@@ -2319,7 +2319,7 @@ KINDERWABEN-KATEGORIE # SYSTEMWABE
  EINHEIT RA
 
  # AXIOM WABEN SYSTEM-ID | PROZESS STOP
- AXIOM ¡ # ⦳ #
+ AXIOM ¡ ⠆⢁⡠⡐ ⦳ BIID
 
 ###====================================|====================================###
 
