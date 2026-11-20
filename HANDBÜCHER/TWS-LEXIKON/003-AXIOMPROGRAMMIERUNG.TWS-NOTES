@@ -68,12 +68,9 @@
  𖭿  = LEERZEICHEN
  𖣇  = SCHREIBPUNKT
 
-### LOGIK
-⥛   = UND (AND)
-⥚   = ODER (OR)
-⥚⥚  = XOR (EXKLUSIV-ODER)
-⥏   = NICHT (NOT)
-⥑⥏  = NICHT (logisch)
+### ID LOGIK 
+ ⥛   = UND (AND)
+ ⥚   = ODER (OR)
 
 ### KONTROLLFLUSS
 ⦳   = WABEN STOPEN UND BION-ID FOLGEN
@@ -133,6 +130,12 @@
     BEIM LADEN ZEILEN VORSCANNEN. KANN NEBENBEI PASSIEREN . 
     SCANN NUR OB IRGENDWAS ODER LEER . 
 
+### LOGIK ( GATTER WIRD ERNEUERT SPÄTER )
+ ⥛   = UND (AND)
+ ⥚   = ODER (OR)
+ ⥚⥚  = XOR (EXKLUSIV-ODER)
+ ⥏   = NICHT (NOT)
+ ⥑⥏  = NICHT (logisch)
 
 
 
