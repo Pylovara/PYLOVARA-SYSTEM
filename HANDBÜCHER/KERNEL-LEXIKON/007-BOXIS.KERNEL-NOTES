@@ -295,10 +295,6 @@ MUTTERWABEN-KATEGORIE # COMBOWABE
 
 MUTTERWABEN-KATEGORIE # ENDWABE
 
-
-
-
-
 ###====================================|====================================###
 ###================================BOXIS-ALU================================###
 ###====================================|====================================###
@@ -403,9 +399,88 @@ MUTTERWABEN-KATEGORIE ⠆⢂⢠⠃ STARTWABE
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE #  
+MUTTERWABEN-KATEGORIE # BAUWABE
 
+ PROGRAMM-KERN # TEXT
 
+ WABEN-ID # EG
+
+ BION-NR # NR
+
+ BION-ID # BIID
+
+ BSK-KN # BSKN
+
+ BSK-ID # BSID
+
+ BION # BION
+
+ BSK # BSK
+
+ # AXIOM | KEID + WAID + BSKN
+ AXIOM ¡ ⠆⢄⠃⡄ ⧓ WAID ⫯ BSKN Ξ BSID
+
+ # AXIOM | BION-ID
+ AXIOM ¡ WAID ⧓ NR Ξ BIID
+
+TOCHTERWABEN-KATEGORIE # EINGABEWABE
+
+ # AXIOM | HOLE RAM EINHEIT
+ AXIOM ¡ RA ⍠ RA
+ AXIOM ¡ RA ⍠ RA
+
+ # EINHEIT | RAM
+ EINHEIT # RA
+ EINHEIT # RA
+
+ # EINGABE | EINGABE INPUT
+ EINGABE EA 𖣇
+
+KINDERWABEN-KATEGORIE # SYSTEMWABE
+
+ # HONIGTROPFEN | HON | ZU-BIDUNGEN
+ HONIGTROPFEN ⠆⢂⠅⠔ TABELLE
+ HONIGTROPFEN ⠆⢂⠅⠘ ECC
+
+ # AXIOM | HONIGTROPFEN
+ AXIOM ¡ ⠆⢂⠅⠔ ⥛⥛ ⠆⢂⠅⠘ ⥱ EA Ξ EA
+
+ # AXIOM | EINGABE GLEICH PLATZ AUSGABE
+ AXIOM ¡ EA Ξ AA
+
+ AUSGABE AA ^
+
+ # AXIOM | EINGABE PLATZ-BESTIMMUNG
+ AXIOM ¡ 𖭰RA𖭿AA𖭿𖭱 Ξ ZW
+
+ # AXIOM | EINGABEBEHALTEN LÖSCHEN
+ AXIOM ¡ EA ⎚
+
+ # PRÄFIX
+ PRÄFIX PR
+
+ # AXIOM | BSK | KEID + WAID + PR
+ AXIOM ¡ ⠆⢄⠃⡄ ⧓ WAID ⫯ PR Ξ BSFX
+
+ # BSK-PRÄFIX | KENNUNGSERWEITERUNG FÜR EINHEITEN
+ BSK-PF BSFX
+
+ # AXIOM | PRÄFIX TAGG ERNEUERN UND RAM
+ AXIOM ¡ ZW ⥓ BSFX ⍠ RA
+
+ # EINHEIT | RAM
+ EINHEIT RA
+
+ # AXIOM WABEN SYSTEM-ID | PROZESS STOP
+ AXIOM ¡ # ⦳ #
+
+###====================================|====================================###
+
+MUTTERWABEN-KATEGORIE # COMBOWABE
+
+###====================================|====================================###
+
+MUTTERWABEN-KATEGORIE # ENDWABE
 
 ###====================================|====================================###
 ###==============================BOXIS-SYSCALL==============================###
@@ -510,8 +585,88 @@ MUTTERWABEN-KATEGORIE ⠆⢂⢈⡈ STARTWABE
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE # 
+MUTTERWABEN-KATEGORIE # BAUWABE
 
+ PROGRAMM-KERN # TEXT
+
+ WABEN-ID # EG
+
+ BION-NR # NR
+
+ BION-ID # BIID
+
+ BSK-KN # BSKN
+
+ BSK-ID # BSID
+
+ BION # BION
+
+ BSK # BSK
+
+ # AXIOM | KEID + WAID + BSKN
+ AXIOM ¡ ⠆⢄⠃⡄ ⧓ WAID ⫯ BSKN Ξ BSID
+
+ # AXIOM | BION-ID
+ AXIOM ¡ WAID ⧓ NR Ξ BIID
+
+TOCHTERWABEN-KATEGORIE # EINGABEWABE
+
+ # AXIOM | HOLE RAM EINHEIT
+ AXIOM ¡ RA ⍠ RA
+ AXIOM ¡ RA ⍠ RA
+
+ # EINHEIT | RAM
+ EINHEIT # RA
+ EINHEIT # RA
+
+ # EINGABE | EINGABE INPUT
+ EINGABE EA 𖣇
+
+KINDERWABEN-KATEGORIE # SYSTEMWABE
+
+ # HONIGTROPFEN | HON | ZU-BIDUNGEN
+ HONIGTROPFEN ⠆⢂⠅⠔ TABELLE
+ HONIGTROPFEN ⠆⢂⠅⠘ ECC
+
+ # AXIOM | HONIGTROPFEN
+ AXIOM ¡ ⠆⢂⠅⠔ ⥛⥛ ⠆⢂⠅⠘ ⥱ EA Ξ EA
+
+ # AXIOM | EINGABE GLEICH PLATZ AUSGABE
+ AXIOM ¡ EA Ξ AA
+
+ AUSGABE AA ^
+
+ # AXIOM | EINGABE PLATZ-BESTIMMUNG
+ AXIOM ¡ 𖭰RA𖭿AA𖭿𖭱 Ξ ZW
+
+ # AXIOM | EINGABEBEHALTEN LÖSCHEN
+ AXIOM ¡ EA ⎚
+
+ # PRÄFIX
+ PRÄFIX PR
+
+ # AXIOM | BSK | KEID + WAID + PR
+ AXIOM ¡ ⠆⢄⠃⡄ ⧓ WAID ⫯ PR Ξ BSFX
+
+ # BSK-PRÄFIX | KENNUNGSERWEITERUNG FÜR EINHEITEN
+ BSK-PF BSFX
+
+ # AXIOM | PRÄFIX TAGG ERNEUERN UND RAM
+ AXIOM ¡ ZW ⥓ BSFX ⍠ RA
+
+ # EINHEIT | RAM
+ EINHEIT RA
+
+ # AXIOM WABEN SYSTEM-ID | PROZESS STOP
+ AXIOM ¡ # ⦳ #
+
+###====================================|====================================###
+
+MUTTERWABEN-KATEGORIE # COMBOWABE
+
+###====================================|====================================###
+
+MUTTERWABEN-KATEGORIE # ENDWABE
 
 ###====================================|====================================###
 ###================================BOXIS-ABI================================###
@@ -617,8 +772,88 @@ MUTTERWABEN-KATEGORIE ⠆⢂⢄⠢ STARTWABE
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE #
+MUTTERWABEN-KATEGORIE # BAUWABE
 
+ PROGRAMM-KERN # TEXT
+
+ WABEN-ID # EG
+
+ BION-NR # NR
+
+ BION-ID # BIID
+
+ BSK-KN # BSKN
+
+ BSK-ID # BSID
+
+ BION # BION
+
+ BSK # BSK
+
+ # AXIOM | KEID + WAID + BSKN
+ AXIOM ¡ ⠆⢄⠃⡄ ⧓ WAID ⫯ BSKN Ξ BSID
+
+ # AXIOM | BION-ID
+ AXIOM ¡ WAID ⧓ NR Ξ BIID
+
+TOCHTERWABEN-KATEGORIE # EINGABEWABE
+
+ # AXIOM | HOLE RAM EINHEIT
+ AXIOM ¡ RA ⍠ RA
+ AXIOM ¡ RA ⍠ RA
+
+ # EINHEIT | RAM
+ EINHEIT # RA
+ EINHEIT # RA
+
+ # EINGABE | EINGABE INPUT
+ EINGABE EA 𖣇
+
+KINDERWABEN-KATEGORIE # SYSTEMWABE
+
+ # HONIGTROPFEN | HON | ZU-BIDUNGEN
+ HONIGTROPFEN ⠆⢂⠅⠔ TABELLE
+ HONIGTROPFEN ⠆⢂⠅⠘ ECC
+
+ # AXIOM | HONIGTROPFEN
+ AXIOM ¡ ⠆⢂⠅⠔ ⥛⥛ ⠆⢂⠅⠘ ⥱ EA Ξ EA
+
+ # AXIOM | EINGABE GLEICH PLATZ AUSGABE
+ AXIOM ¡ EA Ξ AA
+
+ AUSGABE AA ^
+
+ # AXIOM | EINGABE PLATZ-BESTIMMUNG
+ AXIOM ¡ 𖭰RA𖭿AA𖭿𖭱 Ξ ZW
+
+ # AXIOM | EINGABEBEHALTEN LÖSCHEN
+ AXIOM ¡ EA ⎚
+
+ # PRÄFIX
+ PRÄFIX PR
+
+ # AXIOM | BSK | KEID + WAID + PR
+ AXIOM ¡ ⠆⢄⠃⡄ ⧓ WAID ⫯ PR Ξ BSFX
+
+ # BSK-PRÄFIX | KENNUNGSERWEITERUNG FÜR EINHEITEN
+ BSK-PF BSFX
+
+ # AXIOM | PRÄFIX TAGG ERNEUERN UND RAM
+ AXIOM ¡ ZW ⥓ BSFX ⍠ RA
+
+ # EINHEIT | RAM
+ EINHEIT RA
+
+ # AXIOM WABEN SYSTEM-ID | PROZESS STOP
+ AXIOM ¡ # ⦳ #
+
+###====================================|====================================###
+
+MUTTERWABEN-KATEGORIE # COMBOWABE
+
+###====================================|====================================###
+
+MUTTERWABEN-KATEGORIE # ENDWABE
 
 ###====================================|====================================###
 ###==============================BOXIS-EINGABE==============================###
@@ -724,8 +959,88 @@ MUTTERWABEN-KATEGORIE ⠆⢂⢁⠘ STARTWABE
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE #
+MUTTERWABEN-KATEGORIE # BAUWABE
 
+ PROGRAMM-KERN # TEXT
+
+ WABEN-ID # EG
+
+ BION-NR # NR
+
+ BION-ID # BIID
+
+ BSK-KN # BSKN
+
+ BSK-ID # BSID
+
+ BION # BION
+
+ BSK # BSK
+
+ # AXIOM | KEID + WAID + BSKN
+ AXIOM ¡ ⠆⢄⠃⡄ ⧓ WAID ⫯ BSKN Ξ BSID
+
+ # AXIOM | BION-ID
+ AXIOM ¡ WAID ⧓ NR Ξ BIID
+
+TOCHTERWABEN-KATEGORIE # EINGABEWABE
+
+ # AXIOM | HOLE RAM EINHEIT
+ AXIOM ¡ RA ⍠ RA
+ AXIOM ¡ RA ⍠ RA
+
+ # EINHEIT | RAM
+ EINHEIT # RA
+ EINHEIT # RA
+
+ # EINGABE | EINGABE INPUT
+ EINGABE EA 𖣇
+
+KINDERWABEN-KATEGORIE # SYSTEMWABE
+
+ # HONIGTROPFEN | HON | ZU-BIDUNGEN
+ HONIGTROPFEN ⠆⢂⠅⠔ TABELLE
+ HONIGTROPFEN ⠆⢂⠅⠘ ECC
+
+ # AXIOM | HONIGTROPFEN
+ AXIOM ¡ ⠆⢂⠅⠔ ⥛⥛ ⠆⢂⠅⠘ ⥱ EA Ξ EA
+
+ # AXIOM | EINGABE GLEICH PLATZ AUSGABE
+ AXIOM ¡ EA Ξ AA
+
+ AUSGABE AA ^
+
+ # AXIOM | EINGABE PLATZ-BESTIMMUNG
+ AXIOM ¡ 𖭰RA𖭿AA𖭿𖭱 Ξ ZW
+
+ # AXIOM | EINGABEBEHALTEN LÖSCHEN
+ AXIOM ¡ EA ⎚
+
+ # PRÄFIX
+ PRÄFIX PR
+
+ # AXIOM | BSK | KEID + WAID + PR
+ AXIOM ¡ ⠆⢄⠃⡄ ⧓ WAID ⫯ PR Ξ BSFX
+
+ # BSK-PRÄFIX | KENNUNGSERWEITERUNG FÜR EINHEITEN
+ BSK-PF BSFX
+
+ # AXIOM | PRÄFIX TAGG ERNEUERN UND RAM
+ AXIOM ¡ ZW ⥓ BSFX ⍠ RA
+
+ # EINHEIT | RAM
+ EINHEIT RA
+
+ # AXIOM WABEN SYSTEM-ID | PROZESS STOP
+ AXIOM ¡ # ⦳ #
+
+###====================================|====================================###
+
+MUTTERWABEN-KATEGORIE # COMBOWABE
+
+###====================================|====================================###
+
+MUTTERWABEN-KATEGORIE # ENDWABE
 
 ###====================================|====================================###
 ###================================BOXIS-MCD================================###
@@ -831,8 +1146,88 @@ MUTTERWABEN-KATEGORIE ⠆⢂⡐⡈ STARTWABE
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE #
+MUTTERWABEN-KATEGORIE # BAUWABE
 
+ PROGRAMM-KERN # TEXT
+
+ WABEN-ID # EG
+
+ BION-NR # NR
+
+ BION-ID # BIID
+
+ BSK-KN # BSKN
+
+ BSK-ID # BSID
+
+ BION # BION
+
+ BSK # BSK
+
+ # AXIOM | KEID + WAID + BSKN
+ AXIOM ¡ ⠆⢄⠃⡄ ⧓ WAID ⫯ BSKN Ξ BSID
+
+ # AXIOM | BION-ID
+ AXIOM ¡ WAID ⧓ NR Ξ BIID
+
+TOCHTERWABEN-KATEGORIE # EINGABEWABE
+
+ # AXIOM | HOLE RAM EINHEIT
+ AXIOM ¡ RA ⍠ RA
+ AXIOM ¡ RA ⍠ RA
+
+ # EINHEIT | RAM
+ EINHEIT # RA
+ EINHEIT # RA
+
+ # EINGABE | EINGABE INPUT
+ EINGABE EA 𖣇
+
+KINDERWABEN-KATEGORIE # SYSTEMWABE
+
+ # HONIGTROPFEN | HON | ZU-BIDUNGEN
+ HONIGTROPFEN ⠆⢂⠅⠔ TABELLE
+ HONIGTROPFEN ⠆⢂⠅⠘ ECC
+
+ # AXIOM | HONIGTROPFEN
+ AXIOM ¡ ⠆⢂⠅⠔ ⥛⥛ ⠆⢂⠅⠘ ⥱ EA Ξ EA
+
+ # AXIOM | EINGABE GLEICH PLATZ AUSGABE
+ AXIOM ¡ EA Ξ AA
+
+ AUSGABE AA ^
+
+ # AXIOM | EINGABE PLATZ-BESTIMMUNG
+ AXIOM ¡ 𖭰RA𖭿AA𖭿𖭱 Ξ ZW
+
+ # AXIOM | EINGABEBEHALTEN LÖSCHEN
+ AXIOM ¡ EA ⎚
+
+ # PRÄFIX
+ PRÄFIX PR
+
+ # AXIOM | BSK | KEID + WAID + PR
+ AXIOM ¡ ⠆⢄⠃⡄ ⧓ WAID ⫯ PR Ξ BSFX
+
+ # BSK-PRÄFIX | KENNUNGSERWEITERUNG FÜR EINHEITEN
+ BSK-PF BSFX
+
+ # AXIOM | PRÄFIX TAGG ERNEUERN UND RAM
+ AXIOM ¡ ZW ⥓ BSFX ⍠ RA
+
+ # EINHEIT | RAM
+ EINHEIT RA
+
+ # AXIOM WABEN SYSTEM-ID | PROZESS STOP
+ AXIOM ¡ # ⦳ #
+
+###====================================|====================================###
+
+MUTTERWABEN-KATEGORIE # COMBOWABE
+
+###====================================|====================================###
+
+MUTTERWABEN-KATEGORIE # ENDWABE
 
 ###====================================|====================================###
 ###================================BOXIS-PFAD===============================###
@@ -937,8 +1332,88 @@ MUTTERWABEN-KATEGORIE ⠆⢂⡈⠉ STARTWABE
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE #
+MUTTERWABEN-KATEGORIE # BAUWABE
 
+ PROGRAMM-KERN # TEXT
+
+ WABEN-ID # EG
+
+ BION-NR # NR
+
+ BION-ID # BIID
+
+ BSK-KN # BSKN
+
+ BSK-ID # BSID
+
+ BION # BION
+
+ BSK # BSK
+
+ # AXIOM | KEID + WAID + BSKN
+ AXIOM ¡ ⠆⢄⠃⡄ ⧓ WAID ⫯ BSKN Ξ BSID
+
+ # AXIOM | BION-ID
+ AXIOM ¡ WAID ⧓ NR Ξ BIID
+
+TOCHTERWABEN-KATEGORIE # EINGABEWABE
+
+ # AXIOM | HOLE RAM EINHEIT
+ AXIOM ¡ RA ⍠ RA
+ AXIOM ¡ RA ⍠ RA
+
+ # EINHEIT | RAM
+ EINHEIT # RA
+ EINHEIT # RA
+
+ # EINGABE | EINGABE INPUT
+ EINGABE EA 𖣇
+
+KINDERWABEN-KATEGORIE # SYSTEMWABE
+
+ # HONIGTROPFEN | HON | ZU-BIDUNGEN
+ HONIGTROPFEN ⠆⢂⠅⠔ TABELLE
+ HONIGTROPFEN ⠆⢂⠅⠘ ECC
+
+ # AXIOM | HONIGTROPFEN
+ AXIOM ¡ ⠆⢂⠅⠔ ⥛⥛ ⠆⢂⠅⠘ ⥱ EA Ξ EA
+
+ # AXIOM | EINGABE GLEICH PLATZ AUSGABE
+ AXIOM ¡ EA Ξ AA
+
+ AUSGABE AA ^
+
+ # AXIOM | EINGABE PLATZ-BESTIMMUNG
+ AXIOM ¡ 𖭰RA𖭿AA𖭿𖭱 Ξ ZW
+
+ # AXIOM | EINGABEBEHALTEN LÖSCHEN
+ AXIOM ¡ EA ⎚
+
+ # PRÄFIX
+ PRÄFIX PR
+
+ # AXIOM | BSK | KEID + WAID + PR
+ AXIOM ¡ ⠆⢄⠃⡄ ⧓ WAID ⫯ PR Ξ BSFX
+
+ # BSK-PRÄFIX | KENNUNGSERWEITERUNG FÜR EINHEITEN
+ BSK-PF BSFX
+
+ # AXIOM | PRÄFIX TAGG ERNEUERN UND RAM
+ AXIOM ¡ ZW ⥓ BSFX ⍠ RA
+
+ # EINHEIT | RAM
+ EINHEIT RA
+
+ # AXIOM WABEN SYSTEM-ID | PROZESS STOP
+ AXIOM ¡ # ⦳ #
+
+###====================================|====================================###
+
+MUTTERWABEN-KATEGORIE # COMBOWABE
+
+###====================================|====================================###
+
+MUTTERWABEN-KATEGORIE # ENDWABE
 
 ###====================================|====================================###
 ###================================BOXIS-NET================================###
@@ -1043,8 +1518,88 @@ MUTTERWABEN-KATEGORIE ⠆⢂⡄⠢ STARTWABE
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE #
+MUTTERWABEN-KATEGORIE # BAUWABE
 
+ PROGRAMM-KERN # TEXT
+
+ WABEN-ID # EG
+
+ BION-NR # NR
+
+ BION-ID # BIID
+
+ BSK-KN # BSKN
+
+ BSK-ID # BSID
+
+ BION # BION
+
+ BSK # BSK
+
+ # AXIOM | KEID + WAID + BSKN
+ AXIOM ¡ ⠆⢄⠃⡄ ⧓ WAID ⫯ BSKN Ξ BSID
+
+ # AXIOM | BION-ID
+ AXIOM ¡ WAID ⧓ NR Ξ BIID
+
+TOCHTERWABEN-KATEGORIE # EINGABEWABE
+
+ # AXIOM | HOLE RAM EINHEIT
+ AXIOM ¡ RA ⍠ RA
+ AXIOM ¡ RA ⍠ RA
+
+ # EINHEIT | RAM
+ EINHEIT # RA
+ EINHEIT # RA
+
+ # EINGABE | EINGABE INPUT
+ EINGABE EA 𖣇
+
+KINDERWABEN-KATEGORIE # SYSTEMWABE
+
+ # HONIGTROPFEN | HON | ZU-BIDUNGEN
+ HONIGTROPFEN ⠆⢂⠅⠔ TABELLE
+ HONIGTROPFEN ⠆⢂⠅⠘ ECC
+
+ # AXIOM | HONIGTROPFEN
+ AXIOM ¡ ⠆⢂⠅⠔ ⥛⥛ ⠆⢂⠅⠘ ⥱ EA Ξ EA
+
+ # AXIOM | EINGABE GLEICH PLATZ AUSGABE
+ AXIOM ¡ EA Ξ AA
+
+ AUSGABE AA ^
+
+ # AXIOM | EINGABE PLATZ-BESTIMMUNG
+ AXIOM ¡ 𖭰RA𖭿AA𖭿𖭱 Ξ ZW
+
+ # AXIOM | EINGABEBEHALTEN LÖSCHEN
+ AXIOM ¡ EA ⎚
+
+ # PRÄFIX
+ PRÄFIX PR
+
+ # AXIOM | BSK | KEID + WAID + PR
+ AXIOM ¡ ⠆⢄⠃⡄ ⧓ WAID ⫯ PR Ξ BSFX
+
+ # BSK-PRÄFIX | KENNUNGSERWEITERUNG FÜR EINHEITEN
+ BSK-PF BSFX
+
+ # AXIOM | PRÄFIX TAGG ERNEUERN UND RAM
+ AXIOM ¡ ZW ⥓ BSFX ⍠ RA
+
+ # EINHEIT | RAM
+ EINHEIT RA
+
+ # AXIOM WABEN SYSTEM-ID | PROZESS STOP
+ AXIOM ¡ # ⦳ #
+
+###====================================|====================================###
+
+MUTTERWABEN-KATEGORIE # COMBOWABE
+
+###====================================|====================================###
+
+MUTTERWABEN-KATEGORIE # ENDWABE
 
 ###====================================|====================================###
 ###==============================BOXIS-OPCODE===============================###
@@ -1150,8 +1705,88 @@ MUTTERWABEN-KATEGORIE ⠆⢂⡁⢁ STARTWABE
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE #
+MUTTERWABEN-KATEGORIE # BAUWABE
 
+ PROGRAMM-KERN # TEXT
+
+ WABEN-ID # EG
+
+ BION-NR # NR
+
+ BION-ID # BIID
+
+ BSK-KN # BSKN
+
+ BSK-ID # BSID
+
+ BION # BION
+
+ BSK # BSK
+
+ # AXIOM | KEID + WAID + BSKN
+ AXIOM ¡ ⠆⢄⠃⡄ ⧓ WAID ⫯ BSKN Ξ BSID
+
+ # AXIOM | BION-ID
+ AXIOM ¡ WAID ⧓ NR Ξ BIID
+
+TOCHTERWABEN-KATEGORIE # EINGABEWABE
+
+ # AXIOM | HOLE RAM EINHEIT
+ AXIOM ¡ RA ⍠ RA
+ AXIOM ¡ RA ⍠ RA
+
+ # EINHEIT | RAM
+ EINHEIT # RA
+ EINHEIT # RA
+
+ # EINGABE | EINGABE INPUT
+ EINGABE EA 𖣇
+
+KINDERWABEN-KATEGORIE # SYSTEMWABE
+
+ # HONIGTROPFEN | HON | ZU-BIDUNGEN
+ HONIGTROPFEN ⠆⢂⠅⠔ TABELLE
+ HONIGTROPFEN ⠆⢂⠅⠘ ECC
+
+ # AXIOM | HONIGTROPFEN
+ AXIOM ¡ ⠆⢂⠅⠔ ⥛⥛ ⠆⢂⠅⠘ ⥱ EA Ξ EA
+
+ # AXIOM | EINGABE GLEICH PLATZ AUSGABE
+ AXIOM ¡ EA Ξ AA
+
+ AUSGABE AA ^
+
+ # AXIOM | EINGABE PLATZ-BESTIMMUNG
+ AXIOM ¡ 𖭰RA𖭿AA𖭿𖭱 Ξ ZW
+
+ # AXIOM | EINGABEBEHALTEN LÖSCHEN
+ AXIOM ¡ EA ⎚
+
+ # PRÄFIX
+ PRÄFIX PR
+
+ # AXIOM | BSK | KEID + WAID + PR
+ AXIOM ¡ ⠆⢄⠃⡄ ⧓ WAID ⫯ PR Ξ BSFX
+
+ # BSK-PRÄFIX | KENNUNGSERWEITERUNG FÜR EINHEITEN
+ BSK-PF BSFX
+
+ # AXIOM | PRÄFIX TAGG ERNEUERN UND RAM
+ AXIOM ¡ ZW ⥓ BSFX ⍠ RA
+
+ # EINHEIT | RAM
+ EINHEIT RA
+
+ # AXIOM WABEN SYSTEM-ID | PROZESS STOP
+ AXIOM ¡ # ⦳ #
+
+###====================================|====================================###
+
+MUTTERWABEN-KATEGORIE # COMBOWABE
+
+###====================================|====================================###
+
+MUTTERWABEN-KATEGORIE # ENDWABE
 
 ###====================================|====================================###
 ###===========================BOXIS-MASCHINENCODE===========================###
@@ -1257,8 +1892,88 @@ MUTTERWABEN-KATEGORIE ⠆⢂⡁⠊ STARTWABE
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE #
+MUTTERWABEN-KATEGORIE # BAUWABE
 
+ PROGRAMM-KERN # TEXT
+
+ WABEN-ID # EG
+
+ BION-NR # NR
+
+ BION-ID # BIID
+
+ BSK-KN # BSKN
+
+ BSK-ID # BSID
+
+ BION # BION
+
+ BSK # BSK
+
+ # AXIOM | KEID + WAID + BSKN
+ AXIOM ¡ ⠆⢄⠃⡄ ⧓ WAID ⫯ BSKN Ξ BSID
+
+ # AXIOM | BION-ID
+ AXIOM ¡ WAID ⧓ NR Ξ BIID
+
+TOCHTERWABEN-KATEGORIE # EINGABEWABE
+
+ # AXIOM | HOLE RAM EINHEIT
+ AXIOM ¡ RA ⍠ RA
+ AXIOM ¡ RA ⍠ RA
+
+ # EINHEIT | RAM
+ EINHEIT # RA
+ EINHEIT # RA
+
+ # EINGABE | EINGABE INPUT
+ EINGABE EA 𖣇
+
+KINDERWABEN-KATEGORIE # SYSTEMWABE
+
+ # HONIGTROPFEN | HON | ZU-BIDUNGEN
+ HONIGTROPFEN ⠆⢂⠅⠔ TABELLE
+ HONIGTROPFEN ⠆⢂⠅⠘ ECC
+
+ # AXIOM | HONIGTROPFEN
+ AXIOM ¡ ⠆⢂⠅⠔ ⥛⥛ ⠆⢂⠅⠘ ⥱ EA Ξ EA
+
+ # AXIOM | EINGABE GLEICH PLATZ AUSGABE
+ AXIOM ¡ EA Ξ AA
+
+ AUSGABE AA ^
+
+ # AXIOM | EINGABE PLATZ-BESTIMMUNG
+ AXIOM ¡ 𖭰RA𖭿AA𖭿𖭱 Ξ ZW
+
+ # AXIOM | EINGABEBEHALTEN LÖSCHEN
+ AXIOM ¡ EA ⎚
+
+ # PRÄFIX
+ PRÄFIX PR
+
+ # AXIOM | BSK | KEID + WAID + PR
+ AXIOM ¡ ⠆⢄⠃⡄ ⧓ WAID ⫯ PR Ξ BSFX
+
+ # BSK-PRÄFIX | KENNUNGSERWEITERUNG FÜR EINHEITEN
+ BSK-PF BSFX
+
+ # AXIOM | PRÄFIX TAGG ERNEUERN UND RAM
+ AXIOM ¡ ZW ⥓ BSFX ⍠ RA
+
+ # EINHEIT | RAM
+ EINHEIT RA
+
+ # AXIOM WABEN SYSTEM-ID | PROZESS STOP
+ AXIOM ¡ # ⦳ #
+
+###====================================|====================================###
+
+MUTTERWABEN-KATEGORIE # COMBOWABE
+
+###====================================|====================================###
+
+MUTTERWABEN-KATEGORIE # ENDWABE
 
 ###====================================|====================================###
 ###================================BOXIS-UEFI===============================###
@@ -1364,8 +2079,88 @@ MUTTERWABEN-KATEGORIE ⠆⢂⠨⡂ STARTWABE
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE #
+MUTTERWABEN-KATEGORIE # BAUWABE
 
+ PROGRAMM-KERN # TEXT
+
+ WABEN-ID # EG
+
+ BION-NR # NR
+
+ BION-ID # BIID
+
+ BSK-KN # BSKN
+
+ BSK-ID # BSID
+
+ BION # BION
+
+ BSK # BSK
+
+ # AXIOM | KEID + WAID + BSKN
+ AXIOM ¡ ⠆⢄⠃⡄ ⧓ WAID ⫯ BSKN Ξ BSID
+
+ # AXIOM | BION-ID
+ AXIOM ¡ WAID ⧓ NR Ξ BIID
+
+TOCHTERWABEN-KATEGORIE # EINGABEWABE
+
+ # AXIOM | HOLE RAM EINHEIT
+ AXIOM ¡ RA ⍠ RA
+ AXIOM ¡ RA ⍠ RA
+
+ # EINHEIT | RAM
+ EINHEIT # RA
+ EINHEIT # RA
+
+ # EINGABE | EINGABE INPUT
+ EINGABE EA 𖣇
+
+KINDERWABEN-KATEGORIE # SYSTEMWABE
+
+ # HONIGTROPFEN | HON | ZU-BIDUNGEN
+ HONIGTROPFEN ⠆⢂⠅⠔ TABELLE
+ HONIGTROPFEN ⠆⢂⠅⠘ ECC
+
+ # AXIOM | HONIGTROPFEN
+ AXIOM ¡ ⠆⢂⠅⠔ ⥛⥛ ⠆⢂⠅⠘ ⥱ EA Ξ EA
+
+ # AXIOM | EINGABE GLEICH PLATZ AUSGABE
+ AXIOM ¡ EA Ξ AA
+
+ AUSGABE AA ^
+
+ # AXIOM | EINGABE PLATZ-BESTIMMUNG
+ AXIOM ¡ 𖭰RA𖭿AA𖭿𖭱 Ξ ZW
+
+ # AXIOM | EINGABEBEHALTEN LÖSCHEN
+ AXIOM ¡ EA ⎚
+
+ # PRÄFIX
+ PRÄFIX PR
+
+ # AXIOM | BSK | KEID + WAID + PR
+ AXIOM ¡ ⠆⢄⠃⡄ ⧓ WAID ⫯ PR Ξ BSFX
+
+ # BSK-PRÄFIX | KENNUNGSERWEITERUNG FÜR EINHEITEN
+ BSK-PF BSFX
+
+ # AXIOM | PRÄFIX TAGG ERNEUERN UND RAM
+ AXIOM ¡ ZW ⥓ BSFX ⍠ RA
+
+ # EINHEIT | RAM
+ EINHEIT RA
+
+ # AXIOM WABEN SYSTEM-ID | PROZESS STOP
+ AXIOM ¡ # ⦳ #
+
+###====================================|====================================###
+
+MUTTERWABEN-KATEGORIE # COMBOWABE
+
+###====================================|====================================###
+
+MUTTERWABEN-KATEGORIE # ENDWABE
 
 ###====================================|====================================###
 ###================================BOXIS-UTF================================###
@@ -1471,8 +2266,88 @@ MUTTERWABEN-KATEGORIE ⠆⢂⠢⣀ STARTWABE
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE #
+MUTTERWABEN-KATEGORIE # BAUWABE
 
+ PROGRAMM-KERN # TEXT
+
+ WABEN-ID # EG
+
+ BION-NR # NR
+
+ BION-ID # BIID
+
+ BSK-KN # BSKN
+
+ BSK-ID # BSID
+
+ BION # BION
+
+ BSK # BSK
+
+ # AXIOM | KEID + WAID + BSKN
+ AXIOM ¡ ⠆⢄⠃⡄ ⧓ WAID ⫯ BSKN Ξ BSID
+
+ # AXIOM | BION-ID
+ AXIOM ¡ WAID ⧓ NR Ξ BIID
+
+TOCHTERWABEN-KATEGORIE # EINGABEWABE
+
+ # AXIOM | HOLE RAM EINHEIT
+ AXIOM ¡ RA ⍠ RA
+ AXIOM ¡ RA ⍠ RA
+
+ # EINHEIT | RAM
+ EINHEIT # RA
+ EINHEIT # RA
+
+ # EINGABE | EINGABE INPUT
+ EINGABE EA 𖣇
+
+KINDERWABEN-KATEGORIE # SYSTEMWABE
+
+ # HONIGTROPFEN | HON | ZU-BIDUNGEN
+ HONIGTROPFEN ⠆⢂⠅⠔ TABELLE
+ HONIGTROPFEN ⠆⢂⠅⠘ ECC
+
+ # AXIOM | HONIGTROPFEN
+ AXIOM ¡ ⠆⢂⠅⠔ ⥛⥛ ⠆⢂⠅⠘ ⥱ EA Ξ EA
+
+ # AXIOM | EINGABE GLEICH PLATZ AUSGABE
+ AXIOM ¡ EA Ξ AA
+
+ AUSGABE AA ^
+
+ # AXIOM | EINGABE PLATZ-BESTIMMUNG
+ AXIOM ¡ 𖭰RA𖭿AA𖭿𖭱 Ξ ZW
+
+ # AXIOM | EINGABEBEHALTEN LÖSCHEN
+ AXIOM ¡ EA ⎚
+
+ # PRÄFIX
+ PRÄFIX PR
+
+ # AXIOM | BSK | KEID + WAID + PR
+ AXIOM ¡ ⠆⢄⠃⡄ ⧓ WAID ⫯ PR Ξ BSFX
+
+ # BSK-PRÄFIX | KENNUNGSERWEITERUNG FÜR EINHEITEN
+ BSK-PF BSFX
+
+ # AXIOM | PRÄFIX TAGG ERNEUERN UND RAM
+ AXIOM ¡ ZW ⥓ BSFX ⍠ RA
+
+ # EINHEIT | RAM
+ EINHEIT RA
+
+ # AXIOM WABEN SYSTEM-ID | PROZESS STOP
+ AXIOM ¡ # ⦳ #
+
+###====================================|====================================###
+
+MUTTERWABEN-KATEGORIE # COMBOWABE
+
+###====================================|====================================###
+
+MUTTERWABEN-KATEGORIE # ENDWABE
 
 ###====================================|====================================###
 ###===============================BOXIS-STROM===============================###
@@ -1578,10 +2453,88 @@ MUTTERWABEN-KATEGORIE ⠆⢂⠡⠢ STARTWABE
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE ⠆⢂⠒⠨ 
+MUTTERWABEN-KATEGORIE # BAUWABE
+
+ PROGRAMM-KERN # TEXT
+
+ WABEN-ID # EG
+
+ BION-NR # NR
+
+ BION-ID # BIID
+
+ BSK-KN # BSKN
+
+ BSK-ID # BSID
+
+ BION # BION
+
+ BSK # BSK
+
+ # AXIOM | KEID + WAID + BSKN
+ AXIOM ¡ ⠆⢄⠃⡄ ⧓ WAID ⫯ BSKN Ξ BSID
+
+ # AXIOM | BION-ID
+ AXIOM ¡ WAID ⧓ NR Ξ BIID
+
+TOCHTERWABEN-KATEGORIE # EINGABEWABE
+
+ # AXIOM | HOLE RAM EINHEIT
+ AXIOM ¡ RA ⍠ RA
+ AXIOM ¡ RA ⍠ RA
+
+ # EINHEIT | RAM
+ EINHEIT # RA
+ EINHEIT # RA
+
+ # EINGABE | EINGABE INPUT
+ EINGABE EA 𖣇
+
+KINDERWABEN-KATEGORIE # SYSTEMWABE
+
+ # HONIGTROPFEN | HON | ZU-BIDUNGEN
+ HONIGTROPFEN ⠆⢂⠅⠔ TABELLE
+ HONIGTROPFEN ⠆⢂⠅⠘ ECC
+
+ # AXIOM | HONIGTROPFEN
+ AXIOM ¡ ⠆⢂⠅⠔ ⥛⥛ ⠆⢂⠅⠘ ⥱ EA Ξ EA
+
+ # AXIOM | EINGABE GLEICH PLATZ AUSGABE
+ AXIOM ¡ EA Ξ AA
+
+ AUSGABE AA ^
+
+ # AXIOM | EINGABE PLATZ-BESTIMMUNG
+ AXIOM ¡ 𖭰RA𖭿AA𖭿𖭱 Ξ ZW
+
+ # AXIOM | EINGABEBEHALTEN LÖSCHEN
+ AXIOM ¡ EA ⎚
+
+ # PRÄFIX
+ PRÄFIX PR
+
+ # AXIOM | BSK | KEID + WAID + PR
+ AXIOM ¡ ⠆⢄⠃⡄ ⧓ WAID ⫯ PR Ξ BSFX
+
+ # BSK-PRÄFIX | KENNUNGSERWEITERUNG FÜR EINHEITEN
+ BSK-PF BSFX
+
+ # AXIOM | PRÄFIX TAGG ERNEUERN UND RAM
+ AXIOM ¡ ZW ⥓ BSFX ⍠ RA
+
+ # EINHEIT | RAM
+ EINHEIT RA
+
+ # AXIOM WABEN SYSTEM-ID | PROZESS STOP
+ AXIOM ¡ # ⦳ #
 
 ###====================================|====================================###
 
+MUTTERWABEN-KATEGORIE # COMBOWABE
+
+###====================================|====================================###
+
+MUTTERWABEN-KATEGORIE # ENDWABE
 
 ###====================================|====================================###
 ###===============================BOXIS-SHELL===============================###
@@ -1686,10 +2639,88 @@ MUTTERWABEN-KATEGORIE ⠆⢂⠘⢈ STARTWABE
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE ⠆⢂⠑⡁ 
+MUTTERWABEN-KATEGORIE # BAUWABE
+
+ PROGRAMM-KERN # TEXT
+
+ WABEN-ID # EG
+
+ BION-NR # NR
+
+ BION-ID # BIID
+
+ BSK-KN # BSKN
+
+ BSK-ID # BSID
+
+ BION # BION
+
+ BSK # BSK
+
+ # AXIOM | KEID + WAID + BSKN
+ AXIOM ¡ ⠆⢄⠃⡄ ⧓ WAID ⫯ BSKN Ξ BSID
+
+ # AXIOM | BION-ID
+ AXIOM ¡ WAID ⧓ NR Ξ BIID
+
+TOCHTERWABEN-KATEGORIE # EINGABEWABE
+
+ # AXIOM | HOLE RAM EINHEIT
+ AXIOM ¡ RA ⍠ RA
+ AXIOM ¡ RA ⍠ RA
+
+ # EINHEIT | RAM
+ EINHEIT # RA
+ EINHEIT # RA
+
+ # EINGABE | EINGABE INPUT
+ EINGABE EA 𖣇
+
+KINDERWABEN-KATEGORIE # SYSTEMWABE
+
+ # HONIGTROPFEN | HON | ZU-BIDUNGEN
+ HONIGTROPFEN ⠆⢂⠅⠔ TABELLE
+ HONIGTROPFEN ⠆⢂⠅⠘ ECC
+
+ # AXIOM | HONIGTROPFEN
+ AXIOM ¡ ⠆⢂⠅⠔ ⥛⥛ ⠆⢂⠅⠘ ⥱ EA Ξ EA
+
+ # AXIOM | EINGABE GLEICH PLATZ AUSGABE
+ AXIOM ¡ EA Ξ AA
+
+ AUSGABE AA ^
+
+ # AXIOM | EINGABE PLATZ-BESTIMMUNG
+ AXIOM ¡ 𖭰RA𖭿AA𖭿𖭱 Ξ ZW
+
+ # AXIOM | EINGABEBEHALTEN LÖSCHEN
+ AXIOM ¡ EA ⎚
+
+ # PRÄFIX
+ PRÄFIX PR
+
+ # AXIOM | BSK | KEID + WAID + PR
+ AXIOM ¡ ⠆⢄⠃⡄ ⧓ WAID ⫯ PR Ξ BSFX
+
+ # BSK-PRÄFIX | KENNUNGSERWEITERUNG FÜR EINHEITEN
+ BSK-PF BSFX
+
+ # AXIOM | PRÄFIX TAGG ERNEUERN UND RAM
+ AXIOM ¡ ZW ⥓ BSFX ⍠ RA
+
+ # EINHEIT | RAM
+ EINHEIT RA
+
+ # AXIOM WABEN SYSTEM-ID | PROZESS STOP
+ AXIOM ¡ # ⦳ #
 
 ###====================================|====================================###
 
+MUTTERWABEN-KATEGORIE # COMBOWABE
+
+###====================================|====================================###
+
+MUTTERWABEN-KATEGORIE # ENDWABE
 
 ###====================================|====================================###
 ###=================================BOXIS-RAM===============================###
@@ -1794,7 +2825,88 @@ MUTTERWABEN-KATEGORIE ⠆⢂⠔⠑ STARTWABE
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE ⠆⢂⠑⠨  
+MUTTERWABEN-KATEGORIE # BAUWABE
+
+ PROGRAMM-KERN # TEXT
+
+ WABEN-ID # EG
+
+ BION-NR # NR
+
+ BION-ID # BIID
+
+ BSK-KN # BSKN
+
+ BSK-ID # BSID
+
+ BION # BION
+
+ BSK # BSK
+
+ # AXIOM | KEID + WAID + BSKN
+ AXIOM ¡ ⠆⢄⠃⡄ ⧓ WAID ⫯ BSKN Ξ BSID
+
+ # AXIOM | BION-ID
+ AXIOM ¡ WAID ⧓ NR Ξ BIID
+
+TOCHTERWABEN-KATEGORIE # EINGABEWABE
+
+ # AXIOM | HOLE RAM EINHEIT
+ AXIOM ¡ RA ⍠ RA
+ AXIOM ¡ RA ⍠ RA
+
+ # EINHEIT | RAM
+ EINHEIT # RA
+ EINHEIT # RA
+
+ # EINGABE | EINGABE INPUT
+ EINGABE EA 𖣇
+
+KINDERWABEN-KATEGORIE # SYSTEMWABE
+
+ # HONIGTROPFEN | HON | ZU-BIDUNGEN
+ HONIGTROPFEN ⠆⢂⠅⠔ TABELLE
+ HONIGTROPFEN ⠆⢂⠅⠘ ECC
+
+ # AXIOM | HONIGTROPFEN
+ AXIOM ¡ ⠆⢂⠅⠔ ⥛⥛ ⠆⢂⠅⠘ ⥱ EA Ξ EA
+
+ # AXIOM | EINGABE GLEICH PLATZ AUSGABE
+ AXIOM ¡ EA Ξ AA
+
+ AUSGABE AA ^
+
+ # AXIOM | EINGABE PLATZ-BESTIMMUNG
+ AXIOM ¡ 𖭰RA𖭿AA𖭿𖭱 Ξ ZW
+
+ # AXIOM | EINGABEBEHALTEN LÖSCHEN
+ AXIOM ¡ EA ⎚
+
+ # PRÄFIX
+ PRÄFIX PR
+
+ # AXIOM | BSK | KEID + WAID + PR
+ AXIOM ¡ ⠆⢄⠃⡄ ⧓ WAID ⫯ PR Ξ BSFX
+
+ # BSK-PRÄFIX | KENNUNGSERWEITERUNG FÜR EINHEITEN
+ BSK-PF BSFX
+
+ # AXIOM | PRÄFIX TAGG ERNEUERN UND RAM
+ AXIOM ¡ ZW ⥓ BSFX ⍠ RA
+
+ # EINHEIT | RAM
+ EINHEIT RA
+
+ # AXIOM WABEN SYSTEM-ID | PROZESS STOP
+ AXIOM ¡ # ⦳ #
+
+###====================================|====================================###
+
+MUTTERWABEN-KATEGORIE # COMBOWABE
+
+###====================================|====================================###
+
+MUTTERWABEN-KATEGORIE # ENDWABE
 
 ###====================================|====================================###
 ###===============================BOXIS-KOORDI==============================###
@@ -1900,8 +3012,88 @@ MUTTERWABEN-KATEGORIE ⠆⢂⠔⠑ STARTWABE
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE ⠆⢂⠌⠰ 
+MUTTERWABEN-KATEGORIE # BAUWABE
 
+ PROGRAMM-KERN # TEXT
+
+ WABEN-ID # EG
+
+ BION-NR # NR
+
+ BION-ID # BIID
+
+ BSK-KN # BSKN
+
+ BSK-ID # BSID
+
+ BION # BION
+
+ BSK # BSK
+
+ # AXIOM | KEID + WAID + BSKN
+ AXIOM ¡ ⠆⢄⠃⡄ ⧓ WAID ⫯ BSKN Ξ BSID
+
+ # AXIOM | BION-ID
+ AXIOM ¡ WAID ⧓ NR Ξ BIID
+
+TOCHTERWABEN-KATEGORIE # EINGABEWABE
+
+ # AXIOM | HOLE RAM EINHEIT
+ AXIOM ¡ RA ⍠ RA
+ AXIOM ¡ RA ⍠ RA
+
+ # EINHEIT | RAM
+ EINHEIT # RA
+ EINHEIT # RA
+
+ # EINGABE | EINGABE INPUT
+ EINGABE EA 𖣇
+
+KINDERWABEN-KATEGORIE # SYSTEMWABE
+
+ # HONIGTROPFEN | HON | ZU-BIDUNGEN
+ HONIGTROPFEN ⠆⢂⠅⠔ TABELLE
+ HONIGTROPFEN ⠆⢂⠅⠘ ECC
+
+ # AXIOM | HONIGTROPFEN
+ AXIOM ¡ ⠆⢂⠅⠔ ⥛⥛ ⠆⢂⠅⠘ ⥱ EA Ξ EA
+
+ # AXIOM | EINGABE GLEICH PLATZ AUSGABE
+ AXIOM ¡ EA Ξ AA
+
+ AUSGABE AA ^
+
+ # AXIOM | EINGABE PLATZ-BESTIMMUNG
+ AXIOM ¡ 𖭰RA𖭿AA𖭿𖭱 Ξ ZW
+
+ # AXIOM | EINGABEBEHALTEN LÖSCHEN
+ AXIOM ¡ EA ⎚
+
+ # PRÄFIX
+ PRÄFIX PR
+
+ # AXIOM | BSK | KEID + WAID + PR
+ AXIOM ¡ ⠆⢄⠃⡄ ⧓ WAID ⫯ PR Ξ BSFX
+
+ # BSK-PRÄFIX | KENNUNGSERWEITERUNG FÜR EINHEITEN
+ BSK-PF BSFX
+
+ # AXIOM | PRÄFIX TAGG ERNEUERN UND RAM
+ AXIOM ¡ ZW ⥓ BSFX ⍠ RA
+
+ # EINHEIT | RAM
+ EINHEIT RA
+
+ # AXIOM WABEN SYSTEM-ID | PROZESS STOP
+ AXIOM ¡ # ⦳ #
+
+###====================================|====================================###
+
+MUTTERWABEN-KATEGORIE # COMBOWABE
+
+###====================================|====================================###
+
+MUTTERWABEN-KATEGORIE # ENDWABE
 
 ###====================================|====================================###
 ###===============================BOXIS-EINGABE=============================###
@@ -2006,7 +3198,88 @@ MUTTERWABEN-KATEGORIE ⠆⢂⠔⠑ STARTWABE
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE ⠆⢂⠊⠨
+MUTTERWABEN-KATEGORIE # BAUWABE
+
+ PROGRAMM-KERN # TEXT
+
+ WABEN-ID # EG
+
+ BION-NR # NR
+
+ BION-ID # BIID
+
+ BSK-KN # BSKN
+
+ BSK-ID # BSID
+
+ BION # BION
+
+ BSK # BSK
+
+ # AXIOM | KEID + WAID + BSKN
+ AXIOM ¡ ⠆⢄⠃⡄ ⧓ WAID ⫯ BSKN Ξ BSID
+
+ # AXIOM | BION-ID
+ AXIOM ¡ WAID ⧓ NR Ξ BIID
+
+TOCHTERWABEN-KATEGORIE # EINGABEWABE
+
+ # AXIOM | HOLE RAM EINHEIT
+ AXIOM ¡ RA ⍠ RA
+ AXIOM ¡ RA ⍠ RA
+
+ # EINHEIT | RAM
+ EINHEIT # RA
+ EINHEIT # RA
+
+ # EINGABE | EINGABE INPUT
+ EINGABE EA 𖣇
+
+KINDERWABEN-KATEGORIE # SYSTEMWABE
+
+ # HONIGTROPFEN | HON | ZU-BIDUNGEN
+ HONIGTROPFEN ⠆⢂⠅⠔ TABELLE
+ HONIGTROPFEN ⠆⢂⠅⠘ ECC
+
+ # AXIOM | HONIGTROPFEN
+ AXIOM ¡ ⠆⢂⠅⠔ ⥛⥛ ⠆⢂⠅⠘ ⥱ EA Ξ EA
+
+ # AXIOM | EINGABE GLEICH PLATZ AUSGABE
+ AXIOM ¡ EA Ξ AA
+
+ AUSGABE AA ^
+
+ # AXIOM | EINGABE PLATZ-BESTIMMUNG
+ AXIOM ¡ 𖭰RA𖭿AA𖭿𖭱 Ξ ZW
+
+ # AXIOM | EINGABEBEHALTEN LÖSCHEN
+ AXIOM ¡ EA ⎚
+
+ # PRÄFIX
+ PRÄFIX PR
+
+ # AXIOM | BSK | KEID + WAID + PR
+ AXIOM ¡ ⠆⢄⠃⡄ ⧓ WAID ⫯ PR Ξ BSFX
+
+ # BSK-PRÄFIX | KENNUNGSERWEITERUNG FÜR EINHEITEN
+ BSK-PF BSFX
+
+ # AXIOM | PRÄFIX TAGG ERNEUERN UND RAM
+ AXIOM ¡ ZW ⥓ BSFX ⍠ RA
+
+ # EINHEIT | RAM
+ EINHEIT RA
+
+ # AXIOM WABEN SYSTEM-ID | PROZESS STOP
+ AXIOM ¡ # ⦳ #
+
+###====================================|====================================###
+
+MUTTERWABEN-KATEGORIE # COMBOWABE
+
+###====================================|====================================###
+
+MUTTERWABEN-KATEGORIE # ENDWABE
 
 ###====================================|====================================###
 ###=================================BOXIS-TWS===============================###
@@ -2112,8 +3385,88 @@ MUTTERWABEN-KATEGORIE ⠆⢂⠔⠑ STARTWABE
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE ⠆⢂⠉⢐ 
+MUTTERWABEN-KATEGORIE # BAUWABE
 
+ PROGRAMM-KERN # TEXT
+
+ WABEN-ID # EG
+
+ BION-NR # NR
+
+ BION-ID # BIID
+
+ BSK-KN # BSKN
+
+ BSK-ID # BSID
+
+ BION # BION
+
+ BSK # BSK
+
+ # AXIOM | KEID + WAID + BSKN
+ AXIOM ¡ ⠆⢄⠃⡄ ⧓ WAID ⫯ BSKN Ξ BSID
+
+ # AXIOM | BION-ID
+ AXIOM ¡ WAID ⧓ NR Ξ BIID
+
+TOCHTERWABEN-KATEGORIE # EINGABEWABE
+
+ # AXIOM | HOLE RAM EINHEIT
+ AXIOM ¡ RA ⍠ RA
+ AXIOM ¡ RA ⍠ RA
+
+ # EINHEIT | RAM
+ EINHEIT # RA
+ EINHEIT # RA
+
+ # EINGABE | EINGABE INPUT
+ EINGABE EA 𖣇
+
+KINDERWABEN-KATEGORIE # SYSTEMWABE
+
+ # HONIGTROPFEN | HON | ZU-BIDUNGEN
+ HONIGTROPFEN ⠆⢂⠅⠔ TABELLE
+ HONIGTROPFEN ⠆⢂⠅⠘ ECC
+
+ # AXIOM | HONIGTROPFEN
+ AXIOM ¡ ⠆⢂⠅⠔ ⥛⥛ ⠆⢂⠅⠘ ⥱ EA Ξ EA
+
+ # AXIOM | EINGABE GLEICH PLATZ AUSGABE
+ AXIOM ¡ EA Ξ AA
+
+ AUSGABE AA ^
+
+ # AXIOM | EINGABE PLATZ-BESTIMMUNG
+ AXIOM ¡ 𖭰RA𖭿AA𖭿𖭱 Ξ ZW
+
+ # AXIOM | EINGABEBEHALTEN LÖSCHEN
+ AXIOM ¡ EA ⎚
+
+ # PRÄFIX
+ PRÄFIX PR
+
+ # AXIOM | BSK | KEID + WAID + PR
+ AXIOM ¡ ⠆⢄⠃⡄ ⧓ WAID ⫯ PR Ξ BSFX
+
+ # BSK-PRÄFIX | KENNUNGSERWEITERUNG FÜR EINHEITEN
+ BSK-PF BSFX
+
+ # AXIOM | PRÄFIX TAGG ERNEUERN UND RAM
+ AXIOM ¡ ZW ⥓ BSFX ⍠ RA
+
+ # EINHEIT | RAM
+ EINHEIT RA
+
+ # AXIOM WABEN SYSTEM-ID | PROZESS STOP
+ AXIOM ¡ # ⦳ #
+
+###====================================|====================================###
+
+MUTTERWABEN-KATEGORIE # COMBOWABE
+
+###====================================|====================================###
+
+MUTTERWABEN-KATEGORIE # ENDWABE
 
 ###====================================|====================================###
 ###===========================KOMPAKTE-WABEN-PFADE==========================###
