@@ -19,6 +19,30 @@
 
 ###==============================INFORMATIONEN==============================###
 
+ DIESE SEITE BESCHREIBT PRÄFIX ZUSÄTZE FÜR BSK-PF VERZWEIGUNGEN UNTERHALB 
+ DES HAUPT BSK-ID PRÄFIXES. 
+
+ DIES IST NOCH IM AUFBAU UND SOLL DIE BSK LOGIK VERBSSSERN UND DIENT ALS 
+ GRUNDLAGE FÜR DEN PLASK. 
+
 ###===================ENTWICKLER-PROGRAMMIERUNGSBEREICH=====================###
+
+ BION-ID PRÄFIX BSK-ID 
+ BSK-ID VERZWEIGUNG BSK-PR
+
+ Z.B :
+ {BXMK+BXHT-*+BXST-*}
+
+ SAGT :
+ {BXST-*S BXST-*E}
+
+ PRÄZISE ANSTEUERUNG :
+ {BXMK+BXHT-*BXST-*+BXEG-*}
+
+ BRINGT VERZWEIGUNG : 
+ {BXEG-**I}
+-------------------------------------------------
+ PLASK : {BXMK:BXHT-*} {BXHT-*:BXST-*S BXST-*E}
+         {BXST-*S:BXEG-**I}
 
 ###=====================INDUSTRIE-STANDARD-DER-ZUKUNFT======================###
