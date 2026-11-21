@@ -4843,14 +4843,13 @@ MUTTERWABEN-KATEGORIE # ENDWABE
 
 ###====================================|====================================###
 ###===========================KOMPAKTE-WABEN-PFADE==========================###
--------------------------------------------------------------------------------------------------
-baustelle !!!!!!!!!
+
  PFAD-PROGRAMM = TEXT
- PFAD-BION-ID  = ⠆⢂⣀⠊ ⠆⢂⢠⢄ ⠆⢂⠅⢄ ⠆⢁⡁⠔ ⠆⢁⡁⠊
- PFAD-BION     = BX007MK007HT005ST005EG001CB001
- PFAD-BSK      = BXMK+BXHT-TEXT+BXST-TEXT+BXEG-TEXT+BXED-TEXT
- PLASK-KOMPAKT = {BXMK:BXHT-TEXT:BXHT-TEXT:BXST-TEXT=BXST-TEXTS=BXST-TEXTE:BXEG-TEXT=BXEG-TEXTSI:BXCB-TEXT=BXCB-TEXTSIE:BXED-TEXT}
--------------------------------------------------------------------------------------------------
+ PFAD-BION-ID  = ⠆⢂⣀⠤ ⠆⢂⣀⠊ ⠆⢂⢠⢄ ⠆⢂⠅⢄ ⠆⢁⡁⠔ ⠆⢁⡁⠊
+ PFAD-BION     = BX007MK007HT005ST005EG001CB001ED002
+ PFAD-BSK      = BXMK+BXHT-TEXT+BXST-TEXT+BXEG-TEXT+BXCB-TEXT+BXED-TEXT
+ PLASK-KOMPAKT = {BXMK:BXHT-TEXT:BXST-TEXT=BXST-TEXTS=BXST-TEXTE:BXEG-TEXT=BXEG-TEXTSI:BXCB-TEXT=BXCB-TEXTSIE:BXED-TEXT}
+
  PFAD-PROGRAMM = {NAME}
  PFAD-BION-ID  = {SYSTEM-ID}
  PFAD-BION     = {WABEN-PFAD}
