@@ -77,7 +77,7 @@
 !¢
 
 ¢!
-»—[¥: BOXIS-BXMK :¥]«««~: BAUMODUS FUNKTION SPEICHER ANZEIGE :~«
+»—[¥: BOXIS-BXMK :¥]«««~: BAUMODUS FUNKTION SPEICHER ABRUF :~«
  <· —[": {TEXT} :"]
  <· —[×: {ALU} :×]
  <· —[~: {MCD} :~]
@@ -89,11 +89,13 @@
  <· —[ºº: {MACODE} :ºº]
  <· —[§: {NET} :§]
  <· —[$: {PFAD} :$]
- <· —[!: {STROM} :!]
+ <· —[Ŋ: {STROM} :Ŋ]
  <· —[¿: {UEFI} :¿]
+ <· —[Ŧ: {UTF} :Ŧ]
  <· —[ĸ: {KOORDI} :ĸ]
  <· —[#: {RAM} :#]
  <· —[&: {EINGABE} :&]
+ <· —[Æ: {TWS} :Æ] 
 !¢
 
 ¢!
@@ -153,12 +155,17 @@
 
 ¢!
 »—[¥: BOXIS-BXHT-STROM :¥]«««~: BAUMODUS FUNKTION SPEICHER ABRUF :~«
- !: ^ :!
+ Ŋ: ^ :Ŋ
 !¢
 
 ¢!
 »—[¥: BOXIS-BXHT-UEFI :¥]«««~: BAUMODUS FUNKTION SPEICHER ABRUF :~«
  ¿: ^ :¿
+!¢
+
+¢!
+»—[¥: BOXIS-BXHT-UTF :¥]«««~: BAUMODUS FUNKTION SPEICHER ABRUF :~«
+ Ŧ: ^ :Ŧ
 !¢
 
 ¢!
@@ -174,6 +181,11 @@
 ¢!
 »—[¥: BOXIS-BXHT-EINGABE :¥]«««~: BAUMODUS FUNKTION SPEICHER ABRUF :~«
  &: ^ :&
+!¢
+
+¢!
+»—[¥: BOXIS-BXHT-TWS :¥]«««~: BAUMODUS FUNKTION SPEICHER ABRUF :~«
+ Æ: ^ :Æ
 !¢
 
 ¢!
