@@ -15,15 +15,13 @@
  #############################################################################
  #                     PUNKTE MIT SYSTEM-ID SIND AKTIV                       #
 ###===============================MCS-KATALOG===============================###
-###=================DIESER BEREICH WIRD DEMNÄCHST NEU SORTIERT==============###
  # NR S-ID NAMEN                       | NR S-ID NAMEN                       #
  # 01 ⠆⢄⠢⠒ TRANSAKTIONSRAHMEN          | 02 ⠆⢄⠢⠔ PROTEIN                     #
- # 03 <S-ID> PONTIFEX                  | 04 <S-ID> AKTIONSDRAHT              #
- # 05 <S-ID> RETRON                    | 06 <S-ID> PATRON                    #
- # 07 <S-ID> ICTUS                     | 08 <S-ID> BOXIS                     #
- # 09 <S-ID> SENTIATOR                 | 10 <S-ID> FEED                      #
- # 11 <S-ID> NITROX                    | 12 <S-ID> ZYTRON                    #
- # 13 <S-ID> MCD                       | 14 <S-ID>                           #
+ # 03 S-ID PONTIFEX                    | 04 S-ID AKTIONSDRAHT                #
+ # 05 S-ID NECTAR                      | 06 S-ID ICTUS                       #
+ # 07 S-ID BOXIS                       | 08 S-ID SENTIATOR                   #
+ # 09 S-ID NITROX                      | 10 S-ID FEED                        #         
+ # 11 S-ID ZYTRON                      | 12 S-ID MCD                         #
 ###===============================LERNMATERIAL==============================###
  # 20 <S-ID> BAUMODUS                  | 21 <S-ID> PLATZHALTER-GRAMMATIK     #
  # 21 <S-ID>BAUSTEINSCHALTUNGSKREISLAUF| 22 <S-ID> FUNKTIONSAUFBAU           #
@@ -36,7 +34,7 @@
 ###===============================VERSIONSDATEN=============================###
  # SYSTEM ⠆⢄⢐⡐ PNS 2.6.4 PYLOVARA—NETZWERK—SYSTEM            #   #         # #
  # PROGRAMMIERSPRACHE ⠆⢄⢐⠑ MCS 7.5 | MASCHINEN-CODE-SPEECH   #     ⠆⢄⢐⠔      #
- # KERNELSPRACHE  ⠆⢄⢐⢈ TWS 0.3 | THE-WABE-NEST-SYSTEM        #               #
+ # KERNELSPRACHE  ⠆⢄⢐⢈ TWS 0.3 | THE-WABE-NEST-SYSTEM        #       #       #
  # TASTATURSTANDARD ⠆⢄⢐⠒ UTF -8 | DEUTSCHER-STANDARD         #   #           #
  # LIZENZEN ⠆⢄⢐⠤ LV 1.6 | LIZENZVERTRAG                      #            #  #
 ###=================================IMPRESSUM===============================###
