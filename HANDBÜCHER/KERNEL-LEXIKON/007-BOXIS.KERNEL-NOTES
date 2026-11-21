@@ -288,7 +288,7 @@ KINDERWABEN-KATEGORIE ⠆⢂⠅⠒ SYSTEMWABE
  EINHEIT ⠆⢂⠅⡂ ": ^ BXEG-TEXTSI
 
  # AXIOM WABEN SYSTEM-ID | PROZESS STOP
- AXIOM ¡ ⠆⢂⠅⢄ ⦳ BIID
+ AXIOM ¡ ⠆⢂⠅⢄ ⦳ ⠆⢁⡁⠔
 
 ###====================================|====================================###
 
@@ -311,45 +311,70 @@ MUTTERWABEN-KATEGORIE ⠆⢁⡂⠉ BAUWABE
  BSK ⠆⢁⡁⠤ BXMK+BXHT-TEXT+BXST-TEXT+BXEG-TEXT+BXCB-TEXT
 
  # AXIOM | KEID + WAID + BSKN
- AXIOM ¡ ⠆⢄⠃⡄ ⧓ ⠆⢁⡂⠌ ⫯ BSKN Ξ BSID
+ AXIOM ¡ ⠆⢄⠃⡄ ⧓ ⠆⢁⡂⠌ ⫯ ⠆⢁⡁⠘ Ξ ⠆⢁⡁⠡
 
  # AXIOM | BION-ID
- AXIOM ¡ ⠆⢁⡂⠌ ⧓ NR Ξ BIID
+ AXIOM ¡ ⠆⢁⡂⠌ ⧓ ⠆⢁⡁⠒ Ξ ⠆⢁⡁⠔
 
-TOCHTERWABEN-KATEGORIE # COMBOWABE
+TOCHTERWABEN-KATEGORIE ⠆⢁⡁⠨ COMBOWABE
 
  # AXIOM | HOLE RAM EINHEIT 
- AXIOM ¡ RA ⍠ RA
- AXIOM ¡ RA ⍠ RA
+ AXIOM ¡ ⠆⢂⠅⡂ ⍠ ⠆⢁⡁⡂
+ AXIOM ¡ ⠆⢂⢠⠒ ⍠ ⠆⢁⡁⡄
 
  # EINHEIT | RAM 
- EINHEIT # RA
- EINHEIT # RA
+ EINHEIT ⠆⢁⡁⡂ ": ^ BXEG-TEXTSI
+ EINHEIT ⠆⢁⡁⡄ :" BXST-TEXTE
 
  # AXIOM | KOMPONENTE BAUEN  
- AXIOM ¡ RA ⧓ RA Ξ ZW
+ AXIOM ¡ ⠆⢁⡁⡂ ⧓ ⠆⢁⡁⡄ Ξ ⠆⢁⡁⡈
 
  # PRÄFIX 
- PRÄFIX PR
+ PRÄFIX ⠆⢁⡁⡐ TEXTSIE
 
  # AXIOM | BSK | KEID + WAID + PR
- AXIOM ¡ ⠆⢄⠃⡄ ⧓ ⠆⢁⡂⠌ ⫯ PR Ξ BSFX
+ AXIOM ¡ ⠆⢄⠃⡄ ⧓ ⠆⢁⡂⠌ ⫯ ⠆⢁⡁⡐ Ξ ⠆⢁⠰⢂
 
  # BSK-PRÄFIX | KENNUNGSERWEITERUNG FÜR EINHEITEN
- BSK-PF BSFX
+ BSK-PF ⠆⢁⠰⢂
 
  # AXIOM | PRÄFIX TAGG ERNEUERN UND RAM  
- AXIOM ¡ ZW ⥓ BSFX ⍠ RA
+ AXIOM ¡ ⠆⢁⡁⡈ ⥓ ⠆⢁⠰⢂ ⍠ ⠆⢁⠰⢄
 
  # EINHEIT | RAM
- EINHEIT RA
+ EINHEIT ⠆⢁⠰⢄ ": ^ :" BXCB-TEXTSIE
 
  # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
- AXIOM ¡ BIID ⦳ BIID
+ AXIOM ¡ ⠆⢁⡁⠔ ⦳ BIID
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE # ENDWABE
+MUTTERWABEN-KATEGORIE # ENDWABE 
+
+ PROGRAMM-KERN # NA
+
+ WABEN-ID # ED
+
+ BION-NR # NR
+
+ BION-ID # BIID
+
+ BSK-KN # BSKN
+
+ BSK-ID # BSID
+
+ BION # BION
+
+ BSK # BSK
+
+ # AXIOM | KEID + WAID + BSKN
+ AXIOM ¡ KEID ⧓ WAID ⫯ BSKN Ξ BSID
+
+ # AXIOM | BION-ID
+ AXIOM ¡ WAID ⧓ NR Ξ BIID
+
+ # AXIOM | HAUPTWABEN DURCHLAUF BEENDEN
+ AXIOM ¡ BIID ⦱
 
 ###====================================|====================================###
 ###================================BOXIS-ALU================================###
@@ -587,7 +612,32 @@ TOCHTERWABEN-KATEGORIE # COMBOWABE
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE # ENDWABE
+MUTTERWABEN-KATEGORIE # ENDWABE 
+
+ PROGRAMM-KERN # NA
+
+ WABEN-ID # ED
+
+ BION-NR # NR
+
+ BION-ID # BIID
+
+ BSK-KN # BSKN
+
+ BSK-ID # BSID
+
+ BION # BION
+
+ BSK # BSK
+
+ # AXIOM | KEID + WAID + BSKN
+ AXIOM ¡ KEID ⧓ WAID ⫯ BSKN Ξ BSID
+
+ # AXIOM | BION-ID
+ AXIOM ¡ WAID ⧓ NR Ξ BIID
+
+ # AXIOM | HAUPTWABEN DURCHLAUF BEENDEN
+ AXIOM ¡ BIID ⦱
 
 ###====================================|====================================###
 ###==============================BOXIS-SYSCALL==============================###
@@ -824,7 +874,32 @@ TOCHTERWABEN-KATEGORIE # COMBOWABE
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE # ENDWABE
+MUTTERWABEN-KATEGORIE # ENDWABE 
+
+ PROGRAMM-KERN # NA
+
+ WABEN-ID # ED
+
+ BION-NR # NR
+
+ BION-ID # BIID
+
+ BSK-KN # BSKN
+
+ BSK-ID # BSID
+
+ BION # BION
+
+ BSK # BSK
+
+ # AXIOM | KEID + WAID + BSKN
+ AXIOM ¡ KEID ⧓ WAID ⫯ BSKN Ξ BSID
+
+ # AXIOM | BION-ID
+ AXIOM ¡ WAID ⧓ NR Ξ BIID
+
+ # AXIOM | HAUPTWABEN DURCHLAUF BEENDEN
+ AXIOM ¡ BIID ⦱
 
 ###====================================|====================================###
 ###================================BOXIS-ABI================================###
@@ -1062,7 +1137,32 @@ TOCHTERWABEN-KATEGORIE # COMBOWABE
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE # ENDWABE
+MUTTERWABEN-KATEGORIE # ENDWABE 
+
+ PROGRAMM-KERN # NA
+
+ WABEN-ID # ED
+
+ BION-NR # NR
+
+ BION-ID # BIID
+
+ BSK-KN # BSKN
+
+ BSK-ID # BSID
+
+ BION # BION
+
+ BSK # BSK
+
+ # AXIOM | KEID + WAID + BSKN
+ AXIOM ¡ KEID ⧓ WAID ⫯ BSKN Ξ BSID
+
+ # AXIOM | BION-ID
+ AXIOM ¡ WAID ⧓ NR Ξ BIID
+
+ # AXIOM | HAUPTWABEN DURCHLAUF BEENDEN
+ AXIOM ¡ BIID ⦱
 
 ###====================================|====================================###
 ###=============================BOXIS-FUNKTION==============================###
@@ -1300,7 +1400,32 @@ TOCHTERWABEN-KATEGORIE # COMBOWABE
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE # ENDWABE
+MUTTERWABEN-KATEGORIE # ENDWABE 
+
+ PROGRAMM-KERN # NA
+
+ WABEN-ID # ED
+
+ BION-NR # NR
+
+ BION-ID # BIID
+
+ BSK-KN # BSKN
+
+ BSK-ID # BSID
+
+ BION # BION
+
+ BSK # BSK
+
+ # AXIOM | KEID + WAID + BSKN
+ AXIOM ¡ KEID ⧓ WAID ⫯ BSKN Ξ BSID
+
+ # AXIOM | BION-ID
+ AXIOM ¡ WAID ⧓ NR Ξ BIID
+
+ # AXIOM | HAUPTWABEN DURCHLAUF BEENDEN
+ AXIOM ¡ BIID ⦱
 
 ###====================================|====================================###
 ###================================BOXIS-MCD================================###
@@ -1538,7 +1663,32 @@ TOCHTERWABEN-KATEGORIE # COMBOWABE
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE # ENDWABE
+MUTTERWABEN-KATEGORIE # ENDWABE 
+
+ PROGRAMM-KERN # NA
+
+ WABEN-ID # ED
+
+ BION-NR # NR
+
+ BION-ID # BIID
+
+ BSK-KN # BSKN
+
+ BSK-ID # BSID
+
+ BION # BION
+
+ BSK # BSK
+
+ # AXIOM | KEID + WAID + BSKN
+ AXIOM ¡ KEID ⧓ WAID ⫯ BSKN Ξ BSID
+
+ # AXIOM | BION-ID
+ AXIOM ¡ WAID ⧓ NR Ξ BIID
+
+ # AXIOM | HAUPTWABEN DURCHLAUF BEENDEN
+ AXIOM ¡ BIID ⦱
 
 ###====================================|====================================###
 ###================================BOXIS-PFAD===============================###
@@ -1775,7 +1925,32 @@ TOCHTERWABEN-KATEGORIE # COMBOWABE
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE # ENDWABE
+MUTTERWABEN-KATEGORIE # ENDWABE 
+
+ PROGRAMM-KERN # NA
+
+ WABEN-ID # ED
+
+ BION-NR # NR
+
+ BION-ID # BIID
+
+ BSK-KN # BSKN
+
+ BSK-ID # BSID
+
+ BION # BION
+
+ BSK # BSK
+
+ # AXIOM | KEID + WAID + BSKN
+ AXIOM ¡ KEID ⧓ WAID ⫯ BSKN Ξ BSID
+
+ # AXIOM | BION-ID
+ AXIOM ¡ WAID ⧓ NR Ξ BIID
+
+ # AXIOM | HAUPTWABEN DURCHLAUF BEENDEN
+ AXIOM ¡ BIID ⦱
 
 ###====================================|====================================###
 ###================================BOXIS-NET================================###
@@ -2012,7 +2187,32 @@ TOCHTERWABEN-KATEGORIE # COMBOWABE
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE # ENDWABE
+MUTTERWABEN-KATEGORIE # ENDWABE 
+
+ PROGRAMM-KERN # NA
+
+ WABEN-ID # ED
+
+ BION-NR # NR
+
+ BION-ID # BIID
+
+ BSK-KN # BSKN
+
+ BSK-ID # BSID
+
+ BION # BION
+
+ BSK # BSK
+
+ # AXIOM | KEID + WAID + BSKN
+ AXIOM ¡ KEID ⧓ WAID ⫯ BSKN Ξ BSID
+
+ # AXIOM | BION-ID
+ AXIOM ¡ WAID ⧓ NR Ξ BIID
+
+ # AXIOM | HAUPTWABEN DURCHLAUF BEENDEN
+ AXIOM ¡ BIID ⦱
 
 ###====================================|====================================###
 ###==============================BOXIS-OPCODE===============================###
@@ -2250,7 +2450,32 @@ TOCHTERWABEN-KATEGORIE # COMBOWABE
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE # ENDWABE
+MUTTERWABEN-KATEGORIE # ENDWABE 
+
+ PROGRAMM-KERN # NA
+
+ WABEN-ID # ED
+
+ BION-NR # NR
+
+ BION-ID # BIID
+
+ BSK-KN # BSKN
+
+ BSK-ID # BSID
+
+ BION # BION
+
+ BSK # BSK
+
+ # AXIOM | KEID + WAID + BSKN
+ AXIOM ¡ KEID ⧓ WAID ⫯ BSKN Ξ BSID
+
+ # AXIOM | BION-ID
+ AXIOM ¡ WAID ⧓ NR Ξ BIID
+
+ # AXIOM | HAUPTWABEN DURCHLAUF BEENDEN
+ AXIOM ¡ BIID ⦱
 
 ###====================================|====================================###
 ###===========================BOXIS-MASCHINENCODE===========================###
@@ -2488,7 +2713,32 @@ TOCHTERWABEN-KATEGORIE # COMBOWABE
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE # ENDWABE
+MUTTERWABEN-KATEGORIE # ENDWABE 
+
+ PROGRAMM-KERN # NA
+
+ WABEN-ID # ED
+
+ BION-NR # NR
+
+ BION-ID # BIID
+
+ BSK-KN # BSKN
+
+ BSK-ID # BSID
+
+ BION # BION
+
+ BSK # BSK
+
+ # AXIOM | KEID + WAID + BSKN
+ AXIOM ¡ KEID ⧓ WAID ⫯ BSKN Ξ BSID
+
+ # AXIOM | BION-ID
+ AXIOM ¡ WAID ⧓ NR Ξ BIID
+
+ # AXIOM | HAUPTWABEN DURCHLAUF BEENDEN
+ AXIOM ¡ BIID ⦱
 
 ###====================================|====================================###
 ###================================BOXIS-UEFI===============================###
@@ -2726,7 +2976,32 @@ TOCHTERWABEN-KATEGORIE # COMBOWABE
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE # ENDWABE
+MUTTERWABEN-KATEGORIE # ENDWABE 
+
+ PROGRAMM-KERN # NA
+
+ WABEN-ID # ED
+
+ BION-NR # NR
+
+ BION-ID # BIID
+
+ BSK-KN # BSKN
+
+ BSK-ID # BSID
+
+ BION # BION
+
+ BSK # BSK
+
+ # AXIOM | KEID + WAID + BSKN
+ AXIOM ¡ KEID ⧓ WAID ⫯ BSKN Ξ BSID
+
+ # AXIOM | BION-ID
+ AXIOM ¡ WAID ⧓ NR Ξ BIID
+
+ # AXIOM | HAUPTWABEN DURCHLAUF BEENDEN
+ AXIOM ¡ BIID ⦱
 
 ###====================================|====================================###
 ###================================BOXIS-UTF================================###
@@ -2964,7 +3239,32 @@ TOCHTERWABEN-KATEGORIE # COMBOWABE
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE # ENDWABE
+MUTTERWABEN-KATEGORIE # ENDWABE 
+
+ PROGRAMM-KERN # NA
+
+ WABEN-ID # ED
+
+ BION-NR # NR
+
+ BION-ID # BIID
+
+ BSK-KN # BSKN
+
+ BSK-ID # BSID
+
+ BION # BION
+
+ BSK # BSK
+
+ # AXIOM | KEID + WAID + BSKN
+ AXIOM ¡ KEID ⧓ WAID ⫯ BSKN Ξ BSID
+
+ # AXIOM | BION-ID
+ AXIOM ¡ WAID ⧓ NR Ξ BIID
+
+ # AXIOM | HAUPTWABEN DURCHLAUF BEENDEN
+ AXIOM ¡ BIID ⦱
 
 ###====================================|====================================###
 ###===============================BOXIS-STROM===============================###
@@ -3202,7 +3502,32 @@ TOCHTERWABEN-KATEGORIE # COMBOWABE
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE # ENDWABE
+MUTTERWABEN-KATEGORIE # ENDWABE 
+
+ PROGRAMM-KERN # NA
+
+ WABEN-ID # ED
+
+ BION-NR # NR
+
+ BION-ID # BIID
+
+ BSK-KN # BSKN
+
+ BSK-ID # BSID
+
+ BION # BION
+
+ BSK # BSK
+
+ # AXIOM | KEID + WAID + BSKN
+ AXIOM ¡ KEID ⧓ WAID ⫯ BSKN Ξ BSID
+
+ # AXIOM | BION-ID
+ AXIOM ¡ WAID ⧓ NR Ξ BIID
+
+ # AXIOM | HAUPTWABEN DURCHLAUF BEENDEN
+ AXIOM ¡ BIID ⦱
 
 ###====================================|====================================###
 ###===============================BOXIS-SHELL===============================###
@@ -3439,7 +3764,32 @@ TOCHTERWABEN-KATEGORIE # COMBOWABE
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE # ENDWABE
+MUTTERWABEN-KATEGORIE # ENDWABE 
+
+ PROGRAMM-KERN # NA
+
+ WABEN-ID # ED
+
+ BION-NR # NR
+
+ BION-ID # BIID
+
+ BSK-KN # BSKN
+
+ BSK-ID # BSID
+
+ BION # BION
+
+ BSK # BSK
+
+ # AXIOM | KEID + WAID + BSKN
+ AXIOM ¡ KEID ⧓ WAID ⫯ BSKN Ξ BSID
+
+ # AXIOM | BION-ID
+ AXIOM ¡ WAID ⧓ NR Ξ BIID
+
+ # AXIOM | HAUPTWABEN DURCHLAUF BEENDEN
+ AXIOM ¡ BIID ⦱
 
 ###====================================|====================================###
 ###=================================BOXIS-RAM===============================###
@@ -3676,7 +4026,32 @@ TOCHTERWABEN-KATEGORIE # COMBOWABE
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE # ENDWABE
+MUTTERWABEN-KATEGORIE # ENDWABE 
+
+ PROGRAMM-KERN # NA
+
+ WABEN-ID # ED
+
+ BION-NR # NR
+
+ BION-ID # BIID
+
+ BSK-KN # BSKN
+
+ BSK-ID # BSID
+
+ BION # BION
+
+ BSK # BSK
+
+ # AXIOM | KEID + WAID + BSKN
+ AXIOM ¡ KEID ⧓ WAID ⫯ BSKN Ξ BSID
+
+ # AXIOM | BION-ID
+ AXIOM ¡ WAID ⧓ NR Ξ BIID
+
+ # AXIOM | HAUPTWABEN DURCHLAUF BEENDEN
+ AXIOM ¡ BIID ⦱
 
 ###====================================|====================================###
 ###===============================BOXIS-KOORDI==============================###
@@ -3914,7 +4289,32 @@ TOCHTERWABEN-KATEGORIE # COMBOWABE
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE # ENDWABE
+MUTTERWABEN-KATEGORIE # ENDWABE 
+
+ PROGRAMM-KERN # NA
+
+ WABEN-ID # ED
+
+ BION-NR # NR
+
+ BION-ID # BIID
+
+ BSK-KN # BSKN
+
+ BSK-ID # BSID
+
+ BION # BION
+
+ BSK # BSK
+
+ # AXIOM | KEID + WAID + BSKN
+ AXIOM ¡ KEID ⧓ WAID ⫯ BSKN Ξ BSID
+
+ # AXIOM | BION-ID
+ AXIOM ¡ WAID ⧓ NR Ξ BIID
+
+ # AXIOM | HAUPTWABEN DURCHLAUF BEENDEN
+ AXIOM ¡ BIID ⦱
 
 ###====================================|====================================###
 ###===============================BOXIS-EINGABE=============================###
@@ -4151,7 +4551,32 @@ TOCHTERWABEN-KATEGORIE # COMBOWABE
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE # ENDWABE
+MUTTERWABEN-KATEGORIE # ENDWABE 
+
+ PROGRAMM-KERN # NA
+
+ WABEN-ID # ED
+
+ BION-NR # NR
+
+ BION-ID # BIID
+
+ BSK-KN # BSKN
+
+ BSK-ID # BSID
+
+ BION # BION
+
+ BSK # BSK
+
+ # AXIOM | KEID + WAID + BSKN
+ AXIOM ¡ KEID ⧓ WAID ⫯ BSKN Ξ BSID
+
+ # AXIOM | BION-ID
+ AXIOM ¡ WAID ⧓ NR Ξ BIID
+
+ # AXIOM | HAUPTWABEN DURCHLAUF BEENDEN
+ AXIOM ¡ BIID ⦱
 
 ###====================================|====================================###
 ###=================================BOXIS-TWS===============================###
@@ -4389,7 +4814,32 @@ TOCHTERWABEN-KATEGORIE # COMBOWABE
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE # ENDWABE
+MUTTERWABEN-KATEGORIE # ENDWABE 
+
+ PROGRAMM-KERN # NA
+
+ WABEN-ID # ED
+
+ BION-NR # NR
+
+ BION-ID # BIID
+
+ BSK-KN # BSKN
+
+ BSK-ID # BSID
+
+ BION # BION
+
+ BSK # BSK
+
+ # AXIOM | KEID + WAID + BSKN
+ AXIOM ¡ KEID ⧓ WAID ⫯ BSKN Ξ BSID
+
+ # AXIOM | BION-ID
+ AXIOM ¡ WAID ⧓ NR Ξ BIID
+
+ # AXIOM | HAUPTWABEN DURCHLAUF BEENDEN
+ AXIOM ¡ BIID ⦱
 
 ###====================================|====================================###
 ###===========================KOMPAKTE-WABEN-PFADE==========================###
