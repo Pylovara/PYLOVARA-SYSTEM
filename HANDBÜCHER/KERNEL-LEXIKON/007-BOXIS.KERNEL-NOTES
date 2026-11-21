@@ -2983,27 +2983,27 @@ MUTTERWABEN-KATEGORIE ⠆⢂⠔⠑ STARTWABE
  EINHEIT ⠆⢂⠌⠨ :ĸ BXST-KOORDIE
 
  # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
- AXIOM ¡ ⠆⢂⠌⡐ ⦳ BIID
+ AXIOM ¡ ⠆⢂⠌⡐ ⦳ ⠆⢁⡄⢈
 
 ###====================================|====================================###
 
 MUTTERWABEN-KATEGORIE ⠆⢁⡄⡐ BAUWABE
 
- PROGRAMM-KERN ⠆⢁⡄⡠ TEXT
+ PROGRAMM-KERN ⠆⢁⡄⡠ KOORDI
 
- WABEN-ID # EG
+ WABEN-ID ⠆⢁⡄⢂ EG
 
- BION-NR # 016
+ BION-NR ⠆⢁⡄⢄ 016
 
- BION-ID # BIID
+ BION-ID ⠆⢁⡄⢈ EG016
 
- BSK-KN # BSKN
+ BSK-KN ⠆⢁⡄⢐ KOORDI
 
- BSK-ID # BSID
+ BSK-ID ⠆⢁⡄⢠ BXEG-KOORDI
 
- BION # BION
+ BION ⠆⢁⡄⣀ 
 
- BSK # BSK
+ BSK ⠆⢁⡈⠃ BSK
 
  # AXIOM | KEID + WAID + BSKN
  AXIOM ¡ ⠆⢄⠃⡄ ⧓ WAID ⫯ BSKN Ξ BSID
@@ -3060,7 +3060,7 @@ KINDERWABEN-KATEGORIE # SYSTEMWABE
  EINHEIT RA
 
  # AXIOM WABEN SYSTEM-ID | PROZESS STOP
- AXIOM ¡ # ⦳ #
+ AXIOM ¡ ⠆⢁⡄⢈ ⦳ BIID
 
 ###====================================|====================================###
 
