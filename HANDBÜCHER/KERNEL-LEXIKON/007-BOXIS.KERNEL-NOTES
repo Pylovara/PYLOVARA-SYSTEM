@@ -4851,8 +4851,9 @@ MUTTERWABEN-KATEGORIE # ENDWABE
  PLASK         = 
  ----------------------------------------------------
  {BXMK:BXHT-TEXT}
- {BXHT-TEXT:BXST-TEXT}
- {}{}{}{}{}{}{}{}{}{}{}{}{}
+ {BXHT-TEXT:BXST-TEXT}{BXST-TEXT:BXST-TEXTS|BXST-TEXTE}
+ {BXST-TEXT:BXEG-TEXT}{BXEG-TEXT:BXEG-TEXTSI}
+ {}{}{}{}{}{}{}{}{}{}
 
 
 
