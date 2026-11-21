@@ -142,6 +142,13 @@ wobei noch nicht entschieden wurde wie der Ł schluss endlich entscheidet
 denke mal 1 <= 0 = Ł 
 oder so .. 
 
+ DER SENTIATOR AUSWAHL ł STELLT PFADE ZUR VERFÜGUNG 
+ DIE GETRIGGERT WERDEN KÖNNEN ... 
+ ER NIMMT DIE AUSWAHKL EINES MULTIPLEXER IN SICH AUF 
+ WÄRENDESSEN DER MULIPLEXER SELBST IN NECTAR VERBAUT IST. 
+
+ DAMIT WÄRE AUCH EIN DEMUX UND MUX VERBESSERTERT EINSETZBAR IN MCS . 
+
 ################################################################################
 # KRITZEL BEREICH 
 
