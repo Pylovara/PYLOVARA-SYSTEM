@@ -291,8 +291,53 @@ KINDERWABEN-KATEGORIE ⠆⢂⠅⠒ SYSTEMWABE
  AXIOM ¡ ⠆⢂⠅⢄ ⦳ BIID
 
 ###====================================|====================================###
+### BAUSTELLEN BEREICH !!!!!!!!!!!
+MUTTERWABEN-KATEGORIE # BAUWABE 
 
-MUTTERWABEN-KATEGORIE # COMBOWABE
+ PROGRAMM-KERN # NA
+
+ WABEN-ID # BA
+
+ BION-NR # NR
+
+ BION-ID # BIID
+
+ BSK-KN # BSKN
+
+ BSK-ID # BSID
+
+ BION # BION
+
+ BSK # BSK
+
+ # AXIOM | KEID + WAID + BSKN
+ AXIOM ¡ KEID ⧓ WAID ⫯ BSKN Ξ BSID
+
+ # AXIOM | BION-ID
+ AXIOM ¡ WAID ⧓ NR Ξ BIID
+
+TOCHTERWABEN-KATEGORIE # COMBOWABE
+
+ # AXIOM | HOLE RAM EINHEIT 
+ AXIOM ¡ # ⍠ RA
+
+ # EINHEIT | RAM 
+ EINHEIT # RA
+
+ # AXIOM | KOMPONENTE BAUEN  
+ AXIOM ¡
+
+ # AXIOM | NAME SETZEN  
+ PRÄFIX # PR
+
+ # AXIOM | RAM 
+ AXIOM ¡ RA ⥓ PR ⍠ RA
+
+ # EINHEIT | RAM
+ EINHEIT RA
+
+ # AXIOM WABEN SYSTEM-ID | PROZESS STOP
+ AXIOM BIID ⦳ BIID
 
 ###====================================|====================================###
 
