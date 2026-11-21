@@ -8,7 +8,7 @@
 
  - PROTON RE-DESIGNE AM ENDE | ERST ALLES ANDERE
  - PROTON {<NAME>;<WERT>} = FREIE ZEICHEN {};
- = PROTONEN WERDEN JETZT IN BOXIS GENUTZT ... -> »—:—[!: ^ :!]«««~: ^ :~« 
+ = PROTONEN WERDEN JETZT IN BOXIS GENUTZT ... -> »—:—[Ŋ: ^ :Ŋ]«««~: ^ :~« 
 
 
  PONTIFEX ============================================
@@ -16,13 +16,8 @@
  TRENNBEFEHL UND BINDUNGSBEFEHL JETZT IN PONTIFEX ENTHALTEN 
  UND BINDUNGSBEFEHL NICHT MEHR PROTON ABHÄNGIG SONDERN BOXIS . 
 
- ZEICHEN FOLGE DOCH OHNE SCHARFES ſ SONDERRN ; 
-
- <BXMK>|*|<BXMK> 
- <BXMK>&*&<BXMK>
-
- EINGRAVIEREN NACH PIPELINE | TA | PI DANN PO(PO = PONTIFEX)
- DER PROTIN MORPH BLEIBT GLEICH, WENIGER NEU LERNEN ... 
+ <BXMK>|<BXMK> 
+ <BXMK>||<BXMK>
 
  DATEITYPEN ============================================
 
@@ -46,7 +41,7 @@
 
  BAUMODUS ==============================================
 
- REX HAT BEIDE ON|OFF PIPE KANÄLE FREI ZUR VERFÜGUNG 
+ NECTAR HAT BEIDE ON|OFF PIPE KANÄLE FREI ZUR VERFÜGUNG 
 
    ~: BAUMODUS FUNKTION SPEICHER EINGANG :~
    ~: BAUMODUS FUNKTION SPEICHER AUSGANG :~ 
@@ -67,7 +62,8 @@
  - MCS TASTATUR EBENE : MCS - PROGRAMMIERUNG | STANDART ANSTEUERUNG
  —[] []  = PROTEIN ( GENERELLES ON-PIPE | OFF-PIPE FÜR EINZEILER )
 
-  ¬    = REX 
+  <    = RETRON
+  >    = PATRON 
   ·    = CPU KERN-1
   ··   = CPU KERN-2
   ···  = CPU KERN-3
@@ -81,52 +77,21 @@
   ΩΩ   = WENN-LÄNGE-NICHT
 
   £<NR> = RETURN MEHRFACH VERKABELUNG | ANSCHLUSS 1 - AUSGÄNGE MEHRFACH
-  ¿<NR> = PARALELLISIERUNGS PRIORISIERER | SELBE NUMMER PRIO
 
  # NEU | DACH = TEXTMITTELS-ANHALTSPUNKT-FÜR RTL-LTR | FIXPUNKT 
 
-  §: ^ :§  = IP ADRESSEN
-  $: ^ :$  = PFAD ANGABEN
-  ': ^ :'  = SHELL BEFEHLE
-  Ħ: ^ :Ħ  = ABI COMMANDOS
-  ¥: ^ :¥  = MCS-FUNKTIONEN
-  ": ^ :"  = PRINT UND/ODER AUSGABE
-  ,: ^ :,  = SYSCALLS
-  º: ^ :º  = OPCODES
- °°: ^ :°° = MASCHINENCODES
-  !: ^ :!  = STROM
+  ^ = 
 
- ! = BOXIS WERDEN NACH BEDARF ERWEITERT
-
-############################################## ARBEITSBEREICH 
- der bereich betrifft die piepline und muss ausgearbeitet werden 
-### NEU | PIPELINE | DATENSTROM ANGABEN 
-
- # EXTRA EINZELN
-
- ↓ = RUNTER 
- ↑ = HOCH 
-
- → = PROZESSSTRANG ( RUNTER HOCH )
+ # AXIOM | EINGABE PLATZ-BESTIMMUNG
+ AXIOM ¡ 𖭰RA𖭿AA𖭿𖭱 Ξ ZW
  
- ← = ?
+ < = RETRON REIHENFOLGE SYNCRONISATOR 
+ > = PATRON PARALELLISIERUNGSSYNCRONISATOR 
 
  #########################################################################'
- ########## PROBE 
-
- ↓→—[<BXMK>]
- ↓ ↓
- ↓ ¬· —[<BXMK>]
- ↓    ↓
- ↓    ÷ Ø—(<NR>): <RAM> :Ø
-
- DIE SPRACHE SCHALTET .. DAS HEIẞT JEDER ZWEIG FÜHRT SICH AUS ... 
- WENN DANN DER NITROX EXTRAKTOR KOMMT MIT FF FÜHRENDEN FEED .. 
-
-
- SPEICHERT ER DAS GERWERKELTE IM RAM AB , DAS ERGEBNIS .. 
- DER ZYTRON VERKNÜPFT VON AUSGANGSPUNKT AUSGANG ZU AUSGANGSPUNKT EINGANG
-   
+ 
+ # ZYTRON 
+ 
    £¹‹
    ↓
  ↓→—[<BXMK>]
@@ -146,170 +111,9 @@
  IRGENDWIE GLAUBE ICH ZU DENKEN , ICH BRAUCH GENERELL EINE 1 KANAL LOGIK 
  UND FÜR DIE VERZWEIGUNG FÜR DIE VERARBEITUNG EINE ZWEI .. 
 
-
- GRUNDSÄTZLICHE PIPELINE 
-
- 1. ↓ 
- 2. ↓→ 
-
- MEHR NICHT .... DER ZYTRON RETUNR SCHLEIFE VON £1› <-- OUTPUT RETURN 
- KANN , WENN ICH IHN SO SCHREIBE MEHRFACHE EINGÄNGE HABEN UND DIE 
- FUNKTIONSKETTEN TRIGGERN ... 
-
- ICH GLAUB DAS IST NÄHER AN DER WAHRHEIT ALS MEIN KOMPLEXES DENKEN VOR ZWEI TAGEN .. 
-
- WÄRE DAS DANNEINE COMPILER LOGIK ? 
-
- KLAR SEMANTISCHE ANALYSE NOCH , KINDERSPIEL ... 
-
- ABER WÄRE ES DAS ? 
-
- ICH SCHWÖRE , DAS IST DER EINZIGE BEREICH IM GESAMTEN SYSTEM DER 
- MICH VERRRÜCKT MACHT !!!!!!!!!!!! 
-
- ES MÜSSTE MIR KEINER SCHREIBEN , NUR EINE MENSCHLICHE RÜCKBESTÄTIGUNG OB JA ODER NEIN 
- UND EVENTUELLE TIPPS AUF GRUNDLÖAGE BESTEHENDER ALTEN SPRACHEN ... 
-
-###############ARBEITSBEREICH######################
----------------------------------------------------
- # TRAKTOR TWS WABEN ELEMENTE 
-
- SYMBOL       = — 
- BEDEUTUNG    = CONNECTOR 
- KOPF-BEREICH = ANSCHLUSS ZUFUHR
- FUẞ-BEREICH  = ANSCHLUSS ENTNAHME
-
-
- # CONNECTOR BAUM 
-
- CONNECTOR # SYNAPTOR NUMMER
- CONNECTOR # ZYTRON EINGANG NUMMER
- CONNECTOR # NITROX
- CONNECTOR # PROTEIN
- CONNECTOR # NITROX
- CONNECTOR # ZYTRON AUSGANG NUMMER
- CONNECTOR # RETRON ICTUS
- CONNECTOR # PATRON ICTUS
- CONNECTOR # SENTIATOR REX ICTUS PROTEIN
-
- # AUSFÜHRUNGS ERLAUBNIS | AKTIONSDRAHT
-
- AUSFÜHRUNGSERLAUBNIS # IMPULS
- AUSFÜHRUNGSERLAUBNIS # PLUS-IMPULS
-
----------------------------------------------------
-
- # BESCHREIBUNG FÜR CONNECTOR LOGIK
-
- SYMBOL          = — 
-
- SYMBOL LOGIK = PROZESSSTRANG = ↓→
-
- SEMNATISCH DARGESTELLT = 
-
- — 
-
- BEDEUTUNG       = CONNECTOR 
-
- BEDEUTUNG LOGIK = ANSCHLUSS SEKTOR 
-
----------------------------------------------------
-
- KOPF-BEREICH = ANSCHLUSS ZUFUHR
-
- KOPF BEREICH LOGIK = ↓← 
-
- SEMANTISCH DARGESTELLT = 
-
- ↓←
- —
-
----------------------------------------------------
-
- FUẞ-BEREICH  = ANSCHLUSS ENTNAHME
-
- FUẞ BEREICH LOGIK = ↓→
-
- SEMANTISCH DARGESTELLT = 
-
-
- —
- ↓→
-
----------------------------------------------------
-
- VERMERKE : 
-
- CONNECTOR ALS SYSTEM ÜBERGREIFENDE WABENHÄRTER 
- SCHREIBEN ODER ALS CONNECTORLINK .. 
-
- CONNECTORLINK DANN AB PROTEIN EINFÜGEN AB BAUWABE 
- DA PROTEIN FÜR SICH BEI SICH ERSTMAL GEBAUT WERDEN 
- UND ERST DANN VOM RAM GEHOLT .. 
-
- DANACH AXIOMATISCH MIT DEM PROTEIN VERSCHMELZEN. 
-
- WENN MIT GESCHRIEBEN .. ALSO ALS " ON-PIPE-PROTEIN" 
- DIREKT ANGEHANGEN .. 
-
- WENN NICHT ALS " OFF-PIPE-PROTEIN" FÜR EINZEILER 
- WIE DAS EPISCHE HALLOWELT PRINZIP 
-
- DANN BEI KOPF KOMPONENTEN HAUPTWABEN DEN 
- KOPF BEREICH SCHLÜSSEL LINK 
-
- BEI Fẞ BEREICH ANDERS RUM .. 
-
- UND BEI REX EINEN VON OBEN NACH UNTEN ZÄHLER 
- DAMIT SENTIATOR ¶ ¶¶ ETC VOM DATENKANAL 
- BESCHEIDWISSEN ... 
-
- UND DER REST LOCAL .. 
-
- DER SYNAPTOR WIRD DER BRUDER VON REX UND BEIDE BEKOMMEN 
- NEUE BEDEUTUNGEN :
-
- < = RETRON REIHENFOLGE SYNCRONISATOR 
- > = PATRON PARALELLISIERUNGSSYNCRONISATOR 
-
- AUS DEN GESCHWEIFTEL KLAMMER WERDEN JETZT DIE PLATZHALTER 
- MAKIERT 
-
- —[{BXMK}]
-
- FÜR DAS KERNMODUL BOXIS Z.B ..... ICH BAU DIE WABEN LINKS 
- IM TWS GRUNDSÄTZLICH VON DER MASTERKERNWABE AN AUS , BIS 
- ZUM ENDE DES PROGRAMMS UND DANN RAM ABSPEICHERUNG ZUM WEITER MACHEN .. 
-
- PERFORMANCE GEWINNT NUR DURCH INTELLIGENTE ZUSAMMENSPIELE UND MCS WIRD 
- NATURELL DIESE EIGENSCYHAFFT MIT SICH TRAGEN .... EMOLUATOREN BAUER WERDEN 
- AN MCS IHRE HELLSTE FREUDE HABEN .... HOST SERVER BETREIBER FÜR IP MANAGMENT 
- AUCH ... 
-
- ICH DENKE DAS WIRD DER ABGLEICH OPERATOR ł UM MÖGLICHKEITEN 
- DURCH ZU KLICKEN, ALSO AUSGÄNGE .... MULTIPLEXER LOGIK ON BOARD .. 
-
- HABEN WIR ALSO PROZESS SENTIATOREN ... WIR HABEN WENN GRÖẞER UND WENN KLEINER 
- BLOCK MESS-OPERATOREN Ω .... JETZT DANN EIN VERGLEICHS-OPERATOR ł ...
-
- DEN KUPPELN WA AM ALLER BESTEN GLEICH AM BUCHSTABEN CODE VON ALLEM ... 
- AUCH ZAHLEN ERGEBNISE EGAL WAS ... EINE AUSGABEN AUSWAHL DIE AUF RETRON ODER PARTON 
- NEUES PROTEIN SCHMEISST ... 
-
-###############ARBEITSBEREICH######################
 ###====================================|====================================###
 
-—[<BXMK>|<BXMK>] ODER —[<BXMK>&<BXMK>] 
-getrennt oder gebunden ... im mcd kommen dann die befehle rein mit logik für dazu legen , zusammen legen oder , trennen von protein ketten ... also boxis ... sehr nahe an der biologischen schnittstelle .... extrem nahe muss ich sogar dazu sagen .. biologen sagen selbst das sie sich von darwinismus trennen müssen , weil dna nicht exitiert sondern proteine ... wir brauchen eine neue denkensform ... ( liefer ich nativ und per neue boxis auch für den zweck später , wenn es sein muss ) 
-
-damit wären wir dann bei zahlen und buchstaben bindungen ... 
- BX-ALU UND BX-PRINT ... auf mcs : ×: ^ :×&": ^ :" ( im protein dann ) —[×: ^ :×&": ^ :"]  
-
-das dach ist die mitte für den mittig asgerichten platzhalter ... such dir raus was drinne sein soll wenn du willst ... 
-das heißt wir hätten bindung oder getrennte dinge in proteine ... 
-
-—[×: 1 :×&": DAS HIER KANN ERSCHEINEN :"]
-wenn wir das jetzt mit dem rex system interne ausgabe und sentiatoren verknüpfen und eine rechnung stellen wie  
+ # SENTIATOR AUSWAHL
 
 —[×: 1 ++ 0 :×]
 Ł ¬·¤ —[×: 1 :×&": DAS HIER KANN ERSCHEINEN :"]
@@ -339,19 +143,7 @@ denke mal 1 <= 0 = Ł
 oder so .. 
 
 ################################################################################
-################################################################################
-################################################################################
-################################################################################
-################################################################################
-################################################################################
-################################################################################
-################################################################################
-################################################################################
-
- kritzel bereich 
- 
-
-
+# KRITZEL BEREICH 
 
 RETRON
  —[]
@@ -391,6 +183,14 @@ PATRON COMBI
 
 
 
+### ALTER 
+
+
+ PRINT WIRD AUFGELÖST UND ZU TEXT DEKLARIERT .
+ PRINT WIRD AUSGELÖST DURCH AKTIONSDRAHT IMPULS ODER PLUS-IMPULS
+
+
+
 ¢!
 
 —[¥: AXIOMATISCHEPROGRAMMIERUNG :¥]«««~: BAUMODUS FUNKTION SPEICHER EINGANG :~«
@@ -407,10 +207,3 @@ PATRON COMBI
 !¢
 
 NEUE BOXI = UTF ¿:  :¿
-
- REX SPLITTUNG ¬ UND NEUES ZEICHEN 
-
- REIHENFOLGE = < = RETRON
- PARALELL    = > = PATRON 
-
-!¢
