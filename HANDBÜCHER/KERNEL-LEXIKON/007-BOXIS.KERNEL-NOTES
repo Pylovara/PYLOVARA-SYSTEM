@@ -1702,7 +1702,7 @@ MUTTERWABEN-KATEGORIE ⠆⢂⡈⡐ HAUPTWABE
 
  BION-NR ⠆⢂⡈⢄ 011
 
- BION-ID ⠆⢂⡈⢈ HT001
+ BION-ID ⠆⢂⡈⢈ HT011
 
  BSK-KN ⠆⢂⡈⢐ PFAD
 
@@ -1864,93 +1864,93 @@ KINDERWABEN-KATEGORIE ⠆⢁⢈⠢ SYSTEMWABE
  EINHEIT ⠆⢁⢐⠘ $: ^ BXEG-PFADSI
 
  # AXIOM WABEN SYSTEM-ID | PROZESS STOP
- AXIOM ¡ ⠆⢁⢐⢂ ⦳ BIID
+ AXIOM ¡ ⠆⢁⢐⢂ ⦳ ⠆⢁⠘⢠
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE # BAUWABE 
+MUTTERWABEN-KATEGORIE ⠆⢁⠘⠃ BAUWABE 
 
- PROGRAMM-KERN # NA
+ PROGRAMM-KERN ⠆⢁⠘⠅ PFAD
 
- WABEN-ID # CB
+ WABEN-ID ⠆⢁⠘⠉ CB
 
- BION-NR # 007
+ BION-NR ⠆⢁⠘⠊ 007
 
- BION-ID # BIID
+ BION-ID ⠆⢁⠘⢠ CB007
 
- BSK-KN # BSKN
+ BSK-KN ⠆⢁⠘⠌ PFAD
 
- BSK-ID # BSID
+ BSK-ID ⠆⢁⠘⠑ BXCB-PFAD
 
- BION # BION
+ BION ⠆⢁⠘⠒ BX007MK007HT011ST011EG007CB007
 
- BSK # BSK
+ BSK ⠆⢁⠘⠔ BXMK+BXHT-PFAD+BXST-PFAD+BXEG-PFAD+BXCB-PFAD
 
  # AXIOM | KEID + WAID + BSKN
- AXIOM ¡ ⠆⢄⠃⡄ ⧓ WAID ⫯ BSKN Ξ BSID
+ AXIOM ¡ ⠆⢄⠃⡄ ⧓ ⠆⢁⠘⠉ ⫯ ⠆⢁⠘⠌ Ξ ⠆⢁⠘⠑
 
  # AXIOM | BION-ID
- AXIOM ¡ WAID ⧓ NR Ξ BIID
+ AXIOM ¡ ⠆⢁⠘⠉ ⧓ ⠆⢁⠘⠊ Ξ ⠆⢁⠘⢠
 
-TOCHTERWABEN-KATEGORIE # COMBOWABE
+TOCHTERWABEN-KATEGORIE ⠆⢁⠘⠡ COMBOWABE
 
  # AXIOM | HOLE RAM EINHEIT 
- AXIOM ¡ RA ⍠ RA
- AXIOM ¡ RA ⍠ RA
+ AXIOM ¡ ⠆⢁⢐⠘ ⍠ ⠆⢁⠘⢄
+ AXIOM ¡ ⠆⢂⡄⣀ ⍠ ⠆⢁⠘⢈
 
  # EINHEIT | RAM 
- EINHEIT # RA
- EINHEIT # RA
+ EINHEIT ⠆⢁⠘⢄ $: ^ BXEG-PFADSI
+ EINHEIT ⠆⢁⠘⢈ :$ BXST-PFADE
 
  # AXIOM | KOMPONENTE BAUEN  
- AXIOM ¡ RA ⧓ RA Ξ ZW
+ AXIOM ¡ ⠆⢁⠘⢄ ⧓ ⠆⢁⠘⢈ Ξ ⠆⢁⠘⢐
 
  # PRÄFIX 
- PRÄFIX PR
+ PRÄFIX ⠆⢁⠘⠢ PADSIE
 
  # AXIOM | BSK | KEID + WAID + PR
- AXIOM ¡ ⠆⢄⠃⡄ ⧓ WAID ⫯ PR Ξ BSFX
+ AXIOM ¡ ⠆⢄⠃⡄ ⧓ ⠆⢁⠘⠉ ⫯ ⠆⢁⠘⠢ Ξ ⠆⢁⠘⠤
 
  # BSK-PRÄFIX | KENNUNGSERWEITERUNG FÜR EINHEITEN
- BSK-PF BSFX
+ BSK-PF ⠆⢁⠘⠤ BXCB-PADSIE
 
  # AXIOM | PRÄFIX TAGG ERNEUERN UND RAM  
- AXIOM ¡ ZW ⥓ BSFX ⍠ RA
+ AXIOM ¡ ⠆⢁⠘⢐ ⥓ ⠆⢁⠘⠤ ⍠ ⠆⢁⠘⠨
 
  # EINHEIT | RAM
- EINHEIT RA
+ EINHEIT ⠆⢁⠘⠨ $: ^ :$ BXCB-PFADSIE
 
  # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
- AXIOM ¡ BIID ⦳ BIID
+ AXIOM ¡ ⠆⢁⠘⢠ ⦳ ⠆⢁⠔⡁
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE # ENDWABE 
+MUTTERWABEN-KATEGORIE ⠆⢁⠔⡂ ENDWABE 
 
- PROGRAMM-KERN # NA
+ PROGRAMM-KERN ⠆⢁⠔⡄ PFAD
 
- WABEN-ID # ED
+ WABEN-ID ⠆⢁⠔⡈ ED
 
- BION-NR # NR
+ BION-NR ⠆⢁⠔⡐ 008
 
- BION-ID # BIID
+ BION-ID ⠆⢁⠔⡁ ED008
 
- BSK-KN # BSKN
+ BSK-KN ⠆⢁⠔⡠ PFAD
 
- BSK-ID # BSID
+ BSK-ID ⠆⢁⠔⢂ BXED-PFAD
 
- BION # BION
+ BION ⠆⢁⠔⢄ BX007MK007HT011ST011EG007CB007ED008
 
- BSK # BSK
+ BSK ⠆⢁⠔⢈ BXMK+BXHT-PFAD+BXST-PFAD+BXEG-PFAD+BXCB-PFAD+BXED-PFAD
 
  # AXIOM | KEID + WAID + BSKN
- AXIOM ¡ KEID ⧓ WAID ⫯ BSKN Ξ BSID
+ AXIOM ¡ ⠆⢄⠃⡄ ⧓ ⠆⢁⠔⡈ ⫯ ⠆⢁⠔⡠ Ξ ⠆⢁⠔⢂
 
  # AXIOM | BION-ID
- AXIOM ¡ WAID ⧓ NR Ξ BIID
+ AXIOM ¡ ⠆⢁⠔⡈ ⧓ ⠆⢁⠔⡐ Ξ ⠆⢁⠔⡁
 
  # AXIOM | HAUPTWABEN DURCHLAUF BEENDEN
- AXIOM ¡ BIID ⦱
+ AXIOM ¡ ⠆⢁⠔⡁ ⦱
 
 ###====================================|====================================###
 ###================================BOXIS-NET================================###
