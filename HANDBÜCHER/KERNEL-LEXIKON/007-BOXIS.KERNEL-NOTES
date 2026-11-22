@@ -2787,7 +2787,7 @@ MUTTERWABEN-KATEGORIE ⠆⢂⠨⡂ STARTWABE
 
  BSK-ID ⠆⢂⠤⢈ BXST-UEFI
 
- BION ⠆⢂⠤⢐ BX007MK007HT015
+ BION ⠆⢂⠤⢐ BX007MK007HT015ST015
 
  BSK ⠆⢂⠤⢠ BXMK+BXHT-UEFI+BXST-UEFI
 
@@ -2915,93 +2915,93 @@ KINDERWABEN-KATEGORIE ⠆⢁⡠⠰ SYSTEMWABE
  EINHEIT ⠆⢁⢂⠤ ¿: ^ BXEG-UEFISI
 
  # AXIOM WABEN SYSTEM-ID | PROZESS STOP
- AXIOM ¡ ⠆⢁⢂⢠ ⦳ BIID
+ AXIOM ¡ ⠆⢁⢂⢠ ⦳ ⠆⢁⠌⠡
 
 ###====================================|====================================###
 
 MUTTERWABEN-KATEGORIE # BAUWABE 
 
- PROGRAMM-KERN # NA
+ PROGRAMM-KERN ⠆⢁⠌⠢ UEFI
 
- WABEN-ID # CB
+ WABEN-ID ⠆⢁⠌⠤ CB
 
- BION-NR # 011
+ BION-NR ⠆⢁⠌⠨ 011
 
- BION-ID # BIID
+ BION-ID ⠆⢁⠌⠡ CB011
 
- BSK-KN # BSKN
+ BSK-KN ⠆⢁⠌⠰ UEFI
 
- BSK-ID # BSID
+ BSK-ID ⠆⢁⠌⡁ BXCB-UEFI
 
- BION # BION
-
- BSK # BSK
+ BION ⠆⢁⠌⡂ BX007MK007HT015ST015EG011CB011
+ 
+ BSK ⠆⢁⠌⡄ BXMK+BXHT-UEFI+BXST-UEFI+BXEG-UEFI+BXCB-UEFI
 
  # AXIOM | KEID + WAID + BSKN
- AXIOM ¡ ⠆⢄⠃⡄ ⧓ WAID ⫯ BSKN Ξ BSID
+ AXIOM ¡ ⠆⢄⠃⡄ ⧓ ⠆⢁⠌⠤ ⫯ ⠆⢁⠌⠰ Ξ ⠆⢁⠌⡁
 
  # AXIOM | BION-ID
- AXIOM ¡ WAID ⧓ NR Ξ BIID
+ AXIOM ¡ ⠆⢁⠌⠤ ⧓ ⠆⢁⠌⠨ Ξ ⠆⢁⠌⠡
 
-TOCHTERWABEN-KATEGORIE # COMBOWABE
+TOCHTERWABEN-KATEGORIE ⠆⢁⠊⡐ COMBOWABE
 
  # AXIOM | HOLE RAM EINHEIT 
- AXIOM ¡ RA ⍠ RA
- AXIOM ¡ RA ⍠ RA
+ AXIOM ¡ ⠆⢁⢂⠤ ⍠ ⠆⢁⠌⠑
+ AXIOM ¡ ⠆⢂⠤⡁ ⍠ ⠆⢁⠌⠒
 
  # EINHEIT | RAM 
- EINHEIT # RA
- EINHEIT # RA
+ EINHEIT ⠆⢁⠌⠑ ¿: ^ BXEG-UEFISI
+ EINHEIT ⠆⢁⠌⠒ :¿ BXST-UEFIE
 
  # AXIOM | KOMPONENTE BAUEN  
- AXIOM ¡ RA ⧓ RA Ξ ZW
+ AXIOM ¡ ⠆⢁⠌⠑ ⧓ ⠆⢁⠌⠒ Ξ ⠆⢁⠌⠔
 
  # PRÄFIX 
- PRÄFIX PR
+ PRÄFIX ⠆⢁⠌⠘ UEFISIE
 
  # AXIOM | BSK | KEID + WAID + PR
- AXIOM ¡ ⠆⢄⠃⡄ ⧓ WAID ⫯ PR Ξ BSFX
+ AXIOM ¡ ⠆⢄⠃⡄ ⧓ ⠆⢁⠌⠤ ⫯ ⠆⢁⠌⠘ Ξ ⠆⢁⠊⡠
 
  # BSK-PRÄFIX | KENNUNGSERWEITERUNG FÜR EINHEITEN
- BSK-PF BSFX
+ BSK-PF ⠆⢁⠊⡠ BXCB-UEFISIE
 
  # AXIOM | PRÄFIX TAGG ERNEUERN UND RAM  
- AXIOM ¡ ZW ⥓ BSFX ⍠ RA
+ AXIOM ¡ ⠆⢁⠌⠔ ⥓ ⠆⢁⠊⡠ ⍠ ⠆⢁⠊⢂
 
  # EINHEIT | RAM
- EINHEIT RA
+ EINHEIT ⠆⢁⠊⢂ ¿: ^ :¿ BXCB-UEFISIE
 
  # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
- AXIOM ¡ BIID ⦳ BIID
+ AXIOM ¡ ⠆⢁⠌⠡ ⦳ ⠆⢁⠊⢄
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE # ENDWABE 
+MUTTERWABEN-KATEGORIE ⠆⢁⠊⢈ ENDWABE 
 
- PROGRAMM-KERN # NA
+ PROGRAMM-KERN ⠆⢁⠊⢐ UEFI
 
- WABEN-ID # ED
+ WABEN-ID ⠆⢁⠊⢠ ED
 
- BION-NR # NR
+ BION-NR ⠆⢁⠊⣀ 012
 
- BION-ID # BIID
+ BION-ID ⠆⢁⠊⢄ ED012
 
- BSK-KN # BSKN
+ BSK-KN ⠆⢁⠌⠃ UEFI
 
- BSK-ID # BSID
+ BSK-ID ⠆⢁⠌⠅ BXED-UEFI
 
- BION # BION
+ BION ⠆⢁⠌⠉ BX007MK007HT015ST015EG011CB011ED012
 
- BSK # BSK
+ BSK ⠆⢁⠌⠊ BXMK+BXHT-UEFI+BXST-UEFI+BXEG-UEFI+BXCB+UEFI+BXED-UEFI
 
  # AXIOM | KEID + WAID + BSKN
- AXIOM ¡ KEID ⧓ WAID ⫯ BSKN Ξ BSID
+ AXIOM ¡ ⠆⢄⠃⡄ ⧓ ⠆⢁⠊⢠ ⫯ ⠆⢁⠌⠃ Ξ ⠆⢁⠌⠅
 
  # AXIOM | BION-ID
- AXIOM ¡ WAID ⧓ NR Ξ BIID
+ AXIOM ¡ ⠆⢁⠊⢠ ⧓ ⠆⢁⠊⣀ Ξ ⠆⢁⠊⢄
 
  # AXIOM | HAUPTWABEN DURCHLAUF BEENDEN
- AXIOM ¡ BIID ⦱
+ AXIOM ¡ ⠆⢁⠊⢄ ⦱
 
 ###====================================|====================================###
 ###================================BOXIS-UTF================================###
