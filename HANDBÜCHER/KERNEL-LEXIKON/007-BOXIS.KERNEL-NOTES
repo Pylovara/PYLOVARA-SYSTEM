@@ -3178,93 +3178,93 @@ KINDERWABEN-KATEGORIE ⠆⢁⡠⠌ SYSTEMWABE
  EINHEIT ⠆⢁⡠⠔ Ŧ: ^ BXEG-UTFSI
 
  # AXIOM WABEN SYSTEM-ID | PROZESS STOP
- AXIOM ¡ ⠆⢁⡠⡐ ⦳ BIID
+ AXIOM ¡ ⠆⢁⡠⡐ ⦳ ⠆⢁⠊⠒
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE # BAUWABE 
+MUTTERWABEN-KATEGORIE ⠆⢁⠊⠔ BAUWABE 
 
- PROGRAMM-KERN # NA
+ PROGRAMM-KERN ⠆⢁⠊⠘ UTF
 
- WABEN-ID # CB
+ WABEN-ID ⠆⢁⠊⠡ CB
 
- BION-NR # 012
+ BION-NR ⠆⢁⠊⠢ 012
 
- BION-ID # BIID
+ BION-ID ⠆⢁⠊⠒ CB012
 
- BSK-KN # BSKN
+ BSK-KN ⠆⢁⠊⠤ UTF
 
- BSK-ID # BSID
+ BSK-ID ⠆⢁⠊⠨ BXCB-UTF
 
- BION # BION
+ BION ⠆⢁⠊⠰ BX007MK007HT016ST016EG012CB012
 
- BSK # BSK
+ BSK ⠆⢁⠊⡁ BXMK+BXHT-UTF+BXST-UTF+BXEG-UTF+BXCB-UTF
 
  # AXIOM | KEID + WAID + BSKN
- AXIOM ¡ ⠆⢄⠃⡄ ⧓ WAID ⫯ BSKN Ξ BSID
+ AXIOM ¡ ⠆⢄⠃⡄ ⧓ ⠆⢁⠊⠡ ⫯ ⠆⢁⠊⠤ Ξ ⠆⢁⠊⠨
 
  # AXIOM | BION-ID
- AXIOM ¡ WAID ⧓ NR Ξ BIID
+ AXIOM ¡ ⠆⢁⠊⠡ ⧓ ⠆⢁⠊⠢ Ξ ⠆⢁⠊⠒
 
-TOCHTERWABEN-KATEGORIE # COMBOWABE
+TOCHTERWABEN-KATEGORIE ⠆⢁⠊⡂ COMBOWABE
 
  # AXIOM | HOLE RAM EINHEIT 
- AXIOM ¡ RA ⍠ RA
- AXIOM ¡ RA ⍠ RA
+ AXIOM ¡ ⠆⢁⡠⠔ ⍠ ⠆⢁⠊⡈
+ AXIOM ¡ ⠆⢂⠡⢠ ⍠ ⠆⢁⠉⡠
 
  # EINHEIT | RAM 
- EINHEIT # RA
- EINHEIT # RA
+ EINHEIT ⠆⢁⠊⡈ Ŧ: ^ BXEG-UTFSI
+ EINHEIT ⠆⢁⠉⡠ :Ŧ BXST-UTFE
 
  # AXIOM | KOMPONENTE BAUEN  
- AXIOM ¡ RA ⧓ RA Ξ ZW
+ AXIOM ¡ ⠆⢁⠊⡈ ⧓ ⠆⢁⠉⡠ Ξ ⠆⢁⠉⢂
 
  # PRÄFIX 
- PRÄFIX PR
+ PRÄFIX ⠆⢁⠉⢄ UTFSIE
 
  # AXIOM | BSK | KEID + WAID + PR
- AXIOM ¡ ⠆⢄⠃⡄ ⧓ WAID ⫯ PR Ξ BSFX
+ AXIOM ¡ ⠆⢄⠃⡄ ⧓ ⠆⢁⠊⠡ ⫯ ⠆⢁⠉⢄ Ξ ⠆⢁⠉⢈
 
  # BSK-PRÄFIX | KENNUNGSERWEITERUNG FÜR EINHEITEN
- BSK-PF BSFX
+ BSK-PF ⠆⢁⠉⢈ BXCB-UTFSIE
 
  # AXIOM | PRÄFIX TAGG ERNEUERN UND RAM  
- AXIOM ¡ ZW ⥓ BSFX ⍠ RA
+ AXIOM ¡ ⠆⢁⠉⢂ ⥓ ⠆⢁⠉⢈ ⍠ ⠆⢁⠉⢐
 
  # EINHEIT | RAM
- EINHEIT RA
+ EINHEIT ⠆⢁⠉⢐ Ŧ: ^ :Ŧ BXCB-UTFSIE
 
  # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
- AXIOM ¡ BIID ⦳ BIID
+ AXIOM ¡ ⠆⢁⠊⠒ ⦳ ⠆⢁⠉⢠
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE # ENDWABE 
+MUTTERWABEN-KATEGORIE ⠆⢁⠉⣀ ENDWABE 
 
- PROGRAMM-KERN # NA
+ PROGRAMM-KERN ⠆⢁⠊⠃ UEFI
 
- WABEN-ID # ED
+ WABEN-ID ⠆⢁⠊⠅ ED
 
- BION-NR # NR
+ BION-NR ⠆⢁⠊⠉ 013
 
- BION-ID # BIID
+ BION-ID ⠆⢁⠉⢠ ED013
 
- BSK-KN # BSKN
+ BSK-KN ⠆⢁⠊⠌ UEFI
 
- BSK-ID # BSID
+ BSK-ID ⠆⢁⠊⠑ BXED-UEFI
 
- BION # BION
+ BION ⠆⢁⠉⠔ BX007MK007HT016ST016EG012CB012ED013
 
- BSK # BSK
+ BSK ⠆⢁⠉⠘ BXMK+BXHT-UEFI+BXST-UEFI+BXEG-UEFI+BXCB-UEFI+BXED-UEFI
 
  # AXIOM | KEID + WAID + BSKN
- AXIOM ¡ KEID ⧓ WAID ⫯ BSKN Ξ BSID
+ AXIOM ¡ ⠆⢄⠃⡄ ⧓ ⠆⢁⠊⠅ ⫯ ⠆⢁⠊⠌ Ξ ⠆⢁⠊⠑
 
  # AXIOM | BION-ID
- AXIOM ¡ WAID ⧓ NR Ξ BIID
+ AXIOM ¡ ⠆⢁⠊⠅ ⧓ ⠆⢁⠊⠉ Ξ ⠆⢁⠉⢠
 
  # AXIOM | HAUPTWABEN DURCHLAUF BEENDEN
- AXIOM ¡ BIID ⦱
+ AXIOM ¡ ⠆⢁⠉⢠ ⦱
 
 ###====================================|====================================###
 ###===============================BOXIS-STROM===============================###
