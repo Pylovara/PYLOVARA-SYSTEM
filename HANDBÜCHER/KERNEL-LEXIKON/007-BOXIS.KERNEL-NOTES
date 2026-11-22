@@ -551,93 +551,93 @@ KINDERWABEN-KATEGORIE ⠆⢂⠃⠨ SYSTEMWABE
  EINHEIT ⠆⢂⠃⡐ ×: ^ BXEG-ALUSI
 
  # AXIOM WABEN SYSTEM-ID | PROZESS STOP
- AXIOM ¡ ⠆⢂⠅⠊ ⦳ BIID
+ AXIOM ¡ ⠆⢂⠅⠊ ⦳ ⠆⢁⠰⠤
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE # BAUWABE 
+MUTTERWABEN-KATEGORIE ⠆⢁⠰⠔ BAUWABE 
 
- PROGRAMM-KERN # NA
+ PROGRAMM-KERN ⠆⢁⠰⠘ ALU
 
- WABEN-ID # CB
+ WABEN-ID ⠆⢁⠰⠡ CB
 
- BION-NR # 002
+ BION-NR ⠆⢁⠰⠢ 002
 
- BION-ID # BIID
+ BION-ID ⠆⢁⠰⠤ CB002
 
- BSK-KN # BSKN
+ BSK-KN ⠆⢁⠰⠨ ALU
 
- BSK-ID # BSID
+ BSK-ID ⠆⢁⠰⡁ BXCB-ALU
 
- BION # BION
+ BION ⠆⢁⠰⡂ BX007MK007HT006ST006CB002
 
- BSK # BSK
+ BSK ⠆⢁⠰⡄ BXMK+BXHT-ALU+BXST-ALU+BXEG-ALU+BXCB-ALU
 
  # AXIOM | KEID + WAID + BSKN
- AXIOM ¡ ⠆⢄⠃⡄ ⧓ WAID ⫯ BSKN Ξ BSID
+ AXIOM ¡ ⠆⢄⠃⡄ ⧓ ⠆⢁⠰⠡ ⫯ ⠆⢁⠰⠨ Ξ ⠆⢁⠰⡁
 
  # AXIOM | BION-ID
- AXIOM ¡ WAID ⧓ NR Ξ BIID
+ AXIOM ¡ ⠆⢁⠰⠡ ⧓ ⠆⢁⠰⠢ Ξ ⠆⢁⠰⠤
 
-TOCHTERWABEN-KATEGORIE # COMBOWABE
+TOCHTERWABEN-KATEGORIE ⠆⢁⠰⡈ COMBOWABE
 
  # AXIOM | HOLE RAM EINHEIT 
- AXIOM ¡ RA ⍠ RA
- AXIOM ¡ RA ⍠ RA
+ AXIOM ¡ ⠆⢂⠃⡐ ⍠ ⠆⢁⠰⠃
+ AXIOM ¡ ⠆⢂⢈⢠ ⍠ ⠆⢁⠨⢈
 
  # EINHEIT | RAM 
- EINHEIT # RA
- EINHEIT # RA
+ EINHEIT ⠆⢁⠰⠃ ×: ^ BXEG-ALUSI
+ EINHEIT ⠆⢁⠨⢈ :× BXST-ALUE
 
  # AXIOM | KOMPONENTE BAUEN  
- AXIOM ¡ RA ⧓ RA Ξ ZW
+ AXIOM ¡ ⠆⢁⠰⠃ ⧓ ⠆⢁⠨⢈ Ξ ⠆⢁⠨⢐
 
  # PRÄFIX 
- PRÄFIX PR
+ PRÄFIX ⠆⢁⠨⢄ ALUSIE
 
  # AXIOM | BSK | KEID + WAID + PR
- AXIOM ¡ ⠆⢄⠃⡄ ⧓ WAID ⫯ PR Ξ BSFX
+ AXIOM ¡ ⠆⢄⠃⡄ ⧓ ⠆⢁⠰⠡ ⫯ ⠆⢁⠨⢄ Ξ ⠆⢁⠨⢠
 
  # BSK-PRÄFIX | KENNUNGSERWEITERUNG FÜR EINHEITEN
- BSK-PF BSFX
+ BSK-PF ⠆⢁⠨⢠ BXCB-ALUSIE
 
  # AXIOM | PRÄFIX TAGG ERNEUERN UND RAM  
- AXIOM ¡ ZW ⥓ BSFX ⍠ RA
+ AXIOM ¡ ⠆⢁⠨⢐ ⥓ ⠆⢁⠨⢠ ⍠ ⠆⢁⠨⣀
 
  # EINHEIT | RAM
- EINHEIT RA
+ EINHEIT ⠆⢁⠨⣀ ×: ^ :× BXCB-ALUSIE
 
  # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
- AXIOM ¡ BIID ⦳ BIID
+ AXIOM ¡ ⠆⢁⠰⠤ ⦳ ⠆⢁⠰⠅
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE # ENDWABE 
+MUTTERWABEN-KATEGORIE ⠆⢁⠰⠉ ENDWABE 
 
- PROGRAMM-KERN # NA
+ PROGRAMM-KERN ⠆⢁⠰⠊ ALU
 
- WABEN-ID # ED
+ WABEN-ID ⠆⢁⠰⠑ ED
 
- BION-NR # NR
+ BION-NR ⠆⢁⠰⠒ 003
 
- BION-ID # BIID
+ BION-ID ⠆⢁⠰⠅ ED003
 
- BSK-KN # BSKN
+ BSK-KN ⠆⢁⠨⠘ ALU
 
- BSK-ID # BSID
+ BSK-ID ⠆⢁⠨⠡ BXED-ALU
 
- BION # BION
+ BION ⠆⢁⠨⠢ BX007MK007HT006ST006CB002ED003
 
- BSK # BSK
+ BSK ⠆⢁⠨⠤ BXMK+BXHT-ALU+BXST-ALU+BXEG-ALU+BXCB-ALU+BXED-ALU
 
  # AXIOM | KEID + WAID + BSKN
- AXIOM ¡ KEID ⧓ WAID ⫯ BSKN Ξ BSID
+ AXIOM ¡ ⠆⢄⠃⡄ ⧓ ⠆⢁⠰⠑ ⫯ ⠆⢁⠨⠘ Ξ ⠆⢁⠨⠡
 
  # AXIOM | BION-ID
- AXIOM ¡ WAID ⧓ NR Ξ BIID
+ AXIOM ¡ ⠆⢁⠰⠑ ⧓ ⠆⢁⠰⠒ Ξ ⠆⢁⠰⠅
 
  # AXIOM | HAUPTWABEN DURCHLAUF BEENDEN
- AXIOM ¡ BIID ⦱
+ AXIOM ¡ ⠆⢁⠰⠅ ⦱
 
 ###====================================|====================================###
 ###==============================BOXIS-SYSCALL==============================###
