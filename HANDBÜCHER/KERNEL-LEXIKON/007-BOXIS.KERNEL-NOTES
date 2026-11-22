@@ -3703,93 +3703,93 @@ KINDERWABEN-KATEGORIE ⠆⢁⡈⢐ SYSTEMWABE
  EINHEIT ⠆⢁⡈⢄ ': ^ BXEG-SHELLSI
 
  # AXIOM WABEN SYSTEM-ID | PROZESS STOP
- AXIOM ¡ ⠆⢁⡐⠘ ⦳ BIID
+ AXIOM ¡ ⠆⢁⡐⠘ ⦳ ⠆⢁⠅⡂
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE # BAUWABE 
+MUTTERWABEN-KATEGORIE ⠆⢁⠅⠤ BAUWABE 
 
- PROGRAMM-KERN # NA
+ PROGRAMM-KERN ⠆⢁⠅⠨ SHELL
 
- WABEN-ID # CB
+ WABEN-ID ⠆⢁⠅⠰ CB
 
- BION-NR # 014
+ BION-NR ⠆⢁⠅⡁ 014
 
- BION-ID # BIID
+ BION-ID ⠆⢁⠅⡂ CB014
 
- BSK-KN # BSKN
+ BSK-KN ⠆⢁⠅⡄ SHELL
 
- BSK-ID # BSID
+ BSK-ID ⠆⢁⠅⡈ BXCB-SHELL
 
- BION # BION
+ BION ⠆⢁⠅⡐ BX077MK007HT018ST018EG014CB014
 
- BSK # BSK
+ BSK ⠆⢁⠅⡠ BXMK+BXHT-SHELL+BXST-SHELL+BXEG-SHELL+BXCB-SHELL
 
  # AXIOM | KEID + WAID + BSKN
- AXIOM ¡ ⠆⢄⠃⡄ ⧓ WAID ⫯ BSKN Ξ BSID
+ AXIOM ¡ ⠆⢄⠃⡄ ⧓ ⠆⢁⠅⠰ ⫯ ⠆⢁⠅⡄ Ξ ⠆⢁⠅⡈
 
  # AXIOM | BION-ID
- AXIOM ¡ WAID ⧓ NR Ξ BIID
+ AXIOM ¡ ⠆⢁⠅⠰ ⧓ ⠆⢁⠅⡁ Ξ ⠆⢁⠅⡂
 
-TOCHTERWABEN-KATEGORIE # COMBOWABE
+TOCHTERWABEN-KATEGORIE ⠆⢁⠃⢄ COMBOWABE
 
  # AXIOM | HOLE RAM EINHEIT 
- AXIOM ¡ RA ⍠ RA
- AXIOM ¡ RA ⍠ RA
+ AXIOM ¡ ⠆⢁⡈⢄ ⍠ ⠆⢁⠃⢈
+ AXIOM ¡ ⠆⢂⠔⢁ ⍠ ⠆⢁⠃⢐
 
  # EINHEIT | RAM 
- EINHEIT # RA
- EINHEIT # RA
+ EINHEIT ⠆⢁⠃⢈ ': ^ BXEG-SHELLSI
+ EINHEIT ⠆⢁⠃⢐ :' BXST-SHELLE
 
  # AXIOM | KOMPONENTE BAUEN  
- AXIOM ¡ RA ⧓ RA Ξ ZW
+ AXIOM ¡ ⠆⢁⠃⢈ ⧓ ⠆⢁⠃⢐ Ξ ⠆⢁⠃⢠
 
  # PRÄFIX 
- PRÄFIX PR
+ PRÄFIX ⠆⢁⠅⠉ STROMSIE
 
  # AXIOM | BSK | KEID + WAID + PR
- AXIOM ¡ ⠆⢄⠃⡄ ⧓ WAID ⫯ PR Ξ BSFX
+ AXIOM ¡ ⠆⢄⠃⡄ ⧓ ⠆⢁⠅⠰ ⫯ ⠆⢁⠅⠉ Ξ ⠆⢁⠃⣀
 
  # BSK-PRÄFIX | KENNUNGSERWEITERUNG FÜR EINHEITEN
- BSK-PF BSFX
+ BSK-PF ⠆⢁⠃⣀ BXCB-STROMSIE
 
  # AXIOM | PRÄFIX TAGG ERNEUERN UND RAM  
- AXIOM ¡ ZW ⥓ BSFX ⍠ RA
+ AXIOM ¡ ⠆⢁⠃⢠ ⥓ ⠆⢁⠃⣀ ⍠ ⠆⢁⠅⠃
 
  # EINHEIT | RAM
- EINHEIT RA
+ EINHEIT ⠆⢁⠅⠃ ': ^ :' BXCB-STROMSIE
 
  # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
- AXIOM ¡ BIID ⦳ BIID
+ AXIOM ¡ ⠆⢁⠅⡂ ⦳ ⠆⢁⠅⠊
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE # ENDWABE 
+MUTTERWABEN-KATEGORIE ⠆⢁⠅⠌ ENDWABE 
 
- PROGRAMM-KERN # NA
+ PROGRAMM-KERN ⠆⢁⠅⠑ STROM
 
- WABEN-ID # ED
+ WABEN-ID ⠆⢁⠅⠒ ED
 
- BION-NR # NR
+ BION-NR ⠆⢁⠅⠔ 015
 
- BION-ID # BIID
+ BION-ID ⠆⢁⠅⠊ ED015
 
- BSK-KN # BSKN
+ BSK-KN ⠆⢁⠃⠡ STROM
 
- BSK-ID # BSID
+ BSK-ID ⠆⢁⠃⠢ BXCB-STROM
 
- BION # BION
+ BION ⠆⢁⠃⠤ BX077MK007HT018ST018EG014CB014ED015
 
- BSK # BSK
+ BSK ⠆⢁⠃⠨ BXMK+BXHT-STROM+BXST-STROM+BXEG-STROM+BXCB-STROM+BXED-STROM
 
  # AXIOM | KEID + WAID + BSKN
- AXIOM ¡ KEID ⧓ WAID ⫯ BSKN Ξ BSID
+ AXIOM ¡ ⠆⢄⠃⡄ ⧓ ⠆⢁⠅⠒ ⫯ ⠆⢁⠃⠡ Ξ ⠆⢁⠃⠢
 
  # AXIOM | BION-ID
- AXIOM ¡ WAID ⧓ NR Ξ BIID
+ AXIOM ¡ ⠆⢁⠅⠒ ⧓ ⠆⢁⠅⠔ Ξ ⠆⢁⠅⠊
 
  # AXIOM | HAUPTWABEN DURCHLAUF BEENDEN
- AXIOM ¡ BIID ⦱
+ AXIOM ¡ ⠆⢁⠅⠊ ⦱
 
 ###====================================|====================================###
 ###=================================BOXIS-RAM===============================###
