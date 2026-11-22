@@ -2577,7 +2577,7 @@ MUTTERWABEN-KATEGORIE ⠆⢂⡁⠊ STARTWABE
  EINHEIT ⠆⢂⠰⠊ :ºº BXST-MACODEE
 
  # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
- AXIOM ¡ ⠆⢂⠰⠘ ⦳ BIID
+ AXIOM ¡ ⠆⢂⠰⠘ ⦳ ⠆⢁⢂⠰
 
 ###====================================|====================================###
 
@@ -2603,7 +2603,7 @@ MUTTERWABEN-KATEGORIE ⠆⢁⢄⠘ BAUWABE
  AXIOM ¡ ⠆⢄⠃⡄ ⧓ ⠆⢁⢄⠢ ⫯ ⠆⢁⢂⡁ Ξ ⠆⢁⢂⡂
 
  # AXIOM | BION-ID
- AXIOM ¡ ⠆⢁⢄⠢ ⧓ ⠆⢁⢂⠨ Ξ ⠆⢁⢂⡂
+ AXIOM ¡ ⠆⢁⢄⠢ ⧓ ⠆⢁⢂⠨ Ξ ⠆⢁⢂⠰
 
 TOCHTERWABEN-KATEGORIE ⠆⢁⢄⠅ EINGABEWABE
 
@@ -2655,7 +2655,7 @@ KINDERWABEN-KATEGORIE ⠆⢁⢂⡐ SYSTEMWABE
  AXIOM ¡ ⠆⢁⢂⡂ ⦳ BIID
 
 ###====================================|====================================###
-
+!!
 MUTTERWABEN-KATEGORIE # BAUWABE 
 
  PROGRAMM-KERN # NA
