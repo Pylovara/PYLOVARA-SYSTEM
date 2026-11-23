@@ -30,7 +30,47 @@ MUTTERWABEN-KATEGORIE ⠆⢄⠑⢂ KOPFWABE
  AXIOM ¡ ⠆⢄⠑⠰ ⧑ ⠆⢄⠒⠃
 
  # AXIOM | WEITERVERBINDEN
+ # BXHT-UND
+ AXIOM ¡ ⠆⢄⠒⠃ ⧑ ⠆⡠⢈⠔
+
+ # BXHT-ODER
  AXIOM ¡ ⠆⢄⠒⠃ ⧑ BIID
+
+ # BXHT-
+ AXIOM ¡ ⠆⢄⠒⠃ ⧑ BIID
+
+###====================================|====================================###
+
+MUTTERWABEN-KATEGORIE ⠆⡠⢈⠊ HAUPTWABE 
+
+ PROGRAMM-KERN ⠆⡠⢈⠌ UND
+
+ WABEN-ID ⠆⡠⢈⠑ HT
+
+ BION-NR ⠆⡠⢈⠒ 023
+
+ BION-ID ⠆⡠⢈⠔ BIID
+
+ BSK-KN ⠆⡠⢈⠘ BSKN
+
+ BSK-ID ⠆⡠⢈⠡ BSID
+
+ BION ⠆⡠⢈⠤ BION
+
+ BSK ⠆⡠⢄⠰ BSK
+
+ # AXIOM | KEID + WAID + BSKN
+ AXIOM ¡ ⠆⢄⠑⢐ ⧓ ⠆⡠⢈⠑ ⫯ ⠆⡠⢈⠘ Ξ ⠆⡠⢈⠡
+
+ # AXIOM | BION-ID
+ AXIOM ¡ ⠆⡠⢈⠑ ⧓ ⠆⡠⢈⠒ Ξ ⠆⡠⢈⠔
+
+ # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
+ AXIOM ¡ ⠆⡠⢈⠔ ⦳ ⠆⡠⢈⠔
+
+###====================================|====================================###
+
+MUTTERWABEN-KATEGORIE #
 
 ###====================================|====================================###
 
@@ -40,7 +80,7 @@ MUTTERWABEN-KATEGORIE # HAUPTWABE
 
  WABEN-ID # HT
 
- BION-NR # 023
+ BION-NR # NR
 
  BION-ID # BIID
 
@@ -63,11 +103,40 @@ MUTTERWABEN-KATEGORIE # HAUPTWABE
 
 ###====================================|====================================###
 
+MUTTERWABEN-KATEGORIE #
 
+###====================================|====================================###
 
+MUTTERWABEN-KATEGORIE # HAUPTWABE 
 
+ PROGRAMM-KERN # NA
 
+ WABEN-ID # HT
 
+ BION-NR # NR
+
+ BION-ID # BIID
+
+ BSK-KN # BSKN
+
+ BSK-ID # BSID
+
+ BION # BION
+
+ BSK # BSK
+
+ # AXIOM | KEID + WAID + BSKN
+ AXIOM ¡ KEID ⧓ WAID ⫯ BSKN Ξ BSID
+
+ # AXIOM | BION-ID
+ AXIOM ¡ WAID ⧓ NR Ξ BIID
+
+ # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
+ AXIOM ¡ BIID ⦳ BIID
+
+###====================================|====================================###
+
+MUTTERWABEN-KATEGORIE #
 
 ###====================================|====================================###
 ###===========================KOMPAKTE-WABEN-PFADE==========================###
