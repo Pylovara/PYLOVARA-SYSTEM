@@ -1,0 +1,521 @@
+LOCKKARTEN DESIGNE .. 
+
+zeile 15 
+
+zeile 30 
+
+damals waren lochkarten in der regel cirka 80 spalten breit ... 
+und die hälfte davon cirka zeile ... 
+
+12345678
+2
+3
+4
+
+dann bekamen sie nach einem takt ryhtmus durchlöcherte stellen .. 
+jeder takt konnte mit irgendwas gefühlt werden 
+
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaoaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbobbbbbbbbbbbbbbbbbbbbbbbbbbbbbb 
+
+nach dem takt sind dann die dinge quasi gedruckt oder freigegeben worden  
+
+ ab 
+
+###====================================|====================================###
+###====================================|====================================###
+###====================================|====================================###
+
+ PONTIFEX 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+###====================================|====================================###
+###====================================|====================================###
+###====================================|====================================###
+
+ ÄLTERE DATEN MISCHMASCH
+
+
+ ¢! # konrette idee
+
+ »—[ BAU TISCH ]«
+
+  ¬· »—[ GEOMETRIE = WINKEL ]«
+
+      ¬· »—[ PLATTE = H10 + L60 + B60 ]«««3D
+          ¬· »[ KOORDINATEN = X* + Y* ]«««2D
+
+      ¬· »—[ BEIN = H60 + L5 + B5 ]«««3D
+          ¬· »[ KOORDINATEN = X* + Y* ]«««2D
+
+      ¬· »—[ BEIN = H60 + L5 + B5 ]«««3D
+          ¬· »[ KOORDINATEN = X* + Y* ]«««2D
+
+      ¬· »—[ BEIN = H60 + L5 + B5 ]«««3D
+          ¬· »[ KOORDINATEN = X* + Y* ]«««2D
+
+      ¬· »—[ BEIN = H60 + L5 + B5 ]«««3D
+          ¬· »[ KOORDINATEN = X* + Y* ]«««2D
+
+ !¢
+
+ ¢! # generische idee
+
+ »—[ BAU <DAS> ]«
+
+  ¬· »—[ GEOMETRIE = <AUSWAHL> ]«
+
+      ¬· »—[ <OBJEKT> = H<CM> + L<CM> + B<CM> ]«««<RAUMDIMENSION>
+          ¬· »[ KOORDINATEN = X* + Y* ]«««<RAUMDIMENSION>
+
+      ¬· »—[ <OBJEKT> = H<CM> + L<CM> + B<CM> ]«««<RAUMDIMENSION>
+          ¬· »[ KOORDINATEN = X* + Y* ]«««<RAUMDIMENSION>
+
+      ¬· »—[ <OBJEKT> = H<CM> + L<CM> + B<CM> ]«««<RAUMDIMENSION>
+          ¬· »[ KOORDINATEN = X* + Y* ]«««<RAUMDIMENSION>
+
+      ¬· »—[ <OBJEKT> = H<CM> + L<CM> + B<CM> ]«««<RAUMDIMENSION>
+          ¬· »[ KOORDINATEN = X* + Y* ]«««<RAUMDIMENSION>
+
+      ¬· »—[ <OBJEKT> = H<CM> + L<CM> + B<CM> ]«««<RAUMDIMENSION>
+          ¬· »[ KOORDINATEN = X* + Y* ]«««<RAUMDIMENSION>
+
+ !¢
+
+¢! masstyp idee
+
+ »—[ BAU <DAS> ]«
+
+  ¬· »—[ GEOMETRIE = <AUSWAHL> ]«
+      ¬· »—[ MASSENTYP = <AUSWAHL> ]«
+
+          ¬· »—[ <OBJEKT> = H<CM> + L<CM> + B<CM> ]«««<RAUMDIMENSION>
+              ¬· »[ KOORDINATEN = X* + Y* ]«««<RAUMDIMENSION>
+
+          ¬· »—[ <OBJEKT> = H<CM> + L<CM> + B<CM> ]«««<RAUMDIMENSION>
+              ¬· »[ KOORDINATEN = X* + Y* ]«««<RAUMDIMENSION>
+
+          ¬· »—[ <OBJEKT> = H<CM> + L<CM> + B<CM> ]«««<RAUMDIMENSION>
+              ¬· »[ KOORDINATEN = X* + Y* ]«««<RAUMDIMENSION>
+
+          ¬· »—[ <OBJEKT> = H<CM> + L<CM> + B<CM> ]«««<RAUMDIMENSION>
+              ¬· »[ KOORDINATEN = X* + Y* ]«««<RAUMDIMENSION>
+
+          ¬· »—[ <OBJEKT> = H<CM> + L<CM> + B<CM> ]«««<RAUMDIMENSION>
+              ¬· »[ KOORDINATEN = X* + Y* ]«««<RAUMDIMENSION>
+
+!¢
+
+¢! masstyp idee
+
+»—[ GEOMETRIE = <AUSWAHL> ]«««~ BAUMODUS-START && VERBINDE ~«
+ ¬· »—[ MASSENTYP = <AUSWAHL> ]«
+
+ ¬· »—[ <OBJEKT> = H<CM> + L<CM> + B<CM> ]«««~ BAUMODUS-DIMENSION <RAUMDIMENSION> ~«
+     ¬· »[ KOORDINATEN = X* + Y* ]«««~ BAUMODUS-DIMENSION <RAUMDIMENSION> ~«
+
+ ¬· »—[ <OBJEKT> = H<CM> + L<CM> + B<CM> ]«««~ BAUMODUS-DIMENSION <RAUMDIMENSION> ~«
+     ¬· »[ KOORDINATEN = X* + Y* ]«««~ BAUMODUS-DIMENSION <RAUMDIMENSION> ~«
+
+ ¬· »—[ <OBJEKT> = H<CM> + L<CM> + B<CM> ]«««~ BAUMODUS-DIMENSION <RAUMDIMENSION> ~«
+     ¬· »[ KOORDINATEN = X* + Y* ]«««~ BAUMODUS-DIMENSION <RAUMDIMENSION> ~«
+
+ ¬· »—[ <OBJEKT> = H<CM> + L<CM> + B<CM> ]«««~ BAUMODUS-DIMENSION <RAUMDIMENSION> ~«
+     ¬· »[ KOORDINATEN = X* + Y* ]«««~ BAUMODUS-DIMENSION <RAUMDIMENSION> ~«
+
+ ¬· »—[ <OBJEKT> = H<CM> + L<CM> + B<CM> ]«««~ BAUMODUS-DIMENSION <RAUMDIMENSION> ~«
+     ¬· »[ KOORDINATEN = X* + Y* ]«««~ BAUMODUS-DIMENSION <RAUMDIMENSION> ~«
+
+!¢
+
+ ««~ PHYSIK-KOLLISION-RIGIDBODY ~«
+ ««~ MATERIAL-MESSUNG-HOLZ ~«
+
+###==##==###======#####====PYLOVARA-SYSTEM=====#####======###==##==###
+
+¢!
+
+»[ OBJEKT = ICH ]« 
+ ¬· »[ DEF __INIT__(ICH, GRASS, TABAK, PAPER, FEUERZEUG): ]« 
+         ¿¹
+     ¬· »[ ICH.GRASS = GRASS ]« 
+         ¿¹
+     ¬· »[ ICH.TABAK = TABAK ]« 
+         ¿¹
+     ¬· »[ ICH.PAPER = PAPER ]« 
+         ¿¹
+     ¬· »[ ICH.FEUERZEUG = FEUERZEUG ]« 
+     
+         ¶ ¬· »[ DEF ANZÜNDEN(ICH) ]« 
+
+               ¬· »[ ICH.ANZÜNDEN +=HIGH ]« 
+
+               ¶ ¬· »[ __NAME__ ]« 
+                     ¬·¤= »[ "__MAIN__": ]« 
+                           ¬· »[ MARIOBART = ICH-BEKIFFT(HIGH, HIGHER , ULTRAHIGH) ]« 
+                           ¬· »[ ICH-BEKIFFT.ANZÜNDEN() ]«
+
+
+
+
+         ¶¶ ¬· »[~ RETURN __INIT__ ]«
+
+!¢ 
+
+###==##==###======#####====PYLOVARA-SYSTEM=====#####======###==##==###
+
+¢!
+»—["TRANSAKTIONSRAHMEN"]«
+
+ ¬· »—[" ¢! "]«
+     ± »[(1)—Ø ¥ ¢! ¥ Ø]«
+
+         ÷ »[Ø <IO> Ø—(1)]«
+     ¬· »—[, RAM_REG ,]«
+         ¬· »—[" THEORETISCH NUMMER "]«
+             ± »[(10)—Ø <RAM-ZUWEISUNGS-NUMMER> Ø]«
+
+ ¬· »—[" !¢ "]«
+     ± »[(2)—Ø !¢ Ø]«
+
+         ÷ »[Ø <IO> Ø—(2)]«
+     ¬· »—[, RAM_REG ,]«
+         ¬· »—[" THEORETISCH NUMMER "]«
+             ± »[(11)—Ø <RAM-ZUWEISUNGS-NUMMER> Ø]«
+!¢
+
+
+
+ ¢!
+ »—[¥: PLUS-EINS :¥]—«««~: BAUMODUS FUNKTION SPEICHER EINGANG :~«
+  ↓
+  ¬· »—[×: <A> ++ 1 :×]—«
+      ↓
+      ÷ Ø—(1): <A> :Ø
+      ÷ Ø—(2): 1 :Ø
+      ↓
+      ↓   ± Ø: <A> :(1)—Ø
+      ↓   ± Ø: 1 :(2)—Ø
+      ↓   ↓
+      ¬· »—[×: (1) ++ (2) :×]—«
+          ↓
+          ¬·¤ »[×: <ERGEBNIS> :×]«««~: BAUMODUS FUNKTION SPEICHER AUSGANG :~«
+!¢  
+
+¢!
+ »—[¥: PLUS-EINS :¥]—«««~: BAUMODUS FUNKTION SPEICHER EINGANG :~«
+  ↓
+  ¬· »—[×: <A> ++ 1 :×]—« <--- hier 
+      ÷ Ø—(1): <A> :Ø
+      ÷ Ø—(2): 1 :Ø
+
+          ± Ø: <A> :(1)—Ø
+          ± Ø: 1 :(2)—Ø
+      ¬· »—[×: (1) ++ (2) :×]—«
+          ¬·¤ »[×: <ERGEBNIS> :×]«««~: BAUMODUS FUNKTION SPEICHER AUSGANG :~«
+!¢  
+
+C-Äquivalent:
+
+c
+int a = 5;
+int b = 3;
+int c = a + b;
+printf("%d", c);
+MCS-Code:
+
+text
+¢!
+»—[": TASCHENRECHNER :"]«
+
+     ¿¹
+ ¬· »—[×: a = 5 :×]«
+     £›1
+
+     ¿¹
+ ¬· »—[×: b = 3 :×]«
+     £›1
+
+     ¿¹
+ ¬· »—[×: c = a + b :×]«
+     £›1
+
+     £‹1
+     ¿¹
+ ¬· »—[": ERGEBNIS :"]«
+     ¬·¤ »—[": <IO>> :"]«
+!¢
+
+
+eigentlich : 
+
+¢!
+»—[": TASCHENRECHNER :"]«
+
+     ¿¹
+ ¬· »—[×: a = 5 :×]«
+     ÷ [(1)—Ø: a = 5 :Ø]
+
+     ¿¹
+ ¬· »—[×: b = 3 :×]«
+     ÷ [(2)—Ø: b = 3 :Ø]
+
+
+     ± [Ø: 5 :Ø—(1)]
+     ± [Ø: 3 :Ø—(2)]
+ ¬· »—[×: (1) + (2) :×]«
+     ¬·¤ »—[": <IO> :"]«
+!¢
+
+
+ ¢! 
+ —[¥: RECHNUNGSVARIABLE  :¥]—
+
+ ¬· —[¥: A :¥]—
+    ÷ [(1)—Ø: A :Ø]
+
+ ¬· —[¥: B :¥]—
+    ÷ [(2)—Ø: B :Ø]
+
+ ¬· —[¥: 2 :¥]—
+    ÷ [(3)—Ø: 2 :Ø]
+
+ ¬· —[¥: 2 :¥]—
+    ÷ [(4)—Ø: 2 :Ø]
+
+      ± [(1)—Ø: A :Ø]
+      ± [(3)—Ø: 2 :Ø]
+ ¶ ¬· —[×: (1) = (3) :×]—
+      ÷ [(5)—Ø: (1) = (3) :Ø]
+
+
+         ± [(2)—Ø: B :Ø]
+         ± [(4)—Ø: 2 :Ø]
+      ¬· —[×: (2) = (4) :×]—
+         ÷ [(6)—Ø: (2) = (4) :Ø]
+
+           ± [(5)—Ø: (1) = (3) :Ø]
+           ± [(6)—Ø: (2) = (4) :Ø]
+      ¶ ¬· —[×: (5) + (6) :×]—
+           ¬·¤¤ [×: <ERGEBNIS> :×]
+
+ !¢ 
+
+
+¢!
+»—[": TASCHENRECHNER :"]«
+ ¬· »—[×: a = 5 :×]«
+ ¬· »—[×: b = 3 :×]«
+ ¬· »—[×: c = a + b :×]«
+ ¬· »—[": ERGEBNIS :"]«
+    ¬·¤ »—[": c :"]«
+!¢
+
+
+¢!
+»—[": TASCHENRECHNER (SCHALTUNGS-REFLEX) :"]«
+
+     ¿¹
+ ¬· »—[×: ⥀ = 5 :×]«          # Rückwärts: 5 in Speicher schreiben
+     ÷ [(1)—Ø: 5 :Ø]
+
+     ¿¹
+ ¬· »—[×: ⥀ = 3 :×]«          # Rückwärts: 3 in Speicher schreiben
+     ÷ [(2)—Ø: 3 :Ø]
+
+     ± [Ø: 5 :Ø—(1)]           # Extraktor: 5 aus Speicher 1 holen
+     ± [Ø: 3 :Ø—(2)]           # Extraktor: 3 aus Speicher 2 holen
+
+ ¬· »—[×: (1) + (2) :×]«       # ALU-Berechnung
+     ¬·¤ »—[": <IO> :"]«       # Ausgabe
+!¢
+
+¢!
+»—[": TASCHENRECHNER (MIT KONTEXT) :"]«
+
+     ¿¹
+ ¬· »—[×: REG_A = 5 :×]«       # Explizit: Register A
+     ÷ [(1)—Ø: 5 :Ø]
+
+     ¿¹
+ ¬· »—[×: REG_B = 3 :×]«       # Explizit: Register B
+     ÷ [(2)—Ø: 3 :Ø]
+
+     ± [Ø: 5 :Ø—(1)]
+     ± [Ø: 3 :Ø—(2)]
+
+ ¬· »—[×: (REG_A) + (REG_B) :×]«  # Explizit: Register A + B
+     ¬·¤ »—[": <IO> :"]«
+!¢
+
+¢!
+—[¥: RECHNUNGSVARIABLE :¥]—
+
+ ¬· —[¥: A :¥]—
+    ÷ [(1)—Ø: A :Ø]
+
+ ¬· —[¥: B :¥]—
+    ÷ [(2)—Ø: B :Ø]
+
+ ¬· —[¥: 2 :¥]—
+    ÷ [(3)—Ø: 2 :Ø]
+
+ ¬· —[¥: 2 :¥]—
+    ÷ [(4)—Ø: 2 :Ø]
+
+      ± [(1)—Ø: A :Ø]
+      ± [(3)—Ø: 2 :Ø]
+ ¶ ¬· —[×: (1) = (3) :×]—
+      ÷ [(5)—Ø: (1) = (3) :Ø]
+
+         ± [(2)—Ø: B :Ø]
+         ± [(4)—Ø: 2 :Ø]
+      ¬· —[×: (2) = (4) :×]—
+         ÷ [(6)—Ø: (2) = (4) :Ø]
+
+           ± [(5)—Ø: (1) = (3) :Ø]
+           ± [(6)—Ø: (2) = (4) :Ø]
+      ¶ ¬· —[×: (5) + (6) :×]—
+           ¬·¤¤ [×: <ERGEBNIS> :×]
+!¢
+
+¢!
+—[¥: RECHNUNGSVARIABLE :¥]—
+
+ ¬· »—[¥: A :¥]—«««~: ADD <Register|Speicherplatz|Konstante> :~«
+     ÷ [(1)—Ø: A :Ø]
+
+ ¬· »—[¥: B :¥]—«««~: ADD <Register|Speicherplatz|Konstante> :~«
+     ÷ [(2)—Ø: B :Ø]
+
+ ¬· »—[¥: 2 :¥]—«««~: ADD <Register|Speicherplatz|Konstante> :~«
+     ÷ [(3)—Ø: 2 :Ø]
+
+ ¬· »—[¥: 2 :¥]—«««~: ADD <Register|Speicherplatz|Konstante> :~«
+     ÷ [(4)—Ø: 2 :Ø]
+
+      ± [(1)—Ø: A :Ø]
+      ± [(3)—Ø: 2 :Ø]
+ ¶ ¬· —[×: (1) = (3) :×]—
+      ÷ [(5)—Ø: (1) = (3) :Ø]
+
+         ± [(2)—Ø: B :Ø]
+         ± [(4)—Ø: 2 :Ø]
+      ¬· —[×: (2) = (4) :×]—
+         ÷ [(6)—Ø: (2) = (4) :Ø]
+
+           ± [(5)—Ø: (1) = (3) :Ø]
+           ± [(6)—Ø: (2) = (4) :Ø]
+      ¶ ¬· —[×: (5) + (6) :×]—
+           ¬·¤¤ [×: <ERGEBNIS> :×]
+!¢
+
+
+ ¢!
+ —[¥: RECHNUNGSVARIABLE :¥]—
+    // Definition der Funktion
+ !¢
+
+ ¢!
+ —[¥: MAIN :¥]—
+    // Hier ruft man die RECHNUNGSVARIABLE auf
+    // erstelle einen neuen Rahmen (Boxi) für den Aufruf
+ !¢ 
+
+---------------------------------------------------------------------
+
+ ¢!
+ —[¥: RECHNUNGSVARIABLE :¥]—
+ ¬· »—[¥: A :¥]—«««~: ADD <2> :~«
+     ÷ Ø—(1): A :Ø
+ ¬· »—[¥: B :¥]—«««~: ADD <2> :~«
+     ÷ Ø—(2): B :Ø
+    // Vergleich und Ergebnis
+    ¬·¤¤ [×: <ERGEBNIS> :×]
+ !¢
+
+¢!
+ —[¥: MAIN :¥]—
+    // NEUER RAHMEN für Aufruf
+    ¬· »—[¥: AUFRUF :¥]—«««~: CALL <RECHNUNGSVARIABLE> :~«
+        ÷ Ø—(3): AUFRUF :Ø
+    // Jetzt müsste das Ergebnis in AUFRUF stehen 
+ !¢
+
+ ¢!
+ »—[¥: PLUS-RECHNER :¥]—«««~: BAUMODUS FUNKTION SPEICHER EINGANG :~«
+  ¬· »—[¥: <A> ++ <B> :¥]—«
+      ÷ Ø—(1): <A> :Ø
+      ÷ Ø—(2): <B> :Ø
+
+         ± Ø: <A> :(1)—Ø
+         ± Ø: <B> :(2)—Ø
+     ¬· »—[×: (1) ++ (2) :×]—«
+         ¬·¤ »[×: <ERGEBNIS> :×]«««~: BAUMODUS FUNKTION SPEICHER AUSGANG :~«
+ !¢ 
+
+
+
+ ¢!
+ 
+ »—[¥: 5 ++ 3 :¥]—«
+  ¬· »—[¥: PLUS-RECHNER :¥]—«««~: BAUMODUS FUNKTION AUFRUF ~:«
+      ¬·¤ [×: <ERGEBNIS> :×] 
+ !¢
+
+

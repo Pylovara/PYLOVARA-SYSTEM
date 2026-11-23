@@ -123,6 +123,17 @@
 
  NECTAR NUTZT SIE ! 
 
+
+ASSEMBLER (Boot)
+    │
+    └── TWS 0.3 (Waben-Struktur)
+        │
+        └── MCS 7.5 (Programmiersprache)
+            │
+            └── BIENENKÖNIGIN (Mathematik)
+                │
+                └── ZUKUNFT: EIGENE HARDWARE
+
 #==================# Elf 
 
 Warum das der Punkt ist, an dem du nicht mehr „herumschrammst"
