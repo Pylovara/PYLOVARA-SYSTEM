@@ -34,8 +34,32 @@ MUTTERWABEN-KATEGORIE ⠆⢄⠑⢂ KOPFWABE
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE #
+MUTTERWABEN-KATEGORIE # HAUPTWABE 
 
+ PROGRAMM-KERN # NA
+
+ WABEN-ID # HT
+
+ BION-NR # 023
+
+ BION-ID # BIID
+
+ BSK-KN # BSKN
+
+ BSK-ID # BSID
+
+ BION # BION
+
+ BSK # BSK
+
+ # AXIOM | KEID + WAID + BSKN
+ AXIOM ¡ KEID ⧓ WAID ⫯ BSKN Ξ BSID
+
+ # AXIOM | BION-ID
+ AXIOM ¡ WAID ⧓ NR Ξ BIID
+
+ # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
+ AXIOM ¡ BIID ⦳ BIID
 
 ###====================================|====================================###
 
