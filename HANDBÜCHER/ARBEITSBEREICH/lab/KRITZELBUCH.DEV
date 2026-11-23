@@ -70,6 +70,59 @@ nach dem takt sind dann die dinge quasi gedruckt oder freigegeben worden
 
 
 
+gut soweit ich das sehe brauch ich eine art raster das ich selbst anlege 
+
+
+ 0|  1|  2|  3|  4|  5|  6|  7|  8|  9| 10|
+ A|
+ ~
+ Z|
+AA|
+AZ|
+BA|
+BZ|
+
+ SO UNGEFÄHR .... wobei ich das eher mit den brillianz unterlegen würden 
+ wollen , alleine schon aus bezifferungs grüünden und weil es die einzigen 
+ zeichen sind die kompaktere systeme zulassen ... 
+
+
+
+ und das raster selbst brauch ich dann für eine solution .. 
+
+ der beste weg eins anzulegen wäre von einem sultion auszugehen von 
+ 1x1 und zu schauen wieviele pixel also segmente das ansich... 
+
+ ich gehe stark davon aus das die da irgend ein system haben und die 
+ pixel tiefe zumindestens einen minimum wert kennt ... 
+
+ das maximum , denke ich mal , ist konkurrenz sache ...aber das minimum 
+ müsste ja irgendwo notiert worden sein ... oder es hat sich einfach ergeben . 
+
+
+
+ und auf dem 1x1 raster kann ich dann die pixel angeben ... 
+
+
+ ich bräuchte aber aber zumindest eine art tabelle ... 
+ damit ich überhaupt eine alu rechnung und bit verschiebung 
+ aufschreiben kann im code ... 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
