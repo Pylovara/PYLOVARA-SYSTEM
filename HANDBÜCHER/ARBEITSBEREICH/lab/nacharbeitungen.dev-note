@@ -22,73 +22,61 @@ liste der nach arbeitungen der 00-83
  aber nach dem inhalt dann der anschluss bereich existiert 
  der mit dem container start verbinden wird ... 
 
- damit der inhalt frei darin unberührt bleibt ... 
+ ; Statische String-Konkatenation
+MOV [ZW], 𖭰
+APPEND [ZW], RA
+APPEND [ZW], 𖭿
+APPEND [ZW], AA
+APPEND [ZW], 𖭿
+APPEND [ZW], 𖭱 
 
- das heißt ich muss jetzt typo fehler in 07 beseitigen .. 
+alte version wäre zu statisch ... 
 
- und nochmal den bereich nacharbeiten ... 
+; Aktive Verbindungslogik
+MOV [ZW], 𖭰
+APPEND [ZW], RA
+CALL FIND_CONNECTION_B, ⮡    ; Suche Anschluss B
+APPEND [ZW], AA
+CALL CONNECT_A_TO_B, ⮠       ; Verbinde A mit B
+APPEND [ZW], 𖭱
+CALL HOLD_B_PASS_A, ⭾        ; Halte B, gebe A weiter
 
- damit die combo waben generalisiert bleiben kann ... 
+ neue version wäre expliziter .. 
 
+ ; ⮡ FIND_CONNECTION_B
+FIND_CONNECTION_B:
+    ; Suche im aktuellen Kontext nach Anschluss B
+    ; Wenn gefunden: Setze Flag
+    ; Wenn nicht: Error-Handler
+    RET
 
- ich weis ... ich bin extrem kleinlich ... aber umso 
- präziser ich es vorprogrammiere , umso präziser die umsetzung 
- und spätere verbesserungen für die 00-84 ... 
+; ⮠ CONNECT_A_TO_B
+CONNECT_A_TO_B:
+    ; Verbinde Anschluss A mit Anschluss B
+    ; Erstelle physische Verbindung im Speicher
+    RET
 
+; ⭾ HOLD_B_PASS_A
+HOLD_B_PASS_A:
+    ; Halte Anschluss B im aktuellen Kontext
+    ; Gebe Anschluss A an nächsten Operator weiter
+    RET
 
- ich hab das selbe problem wie davor ... versionierungen sind 
- für mich echt keine gute idee ... sie blockieren mehr als alles andere .. 
-
- grmpf 
-
- ich denke ich mach das später so ... aber extrem viel später .. 
-
-
-
- datum uhrzeit = version 
-
- version = autmatisierter zähler .. 
-
- dann muss ich mich mit dem unötigen erbsenzählerreien nicht mehr belassten 
- sondern es ist dann was es ist ... ein erbsen zähler .. 
-
- und da der kernel so oder so von mir im rolling geupdatet wird .. 
- sobald er läuft ... kann dann der erbsen zähler als " version nummer " 
-
-genutzt werden ... 
-
- dann hätte ich das elende problem elegant und smart und so dumm wie nur 
- möglich , präzisiert , ohne das ich permanent mir einen kopf darum machen muss .. 
+ könnte dann erweitert werden .. 
 
 
- für den tws user später ist es eh scheiß egal ... 
 
- bzw für die mcs user ... 
+ das heißt 
 
- das einzige was ich anbieten werde ist ein durchsuchen aller mcs codes .. 
- das punktuelle umschreiben der mcs dateien , für die syntax .. 
+ ich kann später die assembly logik selbst im system als arbeiter biene 
+ untermauern und dann wenn der kasten läuft als krönenden abschluss 
+ die assembly logik die notwendig ist ausbauen ... 
+ und nahtlos mit den axoimatischen operatoren verbinden .. 
 
- und fertig ... damit fehler oder abstürze aufgrundlage alter schaltungen 
- erstgar kein thema werden ... 
+ also systemwaben update bei 007 bevor ich weiter gehe .. das ist punktuell  
+ und macht am aller meisten sinn .. 
 
- alles was infastruktur ist wird so oder so auf permanent update gesetzt .. 
-
- wer die funktion als bank oder sicherheits unternehmen oder hosting server oder webbetreiber 
- ausstellt und auf manual .... aggiert auf eigenes risiko .. 
-
- alles andere wäre auf meine "inkompetenz" zurückzuführen ... 
-
- das heißt für mich später das ich kernel versionen stabilisiere und diese dann 
- als lauffähige einheiten als updates heraus gebe , so das ich live an der nächsten 
- version arbeiten kann , ohne das irgendwer dabei gleich einen schaden davon trägt .. 
-
- wer der ideal zustand ... den ich kenn mich .. 
-
- wenn ich mit einer verbesserung nicht zu frieden bin , schmeiß ich gerne mal 
- alles weg und beginne von vorne ... 
-
- und das ist auch extrem wichtig .... wenn du diesen kampfgeist nicht in die selbst 
- in deiner seele drinne hast dan : ist man defintiv der falsche maintainer ! 
+ 
 
 
 
