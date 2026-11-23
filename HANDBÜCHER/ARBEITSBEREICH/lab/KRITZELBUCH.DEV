@@ -38,6 +38,60 @@ nach dem takt sind dann die dinge quasi gedruckt oder freigegeben worden
 
 
 
+# schrott aber info anker ... spätere löschung ... 
+--------------------------------------------------------------------------------
+window.innerWidth, window.innerHeight # mitte
+
+window.devicePixelRatio # pixelstärke 
+
+content-box # breite höhe innenraum (kein rahmen)
+border-box  # breite höhe außenraum (rahmen)
+--------------------------------------------------------------------------------
+Wenn die ALU nur 90000 kennt und noch nichts von Achsen oder Winkeln weiß, 
+entsteht Geometrie auf Bare-Metal-Ebene in vier nüchternen Schritten:
+
+1. Bedeutung festlegen (nicht in der ALU, sondern in deiner Regel):
+
+Die ALU rechnet nur mit 90000. Dass 90000 für deinen Systemkontext z. B. 
+90.000 (Milligrad) bedeutet, ist eine reine Festlegung deiner Systemlogik/Tabellen, 
+nicht der Hardware.
+
+2. Raster & Schrittweite definieren (statt „Achse“ im Kopf):
+
+Ein Bildschirm-Speicher ist im Grunde nur ein langer Streifen Speicher. 
+Eine „X-Richtung“ ist einfach ein Schritt um 1 Einheit/Pixel nach rechts, 
+eine „Y-Richtung“ ein Sprung um eine ganze Zeilenbreite im Speicher. 
+Mehr ist eine Achse dort technisch nicht.
+
+3. Richtung & Steigung in Ganzzahlen zerlegen:
+
+Ein Strich unter einem bestimmten Winkel ist auf Pixel-/Rasterebene 
+eine Folge von Schritt-Entscheidungen: Gehe ich als Nächstes einen Schritt in X, 
+einen in Y oder beide? Klassische Raster-Algorithmen (wie Bresenham) kommen dafür 
+komplett ohne Fließkommazahlen aus – nur mit Addition, Subtraktion und 
+Vorzeichen-/Vergleichsprüfung.
+
+4. Punkte in den Zielspeicher schreiben:
+
+Jeder berechnete Punkt (x, y) wird auf eine Speicheradresse abgebildet und 
+dort der Wert (z. B. Farb-/Zustandswert) abgelegt.
+--------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
