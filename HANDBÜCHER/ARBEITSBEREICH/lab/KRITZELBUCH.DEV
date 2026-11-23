@@ -159,7 +159,109 @@ BZ|
 
  und der schlüssel ist positions angabe ... 
 
+ in dem kontext erstmal nur mit bilder und schrift und text, mit klick 
+ zur nächsten sache 
+
+ »—[ĸ: Koordinaten :ĸ|*|": text :"|*|$: PFAD :$]«
+  <· »—[ĸ: Koordinaten :ĸ|*|": text :"|*|$: PFAD :$]«
+
+ das layout lässt sich gnadenlos für alles verwenden ... 
+ und sogar spezialisieren für animations abrufe ... 
+ da muss ich nur die pfad angabe zu einem player hinzufügen 
+ und das alles richtig verkabeln ... 
+
+
+ und schon haben ich teils java , html , php und sogar pearl 
+ gnadenlos wegradiert .... überhaupt kein stress ... 
+
+ ich bau ja auf grundlage der schaltung auch den tws kernel ... 
+ daher weis ich das ... null problemo .. 
+
+ das problem ist jetzt nicht der tws oder die mcs schaltung .. 
+
+ sondern im grunde nur eine einzige sache ... 
+
+ pixel koordination ... 
+
+ dazu gibt es zwei wege und der erste will ich nativ haben 
+
+ boxis-koordination = tabelle = solution = position 
+
+ der zweite wäre 
+
+ boxis-alu = alu rechnung plus operatoren = solution = position 
+
+ das wären die zwei optionen und ich bin eher dafür das die erste 
+ die standart wahl wird ... weil umso weniger der computer grundlose 
+ positions angaben berechnen muss , gerade wenn es um bildschirm positions 
+ angaben geht , umso unbelasterter die cpu und gpu und alu und dadurch 
+ ergo = geschwindigkeits gewinn ... 
+
+ und ich bin mir verdammt sicher das es eine tabelle geben muss ... 
+
+ es macht für gui keinen sinn sie andauernt zu berechnen ... 
+
+ das ist schließlich keine 3d welt sondern schlicht und ergreifend 
+ ein raster und das raster wird dann per licht angesteuert und dieses 
+ licht erzeigt farbtiefe und lichtstärke .. und dadurch erscheint 
+ auf dem bildschirm die guis ... 
+
+ aber so wie ich die branche kenne haben die das auch verkompliziert 
+ und das hat einen einfachen grund = burggraben logik = wirtschaftsystem.
+
+ dabei machen berechnungen nur dann sind wenn man sie berechnen muss .. 
+ aber nach gefühlt 100 jahre solution berechnung , müsste die berechnung selbst 
+ ja mal ein ende gefunden haben und irgend einer hat jeder solution per 
+ tabelle dokumentiert ... 
+
+ alles andere macht keinen sinn .... selbst für 2d bewegte objekte nicht .. 
+ und wenn wir mal ganz ehrlich sind stellenweiße noch nicht mal im 3d spektrum .. 
+
+ was ist besser ? 
+
+ laden der daten und darauf zeichen ? 
+ oder 
+ permanente berechnung ? 
+
+ ich denke laden und nicht zeichen ... 
+
+ den berechnen sollte man dinge die sich vom user aus bewegen .. 
+
+ maus ... positionsangabe ( internet avatr ping ) schuss tracer ..
+ quasi individuelle dinge ... keine die so oder so da bleiben wo sie sind .. 
+
+ oder hat mal einer ein haus gesehen das beine bekommt ? 
+ oder nh wand die wandert ? 
  
+ alles was star ist muss ja schließlich ein raster besitzen ... 
+ und nur animierte sachen ( und selbst die ) sind positions bezogen .. 
+ selbst wenn man flammen wackeln lassen will mit der positionsangabe des 
+ indiviuellen körpers ( also users , dinge die random sind ) ... 
+
+
+ und das selbe ist mit einem browser , menü , programm guis , 
+
+ es ist nur eine fixierung inneinander und die angabe auf der solutions selbst .. 
+
+ und das laden der daten ... also bitte .... man ändern ja seine solutionen 
+ nicht alle paar minuten oder sekunden ... 
+
+ die realität sieht eher so aus : 
+
+ - user kauft pc / laptop /hand / tablet / digiuhr etc .. 
+ - stellt sich alles ein ... 
+ - im besten falle justiert er mal hin und her .. 
+ - er zoomt von seinem blickwinkel rein oder raus .. 
+ - der zoom hat eine harte grenze im raus zoomen .. 
+
+das ist der normal zustand ... und alles andere darüber hinaus 
+ist keine solution mehr sondern virtualität. 
+
+ das heißt das eine hat einen grund für eine dauer belasstung der cpu 
+ und das andere logischerweise überhaupt nicht .. 
+
+ hmmm .... 
+
 
 
 
