@@ -108,6 +108,58 @@ BZ|
  damit ich überhaupt eine alu rechnung und bit verschiebung 
  aufschreiben kann im code ... 
 
+ ich kann ja wohl schlecht einfach eine tabelle erstellen , was überhaupt kein 
+ thema wäre und daraus dann die alu berechnung heraus arbeiten .. 
+
+ wobei die verschiebfunktion in einer alu , die nativ mit geliefert wird 
+ ich nicht so ganz verstehe , wohin ... 
+
+ da muss es ja eine art richtungs angabe bei den verschiebungen geben .. 
+
+ das würde bedeuten das ich die nativen objekt bau transaktions rahmen 
+ vorzeige codes , gar nicht basierend auf dem realistischen kontext aufschreiben 
+ kann ... und wenn ... müsste ich das tun was überhaupt gar nicht in frage kommt .. 
+ und zwar eine bestehenden compiler abzapfen .... 
+
+ wobei ... in mcs wäre das überhaupt kein stress ... 
+ die frage nur welche compiler rechnet mit ganzzahlen ? 
+
+ ¢!
+
+»—[¥: TISCH :¥]«««~: BAUMODUS FUNKTION SPEICHER EINGANG :~
+ >· »—[$: SPEICHER/ORT/VOM/ASSEMBLY/COMPILER/?.nasm :$]«
+     <· »—[": GEOMETRIE :"|=|": WINKEL :"]«
+         <· »—[×: 90000 :×]«
+             ÷ Ø—(1): 90000 :Ø
+
+ ODER ? .... WÄRE ABER WIEDER NUR EINE EMULATIONS ZUSCHALTUNGSSCHICHT .. 
+
+ und hab das gefühlt das ich das thema mit der bienen könnigin zusammen 
+ später im system einbauen muss ... es macht keinen sinn, fremde präfix 
+ anker mit englischer unterfütterung zu benutzen ... 
+
+ ich gehe stark davon aus das das garantiert auch per maschinencode selbst 
+ abgefangen werden kann .... und da ich so oder so das system mit dem p-generator 
+ später zusammen füge und die bienen könnigin ihre eigene jump und zahlen 
+ abfolge besitzt, sollte darauf erstmal verzichten ... 
+
+ aber dennoch ... ich brauch positions angaben ... ohne kann ich nicht 
+ sagen wo welches bild oder animation oder schrift, erscheinen soll ... 
+
+ das trennt mich quasi jetzt als einzige sache davon , mcs in den ersten 
+ pontifex operatoren durch zu denken ... 
+
+ »—[ĸ: Koordinaten :ĸ|*|": text :"|*|$: PFAD :$]«
+ »—[ĸ: Koordinaten :ĸ|*|": text :"|*|$: PFAD :$|*|§: NET :§]«
+
+ und das ist keine kleinlichkeit ... 
+
+ ich kann ohne wenn und aber php und html und elemente aus GAMEENGINES 
+ nahtlos ersetzen ... ich brauch aber den schlüssel ... 
+
+ und der schlüssel ist positions angabe ... 
+
+ 
 
 
 
