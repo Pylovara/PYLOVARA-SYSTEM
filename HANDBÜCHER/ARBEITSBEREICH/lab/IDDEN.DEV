@@ -1,0 +1,134 @@
+LOCKKARTEN DESIGNE .. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+zeile 15 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+zeile 30 
+
+
+damals waren lochkarten in der regel cirka 80 spalten breit ... 
+und die hälfte davon cirka zeile ... 
+
+
+12345678
+2
+3
+4
+
+
+dann bekamen sie nach einem takt ryhtmus durchlöcherte stellen .. 
+
+
+
+jeder takt konnte mit irgendwas gefühlt werden 
+
+
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaoaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbobbbbbbbbbbbbbbbbbbbbbbbbbbbbbb 
+
+nach dem takt sind dann die dinge quasi gedruckt oder freigegeben worden  
+
+ ab 
+
+ 
+
+
+
+
+
+
+
+
+
+ wenn ich das prinzip auf einen editor ummünze und die breite der "karte" 
+ auf den end und start bereich festlege .. 
+
+ ¢!
+
+ alle zeilen unendliche spalten 
+
+ !¢
+
+könnte ich mcs sogar maschinen bnäher schreiben als es c kann .. 
+
+je nach tiefe .... ordentlich ... sauber ... 
+
+
+würden die als nudeln beszeichen denk ich ... dabei stimmt das nicht .. 
+das problem mit den editoren ist nur eines ... 
+
+rechtemaus tasten halten , kann man nicht das papier bewegen ... 
+
+so wie in allen arbeitsflächen ... 
+
+dadurch wird alles unübersichtlich und lediglich nicht ansteuerbar ... 
+das macht dann den nerv faktor ... den ich auch kenne 
+
+ich muss für das neue system gleich eine bessere ide schreiben .. 
+da geht kein weg drum herum ... 
+
+man kann zwar schmahl schalten und umleiten , das geht ... 
+
+aber ob das sinn macht bei genauen schaltungen , ist eine sache für sich .. 
+
+ich denke die optimale breite für mcs wären cirka 160 blöcke .. 
+
+man kann mit 80 blöcken arbeiten ... ja ... absolut .. 
+aber ideal wären 160 cirka ... 
+
+halt den gedanken mal fest ... den im grunde gehts nur um einen  
+faktor der nervt ... : die unbeweglichkeit des blattpapieres .. 
+
+und im zweifall die solution sekundär ... wobei rein und raus zoomen 
+und rechtmaustaste halten , die beste code steuerung wären ... 
+
+das können andere sprachen nicht sauber repräsentieren ... daher ist es für die 
+nicht von nötern ... 
+
+aber in mcs gesehen , defintiv ... und das sogar maschinen näher als 
+die courser logik ... 
+
+das heißt ... 
+
+ich mach den bmc 4.0 von dem transaktionsrahmen selbst 
+abhängig und lass die lese funktion des codes , seitlich 
+laufen statts banal RTL ... 
+
+und das einlesen alle abschnitte erzeugt dann die übersetzung .. 
+
+
+das wäre viel besser als der schrott mit dem course von links nach rechts 
+lesen ... da der courser auch leerräume durchgeht und man ihn dann unötiger 
+weise jumpen lassen muss ... 
+
+inklsuive keine probleme mit den zeilen enden ... da der durch lauf bis zum letzten zeichen 
+geht und automatisch stopt ... 
+
+behalt das im kopf .... 
+
+
+
