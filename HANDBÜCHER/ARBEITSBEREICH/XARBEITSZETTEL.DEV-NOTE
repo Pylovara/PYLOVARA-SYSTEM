@@ -78,18 +78,169 @@
  SONDERN ES SCHLUSS ENDLICH IN DIE KOMMANDO KOMPONENTE DANN MIT INTEGRIERT WIRD 
  WEIL ES EINFACH SMARTER UND BESSER IST . 
 
+ DANN HAT SICH HERAUS GESTELLT DAS FÜR STROM KOORDINATIONEN UND VERSORGUNGEN, DAS PROTON 
+ DAMALS : {<NAMEN:<WERT>} IM GRUNDE BESSER IN DEN BOXIS INTEGRIEREN LÄSST ... 
+
+ UND WIE STEUERT MAN HARDWARE AN ? EIGENTLICH PER SYSCALL 
+
+ DAS HEIẞT DAS WIR DEN SELBEN EFFECKT SO SOGAR BESSER IN BEKOMMEN 
+
+ ,: {NAME} :, UND Ŋ: {Wert} :Ŋ das heißt ein pontifex ist schonmal klar 
+
+ der damalige bindungsbefel ; 
+
+ dann bauen wir das als kleber ... bindung ... 
+
+ |;| <- gehört zusammen 
+
+ also 
+
+ —[,: {NAME} :,|;|Ŋ: {Wert} :Ŋ]
+
+  und schon haben wir proton weg und nahtlos verbessert in den boxis integriert 
+
+  gegenüberstellung : 
+
+
+ damals 
+
+ —[{<NAMEN:<WERT>}]— # on-pipe-protein mit proton 
+
+ update : 
+
+ —[,: {NAME} :,|;|Ŋ: {Wert} :Ŋ] # protein mit boxis und pontifex 
+
+ 
+ da ich off-pipe proteine vollständig gestrichen habe , alleine schon deswegen 
+ weil es keinen sinn macht die pipe weg zu lassen , weil wenn nicht daran angeschlosen ist 
+ dann geht die kette auch nicht weiter .. 
+
+
+ und der REX ( JETZT NECTAR ) so oder so 
+ den ausgabe kanal auf 
+
+ ¤ intern 
+ ¤¤ extern 
+
+ puscht 
+
+ und man ja auch funktionen baut die den internen ausgabe bereich einer funktion 
+ zu dem externen ausgabe bereich leitet 
+
+ damit der übergang funktioniert ... 
+
+ <·¤ »—[]«««~: BAUMODUS FUNKTION SPEICHER AUSGANG :~« 
+
+      ↑ UND MAN DIE DATEN HERAUS BEKOMMEN MUSS ... 
+
+
+      also 
+
+ »—[¥: funktions name :¥]«««~: baumodus funktions speicher abruf 
+  <·¤¤ »—[ übergabe der funkion daten ]«
+        ÷ Ø—(eingetragene speicher nummer): daten holen :Ø
+
+
+ damit man sie verwenden kann und dann wieder einspeißen kann ... 
+
+ so wie davor auch , weil das einfach richtig und wichtig ist ... 
+
+
+ habe ich die off-pipe-proteine raus gepatch ... unötig .. 
+
+ das einzige was man im code selbst wissen muss ist 
+
+
+ wenn proteine auf der selben linie existieren . 
+
+ kann der header und der food bereich, nur dann angezapft werden 
+ wenn keine leere zeile dazischen ist 
+
+
+ —[]
+
+ —[]
+
+
+ und die komponenten sind so darauf abgestimmt , das nitrox injektor 
+ nicht am nitrox extraktor bereich andocken kann ... 
+
+ das selbe gilt für rex ( nectar ) , rex wird grundsätzlich schon im tws 
+ nur als nachkommende anschluss möglichkeit etabliert , wie schon immer .. 
+ kann also garnicht auf den head bereich connecten .. 
+
+ beim zytron das selbe spiel ... 
+
+ £›<nr> 
+
+ expliziter ausgang kanal 
+
+ £‹1 expliziter eingangs kanal 
+
+ beide können da andocken wo sie hingehören .. 
+
+
+
+ dadurch erreich man eine eindeutigkeit , selbst bei 
+ vergessenen leeren zeilen 
+
+ —[]
+ £‹1
+ —[]
+ £›1
+ —[]
+
+ man weis sofort , aha ... das mittlere haupt protein hat einen return also 
+ zurück schleife auf kanal 1 ... 
+
+ exit ist nicht nötig den exit ist ende der kette .. 
+
+ wo kann kein ist kann auch nichts bearbeitet werden , das ist von natur aus 
+ so weil wir schaltung programmieren und keine c blöcke oder java oder kotnlin 
+
+
+ und wenn es nötig sein sollte ... dann kommt das natürlich in das mcd den dafür 
+ ist es gemacht ... 
+
+
+ und das mcs bekommd natürlich auch 2 grund operatoren 
+
+ und sequenziel und und paralell 
+
+ mehr brauch es nicht um zwei befehls ketten in einer kommando line 
+ zu paaren .. und alles andere wäre nur ein update ... 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 
 
  
-
-
-
-
-
-
 
 
 
