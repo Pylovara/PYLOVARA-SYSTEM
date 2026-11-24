@@ -571,17 +571,39 @@ höhe. Das ist deine einzige Prüfung – reine Addition und Vergleich, also ALU
 
  sagen wir 
 
- FORM 
- POSI
+ FORM = FORMAT
+ POSI = POSITION 
+
+ NEIN ... POSIFEX ... 
+
+ ALSO 
+
+ FORMAT = 020X020
+ KOORDI = 
+
+ ALSO MIT DER POSIOTN HAB ICH MEINE PROBLEME ... ... 
+ DIE MITTE DES OBJEKTS ? WILL DER MICH VERARSCHEN . ? 
+
+ NEIN 
 
 
+ moment ... 
 
 
+ zurück zu meiner logik ... das mach keinen sinn , macht die sache unötig 
+ komplex ... 
 
+ 000x000
+ ↑↑↑↑↑↑↑
+ 1234567
 
+ 1 3 = links | rechts
+  2  = noch offen 
 
+  4  = nur das mal 
 
-
+ 5 7 = oben | unten 
+  6  = noch offen 
 
 
 
