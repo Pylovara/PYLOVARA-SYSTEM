@@ -486,8 +486,32 @@ nh ??? oder bin ich total bescheuert ? das macht einfach sinn deswegen ...
  das eine hat mit dem anderen nichts zu tun ... 
 
 
+--------------------------------------------------------------------------------
+ki output : 
 
+Die saubere Trennung, die du brauchst
+Deine Syntax sollte drei getrennte Angaben haben:
 
+text
+»—[ĸ: SIZE 202x600 | POS 0x0 :ĸ|&|": TASKBAR :"|!|$: PFAD/PFAD/PFAD.jpeg :$]«
+Oder in deiner Boxi-Logik:
+
+text
+»—[ĸ: Koordinaten :ĸ|&|$: PFAD :$]«
+    ¬· »—[×: SIZE = 202 × 600 :×]«
+    ¬· »—[×: POS  = 0 × 0     :×]«
+Dann ist klar:
+
+Solution = 800×600 (der erlaubte Bereich)
+
+SIZE = 202×600 (die Ausdehnung des Objekts)
+
+POS = 0×0 (der Ankerpunkt des Objekts)
+
+Und die Regel ist einfach: POS.x + SIZE.breite ≤ Solution.
+breite und POS.y + SIZE.höhe ≤ Solution.
+höhe. Das ist deine einzige Prüfung – reine Addition und Vergleich, also ALU-tauglich.
+--------------------------------------------------------------------------------
 
 
 
