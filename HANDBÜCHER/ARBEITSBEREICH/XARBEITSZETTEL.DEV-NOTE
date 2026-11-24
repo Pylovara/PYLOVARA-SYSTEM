@@ -306,7 +306,51 @@
  beste aus dem missstand machen ... 
 
 
- 
+ so zwei dinge 
+
+
+ 1. mcs-lexiko proteine = vergessene erklärung der zucht und ordnung
+    doktrin .... kopf bereich und fuß bereich ! nach trag gleich .. 
+
+    und 
+
+    2. ich hab kompletten müll gelabbert .... 
+
+
+ keine pontifex ausführungs erlaubnis weil die boxis selbst sie beinhaltet 
+
+
+ beispiel auf one boxis 
+
+
+ kunden logik 
+
+ »—[§: ip adresse für account/email eingabe/passwort :§]«
+  <·* »—[": ACCOUNT = :"|;|&: ^ :&]« 
+  <·* »—[": PASSWORT = :"|;|&: ^ :&]« 
+
+ ODER 
+
+ <· »—[§: IN ip adresse für account eingabe :§]«
+     <·* »—[": ACCOUNT = :"|;|&: ^ :&]« 
+ <· »—[§: ip adresse für passwort :§]«
+     <·* »—[": ACCOUNT = :"|;|&: ^ :&]« 
+
+ ¶<· »—[§: OUT ip adresse für rückgabe :§]«
+
+
+ mehrfach boxis 
+
+
+  »—[§: ip account/email :§|;|": ACCOUNT = :"|;|&: ^ :&|;|": PASSWORT = :"|;|&: ^ :&]«
+
+ oder 
+
+   »—[§: IN ip account/email :§|;|": ACCOUNT = :"|;|&: ^ :&|;|": PASSWORT = :"|;|&: ^ :&]«
+    ¶<· »—[§: OUT ip adresse für rückgabe :§]«
+
+
+
 
 
 
