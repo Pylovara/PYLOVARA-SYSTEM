@@ -417,13 +417,29 @@ nh ??? oder bin ich total bescheuert ? das macht einfach sinn deswegen ...
 
  hab ich falsch gefragt oder bin ich bescheuert ? 
 
+ so wenn wir die fixpunkte links und rechts haben und die pixebreite 2 ist 
 
+ dann wären wir bei 
 
+ 800x(lassen wir mal weg)
+ 202x(lassen wir auch weg)
 
+ also haben wir ein zwei pixelbreites obejekt auf dem rand .. 
 
+ jetzt könnte man sich noch die mitte ausdenken ... 
 
+ aber mach keinen sinn ... 
 
+ das beziehen wir jetzt auf 
 
+            
+     ↓↓↓
+ 000x600
+
+ auf die höhe ... 600 ganz oben und 001 ganz unten .. 
+
+ da wir zwei pixel breite gewählt haben ... gehen wir nicht ganz runter 
+ sondern eben mit abstand also 002 weil 202 
 
 
 
