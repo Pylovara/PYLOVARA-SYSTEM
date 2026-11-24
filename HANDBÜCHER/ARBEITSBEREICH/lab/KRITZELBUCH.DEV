@@ -415,6 +415,28 @@ höhe. Das ist deine einzige Prüfung – reine Addition und Vergleich, also ALU
 
  »—[": FORM :"|=|×: FORMAT = *** ×× *** :×]«
 
+ also wenn die alu als programmierung dient und nicht nur als 
+ mathe abteilung ... 
+
+ dann kann ich doch in der alu sagen FORMAT = *** ×× *** 
+
+ der mathe teil wäre von der alten bibliothek her : 
+
+ ¢! 
+»—[¥: ×× :¥]—«««~: BAUMODUS FUNKTION SPEICHER EINGANG :~«  
+ ¬· »—[$: /PYLOVARA-SYSTEM/MCS-BIBLIOTHEK/BASIS-FUNKTIONEN/MATHEMATIK/RECHEN-OPERATOR/MUL :$]—«
+     ¬· »—[ ×× ]—«
+         ÷ Ø—(⠀⠾⡒): ×× :Ø
+ 
+         ± Ø: ×× :(⠀⠾⡒)—Ø
+     ¬· »—[ (⠀⠾⡒) ]« 
+         ¬·¤ »[ ×× ]«««~: BAUMODUS FUNKTION SPEICHER AUSGANG :~«
+!¢
+
+ also wäre dann das format sagen wir 800 ×× 600 z.b 
+
+ 
+ 
 
 
  NEIN ... POSIFEX ... 
