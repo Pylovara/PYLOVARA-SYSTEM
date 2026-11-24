@@ -343,13 +343,15 @@ und die öffnung passiert dann intern über pontifex anbruf |!|
 
  der fixpunkt 4 ist die höchste zahle der vertikalenangabe , die 6 die niedrigsten 
 
- 
+ da die solution 800x600 ist setzen wir dann die taskbar auf 202x600 
 
+ also 
 
-
-
-
-
+      123 456
+      ↓↓↓ ↓↓↓
+      800x600 solution 
+      ↓↓↓ ↓↓↓
+      202x600 angabe 
 
 
 
