@@ -279,12 +279,52 @@ also
         <·¤ »—[ ensprechende boxi plus ^ platzhalter ]«
  !¢
 
+ gut .... der rest ist ersmal unwichtig ... 
 
 
 
+ nochmal zurück zur grundlegenden sache 
+
+ das heißt ich neheme das beispiel 800x600 
+
+ das würde bedeuten wenn ich eine task leiste auf dieser solution 
+ oben anbringen will ... müsste ich 
+
+ 101x600 angeben ... 
+
+ vorausgesetzt die höchste zahl ist oben und die geringste unten 
+
+ damit hätte ich einen extrem dünnen strich 
+
+ will ich in verbreiten ... müsste ich 
+
+ 202x600 angeben ... 
+
+ da ich denke die 800 sind die breite ... die 600 die höhe 
+ die höste zahl in der höhe = oben 
+ 
+ in der breite denke ich das die fixpunkte beider seiten 
+ wichtig sind ... also die 8 und die letzte null ... 
+
+ dann wären wir code technisch dann so ungefähr aufgebaut .. 
+
+»—[¥: TASKBAR-ROH :¥]«««~: BAUMODUS FUNKTION SPEICHER EINGANG :~«
+ <· »—[¥: SOLUTION :¥]«««~: BAUMODUS FUNKTION SPEICHER ABRUF :~«
+     <·¤¤ »—[¿: 800X600 :¿]«
+           <· »—[ĸ: 202x600 :ĸ|&|$: PFAD/PFAD/PFAD.jpeg :$]«
+
+
+das jpeg
 
 
 
+ich könnte sogar dann einen abruf pontifex vorplanen .. 
+das ausfürhabre protein selbst und oder mit abruf explizit 
+
+weil das pfad boxi quasi nur ins verzeichnes geht und die date sieht 
+und die öffnung passiert dann intern über pontifex anbruf |!| 
+
+»—[ĸ: 202x600 :ĸ|&|": TASKBAR :"|!|$: PFAD/PFAD/PFAD.jpeg :$]«
 
 
 
