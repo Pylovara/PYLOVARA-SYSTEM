@@ -385,6 +385,27 @@ gut okey ich war falsch :
 
     hmm ... 
 
+ oder sie hat nicht verstanden das die orioginal solution dann mit der angabe selbst 
+ gefüttert wird ... 
+
+ bin mir da gerade nicht so ganz sicher .. 
+
+ die sache ist die ... für was pos 0x0 ? 
+
+ es geht ja nicht von der mitte aus ... 
+ sondern von der solution selbst .. 
+
+ die solution hat drei stelle 
+
+ 000 <-- drei ... 
+
+ 100 <--- linker rand 
+ 001 ---> rechter rand 
+
+ 101 <--- links und rechts 
+
+ also 800 = 101 = links und rechts .. 
+
 
 
 
