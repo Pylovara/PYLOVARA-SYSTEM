@@ -513,7 +513,16 @@ breite und POS.y + SIZE.höhe ≤ Solution.
 höhe. Das ist deine einzige Prüfung – reine Addition und Vergleich, also ALU-tauglich.
 --------------------------------------------------------------------------------
 
+ gut dann weis ich schonmal das man anscheinend über die alu selbst sowas 
+ programmieren kann .... ich hark aber nochmal nach .. 
 
+ den ich bin skeptisch ... 
+
+ weis die alu das wort SIZE ? oder POS ? das sind präfixes ... die müssen 
+ ja dann im gerät bei auslieferung in der alu schon vorprogrammiert drinne stecken 
+ und irgendwie bezweifle ich das ... 
+
+ hmmm .... 
 
 
 
