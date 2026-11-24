@@ -70,60 +70,6 @@ nach dem takt sind dann die dinge quasi gedruckt oder freigegeben worden
 
 
 
-gut soweit ich das sehe brauch ich eine art raster das ich selbst anlege 
-
-
- 0|  1|  2|  3|  4|  5|  6|  7|  8|  9| 10|
- A|
- ~
- Z|
-AA|
-AZ|
-BA|
-BZ|
-
- SO UNGEFÄHR .... wobei ich das eher mit den brillianz unterlegen würden 
- wollen , alleine schon aus bezifferungs grüünden und weil es die einzigen 
- zeichen sind die kompaktere systeme zulassen ... 
-
-
-
- und das raster selbst brauch ich dann für eine solution .. 
-
- der beste weg eins anzulegen wäre von einem sultion auszugehen von 
- 1x1 und zu schauen wieviele pixel also segmente das ansich... 
-
- ich gehe stark davon aus das die da irgend ein system haben und die 
- pixel tiefe zumindestens einen minimum wert kennt ... 
-
- das maximum , denke ich mal , ist konkurrenz sache ...aber das minimum 
- müsste ja irgendwo notiert worden sein ... oder es hat sich einfach ergeben . 
-
-
-
- und auf dem 1x1 raster kann ich dann die pixel angeben ... 
-
-
- ich bräuchte aber aber zumindest eine art tabelle ... 
- damit ich überhaupt eine alu rechnung und bit verschiebung 
- aufschreiben kann im code ... 
-
- ich kann ja wohl schlecht einfach eine tabelle erstellen , was überhaupt kein 
- thema wäre und daraus dann die alu berechnung heraus arbeiten .. 
-
- wobei die verschiebfunktion in einer alu , die nativ mit geliefert wird 
- ich nicht so ganz verstehe , wohin ... 
-
- da muss es ja eine art richtungs angabe bei den verschiebungen geben .. 
-
- das würde bedeuten das ich die nativen objekt bau transaktions rahmen 
- vorzeige codes , gar nicht basierend auf dem realistischen kontext aufschreiben 
- kann ... und wenn ... müsste ich das tun was überhaupt gar nicht in frage kommt .. 
- und zwar eine bestehenden compiler abzapfen .... 
-
- wobei ... in mcs wäre das überhaupt kein stress ... 
- die frage nur welche compiler rechnet mit ganzzahlen ? 
-
  ¢!
 
 »—[¥: TISCH :¥]«««~: BAUMODUS FUNKTION SPEICHER EINGANG :~
@@ -132,65 +78,15 @@ BZ|
          <· »—[×: 90000 :×]«
              ÷ Ø—(1): 90000 :Ø
 
- ODER ? .... WÄRE ABER WIEDER NUR EINE EMULATIONS ZUSCHALTUNGSSCHICHT .. 
-
- und hab das gefühlt das ich das thema mit der bienen könnigin zusammen 
- später im system einbauen muss ... es macht keinen sinn, fremde präfix 
- anker mit englischer unterfütterung zu benutzen ... 
-
- ich gehe stark davon aus das das garantiert auch per maschinencode selbst 
- abgefangen werden kann .... und da ich so oder so das system mit dem p-generator 
- später zusammen füge und die bienen könnigin ihre eigene jump und zahlen 
- abfolge besitzt, sollte darauf erstmal verzichten ... 
-
- aber dennoch ... ich brauch positions angaben ... ohne kann ich nicht 
- sagen wo welches bild oder animation oder schrift, erscheinen soll ... 
-
- das trennt mich quasi jetzt als einzige sache davon , mcs in den ersten 
- pontifex operatoren durch zu denken ... 
 
  »—[ĸ: Koordinaten :ĸ|*|": text :"|*|$: PFAD :$]«
  »—[ĸ: Koordinaten :ĸ|*|": text :"|*|$: PFAD :$|*|§: NET :§]«
 
- und das ist keine kleinlichkeit ... 
-
- ich kann ohne wenn und aber php und html und elemente aus GAMEENGINES 
- nahtlos ersetzen ... ich brauch aber den schlüssel ... 
-
- und der schlüssel ist positions angabe ... 
-
- in dem kontext erstmal nur mit bilder und schrift und text, mit klick 
- zur nächsten sache 
-
  »—[ĸ: Koordinaten :ĸ|*|": text :"|*|$: PFAD :$]«
   <· »—[ĸ: Koordinaten :ĸ|*|": text :"|*|$: PFAD :$]«
 
- so .-... also suchen 
 
-
- so ich hab jetzt erstmal die location gewechselt , zuhause ist sogar das 
- tippen auf der tastatur zuviel ... 
-
- meine mutter schläft mit offener tür und die wohnung ist extrem hellhörig und ich hab 
- hab eine maschinelle tastatur ... auf dem balkon wo ich normalerweise 
- sitze kann ich nicht arbeiten bei den temperaturen ... die füße frieren ein .. 
-
-
- also zurück zum garten , ich hoff die dreht nicht durch ... ich hab mir 
- den scheiß elektro dreht roller kurz dafür ausgeliehen im keller , da mein roller 
- defekt ist wegen der zündkerzen ... 
-
-
- gut ich glaube ich komm gedfanklich der sache etwas näher ... 
-
- ich müsste solution angaben generalisierend auf listen .. 
-
- dazu brauch ich eine sulition funktion 
-
- als erstes wäre es von nöten das irgendwie zu schreiben 
-
- der einfacheheit wegen erstmal listen ansicht als text boxis 
-
+ der einfachheit wegen erstmal listen ansicht als text boxis 
 
  ¢!
  »—[¥: SOLUTION :¥]«««~: BAUMODUS FUNKTION SPEICHER EINGANG :~«
@@ -202,61 +98,20 @@ BZ|
       <· »—[": 4K UHD: 3840 × 2160 Pixel :"]«
       <· »—[": 7680 × 4320 Pixel :"]«
  !¢
-
-
+--------------------------------------------------------------------------------
 Hardware-Ebene: EDID & DDC 
 
 Bare-Metal-Zugriff: Ohne Betriebssystem (z. B. im Bootloader/UEFI) 
 fragt die Firmware den EDID-Block direkt über das UEFI GOP 
 (Graphics Output Protocol) oder die VESA BIOS Extensions (VBE) 
 ab und setzt den Linear Framebuffer (LFB) auf die gewünschte Auflösung.
-
+--------------------------------------------------------------------------------
 gut okey die info hilft ... zwar noch ungenau aber zumindest etwas 
-
 also 
 
  ¢!
- »—[¥: SOLUTION :¥]«««~: BAUMODUS FUNKTION SPEICHER EINGANG :~«
-  <· »—[¿: {UEFI} :¿]«
-      Ł· »—[":OLDMODE 800 x 600 :"]«
-
-      Ł· »—[":HD: 1280 × 720 Pixel :"]«
-
-      Ł· »—[":Full HD: 1920 × 1080 Pixel :"]«
-
-      Ł· »—[":WQHD: 2560 × 1440 Pixel :"]«
-
-      Ł· »—[": 4K UHD: 3840 × 2160 Pixel :"]«
-
-      Ł· »—[": 7680 × 4320 Pixel :"]«
- !¢
-
- wenn er dann per sentior auswahl die solution ermittel hat 
-
- ¢!
- »—[¥: SOLUTION :¥]«««~: BAUMODUS FUNKTION SPEICHER EINGANG :~«
-  <· »—[¿: {UEFI} :¿]«
-      Ł· »—[":OLDMODE 800 x 600 :"]«
-          Ø—(1): * :Ø
-      Ł· »—[":HD: 1280 × 720 Pixel :"]«
-          Ø—(2): * :Ø
-      Ł· »—[":Full HD: 1920 × 1080 Pixel :"]«
-          Ø—(3): * :Ø
-      Ł· »—[":WQHD: 2560 × 1440 Pixel :"]«
-          Ø—(4): * :Ø
-      Ł· »—[": 4K UHD: 3840 × 2160 Pixel :"]«
-          Ø—(5): * :Ø
-      Ł· »—[": 7680 × 4320 Pixel :"]«
- !¢
-
- wird sie dann direkt in den führenden feed per nitrox extraktor gefüttert 
- und * ist jetzt einfach der einfachheithalber darin . stern = selbe 
-
- danach muss die fütterung dann ausgegeben werden .. 
-
- ¢!
- »—[¥: SOLUTION :¥]«««~: BAUMODUS FUNKTION SPEICHER EINGANG :~«
-  <· »—[¿: {UEFI} :¿]«
+ »—[¥: AUFLÖSUNG :¥]«««~: BAUMODUS FUNKTION SPEICHER EINGANG :~«
+  <· »—[¿: Graphics Output Protocol :¿]«
       Ł· »—[":OLDMODE 800 x 600 :"]«
           Ø—(1): * :Ø
       Ł· »—[":HD: 1280 × 720 Pixel :"]«
@@ -275,7 +130,7 @@ also
         ± Ø: * :(4)—Ø
         ± Ø: * :(5)—Ø
         ± Ø: * :(6)—Ø
-  ¶ >· »—[#: (^) :#]«
+  ¶ >· »—[#: (*) :#]«
         <·¤ »—[ ensprechende boxi plus ^ platzhalter ]«
  !¢
 
@@ -285,7 +140,7 @@ also
 
  nochmal zurück zur grundlegenden sache 
 
- das heißt ich neheme das beispiel 800x600 
+ das heißt ich nehme das beispiel 800x600 
 
  das würde bedeuten wenn ich eine task leiste auf dieser solution 
  oben anbringen will ... müsste ich 
@@ -309,14 +164,11 @@ also
  dann wären wir code technisch dann so ungefähr aufgebaut .. 
 
 »—[¥: TASKBAR-ROH :¥]«««~: BAUMODUS FUNKTION SPEICHER EINGANG :~«
- <· »—[¥: SOLUTION :¥]«««~: BAUMODUS FUNKTION SPEICHER ABRUF :~«
+ <· »—[¥: AUFLÖSUNG :¥]«««~: BAUMODUS FUNKTION SPEICHER ABRUF :~«
      <·¤¤ »—[¿: 800X600 :¿]«
            <· »—[ĸ: 202x600 :ĸ|&|$: PFAD/PFAD/PFAD.jpeg :$]«
 
-
 das jpeg
-
-
 
 ich könnte sogar dann einen abruf pontifex vorplanen .. 
 das ausfürhabre protein selbst und oder mit abruf explizit 
@@ -353,19 +205,13 @@ und die öffnung passiert dann intern über pontifex anbruf |!|
       ↓↓↓ ↓↓↓
       202x600 angabe 
 
-
-
 wenn ich die taskbar , bzw nur das bild gerade unten haben will ... dann 
-
-
 
       123 456
       ↓↓↓ ↓↓↓
       800x600 solution 
       ↓↓↓ ↓↓↓
       202x001 angabe 
-
-
 
 gut okey ich war falsch : 
 
@@ -374,24 +220,17 @@ gut okey ich war falsch :
     ¬· »—[×: POS  = 0 × 0     :×]«
 
     klar ... man .... wie dumm von mir .. 
-
     aber ich bin mir sicher dass es auch so funktioniert .. aber sei es drumm 
-
     ki hat mich gerade aufgeklärt ... 
-
     gut ... sie nutzt alu ... 
-
     anscheind nutzt man die alu dafür ... 
-
     hmm ... 
 
  oder sie hat nicht verstanden das die orioginal solution dann mit der angabe selbst 
  gefüttert wird ... 
 
  bin mir da gerade nicht so ganz sicher .. 
-
  die sache ist die ... für was pos 0x0 ? 
-
  es geht ja nicht von der mitte aus ... 
  sondern von der solution selbst .. 
 
@@ -573,6 +412,10 @@ höhe. Das ist deine einzige Prüfung – reine Addition und Vergleich, also ALU
 
  FORM = FORMAT
  POSI = POSITION 
+
+ »—[": FORM :"|=|×: FORMAT = *** ×× *** :×]«
+
+
 
  NEIN ... POSIFEX ... 
 
