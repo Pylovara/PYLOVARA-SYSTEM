@@ -204,11 +204,18 @@ BZ|
  !¢
 
 
+Hardware-Ebene: EDID & DDC 
 
+Bare-Metal-Zugriff: Ohne Betriebssystem (z. B. im Bootloader/UEFI) 
+fragt die Firmware den EDID-Block direkt über das UEFI GOP 
+(Graphics Output Protocol) oder die VESA BIOS Extensions (VBE) 
+ab und setzt den Linear Framebuffer (LFB) auf die gewünschte Auflösung.
 
+gut okey die info hilft ... zwar noch ungenau aber zumindest etwas 
 
+also 
 
-
+¢! 
 
 
 
