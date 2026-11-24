@@ -254,7 +254,30 @@ also
 
  danach muss die fütterung dann ausgegeben werden .. 
 
- 
+ ¢!
+ »—[¥: SOLUTION :¥]«««~: BAUMODUS FUNKTION SPEICHER EINGANG :~«
+  <· »—[¿: {UEFI} :¿]«
+      Ł· »—[":OLDMODE 800 x 600 :"]«
+          Ø—(1): * :Ø
+      Ł· »—[":HD: 1280 × 720 Pixel :"]«
+          Ø—(2): * :Ø
+      Ł· »—[":Full HD: 1920 × 1080 Pixel :"]«
+          Ø—(3): * :Ø
+      Ł· »—[":WQHD: 2560 × 1440 Pixel :"]«
+          Ø—(4): * :Ø
+      Ł· »—[": 4K UHD: 3840 × 2160 Pixel :"]«
+          Ø—(5): * :Ø
+      Ł· »—[": 7680 × 4320 Pixel :"]«
+
+        ± Ø: * :(1)—Ø
+        ± Ø: * :(2)—Ø      
+        ± Ø: * :(3)—Ø
+        ± Ø: * :(4)—Ø
+        ± Ø: * :(5)—Ø
+        ± Ø: * :(6)—Ø
+  ¶ >· »—[#: (^) :#]«
+        <·¤ »—[ ensprechende boxi plus ^ platzhalter ]«
+ !¢
 
 
 
