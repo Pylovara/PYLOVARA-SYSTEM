@@ -27,7 +27,7 @@
    WEIL DIE WABEN NAMEN IDENTISCH SIND.
  - NECTAR TRÄGT RETRON PATRON 
 
- PRIO = BOXIS FERTIGSTELLUNG !!!!!
+ PRIO = PONTIFEX
 
 ###====================================|====================================###
 #==================# TAGES NARICHT SEKTION 
@@ -37,66 +37,62 @@
  🌲 Handpan & Violine im Redwood Sanctuary – 1 Stunde Musik für gefühlvolle Besinnung
  https://www.youtube.com/watch?v=eHek1pgbvcs&list=PLsSRJv298bqAdP52hQY7v6S5fuDFooFDo
 
- UND GEHE GEMÜTLICH DIE BOXIS WEITER DURCH ..... 
+ So .. neuer tag neues glück .... 
 
- SO JETZT GEHE ICH DEN FEINSCHLIFF DURCH ... 
- DIE NACHT IST EH GELAUFEN ... 
+ dann dreht sich heute alles um eine frage : 
 
- PONTIFEX AB HEUTE ABEND ... DANN SITZ ICH WENIGSTENS EINIGERMAẞEN 
- IM WARMEN ... UND NICHT IM GARTEN 
+ wieviele grund basis operatoren benötigt pontifex, damit 
+ ich boxis mit einander verbinden kann . 
 
- PONTIFEX GRUND-OPERATOREN 
+ die frage ist elementar den das sorgt für die implementierung 
+ von mehreren boxis innerhalb eines proteins ... 
 
- - UND &
- - ODER ?
- - ISTGLEICH =
+ bis jetzt wurde mit einer boxi plus dem plus-impuls gearbeitet 
+
+ also von den alten entwicklungen her 
+
+ - argumente ( die jetzt im aktionsdraht per mcd boxi integriert wurden )
+ - alleinige boxis (basis programmierungs variante )
+
+ jetzt geht es um das was schon lange geplant plant war 
+
+ —[{BXMK}|{BXMK}]
+ —[{BXMK}|{BXMK}|{BXMK}]
+
+ DAS WAREN QUASI DIE ALTE WERTE DIE ÜBER DAS MCD SPÄTER 
+ IN PROTEINE VERSCHOBEN ODER GEBÜNDELT WERDEN KÖNNEN .. 
+ DAS WIRD AUCH NICHT VERGESSEN ..... 
+
+ UND DAS MCD REGISTER . ALSO DER PLATZ HALTE IM PLUS IMPULS 
+ IST AUCH KEINE BOXI DIE NUR DAFÜR DIENEN KANN , SONDERN GENERELL VERWENDET WERDEN 
+ KANN 
+
+ ABER WEIL MAN AUCH EINEN KOMMANDO BZW EINE KOMMANDO EINGABE BRAUCH , EXISTIERT 
+ EIN KOMMANDO DANN NATÜRLICH ALS ARGUMENT UND DAS ARGUMENT WURDE WEITER ENTWICKELT 
+ UND HAT SICH SCHLUSS ENDLICH ALS ALLEINIGE KOMPONENTE IN DEN AKTIONSDRAHT ETABLIERT . 
+
+ DADURCH WURDE DIE KOMPONENTE ARGUMENTE GELÖSCHT UND NAHTLOS IN DEN 
+ AKTIONSDRAHT GEBUNDEN . 
+
+ WEIL KEINE SYMBOLIKEN MEHR NÖTIG WAREN FÜR ZEIT ANGABEN ODER DIMENSIONS ANGABEN 
+ SONDERN ES SCHLUSS ENDLICH IN DIE KOMMANDO KOMPONENTE DANN MIT INTEGRIERT WIRD 
+ WEIL ES EINFACH SMARTER UND BESSER IST . 
+
+
+
+
+
+
  
- PONITFEX SYMBOL GRUNDLAGE 
-
- - |*| 
-
- PONTIFEX SYMBOL ZUORDNUNGEN 
-
- |&| |?| |=|
-
- GUT ... also die koordinaten boxis muss ich grundsatz bedingt bearbeiten 
- und zwar in der tabelle selbst ... ich hab mich mit dem tabellarischen 
- aspekt noch nicht befasst , bin aber gute dinge das es bald seinen platz finden wird .. 
-
- es muss nachziehen im kopf ... ich knack das ... auf jedenfall ... 
- und zwar ohne kunde zu werde ! 
-
- ich muss erstmal das mcs lexikon in ein paar bereichen ausarbeiten .. 
- dann eher über pontifex selbst nach denken ... 
-
- generell gehen naturlich einzel schaltung wie davor auch ... daran wird sich 
- nichts ändern .. 
-
- aber der mehrfach schaltungs weg , das ist der kern ... 
-
- ich beende jetzt erstmal und gehe wieder rüber zu den zwei und 
- mach mir gemütlich einen kopf darum ... beim kaffe und hunde gassi .. 
-
- das wird schon ... die boxis sind exzellent darauf ausgelegt ihre einsatz gebiete 
- direkt definiert zu bekommen ... 
-
- und ich will mir die option offen halten sie direkt in mcs selbst in der bibliothek 
- durch zu bringen ! 
-
- das einzige was der kernel erstmal tun soll in dem aspekt .. 
-
- schaltung und nach einander , das dann mit allen wegen , ram , und endezustände 
-
- das ist primär ... dann die hardware bindung selbst ... 
-
- der rest ist mcs code ... logischer weise .. 
 
 
 
- also .... ich denke heute oder spätestens morgen geht dann erstmal die 
- pontifex komponente los ... 
 
- wie es aufgebaut wird ist schonmal klar .. 
+
+
+
+
+
 
  |*| <-- weil ... zucht und ordnung und kein gekritzel ... 
 
@@ -118,11 +114,6 @@
  MAL DURCH GEHEN WAS ALLES FÜR OPERATOREN FÜR DEN ANFANG DER KOMPONENTE 
  NÖTIG SIND ... 
 
-
-
-
-
-
 #==================# ZWISCHENSPEICHER | GUI IMPLEMENTIERUNG | HTML/PHP/PROGRAMM-MENÜS
 
  NOTIZ : 
@@ -134,11 +125,6 @@
  BXST-*S BXST-*E
 
  PLASK : {BXMK:BXHT-*} {BXHT-*:BXST-*S BXST-*E}
-
- PONTIFEX ... GENERALISIERUNGS LOGIK ... 
-
-  | <-- DAZUGEHÖRIGKEIT 
-  || <-- DAZUGEHÖRIGKEIT WENN VORHANDEN 
 
 »—[ĸ: Koordinaten :ĸ|": text :"|$: Link :$]«
 
@@ -173,17 +159,7 @@
  <· —[Æ: {TWS} :Æ] 
 !¢
 
- !! spickzettel anpassen , das sind jetzt die 
-    endgültigen boxis 
-
  NECTAR-ICTUS-AUSGABE-INTERN
-
-
- ICTUS KERNE WERDEN NACH ANZAHL DER PUNKTE BESTIMMT, DIE ANZAHL 
- DER PUNKTE GEBEN KERNE FREI FÜR DIE BEARBEITUNG . 
-
- NECTAR NUTZT SIE ! 
-
 
 ASSEMBLER (Boot)
     │
@@ -261,6 +237,7 @@ Und du hast sie bereits in deiner eigenen Sprache formuliert
  - GASK SCHALTUNG REIMPLEMENTIERUNG UNTER PLASK = AM LAUFEN
  - GEPANTE BOXIS ERWEITERUNGEN UEFI|UTF|STROM = ERLEDIGT
  - REX ZU NECTAR RENAME = ERLEDIGT 
+ - KOMPONENTE BOXIS STRUKTUR UND GRUND ERNEUERUNG = ERLEDIGT 
 
 ###====================================|====================================###
 
