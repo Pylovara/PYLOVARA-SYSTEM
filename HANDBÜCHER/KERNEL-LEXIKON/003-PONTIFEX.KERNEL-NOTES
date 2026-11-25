@@ -30,20 +30,45 @@ MUTTERWABEN-KATEGORIE ⠆⢄⠑⢂ KOPFWABE
  AXIOM ¡ ⠆⢄⠑⠰ ⧑ ⠆⢄⠒⠃
 
  # AXIOM | WEITERVERBINDEN
- # BXHT-UND
- AXIOM ¡ ⠆⢄⠒⠃ ⧑ ⠆⡠⢈⠔
+ AXIOM ¡ ⠆⢄⠒⠃ ⧑ ⠆⡠⡐⠑
 
- # BXHT-ODER
- AXIOM ¡ ⠆⢄⠒⠃ ⧑ ⠆⡠⢄⡐
+###====================================|====================================###
 
- # BXHT-WENNDA
- AXIOM ¡ ⠆⢄⠒⠃ ⧑ ⠆⡠⢄⠊
+MUTTERWABEN-KATEGORIE ⠆⡠⢁⠅ MASTERKERNWABE
 
- # BXHT-GLEICH
- AXIOM ¡ ⠆⢄⠒⠃ ⧑ ⠆⡠⢄⠨
+ WABEN-ID ⠆⡠⢁⠉ MK
 
- # BXHT-BIND
- AXIOM ¡ ⠆⢄⠒⠃ ⧑ ⠆⡠⢂⢐
+ BION-NR ⠆⡠⡐⠌ 003
+
+ BION-ID ⠆⡠⡐⠑ MK003
+
+ BSK-ID ⠆⡠⡐⠒ POMK
+
+ BION ⠆⡠⡐⠔ PO003MK003
+
+ BSK ⠆⡠⡐⠘ POMK
+
+ # AXIOM | KEID + WAID 
+ AXIOM ¡ ⠆⢄⠑⢐ ⧓ ⠆⡠⢁⠉ Ξ ⠆⡠⡐⠒
+
+ # AXIOM | BION-ID
+ AXIOM ¡ ⠆⡠⢁⠉ ⧓ ⠆⡠⡐⠌ Ξ ⠆⡠⡐⠑
+
+ # AXIOM | HAUPTWABEN AUSFÜHRUNG BEI VERBINDUNG 
+ # POHT-UND
+ AXIOM ¡ ⠆⡠⡐⠑ ⧖⧖ ⠆⡠⢈⠔ ͽ
+
+ # POHT-ODER
+ AXIOM ¡ ⠆⡠⡐⠑ ⧖⧖ ⠆⡠⢄⡐ ͽ
+
+ # POHT-WENNDA
+ AXIOM ¡ ⠆⡠⡐⠑ ⧖⧖ ⠆⡠⢄⠊ ͽ
+
+ # POHT-GLEICH
+ AXIOM ¡ ⠆⡠⡐⠑ ⧖⧖ ⠆⡠⢄⠨ ͽ
+
+ # POHT-BIND
+ AXIOM ¡ ⠆⡠⡐⠑ ⧖⧖ ⠆⡠⢂⢐ ͽ
 
 ###====================================|====================================###
 
@@ -61,7 +86,7 @@ MUTTERWABEN-KATEGORIE ⠆⡠⢈⠊ HAUPTWABE
 
  BSK-ID ⠆⡠⢈⠡ POHT-UND
 
- BION ⠆⡠⢈⠤ PO03HT023
+ BION ⠆⡠⢈⠤ PO03MK003HT023
 
  BSK ⠆⡠⢄⠰ POMK+POHT-UND
 
@@ -72,33 +97,33 @@ MUTTERWABEN-KATEGORIE ⠆⡠⢈⠊ HAUPTWABE
  AXIOM ¡ ⠆⡠⢈⠑ ⧓ ⠆⡠⢈⠒ Ξ ⠆⡠⢈⠔
 
  # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
- AXIOM ¡ ⠆⡠⢈⠔ ⦳ BIID
+ AXIOM ¡ ⠆⡠⢈⠔ ⦳ ⠆⡠⢂⠔
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE # STARTWABE 
+MUTTERWABEN-KATEGORIE ⠆⡠⢂⠊ STARTWABE 
 
- PROGRAMM-KERN # NA
+ PROGRAMM-KERN ⠆⡠⢂⠌ UND
 
- WABEN-ID # ST
+ WABEN-ID ⠆⡠⢂⠑ ST
 
- BION-NR # NR
+ BION-NR ⠆⡠⢂⠒ 023
 
- BION-ID # BIID
+ BION-ID ⠆⡠⢂⠔ ST023
 
- BSK-KN # BSKN
+ BSK-KN ⠆⡠⢂⠘ UND
 
- BSK-ID # BSID
+ BSK-ID ⠆⡠⢂⠡ POST-UND
 
- BION # BION
+ BION ⠆⡠⢂⠢ PO003MK003HT023ST023
 
- BSK # BSK
+ BSK ⠆⡠⢂⠤ POMK+POHT-UND+POST-UND
 
  # AXIOM | KEID + WAID + BSKN
- AXIOM ¡ KEID ⧓ WAID ⫯ BSKN Ξ BSID
+ AXIOM ¡ ⠆⢄⠑⢐ ⧓ ⠆⡠⢂⠑ ⫯ ⠆⡠⢂⠘ Ξ ⠆⡠⢂⠡
 
  # AXIOM | BION-ID
- AXIOM ¡ WAID ⧓ NR Ξ BIID
+ AXIOM ¡ ⠆⡠⢂⠑ ⧓ ⠆⡠⢂⠒ Ξ ⠆⡠⢂⠔
 
  # TASTEN
  TASTENCODE # TT
@@ -125,8 +150,8 @@ MUTTERWABEN-KATEGORIE # STARTWABE
  PRÄFIX PR
 
  # AXIOM | BSK | KEID + WAID + PR
- AXIOM ¡ KEID ⧓ WAID ⫯ PR Ξ BSFX
- AXIOM ¡ KEID ⧓ WAID ⫯ PR Ξ BSFX
+ AXIOM ¡ ⠆⢄⠑⢐ ⧓ ⠆⡠⢂⠑ ⫯ PR Ξ BSFX
+ AXIOM ¡ ⠆⢄⠑⢐ ⧓ ⠆⡠⢂⠑ ⫯ PR Ξ BSFX
 
  # BSK-PRÄFIX | KENNUNGSERWEITERUNG FÜR EINHEITEN
  BSK-PF BSFX
@@ -141,7 +166,7 @@ MUTTERWABEN-KATEGORIE # STARTWABE
  EINHEIT RA
 
  # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
- AXIOM ¡ BIID ⦳ BIID
+ AXIOM ¡ ⠆⡠⢂⠔ ⦳ BIID
 
 ###====================================|====================================###
 
@@ -159,7 +184,7 @@ MUTTERWABEN-KATEGORIE ⠆⡠⢄⡁ HAUPTWABE
 
  BSK-ID ⠆⡠⢄⢂ POHT-ODER
 
- BION ⠆⡠⢄⢈ PO003HT024
+ BION ⠆⡠⢄⢈ PO003MK003HT024
 
  BSK ⠆⡠⢄⢐ POMK+PHT-ODER
 
@@ -170,33 +195,33 @@ MUTTERWABEN-KATEGORIE ⠆⡠⢄⡁ HAUPTWABE
  AXIOM ¡ ⠆⡠⢄⡄ ⧓ ⠆⡠⢄⡈ Ξ ⠆⡠⢄⡐
 
  # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
- AXIOM ¡ ⠆⡠⢄⡐ ⦳ BIID
+ AXIOM ¡ ⠆⡠⢄⡐ ⦳ ⠆⡠⢁⡈
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE # STARTWABE 
+MUTTERWABEN-KATEGORIE ⠆⡠⢂⠨ STARTWABE 
 
- PROGRAMM-KERN # NA
+ PROGRAMM-KERN ⠆⡠⢂⠰ ODER
 
- WABEN-ID # ST
+ WABEN-ID ⠆⡠⢁⡂ ST
 
- BION-NR # NR
+ BION-NR ⠆⡠⢁⡄ 024
 
- BION-ID # BIID
+ BION-ID ⠆⡠⢁⡈ ST024
 
- BSK-KN # BSKN
+ BSK-KN ⠆⡠⢁⡐ ODER
 
- BSK-ID # BSID
+ BSK-ID ⠆⡠⢁⢂ POST-ODER
 
- BION # BION
+ BION ⠆⡠⢁⢄ PO003MK003HT024ST024
 
- BSK # BSK
+ BSK ⠆⡠⢁⢈ POMK+POHT-ODER+POST-ODER
 
  # AXIOM | KEID + WAID + BSKN
- AXIOM ¡ KEID ⧓ WAID ⫯ BSKN Ξ BSID
+ AXIOM ¡ ⠆⢄⠑⢐ ⧓ ⠆⡠⢁⡂ ⫯ ⠆⡠⢁⡐ Ξ ⠆⡠⢁⢂
 
  # AXIOM | BION-ID
- AXIOM ¡ WAID ⧓ NR Ξ BIID
+ AXIOM ¡ ⠆⡠⢁⡂ ⧓ ⠆⡠⢁⡄ Ξ ⠆⡠⢁⡈
 
  # TASTEN
  TASTENCODE # TT
@@ -223,8 +248,8 @@ MUTTERWABEN-KATEGORIE # STARTWABE
  PRÄFIX PR
 
  # AXIOM | BSK | KEID + WAID + PR
- AXIOM ¡ KEID ⧓ WAID ⫯ PR Ξ BSFX
- AXIOM ¡ KEID ⧓ WAID ⫯ PR Ξ BSFX
+ AXIOM ¡ ⠆⢄⠑⢐ ⧓ ⠆⡠⢁⡂ ⫯ PR Ξ BSFX
+ AXIOM ¡ ⠆⢄⠑⢐ ⧓ ⠆⡠⢁⡂ ⫯ PR Ξ BSFX
 
  # BSK-PRÄFIX | KENNUNGSERWEITERUNG FÜR EINHEITEN
  BSK-PF BSFX
@@ -239,7 +264,7 @@ MUTTERWABEN-KATEGORIE # STARTWABE
  EINHEIT RA
 
  # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
- AXIOM ¡ BIID ⦳ BIID
+ AXIOM ¡ ⠆⡠⢁⡈ ⦳ BIID
 
 ###====================================|====================================###
 
@@ -268,33 +293,33 @@ MUTTERWABEN-KATEGORIE ⠆⡠⢄⢠ HAUPTWABE
  AXIOM ¡ ⠆⡠⢄⠅ ⧓ ⠆⡠⢄⠉ Ξ ⠆⡠⢄⠊
 
  # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
- AXIOM ¡ ⠆⡠⢄⠊ ⦳ BIID
+ AXIOM ¡ ⠆⡠⢄⠊ ⦳ ⠆⡠⢂⠅
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE # STARTWABE 
+MUTTERWABEN-KATEGORIE ⠆⡠⢁⢐ STARTWABE 
 
- PROGRAMM-KERN # NA
+ PROGRAMM-KERN ⠆⡠⢁⢠ WENNDA
 
- WABEN-ID # ST
+ WABEN-ID ⠆⡠⢁⣀ ST
 
- BION-NR # NR
+ BION-NR ⠆⡠⢂⠃ 025
 
- BION-ID # BIID
+ BION-ID ⠆⡠⢂⠅ ST025
 
- BSK-KN # BSKN
+ BSK-KN ⠆⡠⢁⠊ WENNDA
 
- BSK-ID # BSID
+ BSK-ID ⠆⡠⢁⠌ POST-WENNDA
 
- BION # BION
+ BION ⠆⡠⢁⠑ PO003MK003HT025ST025
 
- BSK # BSK
+ BSK ⠆⡠⢁⠒ POMK+POHT-WENNDA+POST-WENNDA
 
  # AXIOM | KEID + WAID + BSKN
- AXIOM ¡ KEID ⧓ WAID ⫯ BSKN Ξ BSID
+ AXIOM ¡ ⠆⢄⠑⢐ ⧓ ⠆⡠⢁⣀ ⫯ ⠆⡠⢁⠊ Ξ ⠆⡠⢁⠌
 
  # AXIOM | BION-ID
- AXIOM ¡ WAID ⧓ NR Ξ BIID
+ AXIOM ¡ ⠆⡠⢁⣀ ⧓ ⠆⡠⢂⠃ Ξ ⠆⡠⢂⠅
 
  # TASTEN
  TASTENCODE # TT
@@ -321,8 +346,8 @@ MUTTERWABEN-KATEGORIE # STARTWABE
  PRÄFIX PR
 
  # AXIOM | BSK | KEID + WAID + PR
- AXIOM ¡ KEID ⧓ WAID ⫯ PR Ξ BSFX
- AXIOM ¡ KEID ⧓ WAID ⫯ PR Ξ BSFX
+ AXIOM ¡ ⠆⢄⠑⢐ ⧓ ⠆⡠⢁⣀ ⫯ PR Ξ BSFX
+ AXIOM ¡ ⠆⢄⠑⢐ ⧓ ⠆⡠⢁⣀ ⫯ PR Ξ BSFX
 
  # BSK-PRÄFIX | KENNUNGSERWEITERUNG FÜR EINHEITEN
  BSK-PF BSFX
@@ -337,7 +362,7 @@ MUTTERWABEN-KATEGORIE # STARTWABE
  EINHEIT RA
 
  # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
- AXIOM ¡ BIID ⦳ BIID
+ AXIOM ¡ ⠆⡠⢂⠅ ⦳ BIID
 
 ###====================================|====================================###
 
@@ -355,7 +380,7 @@ MUTTERWABEN-KATEGORIE ⠆⡠⢄⠘ HAUPTWABE
 
  BSK-ID ⠆⡠⢂⡂ POHT-GLEICH
 
- BION ⠆⡠⢂⡄ PO003HT026
+ BION ⠆⡠⢂⡄ PO003MK003HT026
 
  BSK ⠆⡠⢂⡈ POMK+POHT-GLEICH
 
@@ -366,33 +391,33 @@ MUTTERWABEN-KATEGORIE ⠆⡠⢄⠘ HAUPTWABE
  AXIOM ¡ ⠆⡠⢄⠢ ⧓ ⠆⡠⢄⠤ Ξ ⠆⡠⢄⠨
 
  # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
- AXIOM ¡ ⠆⡠⢄⠨ ⦳ BIID
+ AXIOM ¡ ⠆⡠⢄⠨ ⦳ ⠆⡠⢁⠤
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE # STARTWABE 
+MUTTERWABEN-KATEGORIE ⠆⡠⢁⠔ STARTWABE 
 
- PROGRAMM-KERN # NA
+ PROGRAMM-KERN ⠆⡠⢁⠘ GLEICH
 
- WABEN-ID # ST
+ WABEN-ID ⠆⡠⢁⠡ ST
 
- BION-NR # NR
+ BION-NR ⠆⡠⢁⠢ 026
 
- BION-ID # BIID
+ BION-ID ⠆⡠⢁⠤ ST026
 
- BSK-KN # BSKN
+ BSK-KN ⠆⡠⢁⠨ GLEICH
 
- BSK-ID # BSID
+ BSK-ID ⠆⡠⢁⠰ POST-GLEICH
 
- BION # BION
+ BION ⠆⡠⢁⡁ PO003MK003HT026ST026
 
- BSK # BSK
+ BSK ⠆⡠⡐⡄ POMK+POHT-GLEICH+POST-GLEICH
 
  # AXIOM | KEID + WAID + BSKN
- AXIOM ¡ KEID ⧓ WAID ⫯ BSKN Ξ BSID
+ AXIOM ¡ ⠆⢄⠑⢐ ⧓ ⠆⡠⢁⠡ ⫯ ⠆⡠⢁⠨ Ξ ⠆⡠⢁⠰
 
  # AXIOM | BION-ID
- AXIOM ¡ WAID ⧓ NR Ξ BIID
+ AXIOM ¡ ⠆⡠⢁⠡ ⧓ ⠆⡠⢁⠢ Ξ ⠆⡠⢁⠤
 
  # TASTEN
  TASTENCODE # TT
@@ -419,8 +444,8 @@ MUTTERWABEN-KATEGORIE # STARTWABE
  PRÄFIX PR
 
  # AXIOM | BSK | KEID + WAID + PR
- AXIOM ¡ KEID ⧓ WAID ⫯ PR Ξ BSFX
- AXIOM ¡ KEID ⧓ WAID ⫯ PR Ξ BSFX
+ AXIOM ¡ ⠆⢄⠑⢐ ⧓ ⠆⡠⢁⠡ ⫯ PR Ξ BSFX
+ AXIOM ¡ ⠆⢄⠑⢐ ⧓ ⠆⡠⢁⠡ ⫯ PR Ξ BSFX
 
  # BSK-PRÄFIX | KENNUNGSERWEITERUNG FÜR EINHEITEN
  BSK-PF BSFX
@@ -435,7 +460,7 @@ MUTTERWABEN-KATEGORIE # STARTWABE
  EINHEIT RA
 
  # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
- AXIOM ¡ BIID ⦳ BIID
+ AXIOM ¡ ⠆⡠⢁⠤ ⦳ BIID
 
 ###====================================|====================================###
 
@@ -453,7 +478,7 @@ MUTTERWABEN-KATEGORIE ⠆⡠⢂⡐ HAUPTWABE
 
  BSK-ID ⠆⡠⢂⣀ POHT-BIND
 
- BION ⠆⡠⢄⠃ POHT-BIND
+ BION ⠆⡠⢄⠃ PO003MK003HT027
 
  BSK ⠆⡠⢂⠉ POMK+POHT-BIND
 
@@ -464,33 +489,33 @@ MUTTERWABEN-KATEGORIE ⠆⡠⢂⡐ HAUPTWABE
  AXIOM ¡ ⠆⡠⢂⢄ ⧓ ⠆⡠⢂⢈ Ξ ⠆⡠⢂⢐
 
  # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
- AXIOM ¡ ⠆⡠⢂⢐ ⦳ BIID
+ AXIOM ¡ ⠆⡠⢂⢐ ⦳ ⠆⡠⡐⢈
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE # STARTWABE 
+MUTTERWABEN-KATEGORIE ⠆⡠⡐⡈ STARTWABE 
 
- PROGRAMM-KERN # NA
+ PROGRAMM-KERN ⠆⡠⡐⢁ NA
 
- WABEN-ID # ST
+ WABEN-ID ⠆⡠⡐⢂ ST
 
- BION-NR # NR
+ BION-NR ⠆⡠⡐⢄ 027
 
- BION-ID # BIID
+ BION-ID ⠆⡠⡐⢈ ST027
 
- BSK-KN # BSKN
+ BSK-KN ⠆⡠⡐⢐ BIND
 
- BSK-ID # BSID
+ BSK-ID ⠆⡠⡐⢠ POST-BIND
 
- BION # BION
+ BION ⠆⡠⡐⣀ PO003MK003HT027ST027
 
- BSK # BSK
+ BSK ⠆⡠⢁⠃ POMK+POHT-BIND+POST-BIND
 
  # AXIOM | KEID + WAID + BSKN
- AXIOM ¡ KEID ⧓ WAID ⫯ BSKN Ξ BSID
+ AXIOM ¡ ⠆⢄⠑⢐ ⧓ ⠆⡠⡐⢂ ⫯ ⠆⡠⡐⢐ Ξ ⠆⡠⡐⢠
 
  # AXIOM | BION-ID
- AXIOM ¡ WAID ⧓ NR Ξ BIID
+ AXIOM ¡ ⠆⡠⡐⢂ ⧓ ⠆⡠⡐⢄ Ξ ⠆⡠⡐⢠
 
  # TASTEN
  TASTENCODE # TT
@@ -517,8 +542,8 @@ MUTTERWABEN-KATEGORIE # STARTWABE
  PRÄFIX PR
 
  # AXIOM | BSK | KEID + WAID + PR
- AXIOM ¡ KEID ⧓ WAID ⫯ PR Ξ BSFX
- AXIOM ¡ KEID ⧓ WAID ⫯ PR Ξ BSFX
+ AXIOM ¡ ⠆⢄⠑⢐ ⧓ ⠆⡠⡐⢂ ⫯ PR Ξ BSFX
+ AXIOM ¡ ⠆⢄⠑⢐ ⧓ ⠆⡠⡐⢂ ⫯ PR Ξ BSFX
 
  # BSK-PRÄFIX | KENNUNGSERWEITERUNG FÜR EINHEITEN
  BSK-PF BSFX
@@ -533,7 +558,7 @@ MUTTERWABEN-KATEGORIE # STARTWABE
  EINHEIT RA
 
  # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
- AXIOM ¡ BIID ⦳ BIID
+ AXIOM ¡ ⠆⡠⡐⢈ ⦳ BIID
 
 ###====================================|====================================###
 ###===========================KOMPAKTE-WABEN-PFADE==========================###
