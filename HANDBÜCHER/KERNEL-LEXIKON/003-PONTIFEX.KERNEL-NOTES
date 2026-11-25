@@ -7,15 +7,15 @@ MUTTERWABEN-KATEGORIE ⠆⢄⠑⢂ KOPFWABE
 
  KOMPONENTE ⠆⢄⠑⢈ PONTIFEX
 
- KOMPONENTEN-ID ⠆⢄⠑⢐ PT
+ KOMPONENTEN-ID ⠆⢄⠑⢐ PO
 
  BION-NR ⠆⢄⠑⢠ 003
 
- BION-ID ⠆⢄⠒⠃ PT003
+ BION-ID ⠆⢄⠒⠃ PO003
 
  MASTER-ID ⠆⢄⠑⠰ MA046SU003
 
- BSK-ID ⠆⢄⠑⠨ PT
+ BSK-ID ⠆⢄⠑⠨ PO
 
  # AXIOM | KEID GLEICH BSK-ID
  AXIOM ¡ ⠆⢄⠑⢐ Ξ ⠆⢄⠒⠃
@@ -33,7 +33,7 @@ MUTTERWABEN-KATEGORIE ⠆⢄⠑⢂ KOPFWABE
  # BXHT-UND
  AXIOM ¡ ⠆⢄⠒⠃ ⧑ ⠆⡠⢈⠔
 
- # BXHT-ODER
+ # BXHT-
  AXIOM ¡ ⠆⢄⠒⠃ ⧑ BIID
 
  # BXHT-
@@ -49,15 +49,15 @@ MUTTERWABEN-KATEGORIE ⠆⡠⢈⠊ HAUPTWABE
 
  BION-NR ⠆⡠⢈⠒ 023
 
- BION-ID ⠆⡠⢈⠔ BIID
+ BION-ID ⠆⡠⢈⠔ HT023
 
- BSK-KN ⠆⡠⢈⠘ BSKN
+ BSK-KN ⠆⡠⢈⠘ UND
 
- BSK-ID ⠆⡠⢈⠡ BSID
+ BSK-ID ⠆⡠⢈⠡ POHT-UND
 
- BION ⠆⡠⢈⠤ BION
+ BION ⠆⡠⢈⠤ PO03HT023
 
- BSK ⠆⡠⢄⠰ BSK
+ BSK ⠆⡠⢄⠰ POMK+PAHT-UND
 
  # AXIOM | KEID + WAID + BSKN
  AXIOM ¡ ⠆⢄⠑⢐ ⧓ ⠆⡠⢈⠑ ⫯ ⠆⡠⢈⠘ Ξ ⠆⡠⢈⠡
@@ -74,23 +74,23 @@ MUTTERWABEN-KATEGORIE #
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE # HAUPTWABE 
+MUTTERWABEN-KATEGORIE ⠆⡠⢄⡁ HAUPTWABE 
 
- PROGRAMM-KERN # NA
+ PROGRAMM-KERN ⠆⡠⢄⡂ ODER
 
- WABEN-ID # HT
+ WABEN-ID ⠆⡠⢄⡄ HT
 
- BION-NR # NR
+ BION-NR ⠆⡠⢄⡈ 024
 
- BION-ID # BIID
+ BION-ID ⠆⡠⢄⡐ HT024
 
- BSK-KN # BSKN
+ BSK-KN ⠆⡠⢄⢁ ODER
 
- BSK-ID # BSID
+ BSK-ID ⠆⡠⢄⢂ POHT-ODER
 
- BION # BION
+ BION ⠆⡠⢄⢈ BION
 
- BSK # BSK
+ BSK ⠆⡠⢄⢐ BSK
 
  # AXIOM | KEID + WAID + BSKN
  AXIOM ¡ KEID ⧓ WAID ⫯ BSKN Ξ BSID
