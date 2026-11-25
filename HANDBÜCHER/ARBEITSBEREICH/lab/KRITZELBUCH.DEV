@@ -1107,3 +1107,827 @@ eigentlich :
       ¬·¤ [×: <ERGEBNIS> :×] 
  !¢
 
+
+
+
+
+
+
+####################################################
+
+ABLAGE : 
+
+
+ DAS WAREN QUASI DIE ALTE WERTE DIE ÜBER DAS MCD SPÄTER 
+ IN PROTEINE VERSCHOBEN ODER GEBÜNDELT WERDEN KÖNNEN .. 
+ DAS WIRD AUCH NICHT VERGESSEN ..... 
+
+ UND DAS MCD REGISTER . ALSO DER PLATZ HALTE IM PLUS IMPULS 
+ IST AUCH KEINE BOXI DIE NUR DAFÜR DIENEN KANN , SONDERN GENERELL VERWENDET WERDEN 
+ KANN 
+
+ ABER WEIL MAN AUCH EINEN KOMMANDO BZW EINE KOMMANDO EINGABE BRAUCH , EXISTIERT 
+ EIN KOMMANDO DANN NATÜRLICH ALS ARGUMENT UND DAS ARGUMENT WURDE WEITER ENTWICKELT 
+ UND HAT SICH SCHLUSS ENDLICH ALS ALLEINIGE KOMPONENTE IN DEN AKTIONSDRAHT ETABLIERT . 
+
+ DADURCH WURDE DIE KOMPONENTE ARGUMENTE GELÖSCHT UND NAHTLOS IN DEN 
+ AKTIONSDRAHT GEBUNDEN . 
+
+ WEIL KEINE SYMBOLIKEN MEHR NÖTIG WAREN FÜR ZEIT ANGABEN ODER DIMENSIONS ANGABEN 
+ SONDERN ES SCHLUSS ENDLICH IN DIE KOMMANDO KOMPONENTE DANN MIT INTEGRIERT WIRD 
+ WEIL ES EINFACH SMARTER UND BESSER IST . 
+
+ DANN HAT SICH HERAUS GESTELLT DAS FÜR STROM KOORDINATIONEN UND VERSORGUNGEN, DAS PROTON 
+ DAMALS : {<NAMEN:<WERT>} IM GRUNDE BESSER IN DEN BOXIS INTEGRIEREN LÄSST ... 
+
+ UND WIE STEUERT MAN HARDWARE AN ? EIGENTLICH PER SYSCALL 
+
+ DAS HEIẞT DAS WIR DEN SELBEN EFFECKT SO SOGAR BESSER IN BEKOMMEN 
+
+ ,: {NAME} :, UND Ŋ: {Wert} :Ŋ das heißt ein pontifex ist schonmal klar 
+
+ der damalige bindungsbefel ; 
+
+ dann bauen wir das als kleber ... bindung ... 
+
+ |;| <- gehört zusammen 
+
+ also 
+
+ —[,: {NAME} :,|;|Ŋ: {Wert} :Ŋ]
+
+  und schon haben wir proton weg und nahtlos verbessert in den boxis integriert 
+
+  gegenüberstellung : 
+
+
+ damals 
+
+ —[{<NAMEN:<WERT>}]— # on-pipe-protein mit proton 
+
+ update : 
+
+ —[,: {NAME} :,|;|Ŋ: {Wert} :Ŋ] # protein mit boxis und pontifex 
+
+ 
+ da ich off-pipe proteine vollständig gestrichen habe , alleine schon deswegen 
+ weil es keinen sinn macht die pipe weg zu lassen , weil wenn nicht daran angeschlosen ist 
+ dann geht die kette auch nicht weiter .. 
+
+
+ und der REX ( JETZT NECTAR ) so oder so 
+ den ausgabe kanal auf 
+
+ ¤ intern 
+ ¤¤ extern 
+
+ puscht 
+
+ und man ja auch funktionen baut die den internen ausgabe bereich einer funktion 
+ zu dem externen ausgabe bereich leitet 
+
+ damit der übergang funktioniert ... 
+
+ <·¤ »—[]«««~: BAUMODUS FUNKTION SPEICHER AUSGANG :~« 
+
+      ↑ UND MAN DIE DATEN HERAUS BEKOMMEN MUSS ... 
+
+
+      also 
+
+ »—[¥: funktions name :¥]«««~: baumodus funktions speicher abruf 
+  <·¤¤ »—[ übergabe der funkion daten ]«
+        ÷ Ø—(eingetragene speicher nummer): daten holen :Ø
+
+
+ damit man sie verwenden kann und dann wieder einspeißen kann ... 
+
+ so wie davor auch , weil das einfach richtig und wichtig ist ... 
+
+
+ habe ich die off-pipe-proteine raus gepatch ... unötig .. 
+
+ das einzige was man im code selbst wissen muss ist 
+
+
+ wenn proteine auf der selben linie existieren . 
+
+ kann der header und der food bereich, nur dann angezapft werden 
+ wenn keine leere zeile dazischen ist 
+
+
+ —[]
+
+ —[]
+
+
+ und die komponenten sind so darauf abgestimmt , das nitrox injektor 
+ nicht am nitrox extraktor bereich andocken kann ... 
+
+ das selbe gilt für rex ( nectar ) , rex wird grundsätzlich schon im tws 
+ nur als nachkommende anschluss möglichkeit etabliert , wie schon immer .. 
+ kann also garnicht auf den head bereich connecten .. 
+
+ beim zytron das selbe spiel ... 
+
+ £›<nr> 
+
+ expliziter ausgang kanal 
+
+ £‹1 expliziter eingangs kanal 
+
+ beide können da andocken wo sie hingehören .. 
+
+
+
+ dadurch erreich man eine eindeutigkeit , selbst bei 
+ vergessenen leeren zeilen 
+
+ —[]
+ £‹1
+ —[]
+ £›1
+ —[]
+
+ man weis sofort , aha ... das mittlere haupt protein hat einen return also 
+ zurück schleife auf kanal 1 ... 
+
+ exit ist nicht nötig den exit ist ende der kette .. 
+
+ wo kann kein ist kann auch nichts bearbeitet werden , das ist von natur aus 
+ so weil wir schaltung programmieren und keine c blöcke oder java oder kotnlin 
+
+
+ und wenn es nötig sein sollte ... dann kommt das natürlich in das mcd den dafür 
+ ist es gemacht ... 
+
+
+ und das mcs bekommd natürlich auch 2 grund operatoren 
+
+ und sequenziel und und paralell 
+
+ mehr brauch es nicht um zwei befehls ketten in einer kommando line 
+ zu paaren .. und alles andere wäre nur ein update ... 
+
+
+
+ soweit vergangenheit plus gegenwart nochmal durch gegangen ... 
+ 
+
+ das heißt für jetzt , das ich erstmal ein paar kleine pontifex 
+ operatoren baue mit dem tws format ... 
+
+ und das reicht .... ich kann jeder zeit punkt genau erweitern , ohne probleme . 
+
+
+
+ was ist also von nöten ? 
+
+
+
+ |&| UND 
+ |?| ODER 
+ |!| WENN VORHANDEN 
+ |=| ISTGLEICH 
+ |;| GEHÖRT ZUSAMMEN 
+
+ würde ich sagen .... 
+
+
+ aber !!! 
+
+ da der aktionsdraht das protein scharf stellt , heisst das automatisch 
+ das der aktionsdraht die verarbeitung eines proteins auslöst .. 
+
+ das würde bedeuten , die boxis brauchen bei mehrfach nutzung einen pontifex 
+ der generell auslöst ... ... 
+
+ bei einem 1 boxi mcs code , wird geschalten ... 
+ also löst es die boxis aus ... 
+
+ bei einem mehrfach boxi system sieht die sache etwas anderes aus .. 
+
+ da stellt sich jetzt die frage ... 
+
+ aktionsdraht erweitern für solche fälle ? 
+ und dadurch einen ausführungs pontifex bauen ? 
+
+ den ich brauch einen unterschied in den aktionsdraht ausführungs 
+ erlaubnisen ... 
+
+ das würde bedeuten ich muss den aktions draht zweimal haben mit zweimal 
+ dem plus-impuls 
+
+ aber der eine sollte impuls heißen , weil mit ausführung 
+ der anderen nur protein bearbeiten und ausführung per pontifex .. 
+
+ würde bedeuten 
+
+ »—[$: wurzel/ordner/nexter/datei.irgendwas :$]«
+ »—[$: wurzel/ordner/nexter/datei.irgendwas :$]«««~: optional mcd  :~«
+ 
+ also der aktionsdraht ist die ausführungs erlaubnis , auch die öffnung .. 
+
+ und dann brauchs für mehrfach bois einen NUR protein ausführungs draht 
+
+ könnte man smart so regelt 
+
+ ››—[]‹‹
+ ››—[]‹‹‹~::~‹‹
+
+ da der zytron zwei symbole vereint 
+
+ £‹ 
+ £› 
+
+ existiert das zeichen alleine nicht 
+
+ › 
+ ‹ 
+
+
+ hmm ... 
+
+ kurze bdenk pause ... ich redesigne den aktions draht .. 
+
+ das muss auch mit dem pluss impuls passen .. 
+
+ und ich bin optischer perfektionistische junkie .. 
+ keinen verkritzelten sonder müll ... bloss nicht ... 
+
+ so dann kommen wir zu dem grundlegend problem der tastatur selbst .. 
+
+ ohne meine MCS-BOARDS die es später geben wird und vor jeder 
+ anderen infestitions drann kommt , sobald groß investoren in 
+ mich und meine arbeit investieren müssen ... 
+
+ muss ich wieder mit diese versifften neandertaler tastatur das 
+ beste aus dem missstand machen ... 
+
+
+ so zwei dinge 
+
+
+ 1. mcs-lexiko proteine = vergessene erklärung der zucht und ordnung
+    doktrin .... kopf bereich und fuß bereich ! nach trag gleich .. 
+
+    und 
+
+    2. ich hab kompletten müll gelabbert .... 
+
+
+ keine pontifex ausführungs erlaubnis weil die boxis selbst sie beinhaltet 
+
+
+ beispiel auf one boxis 
+
+
+ kunden logik 
+
+ »—[§: ip adresse für account/email eingabe/passwort :§]«
+  <·* »—[": ACCOUNT = :"|;|&: ^ :&]« 
+  <·* »—[": PASSWORT = :"|;|&: ^ :&]« 
+
+ ODER 
+
+ <· »—[§: IN ip adresse für account eingabe :§]«
+     <·* »—[": ACCOUNT = :"|;|&: ^ :&]« 
+ <· »—[§: ip adresse für passwort :§]«
+     <·* »—[": ACCOUNT = :"|;|&: ^ :&]« 
+
+ ¶<· »—[§: OUT ip adresse für rückgabe :§]«
+
+
+ mehrfach boxis 
+
+
+  »—[§: ip account/email :§|;|": ACCOUNT = :"|;|&: ^ :&|;|": PASSWORT = :"|;|&: ^ :&]«
+
+ oder 
+
+   »—[§: IN ip account/email :§|;|": ACCOUNT = :"|;|&: ^ :&|;|": PASSWORT = :"|;|&: ^ :&]«
+    ¶<· »—[§: OUT ip adresse für rückgabe :§]«
+
+
+ ohne compositor erstmmal 
+
+ ich bräuchte erstmal die koordinaten boxis dafür 
+ das ist der kern ... 
+
+ ob website oder auf dem bildschirm . das ist egal .. 
+
+ klar ist , die boxis selbst ist die ausführung .. 
+
+
+ selbst bei pfad boxis 
+
+ ich hab nur den kontext falsch geschrieben ... 
+
+ ich hab immer so geschrieben
+
+ $: ordner/nächster/datei.irgendwas :$
+
+ das war falsch ... weil es ist die pfad boxi .. nicht die ansteuerung 
+ dessen waas darin liegt .. 
+
+ das selbe gilt bei ip adressen auch ... 
+
+ nur die ansteuerung ... 
+
+ nicht der inhalt .... 
+
+
+
+ also muss ich den aktionsdraht gar nicht ändern .... 
+ sondern nur meinen denkfehler ! 
+
+ denn 
+
+ das muss dann explizit sein 
+
+ $: ordner/nächste/ :$|&|&: datei.irgendwas :& 
+
+ das heißt alle boxis haben ausführungs erlaubnise in ihren sektor .. 
+
+ die eingabe boxi selbst genrell und das was drinne angedockt wird wird ausgeführt 
+ also run ... 
+
+ somit bleibt der aktionsdraht das was es ist : 
+
+ die ausführungserlaubnis für das protein und das trägt inhalt ... 
+
+
+
+ wenn man ein nicht ausführbares protein benötgt für irgendwas aber 
+ das auch mit mcd befehl .. 
+
+ dann schreibt man das mcd boxi auch in das protein und nicht in den plus-impuls 
+
+
+ das heißt 
+
+ —[¥: funktion :¥|;|~: baumodus funktion speicher abruf :~ ]
+
+ dann kann man es verbinden ... per ram ... 
+
+ und transportieren ... und per ram setzung in ein protein setzen 
+ ... so wie vorher auch ... 
+
+ und oder das boxi erstmal erzeuegen per mcd , dann ist es vorhanden 
+ und dann den befehl setzen ... 
+
+ das wäre genau das was die sprache zusätzlich können muss ...
+ und ich habe es schon lange drinne ... lach ... okey ... ein problem weniger . 
+
+ das heißt keine AUSFÜHRUNGS pontifex ... 
+
+
+ sondern nur zusammenhänge , trenner , auswahl wenn , und verbinder ... 
+
+
+
+ gehe wir das mal in einer funktion durch wie sagen wir in python 
+
+
+ ich lass mir jetzt per ki eine einfache carackter funktion erstellen und bauen 
+ das mcs dann mit boxis und pontifex nach ... 
+
+
+muss ich garnicht ... ich hab schon was ... und zwar originales python 
+in der entwicklungs mcs stufe 
+
+
+¢!
+
+»[ OBJEKT = ICH ]« 
+ ¬· »[ DEF __INIT__(ICH, GRASS, TABAK, PAPER, FEUERZEUG): ]« 
+         ¿¹
+     ¬· »[ ICH.GRASS = GRASS ]« 
+         ¿¹
+     ¬· »[ ICH.TABAK = TABAK ]« 
+         ¿¹
+     ¬· »[ ICH.PAPER = PAPER ]« 
+         ¿¹
+     ¬· »[ ICH.FEUERZEUG = FEUERZEUG ]« 
+     
+         ¶ ¬· »[ DEF ANZÜNDEN(ICH) ]« 
+
+               ¬· »[ ICH.ANZÜNDEN +=HIGH ]« 
+
+               ¶ ¬· »[ __NAME__ ]« 
+                     ¬·¤= »[ "__MAIN__": ]« 
+                           ¬· »[ MARIOBART = ICH-BEKIFFT(HIGH, HIGHER , ULTRAHIGH) ]« 
+                           ¬· »[ ICH-BEKIFFT.ANZÜNDEN() ]«
+
+
+
+
+         ¶¶ ¬· »[~ RETURN __INIT__ ]«
+
+!¢ 
+
+ ich weis ... aber hey ... grass ist gut ! punkt 
+
+
+ aber der code ist python , kein mcs ... 
+
+
+  gehen wir das kurz durch ... 
+
+
+__INIT__
+__name__
+__main__
+
+
+ das sind alles nur ausführungen ... also in den prozess präfixes 
+ ... die werden in linux teils auch genutzt um einen datei baum auszuführen 
+ mit code ... 
+
+ nh ? das sagte lediglich : das hier gehört zusammen und wird gemeinsam in reihe ausgeführt 
+ oder was der code eben sagt ... nh ? 
+
+ das kann raus ... unötig ... das sollte wenn überhaupt für einen filemanager 
+ für dateien gelten und selbst da wird es später nicht mehr nötig sein 
+
+
+  also warte mal dann zaubern wir jetzt einen guten mcs geschriebenen auffrischungs code : 
+
+  kaffe zigarette dann gehts los ... 
+
+  ich weis schon wie .... lecker 
+
+ ABER STUFE EINS KEINE STUFE 0 , DAS KOMMT EHER IN DIE ZERTIFIKATE ... 
+ ICH MISCH ETWAS ... 
+--------------------------------------------------------------------------------
+¢!
+»—[¥: MCS-STUFE-1 :¥]«««~: BAUMODUS FUNKTION SPEICHER EINGANG :~«
+ <· »—[": ICH-DEFINITION :"]«««~:BAUMODUS FUNKTION SPEICHER EINGANG :~«
+     <· »—[": ICH :"|=|": ICH :"]«
+         <·¤ »—[": ICH :"]«««~: BAUMODUS FUNKTION SPEICHER AUSGANG :~«
+              <·¤¤ »—[": ICH :"]«
+                    ÷ Ø—(1)": ICH :":Ø
+                    
+ habs verstanden ... alu zeigt nur den speicher wert ... nicht unrelevant aber 
+ die instanz die weis das text text ist ist boxis-text .. 
+
+ damit wäre dann pontifex klar ... perfekt also einmal durch schreiben 
+ und zwar extrem kleinlich weil ich gleich die sentiator auswahl multiplexer 
+ durch gehen will ... 
+
+ das würde bedeuten das wir den wert der buchstaben dann für den wert brauchen 
+ der in der ram gespeicher ist ... moment 
+
+ WIR SPEICHERN ABER NICHT INTERN DEN WERT SONDERN EXTERN DEN WERT 
+ WEIL WIR DIE FUNKTION SCHREIBEN , DEFINIEREN , UMWANDEL , ABRUFEN 
+ UND ERST DANN IN DEN RAM LADEN ... NORMAL ... DAFÜR EXISTIERT DIE 
+ FUNKTION JA ÜBERHAUPT ... ALLES ANDERE WÄRE VERDOPPELUNG .. 
+
+ GUT DANN SCHREIBEN WIR ES SO... 
+
+¢!
+»—[¥: MCS-STUFE-1 :¥]«««~: BAUMODUS FUNKTION SPEICHER EINGANG :~«
+ <· »—[": ICH-DEFINITION :"]«««~:BAUMODUS FUNKTION SPEICHER EINGANG :~«
+     <· »—[": ICH :"|=|": ICH :"]«
+         <·¤ »—[×: WERT :×]«««~: BAUMODUS FUNKTION SPEICHER AUSGANG :~«
+              <·¤¤ »—[×: WERT :×]«
+                    Ø—(1): WERT :Ø
+
+ <· »—[": TABAK-DEFINITION :"]«««~:BAUMODUS FUNKTION SPEICHER EINGANG :~«
+     <· »—[": TABAK :"|=|": TABAK :"]«
+         <·¤ »—[×: WERT :×]«««~: BAUMODUS FUNKTION SPEICHER AUSGANG :~«
+              <·¤¤ »—[×: WERT :×]«
+                    Ø—(1): WERT :Ø
+
+ <· »—[": GRASS-DEFINITION :"]«««~:BAUMODUS FUNKTION SPEICHER EINGANG :~«
+     <· »—[": GRASS :"|=|": GRASS :"]«
+         <·¤ »—[×: WERT :×]«««~: BAUMODUS FUNKTION SPEICHER AUSGANG :~«
+              <·¤¤ »—[×: WERT :×]«
+                    Ø—(1): WERT :Ø
+
+ <· »—[": PAPER-DEFINITION :"]«««~:BAUMODUS FUNKTION SPEICHER EINGANG :~«
+     <· »—[": PAPER :"|=|": PAPER :"]«
+         <·¤ »—[×: WERT :×]«««~: BAUMODUS FUNKTION SPEICHER AUSGANG :~«
+              <·¤¤ »—[×: WERT :×]«
+                    Ø—(1): WERT :Ø
+
+ <· »—[": FEUERZEUG-DEFINITION :"]«««~:BAUMODUS FUNKTION SPEICHER EINGANG :~«
+     <· »—[": FEUERZEUG :"|=|": FEUERZEUG :"]«
+         <·¤ »—[×: WERT :×]«««~: BAUMODUS FUNKTION SPEICHER AUSGANG :~«
+              <·¤¤ »—[×: WERT :×]«
+                    Ø—(1): WERT :Ø
+
+ gut ... dann wüsste jetzt die maschine was was ist ... 
+
+ und ab hier kann dann die zusammen hänge enstehen das klingt jetzt nach einem 
+ weiteren pontifex boxis binde glied ... 
+
+ und zwar verbinde |;| gehört zusammen 
+
+ grins 
+
+ also los .... nochmal den code : 
+
+ Logischerweise fehln noch die funktionen jketzt für die boxis integrationen 
+ aber ich lass das bewusst weg weil es nicht um lauffähigen code geht , sondern 
+ darum welche pontifex nötig sind für den ersten durchgang ... 
+
+ ich kann sie logischerweise jederzeit erweitern aber trotzdem ist es wichtig 
+ den kontext zu betrachten , um ein "gefühl" zu bekommen was wichtig wäre 
+
+ und jetzt können wir erstmal MICH (ICH) MIT DEN OBJEKTEN VERBINDEN ... 
+ so wie es normalerweise in den anderen kritzel sprachen vollzogen wird . 
+
+ JETZT HABEN WIR , MICH DEFINIERT , DIE OBJEKTE DEFINIERT , DIE OBJEKTE 
+ MIT MIR DEFINIERT ( ALSO BESITZT) ... 
+
+ DAS HEIẞT WIR HABEN DEN BEREICH MIT DEM INTEGRIERTEN PYTHON SCHROTT 
+ VOLLSTÄNDIG WEG RADIERT : 
+
+»[ OBJEKT = ICH ]« 
+ ¬· »[ DEF __INIT__(ICH, GRASS, TABAK, PAPER, FEUERZEUG): ]« 
+         ¿¹
+     ¬· »[ ICH.GRASS = GRASS ]« 
+         ¿¹
+     ¬· »[ ICH.TABAK = TABAK ]« 
+         ¿¹
+     ¬· »[ ICH.PAPER = PAPER ]« 
+         ¿¹
+     ¬· »[ ICH.FEUERZEUG = FEUERZEUG ]« 
+
+ OHNE DEN ALTEN MCS CODE , SIEHT DER ECHTE PYTHON CODE UNETRÄGLICH AUS .. 
+ RICHTIG WAS FÜR PRIMATEN ... 
+
+ ABER DAS IST DER BEREICH DER WEG WÄRE ...
+
+ UND JETZT MÜSSEN WIR NUR NOCH DAS ANZÜNDEN DEFINIEREN WENN ALLES VORHANDEN IST 
+ UND DAS KLINGT NACH EINER COMBINATION ZWISCHEN SENTIATOREN ... UND PONTIFEX 
+ ALSO AUSWAHL UND ZUSAMMENHÄNGEN ... 
+
+ UND AB DA DANN DIE ABFOLGE WEITER FÜHRUNG .. 
+
+ UND SCHLUSS ENDLICH DANN DEN ZYTRON ... 
+
+ WEIL WENN WAS FEHLT ... MUSS JA EINE BACKSCHLEIFE EXISTIEREN ... NH .. 
+
+ WIE GESAGT ... DER CODE IST NICHT VOLLSTÄNDIG .... DA WÜRDE NOCH 
+ DIE BUCHSTABEN FILTERUNG DURCH UEFI UND TASTENCODE FEHLEN ... DAS 
+ ZUSAMMEN SETZEN DER WÖRTER ANSICH ... DAS DANN MIT EINER UNTERLEGTEN FUNKTION 
+ ZUSAMMEN FÜHREN UND NATÜRLICH DIE BOXIS NATIV IN DEN CODE MIT REIN HOLEN .. 
+
+ DAHER ... KEIN GRUND ZU FEIERN .... FEIERN WERDE ICH BEI DEN ZERTIFIKATEN .. 
+ NICHT BEI EINER LOGISCHEN ENTWICKLUNGS STUFE DIE NÖTIG IST ... 
+
+ ES GEHT AUSSCHLIEẞLICH DARUM ES IM KOPF ZURECHT ZU LEGEN , WEIL DER TWS 
+ IST KEIN KINDERSPIELZEUG .... 
+
+ AUCH WENN ICH MANCHMAL WIE EIN VOLLIDIOT WIRKE , ABER WIE SAGT MAN ? 
+ FRISST ODER STIRBT ... LACH 
+
+ ICH MUSS EUCH AUCH ERTRAGEN ;-) 
+
+ GUT OKEY .... BEGRADIGEN WIR DIE SACHE EIN MINIMUM , MEHR ABER NICHT ;-p
+ ICH MUSS SO ODER SO DIE MCS-BIBLIOTHEK SCHREIBEN .... ICH MACH MICH KEINE 
+ 2 FACHE ARBEIT ....,. SMILE 
+
+ JETZT MÜSSEN WIR NUR NOCH DEFINIEREN WAS PASSIEREN SOLL WENN WIR ANGEZÜNDET 
+ HABEN .. 
+
+ UND DA WIR NICHT WISSEN WIE OFT WIR DARAN ZIEHEN , KÖNNTEN WIR NOCH 
+ DIE MENGEN ANGABE HINZUFÜGEN PER RECHNUNG ... 
+
+ UND HIER WÄRE DANN WIRKLICH DER EINSATZ VON DER ALU WICHTIG 
+
+ ALSO EINE MATHEMATISCHE SACHE ... WENN WIR ES NICHT STATISCH MACHEN WOLLEN .. 
+
+ ABER DAS IST JETZT KOPF GEFICK ... 
+
+ ICH PROGRAMMIERE SCHLIEẞLICH GERADE DER KERNEL .... DIE SPRACHE SELBST MUSS 
+ ICH WIE JEDER ANDERE AUCH ERST LERNEN ... ABER ICH WEIS DIE RICHTUNG ... 
+
+ WAS MIR DER TEST BIS JETZT GEZEIGT HAT IST FOLGENDES ... 
+
+
+ PONTIFEX : 
+
+ |=| IST GLEICH 
+ |;| GEHÖRT ZUSAMMEN 
+  SIND SCHONMAL ABSOLUT NOTWENDIG WENN ES UM SOLCHE SPIELCHEN GEHT 
+
+
+  und ich gehe stark davon aus das ich jetzt noch die anderen testen kann ... 
+
+
+  aber ich würde sagen ich breche hier ab , nicht weil ich es nicht könnte 
+  sondern weil ich meine ganze nach damit verschwende ... 
+
+  ich denke ich lege erstmal . die grund operatoren für pontifex bis startwabe an 
+  und gehe dann noch den rest durch .... je nach lust ... 
+
+
+  aber jetzt erstmal eine zigaretten und kaffe pause .... wichtig ... 
+
+
+
+
+
+
+¢!
+»—[¥: MCS-STUFE-1 :¥]«««~: BAUMODUS FUNKTION SPEICHER EINGANG :~«
+ <· »—[": ICH-DEFINITION :"]«««~: BAUMODUS FUNKTION SPEICHER EINGANG :~«
+     <· »—[": ICH :"|=|": ICH :"]«
+         <·¤ »—[×: WERT :×]«««~: BAUMODUS FUNKTION SPEICHER AUSGANG :~«
+              <·¤¤ »—[×: WERT :×]«
+                    Ø—(1): WERT :Ø
+
+ <· »—[": TABAK-DEFINITION :"]«««~: BAUMODUS FUNKTION SPEICHER EINGANG :~«
+     <· »—[": TABAK :"|=|": TABAK :"]«
+         <·¤ »—[×: WERT :×]«««~: BAUMODUS FUNKTION SPEICHER AUSGANG :~«
+              <·¤¤ »—[×: WERT :×]«
+                    Ø—(2): WERT :Ø
+
+ <· »—[": GRASS-DEFINITION :"]«««~: BAUMODUS FUNKTION SPEICHER EINGANG :~«
+     <· »—[": GRASS :"|=|": GRASS :"]«
+         <·¤ »—[×: WERT :×]«««~: BAUMODUS FUNKTION SPEICHER AUSGANG :~«
+              <·¤¤ »—[×: WERT :×]«
+                    Ø—(3): WERT :Ø
+
+ <· »—[": PAPER-DEFINITION :"]«««~: BAUMODUS FUNKTION SPEICHER EINGANG :~«
+     <· »—[": PAPER :"|=|": PAPER :"]«
+         <·¤ »—[×: WERT :×]«««~: BAUMODUS FUNKTION SPEICHER AUSGANG :~«
+              <·¤¤ »—[×: WERT :×]«
+                    Ø—(4): WERT :Ø
+
+ <· »—[": FEUERZEUG-DEFINITION :"]«««~: BAUMODUS FUNKTION SPEICHER EINGANG :~«
+     <· »—[": FEUERZEUG :"|=|": FEUERZEUG :"]«
+         <·¤ »—[×: WERT :×]«««~: BAUMODUS FUNKTION SPEICHER AUSGANG :~«
+              <·¤¤ »—[×: WERT :×]«
+                    Ø—(5): WERT :Ø
+
+ <· »—[": KOMBINATION-ICH-GRASS :"]«««~: BAUMODUS FUNKTION SPEICHER EINGANG  :~«
+
+         ± Ø: WERT :(1)—Ø
+     <· »—[#: (1) :#]   
+         <·¤ »—[": ICH :"]«
+
+         ± Ø: WERT :(2)—Ø
+     <· »—[#: (2) :#]«   
+         <·¤ »—[": GRASS :"]«
+
+     ¶<· »—[" ICH "|;|": GRASS :"]«
+          <·¤ »—[×: WERT :×]«««~: BAUMODUS FUNKTION SPEICHER AUSGANG :~«
+               <·¤¤ »—[×: WERT :×]«
+                     Ø—(6): WERT :Ø
+
+ <· »—[": KOMBINATION-ICH-TABAK :"]«««~: BAUMODUS FUNKTION SPEICHER EINGANG  :~«
+
+         ± Ø: WERT :(1)—Ø
+     <· »—[#: (1) :#]   
+         <·¤ »—[": ICH :"]«
+
+         ± Ø: WERT :(3)—Ø
+     <· »—[#: (3) :#]«   
+         <·¤ »—[": TABAK :"]«
+
+     ¶<· »—[" ICH "|;|": TABAK :"]«
+          <·¤ »—[×: WERT :×]«««~: BAUMODUS FUNKTION SPEICHER AUSGANG :~«
+               <·¤¤ »—[×: WERT :×]«
+                     Ø—(7): WERT :Ø
+
+ <· »—[": KOMBINATION-ICH-PAPER :"]«««~: BAUMODUS FUNKTION SPEICHER EINGANG  :~«
+
+         ± Ø: WERT :(1)—Ø
+     <· »—[#: (1) :#]   
+         <·¤ »—[": ICH :"]«
+
+         ± Ø: WERT :(4)—Ø
+     <· »—[#: (4) :#]«   
+         <·¤ »—[": PAPER :"]«
+
+     ¶<· »—[" ICH "|;|": PAPER :"]«
+          <·¤ »—[×: WERT :×]«««~: BAUMODUS FUNKTION SPEICHER AUSGANG :~«
+               <·¤¤ »—[×: WERT :×]«
+                     Ø—(8): WERT :Ø
+
+ <· »—[": KOMBINATION-ICH-FEUERZEUG :"]«««~: BAUMODUS FUNKTION SPEICHER EINGANG  :~«
+
+         ± Ø: WERT :(1)—Ø
+     <· »—[#: (1) :#]   
+         <·¤ »—[": ICH :"]«
+
+         ± Ø: WERT :(5)—Ø
+     <· »—[#: (5) :#]«   
+         <·¤ »—[": FEUERZEUG :"]«
+
+     ¶<· »—[" ICH "|;|": FEUERZEUG :"]«
+          <·¤ »—[×: WERT :×]«««~: BAUMODUS FUNKTION SPEICHER AUSGANG :~«
+               <·¤¤ »—[×: WERT :×]«
+                     Ø—(9): WERT :Ø
+
+     £‹1
+ <· »—[": AUSWIRKUNGS-DEFINITION :"]«««~: BAUMODUS FUNKTION SPEICHER EINGANG  :~«
+
+     <· »—[": ANZÜNDEN-DEFINITION :"]«««~: BAUMODUS FUNKTION SPEICHER EINGANG :~«
+         <· »—[": ANZÜNDEN :"|=|": ANZÜNDEN :"]«
+             <·¤ »—[×: WERT :×]«««~: BAUMODUS FUNKTION SPEICHER AUSGANG :~«
+                  <·¤¤ »—[×: WERT :×]«
+                        Ø—(10): WERT :Ø
+
+         ± Ø: WERT :(1)—Ø
+     <· »—[#: (1) :#]   
+         <·¤ »—[": ICH :"]«
+
+                   ± Ø: WERT :(2)—Ø
+              ł<· »—[#: (2) :#]«
+                   <·¤ »—[": GRASS :"]«
+                        <· »—[": NEIN MEIN FREUND, GRASS ALLEINE MACHT KEIN JOINT :"]«««~: ANZEIGE|DRUCK :~«
+                            £›1
+
+                   ± Ø: WERT :(2)—Ø
+                   ± Ø: WERT :(3)—Ø
+              ł<· »—[#: (2) (3) :#]«
+                   <·¤ »—[": GRASS TABAK :"]«
+                        <· »—[": JA GUT, ABER WO REIN ? :"]«««~: ANZEIGE|DRUCK :~«
+                            £›1
+
+                   ± Ø: WERT :(2)—Ø
+                   ± Ø: WERT :(3)—Ø
+                   ± Ø: WERT :(4)—Ø
+              ł<· »—[#: (2) (3) (4) :#]«
+                   <·¤ »—[": GRASS TABAK PAPER :"]«
+                        <· »—[": JETZT WIRD DARAUS EINE BANANE... ABER HASTE AUCH DIE ZÜNDUNG ? :"]«««~: ANZEIGE|DRUCK :~«
+                            £›1
+
+                   ± Ø: WERT :(2)—Ø
+                   ± Ø: WERT :(3)—Ø
+                   ± Ø: WERT :(4)—Ø
+                   ± Ø: WERT :(5)—Ø
+              ł<· »—[#: (2) (3) (4) (5) :#]«
+                   <·¤ »—[": GRASS TABAK PAPER FEUERZEUG :"]«
+                        <· »—[": NA ENDLICH, MACH IHN AN  !  :"]«««~: ANZEIGE|DRUCK :~«
+                            
+                                 ± Ø: WERT :(6)-Ø
+                            >·· »—[#: (6) :#]«
+                                 >¤· »—[" ICH "|;|": GRASS :"]«  
+
+                                 ± Ø: WERT :(7)-Ø
+                            >·· »—[#: (7) :#]«
+                                 >¤· »—[" ICH "|;|": TABAK :"]« 
+
+                                 ± Ø: WERT :(8)-Ø
+                            >·· »—[#: (8) :#]«
+                                 >¤· »—[" ICH "|;|": PAPER :"]« 
+
+                                 ± Ø: WERT :(9)-Ø
+                            >·· »—[" ICH "|;|": FEUERZEUG :"]«
+                                 >¤· »—[" ICH "|;|": GRASS :"]« 
+
+
+                            ¶>· 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+»[ OBJEKT = ICH ]« 
+ ¬· »[ DEF __INIT__(ICH, GRASS, TABAK, PAPER, FEUERZEUG): ]« 
+         ¿¹
+     ¬· »[ ICH.GRASS = GRASS ]« 
+         ¿¹
+     ¬· »[ ICH.TABAK = TABAK ]« 
+         ¿¹
+     ¬· »[ ICH.PAPER = PAPER ]« 
+         ¿¹
+     ¬· »[ ICH.FEUERZEUG = FEUERZEUG ]« 
+     
+         ¶ ¬· »[ DEF ANZÜNDEN(ICH) ]« 
+
+               ¬· »[ ICH.ANZÜNDEN +=HIGH ]« 
+
+               ¶ ¬· »[ __NAME__ ]« 
+                     ¬·¤= »[ "__MAIN__": ]« 
+                           ¬· »[ MARIOBART = ICH-BEKIFFT(HIGH, HIGHER , ULTRAHIGH) ]« 
+                           ¬· »[ ICH-BEKIFFT.ANZÜNDEN() ]«
+
+
+
+
+         ¶¶ ¬· »[~ RETURN __INIT__ ]«
+
+!¢ 
+
+
+
+
+
