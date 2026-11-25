@@ -33,6 +33,12 @@ MUTTERWABEN-KATEGORIE ⠆⢄⠑⢂ KOPFWABE
  # BXHT-UND
  AXIOM ¡ ⠆⢄⠒⠃ ⧑ ⠆⡠⢈⠔
 
+ # BXHT-ODER
+ AXIOM ¡ ⠆⢄⠒⠃ ⧑ ⠆⡠⢄⡐
+
+ # BXHT-WENNDA
+ AXIOM ¡ ⠆⢄⠒⠃ ⧑ ⠆⡠⢄⠊
+
  # BXHT-
  AXIOM ¡ ⠆⢄⠒⠃ ⧑ BIID
 
@@ -66,7 +72,7 @@ MUTTERWABEN-KATEGORIE ⠆⡠⢈⠊ HAUPTWABE
  AXIOM ¡ ⠆⡠⢈⠑ ⧓ ⠆⡠⢈⠒ Ξ ⠆⡠⢈⠔
 
  # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
- AXIOM ¡ ⠆⡠⢈⠔ ⦳ ⠆⡠⢈⠔
+ AXIOM ¡ ⠆⡠⢈⠔ ⦳ BIID
 
 ###====================================|====================================###
 
@@ -90,13 +96,79 @@ MUTTERWABEN-KATEGORIE ⠆⡠⢄⡁ HAUPTWABE
 
  BION ⠆⡠⢄⢈ PO003HT024
 
- BSK ⠆⡠⢄⢐ BSK
+ BSK ⠆⡠⢄⢐ POMK+PHT-ODER
 
  # AXIOM | KEID + WAID + BSKN
- AXIOM ¡ ⠆⢄⠑⢐ ⧓ ⠆⡠⢄⡄ ⫯ BSKN Ξ BSID
+ AXIOM ¡ ⠆⢄⠑⢐ ⧓ ⠆⡠⢄⡄ ⫯ ⠆⡠⢄⢁ Ξ ⠆⡠⢄⢂
 
  # AXIOM | BION-ID
- AXIOM ¡ ⠆⡠⢄⡄ ⧓ NR Ξ BIID
+ AXIOM ¡ ⠆⡠⢄⡄ ⧓ ⠆⡠⢄⡈ Ξ ⠆⡠⢄⡐
+
+ # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
+ AXIOM ¡ ⠆⡠⢄⡐ ⦳ BIID
+
+###====================================|====================================###
+
+MUTTERWABEN-KATEGORIE #
+
+###====================================|====================================###
+
+MUTTERWABEN-KATEGORIE ⠆⡠⢄⢠ HAUPTWABE 
+
+ PROGRAMM-KERN ⠆⡠⢄⣀ WENNDA
+
+ WABEN-ID ⠆⡠⢄⠅ HT
+
+ BION-NR ⠆⡠⢄⠉ 025
+
+ BION-ID ⠆⡠⢄⠊ HT025
+
+ BSK-KN ⠆⡠⢄⠌ WENNDA
+
+ BSK-ID ⠆⡠⢄⠑ POHT-WENNDA
+
+ BION ⠆⡠⢄⠒ PO003HT025
+
+ BSK ⠆⡠⢄⠔ POMK+POHT-WENNDA
+
+ # AXIOM | KEID + WAID + BSKN
+ AXIOM ¡ ⠆⢄⠑⢐ ⧓ ⠆⡠⢄⠅ ⫯ ⠆⡠⢄⠌ Ξ ⠆⡠⢄⠑
+
+ # AXIOM | BION-ID
+ AXIOM ¡ ⠆⡠⢄⠅ ⧓ ⠆⡠⢄⠉ Ξ ⠆⡠⢄⠊
+
+ # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
+ AXIOM ¡ ⠆⡠⢄⠊ ⦳ BIID
+
+###====================================|====================================###
+
+MUTTERWABEN-KATEGORIE #
+
+###====================================|====================================###
+
+MUTTERWABEN-KATEGORIE # HAUPTWABE 
+
+ PROGRAMM-KERN # NA
+
+ WABEN-ID # HT
+
+ BION-NR # NR
+
+ BION-ID # BIID
+
+ BSK-KN # BSKN
+
+ BSK-ID # BSID
+
+ BION # BION
+
+ BSK # BSK
+
+ # AXIOM | KEID + WAID + BSKN
+ AXIOM ¡ KEID ⧓ WAID ⫯ BSKN Ξ BSID
+
+ # AXIOM | BION-ID
+ AXIOM ¡ WAID ⧓ NR Ξ BIID
 
  # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
  AXIOM ¡ BIID ⦳ BIID
