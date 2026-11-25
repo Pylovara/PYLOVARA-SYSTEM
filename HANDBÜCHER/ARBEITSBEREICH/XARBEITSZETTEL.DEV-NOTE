@@ -627,7 +627,9 @@ __main__
 
  ICH MUSS EUCH AUCH ERTRAGEN ;-) 
 
-
+ GUT OKEY .... BEGRADIGEN WIR DIE SACHE EIN MINIMUM , MEHR ABER NICHT ;-p
+ ICH MUSS SO ODER SO DIE MCS-BIBLIOTHEK SCHREIBEN .... ICH MACH MICH KEINE 
+ 2 FACHE ARBEIT ....,. SMILE 
 
 
 
@@ -668,7 +670,7 @@ __main__
               <·¤¤ »—[×: WERT :×]«
                     Ø—(5): WERT :Ø
 
- <· »—[": KOMBINATIONS-DEFINITION :"]«««~: BAUMODUS FUNKTION SPEICHER EINGANG  :~«
+ <· »—[": KOMBINATION-ICH-GRASS :"]«««~: BAUMODUS FUNKTION SPEICHER EINGANG  :~«
 
          ± Ø—(1): WERT :Ø
      <· »—[#: (1) :#]   
@@ -679,8 +681,11 @@ __main__
          <·¤ »—[": GRASS :"]«
 
      ¶<· »—[" ICH "|;|": GRASS :"]«
-          <·¤ »—[×: WERT :×]«
-               Ø—(6): WERT :Ø
+          <·¤ »—[×: WERT :×]«««~: BAUMODUS FUNKTION SPEICHER AUSGANG :~«
+               <·¤¤ »—[×: WERT :×]«
+                     Ø—(6): WERT :Ø
+
+ <· »—[": KOMBINATION-ICH-TABAK :"]«««~: BAUMODUS FUNKTION SPEICHER EINGANG  :~«
 
          ± Ø—(1): WERT :Ø
      <· »—[#: (1) :#]   
@@ -691,8 +696,11 @@ __main__
          <·¤ »—[": TABAK :"]«
 
      ¶<· »—[" ICH "|;|": TABAK :"]«
-          <·¤ »—[×: WERT :×]«
-               Ø—(7): WERT :Ø
+          <·¤ »—[×: WERT :×]«««~: BAUMODUS FUNKTION SPEICHER AUSGANG :~«
+               <·¤¤ »—[×: WERT :×]«
+                     Ø—(7): WERT :Ø
+
+ <· »—[": KOMBINATION-ICH-PAPER :"]«««~: BAUMODUS FUNKTION SPEICHER EINGANG  :~«
 
          ± Ø—(1): WERT :Ø
      <· »—[#: (1) :#]   
@@ -703,9 +711,11 @@ __main__
          <·¤ »—[": PAPER :"]«
 
      ¶<· »—[" ICH "|;|": PAPER :"]«
-          <·¤ »—[×: WERT :×]«
-               Ø—(8): WERT :Ø
+          <·¤ »—[×: WERT :×]«««~: BAUMODUS FUNKTION SPEICHER AUSGANG :~«
+               <·¤¤ »—[×: WERT :×]«
+                     Ø—(8): WERT :Ø
 
+ <· »—[": KOMBINATION-ICH-FEUERZEUG :"]«««~: BAUMODUS FUNKTION SPEICHER EINGANG  :~«
 
          ± Ø—(1): WERT :Ø
      <· »—[#: (1) :#]   
@@ -716,8 +726,9 @@ __main__
          <·¤ »—[": FEUERZEUG :"]«
 
      ¶<· »—[" ICH "|;|": FEUERZEUG :"]«
-          <·¤ »—[×: WERT :×]«
-               Ø—(9): WERT :Ø
+          <·¤ »—[×: WERT :×]«««~: BAUMODUS FUNKTION SPEICHER AUSGANG :~«
+               <·¤¤ »—[×: WERT :×]«
+                     Ø—(9): WERT :Ø
 
  <· »—[": AUSWIRKUNGS-DEFINITION :"]«««~: BAUMODUS FUNKTION SPEICHER EINGANG  :~«
 
