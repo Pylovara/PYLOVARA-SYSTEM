@@ -165,6 +165,10 @@ MUTTERWABEN-KATEGORIE ⠆⡠⢂⠊ STARTWABE
 
 ###====================================|====================================###
 
+MUTTERWABEN-KATEGORIE #
+
+###====================================|====================================###
+
 MUTTERWABEN-KATEGORIE ⠆⡠⢄⡁ HAUPTWABE 
 
  PROGRAMM-KERN ⠆⡠⢄⡂ ODER
@@ -238,28 +242,27 @@ MUTTERWABEN-KATEGORIE ⠆⡠⢂⠨ STARTWABE
  # PRODUKT
  PRODUKT ⠆⡠⡐⠅ |?|
 
- # PRÄFIX 
- PRÄFIX PR
- PRÄFIX PR
+ # PRÄFIX
+ PRÄFIX ⠆⡠⡐⠉ ODER
 
  # AXIOM | BSK | KEID + WAID + PR
- AXIOM ¡ ⠆⢄⠑⢐ ⧓ ⠆⡠⢁⡂ ⫯ PR Ξ BSFX
- AXIOM ¡ ⠆⢄⠑⢐ ⧓ ⠆⡠⢁⡂ ⫯ PR Ξ BSFX
+ AXIOM ¡ ⠆⢄⠑⢐ ⧓ ⠆⡠⢁⡂ ⫯ ⠆⡠⡐⠉ Ξ ⠆⡠⡐⠊
 
  # BSK-PRÄFIX | KENNUNGSERWEITERUNG FÜR EINHEITEN
- BSK-PF BSFX
- BSK-PF BSFX
+ BSK-PF ⠆⡠⡐⠊ POST-ODER
 
  # AXIOM | PRÄFIX TAGGEN UND RAM  
- AXIOM ¡ PD ⥗ BSFX ⍠ RA
- AXIOM ¡ PD ⥗ BSFX ⍠ RA
+ AXIOM ¡ ⠆⡠⡐⠅ ⥗ ⠆⡠⡐⠊ ⍠ ⠆⡠⡈⠑
 
  # EINHEIT | RAM
- EINHEIT RA
- EINHEIT RA
+ EINHEIT ⠆⡠⡈⠑ |?| POST-ODER
 
  # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
  AXIOM ¡ ⠆⡠⢁⡈ ⦳ BIID
+
+###====================================|====================================###
+
+MUTTERWABEN-KATEGORIE #
 
 ###====================================|====================================###
 
@@ -319,45 +322,42 @@ MUTTERWABEN-KATEGORIE ⠆⡠⢁⢐ STARTWABE
  # TASTEN
  TASTENCODE # TT
  TASTENCODE # TT
+ TASTENCODE # TT
+ TASTENCODE # TT
 
  # AXIOM | SYMBOL BAUEN
  AXIOM ¡ TT ⦻ TT ⦻ TT Ξ SY
- AXIOM ¡ TT ⦻ TT Ξ SY
 
  # SYMBOLE FERTIG
- SYMBOLE SY
  SYMBOLE SY
 
  # AXIOM | PRODUKT BAUEN
  AXIOM ¡ SY ⧓ SY Ξ PD
- AXIOM ¡ SY ⧓ SY Ξ PD
 
  # PRODUKT
- PRODUKT PD
  PRODUKT PD
 
  # PRÄFIX 
  PRÄFIX PR
- PRÄFIX PR
 
  # AXIOM | BSK | KEID + WAID + PR
- AXIOM ¡ ⠆⢄⠑⢐ ⧓ ⠆⡠⢁⣀ ⫯ PR Ξ BSFX
  AXIOM ¡ ⠆⢄⠑⢐ ⧓ ⠆⡠⢁⣀ ⫯ PR Ξ BSFX
 
  # BSK-PRÄFIX | KENNUNGSERWEITERUNG FÜR EINHEITEN
  BSK-PF BSFX
- BSK-PF BSFX
 
  # AXIOM | PRÄFIX TAGGEN UND RAM  
- AXIOM ¡ PD ⥗ BSFX ⍠ RA
  AXIOM ¡ PD ⥗ BSFX ⍠ RA
 
  # EINHEIT | RAM
  EINHEIT RA
- EINHEIT RA
 
  # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
  AXIOM ¡ ⠆⡠⢂⠅ ⦳ BIID
+
+###====================================|====================================###
+
+MUTTERWABEN-KATEGORIE #
 
 ###====================================|====================================###
 
@@ -417,41 +417,34 @@ MUTTERWABEN-KATEGORIE ⠆⡠⢁⠔ STARTWABE
  # TASTEN
  TASTENCODE # TT
  TASTENCODE # TT
+ TASTENCODE # TT
+ TASTENCODE # TT
 
  # AXIOM | SYMBOL BAUEN
  AXIOM ¡ TT ⦻ TT ⦻ TT Ξ SY
- AXIOM ¡ TT ⦻ TT Ξ SY
 
  # SYMBOLE FERTIG
- SYMBOLE SY
  SYMBOLE SY
 
  # AXIOM | PRODUKT BAUEN
  AXIOM ¡ SY ⧓ SY Ξ PD
- AXIOM ¡ SY ⧓ SY Ξ PD
 
  # PRODUKT
- PRODUKT PD
  PRODUKT PD
 
  # PRÄFIX 
  PRÄFIX PR
- PRÄFIX PR
 
  # AXIOM | BSK | KEID + WAID + PR
- AXIOM ¡ ⠆⢄⠑⢐ ⧓ ⠆⡠⢁⠡ ⫯ PR Ξ BSFX
- AXIOM ¡ ⠆⢄⠑⢐ ⧓ ⠆⡠⢁⠡ ⫯ PR Ξ BSFX
+ AXIOM ¡ ⠆⢄⠑⢐ ⧓ ⠆⡠⢁⣀ ⫯ PR Ξ BSFX
 
  # BSK-PRÄFIX | KENNUNGSERWEITERUNG FÜR EINHEITEN
- BSK-PF BSFX
  BSK-PF BSFX
 
  # AXIOM | PRÄFIX TAGGEN UND RAM  
  AXIOM ¡ PD ⥗ BSFX ⍠ RA
- AXIOM ¡ PD ⥗ BSFX ⍠ RA
 
  # EINHEIT | RAM
- EINHEIT RA
  EINHEIT RA
 
  # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
@@ -490,7 +483,7 @@ MUTTERWABEN-KATEGORIE ⠆⡠⢂⡐ HAUPTWABE
 
 MUTTERWABEN-KATEGORIE ⠆⡠⡐⡈ STARTWABE 
 
- PROGRAMM-KERN ⠆⡠⡐⢁ NA
+ PROGRAMM-KERN ⠆⡠⡐⢁ BIND
 
  WABEN-ID ⠆⡠⡐⢂ ST
 
@@ -510,46 +503,39 @@ MUTTERWABEN-KATEGORIE ⠆⡠⡐⡈ STARTWABE
  AXIOM ¡ ⠆⢄⠑⢐ ⧓ ⠆⡠⡐⢂ ⫯ ⠆⡠⡐⢐ Ξ ⠆⡠⡐⢠
 
  # AXIOM | BION-ID
- AXIOM ¡ ⠆⡠⡐⢂ ⧓ ⠆⡠⡐⢄ Ξ ⠆⡠⡐⢠
+ AXIOM ¡ ⠆⡠⡐⢂ ⧓ ⠆⡠⡐⢄ Ξ ⠆⡠⡐⢈
 
  # TASTEN
+ TASTENCODE # TT
+ TASTENCODE # TT
  TASTENCODE # TT
  TASTENCODE # TT
 
  # AXIOM | SYMBOL BAUEN
  AXIOM ¡ TT ⦻ TT ⦻ TT Ξ SY
- AXIOM ¡ TT ⦻ TT Ξ SY
 
  # SYMBOLE FERTIG
- SYMBOLE SY
  SYMBOLE SY
 
  # AXIOM | PRODUKT BAUEN
  AXIOM ¡ SY ⧓ SY Ξ PD
- AXIOM ¡ SY ⧓ SY Ξ PD
 
  # PRODUKT
- PRODUKT PD
  PRODUKT PD
 
  # PRÄFIX 
  PRÄFIX PR
- PRÄFIX PR
 
  # AXIOM | BSK | KEID + WAID + PR
- AXIOM ¡ ⠆⢄⠑⢐ ⧓ ⠆⡠⡐⢂ ⫯ PR Ξ BSFX
- AXIOM ¡ ⠆⢄⠑⢐ ⧓ ⠆⡠⡐⢂ ⫯ PR Ξ BSFX
+ AXIOM ¡ ⠆⢄⠑⢐ ⧓ ⠆⡠⢁⣀ ⫯ PR Ξ BSFX
 
  # BSK-PRÄFIX | KENNUNGSERWEITERUNG FÜR EINHEITEN
- BSK-PF BSFX
  BSK-PF BSFX
 
  # AXIOM | PRÄFIX TAGGEN UND RAM  
  AXIOM ¡ PD ⥗ BSFX ⍠ RA
- AXIOM ¡ PD ⥗ BSFX ⍠ RA
 
  # EINHEIT | RAM
- EINHEIT RA
  EINHEIT RA
 
  # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
