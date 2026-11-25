@@ -500,10 +500,9 @@ __main__
 
  ABER STUFE EINS KEINE STUFE 0 , DAS KOMMT EHER IN DIE ZERTIFIKATE ... 
  ICH MISCH ETWAS ... 
-
+--------------------------------------------------------------------------------
 ¢!
-
-»—[¥: MCS-STUFE-1 :¥]«««~: BAUMODUS FUNKTION SPEICHER EINGAN :~«
+»—[¥: MCS-STUFE-1 :¥]«««~: BAUMODUS FUNKTION SPEICHER EINGANG :~«
  <· »—[": ICH-DEFINITION :"]«««~:BAUMODUS FUNKTION SPEICHER EINGANG :~«
      >· »—[×: ICH = GRASS :×]«      
      >· »—[×: ICH = TABAK :×]«
@@ -511,7 +510,9 @@ __main__
      >· »—[×: ICH = FEUERZEUG :×]«
 
      ¶<·¤ »—[×: ICH = ICH :×]«««~: BAUMODUS FUNKTION SPEICHER AUSGANG :~«
-
+           <·¤¤ »—[×: ICH = ICH :×]«
+                 ÷ Ø—(1)×: ICH = ICH :×:Ø
+                    
  <· »—[": OBJEKT-DEFINITION :"]«««~:BAUMODUS FUNKTION SPEICHER EINGANG :~«
      ł>· »—[]«
 
