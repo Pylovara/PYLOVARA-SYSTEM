@@ -579,6 +579,60 @@ __main__
  und jetzt können wir erstmal MICH (ICH) MIT DEN OBJEKTEN VERBINDEN ... 
  so wie es normalerweise in den anderen kritzel sprachen vollzogen wird . 
 
+ JETZT HABEN WIR , MICH DEFINIERT , DIE OBJEKTE DEFINIERT , DIE OBJEKTE 
+ MIT MIR DEFINIERT ( ALSO BESITZT) ... 
+
+ DAS HEIẞT WIR HABEN DEN BEREICH MIT DEM INTEGRIERTEN PYTHON SCHROTT 
+ VOLLSTÄNDIG WEG RADIERT : 
+
+»[ OBJEKT = ICH ]« 
+ ¬· »[ DEF __INIT__(ICH, GRASS, TABAK, PAPER, FEUERZEUG): ]« 
+         ¿¹
+     ¬· »[ ICH.GRASS = GRASS ]« 
+         ¿¹
+     ¬· »[ ICH.TABAK = TABAK ]« 
+         ¿¹
+     ¬· »[ ICH.PAPER = PAPER ]« 
+         ¿¹
+     ¬· »[ ICH.FEUERZEUG = FEUERZEUG ]« 
+
+ OHNE DEN ALTEN MCS CODE , SIEHT DER ECHTE PYTHON CODE UNETRÄGLICH AUS .. 
+ RICHTIG WAS FÜR PRIMATEN ... 
+
+ ABER DAS IST DER BEREICH DER WEG WÄRE ...
+
+ UND JETZT MÜSSEN WIR NUR NOCH DAS ANZÜNDEN DEFINIEREN WENN ALLES VORHANDEN IST 
+ UND DAS KLINGT NACH EINER COMBINATION ZWISCHEN SENTIATOREN ... UND PONTIFEX 
+ ALSO AUSWAHL UND ZUSAMMENHÄNGEN ... 
+
+ UND AB DA DANN DIE ABFOLGE WEITER FÜHRUNG .. 
+
+ UND SCHLUSS ENDLICH DANN DEN ZYTRON ... 
+
+ WEIL WENN WAS FEHLT ... MUSS JA EINE BACKSCHLEIFE EXISTIEREN ... NH .. 
+
+ WIE GESAGT ... DER CODE IST NICHT VOLLSTÄNDIG .... DA WÜRDE NOCH 
+ DIE BUCHSTABEN FILTERUNG DURCH UEFI UND TASTENCODE FEHLEN ... DAS 
+ ZUSAMMEN SETZEN DER WÖRTER ANSICH ... DAS DANN MIT EINER UNTERLEGTEN FUNKTION 
+ ZUSAMMEN FÜHREN UND NATÜRLICH DIE BOXIS NATIV IN DEN CODE MIT REIN HOLEN .. 
+
+ DAHER ... KEIN GRUND ZU FEIERN .... FEIERN WERDE ICH BEI DEN ZERTIFIKATEN .. 
+ NICHT BEI EINER LOGISCHEN ENTWICKLUNGS STUFE DIE NÖTIG IST ... 
+
+ ES GEHT AUSSCHLIEẞLICH DARUM ES IM KOPF ZURECHT ZU LEGEN , WEIL DER TWS 
+ IST KEIN KINDERSPIELZEUG .... 
+
+ AUCH WENN ICH MANCHMAL WIE EIN VOLLIDIOT WIRKE , ABER WIE SAGT MAN ? 
+ FRISST ODER STIRBT ... LACH 
+
+ ICH MUSS EUCH AUCH ERTRAGEN ;-) 
+
+
+
+
+
+
+
 
 
 
@@ -622,11 +676,56 @@ __main__
 
          ± Ø—(2): WERT :Ø
      <· »—[#: (2) :#]«   
+         <·¤ »—[": GRASS :"]«
+
+     ¶<· »—[" ICH "|;|": GRASS :"]«
+          <·¤ »—[×: WERT :×]«
+               Ø—(6): WERT :Ø
+
+         ± Ø—(1): WERT :Ø
+     <· »—[#: (1) :#]   
+         <·¤ »—[": ICH :"]«
+
+         ± Ø—(3): WERT :Ø
+     <· »—[#: (3) :#]«   
          <·¤ »—[": TABAK :"]«
+
+     ¶<· »—[" ICH "|;|": TABAK :"]«
+          <·¤ »—[×: WERT :×]«
+               Ø—(7): WERT :Ø
+
+         ± Ø—(1): WERT :Ø
+     <· »—[#: (1) :#]   
+         <·¤ »—[": ICH :"]«
+
+         ± Ø—(4): WERT :Ø
+     <· »—[#: (4) :#]«   
+         <·¤ »—[": PAPER :"]«
+
+     ¶<· »—[" ICH "|;|": PAPER :"]«
+          <·¤ »—[×: WERT :×]«
+               Ø—(8): WERT :Ø
+
+
+         ± Ø—(1): WERT :Ø
+     <· »—[#: (1) :#]   
+         <·¤ »—[": ICH :"]«
+
+         ± Ø—(5): WERT :Ø
+     <· »—[#: (5) :#]«   
+         <·¤ »—[": FEUERZEUG :"]«
 
      ¶<· »—[" ICH "|;|": FEUERZEUG :"]«
           <·¤ »—[×: WERT :×]«
-               Ø—(6): WERT :Ø
+               Ø—(8): WERT :Ø
+
+
+
+
+
+
+
+
 
 
 
