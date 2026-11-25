@@ -504,21 +504,47 @@ __main__
 ¢!
 »—[¥: MCS-STUFE-1 :¥]«««~: BAUMODUS FUNKTION SPEICHER EINGANG :~«
  <· »—[": ICH-DEFINITION :"]«««~:BAUMODUS FUNKTION SPEICHER EINGANG :~«
+     <· »—[×: ICH = ICH :×]«
+         <·¤ »—[×: ICH = ICH :×]«««~: BAUMODUS FUNKTION SPEICHER AUSGANG :~«
+              <·¤¤ »—[×: ICH = ICH :×]«
+                    ÷ Ø—(1)×: ICH = ICH :×:Ø
+                    
+ <· »—[": TABAK-DEFINITION :"]«««~:BAUMODUS FUNKTION SPEICHER EINGANG :~«
+     >· »—[×: TABAK = TABAK :×]«
+         <·¤ »—[×: TABAK = TABAK :×]«««~: BAUMODUS FUNKTION SPEICHER AUSGANG :~«
+              <·¤¤ »—[×: TABAK = TABAK :×]«
+                    ÷ Ø—(2)×: TABAK = TABAK :×:Ø
+
+ <· »—[": GRASS-DEFINITION :"]«««~:BAUMODUS FUNKTION SPEICHER EINGANG :~«
+     >· »—[×: GRASS = GRASS :×]«
+         <·¤ »—[×: GRASS = GRASS :×]«««~: BAUMODUS FUNKTION SPEICHER AUSGANG :~«
+              <·¤¤ »—[×: GRASS = GRASS :×]«
+                    ÷ Ø—(3)×: GRASS = GRASS :×:Ø
+
+ <· »—[": PAPER-DEFINITION :"]«««~:BAUMODUS FUNKTION SPEICHER EINGANG :~«
+     >· »—[×: PAPER = PAPER :×]«
+         <·¤ »—[×: PAPER = PAPER :×]«««~: BAUMODUS FUNKTION SPEICHER AUSGANG :~«
+              <·¤¤ »—[×: PAPER = PAPER :×]«
+                    ÷ Ø—(4)×: PAPER = PAPER :×:Ø
+
+ <· »—[": FEUERZEUG-DEFINITION :"]«««~:BAUMODUS FUNKTION SPEICHER EINGANG :~«
+     >· »—[×: FEUERZEUG = FEUERZEUG :×]«
+         <·¤ »—[×: FEUERZEUG = FEUERZEUG :×]«««~: BAUMODUS FUNKTION SPEICHER AUSGANG :~«
+              <·¤¤ »—[×: FEUERZEUG = FEUERZEUG :×]«
+                    ÷ Ø—(5)×: FEUERZEUG = FEUERZEUG :×:Ø
+
+
+
+
+
+
+
+
+
      >· »—[×: ICH = GRASS :×]«      
      >· »—[×: ICH = TABAK :×]«
      >· »—[×: ICH = PAPER :×]«
      >· »—[×: ICH = FEUERZEUG :×]«
-
-     ¶<· »—[×: ICH = ICH :×]«««~: BAUMODUS FUNKTION SPEICHER AUSGANG :~«
-          <·¤ »—[×: ICH = ICH :×]«««~: BAUMODUS FUNKTION SPEICHER AUSGANG :~«
-               <·¤¤ »—[×: ICH = ICH :×]«
-                     ÷ Ø—(1)×: ICH = ICH :×:Ø
-                    
- <· »—[": OBJEKT-DEFINITION :"]«««~:BAUMODUS FUNKTION SPEICHER EINGANG :~«
-     ł>· »—[]«
-
-
-
 
  <· »—[": NAME :"]«
 
