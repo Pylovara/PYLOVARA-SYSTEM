@@ -563,19 +563,66 @@ __main__
  und ab hier kann dann die zusammen hänge enstehen das klingt jetzt nach einem 
  weiteren pontifex boxis binde glied ... 
 
- und zwar verbinde |;| 
+ und zwar verbinde |;| gehört zusammen 
 
  grins 
 
  also los .... nochmal den code : 
 
+ Logischerweise fehln noch die funktionen jketzt für die boxis integrationen 
+ aber ich lass das bewusst weg weil es nicht um lauffähigen code geht , sondern 
+ darum welche pontifex nötig sind für den ersten durchgang ... 
+
+ ich kann sie logischerweise jederzeit erweitern aber trotzdem ist es wichtig 
+ den kontext zu betrachten , um ein "gefühl" zu bekommen was wichtig wäre 
  
 
 
+¢!
+»—[¥: MCS-STUFE-1 :¥]«««~: BAUMODUS FUNKTION SPEICHER EINGANG :~«
+ <· »—[": ICH-DEFINITION :"]«««~: BAUMODUS FUNKTION SPEICHER EINGANG :~«
+     <· »—[": ICH :"|=|": ICH :"]«
+         <·¤ »—[×: WERT :×]«««~: BAUMODUS FUNKTION SPEICHER AUSGANG :~«
+              <·¤¤ »—[×: WERT :×]«
+                    Ø—(1): WERT :Ø
 
+ <· »—[": TABAK-DEFINITION :"]«««~: BAUMODUS FUNKTION SPEICHER EINGANG :~«
+     <· »—[": TABAK :"|=|": TABAK :"]«
+         <·¤ »—[×: WERT :×]«««~: BAUMODUS FUNKTION SPEICHER AUSGANG :~«
+              <·¤¤ »—[×: WERT :×]«
+                    Ø—(2): WERT :Ø
 
+ <· »—[": GRASS-DEFINITION :"]«««~: BAUMODUS FUNKTION SPEICHER EINGANG :~«
+     <· »—[": GRASS :"|=|": GRASS :"]«
+         <·¤ »—[×: WERT :×]«««~: BAUMODUS FUNKTION SPEICHER AUSGANG :~«
+              <·¤¤ »—[×: WERT :×]«
+                    Ø—(3): WERT :Ø
 
+ <· »—[": PAPER-DEFINITION :"]«««~: BAUMODUS FUNKTION SPEICHER EINGANG :~«
+     <· »—[": PAPER :"|=|": PAPER :"]«
+         <·¤ »—[×: WERT :×]«««~: BAUMODUS FUNKTION SPEICHER AUSGANG :~«
+              <·¤¤ »—[×: WERT :×]«
+                    Ø—(4): WERT :Ø
 
+ <· »—[": FEUERZEUG-DEFINITION :"]«««~: BAUMODUS FUNKTION SPEICHER EINGANG :~«
+     <· »—[": FEUERZEUG :"|=|": FEUERZEUG :"]«
+         <·¤ »—[×: WERT :×]«««~: BAUMODUS FUNKTION SPEICHER AUSGANG :~«
+              <·¤¤ »—[×: WERT :×]«
+                    Ø—(5): WERT :Ø
+
+ <· »—[": KOMBINATIONS-DEFINITION :"]«««~: BAUMODUS FUNKTION SPEICHER EINGANG  :~«
+
+         ± Ø—(2): WERT :Ø
+     <· »—[#: (1) :#]   
+         <·¤ »—[": ICH :"]«
+
+         ± Ø—(2): WERT :Ø
+     <· »—[#: (2) :#]«   
+         <·¤ »—[": TABAK :"]«
+
+     ¶<· »—[" ICH "|;|": FEUERZEUG :"]«
+          <·¤ »—[×: WERT :×]«
+               Ø—(6): WERT :Ø
 
 
 
