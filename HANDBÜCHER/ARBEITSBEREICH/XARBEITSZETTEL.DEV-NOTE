@@ -433,7 +433,117 @@
  ich lass mir jetzt per ki eine einfache carackter funktion erstellen und bauen 
  das mcs dann mit boxis und pontifex nach ... 
 
- 
+
+muss ich garnicht ... ich hab schon was ... und zwar originales python 
+in der entwicklungs mcs stufe 
+
+
+¢!
+
+»[ OBJEKT = ICH ]« 
+ ¬· »[ DEF __INIT__(ICH, GRASS, TABAK, PAPER, FEUERZEUG): ]« 
+         ¿¹
+     ¬· »[ ICH.GRASS = GRASS ]« 
+         ¿¹
+     ¬· »[ ICH.TABAK = TABAK ]« 
+         ¿¹
+     ¬· »[ ICH.PAPER = PAPER ]« 
+         ¿¹
+     ¬· »[ ICH.FEUERZEUG = FEUERZEUG ]« 
+     
+         ¶ ¬· »[ DEF ANZÜNDEN(ICH) ]« 
+
+               ¬· »[ ICH.ANZÜNDEN +=HIGH ]« 
+
+               ¶ ¬· »[ __NAME__ ]« 
+                     ¬·¤= »[ "__MAIN__": ]« 
+                           ¬· »[ MARIOBART = ICH-BEKIFFT(HIGH, HIGHER , ULTRAHIGH) ]« 
+                           ¬· »[ ICH-BEKIFFT.ANZÜNDEN() ]«
+
+
+
+
+         ¶¶ ¬· »[~ RETURN __INIT__ ]«
+
+!¢ 
+
+ ich weis ... aber hey ... grass ist gut ! punkt 
+
+
+ aber der code ist python , kein mcs ... 
+
+
+  gehen wir das kurz durch ... 
+
+
+__INIT__
+__name__
+__main__
+
+
+ das sind alles nur ausführungen ... also in den prozess präfixes 
+ ... die werden in linux teils auch genutzt um einen datei baum auszuführen 
+ mit code ... 
+
+ nh ? das sagte lediglich : das hier gehört zusammen und wird gemeinsam in reihe ausgeführt 
+ oder was der code eben sagt ... nh ? 
+
+ das kann raus ... unötig ... das sollte wenn überhaupt für einen filemanager 
+ für dateien gelten und selbst da wird es später nicht mehr nötig sein 
+
+
+  also warte mal dann zaubern wir jetzt einen guten mcs geschriebenen auffrischungs code : 
+
+  kaffe zigarette dann gehts los ... 
+
+  ich weis schon wie .... lecker 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
