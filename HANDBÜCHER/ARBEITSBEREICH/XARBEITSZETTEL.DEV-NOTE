@@ -498,10 +498,54 @@ __main__
 
   ich weis schon wie .... lecker 
 
+ ABER STUFE EINS KEINE STUFE 0 , DAS KOMMT EHER IN DIE ZERTIFIKATE ... 
+ ICH MISCH ETWAS ... 
+
+¢!
+
+»—[¥: MCS-STUFE-1 :¥]«««~: BAUMODUS FUNKTION SPEICHER EINGAN :~«
+ <· »—[": OBJEKT-DEFINITION :"]«««~:BAUMODUS FUNKTION SPEICHER EINGANG :~«
+     >· »—[×: ICH = GRASS :×]«
+         
+     >· »—[×: ICH = TABAK :×]«
+
+     >· »—[×: ICH = PAPER :×]«
+
+     >· »—[×: ICH = FEUERZEUG :×]«
+
+     ¶<·¤ »—[×: ICH = ICH :×]«««~: BAUMODUS FUNKTION SPEICHER AUSGANG :~«
 
 
 
 
+ <· »—[": NAME :"]«
+
+»[ OBJEKT = ICH ]« 
+ ¬· »[ DEF __INIT__(ICH, GRASS, TABAK, PAPER, FEUERZEUG): ]« 
+         ¿¹
+     ¬· »[ ICH.GRASS = GRASS ]« 
+         ¿¹
+     ¬· »[ ICH.TABAK = TABAK ]« 
+         ¿¹
+     ¬· »[ ICH.PAPER = PAPER ]« 
+         ¿¹
+     ¬· »[ ICH.FEUERZEUG = FEUERZEUG ]« 
+     
+         ¶ ¬· »[ DEF ANZÜNDEN(ICH) ]« 
+
+               ¬· »[ ICH.ANZÜNDEN +=HIGH ]« 
+
+               ¶ ¬· »[ __NAME__ ]« 
+                     ¬·¤= »[ "__MAIN__": ]« 
+                           ¬· »[ MARIOBART = ICH-BEKIFFT(HIGH, HIGHER , ULTRAHIGH) ]« 
+                           ¬· »[ ICH-BEKIFFT.ANZÜNDEN() ]«
+
+
+
+
+         ¶¶ ¬· »[~ RETURN __INIT__ ]«
+
+!¢ 
 
 
 
