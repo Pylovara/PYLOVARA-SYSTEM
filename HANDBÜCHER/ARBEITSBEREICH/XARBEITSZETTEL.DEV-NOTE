@@ -672,11 +672,11 @@ __main__
 
  <· »—[": KOMBINATION-ICH-GRASS :"]«««~: BAUMODUS FUNKTION SPEICHER EINGANG  :~«
 
-         ± Ø—(1): WERT :Ø
+         ± Ø: WERT :(1)—Ø
      <· »—[#: (1) :#]   
          <·¤ »—[": ICH :"]«
 
-         ± Ø—(2): WERT :Ø
+         ± Ø: WERT :(2)—Ø
      <· »—[#: (2) :#]«   
          <·¤ »—[": GRASS :"]«
 
@@ -687,11 +687,11 @@ __main__
 
  <· »—[": KOMBINATION-ICH-TABAK :"]«««~: BAUMODUS FUNKTION SPEICHER EINGANG  :~«
 
-         ± Ø—(1): WERT :Ø
+         ± Ø: WERT :(1)—Ø
      <· »—[#: (1) :#]   
          <·¤ »—[": ICH :"]«
 
-         ± Ø—(3): WERT :Ø
+         ± Ø: WERT :(3)—Ø
      <· »—[#: (3) :#]«   
          <·¤ »—[": TABAK :"]«
 
@@ -702,11 +702,11 @@ __main__
 
  <· »—[": KOMBINATION-ICH-PAPER :"]«««~: BAUMODUS FUNKTION SPEICHER EINGANG  :~«
 
-         ± Ø—(1): WERT :Ø
+         ± Ø: WERT :(1)—Ø
      <· »—[#: (1) :#]   
          <·¤ »—[": ICH :"]«
 
-         ± Ø—(4): WERT :Ø
+         ± Ø: WERT :(4)—Ø
      <· »—[#: (4) :#]«   
          <·¤ »—[": PAPER :"]«
 
@@ -717,11 +717,11 @@ __main__
 
  <· »—[": KOMBINATION-ICH-FEUERZEUG :"]«««~: BAUMODUS FUNKTION SPEICHER EINGANG  :~«
 
-         ± Ø—(1): WERT :Ø
+         ± Ø: WERT :(1)—Ø
      <· »—[#: (1) :#]   
          <·¤ »—[": ICH :"]«
 
-         ± Ø—(5): WERT :Ø
+         ± Ø: WERT :(5)—Ø
      <· »—[#: (5) :#]«   
          <·¤ »—[": FEUERZEUG :"]«
 
@@ -730,7 +730,31 @@ __main__
                <·¤¤ »—[×: WERT :×]«
                      Ø—(9): WERT :Ø
 
+     £‹1
  <· »—[": AUSWIRKUNGS-DEFINITION :"]«««~: BAUMODUS FUNKTION SPEICHER EINGANG  :~«
+
+     <· »—[": ANZÜNDEN-DEFINITION :"]«««~: BAUMODUS FUNKTION SPEICHER EINGANG :~«
+         <· »—[": ANZÜNDEN :"|=|": ANZÜNDEN :"]«
+             <·¤ »—[×: WERT :×]«««~: BAUMODUS FUNKTION SPEICHER AUSGANG :~«
+                  <·¤¤ »—[×: WERT :×]«
+                        Ø—(10): WERT :Ø
+
+         ± Ø: WERT :(1)—Ø
+     <· »—[#: (1) :#]   
+         <·¤ »—[": ICH :"]«
+
+
+                   ± Ø—(2)::Ø
+              ł<· »—[#: (2) :#]«
+                   <· »—[": NEIN MEIN FREUND, GRASS ALLEINE MACHT KEIN JOINT :"]«««~: ANZEIGE|DRUCK :~«
+                   £›1
+
+              ł<· 
+
+
+
+
+
 
 
 
