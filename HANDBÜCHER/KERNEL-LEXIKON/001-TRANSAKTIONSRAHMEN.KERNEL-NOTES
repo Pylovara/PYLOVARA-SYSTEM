@@ -236,6 +236,7 @@ TOCHTERWABEN-KATEGORIE ⠆⢄⠘⡐ COMBOLINKWABE
  PFAD-BION-ID  = {SYSTEM-ID}
  PFAD-BION     = {WABEN-PFAD}
  PFAD-BSK      = {BAUSTEINSCHALTUNGS-PFAD}
+ PLASK-KOMPAKT = {PLASK-SCHALTUNG}
 
 ###=====================INDUSTRIE-STANDARD-DER-ZUKUNFT======================### 
 ###================================ENDPUNKT=================================###
