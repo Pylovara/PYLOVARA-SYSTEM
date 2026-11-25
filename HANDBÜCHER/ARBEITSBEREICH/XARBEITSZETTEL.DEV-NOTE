@@ -519,61 +519,61 @@ __main__
  das würde bedeuten das wir den wert der buchstaben dann für den wert brauchen 
  der in der ram gespeicher ist ... moment 
 
+ WIR SPEICHERN ABER NICHT INTERN DEN WERT SONDERN EXTERN DEN WERT 
+ WEIL WIR DIE FUNKTION SCHREIBEN , DEFINIEREN , UMWANDEL , ABRUFEN 
+ UND ERST DANN IN DEN RAM LADEN ... NORMAL ... DAFÜR EXISTIERT DIE 
+ FUNKTION JA ÜBERHAUPT ... ALLES ANDERE WÄRE VERDOPPELUNG .. 
+
+ GUT DANN SCHREIBEN WIR ES SO... 
+
 ¢!
 »—[¥: MCS-STUFE-1 :¥]«««~: BAUMODUS FUNKTION SPEICHER EINGANG :~«
  <· »—[": ICH-DEFINITION :"]«««~:BAUMODUS FUNKTION SPEICHER EINGANG :~«
      <· »—[": ICH :"|=|": ICH :"]«
-         <· »—[×: WERT :×]«««~: BAUMODUS FUNKTION SPEICHER AUSGANG :~«
-             ÷ Ø—(1): WERT :Ø
-
-
-
-
-
-
-
+         <·¤ »—[×: WERT :×]«««~: BAUMODUS FUNKTION SPEICHER AUSGANG :~«
+              <·¤¤ »—[×: WERT :×]«
+                    Ø—(1): WERT :Ø
 
  <· »—[": TABAK-DEFINITION :"]«««~:BAUMODUS FUNKTION SPEICHER EINGANG :~«
-     >· »—[×: TABAK = TABAK :×]«
-         <·¤ »—[×: TABAK = TABAK :×]«««~: BAUMODUS FUNKTION SPEICHER AUSGANG :~«
-              <·¤¤ »—[×: TABAK = TABAK :×]«
-                    ÷ Ø—(2)×: TABAK = TABAK :×:Ø
+     <· »—[": TABAK :"|=|": TABAK :"]«
+         <·¤ »—[×: WERT :×]«««~: BAUMODUS FUNKTION SPEICHER AUSGANG :~«
+              <·¤¤ »—[×: WERT :×]«
+                    Ø—(1): WERT :Ø
 
  <· »—[": GRASS-DEFINITION :"]«««~:BAUMODUS FUNKTION SPEICHER EINGANG :~«
-     >· »—[×: GRASS = GRASS :×]«
-         <·¤ »—[×: GRASS = GRASS :×]«««~: BAUMODUS FUNKTION SPEICHER AUSGANG :~«
-              <·¤¤ »—[×: GRASS = GRASS :×]«
-                    ÷ Ø—(3)×: GRASS = GRASS :×:Ø
+     <· »—[": GRASS :"|=|": GRASS :"]«
+         <·¤ »—[×: WERT :×]«««~: BAUMODUS FUNKTION SPEICHER AUSGANG :~«
+              <·¤¤ »—[×: WERT :×]«
+                    Ø—(1): WERT :Ø
 
  <· »—[": PAPER-DEFINITION :"]«««~:BAUMODUS FUNKTION SPEICHER EINGANG :~«
-     >· »—[×: PAPER = PAPER :×]«
-         <·¤ »—[×: PAPER = PAPER :×]«««~: BAUMODUS FUNKTION SPEICHER AUSGANG :~«
-              <·¤¤ »—[×: PAPER = PAPER :×]«
-                    ÷ Ø—(4)×: PAPER = PAPER :×:Ø
+     <· »—[": PAPER :"|=|": PAPER :"]«
+         <·¤ »—[×: WERT :×]«««~: BAUMODUS FUNKTION SPEICHER AUSGANG :~«
+              <·¤¤ »—[×: WERT :×]«
+                    Ø—(1): WERT :Ø
 
  <· »—[": FEUERZEUG-DEFINITION :"]«««~:BAUMODUS FUNKTION SPEICHER EINGANG :~«
-     >· »—[×: FEUERZEUG = FEUERZEUG :×]«
-         <·¤ »—[×: FEUERZEUG = FEUERZEUG :×]«««~: BAUMODUS FUNKTION SPEICHER AUSGANG :~«
-              <·¤¤ »—[×: FEUERZEUG = FEUERZEUG :×]«
-                    ÷ Ø—(5)×: FEUERZEUG = FEUERZEUG :×:Ø
+     <· »—[": FEUERZEUG :"|=|": FEUERZEUG :"]«
+         <·¤ »—[×: WERT :×]«««~: BAUMODUS FUNKTION SPEICHER AUSGANG :~«
+              <·¤¤ »—[×: WERT :×]«
+                    Ø—(1): WERT :Ø
 
+ gut ... dann wüsste jetzt die maschine was was ist ... 
 
- ICH GLAUBE ZWAR DAS DIE ALU DANN AUSPUCKT WAS ER GLAUBT DAS ES IST .. 
- ALSO OHNE DAS ORIGINAL ... EHER NUR DER NAME .... KURZE NACH KONTROLLE .. 
-
- DANN WEITER ... 
-
-
+ und ab hier kann dann die zusammen hänge enstehen das klingt jetzt nach einem 
+ weiteren pontifex boxis binde glied ... 
 
 
 
 
-     >· »—[×: ICH = GRASS :×]«      
-     >· »—[×: ICH = TABAK :×]«
-     >· »—[×: ICH = PAPER :×]«
-     >· »—[×: ICH = FEUERZEUG :×]«
 
- <· »—[": NAME :"]«
+
+
+
+
+
+
+
 
 »[ OBJEKT = ICH ]« 
  ¬· »[ DEF __INIT__(ICH, GRASS, TABAK, PAPER, FEUERZEUG): ]« 
