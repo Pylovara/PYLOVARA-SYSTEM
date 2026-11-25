@@ -504,16 +504,16 @@ __main__
 ¢!
 
 »—[¥: MCS-STUFE-1 :¥]«««~: BAUMODUS FUNKTION SPEICHER EINGAN :~«
- <· »—[": OBJEKT-DEFINITION :"]«««~:BAUMODUS FUNKTION SPEICHER EINGANG :~«
-     >· »—[×: ICH = GRASS :×]«
-         
+ <· »—[": ICH-DEFINITION :"]«««~:BAUMODUS FUNKTION SPEICHER EINGANG :~«
+     >· »—[×: ICH = GRASS :×]«      
      >· »—[×: ICH = TABAK :×]«
-
      >· »—[×: ICH = PAPER :×]«
-
      >· »—[×: ICH = FEUERZEUG :×]«
 
      ¶<·¤ »—[×: ICH = ICH :×]«««~: BAUMODUS FUNKTION SPEICHER AUSGANG :~«
+
+ <· »—[": OBJEKT-DEFINITION :"]«««~:BAUMODUS FUNKTION SPEICHER EINGANG :~«
+     ł>· »—[]«
 
 
 
