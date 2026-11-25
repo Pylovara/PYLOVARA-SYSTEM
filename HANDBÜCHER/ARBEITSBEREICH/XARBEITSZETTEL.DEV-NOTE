@@ -357,7 +357,89 @@
 
  ob website oder auf dem bildschirm . das ist egal .. 
 
+ klar ist , die boxis selbst ist die ausführung .. 
+
+
+ selbst bei pfad boxis 
+
+ ich hab nur den kontext falsch geschrieben ... 
+
+ ich hab immer so geschrieben
+
+ $: ordner/nächster/datei.irgendwas :$
+
+ das war falsch ... weil es ist die pfad boxi .. nicht die ansteuerung 
+ dessen waas darin liegt .. 
+
+ das selbe gilt bei ip adressen auch ... 
+
+ nur die ansteuerung ... 
+
+ nicht der inhalt .... 
+
+
+
+ also muss ich den aktionsdraht gar nicht ändern .... 
+ sondern nur meinen denkfehler ! 
+
+ denn 
+
+ das muss dann explizit sein 
+
+ $: ordner/nächste/ :$|&|&: datei.irgendwas :& 
+
+ das heißt alle boxis haben ausführungs erlaubnise in ihren sektor .. 
+
+ die eingabe boxi selbst genrell und das was drinne angedockt wird wird ausgeführt 
+ also run ... 
+
+ somit bleibt der aktionsdraht das was es ist : 
+
+ die ausführungserlaubnis für das protein und das trägt inhalt ... 
+
+
+
+ wenn man ein nicht ausführbares protein benötgt für irgendwas aber 
+ das auch mit mcd befehl .. 
+
+ dann schreibt man das mcd boxi auch in das protein und nicht in den plus-impuls 
+
+
+ das heißt 
+
+ —[¥: funktion :¥|;|~: baumodus funktion speicher abruf :~ ]
+
+ dann kann man es verbinden ... per ram ... 
+
+ und transportieren ... und per ram setzung in ein protein setzen 
+ ... so wie vorher auch ... 
+
+ und oder das boxi erstmal erzeuegen per mcd , dann ist es vorhanden 
+ und dann den befehl setzen ... 
+
+ das wäre genau das was die sprache zusätzlich können muss ...
+ und ich habe es schon lange drinne ... lach ... okey ... ein problem weniger . 
+
+ das heißt keine AUSFÜHRUNGS pontifex ... 
+
+
+ sondern nur zusammenhänge , trenner , auswahl wenn , und verbinder ... 
+
+
+
  
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
