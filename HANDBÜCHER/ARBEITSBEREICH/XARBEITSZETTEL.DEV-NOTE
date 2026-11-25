@@ -631,7 +631,42 @@ __main__
  ICH MUSS SO ODER SO DIE MCS-BIBLIOTHEK SCHREIBEN .... ICH MACH MICH KEINE 
  2 FACHE ARBEIT ....,. SMILE 
 
+ JETZT MÜSSEN WIR NUR NOCH DEFINIEREN WAS PASSIEREN SOLL WENN WIR ANGEZÜNDET 
+ HABEN .. 
 
+ UND DA WIR NICHT WISSEN WIE OFT WIR DARAN ZIEHEN , KÖNNTEN WIR NOCH 
+ DIE MENGEN ANGABE HINZUFÜGEN PER RECHNUNG ... 
+
+ UND HIER WÄRE DANN WIRKLICH DER EINSATZ VON DER ALU WICHTIG 
+
+ ALSO EINE MATHEMATISCHE SACHE ... WENN WIR ES NICHT STATISCH MACHEN WOLLEN .. 
+
+ ABER DAS IST JETZT KOPF GEFICK ... 
+
+ ICH PROGRAMMIERE SCHLIEẞLICH GERADE DER KERNEL .... DIE SPRACHE SELBST MUSS 
+ ICH WIE JEDER ANDERE AUCH ERST LERNEN ... ABER ICH WEIS DIE RICHTUNG ... 
+
+ WAS MIR DER TEST BIS JETZT GEZEIGT HAT IST FOLGENDES ... 
+
+
+ PONTIFEX : 
+
+ |=| IST GLEICH 
+ |;| GEHÖRT ZUSAMMEN 
+  SIND SCHONMAL ABSOLUT NOTWENDIG WENN ES UM SOLCHE SPIELCHEN GEHT 
+
+
+  und ich gehe stark davon aus das ich jetzt noch die anderen testen kann ... 
+
+
+  aber ich würde sagen ich breche hier ab , nicht weil ich es nicht könnte 
+  sondern weil ich meine ganze nach damit verschwende ... 
+
+  ich denke ich lege erstmal . die grund operatoren für pontifex bis startwabe an 
+  und gehe dann noch den rest durch .... je nach lust ... 
+
+
+  aber jetzt erstmal eine zigaretten und kaffe pause .... wichtig ... 
 
 
 
@@ -743,26 +778,57 @@ __main__
      <· »—[#: (1) :#]   
          <·¤ »—[": ICH :"]«
 
-                   ± Ø—(2): WERT :Ø
+                   ± Ø: WERT :(2)—Ø
               ł<· »—[#: (2) :#]«
                    <·¤ »—[": GRASS :"]«
                         <· »—[": NEIN MEIN FREUND, GRASS ALLEINE MACHT KEIN JOINT :"]«««~: ANZEIGE|DRUCK :~«
                             £›1
 
-                   ± Ø—(2): WERT :Ø
-                   ± Ø—(3): WERT :Ø
+                   ± Ø: WERT :(2)—Ø
+                   ± Ø: WERT :(3)—Ø
               ł<· »—[#: (2) (3) :#]«
                    <·¤ »—[": GRASS TABAK :"]«
                         <· »—[": JA GUT, ABER WO REIN ? :"]«««~: ANZEIGE|DRUCK :~«
                             £›1
 
-                   ± Ø—(2): WERT :Ø
-                   ± Ø—(3): WERT :Ø
-                   ± Ø—(4): WERT :Ø
+                   ± Ø: WERT :(2)—Ø
+                   ± Ø: WERT :(3)—Ø
+                   ± Ø: WERT :(4)—Ø
               ł<· »—[#: (2) (3) (4) :#]«
                    <·¤ »—[": GRASS TABAK PAPER :"]«
                         <· »—[": JETZT WIRD DARAUS EINE BANANE... ABER HASTE AUCH DIE ZÜNDUNG ? :"]«««~: ANZEIGE|DRUCK :~«
                             £›1
+
+                   ± Ø: WERT :(2)—Ø
+                   ± Ø: WERT :(3)—Ø
+                   ± Ø: WERT :(4)—Ø
+                   ± Ø: WERT :(5)—Ø
+              ł<· »—[#: (2) (3) (4) (5) :#]«
+                   <·¤ »—[": GRASS TABAK PAPER FEUERZEUG :"]«
+                        <· »—[": NA ENDLICH, MACH IHN AN  !  :"]«««~: ANZEIGE|DRUCK :~«
+                            
+                                 ± Ø: WERT :(6)-Ø
+                            >·· »—[#: (6) :#]«
+                                 >¤· »—[" ICH "|;|": GRASS :"]«  
+
+                                 ± Ø: WERT :(7)-Ø
+                            >·· »—[#: (7) :#]«
+                                 >¤· »—[" ICH "|;|": TABAK :"]« 
+
+                                 ± Ø: WERT :(8)-Ø
+                            >·· »—[#: (8) :#]«
+                                 >¤· »—[" ICH "|;|": PAPER :"]« 
+
+                                 ± Ø: WERT :(9)-Ø
+                            >·· »—[" ICH "|;|": FEUERZEUG :"]«
+                                 >¤· »—[" ICH "|;|": GRASS :"]« 
+
+
+                            ¶>· 
+
+
+
+
 
 
 
