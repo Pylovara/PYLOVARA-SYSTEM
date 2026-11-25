@@ -39,11 +39,11 @@ MUTTERWABEN-KATEGORIE ⠆⢄⠑⢂ KOPFWABE
  # BXHT-WENNDA
  AXIOM ¡ ⠆⢄⠒⠃ ⧑ ⠆⡠⢄⠊
 
- # BXHT-
- AXIOM ¡ ⠆⢄⠒⠃ ⧑ BIID
+ # BXHT-GLEICH
+ AXIOM ¡ ⠆⢄⠒⠃ ⧑ ⠆⡠⢄⠨
 
- # BXHT-
- AXIOM ¡ ⠆⢄⠒⠃ ⧑ BIID
+ # BXHT-BIND
+ AXIOM ¡ ⠆⢄⠒⠃ ⧑ ⠆⡠⢂⢐
 
 ###====================================|====================================###
 
@@ -146,32 +146,32 @@ MUTTERWABEN-KATEGORIE #
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE # HAUPTWABE 
+MUTTERWABEN-KATEGORIE ⠆⡠⢄⠘ HAUPTWABE 
 
- PROGRAMM-KERN # NA
+ PROGRAMM-KERN ⠆⡠⢄⠡ GLEICH
 
- WABEN-ID # HT
+ WABEN-ID ⠆⡠⢄⠢ HT
 
- BION-NR # NR
+ BION-NR ⠆⡠⢄⠤ 026
 
- BION-ID # BIID
+ BION-ID ⠆⡠⢄⠨ HT026
 
- BSK-KN # BSKN
+ BSK-KN ⠆⡠⢂⡁ GLEICH
 
- BSK-ID # BSID
+ BSK-ID ⠆⡠⢂⡂ POHT-GLEICH
 
- BION # BION
+ BION ⠆⡠⢂⡄ PO003HT026
 
- BSK # BSK
+ BSK ⠆⡠⢂⡈ POMK+POHT-GLEICH
 
  # AXIOM | KEID + WAID + BSKN
- AXIOM ¡ KEID ⧓ WAID ⫯ BSKN Ξ BSID
+ AXIOM ¡ ⠆⢄⠑⢐ ⧓ ⠆⡠⢄⠢ ⫯ ⠆⡠⢂⡁ Ξ ⠆⡠⢂⡂
 
  # AXIOM | BION-ID
- AXIOM ¡ WAID ⧓ NR Ξ BIID
+ AXIOM ¡ ⠆⡠⢄⠢ ⧓ ⠆⡠⢄⠤ Ξ ⠆⡠⢄⠨
 
  # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
- AXIOM ¡ BIID ⦳ BIID
+ AXIOM ¡ ⠆⡠⢄⠨ ⦳ BIID
 
 ###====================================|====================================###
 
@@ -179,32 +179,32 @@ MUTTERWABEN-KATEGORIE #
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE # HAUPTWABE 
+MUTTERWABEN-KATEGORIE ⠆⡠⢂⡐ HAUPTWABE 
 
- PROGRAMM-KERN # NA
+ PROGRAMM-KERN ⠆⡠⢂⢁ BIND
 
- WABEN-ID # HT
+ WABEN-ID ⠆⡠⢂⢄ HT
 
- BION-NR # NR
+ BION-NR ⠆⡠⢂⢈ 027
 
- BION-ID # BIID
+ BION-ID ⠆⡠⢂⢐ HT027
 
- BSK-KN # BSKN
+ BSK-KN ⠆⡠⢂⢠ BIND
 
- BSK-ID # BSID
+ BSK-ID ⠆⡠⢂⣀ POHT-BIND
 
- BION # BION
+ BION ⠆⡠⢄⠃ POHT-BIND
 
- BSK # BSK
+ BSK ⠆⡠⢂⠉ POMK+POHT-BIND
 
  # AXIOM | KEID + WAID + BSKN
- AXIOM ¡ KEID ⧓ WAID ⫯ BSKN Ξ BSID
+ AXIOM ¡ ⠆⢄⠑⢐ ⧓ ⠆⡠⢂⢄ ⫯ ⠆⡠⢂⢠ Ξ ⠆⡠⢂⣀
 
  # AXIOM | BION-ID
- AXIOM ¡ WAID ⧓ NR Ξ BIID
+ AXIOM ¡ ⠆⡠⢂⢄ ⧓ ⠆⡠⢂⢈ Ξ ⠆⡠⢂⢐
 
  # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
- AXIOM ¡ BIID ⦳ BIID
+ AXIOM ¡ ⠆⡠⢂⢐ ⦳ BIID
 
 ###====================================|====================================###
 
