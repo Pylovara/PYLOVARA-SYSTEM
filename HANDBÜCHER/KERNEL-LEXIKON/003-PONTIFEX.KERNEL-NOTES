@@ -225,20 +225,18 @@ MUTTERWABEN-KATEGORIE ⠆⡠⢂⠨ STARTWABE
  TASTENCODE ⠆⡠⡈⢠ ẞ
 
  # AXIOM | SYMBOL BAUEN
- AXIOM ¡ TT ⦻ TT ⦻ TT Ξ SY
- AXIOM ¡ TT ⦻ TT Ξ SY
+ AXIOM ¡ ⠆⡠⡈⢄ ⦻ ⠆⡠⡈⢐ Ξ ⠆⡠⡈⣀
+ AXIOM ¡ ⠆⡠⡈⢈ ⦻ ⠆⡠⡈⢠ Ξ ⠆⡠⡐⠃
 
  # SYMBOLE FERTIG
- SYMBOLE SY
- SYMBOLE SY
+ SYMBOLE ⠆⡠⡈⣀ |
+ SYMBOLE ⠆⡠⡐⠃ ?
 
  # AXIOM | PRODUKT BAUEN
- AXIOM ¡ SY ⧓ SY Ξ PD
- AXIOM ¡ SY ⧓ SY Ξ PD
+ AXIOM ¡ ⠆⡠⡈⣀ ⧓ ⠆⡠⡐⠃ ⧓ ⠆⡠⡈⣀ Ξ ⠆⡠⡐⠅
 
  # PRODUKT
- PRODUKT PD
- PRODUKT PD
+ PRODUKT ⠆⡠⡐⠅ |?|
 
  # PRÄFIX 
  PRÄFIX PR
