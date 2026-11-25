@@ -504,10 +504,21 @@ __main__
 ¢!
 »—[¥: MCS-STUFE-1 :¥]«««~: BAUMODUS FUNKTION SPEICHER EINGANG :~«
  <· »—[": ICH-DEFINITION :"]«««~:BAUMODUS FUNKTION SPEICHER EINGANG :~«
-     <· »—[×: ICH = ICH :×]«
-         <·¤ »—[×: ICH = ICH :×]«««~: BAUMODUS FUNKTION SPEICHER AUSGANG :~«
-              <·¤¤ »—[×: ICH = ICH :×]«
-                    ÷ Ø—(1)×: ICH = ICH :×:Ø
+     <· »—[": ICH :"|=|": ICH :"]«
+         <·¤ »—[": ICH :"]«««~: BAUMODUS FUNKTION SPEICHER AUSGANG :~«
+              <·¤¤ »—[": ICH :"]«
+                    ÷ Ø—(1)": ICH :":Ø
+                    
+
+
+
+
+
+
+
+
+
+
                     
  <· »—[": TABAK-DEFINITION :"]«««~:BAUMODUS FUNKTION SPEICHER EINGANG :~«
      >· »—[×: TABAK = TABAK :×]«
