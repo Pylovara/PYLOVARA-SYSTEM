@@ -148,22 +148,22 @@ MUTTERWABEN-KATEGORIE ⠆⡠⢂⠊ STARTWABE
  PRODUKT ⠆⡠⡐⡂ |&|
 
  # PRÄFIX 
- PRÄFIX ⠆⡠⡈⢁ UND
+ PRÄFIX ⠆⡠⡈⢁ UNDS
 
  # AXIOM | BSK | KEID + WAID + PR
  AXIOM ¡ ⠆⢄⠑⢐ ⧓ ⠆⡠⢂⠑ ⫯ ⠆⡠⡐⡂ Ξ ⠆⡠⡈⡐
 
  # BSK-PRÄFIX | KENNUNGSERWEITERUNG FÜR EINHEITEN
- BSK-PF ⠆⡠⡈⡐ POST-UND
+ BSK-PF ⠆⡠⡈⡐ POST-UNDS
 
  # AXIOM | PRÄFIX TAGGEN UND RAM  
  AXIOM ¡ ⠆⡠⡐⡂ ⥗ ⠆⡠⡈⡐ ⍠ ⠆⡠⡈⢂
 
  # EINHEIT | RAM
- EINHEIT ⠆⡠⡈⢂ |&| POST-UND
+ EINHEIT ⠆⡠⡈⢂ |&| POST-UNDS
 
  # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
- AXIOM ¡ ⠆⡠⢂⠔ ⦳ BIID
+ AXIOM ¡ ⠆⡠⢂⠔ ⦳ ⠆⡠⡂⢂
 
 ###====================================|====================================###
 
@@ -194,63 +194,63 @@ MUTTERWABEN-KATEGORIE ⠆⡠⡄⡁ BAUWABE
 TOCHTERWABEN-KATEGORIE ⠆⡠⡂⣀ FUNKTIONSWABE
 
  # AXIOM | HOLE RAM EINHEIT 
- AXIOM ¡ RA ⍠ RA
+ AXIOM ¡ ⠆⡠⡈⢂ ⍠ ⠆⡠⡄⠅
 
  # EINHEIT | RAM 
- EINHEIT # RA
+ EINHEIT ⠆⡠⡄⠅ |&|
 
  # EINSATZ-ELEMENT | VARIABLE BENENNUNG
- UND # ⥛
+ UND ⠆⡠⡄⠃ ⥛
 
  # AXIOMPROGRAMMIERUNG | TWS-LEXIKON 03 BINDUNG
- AXIOM ¡ RA Ξ AX Ξ ZW
+ AXIOM ¡ ⠆⡠⡄⠅ Ξ ⠆⡠⡄⠃ Ξ ⠆⡠⡄⠉
 
  # PRÄFIX 
- PRÄFIX PR
+ PRÄFIX ⠆⡠⡄⠊ UNDSE
 
  # AXIOM | BSK | KEID + WAID + PR
- AXIOM ¡ ⠆⢄⠑⢐ ⧓ WAID ⫯ PR Ξ BSFX
+ AXIOM ¡ ⠆⢄⠑⢐ ⧓ ⠆⡠⡄⡈ ⫯ ⠆⡠⡄⠊ Ξ ⠆⡠⡄⠌
 
  # BSK-PRÄFIX | KENNUNGSERWEITERUNG FÜR EINHEITEN
- BSK-PF BSFX
+ BSK-PF ⠆⡠⡄⠌ POFK-UNDSE
 
  # AXIOM | PRÄFIX TAGG ERNEUERN UND RAM  
- AXIOM ¡ ZW ⥓ BSFX ⍠ RA
+ AXIOM ¡ ⠆⡠⡄⠉ ⥓ ⠆⡠⡄⠌ ⍠ ⠆⡠⡄⠑
 
  # EINHEIT | RAM
- EINHEIT RA
+ EINHEIT ⠆⡠⡄⠑ |&| POFK-UNDSE
 
  # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
- AXIOM ¡ BIID ⦳ BIID
+ AXIOM ¡ ⠆⡠⡂⢂ ⦳ ⠆⡠⡂⠤
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE # ENDWABE 
+MUTTERWABEN-KATEGORIE ⠆⡠⡂⠔ ENDWABE 
 
- PROGRAMM-KERN # NA
+ PROGRAMM-KERN ⠆⡠⡂⠘ UND
 
- WABEN-ID # ED
+ WABEN-ID ⠆⡠⡂⠡ ED
 
- BION-NR # NR
+ BION-NR ⠆⡠⡂⠢ 020
 
- BION-ID # BIID
+ BION-ID ⠆⡠⡂⠤ ED020
 
- BSK-KN # BSKN
+ BSK-KN ⠆⡠⡂⠨ UND
 
- BSK-ID # BSID
+ BSK-ID ⠆⡠⡂⠰ POED-UND
 
- BION # BION
+ BION ⠆⡠⡂⡁ PO003MK003HT023ST023FK001ED020
 
- BSK # BSK
+ BSK ⠆⡠⡂⡄ POMK+POHT-UND+POST-UND+POFK-UND+POED-UND
 
  # AXIOM | KEID + WAID + BSKN
- AXIOM ¡ ⠆⢄⠑⢐ ⧓ WAID ⫯ BSKN Ξ BSID
+ AXIOM ¡ ⠆⢄⠑⢐ ⧓ ⠆⡠⡂⠡ ⫯ ⠆⡠⡂⠨ Ξ ⠆⡠⡂⠰
 
  # AXIOM | BION-ID
- AXIOM ¡ WAID ⧓ NR Ξ BIID
+ AXIOM ¡ ⠆⡠⡂⠡ ⧓ ⠆⡠⡂⠢ Ξ ⠆⡠⡂⠤
 
  # AXIOM | HAUPTWABEN DURCHLAUF BEENDEN
- AXIOM ¡ BIID ⦱
+ AXIOM ¡ ⠆⡠⡂⠤ ⦱
 
 ###====================================|====================================###
 ###==============================PONTIFEX-ODER==============================###

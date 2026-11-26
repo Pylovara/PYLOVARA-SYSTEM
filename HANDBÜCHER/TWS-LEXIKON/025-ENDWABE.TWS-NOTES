@@ -48,6 +48,7 @@ MUTTERMODUL # ENDWABE
 
  PA030 = ED001 
  BX007 = ED002 - ED019
-
+ PO003 = ED020 - ED024
+ 
 ###===================ENTWICKLER-PROGRAMMIERUNGSBEREICH=====================###
 ###=====================INDUSTRIE-STANDARD-DER-ZUKUNFT======================###
