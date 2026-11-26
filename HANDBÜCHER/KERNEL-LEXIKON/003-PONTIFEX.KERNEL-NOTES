@@ -167,7 +167,48 @@ MUTTERWABEN-KATEGORIE ⠆⡠⢂⠊ STARTWABE
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE #
+MUTTERWABEN-KATEGORIE # BAUWABE 
+
+ PROGRAMM-KERN # NA
+
+ WABEN-ID # BA
+
+ BION-NR # NR
+
+ BION-ID # BIID
+
+ BSK-KN # BSKN
+
+ BSK-ID # BSID
+
+ BION # BION
+
+ BSK # BSK
+
+ # AXIOM | KEID + WAID + BSKN
+ AXIOM ¡ KEID ⧓ WAID ⫯ BSKN Ξ BSID
+
+ # AXIOM | BION-ID
+ AXIOM ¡ WAID ⧓ NR Ξ BIID
+
+TOCHTERWABEN-KATEGORIE #
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ###====================================|====================================###
 ###==============================PONTIFEX-ODER==============================###

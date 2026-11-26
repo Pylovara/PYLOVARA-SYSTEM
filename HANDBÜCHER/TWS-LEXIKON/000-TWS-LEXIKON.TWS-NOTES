@@ -28,7 +28,7 @@
  #  30 ⠆⢁⡂⠅ COMBOWABE                |  31 ⠆⢄⠡⡁ COMBOLINKWABE                #
  #  32      COMBOPLUSWABE            |  33 ⠆⢂⠉⡁ EINGABEWABE                  #
  #  34      AUSFÜHRUNGSWABE          |  35      AUSFÜHRUNGSLINKWABE          #
- #  36      AUSFÜHRUNGSDIREKTLINKWABE|  37      BINDUNGSWABE                 #
+ #  36      AUSFÜHRUNGSDIREKTLINKWABE|  37 ⠆⡠⡄⠰ FUNKTIONSWABE                #
  #  38      PROZESSRASTERWABE        |  39      EXTERNWABE                   #
  #  40      POSITIONSWABE            |  41 ⠆⢄⠉⡂ SUCHWABE                     #
 ###===========================KINDERWABEN-MODULE============================###
@@ -38,7 +38,7 @@
 ###============================SYSTEM-ADRESSEN==============================###
  # 100 ⠆⢂⠅⠡ TROPFEN                  | 101 ⠆⢂⠅⠰ PRÄFIX-LISTE                 #
 ###===============================VERSIONSDATEN=============================###
- # SYSTEM ⠆⢄⢐⡐ PNS 2.6.4 PYLOVARA—NETZWERK—SYSTEM            #   #  #    #   #
+ # SYSTEM ⠆⢄⢐⡐ PNS 2.6.4 PYLOVARA—NETZWERK—SYSTEM            #   #  #    # # #
  # PROGRAMMIERSPRACHE ⠆⢄⢐⠑ MCS 7.5 | MASCHINEN-CODE-SPEECH   #  #  ⠆⢄⢐⠘    # #
  # KERNELSPRACHE  ⠆⢄⢐⢈ TWS 0.3 | THE-WABE-NEST-SYSTEM        #  #        #   #
  # TASTATURSTANDARD ⠆⢄⢐⠒ UTF -8 | DEUTSCHER-STANDARD         #   #   #   #   #
