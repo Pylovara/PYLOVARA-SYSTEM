@@ -37,598 +37,79 @@
  🌲 Handpan & Violine im Redwood Sanctuary – 1 Stunde Musik für gefühlvolle Besinnung
  https://www.youtube.com/watch?v=eHek1pgbvcs&list=PLsSRJv298bqAdP52hQY7v6S5fuDFooFDo
 
- So .. neuer tag neues glück .... 
-
- dann dreht sich heute alles um eine frage : 
-
- wieviele grund basis operatoren benötigt pontifex, damit 
- ich boxis mit einander verbinden kann . 
-
- die frage ist elementar den das sorgt für die implementierung 
- von mehreren boxis innerhalb eines proteins ... 
-
- bis jetzt wurde mit einer boxi plus dem plus-impuls gearbeitet 
-
- also von den alten entwicklungen her 
-
- - argumente ( die jetzt im aktionsdraht per mcd boxi integriert wurden )
- - alleinige boxis (basis programmierungs variante )
-
- jetzt geht es um das was schon lange geplant plant war 
-
- —[{BXMK}|{BXMK}]
- —[{BXMK}|{BXMK}|{BXMK}]
+ —[{BXMK}|!|{BXMK}]
+ —[{BXMK}|!|{BXMK}|!|{BXMK}]
 
  |*| <-- weil ... zucht und ordnung und kein gekritzel ... 
 
  |&| UND 
  |?| ODER 
- |!| WENN VORHANDEN 
- |=| ISTGLEICH 
- |;| VERBINDE
-
+ |!| TRENN
+ |=| GLEICH 
+ |;| VERBIND
 
  Das wäre das minimum ... 
 
-{BXMK}|&|{BXMK}
-{BXMK}|?|{BXMK}
-{BXMK}|!|{BXMK}
-{BXMK}|=|{BXMK}
-{BXMK}|;|{BXMK}
+—[{BXMK}|&|{BXMK}]
+—[{BXMK}|?|{BXMK}]
+—[{BXMK}|!|{BXMK}]
+—[{BXMK}|=|{BXMK}]
+—[{BXMK}|;|{BXMK}]
 
- 
- gut okey , jetzt weiß ich wieder warum ich pontifex pt genannt habe und nicht po 
+ SO ... ich denke das kann man als grund pontis lassen .. 
 
- den o sieht aus wie eine null 0 O|0 optisch zu identisch ... 
+ ich hör dann für heute auf ... heute nacht dann nach kontrolle der pontifex seite 
+ inklusive die kompakte waben sektion plus plask 
 
- und ein durchgestrichenes O als null wäre sinnfrei weil Ø 
- also brauchs da nachbesserung ... 
+ wenn das dann erledigt ist hab ich alles für die proteine vorliegen und kann mich 
+ dann weiter um die PI kümmern ... dann schließt sich auch gleichermaßen die transaktionsrahmen seite 
 
+ und schon sieht das ganze schon besser aus und das lexikon hat ein paar fertige grund erneuerte seiten 
 
 
- gut okey egal ... dann werden die fonts später das regeln .. 
+ die konsolidierung selbst bezieh ich dann auf die gesamte nachkontrolle der richtigkeit 
+ also typo fehler .... 
 
- zahlen viereckig , von null bis neun ... also klasische digital zahlen 
- wie bei den wecker uhren von früher .... sinnvoll ... 
 
- aber ich belass es bei PO 
+ nach dem ich dann die proteine fertig habe usw 
 
- PI = Protein 
- PO = Pontifex
- PS = POSITIONSFIXIERUNG
- PA = PLASK ( PLATZHALTERKENNUNG )
+ kann ich die vorläufige positionsangabe weiter machen ... 
 
- ironischerweise hab ich jetzt 4 wörter die mit p anfangen .... 
- lach .... 
+ und dann gehts zur nächsten grund erneuerung über ... 
 
+ auf jedenfall sind in der version einige dinge grund verbessert worden 
 
- HMMM ... 
+ 1. wabenstrukturen 
+ 2. verbesserte zusammenlegung der komponenten für mcs selbst , von beta 7.5 zu final 7.5 
+ 3. verbesserte axiomatische vorprogrammierung . 
+ 4. endlich master anschluss inklusive erneuerung des master selbst 
+ 5. verbesserte kopfwaben verbindung  
+ 6. temporäre platzhalter für waben 
 
- ich denke ich sollte vorsichthalber um spätere 
- logik probleme zu beseitigen , eventuell die symbole neu 
- suchen und einen punkt in der axiomatischen programmierung 
- schreiben die nur für die funktionswabe genutzt werden .. 
+ und noch ein dutzend sachen die mein kopf gerade nicht zusammen fassen kann 
 
- nur um sicher zu gehen, wobei ich ehrlicherweise keinen grund sehe es zu tun 
- aber vorsicht ist die mutter der porzelan kiste ... 
+ aber das ist schonmal viel wert 
 
+ daraus wird resultieren 
 
- erkenntnis heißt wissen , wissen heißt macht , macht heißt auswirkung , 
- auswirkung ist erkennis , erkenntnis erzeugt gehör, gehör erzeugt mitsprache 
- und mitsprache erzeugt recht und recht erzeugt fortschritt ... 
+ verbessertes MCS-LEXIKON 
+ und TWS lexikon 
 
- und fortschritt ist moral , moral ist erfahrung , erfahrung ist erkenntnis . 
+ und schluss endlich verbesserte MCS-BIBLIOTHEKEN 
 
+ und dadurch : bessere MCS ZERTIFIKATE 
 
- und anstand ist nicht käuflich und nicht lehrbar ... es wird dir mitgebene 
- vom ursprung . 
 
- wenn den ursprung nicht respektiert, respektiert nicht seine existenz 
- und wer seine existenz nicht respektiert, hat sie nicht verdient . 
+ grundlegend wird das hallo welt gemacht 
+ und noch 4 weitere ... 
 
- satan hat viele gesichter ... man muss sie nur entlarven können ... 
+ erst danach geh ich zur 00-84 über ... 
 
- das ist das einzige geheimnis das dich zu anstand führt und anstand 
- ist nicht beizubringen . sondern man besitzt sie ... 
+ wenn alles steht , also die erste wieder vollständige version seid 00-78 oder so ? 
 
- vertraue deiner arbeit .... thomas ... vertraue ihr ... ! 
+ weil die entwicklung zu schnell nach vorne ging ... 
 
- lass die funktionwabe so stehen , sie ist richtig ... 
-
-
- SO ... ich nehme erstmal grund operationen ins boot .. 
-
- und oder trenn gleich bind 
-
- obwohl ich fast bei allen oder und zu | wenn vorhanden greifen würden wollen 
-
- aber erstmal so ... das wäre punktgenau 2 handgriffe um das zu ändern -- 
-
- jetzt erstmal der hund ... hab ihn raus geholt ... der pienst ... der will runter ... 
-
- danach der rest 
-
-
- das wennda ... also wenn vorhanden .. lass ich mal weg 
-
- das UND und das ODER denke ich kompensieren das besser .. 
-
- und der alte trennbfehl fehlte so oder so komplett ... 
-
- das ist erstmal schon in ordnung ... 
-
-
- ich kann das glatt ziehen wenn der kernel geschrieben ist und ich 
- die mcs-bibliothek auf den jetzigen stand upgrade kann .. 
-
- dann sehe ich direkt beim code selbst was sinn ergibt und wo 
- das mcd register ( die kommando line ) dann nachhelfen muss .. 
-
- da gehts im grunde nur um boxis verschiebungen wenn zwei getrennt transportiert 
- oder getrennt verarbeitet werden . das verarbeiten in einem protein selbst 
- legt ich in die hand von NECTAR der alte rex .. 
-
- und das dann punktgenau 
-
- zu RETRON = <  = sequenziell 
- und PATRON = > = paralell 
-
- mach am meisten sinn ... so sind die aufgaben verteilungen 
- logisch gut durchdacht und besser angeordnet als bei den anderen sprachen .. 
-
- dazu gleich mehr weil da will ich kurz etwas gesagt haben .... rational betrachtet 
-
- aber erst gassi . 
-
-
- was die angeblichen "computersprachen" angeht "highlevel" 
-
- hier der optische zusatz vergleich : 
-
-
-
-#include <stdio.h>
-#include <stdbool.h>
-
-typedef struct {
-    int menge;      // z.B. 1 = ganz
-    bool ganz;
-} Obst;
-
-bool spielFunktion(Obst apfel, Obst birnen) {
-    while (true) {
-        if (apfel.ganz && birnen.ganz && apfel.menge == birnen.menge) {
-            printf("Text ausgeloest: Beide sind ganz und gleich!\n");
-            return true;
-        }
-        // Nicht ganz -> return exit
-        printf("Exit: Nicht beide ganz.\n");
-        return false;
-    }
-}
-
-int main(void) {
-    Obst apfel   = { 1, true };
-    Obst birnen  = { 1, true };
-    spielFunktion(apfel, birnen);
-    return 0;
-}
-
-------------------------------------
-#[derive(Debug)]
-struct Obst {
-    menge: i32,
-    ganz: bool,
-}
-
-fn spiel_funktion(apfel: Obst, birnen: Obst) -> bool {
-    loop {
-        if apfel.ganz && birnen.ganz && apfel.menge == birnen.menge {
-            println!("Text ausgeloest: Beide sind ganz und gleich!");
-            return true;
-        }
-        println!("Exit: Nicht beide ganz.");
-        return false;
-    }
-}
-
-fn main() {
-    let apfel  = Obst { menge: 1, ganz: true };
-    let birnen = Obst { menge: 1, ganz: true };
-    spiel_funktion(apfel, birnen);
-}
--------------------------------------------
-const std = @import("std");
-
-const Obst = struct {
-    menge: i32,
-    ganz: bool,
-};
-
-fn spielFunktion(apfel: Obst, birnen: Obst) bool {
-    while (true) {
-        if (apfel.ganz and birnen.ganz and apfel.menge == birnen.menge) {
-            std.debug.print("Text ausgeloest: Beide sind ganz und gleich!\n", .{});
-            return true;
-        }
-        std.debug.print("Exit: Nicht beide ganz.\n", .{});
-        return false;
-    }
-}
-
-pub fn main() void {
-    const apfel  = Obst{ .menge = 1, .ganz = true };
-    const birnen = Obst{ .menge = 1, .ganz = true };
-    _ = spielFunktion(apfel, birnen);
-}
-----------------------------------------------
-data class Obst(val menge: Int, val ganz: Boolean)
-
-fun spielFunktion(apfel: Obst, birnen: Obst): Boolean {
-    while (true) {
-        if (apfel.ganz && birnen.ganz && apfel.menge == birnen.menge) {
-            println("Text ausgeloest: Beide sind ganz und gleich!")
-            return true
-        }
-        println("Exit: Nicht beide ganz.")
-        return false
-    }
-}
-
-fun main() {
-    val apfel  = Obst(1, true)
-    val birnen = Obst(1, true)
-    spielFunktion(apfel, birnen)
-}
---------------------------------------------
-public class Spiel {
-
-    static class Obst {
-        int menge;
-        boolean ganz;
-
-        Obst(int menge, boolean ganz) {
-            this.menge = menge;
-            this.ganz = ganz;
-        }
-    }
-
-    static boolean spielFunktion(Obst apfel, Obst birnen) {
-        while (true) {
-            if (apfel.ganz && birnen.ganz && apfel.menge == birnen.menge) {
-                System.out.println("Text ausgeloest: Beide sind ganz und gleich!");
-                return true;
-            }
-            System.out.println("Exit: Nicht beide ganz.");
-            return false;
-        }
-    }
-
-    public static void main(String[] args) {
-        Obst apfel  = new Obst(1, true);
-        Obst birnen = new Obst(1, true);
-        spielFunktion(apfel, birnen);
-    }
-}
----------------------------------------------
-
-
-schaut euch mit offenen augen , das gekritzel an .. 
-
-c/rust/zigs/kotlin/java ........ 
-
- schaut es euch genau an .... 
-
-
- wie sieht das für euch aus ? 
-
- nach einer programmiersprache ? 
- nach nachvollziehbarkeit ? 
- nach intelligenz ? 
-
-
- ich sag euch nach was das aussieht und bitte den spruch nicht auf kranke beziehen .. 
-
-
- das sieht aus als ob man einen controller für einen schwerbehniderten 
- gebaut hat , damit er playstation spielen kann ... 
-
-
- genau danach sieht es aus . 
-
-
- keinerlei echte komponetenz , nicht mal einen hauch davon ... 
- das sind alles sprachen , die erstens 
-
- - von einander abgesschrieben haben 
- - alle samt den c block verwenden 
- - im besten falle präfix änderungen durch geführt haben 
- - eventuell anordnungs varianten hinzugefügt ... 
-
- alles und zwar alles davon ist für behinderte gebaut worden ... 
-
- ich respektiere geistliche behinderungen , ich mache keinen menschen 
- für das was er ist verantwortlich ! 
-
- aber das ist das was sie gebaut haben : gekritzel 
-
- pures , ausnahmsloses , gekritzel ... 
-
-
- und das ist das was ich verurteile ! 
-
- nur damit ihr versteht worauf ich hinaus will ... 
-
-
- seit jahrhunderten versuchen sie die leute stück für stück zu entmündigen .. 
- sie verstecken verständnis und rauben uns alle fähigkeiten ... 
-
- nicht nur geistlich sondern auch existenz bedingt ... 
-
- jetzt kommt die krönung und zwar ki ... 
-
- alles von der ki ist unser geistliges eigetum , von uns allen ... wohl bemerkt . 
-
-
- sie feiern sich und versuchen jetzt nochmehr das gehirn zu reduzieren ... 
-
- in dem das aufgebaute behinderte chaos das historisch mit burggraben logiken 
- gefüttert worden ist , auch noch den leuten zu entreisen ... 
-
- nicht wortwörtlich ... sondern auf zeit ! 
-
- bequemlichkeit durch ki hilfe bringt geistige reduktion im gehirn und denken mit sich .. 
-
-
- schluss folgernd werden durch diese ganzen verkirtzelten unlogischen 
- aber mit sinn unterfütterten sprachen dazu führen , das später kein schwanz 
- auf diesem planeten , überhaupt noch bock hat , den sondermüll anzufassen .. 
-
- faulheit siegt über kampfgeist ... ihr wisst es und ich auch ! 
-
-
- wenn wir das so stehen lassen , bekommen sie genau das was sie wollen : 
-
- dumme vollidioten die nur noch konsumieren und quasi der ki die aufgaben übergeben . 
-
- das ist das was unweigerlich passieren wird ... und jetzt schon anfangt 
-
-
- wenn wir also diese ( ich will es eigentlich schon garnicht aussprechen weil unfug ist )
-
- "programmiersprachen" <-- ( ich muss mich überwinden ) 
-
- so stehen lassen , die keinerlei respekt verdient haben , weil sie grundlogisch falsch sind . 
-
- dann sind wir die jennigen die unsere kinder und uns selbst - verdummen . 
-
- und da hilft es wirklich nichts das irgendwer den sondermüll durch erklären kann .. 
-
- ich garantiere euch , das können sie nicht ! 
-
- sie bräuchten dafür wochen und monate ! 
-
-
-
- und jetzt kommt der punkt der die wirklichkeit wiederspiegelt : 
-
- ein senjor entwickler , hat sich den bullshit sein leben lang angetan ... 
- und nuuuuuuur deswegen kann er überhaupt irgendwas davon erklären ... 
-
-
- für eine behinderten schrift , die ihres gleichen sucht . 
-
-
- und das ist das was ich mit kindergekritzel vergleiche und mandals von affen ... 
-
- es funktioniert , ja .... man kann es ( über extrem viele umwege ) erklären , ja .. 
-
- aber das was da gebaut wurde ist nichts anderes als ( ausgesprochen ) : 
-
- „ fickt euch , wir wollen nicht auf den bau und wir müssen euch vom programmieren 
- fern halten , damit wir geld verdienen im sitzen und ihr auf dem bau stehen müsst 
- und ackern  “
-
- das ist die logik dahinter .... und sie wird an der intelligenz gemessen ... 
- und nicht nur das , sondern auf eueren kampfgeist ausgeweitet - spekulative implementierungsmethode !
-
- das ist das was sie tun ... 
-
- nicht nur das dass gezeigte , wort wörtlich ein angepasster controller ist für geistige behinderung .. 
-
- sondern sie haben es schulisch sogar den studenten eingepflanzt ... 
-
- und wem soll man den schon glauben was richtig und was falsch ist , wenn nicht 
- einem "gelehrten" ... nicht wahr ?! 
-
-
-
- DAS WAS ICH HIER IN 6 JAHRE ARBEIT HERAUS GEARBEITET HABE : 
-
- ist die obsoletion für genau diese taktik ... 
-
- eine schaltungsprogrammiersprache ist kein controller für behinderte .. 
-
- es ist die einzige echte programmierungs methode überhaupt . 
-
- und ihr könnt alle darauf wetten das john von neumann und 
- jeder echte hochgelehrte : 
-
-
- das unterschreiben würde/wird ! 
-
-
-
- die probleme der heutigen zeit , kommen nicht zustande weil sie da sein müssten . 
-
-
- sie kommen zustande weil wir die aufgabe denen anvertraut haben , 
- die damit nicht umgehen konnten ... 
-
- und ihr könnt alles darauf verwetten : sie würden gnadenlos wiedersprechen ! 
-
- nicht weils richtig ist , sondern ihre existenz berührt 
-
-
- ich .... kommt von ghetto ... 9 jahre und 11 monate knast ... 
-
- nicht weil ich ehrenlos bin , sondern weil mir das system 
- schon von kindesalter suspekt wahr ! 
-
- mit programmierung hat ich nichts am hut , weil BULLSHIT ... 
-
- ich stehe also auf der selben ebene wie ihr alle ... 
-
- lernen ! ... und zwar richtig ! nicht so wie die das "vorschlagen" 
-
- sondern nachvollziehbar ! 
-
-
- und ich stehe heute da und habe 2 sprachen erfunden ! 
-
- 1 die gnadenlos den assembly ersetzen wird ( und ich glasube daran extrem fest )
-
- und 
-
- eine , die man kinder beibringen kann , weil sie extrem logisch ist und 
- kein controller für behinderte darstellt . 
-
-
- ja ... das ding ist nicht fertig ... 
-
- und ja ... sie kann noch fehler haben ... 
-
-
- aber nein ... es ist deswegen kein pseudocode oder fantasie ... 
-
-
- es ist der einzige echte und wirkliche weg , raus aus dem dillemma 
-
-
- und zwar nicht nur für uns die das andere zeug nie anfassen würden ... 
-
-
- sondern weil alles so läuft wie es läuft : für die gesamte welt ! 
-
-
-
- und jetzt stellt euch mal vor , was hier in diesem repo passiert ... 
-
- ein "ungelehrter" "ghetto rapper" ohne "nachweise " will födergelder .. 
-
- versteht ihr ? ... vergesst es ... "titel" ... das ist das was sie konsumieren .. 
-
-
- titel und "nachweise " 
-
-
- aber : nachweise für was ? 
-
-
- für den schwachsinn den sie erzeugt haben ? 
-
-
- sie begründen es historisch ... ging nicht anders ... war halt so ... 
- hat sich dadurch entwickelt .... wird ja auch annerkannt gelehrt ... 
-
-
- das sind die sätze die man hört ... 
-
-
- ausrede !!! am laufendem band !!!! 
-
-
- ich möchte ( ihr müsst auf mich einen scheiß dreck hören ) 
-
- aber ich möchte das ihr euch mal hinsetzt auf einen kaffe ... 
- und wirklich mit offenen augen das betrachtet was existiert .. 
-
-
- öffnet irgend eine datei ... egal was ... 
-
- von einem game ... von einem editor ... 
- von mir aus sogar in GOTO ... 
-
- was auch immer ... 
-
- und schaut euch an was das ist ... nicht versuchen es zu verstehen .. 
- wenn ihr versteht , den kopf aus machen ... 
-
-
- schaut es euch mit offenen augen an 
-
-
- wollen wir danach immer noch darüber diskutieren ob 
-
- Hex menschen lesbar ist ? 
- wollen wir wirklich darüber sprechen ob 8 patter nicht das selbe können ? 
-
- kann irgendwer aus dem kopf, wohlbemerkt , überhaubt ein hex zuordnen ? 
-
- also explizit ? 
-
- nicht als maschinencode ( was mathjematisch einfacher ist ) 
-
- sondern wohin er führt ? 
-
- .... 
-
-
- ich wollt das einfach mal kurz gesagt haben ... 
-
- den diese arbeit ist mehr wert als das was sie taten und sie wird von einem 
- erledigt der sich selbst rein denken muss und overhead verseuchte logiken 
- heraus arbeiten muss ... 
-
- inklusive die sprache in der logikselbst designed .. 
-
- und alles davon ist real ! nichts davon ist gelogen ! alles davon ist selbst mit 
- fehler angegeben und sie wird version zu version besser und besser ! 
-
-
-
-
- ich garantiere euch leute , jeder der still mit liest und sich seinen teil denkt . 
-
-
- ja ... ich bin schwierig ... ist die wut ... kann ich nicht ändern zur zeit ... 
- muss man mit leben ... 
-
-
- aber ich garantiere das die 00-83 inklusive aller anderen lexikons , in dieser version 
-
- der größte wurf wird , den ich je verfasst habe ... 
-
-
- das sind alles keine kleinen updates ... das ist eine blanko verbesserung . 
-
-
- und ich will das ihr das weiter beobachtet ... den ich garantiere euch mit brief 
- und siegel : 
-
- ich werde von niemanden refinanziert damit das hier besser entstehen kann !
-
- sie behaaren auf ihre "titel" und denuzieren jeden der es ernst meint ... 
-
- bei dem gesocks der das entscheidet , sitzen hauptsächlich nur ARSCHLÖCHER 
- die keine ahnung haben was sie verlangen ... 
-
- und trotzdem wird es entstehen ! 
-
- selbst wenn ich es aus einem campingzelt heraus tun muss ! 
-
-
- und ihr könnt euch sicher sein : 
-
- wenn das ding läuft , dann braucht ihr niewieder betteln ! 
-
- hier wird arbeit belohnt ! 
-
- und sobald ich den kgw danach implementiert habe , wenn das ding steht ! 
-
- werden wir diese arschlöcher , reihenweise bestrafen mit absoluten dessinteresse ! 
-
-
+ perfekt .... feierabend erstmal .... 
 
 
 

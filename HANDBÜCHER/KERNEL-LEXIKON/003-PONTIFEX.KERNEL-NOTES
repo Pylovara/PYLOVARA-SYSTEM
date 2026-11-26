@@ -928,57 +928,57 @@ TOCHTERWABEN-KATEGORIE ⠆⡠⠨⠔ FUNKTIONSWABE
  EINHEIT ⠆⡠⠨⠘ |;| POST-BINDS
 
  # EINSATZ-ELEMENT | VARIABLE BENENNUNG
- !!!! # AX
+ VERBINDE ⠆⡠⠨⠡ ⧓
 
  # AXIOMPROGRAMMIERUNG | TWS-LEXIKON 03 BINDUNG
- AXIOM ¡ RA Ξ AX Ξ ZW
+ AXIOM ¡ ⠆⡠⠨⠘ Ξ ⠆⡠⠨⠡ Ξ ⠆⡠⠤⠨
 
  # PRÄFIX 
- PRÄFIX PR
+ PRÄFIX ⠆⡠⠤⠰ BINDSE
 
  # AXIOM | BSK | KEID + WAID + PR
- AXIOM ¡ ⠆⢄⠑⢐ ⧓ WAID ⫯ PR Ξ BSFX
+ AXIOM ¡ ⠆⢄⠑⢐ ⧓ ⠆⡠⠨⠃ ⫯ ⠆⡠⠤⠰ Ξ ⠆⡠⠤⡁
 
  # BSK-PRÄFIX | KENNUNGSERWEITERUNG FÜR EINHEITEN
- BSK-PF BSFX
+ BSK-PF ⠆⡠⠤⡁ POFK-BINDSE
 
  # AXIOM | PRÄFIX TAGG ERNEUERN UND RAM  
- AXIOM ¡ ZW ⥓ BSFX ⍠ RA
+ AXIOM ¡ ⠆⡠⠤⠨ ⥓ ⠆⡠⠤⡁ ⍠ ⠆⡠⠤⡂
 
  # EINHEIT | RAM
- EINHEIT RA
+ EINHEIT ⠆⡠⠤⡂ |;| POFK-BINDSE
 
  # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
  AXIOM ¡ ⠆⡠⠨⠉ ⦳ BIID
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE # ENDWABE 
+MUTTERWABEN-KATEGORIE ⠆⡠⠤⡄ ENDWABE 
 
- PROGRAMM-KERN # NA
+ PROGRAMM-KERN ⠆⡠⠤⡈ BIND
 
- WABEN-ID # ED
+ WABEN-ID ⠆⡠⠤⡐ ED
 
- BION-NR # NR
+ BION-NR ⠆⡠⠤⢁ 024
 
- BION-ID # BIID
+ BION-ID ⠆⡠⠤⢂ ED024
 
- BSK-KN # BSKN
+ BSK-KN ⠆⡠⠤⢄ BIND
 
- BSK-ID # BSID
+ BSK-ID ⠆⡠⠤⢈ POED-BIND
 
- BION # BION
+ BION ⠆⡠⠤⢐ PO003MK003HT027ST027FK005ED024
 
- BSK # BSK
+ BSK ⠆⡠⠢⣀ POMK+POHT-BIND+POST-BIND+POFK-BIND+POED-BIND
 
  # AXIOM | KEID + WAID + BSKN
- AXIOM ¡ ⠆⢄⠑⢐ ⧓ WAID ⫯ BSKN Ξ BSID
+ AXIOM ¡ ⠆⢄⠑⢐ ⧓ ⠆⡠⠤⡐ ⫯ ⠆⡠⠤⢄ Ξ ⠆⡠⠤⢈
 
  # AXIOM | BION-ID
- AXIOM ¡ WAID ⧓ NR Ξ BIID
+ AXIOM ¡ ⠆⡠⠤⡐ ⧓ ⠆⡠⠤⢁ Ξ ⠆⡠⠤⢂
 
  # AXIOM | HAUPTWABEN DURCHLAUF BEENDEN
- AXIOM ¡ BIID ⦱
+ AXIOM ¡ ⠆⡠⠤⢂ ⦱
 
 ###====================================|====================================###
 ###===========================KOMPAKTE-WABEN-PFADE==========================###
