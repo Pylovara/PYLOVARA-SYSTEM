@@ -225,7 +225,32 @@ TOCHTERWABEN-KATEGORIE # FUNKTIONSWABE
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE # 
+MUTTERWABEN-KATEGORIE # ENDWABE 
+
+ PROGRAMM-KERN # NA
+
+ WABEN-ID # ED
+
+ BION-NR # NR
+
+ BION-ID # BIID
+
+ BSK-KN # BSKN
+
+ BSK-ID # BSID
+
+ BION # BION
+
+ BSK # BSK
+
+ # AXIOM | KEID + WAID + BSKN
+ AXIOM ¡ KEID ⧓ WAID ⫯ BSKN Ξ BSID
+
+ # AXIOM | BION-ID
+ AXIOM ¡ WAID ⧓ NR Ξ BIID
+
+ # AXIOM | HAUPTWABEN DURCHLAUF BEENDEN
+ AXIOM ¡ BIID ⦱
 
 ###====================================|====================================###
 ###==============================PONTIFEX-ODER==============================###
@@ -382,7 +407,32 @@ TOCHTERWABEN-KATEGORIE # FUNKTIONSWABE
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE # 
+MUTTERWABEN-KATEGORIE # ENDWABE 
+
+ PROGRAMM-KERN # NA
+
+ WABEN-ID # ED
+
+ BION-NR # NR
+
+ BION-ID # BIID
+
+ BSK-KN # BSKN
+
+ BSK-ID # BSID
+
+ BION # BION
+
+ BSK # BSK
+
+ # AXIOM | KEID + WAID + BSKN
+ AXIOM ¡ KEID ⧓ WAID ⫯ BSKN Ξ BSID
+
+ # AXIOM | BION-ID
+ AXIOM ¡ WAID ⧓ NR Ξ BIID
+
+ # AXIOM | HAUPTWABEN DURCHLAUF BEENDEN
+ AXIOM ¡ BIID ⦱
 
 ###====================================|====================================###
 ###=============================PONTIFEX-WENNDA=============================###
@@ -539,7 +589,32 @@ TOCHTERWABEN-KATEGORIE # FUNKTIONSWABE
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE # 
+MUTTERWABEN-KATEGORIE # ENDWABE 
+
+ PROGRAMM-KERN # NA
+
+ WABEN-ID # ED
+
+ BION-NR # NR
+
+ BION-ID # BIID
+
+ BSK-KN # BSKN
+
+ BSK-ID # BSID
+
+ BION # BION
+
+ BSK # BSK
+
+ # AXIOM | KEID + WAID + BSKN
+ AXIOM ¡ KEID ⧓ WAID ⫯ BSKN Ξ BSID
+
+ # AXIOM | BION-ID
+ AXIOM ¡ WAID ⧓ NR Ξ BIID
+
+ # AXIOM | HAUPTWABEN DURCHLAUF BEENDEN
+ AXIOM ¡ BIID ⦱
 
 ###====================================|====================================###
 ###=============================PONTIFEX-GLEICH=============================###
@@ -696,7 +771,32 @@ TOCHTERWABEN-KATEGORIE # FUNKTIONSWABE
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE # 
+MUTTERWABEN-KATEGORIE # ENDWABE 
+
+ PROGRAMM-KERN # NA
+
+ WABEN-ID # ED
+
+ BION-NR # NR
+
+ BION-ID # BIID
+
+ BSK-KN # BSKN
+
+ BSK-ID # BSID
+
+ BION # BION
+
+ BSK # BSK
+
+ # AXIOM | KEID + WAID + BSKN
+ AXIOM ¡ KEID ⧓ WAID ⫯ BSKN Ξ BSID
+
+ # AXIOM | BION-ID
+ AXIOM ¡ WAID ⧓ NR Ξ BIID
+
+ # AXIOM | HAUPTWABEN DURCHLAUF BEENDEN
+ AXIOM ¡ BIID ⦱
 
 ###====================================|====================================###
 ###==============================PONTIFEX-BIND==============================###
@@ -853,7 +953,32 @@ TOCHTERWABEN-KATEGORIE # FUNKTIONSWABE
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE # 
+MUTTERWABEN-KATEGORIE # ENDWABE 
+
+ PROGRAMM-KERN # NA
+
+ WABEN-ID # ED
+
+ BION-NR # NR
+
+ BION-ID # BIID
+
+ BSK-KN # BSKN
+
+ BSK-ID # BSID
+
+ BION # BION
+
+ BSK # BSK
+
+ # AXIOM | KEID + WAID + BSKN
+ AXIOM ¡ KEID ⧓ WAID ⫯ BSKN Ξ BSID
+
+ # AXIOM | BION-ID
+ AXIOM ¡ WAID ⧓ NR Ξ BIID
+
+ # AXIOM | HAUPTWABEN DURCHLAUF BEENDEN
+ AXIOM ¡ BIID ⦱
 
 ###====================================|====================================###
 ###===========================KOMPAKTE-WABEN-PFADE==========================###
