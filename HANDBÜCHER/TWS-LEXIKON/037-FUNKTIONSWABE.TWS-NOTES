@@ -70,4 +70,19 @@ TOCHTERMODUL # FUNKTIONSWABE
 
 
 ###===================ENTWICKLER-PROGRAMMIERUNGSBEREICH=====================###
+
+ wäre ziemlich einfach in assembly umsetzbar pro punkt ... beispiel : 
+
+ ; |&| UND
+CMP [LEFT], PRESENT
+CMP [RIGHT], PRESENT
+JE BOTH_PRESENT
+JMP SKIP
+
+; |;| BIND
+MOV [RESULT], [LEFT]
+APPEND [RESULT], [RIGHT]
+
+noch ohne boxis aber als gedanken anker . 
+
 ###=====================INDUSTRIE-STANDARD-DER-ZUKUNFT======================###
