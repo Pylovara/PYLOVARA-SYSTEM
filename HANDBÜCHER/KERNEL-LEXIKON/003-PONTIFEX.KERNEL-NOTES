@@ -700,7 +700,7 @@ MUTTERWABEN-KATEGORIE ⠆⡠⢁⠔ STARTWABE
  AXIOM ¡ ⠆⢄⠑⢐ ⧓ ⠆⡠⢁⣀ ⫯ ⠆⡠⡄⣀ Ξ ⠆⡠⡈⠃
 
  # BSK-PRÄFIX | KENNUNGSERWEITERUNG FÜR EINHEITEN
- BSK-PF ⠆⡠⡈⠃ POFK-GLEICHS
+ BSK-PF ⠆⡠⡈⠃ POST-GLEICHS
 
  # AXIOM | PRÄFIX TAGGEN UND RAM  
  AXIOM ¡ ⠆⡠⡄⢠ ⥗ ⠆⡠⡈⠃ ⍠ ⠆⡠⡈⠅
@@ -709,94 +709,94 @@ MUTTERWABEN-KATEGORIE ⠆⡠⢁⠔ STARTWABE
  EINHEIT ⠆⡠⡈⠅ |=| POST-GLEICHS
 
  # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
- AXIOM ¡ ⠆⡠⢁⠤ ⦳ BIID
+ AXIOM ¡ ⠆⡠⢁⠤ ⦳ ⠆⡠⠰⠃
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE # BAUWABE 
+MUTTERWABEN-KATEGORIE ⠆⡠⠰⢄ BAUWABE 
 
- PROGRAMM-KERN # NA
+ PROGRAMM-KERN ⠆⡠⠨⢐ GLEICH
 
- WABEN-ID # FK
+ WABEN-ID ⠆⡠⠨⢠ FK
 
- BION-NR # 004
+ BION-NR ⠆⡠⠨⣀ 004
 
- BION-ID # BIID
+ BION-ID ⠆⡠⠰⠃ FK004
 
- BSK-KN # BSKN
+ BSK-KN ⠆⡠⠰⠅ GLEICH
 
- BSK-ID # BSID
+ BSK-ID ⠆⡠⠰⠉ POFK-GLEICH
 
- BION # BION
+ BION ⠆⡠⠰⠊ PO003MK003HT026ST026FK004
 
- BSK # BSK
+ BSK ⠆⡠⠰⠌ POMK+POHT-GLEICH+POST-GLEICH+POFK-GLEICH
 
  # AXIOM | KEID + WAID + BSKN
- AXIOM ¡ ⠆⢄⠑⢐ ⧓ WAID ⫯ BSKN Ξ BSID
+ AXIOM ¡ ⠆⢄⠑⢐ ⧓ ⠆⡠⠨⢠ ⫯ ⠆⡠⠰⠅ Ξ ⠆⡠⠰⠉
 
  # AXIOM | BION-ID
- AXIOM ¡ WAID ⧓ NR Ξ BIID
+ AXIOM ¡ ⠆⡠⠨⢠ ⧓ ⠆⡠⠨⣀ Ξ ⠆⡠⠰⠃
 
-TOCHTERWABEN-KATEGORIE # FUNKTIONSWABE
+TOCHTERWABEN-KATEGORIE ⠆⡠⠨⢈ FUNKTIONSWABE
 
  # AXIOM | HOLE RAM EINHEIT 
- AXIOM ¡ RA ⍠ RA
+ AXIOM ¡ ⠆⡠⡈⠅ ⍠ ⠆⡠⠰⠑
 
  # EINHEIT | RAM 
- EINHEIT # RA
+ EINHEIT ⠆⡠⠰⠑ |=| POST-GLEICHS
 
  # EINSATZ-ELEMENT | VARIABLE BENENNUNG
- !!!! # AX
+ ISTGLEICH ⠆⡠⠰⠒ Ξ
 
  # AXIOMPROGRAMMIERUNG | TWS-LEXIKON 03 BINDUNG
- AXIOM ¡ RA Ξ AX Ξ ZW
+ AXIOM ¡ ⠆⡠⠰⠑ Ξ ⠆⡠⠰⠒ Ξ ⠆⡠⠰⠔
 
  # PRÄFIX 
- PRÄFIX PR
+ PRÄFIX ⠆⡠⠨⠢ GLEICHSE
 
  # AXIOM | BSK | KEID + WAID + PR
- AXIOM ¡ ⠆⢄⠑⢐ ⧓ WAID ⫯ PR Ξ BSFX
+ AXIOM ¡ ⠆⢄⠑⢐ ⧓ ⠆⡠⠨⢠ ⫯ ⠆⡠⠨⠢ Ξ ⠆⡠⠰⠘
 
  # BSK-PRÄFIX | KENNUNGSERWEITERUNG FÜR EINHEITEN
- BSK-PF BSFX
+ BSK-PF ⠆⡠⠰⠘ POFK-GLEICHSE
 
  # AXIOM | PRÄFIX TAGG ERNEUERN UND RAM  
- AXIOM ¡ ZW ⥓ BSFX ⍠ RA
+ AXIOM ¡ ⠆⡠⠰⠔ ⥓ ⠆⡠⠰⠘ ⍠ ⠆⡠⠨⠤
 
  # EINHEIT | RAM
- EINHEIT RA
+ EINHEIT ⠆⡠⠨⠤ |=| POFK-GLEICHSE
 
  # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
- AXIOM ¡ BIID ⦳ BIID
+ AXIOM ¡ ⠆⡠⠰⠃ ⦳ ⠆⡠⠨⡈
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE # ENDWABE 
+MUTTERWABEN-KATEGORIE ⠆⡠⠨⠰ ENDWABE 
 
- PROGRAMM-KERN # NA
+ PROGRAMM-KERN ⠆⡠⠨⡁ GLEICH
 
- WABEN-ID # ED
+ WABEN-ID ⠆⡠⠨⡂ ED
 
- BION-NR # NR
+ BION-NR ⠆⡠⠨⡄ 023
 
- BION-ID # BIID
+ BION-ID ⠆⡠⠨⡈ ED023
 
- BSK-KN # BSKN
+ BSK-KN ⠆⡠⠨⡐ GLEICH
 
- BSK-ID # BSID
+ BSK-ID ⠆⡠⠨⢁ POED-GLEICH
 
- BION # BION
+ BION ⠆⡠⠨⢂ PO003MK003HT026ST026FK004ED023
 
- BSK # BSK
+ BSK ⠆⡠⠨⢄ POMK+POHT-GLEICH+POST-GLEICH+POFK-GLEICH+POED-GLEICH
 
  # AXIOM | KEID + WAID + BSKN
- AXIOM ¡ ⠆⢄⠑⢐ ⧓ WAID ⫯ BSKN Ξ BSID
+ AXIOM ¡ ⠆⢄⠑⢐ ⧓ ⠆⡠⠨⡂ ⫯ ⠆⡠⠨⡐ Ξ ⠆⡠⠨⢁
 
  # AXIOM | BION-ID
- AXIOM ¡ WAID ⧓ NR Ξ BIID
+ AXIOM ¡ ⠆⡠⠨⡂ ⧓ ⠆⡠⠨⡄ Ξ ⠆⡠⠨⡈
 
  # AXIOM | HAUPTWABEN DURCHLAUF BEENDEN
- AXIOM ¡ BIID ⦱
+ AXIOM ¡ ⠆⡠⠨⡈ ⦱
 
 ###====================================|====================================###
 ###==============================PONTIFEX-BIND==============================###
@@ -882,50 +882,50 @@ MUTTERWABEN-KATEGORIE ⠆⡠⡐⡈ STARTWABE
  AXIOM ¡ ⠆⢄⠑⢐ ⧓ ⠆⡠⢁⣀ ⫯ ⠆⡠⡄⠢ Ξ ⠆⡠⡄⠤
 
  # BSK-PRÄFIX | KENNUNGSERWEITERUNG FÜR EINHEITEN
- BSK-PF ⠆⡠⡄⠤
+ BSK-PF ⠆⡠⡄⠤ POST-BINDS
 
  # AXIOM | PRÄFIX TAGGEN UND RAM  
  AXIOM ¡ ⠆⡠⡄⠡ ⥗ ⠆⡠⡄⠤ ⍠ ⠆⡠⡄⠨
 
  # EINHEIT | RAM
- EINHEIT ⠆⡠⡄⠨ |;| POST-BIND
+ EINHEIT ⠆⡠⡄⠨ |;| POST-BINDS
 
  # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
- AXIOM ¡ ⠆⡠⡐⢈ ⦳ BIID
+ AXIOM ¡ ⠆⡠⡐⢈ ⦳ ⠆⡠⠨⠉
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE # BAUWABE 
+MUTTERWABEN-KATEGORIE ⠆⡠⠤⢠ BAUWABE 
 
- PROGRAMM-KERN # NA
+ PROGRAMM-KERN ⠆⡠⠤⣀ BIND
 
- WABEN-ID # FK
+ WABEN-ID ⠆⡠⠨⠃ FK
 
- BION-NR # 005
+ BION-NR ⠆⡠⠨⠅ 005
 
- BION-ID # BIID
+ BION-ID ⠆⡠⠨⠉ FK005
 
- BSK-KN # BSKN
+ BSK-KN ⠆⡠⠨⠊ BIND
 
- BSK-ID # BSID
+ BSK-ID ⠆⡠⠨⠌ POFK-BIND
 
- BION # BION
+ BION ⠆⡠⠨⠑ PO003MK003HT027ST027FK005
 
- BSK # BSK
+ BSK ⠆⡠⠨⠒ POMK+POHT-BIND+POST-BIND+POFK-BIND
 
  # AXIOM | KEID + WAID + BSKN
- AXIOM ¡ ⠆⢄⠑⢐ ⧓ WAID ⫯ BSKN Ξ BSID
+ AXIOM ¡ ⠆⢄⠑⢐ ⧓ ⠆⡠⠨⠃ ⫯ ⠆⡠⠨⠊ Ξ ⠆⡠⠨⠌
 
  # AXIOM | BION-ID
- AXIOM ¡ WAID ⧓ NR Ξ BIID
+ AXIOM ¡ ⠆⡠⠨⠃ ⧓ ⠆⡠⠨⠅ Ξ ⠆⡠⠨⠉
 
-TOCHTERWABEN-KATEGORIE # FUNKTIONSWABE
+TOCHTERWABEN-KATEGORIE ⠆⡠⠨⠔ FUNKTIONSWABE
 
  # AXIOM | HOLE RAM EINHEIT 
- AXIOM ¡ RA ⍠ RA
+ AXIOM ¡ ⠆⡠⡄⠨ ⍠ ⠆⡠⠨⠘
 
  # EINHEIT | RAM 
- EINHEIT # RA
+ EINHEIT ⠆⡠⠨⠘ |;| POST-BINDS
 
  # EINSATZ-ELEMENT | VARIABLE BENENNUNG
  !!!! # AX
@@ -949,7 +949,7 @@ TOCHTERWABEN-KATEGORIE # FUNKTIONSWABE
  EINHEIT RA
 
  # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
- AXIOM ¡ BIID ⦳ BIID
+ AXIOM ¡ ⠆⡠⠨⠉ ⦳ BIID
 
 ###====================================|====================================###
 
