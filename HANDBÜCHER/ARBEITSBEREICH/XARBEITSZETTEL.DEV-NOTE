@@ -181,6 +181,157 @@
  aber erst gassi . 
 
 
+ was die angeblichen "computersprachen" angeht "highlevel" 
+
+ hier der optische zusatz vergleich : 
+
+
+
+#include <stdio.h>
+#include <stdbool.h>
+
+typedef struct {
+    int menge;      // z.B. 1 = ganz
+    bool ganz;
+} Obst;
+
+bool spielFunktion(Obst apfel, Obst birnen) {
+    while (true) {
+        if (apfel.ganz && birnen.ganz && apfel.menge == birnen.menge) {
+            printf("Text ausgeloest: Beide sind ganz und gleich!\n");
+            return true;
+        }
+        // Nicht ganz -> return exit
+        printf("Exit: Nicht beide ganz.\n");
+        return false;
+    }
+}
+
+int main(void) {
+    Obst apfel   = { 1, true };
+    Obst birnen  = { 1, true };
+    spielFunktion(apfel, birnen);
+    return 0;
+}
+
+------------------------------------
+#[derive(Debug)]
+struct Obst {
+    menge: i32,
+    ganz: bool,
+}
+
+fn spiel_funktion(apfel: Obst, birnen: Obst) -> bool {
+    loop {
+        if apfel.ganz && birnen.ganz && apfel.menge == birnen.menge {
+            println!("Text ausgeloest: Beide sind ganz und gleich!");
+            return true;
+        }
+        println!("Exit: Nicht beide ganz.");
+        return false;
+    }
+}
+
+fn main() {
+    let apfel  = Obst { menge: 1, ganz: true };
+    let birnen = Obst { menge: 1, ganz: true };
+    spiel_funktion(apfel, birnen);
+}
+-------------------------------------------
+const std = @import("std");
+
+const Obst = struct {
+    menge: i32,
+    ganz: bool,
+};
+
+fn spielFunktion(apfel: Obst, birnen: Obst) bool {
+    while (true) {
+        if (apfel.ganz and birnen.ganz and apfel.menge == birnen.menge) {
+            std.debug.print("Text ausgeloest: Beide sind ganz und gleich!\n", .{});
+            return true;
+        }
+        std.debug.print("Exit: Nicht beide ganz.\n", .{});
+        return false;
+    }
+}
+
+pub fn main() void {
+    const apfel  = Obst{ .menge = 1, .ganz = true };
+    const birnen = Obst{ .menge = 1, .ganz = true };
+    _ = spielFunktion(apfel, birnen);
+}
+----------------------------------------------
+data class Obst(val menge: Int, val ganz: Boolean)
+
+fun spielFunktion(apfel: Obst, birnen: Obst): Boolean {
+    while (true) {
+        if (apfel.ganz && birnen.ganz && apfel.menge == birnen.menge) {
+            println("Text ausgeloest: Beide sind ganz und gleich!")
+            return true
+        }
+        println("Exit: Nicht beide ganz.")
+        return false
+    }
+}
+
+fun main() {
+    val apfel  = Obst(1, true)
+    val birnen = Obst(1, true)
+    spielFunktion(apfel, birnen)
+}
+--------------------------------------------
+public class Spiel {
+
+    static class Obst {
+        int menge;
+        boolean ganz;
+
+        Obst(int menge, boolean ganz) {
+            this.menge = menge;
+            this.ganz = ganz;
+        }
+    }
+
+    static boolean spielFunktion(Obst apfel, Obst birnen) {
+        while (true) {
+            if (apfel.ganz && birnen.ganz && apfel.menge == birnen.menge) {
+                System.out.println("Text ausgeloest: Beide sind ganz und gleich!");
+                return true;
+            }
+            System.out.println("Exit: Nicht beide ganz.");
+            return false;
+        }
+    }
+
+    public static void main(String[] args) {
+        Obst apfel  = new Obst(1, true);
+        Obst birnen = new Obst(1, true);
+        spielFunktion(apfel, birnen);
+    }
+}
+---------------------------------------------
+
+
+schaut euch mit offenen augen , das gekritzel an .. 
+
+c/rust/zigs/kotlin/java ........ 
+
+ schaut es euch genau an .... 
+
+
+ wie sieht das für euch aus ? 
+
+ nach einer programmiersprache ? 
+ nach nachvollziehbarkeit ? 
+ nach intelligenz ? 
+
+
+ 
+
+
+
+
 
 
 
