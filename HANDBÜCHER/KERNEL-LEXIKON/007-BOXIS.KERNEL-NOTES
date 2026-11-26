@@ -4022,7 +4022,7 @@ TOCHTERWABEN-KATEGORIE ⠆⡠⣀⢈ COMBOWABE
  EINHEIT ⠆⡠⣀⢐ #: ^ :# BXCB-RAMSIE 
 
  # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
- AXIOM ¡ ⠆⢁⠃⡈ ⦳ ⠆⡠⣀⠡
+ AXIOM ¡ ⠆⢁⠃⡈ ⦳ ⠆⡠⠤⠉
 
 ###====================================|====================================###
 
@@ -4030,11 +4030,11 @@ MUTTERWABEN-KATEGORIE ⠆⢁⠃⠑ ENDWABE
 
  PROGRAMM-KERN ⠆⢁⠃⠒ RAM
 
- WABEN-ID ⠆⢁⠃⠔ ED
+ WABEN-ID ⠆⡠⠤⠃ ED
 
- BION-NR ⠆⢁⠃⠘ 016
+ BION-NR ⠆⡠⠤⠅ 016
 
- BION-ID ⠆⡠⣀⠡ ED016
+ BION-ID ⠆⡠⠤⠉ ED016
 
  BSK-KN ⠆⡠⣀⠢ RAM
 
@@ -4045,13 +4045,13 @@ MUTTERWABEN-KATEGORIE ⠆⢁⠃⠑ ENDWABE
  BSK ⠆⡠⣀⠰ BXMK+BXHT-RAM+BXST-RAM+BXEG-RAM+BXCB-RAM+BXED-RAM
 
  # AXIOM | KEID + WAID + BSKN
- AXIOM ¡ ⠆⢄⠃⡄ ⧓ ⠆⢁⠃⠔ ⫯ ⠆⡠⣀⠢ Ξ ⠆⡠⣀⠤
+ AXIOM ¡ ⠆⢄⠃⡄ ⧓ ⠆⡠⠤⠃ ⫯ ⠆⡠⣀⠢ Ξ ⠆⡠⣀⠤
 
  # AXIOM | BION-ID
- AXIOM ¡ ⠆⢁⠃⠔ ⧓ ⠆⢁⠃⠘ Ξ ⠆⡠⣀⠡
+ AXIOM ¡ ⠆⡠⠤⠃ ⧓ ⠆⡠⠤⠅ Ξ ⠆⡠⠤⠉
 
  # AXIOM | HAUPTWABEN DURCHLAUF BEENDEN
- AXIOM ¡ ⠆⡠⣀⠡ ⦱
+ AXIOM ¡ ⠆⡠⠤⠉ ⦱
 
 ###====================================|====================================###
 ###===============================BOXIS-KOORDI==============================###
@@ -4810,36 +4810,36 @@ TOCHTERWABEN-KATEGORIE ⠆⡠⢐⠔ COMBOWABE
  EINHEIT ⠆⡠⢈⡁ Æ: ^ :Æ BXCB-TWSSIE
 
  # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
- AXIOM ¡ ⠆⡠⢐⢈ ⦳ ⠆⡠⢈⡂
+ AXIOM ¡ ⠆⡠⢐⢈ ⦳ ⠆⡠⠤⠔
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE ⠆⡠⢈⡄ ENDWABE 
+MUTTERWABEN-KATEGORIE ⠆⡠⠤⠊ ENDWABE 
 
- PROGRAMM-KERN ⠆⡠⢈⡈ TWS
+ PROGRAMM-KERN ⠆⡠⠤⠌ TWS
 
- WABEN-ID ⠆⡠⢈⡐ ED
+ WABEN-ID ⠆⡠⠤⠑ ED
 
- BION-NR ⠆⡠⢈⢁ 019
+ BION-NR ⠆⡠⠤⠘ 019
 
- BION-ID ⠆⡠⢈⡂ ED019
+ BION-ID ⠆⡠⠤⠔ ED019
 
- BSK-KN ⠆⡠⢈⢠ TWS
+ BSK-KN ⠆⡠⠤⠡ TWS
 
- BSK-ID ⠆⡠⢈⢂ BXED-TWS
+ BSK-ID ⠆⡠⠤⠢ BXED-TWS
 
  BION ⠆⡠⢈⢐ BX007MK007HT022ST022EG018CB018ED019
 
  BSK ⠆⡠⢈⠃ BXMK+BXHT-TWS+BXST-TWS+BXEG-TWS+BXCB-TWS+BXED-TWS
 
  # AXIOM | KEID + WAID + BSKN
- AXIOM ¡ ⠆⢄⠃⡄ ⧓ ⠆⡠⢈⡐ ⫯ ⠆⡠⢈⢠ Ξ ⠆⡠⢈⢂
+ AXIOM ¡ ⠆⢄⠃⡄ ⧓ ⠆⡠⠤⠑ ⫯ ⠆⡠⠤⠡ Ξ ⠆⡠⠤⠢
 
  # AXIOM | BION-ID
- AXIOM ¡ ⠆⡠⢈⡐ ⧓ ⠆⡠⢈⢁ Ξ ⠆⡠⢈⡂
+ AXIOM ¡ ⠆⡠⠤⠑ ⧓ ⠆⡠⠤⠘ Ξ ⠆⡠⠤⠔
 
  # AXIOM | HAUPTWABEN DURCHLAUF BEENDEN
- AXIOM ¡ ⠆⡠⢈⡂ ⦱
+ AXIOM ¡ ⠆⡠⠤⠔ ⦱
 
 ###====================================|====================================###
 ###===========================KOMPAKTE-WABEN-PFADE==========================###
@@ -4929,7 +4929,7 @@ MUTTERWABEN-KATEGORIE ⠆⡠⢈⡄ ENDWABE
  PLASK-KOMPAKT = {BXMK:BXHT-SHELL:BXST-SHELL=BXST-SHELLS=BXST-SHELLE:BXEG-SHELL=BXEG-SHELLSI:BXCB-SHELL=BXCB-SHELLSIE:BXED-SHELL}
 
  PFAD-PROGRAMM = RAM
- PFAD-BION-ID  = ⠆⢂⣀⠤ ⠆⢂⠔⠃ ⠆⢂⠑⡐ ⠆⢁⡈⠊ ⠆⢁⠃⡈ ⠆⡠⣀⠡
+ PFAD-BION-ID  = ⠆⢂⣀⠤ ⠆⢂⠔⠃ ⠆⢂⠑⡐ ⠆⢁⡈⠊ ⠆⢁⠃⡈ ⠆⡠⠤⠉
  PFAD-BION     = BX007MK007HT019ST019EG015CB015ED016
  PFAD-BSK      = BXMK+BXHT-RAM+BXST-RAM+BXEG-RAM+BXCB-RAM+BXED-RAM
  PLASK-KOMPAKT = {BXMK:BXHT-RAM:BXST-RAM=BXST-RAMS=BXST-RAME:BXEG-RAM=BXEG-RAMSI:BXCB-RAM=BXCB-RAMSIE:BXED-RAM}
@@ -4947,7 +4947,7 @@ MUTTERWABEN-KATEGORIE ⠆⡠⢈⡄ ENDWABE
  PLASK-KOMPAKT = {BXMK:BXHT-EINGABE:BXST-EINGABE=BXST-EINGABES=BXST-EINGABEE:BXEG-EINGABE=BXEG-EINGABESI:BXCB-EINGABE=BXCB-EINGABESIE:BXED-EINGABE}
 
  PFAD-PROGRAMM = TWS
- PFAD-BION-ID  = ⠆⢂⣀⠤ ⠆⢂⠔⠤ ⠆⢂⠉⡐ ⠆⢁⡂⠘ ⠆⡠⢐⢈ ⠆⡠⢈⡂
+ PFAD-BION-ID  = ⠆⢂⣀⠤ ⠆⢂⠔⠤ ⠆⢂⠉⡐ ⠆⢁⡂⠘ ⠆⡠⢐⢈ ⠆⡠⠤⠔
  PFAD-BION     = BX007MK007HT022ST022EG018CB018ED019
  PFAD-BSK      = BXMK+BXHT-TWS+BXST-TWS+BXEG-TWS+BXCB-TWS+BXED-TWS
  PLASK-KOMPAKT = {BXMK:BXHT-TWS:BXST-TWS=BXST-TWSS=BXST-TWSE:BXEG-TWS=BXEG-TWSSI:BXCB-TWS=BXCB-TWSSIE:BXED-TWS}

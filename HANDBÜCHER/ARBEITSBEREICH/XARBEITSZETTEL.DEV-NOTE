@@ -173,7 +173,51 @@
 
 
 
+ pontifex fehlerfrei .... 
 
+ was mich stuzig macht ist 007 boxis ... 
+
+ warum auch immer gibt es einen fehler in den 8 patter ... 
+
+ sie werden fehlerhaft als fehler gemeldet aber sie sind 
+ optisch existent ... 
+
+ sie sind auch explizit ... 
+
+ ich hätte jetzt nur 2 fehler quellen 
+
+ - entwdere bein der generierung selbst und sie sind im daten blatt tws-id 
+   vorhanden ... was ich nicht gegenprüfen kann ... weil die firmen glauben das dass 
+   ihre systeme überlasten soll ... darauf hin wird der test gestopt ...dabei stimmt das nicht .. 
+
+   ( und klar , ich bin der einzige der das brauch ... alle andere werden es als 
+   überlasstungs hack genutzt haben ... das die deswegen eine bearbeitungsstop 
+   rein geknallt haben , ist nachvollziehbar )
+
+ - bei copieren selbst ... also ein bit fehler ....wahrscheins auf meiner maschine 
+
+ ich sollte prüfen ob ich ecc habe und ob wenn ja ob das danach oder vor der prüfung 
+ signiert ... nicht das fehler signiert werden ... was dann als true gewertet wird .. 
+
+ und mehrere möglichkeiten gibt es nicht ... sie sind optisch richtig ... 
+
+
+ ich hab jetzt nur eine möglichkeit das zu begradigen was die maschine anscheinen fehlerhaft 
+ umgesetzt hat und ich den fehler erstmal so mit nur extrem viel aufwand beseitigen könnte .. 
+
+ und zwar die system-id adresse selbst auszutauschen ... 
+
+ den das ist wie die stecknadel im heuhaufen ... und dagegen biste machtlos ... 
+
+ wenn zeichen ketten fehlerhaft übernommen werden dann kannst du nur eines tun 
+ um es zu begradigen : neu zeichen = neu schreiben = und oder neu Copieren und altes 
+ löschen 
+
+
+ mehr ist technisch nicht möglich und das betrifft nicht nur mich sondern alle auf dem planeten ... 
+
+
+ den mit den augen ... ist das blatt fehlerfrei ... 
 
 
 
