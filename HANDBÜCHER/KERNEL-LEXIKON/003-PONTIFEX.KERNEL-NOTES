@@ -417,37 +417,39 @@ MUTTERWABEN-KATEGORIE ⠆⡠⢁⠔ STARTWABE
  AXIOM ¡ ⠆⡠⢁⠡ ⧓ ⠆⡠⢁⠢ Ξ ⠆⡠⢁⠤
 
  # TASTEN
- TASTENCODE # TT
- TASTENCODE # TT
- TASTENCODE # TT
- TASTENCODE # TT
+ TASTENCODE ⠆⡠⡈⡄ ALTGR
+ TASTENCODE ⠆⡠⡄⢁ SHIFT
+ TASTENCODE ⠆⡠⡄⢂ <
+ TASTENCODE ⠆⡠⡄⢄ 0
 
  # AXIOM | SYMBOL BAUEN
- AXIOM ¡ TT ⦻ TT ⦻ TT Ξ SY
+ AXIOM ¡ ⠆⡠⡈⡄ ⦻ ⠆⡠⡄⢂ Ξ ⠆⡠⡄⢈
+ AXIOM ¡ ⠆⡠⡄⢁ ⦻ ⠆⡠⡄⢄ Ξ ⠆⡠⡄⢐
 
  # SYMBOLE FERTIG
- SYMBOLE SY
+ SYMBOLE ⠆⡠⡄⢈ |
+ SYMBOLE ⠆⡠⡄⢐ =
 
  # AXIOM | PRODUKT BAUEN
- AXIOM ¡ SY ⧓ SY Ξ PD
+ AXIOM ¡ ⠆⡠⡄⢈ ⧓ ⠆⡠⡄⢐ ⧓ ⠆⡠⡄⢈ Ξ ⠆⡠⡄⢠
 
  # PRODUKT
- PRODUKT PD
+ PRODUKT ⠆⡠⡄⢠ |=|
 
  # PRÄFIX 
- PRÄFIX PR
+ PRÄFIX ⠆⡠⡄⣀ GLEICH
 
  # AXIOM | BSK | KEID + WAID + PR
- AXIOM ¡ ⠆⢄⠑⢐ ⧓ ⠆⡠⢁⣀ ⫯ PR Ξ BSFX
+ AXIOM ¡ ⠆⢄⠑⢐ ⧓ ⠆⡠⢁⣀ ⫯ ⠆⡠⡄⣀ Ξ ⠆⡠⡈⠃
 
  # BSK-PRÄFIX | KENNUNGSERWEITERUNG FÜR EINHEITEN
- BSK-PF BSFX
+ BSK-PF ⠆⡠⡈⠃
 
  # AXIOM | PRÄFIX TAGGEN UND RAM  
- AXIOM ¡ PD ⥗ BSFX ⍠ RA
+ AXIOM ¡ ⠆⡠⡄⢠ ⥗ ⠆⡠⡈⠃ ⍠ ⠆⡠⡈⠅
 
  # EINHEIT | RAM
- EINHEIT RA
+ EINHEIT ⠆⡠⡈⠅ |=| POST-GLEICH
 
  # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
  AXIOM ¡ ⠆⡠⢁⠤ ⦳ BIID
