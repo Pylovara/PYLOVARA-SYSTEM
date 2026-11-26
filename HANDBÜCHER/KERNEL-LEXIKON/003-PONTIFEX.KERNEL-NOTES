@@ -330,109 +330,109 @@ MUTTERWABEN-KATEGORIE ⠆⡠⢂⠨ STARTWABE
  PRODUKT ⠆⡠⡐⠅ |?|
 
  # PRÄFIX
- PRÄFIX ⠆⡠⡐⠉ ODER
+ PRÄFIX ⠆⡠⡐⠉ ODERS
 
  # AXIOM | BSK | KEID + WAID + PR
  AXIOM ¡ ⠆⢄⠑⢐ ⧓ ⠆⡠⢁⡂ ⫯ ⠆⡠⡐⠉ Ξ ⠆⡠⡐⠊
 
  # BSK-PRÄFIX | KENNUNGSERWEITERUNG FÜR EINHEITEN
- BSK-PF ⠆⡠⡐⠊ POST-ODER
+ BSK-PF ⠆⡠⡐⠊ POST-ODERS
 
  # AXIOM | PRÄFIX TAGGEN UND RAM  
  AXIOM ¡ ⠆⡠⡐⠅ ⥗ ⠆⡠⡐⠊ ⍠ ⠆⡠⡈⠑
 
  # EINHEIT | RAM
- EINHEIT ⠆⡠⡈⠑ |?| POST-ODER
+ EINHEIT ⠆⡠⡈⠑ |?| POST-ODERS
 
  # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
- AXIOM ¡ ⠆⡠⢁⡈ ⦳ BIID
+ AXIOM ¡ ⠆⡠⢁⡈ ⦳ ⠆⡠⡁⢈
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE # BAUWABE 
+MUTTERWABEN-KATEGORIE ⠆⡠⡂⡈ BAUWABE 
 
- PROGRAMM-KERN # ODER
+ PROGRAMM-KERN ⠆⡠⡂⡐ ODER
 
- WABEN-ID # FK
+ WABEN-ID ⠆⡠⡂⢁ FK
 
- BION-NR # 002
+ BION-NR ⠆⡠⡁⢄ 002
 
- BION-ID # BIID
+ BION-ID ⠆⡠⡁⢈ FK002
 
- BSK-KN # BSKN
+ BSK-KN ⠆⡠⡁⢐ ODER
 
- BSK-ID # BSID
+ BSK-ID ⠆⡠⡁⢠ POFK-ODER
 
- BION # BION
+ BION ⠆⡠⡁⣀ PO003MK003HT024ST024FK002
 
- BSK # BSK
+ BSK ⠆⡠⡂⠃ POMK+POHT-ODER+POST-ODER+POFK-ODER
 
  # AXIOM | KEID + WAID + BSKN
- AXIOM ¡ ⠆⢄⠑⢐ ⧓ WAID ⫯ BSKN Ξ BSID
+ AXIOM ¡ ⠆⢄⠑⢐ ⧓ ⠆⡠⡂⢁ ⫯ ⠆⡠⡁⢐ Ξ ⠆⡠⡁⢠
 
  # AXIOM | BION-ID
- AXIOM ¡ WAID ⧓ NR Ξ BIID
+ AXIOM ¡ ⠆⡠⡂⢁ ⧓ ⠆⡠⡁⢄ Ξ ⠆⡠⡁⢈
 
-TOCHTERWABEN-KATEGORIE # FUNKTIONSWABE
+TOCHTERWABEN-KATEGORIE ⠆⡠⡂⠅ FUNKTIONSWABE
 
  # AXIOM | HOLE RAM EINHEIT 
- AXIOM ¡ RA ⍠ RA
+ AXIOM ¡ ⠆⡠⡈⠑ ⍠ ⠆⡠⡂⠉
 
  # EINHEIT | RAM 
- EINHEIT # RA
+ EINHEIT ⠆⡠⡂⠉ |?| POFK-ODERS
 
  # EINSATZ-ELEMENT | VARIABLE BENENNUNG
- UND # ⥛
+ ODER ⠆⡠⡂⠊ ⥚
 
  # AXIOMPROGRAMMIERUNG | TWS-LEXIKON 03 BINDUNG
- AXIOM ¡ RA Ξ AX Ξ ZW
+ AXIOM ¡ ⠆⡠⡂⠉ Ξ ⠆⡠⡂⠊ Ξ ⠆⡠⡂⠌
 
  # PRÄFIX 
- PRÄFIX PR
+ PRÄFIX ⠆⡠⡂⠑ ODERSE
 
  # AXIOM | BSK | KEID + WAID + PR
- AXIOM ¡ ⠆⢄⠑⢐ ⧓ WAID ⫯ PR Ξ BSFX
+ AXIOM ¡ ⠆⢄⠑⢐ ⧓ ⠆⡠⡂⢁ ⫯ ⠆⡠⡂⠑ Ξ ⠆⡠⡂⠒
 
  # BSK-PRÄFIX | KENNUNGSERWEITERUNG FÜR EINHEITEN
- BSK-PF BSFX
+ BSK-PF ⠆⡠⡂⠒ POFK-ODERSE
 
  # AXIOM | PRÄFIX TAGG ERNEUERN UND RAM  
- AXIOM ¡ ZW ⥓ BSFX ⍠ RA
+ AXIOM ¡ ⠆⡠⡂⠌ ⥓ ⠆⡠⡂⠒ ⍠ ⠆⡠⡁⠘
 
  # EINHEIT | RAM
- EINHEIT RA
+ EINHEIT ⠆⡠⡁⠘ |?| POFK-ODERSE
 
  # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
- AXIOM ¡ BIID ⦳ BIID
+ AXIOM ¡ ⠆⡠⡁⢈ ⦳ ⠆⡠⡁⠰
 
 ###====================================|====================================###
 
-MUTTERWABEN-KATEGORIE # ENDWABE 
+MUTTERWABEN-KATEGORIE ⠆⡠⡁⠡ ENDWABE 
 
- PROGRAMM-KERN # NA
+ PROGRAMM-KERN ⠆⡠⡁⠢ ODER
 
- WABEN-ID # ED
+ WABEN-ID ⠆⡠⡁⠤ ED
 
- BION-NR # NR
+ BION-NR ⠆⡠⡁⠨ 021
 
- BION-ID # BIID
+ BION-ID ⠆⡠⡁⠰ ED021
 
- BSK-KN # BSKN
+ BSK-KN ⠆⡠⡁⡂ ODER
 
- BSK-ID # BSID
+ BSK-ID ⠆⡠⡁⡄ POED-ODER
 
- BION # BION
-
- BSK # BSK
+ BION ⠆⡠⡁⡈ PO003MK003HT024ST024FK002ED021
+ 
+ BSK ⠆⡠⡁⡐ POMK+POHT-ODER+POST-ODER+POFK-ODER+POED-ODER
 
  # AXIOM | KEID + WAID + BSKN
- AXIOM ¡ ⠆⢄⠑⢐ ⧓ WAID ⫯ BSKN Ξ BSID
+ AXIOM ¡ ⠆⢄⠑⢐ ⧓ ⠆⡠⡁⠤ ⫯ ⠆⡠⡁⡂ Ξ ⠆⡠⡁⡄
 
  # AXIOM | BION-ID
- AXIOM ¡ WAID ⧓ NR Ξ BIID
+ AXIOM ¡ ⠆⡠⡁⠤ ⧓ ⠆⡠⡁⠨ Ξ ⠆⡠⡁⠰
 
  # AXIOM | HAUPTWABEN DURCHLAUF BEENDEN
- AXIOM ¡ BIID ⦱
+ AXIOM ¡ ⠆⡠⡁⠰ ⦱
 
 ###====================================|====================================###
 ###=============================PONTIFEX-WENNDA=============================###
