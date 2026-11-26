@@ -876,10 +876,10 @@ MUTTERWABEN-KATEGORIE ⠆⡠⡐⡈ STARTWABE
  PRODUKT ⠆⡠⡄⠡ |;|
 
  # PRÄFIX 
- PRÄFIX ⠆⡠⡄⠢ BIND
+ PRÄFIX ⠆⡠⡄⠢ BINDS
 
  # AXIOM | BSK | KEID + WAID + PR
- AXIOM ¡ ⠆⢄⠑⢐ ⧓ ⠆⡠⢁⣀ ⫯ ⠆⡠⡄⠢ Ξ ⠆⡠⡄⠤
+ AXIOM ¡ ⠆⢄⠑⢐ ⧓ ⠆⡠⡐⢂ ⫯ ⠆⡠⡄⠢ Ξ ⠆⡠⡄⠤
 
  # BSK-PRÄFIX | KENNUNGSERWEITERUNG FÜR EINHEITEN
  BSK-PF ⠆⡠⡄⠤ POST-BINDS
@@ -949,7 +949,7 @@ TOCHTERWABEN-KATEGORIE ⠆⡠⠨⠔ FUNKTIONSWABE
  EINHEIT ⠆⡠⠤⡂ |;| POFK-BINDSE
 
  # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
- AXIOM ¡ ⠆⡠⠨⠉ ⦳ BIID
+ AXIOM ¡ ⠆⡠⠨⠉ ⦳ ⠆⡠⠤⢂
 
 ###====================================|====================================###
 
