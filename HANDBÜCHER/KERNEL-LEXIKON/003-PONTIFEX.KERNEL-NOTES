@@ -88,7 +88,7 @@ MUTTERWABEN-KATEGORIE ⠆⡠⢈⠊ HAUPTWABE
 
  BSK-ID ⠆⡠⢈⠡ POHT-UND
 
- BION ⠆⡠⢈⠤ PO03MK003HT023
+ BION ⠆⡠⢈⠤ PO003MK003HT023
 
  BSK ⠆⡠⢄⠰ POMK+POHT-UND
 
@@ -435,7 +435,7 @@ MUTTERWABEN-KATEGORIE ⠆⡠⡁⠡ ENDWABE
  AXIOM ¡ ⠆⡠⡁⠰ ⦱
 
 ###====================================|====================================###
-###=============================PONTIFEX-WENNDA=============================###
+###==============================PONTIFEX-TRENN=============================###
 ###====================================|====================================###
 
 MUTTERWABEN-KATEGORIE ⠆⡠⢄⢠ HAUPTWABE 
@@ -859,7 +859,7 @@ MUTTERWABEN-KATEGORIE ⠆⡠⡐⡈ STARTWABE
  TASTENCODE ⠆⡠⡈⠉ ALTGR
  TASTENCODE ⠆⡠⡈⠊ SHIFT
  TASTENCODE ⠆⡠⡈⠌ <
- TASTENCODE ⠆⡠⡄⠒ ;
+ TASTENCODE ⠆⡠⡄⠒ ,
 
  # AXIOM | SYMBOL BAUEN
  AXIOM ¡ ⠆⡠⡈⠉ ⦻ ⠆⡠⡈⠌ Ξ ⠆⡠⡄⠔
