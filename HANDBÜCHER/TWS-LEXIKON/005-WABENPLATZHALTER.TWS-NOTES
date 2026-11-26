@@ -48,6 +48,7 @@
  TT      = TASTEN
  SY      = SYMBOL
  SG      = SCHALTUNG
+ AX      = AXIOMPROGRAMMIERUNG
 
  WH      = WABENHÄRTER
  RT      = RASTER

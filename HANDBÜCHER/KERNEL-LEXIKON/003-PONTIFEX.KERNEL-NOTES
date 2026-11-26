@@ -171,7 +171,7 @@ MUTTERWABEN-KATEGORIE # BAUWABE
 
  PROGRAMM-KERN # NA
 
- WABEN-ID # BA
+ WABEN-ID # FK
 
  BION-NR # NR
 
@@ -201,12 +201,11 @@ TOCHTERWABEN-KATEGORIE # FUNKTIONSWABE
 
 --------------------------------------------------------------------------------
 
+ # EINSATZ-ELEMENT | VARIABLE BENENNUNG
+ UND # ⥛
 
-
-
-
-
-
+ # AXIOMPROGRAMMIERUNG | TWS-LEXIKON 03 BINDUNG
+ AXIOM ¡ RA Ξ AX Ξ ZW
 
 --------------------------------------------------------------------------------
  # PRÄFIX 
