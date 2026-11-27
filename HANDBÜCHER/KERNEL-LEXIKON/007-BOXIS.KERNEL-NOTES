@@ -4044,32 +4044,32 @@ TOCHTERWABEN-KATEGORIE ⠆⡠⣀⢈ COMBOWABE
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!! fehler breich 
-MUTTERWABEN-KATEGORIE ⠆⢁⠃⠑ ENDWABE 
+MUTTERWABEN-KATEGORIE ## ENDWABE 
 
- PROGRAMM-KERN ⠆⢁⠃⠒ RAM
+ PROGRAMM-KERN ## RAM
 
- WABEN-ID ⠆⡠⠤⠃ ED
+ WABEN-ID ## ED
 
- BION-NR ⠆⡠⠤⠅ 016
+ BION-NR ## 016
 
- BION-ID ⠆⡠⠤⠉ ED016
+ BION-ID ## ED016
 
- BSK-KN ⠆⡠⣀⠢ RAM
+ BSK-KN ## RAM
 
- BSK-ID ⠆⡠⣀⠤ BXED-RAM
+ BSK-ID ## BXED-RAM
 
- BION ⠆⡠⣀⠨ BX007MK007HT019ST019EG015CB015ED016
+ BION ## BX007MK007HT019ST019EG015CB015ED016
 
- BSK ⠆⡠⣀⠰ BXMK+BXHT-RAM+BXST-RAM+BXEG-RAM+BXCB-RAM+BXED-RAM
+ BSK ## BXMK+BXHT-RAM+BXST-RAM+BXEG-RAM+BXCB-RAM+BXED-RAM
 
  # AXIOM | KEID + WAID + BSKN
- AXIOM ¡ ⠆⢄⠃⡄ ⧓ ⠆⡠⠤⠃ ⫯ ⠆⡠⣀⠢ Ξ ⠆⡠⣀⠤
+ AXIOM ¡ ## ⧓ ## ⫯ ## Ξ ##
 
  # AXIOM | BION-ID
- AXIOM ¡ ⠆⡠⠤⠃ ⧓ ⠆⡠⠤⠅ Ξ ⠆⡠⠤⠉
+ AXIOM ¡ ## ⧓ ## Ξ ##
 
  # AXIOM | HAUPTWABEN DURCHLAUF BEENDEN
- AXIOM ¡ ⠆⡠⠤⠉ ⦱
+ AXIOM ¡ ## ⦱
 
 ###====================================|====================================###
 ###===============================BOXIS-KOORDI==============================###
