@@ -3792,12 +3792,6 @@ MUTTERWABEN-KATEGORIE ⠆⢁⠅⠌ ENDWABE
  AXIOM ¡ ⠆⢁⠅⠊ ⦱
 
 ###====================================|====================================###
-
-fehlerhafter bereich system-id's zeichen problen mit ⠆
-
- alle beheben ! da ich nur raten könnte ... 
-
-###====================================|====================================###
 ###=================================BOXIS-RAM===============================###
 ###====================================|====================================###
 
@@ -3974,60 +3968,58 @@ KINDERWABEN-KATEGORIE ⠆⢁⡁⢠ SYSTEMWABE
  AXIOM ¡ ⠆⢁⡈⠊ ⦳ ⠆⡐⢐⠰
 
 ###====================================|====================================###
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-MUTTERWABEN-KATEGORIE ⠆⡐⢐⡂ BAUWABE 
+MUTTERWABEN-KATEGORIE ⠆⡐⢐⡈ BAUWABE 
 
- PROGRAMM-KERN ## RAM 
+ PROGRAMM-KERN ⠆⡐⢐⡠ RAM 
 
- WABEN-ID ## CB
+ WABEN-ID ⠆⡐⢐⢁ CB
 
- BION-NR ## 015
+ BION-NR ⠆⡐⢐⢂ 015
 
  BION-ID ⠆⡐⢐⠰ CB015
 
- BSK-KN ## RAM
+ BSK-KN ⠆⡐⢐⢄ RAM
 
- BSK-ID ## BXCB-RAM
+ BSK-ID ⠆⡐⢐⢈ BXCB-RAM
 
- BION ## BX007MK007HT019ST019EG015CB015
+ BION ⠆⡐⢐⢠ BX007MK007HT019ST019EG015CB015
 
- BSK ## BXMK+BXHT-RAM+BXST-RAM+BXEG-RAM+BXCB-RAM
+ BSK ⠆⡐⢐⣀ BXMK+BXHT-RAM+BXST-RAM+BXEG-RAM+BXCB-RAM
 
  # AXIOM | KEID + WAID + BSKN
- AXIOM ¡ ## ⧓ ## ⫯ ## Ξ ##
+ AXIOM ¡ ⠆⢄⠃⡄ ⧓ ⠆⡐⢐⢁ ⫯ ⠆⡐⢐⢄ Ξ ⠆⡐⢐⢈
 
  # AXIOM | BION-ID
- AXIOM ¡ ## ⧓ ## Ξ ⠆⡐⢐⠰
+ AXIOM ¡ ⠆⡐⢐⢁ ⧓ ⠆⡐⢐⢂ Ξ ⠆⡐⢐⠰
 
-TOCHTERWABEN-KATEGORIE ## COMBOWABE
+TOCHTERWABEN-KATEGORIE ⠆⡐⢐⠅ COMBOWABE
 
  # AXIOM | HOLE RAM EINHEIT 
- AXIOM ¡ ⠆⡐⢠⠢ ⍠ ##
- AXIOM ¡ ⠆⡐⢠⠤ ⍠ ##
+ AXIOM ¡ ⠆⡐⢠⠢ ⍠ ⠆⡐⢐⠉
+ AXIOM ¡ ⠆⡐⢠⠤ ⍠ ⠆⡐⢐⠊
 
  # EINHEIT | RAM 
- EINHEIT ## #: ^ BXEG-RAMSI
- EINHEIT ## 
+ EINHEIT ⠆⡐⢐⠉ #: ^ BXEG-RAMSI
+ EINHEIT ⠆⡐⢐⠊ :# BXST-RAME 
 
  # AXIOM | KOMPONENTE BAUEN  
- AXIOM ¡ ## ⧓ ## Ξ ##
+ AXIOM ¡ ⠆⡐⢐⠉ ⧓ ⠆⡐⢐⠊ Ξ ⠆⡐⢐⠒
 
  # PRÄFIX 
- PRÄFIX ## RAMSIE
+ PRÄFIX ⠆⡐⢐⠌ RAMSIE
 
  # AXIOM | BSK | KEID + WAID + PR
- AXIOM ¡ ## ⧓ ## ⫯ ## Ξ ##
+ AXIOM ¡ ⠆⢄⠃⡄ ⧓ ⠆⡐⢐⢁ ⫯ ⠆⡐⢐⠌ Ξ ⠆⡐⢐⠑
 
  # BSK-PRÄFIX | KENNUNGSERWEITERUNG FÜR EINHEITEN
- BSK-PF ## BXCB-RAMSIE
+ BSK-PF ⠆⡐⢐⠑ BXCB-RAMSIE
 
  # AXIOM | PRÄFIX TAGG ERNEUERN UND RAM  
- AXIOM ¡ ## ⥓ ## ⍠ ##
+ AXIOM ¡ ⠆⡐⢐⠒ ⥓ ⠆⡐⢐⠑ ⍠ ⠆⡐⢐⠔
 
  # EINHEIT | RAM
- EINHEIT ## #: ^ :# BXCB-RAMSIE 
+ EINHEIT ⠆⡐⢐⠔ #: ^ :# BXCB-RAMSIE 
 
  # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
  AXIOM ¡ ⠆⡐⢐⠰ ⦳ ⠆⡐⢠⠑
