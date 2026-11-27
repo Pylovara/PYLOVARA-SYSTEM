@@ -1229,15 +1229,15 @@ MUTTERWABEN-KATEGORIE ⠆⢂⢁⠘ STARTWABE
 
  # AXIOM | SYMBOL BAUEN
  AXIOM ¡ ⠆⢂⡠⡐ ⦻ ⠆⢂⡠⢁ ⦻ ⠆⢂⡠⢄ Ξ ⠆⢂⡠⢐
- AXIOM ¡ ⠆⢂⡠⢁ ⦻ ⠆⢂⡠⢈ Ξ ⠆⢂⡠⢁
+ AXIOM ¡ ⠆⢂⡠⢁ ⦻ ⠆⢂⡠⢈ Ξ ⠆⡐⢁⢠
 
  # SYMBOLE FERTIG
  SYMBOLE ⠆⢂⡠⢐ ¥
- SYMBOLE ⠆⢂⡠⢁ :
+ SYMBOLE ⠆⡐⢁⢠ :
 
  # AXIOM | PRODUKT BAUEN
- AXIOM ¡ ⠆⢂⡠⢐ ⧓ ⠆⢂⡠⢁ Ξ ⠆⢂⡐⣀
- AXIOM ¡ ⠆⢂⡠⢁ ⧓ ⠆⢂⡠⢐ Ξ ⠆⢂⡠⠃
+ AXIOM ¡ ⠆⢂⡠⢐ ⧓ ⠆⡐⢁⢠ Ξ ⠆⢂⡐⣀
+ AXIOM ¡ ⠆⡐⢁⢠ ⧓ ⠆⢂⡠⢐ Ξ ⠆⢂⡠⠃
 
  # PRODUKT
  PRODUKT ⠆⢂⡐⣀ ¥:
@@ -1318,7 +1318,7 @@ KINDERWABEN-KATEGORIE ⠆⢁⢠⡐ SYSTEMWABE
  AUSGABE ⠆⢁⢠⡁ ^
 
  # AXIOM | PLATZIERUNGS-LOGIK  
- AXIOM ¡ 𖭰⠆⢁⢠⠤⮡⠆⢁⢠⠤⮠𖭱 ⭾ Ξ ⠆⢁⢠⡂
+ AXIOM ¡ 𖭰⠆⢁⢠⠤⮡⠆⢁⢠⡁⮠𖭱 ⭾ Ξ ⠆⢁⢠⡂
 
  # AXIOM | EINGABEBEHALTEN LÖSCHEN
  AXIOM ¡ ⠆⢁⢠⠨ ⎚
@@ -1370,15 +1370,15 @@ MUTTERWABEN-KATEGORIE ⠆⢁⠢⡈ BAUWABE
 TOCHTERWABEN-KATEGORIE ⠆⢁⠢⠅ COMBOWABE
 
  # AXIOM | HOLE RAM EINHEIT 
- AXIOM ¡ ⠆⢂⡠⠑ ⍠ ⠆⢁⠢⠉
- AXIOM ¡ ⠆⢁⢐⢄ ⍠ ⠆⢁⠢⠊
+ AXIOM ¡ ⠆⢁⢐⢄ ⍠ ⠆⡐⢁⣀
+ AXIOM ¡ ⠆⢂⡠⠒ ⍠ ⠆⡐⢂⠃
 
  # EINHEIT | RAM 
- EINHEIT ⠆⢁⠢⠉ ¥: BXST-FUNKTIONS
- EINHEIT ⠆⢁⠢⠊ ¥: ^ BXEG-FUNKTIONSI
+ EINHEIT ⠆⡐⢁⣀ ¥: ^ BXEG-FUNKTIONSI
+ EINHEIT ⠆⡐⢂⠃ :¥ BXST-FUNKTIONE
 
  # AXIOM | KOMPONENTE BAUEN  
- AXIOM ¡ ⠆⢁⠢⠉ ⧓ ⠆⢁⠢⠊ Ξ ⠆⢁⠢⠌
+ AXIOM ¡ ⠆⡐⢁⣀ ⧓ ⠆⡐⢂⠃ Ξ ⠆⢁⠢⠌
 
  # PRÄFIX 
  PRÄFIX ⠆⢁⠢⠑ FUNKTIONSIE
