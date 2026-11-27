@@ -2549,8 +2549,8 @@ MUTTERWABEN-KATEGORIE ⠆⢂⡁⠊ STARTWABE
  SYMBOLE ⠆⢂⠨⢁ :
 
  # AXIOM | PRODUKT BAUEN
- AXIOM ¡ ⠆⢂⠨⡠ ⧓ ⠆⢂⠨⡠ ⧓ ⠆⢂⠨⢁ Ξ ⠆⢂⠨⢄
- AXIOM ¡ ⠆⢂⠨⢁ ⧓ ⠆⢂⠨⡠ ⧓ ⠆⢂⠨⡠ Ξ ⠆⢂⠨⢐
+ AXIOM ¡ ⠆⢂⠨⡠ ⧓ ⠆⢂⠨⢁ Ξ ⠆⢂⠨⢄
+ AXIOM ¡ ⠆⢂⠨⢁ ⧓ ⠆⢂⠨⡠ Ξ ⠆⢂⠨⢐
 
  # PRODUKT
  PRODUKT ⠆⢂⠨⢄ ſ:
@@ -4112,7 +4112,6 @@ MUTTERWABEN-KATEGORIE ⠆⡐⢂⠊ STARTWABE
 
  # TASTEN
  TASTENCODE ⠆⢂⠌⢐ ALTGR
- TASTENCODE ⠆⢂⠌⢠ SHIFT
  TASTENCODE ⠆⢂⠌⣀ K
  TASTENCODE ⠆⢂⠌⠉ .
 
