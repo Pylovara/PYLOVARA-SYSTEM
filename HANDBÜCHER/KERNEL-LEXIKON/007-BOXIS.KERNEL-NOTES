@@ -4484,113 +4484,99 @@ KINDERWABEN-KATEGORIE ⠆⢁⡄⠃ SYSTEMWABE
  BSK-PF ⠆⢁⡄⠅ BXEG-EINGABESI
 
  # AXIOM | PRÄFIX TAGG ERNEUERN UND RAM
- AXIOM ¡ ⠆⢁⡂⢠ ⥓ ⠆⢁⡄⠅ ⍠ ⠆⢁⡄⠉
+ AXIOM ¡ ⠆⢁⡂⢠ ⥓ ⠆⢁⡄⠅ ⍠ ⠆⡐⢄⡈
 
  # EINHEIT | RAM
- EINHEIT ⠆⢁⡄⠉ &: ^ BXEG-EINGABESI
+ EINHEIT ⠆⡐⢄⡈ &: ^ BXEG-EINGABESI
 
  # AXIOM WABEN SYSTEM-ID | PROZESS STOP
- AXIOM ¡ ⠆⢁⡄⠰ ⦳ ⠆⡠⢠⡐
+ AXIOM ¡ ⠆⢁⡄⠰ ⦳ ⠆⡐⢄⡄
 
 ###====================================|====================================###
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!! fehler breich 
-MUTTERWABEN-KATEGORIE ## BAUWABE 
 
- PROGRAMM-KERN ## EINGABE
+MUTTERWABEN-KATEGORIE ⠆⡐⢄⢈ BAUWABE 
 
- WABEN-ID ## CB
+ PROGRAMM-KERN ⠆⡐⢄⢐ EINGABE
 
- BION-NR ## 017
+ WABEN-ID ⠆⡐⢄⢠ CB
 
- BION-ID ## CB017
+ BION-NR ⠆⡐⢄⣀ 017
 
- BSK-KN ## EINGABE
+ BION-ID ⠆⡐⢄⡄ CB017
 
- BSK-ID ## BXCB-EINGABE
+ BSK-KN ⠆⡐⢄⠑ EINGABE
 
- BION ## BX007MK007HT021ST021EG017CB017
+ BSK-ID ⠆⡐⢄⠒ BXCB-EINGABE
 
- BSK ## BXMK+BXHT-EINGABE+BXST-EINGABE+BXEG-EINGABE+BXCB-EINGABE
+ BION ⠆⡐⢄⠔ BX007MK007HT021ST021EG017CB017
+
+ BSK ⠆⡐⢄⠘ BXMK+BXHT-EINGABE+BXST-EINGABE+BXEG-EINGABE+BXCB-EINGABE
 
  # AXIOM | KEID + WAID + BSKN
- AXIOM ¡ ## ⧓ ## ⫯ ## Ξ ##
+ AXIOM ¡ ⠆⢄⠃⡄ ⧓ ⠆⡐⢄⢠ ⫯ ⠆⡐⢄⠑ Ξ ⠆⡐⢄⠒
 
  # AXIOM | BION-ID
- AXIOM ¡ ## ⧓ ## Ξ ##
+ AXIOM ¡ ⠆⡐⢄⢠ ⧓ ⠆⡐⢄⣀ Ξ ⠆⡐⢄⡄
 
-TOCHTERWABEN-KATEGORIE ## COMBOWABE
+TOCHTERWABEN-KATEGORIE ⠆⡐⢄⢂ COMBOWABE
 
  # AXIOM | HOLE RAM EINHEIT 
- AXIOM ¡ ## ⍠ ##
- AXIOM ¡ ## ⍠ ##
-
-
- # EINHEIT | RAM
- EINHEIT ⠆⡐⢈⠰ &: BXST-EINGABES
- EINHEIT ⠆⡐⢄⡂ :& BXST-EINGABEE
-
-
-
+ AXIOM ¡ ⠆⡐⢄⡈ ⍠ ⠆⡐⢄⡠
+ AXIOM ¡ ⠆⡐⢄⡂ ⍠ ⠆⡐⢄⢁
 
  # EINHEIT | RAM 
- EINHEIT ## &: ^ BXEG-EINGABESI
- EINHEIT ## :& BXST-EINGABEE
+ EINHEIT ⠆⡐⢄⡠ &: ^ BXEG-EINGABESI
+ EINHEIT ⠆⡐⢄⢁ :& BXST-EINGABEE
 
  # AXIOM | KOMPONENTE BAUEN  
- AXIOM ¡ ## ⧓ ## Ξ ##
+ AXIOM ¡ ⠆⡐⢄⡠ ⧓ ⠆⡐⢄⢁ Ξ ⠆⡐⢄⠊
 
  # PRÄFIX
- PRÄFIX ## EINGABESIE
+ PRÄFIX ⠆⡐⢈⠃ EINGABESIE
 
  # AXIOM | BSK | KEID + WAID + PR
- AXIOM ¡ ## ⧓ ## ⫯ ## Ξ ##
+ AXIOM ¡ ⠆⢄⠃⡄ ⧓ ⠆⡐⢄⢠ ⫯ ⠆⡐⢈⠃ Ξ ⠆⡐⢈⠅
 
  # BSK-PRÄFIX | KENNUNGSERWEITERUNG FÜR EINHEITEN
- BSK-PF ## BXCB-EINGABESIE
+ BSK-PF ⠆⡐⢈⠅ BXCB-EINGABESIE
 
  # AXIOM | PRÄFIX TAGG ERNEUERN UND RAM  
- AXIOM ¡ ## ⥓ ## ⍠ ##
+ AXIOM ¡ ⠆⡐⢄⠊ ⥓ ⠆⡐⢈⠅ ⍠ ⠆⡐⢄⠌
 
  # EINHEIT | RAM
- EINHEIT ## &: ^ :& BXCB-EINGABESIE
+ EINHEIT ⠆⡐⢄⠌ &: ^ :& BXCB-EINGABESIE
 
  # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
- AXIOM ¡ ## ⦳ ##
+ AXIOM ¡ ⠆⡐⢄⡄ ⦳ ⠆⡐⢄⠡
 
 ###====================================|====================================###
  
-MUTTERWABEN-KATEGORIE ## ENDWABE 
+MUTTERWABEN-KATEGORIE ⠆⡐⢄⠢ ENDWABE 
 
- PROGRAMM-KERN ## EINGABE
+ PROGRAMM-KERN ⠆⡐⢄⠤ EINGABE
 
- WABEN-ID ## ED
+ WABEN-ID ⠆⡐⢄⠨ ED
 
- BION-NR ## 018
+ BION-NR ⠆⡐⢄⠰ 018
 
- BION-ID ## ED018
+ BION-ID ⠆⡐⢄⠡ ED018
 
- BSK-KN ## EINGABE
+ BSK-KN ⠆⡐⢄⡁ EINGABE
 
- BSK-ID ## BXED-EINGABE
+ BSK-ID ⠆⡐⢂⡄ BXED-EINGABE
 
- BION ## BX007MK007HT021ST021EG017CB017ED018
+ BION ⠆⡐⢂⡈ BX007MK007HT021ST021EG017CB017ED018
 
- BSK ## BXMK+BXHT-EINGABE+BXST-EINGABE+BXEG-EINGABE+BXCB-EINGABE+BXED-EINGABE
+ BSK ⠆⡐⢂⡠ BXMK+BXHT-EINGABE+BXST-EINGABE+BXEG-EINGABE+BXCB-EINGABE+BXED-EINGABE
 
  # AXIOM | KEID + WAID + BSKN
- AXIOM ¡ ## ⧓ ## ⫯ ## Ξ ##
+ AXIOM ¡ ⠆⢄⠃⡄ ⧓ ⠆⡐⢄⠨ ⫯ ⠆⡐⢄⡁ Ξ ⠆⡐⢂⡄
 
  # AXIOM | BION-ID
- AXIOM ¡ ## ⧓ ## Ξ ##
+ AXIOM ¡ ⠆⡐⢄⠨ ⧓ ⠆⡐⢄⠰ Ξ ⠆⡐⢄⠡
 
  # AXIOM | HAUPTWABEN DURCHLAUF BEENDEN
- AXIOM ¡ ## ⦱
+ AXIOM ¡ ⠆⡐⢄⠡ ⦱
 
 ###====================================|====================================###
 ###=================================BOXIS-TWS===============================###
