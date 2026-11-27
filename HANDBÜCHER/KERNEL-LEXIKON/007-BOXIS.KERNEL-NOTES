@@ -4747,111 +4747,99 @@ KINDERWABEN-KATEGORIE ⠆⢁⡂⡈ SYSTEMWABE
  BSK-PF ⠆⢁⡁⢈ BXEG-TWSSI
 
  # AXIOM | PRÄFIX TAGG ERNEUERN UND RAM
- AXIOM ¡ ⠆⢁⡁⢂ ⥓ ⠆⢁⡁⢈ ⍠ ⠆⢁⡁⢐
+ AXIOM ¡ ⠆⢁⡁⢂ ⥓ ⠆⢁⡁⢈ ⍠ ##
 
  # EINHEIT | RAM
- EINHEIT ⠆⢁⡁⢐ Æ: ^ BXEG-TWSSI
+ EINHEIT ## Æ: ^ BXEG-TWSSI
 
  # AXIOM WABEN SYSTEM-ID | PROZESS STOP
- AXIOM ¡ ⠆⢁⡂⠘ ⦳ ⠆⡠⢐⢈
+ AXIOM ¡ ⠆⢁⡂⠘ ⦳ ##
 
 ###====================================|====================================###
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!! fehler breich 
-MUTTERWABEN-KATEGORIE ⠆⡠⢈⣀ BAUWABE 
 
- PROGRAMM-KERN ⠆⡠⢐⠃ TWS
+MUTTERWABEN-KATEGORIE ## BAUWABE 
 
- WABEN-ID ⠆⡠⢐⠅ CB
+ PROGRAMM-KERN ## TWS
 
- BION-NR ⠆⡠⢐⠉ 018
+ WABEN-ID ## CB
 
- BION-ID ⠆⡠⢐⢈ CB018
+ BION-NR ## 018
 
- BSK-KN ⠆⡠⢐⠊ TWS
+ BION-ID ## CB018
 
- BSK-ID ⠆⡠⢐⠌ BXCB-TWS
+ BSK-KN ## TWS
 
- BION ⠆⡠⢐⠑ BX007MK007HT022ST022EG018CB018
+ BSK-ID ## BXCB-TWS
 
- BSK ⠆⡠⢐⠒ BXMK+BXHT-TWS+BXST-TWS+BXEG-TWS+BXCB-TWS
+ BION ## BX007MK007HT022ST022EG018CB018
+
+ BSK ## BXMK+BXHT-TWS+BXST-TWS+BXEG-TWS+BXCB-TWS
 
  # AXIOM | KEID + WAID + BSKN
- AXIOM ¡ ⠆⢄⠃⡄ ⧓ ⠆⡠⢐⠅ ⫯ ⠆⡠⢐⠊ Ξ ⠆⡠⢐⠌
+ AXIOM ¡ ## ⧓ ## ⫯ ## Ξ ##
 
  # AXIOM | BION-ID
- AXIOM ¡ ⠆⡠⢐⠅ ⧓ ⠆⡠⢐⠉ Ξ ⠆⡠⢐⢈
+ AXIOM ¡ ## ⧓ ## Ξ ##
 
-TOCHTERWABEN-KATEGORIE ⠆⡠⢐⠔ COMBOWABE
+TOCHTERWABEN-KATEGORIE ## COMBOWABE
 
  # AXIOM | HOLE RAM EINHEIT 
- AXIOM ¡ ⠆⢁⡁⢐ ⍠ ⠆⡠⢐⠘
- AXIOM ¡ ⠆⢂⠉⠔ ⍠ ⠆⡠⢐⠡
+ AXIOM ¡ ## ⍠ ##
+ AXIOM ¡ ## ⍠ ##
 
  # EINHEIT | RAM 
- EINHEIT ⠆⡠⢐⠘ Æ: ^ BXEG-TWSSI
- EINHEIT ⠆⡠⢐⠡ :Æ BXST-TWSE
+ EINHEIT ## Æ: ^ BXEG-TWSSI
+ EINHEIT ## :Æ BXST-TWSE
 
  # AXIOM | KOMPONENTE BAUEN  
- AXIOM ¡ ⠆⡠⢐⠘ ⧓ ⠆⡠⢐⠡ Ξ ⠆⡠⢐⠢
+ AXIOM ¡ ## ⧓ ## Ξ ##
 
  # PRÄFIX 
- PRÄFIX ⠆⡠⢈⠨ TWSSIE
+ PRÄFIX ## TWSSIE
 
  # AXIOM | BSK | KEID + WAID + PR
- AXIOM ¡ ⠆⢄⠃⡄ ⧓ ⠆⡠⢐⠅ ⫯ ⠆⡠⢈⠨ Ξ ⠆⡠⢈⠰
+ AXIOM ¡ ## ⧓ ## ⫯ ## Ξ ##
 
  # BSK-PRÄFIX | KENNUNGSERWEITERUNG FÜR EINHEITEN
- BSK-PF ⠆⡠⢈⠰ BXCB-TWSSIE
+ BSK-PF ## BXCB-TWSSIE
 
  # AXIOM | PRÄFIX TAGG ERNEUERN UND RAM  
- AXIOM ¡ ⠆⡠⢐⠢ ⥓ ⠆⡠⢈⠰ ⍠ ⠆⡠⢈⡁
+ AXIOM ¡ ## ⥓ ## ⍠ ##
 
  # EINHEIT | RAM
- EINHEIT ⠆⡠⢈⡁ Æ: ^ :Æ BXCB-TWSSIE
+ EINHEIT ## Æ: ^ :Æ BXCB-TWSSIE
 
  # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
- AXIOM ¡ ⠆⡠⢐⢈ ⦳ ⠆⡠⠤⠔
+ AXIOM ¡ ## ⦳ ##
 
 ###====================================|====================================###
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!! fehler breich 
-MUTTERWABEN-KATEGORIE ⠆⡠⠤⠊ ENDWABE 
 
- PROGRAMM-KERN ⠆⡠⠤⠌ TWS
+MUTTERWABEN-KATEGORIE ## ENDWABE 
 
- WABEN-ID ⠆⡠⠤⠑ ED
+ PROGRAMM-KERN ## TWS
 
- BION-NR ⠆⡠⠤⠘ 019
+ WABEN-ID ## ED
 
- BION-ID ⠆⡠⠤⠔ ED019
+ BION-NR ## 019
 
- BSK-KN ⠆⡠⠤⠡ TWS
+ BION-ID ## ED019
 
- BSK-ID ⠆⡠⠤⠢ BXED-TWS
+ BSK-KN ## TWS
 
- BION ⠆⡠⢈⢐ BX007MK007HT022ST022EG018CB018ED019
+ BSK-ID ## BXED-TWS
 
- BSK ⠆⡠⢈⠃ BXMK+BXHT-TWS+BXST-TWS+BXEG-TWS+BXCB-TWS+BXED-TWS
+ BION ## BX007MK007HT022ST022EG018CB018ED019
+
+ BSK ## BXMK+BXHT-TWS+BXST-TWS+BXEG-TWS+BXCB-TWS+BXED-TWS
 
  # AXIOM | KEID + WAID + BSKN
- AXIOM ¡ ⠆⢄⠃⡄ ⧓ ⠆⡠⠤⠑ ⫯ ⠆⡠⠤⠡ Ξ ⠆⡠⠤⠢
+ AXIOM ¡ ## ⧓ ## ⫯ ## Ξ ##
 
  # AXIOM | BION-ID
- AXIOM ¡ ⠆⡠⠤⠑ ⧓ ⠆⡠⠤⠘ Ξ ⠆⡠⠤⠔
+ AXIOM ¡ ## ⧓ ## Ξ ##
 
  # AXIOM | HAUPTWABEN DURCHLAUF BEENDEN
- AXIOM ¡ ⠆⡠⠤⠔ ⦱
+ AXIOM ¡ ## ⦱
 
 ###====================================|====================================###
 ###===========================KOMPAKTE-WABEN-PFADE==========================###
@@ -4944,28 +4932,29 @@ MUTTERWABEN-KATEGORIE ⠆⡠⠤⠊ ENDWABE
  fehlerhafter bereich : 
 
  PFAD-PROGRAMM = RAM
- PFAD-BION-ID  = ⠆⢂⣀⠤ ⠆⢂⠔⠃ ⠆⢂⠑⡐ ⠆⢁⡈⠊ ⠆⢁⠃⡈ ⠆⡠⠤⠉
- PFAD-BION     = BX007MK007HT019ST019EG015CB015ED016
- PFAD-BSK      = BXMK+BXHT-RAM+BXST-RAM+BXEG-RAM+BXCB-RAM+BXED-RAM
- PLASK-KOMPAKT = {BXMK:BXHT-RAM:BXST-RAM=BXST-RAMS=BXST-RAME:BXEG-RAM=BXEG-RAMSI:BXCB-RAM=BXCB-RAMSIE:BXED-RAM}
+ PFAD-BION-ID  = {SYSTEM-ID}
+ PFAD-BION     = {WABEN-PFAD}
+ PFAD-BSK      = {BAUSTEINSCHALTUNGS-PFAD}
+ PLASK-KOMPAKT = {PLASK-SCHALTUNG}
 
  PFAD-PROGRAMM = KOORDI
- PFAD-BION-ID  = ⠆⢂⣀⠤ ⠆⢂⠒⢄ ⠆⢂⠌⡐ ⠆⢁⡄⢈ ⠆⡠⢠⣀ ⠆⡠⢠⠰
- PFAD-BION     = BX007MK007HT020ST020EG016CB016ED017
- PFAD-BSK      = BXMK+BXHT-KOORDI+BXST-KOORDI+BXEG-KOORDI+BXCB-KOORDI+BXED-KOORDI
- PLASK-KOMPAKT = {BXMK:BXHT-KOORDI:BXST-KOORDI=BXST-KOORDIS=BXST-KOORDIE:BXEG-KOORDI=BXEG-KOORDISI:BXCB-KOORDI=BXCB-KOORDISIE:BXED-KOORDI}
+ PFAD-BION-ID  = {SYSTEM-ID}
+ PFAD-BION     = {WABEN-PFAD}
+ PFAD-BSK      = {BAUSTEINSCHALTUNGS-PFAD}
+ PLASK-KOMPAKT = {PLASK-SCHALTUNG}
 
  PFAD-PROGRAMM = EINGABE
- PFAD-BION-ID  = ⠆⢂⣀⠤ ⠆⢂⠒⠔ ⠆⢂⠊⡐ ⠆⢁⡄⠰ ⠆⡠⢠⡐ ⠆⡠⢐⠤
- PFAD-BION     = BX007MK007HT021ST021EG017CB017ED018
- PFAD-BSK      = BXMK+BXHT-EINGABE+BXST-EINGABE+BXEG-EINGABE+BXCB-EINGABE+BXED-EINGABE
- PLASK-KOMPAKT = {BXMK:BXHT-EINGABE:BXST-EINGABE=BXST-EINGABES=BXST-EINGABEE:BXEG-EINGABE=BXEG-EINGABESI:BXCB-EINGABE=BXCB-EINGABESIE:BXED-EINGABE}
+ PFAD-BION-ID  = {SYSTEM-ID}
+ PFAD-BION     = {WABEN-PFAD}
+ PFAD-BSK      = {BAUSTEINSCHALTUNGS-PFAD}
+ PLASK-KOMPAKT = {PLASK-SCHALTUNG}
 
  PFAD-PROGRAMM = TWS
- PFAD-BION-ID  = ⠆⢂⣀⠤ ⠆⢂⠔⠤ ⠆⢂⠉⡐ ⠆⢁⡂⠘ ⠆⡠⢐⢈ ⠆⡠⠤⠔
- PFAD-BION     = BX007MK007HT022ST022EG018CB018ED019
- PFAD-BSK      = BXMK+BXHT-TWS+BXST-TWS+BXEG-TWS+BXCB-TWS+BXED-TWS
- PLASK-KOMPAKT = {BXMK:BXHT-TWS:BXST-TWS=BXST-TWSS=BXST-TWSE:BXEG-TWS=BXEG-TWSSI:BXCB-TWS=BXCB-TWSSIE:BXED-TWS}
+ PFAD-BION-ID  = {SYSTEM-ID}
+ PFAD-BION     = {WABEN-PFAD}
+ PFAD-BSK      = {BAUSTEINSCHALTUNGS-PFAD}
+ PLASK-KOMPAKT = {PLASK-SCHALTUNG}
+
 
 ###=====================INDUSTRIE-STANDARD-DER-ZUKUNFT======================### 
 ###================================ENDPUNKT=================================###
