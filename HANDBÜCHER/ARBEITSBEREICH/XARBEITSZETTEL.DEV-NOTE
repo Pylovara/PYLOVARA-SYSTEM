@@ -339,7 +339,53 @@
  gut ... rann an die arbeit ... 
 
 
+ gegen zeichenketten fehler in den symbolen selbst , kann ich erst 
+ dagegen wirken wenn ich utf ersetze .... da ich aber nicht bei der 
+ baustelle bin und ich die hardware auch nicht gebaut habe 
 
+ ist der fehler echt mies .... wirklich mies ... 
+
+ das ist kein fehler der system logik sondern ein hardware fehler in der 
+ zeichen abfolge ... und das optisch nicht zu sehen ... 
+
+ aber zumindest eingrenzbar ... 
+
+ und der fehler ist überschaubar .... hat aber nichts mit mir oder 
+ dem system zu tun ... 
+
+ das einzige was mich wundert ist das ein zeichen optisch richtig dagestellt 
+ wird , wenn es im unteren code einen zeichenketten fehler gibt ... 
+
+ da ich auf nummer sicher gehe , tausche ich alle aus ... 
+
+ ich könnte es punktuell machen aber das wäre maustechnisch ein größerer aufwand 
+ als die gesamte zeichen kette auszutauschen ... 
+
+ das ist der grund warum ich das tue ... 
+
+
+ solange ich das untere nicht kontrollieren kann , bin ich dem fehler 
+ wie alle anderen , gnadenlos ausgesetzt ... 
+
+ das ist quasi um es verständlich auszudrücken so 
+
+ B <-- man sieht es , es ist ein B 
+
+ aber B ist kein B weil B eine kaputte zeichenkette hat 
+
+ wenn B kein B ist aber man B als B erkennt, glaubt man es sei alles okey . 
+
+ das ist ungefähr so wie das vor kurzen in den news überall 
+
+ wo ein tausendfacher nachkontrollierter code , kontrolliert wurde 
+ aber der fehler niemand sah ... weil B kein B wahr , sondern ein 
+ kaputtes B ... 
+
+ das ist gerade der selbe moment in meinem system , wie die hatten .. 
+
+
+ nur mit einem unterschied : ich hab keine tausend durchgänge benötigt 
+ um das fehlerchen zu bemerken ... ich wills nur gesagt haben *lach*
 
 
 
