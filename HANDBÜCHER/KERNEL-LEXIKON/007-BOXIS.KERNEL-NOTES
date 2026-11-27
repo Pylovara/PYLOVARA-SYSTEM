@@ -3889,11 +3889,11 @@ MUTTERWABEN-KATEGORIE ⠆⢂⠔⠑ STARTWABE
 
  # AXIOM | PRÄFIX TAGGEN UND RAM  
  AXIOM ¡ ⠆⢂⠑⠊ ⥗ ⠆⢂⠑⠘ ⍠ ⠆⢂⠑⠢
- AXIOM ¡ ⠆⢂⠑⠌ ⥗ ⠆⢂⠑⠡ ⍠ ⠆⢂⠑⠤
+ AXIOM ¡ ⠆⢂⠑⠌ ⥗ ⠆⢂⠑⠡ ⍠ ⠆⡐⢠⠤
 
  # EINHEIT | RAM
  EINHEIT ⠆⢂⠑⠢ #: BXST-RAMS
- EINHEIT ⠆⢂⠑⠤ :# BXST-RAME
+ EINHEIT ⠆⡐⢠⠤ :# BXST-RAME
 
  # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
  AXIOM ¡ ⠆⢂⠑⡐ ⦳ ⠆⢁⡈⠊
@@ -3965,111 +3965,101 @@ KINDERWABEN-KATEGORIE ⠆⢁⡁⢠ SYSTEMWABE
  BSK-PF ⠆⢁⡈⡁ BXEG-RAMSI
 
  # AXIOM | PRÄFIX TAGG ERNEUERN UND RAM
- AXIOM ¡ ⠆⢁⡈⠨ ⥓ ⠆⢁⡈⡁ ⍠ ⠆⢁⡄⡈
+ AXIOM ¡ ⠆⢁⡈⠨ ⥓ ⠆⢁⡈⡁ ⍠ ⠆⡐⢠⠢
 
  # EINHEIT | RAM
- EINHEIT ⠆⢁⡄⡈ #: ^ BXEG-RAMSI
+ EINHEIT ⠆⡐⢠⠢ #: ^ BXEG-RAMSI
 
  # AXIOM WABEN SYSTEM-ID | PROZESS STOP
- AXIOM ¡ ⠆⢁⡈⠊ ⦳ ⠆⢁⠃⡈
+ AXIOM ¡ ⠆⢁⡈⠊ ⦳ ⠆⡐⢐⠰
 
 ###====================================|====================================###
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!! fehler breich 
-MUTTERWABEN-KATEGORIE ⠆⢁⠃⠰ BAUWABE 
 
- PROGRAMM-KERN ⠆⢁⠃⡁ RAM 
+MUTTERWABEN-KATEGORIE ⠆⡐⢐⡂ BAUWABE 
 
- WABEN-ID ⠆⢁⠃⡂ CB
+ PROGRAMM-KERN ## RAM 
 
- BION-NR ⠆⢁⠃⡄ 015
+ WABEN-ID ## CB
 
- BION-ID ⠆⢁⠃⡈ CB015
+ BION-NR ## 015
 
- BSK-KN ⠆⢁⠃⡐ RAM
-
- BSK-ID ⠆⢁⠃⡠ BXCB-RAM
-
- BION ⠆⢁⠃⢂ BX007MK007HT019ST019EG015CB015
-
- BSK ⠆⡠⣀⢄ BXMK+BXHT-RAM+BXST-RAM+BXEG-RAM+BXCB-RAM
-
- # AXIOM | KEID + WAID + BSKN
- AXIOM ¡ ⠆⢄⠃⡄ ⧓ ⠆⢁⠃⡂ ⫯ ⠆⢁⠃⡐ Ξ ⠆⢁⠃⡠
-
- # AXIOM | BION-ID
- AXIOM ¡ ⠆⢁⠃⡂ ⧓ ⠆⢁⠃⡄ Ξ ⠆⢁⠃⡈
-
-TOCHTERWABEN-KATEGORIE ⠆⡠⣀⢈ COMBOWABE
-
- # AXIOM | HOLE RAM EINHEIT 
- AXIOM ¡ ⠆⢁⡄⡈ ⍠ ⠆⡠⣀⢠
- AXIOM ¡ ⠆⢂⠑⠤ ⍠ ⠆⢁⠃⠅
-
- # EINHEIT | RAM 
- EINHEIT ⠆⡠⣀⢠ #: ^ BXEG-RAMSI
- EINHEIT ⠆⢁⠃⠅ :# BXST-RAME
-
- # AXIOM | KOMPONENTE BAUEN  
- AXIOM ¡ ⠆⡠⣀⢠ ⧓ ⠆⢁⠃⠅ Ξ ⠆⢁⠃⠉
-
- # PRÄFIX 
- PRÄFIX ⠆⢁⠃⠊ RAMSIE
-
- # AXIOM | BSK | KEID + WAID + PR
- AXIOM ¡ ⠆⢄⠃⡄ ⧓ ⠆⢁⠃⡂ ⫯ ⠆⢁⠃⠊ Ξ ⠆⢁⠃⠌
-
- # BSK-PRÄFIX | KENNUNGSERWEITERUNG FÜR EINHEITEN
- BSK-PF ⠆⢁⠃⠌ BXCB-RAMSIE
-
- # AXIOM | PRÄFIX TAGG ERNEUERN UND RAM  
- AXIOM ¡ ⠆⢁⠃⠉ ⥓ ⠆⢁⠃⠌ ⍠ ⠆⡠⣀⢐
-
- # EINHEIT | RAM
- EINHEIT ⠆⡠⣀⢐ #: ^ :# BXCB-RAMSIE 
-
- # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
- AXIOM ¡ ⠆⢁⠃⡈ ⦳ ⠆⡠⠤⠉
-
-###====================================|====================================###
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!! fehler breich 
-MUTTERWABEN-KATEGORIE ## ENDWABE 
-
- PROGRAMM-KERN ## RAM
-
- WABEN-ID ## ED
-
- BION-NR ## 016
-
- BION-ID ## ED016
+ BION-ID ⠆⡐⢐⠰ CB015
 
  BSK-KN ## RAM
 
- BSK-ID ## BXED-RAM
+ BSK-ID ## BXCB-RAM
 
- BION ## BX007MK007HT019ST019EG015CB015ED016
+ BION ## BX007MK007HT019ST019EG015CB015
 
- BSK ## BXMK+BXHT-RAM+BXST-RAM+BXEG-RAM+BXCB-RAM+BXED-RAM
+ BSK ## BXMK+BXHT-RAM+BXST-RAM+BXEG-RAM+BXCB-RAM
 
  # AXIOM | KEID + WAID + BSKN
  AXIOM ¡ ## ⧓ ## ⫯ ## Ξ ##
 
  # AXIOM | BION-ID
+ AXIOM ¡ ## ⧓ ## Ξ ⠆⡐⢐⠰
+
+TOCHTERWABEN-KATEGORIE ## COMBOWABE
+
+ # AXIOM | HOLE RAM EINHEIT 
+ AXIOM ¡ ⠆⡐⢠⠢ ⍠ ##
+ AXIOM ¡ ⠆⡐⢠⠤ ⍠ ##
+
+ # EINHEIT | RAM 
+ EINHEIT ## #: ^ BXEG-RAMSI
+ EINHEIT ## 
+
+ # AXIOM | KOMPONENTE BAUEN  
  AXIOM ¡ ## ⧓ ## Ξ ##
 
+ # PRÄFIX 
+ PRÄFIX ## RAMSIE
+
+ # AXIOM | BSK | KEID + WAID + PR
+ AXIOM ¡ ## ⧓ ## ⫯ ## Ξ ##
+
+ # BSK-PRÄFIX | KENNUNGSERWEITERUNG FÜR EINHEITEN
+ BSK-PF ## BXCB-RAMSIE
+
+ # AXIOM | PRÄFIX TAGG ERNEUERN UND RAM  
+ AXIOM ¡ ## ⥓ ## ⍠ ##
+
+ # EINHEIT | RAM
+ EINHEIT ## #: ^ :# BXCB-RAMSIE 
+
+ # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
+ AXIOM ¡ ⠆⡐⢐⠰ ⦳ ⠆⡐⢠⠑
+
+###====================================|====================================###
+
+MUTTERWABEN-KATEGORIE ⠆⡐⢠⠅ ENDWABE 
+
+ PROGRAMM-KERN ⠆⡐⢠⠉ RAM
+
+ WABEN-ID ⠆⡐⢠⠊ ED
+
+ BION-NR ⠆⡐⢠⠌ 016
+
+ BION-ID ⠆⡐⢠⠑ ED016
+
+ BSK-KN ⠆⡐⢠⠒ RAM
+
+ BSK-ID ⠆⡐⢠⠔ BXED-RAM
+
+ BION ⠆⡐⢠⠘ BX007MK007HT019ST019EG015CB015ED016
+
+ BSK ⠆⡐⢠⠡ BXMK+BXHT-RAM+BXST-RAM+BXEG-RAM+BXCB-RAM+BXED-RAM
+
+ # AXIOM | KEID + WAID + BSKN
+ AXIOM ¡ ⠆⢄⠃⡄ ⧓ ⠆⡐⢠⠊ ⫯ ⠆⡐⢠⠒ Ξ ⠆⡐⢠⠔
+
+ # AXIOM | BION-ID
+ AXIOM ¡ ⠆⡐⢠⠊ ⧓ ⠆⡐⢠⠌ Ξ ⠆⡐⢠⠑
+
  # AXIOM | HAUPTWABEN DURCHLAUF BEENDEN
- AXIOM ¡ ## ⦱
+ AXIOM ¡ ⠆⡐⢠⠑ ⦱
 
 ###====================================|====================================###
 ###===============================BOXIS-KOORDI==============================###
