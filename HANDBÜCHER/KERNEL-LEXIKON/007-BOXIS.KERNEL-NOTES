@@ -1130,7 +1130,7 @@ TOCHTERWABEN-KATEGORIE ⠆⢁⠢⣀ COMBOWABE
  AXIOM ¡ ⠆⢁⠤⠉ ⥓ ⠆⢁⠤⠌ ⍠ ⠆⢁⠤⠑
 
  # EINHEIT | RAM
- EINHEIT ⠆⢁⠤⠑ Ħ: ^:Ħ BXCB-ABISIE
+ EINHEIT ⠆⢁⠤⠑ Ħ: ^ :Ħ BXCB-ABISIE
 
  # AXIOM | PROZESS STOP UND WEITERVERBINDEN 
  AXIOM ¡ ⠆⢁⠤⡠ ⦳ ⠆⢁⠢⠨
@@ -1141,7 +1141,7 @@ MUTTERWABEN-KATEGORIE ⠆⢁⠤⠒ ENDWABE
 
  PROGRAMM-KERN ⠆⢁⠤⠔ ABI
 
- WABEN-ID ⠆⢁⠤⠘ ED
+ WABEN-ID ⠆⡐⢂⠅ ED
 
  BION-NR ⠆⢁⠢⠤ 005
 
@@ -1156,10 +1156,10 @@ MUTTERWABEN-KATEGORIE ⠆⢁⠤⠒ ENDWABE
  BSK ⠆⢁⠢⡄ BXMK+BXHT-ABI+BXST-ABI+BXEG-ABI+BXCB-ABI+BXED-ABI
 
  # AXIOM | KEID + WAID + BSKN
- AXIOM ¡ ⠆⢄⠃⡄ ⧓ ⠆⢁⠤⡈ ⫯ ⠆⢁⠢⠰ Ξ ⠆⢁⠢⡁
+ AXIOM ¡ ⠆⢄⠃⡄ ⧓ ⠆⡐⢂⠅ ⫯ ⠆⢁⠢⠰ Ξ ⠆⢁⠢⡁
 
  # AXIOM | BION-ID
- AXIOM ¡ ⠆⢁⠤⡈ ⧓ ⠆⢁⠢⠤ Ξ ⠆⢁⠢⠨
+ AXIOM ¡ ⠆⡐⢂⠅ ⧓ ⠆⢁⠢⠤ Ξ ⠆⢁⠢⠨
 
  # AXIOM | HAUPTWABEN DURCHLAUF BEENDEN
  AXIOM ¡ ⠆⢁⠢⠨ ⦱
