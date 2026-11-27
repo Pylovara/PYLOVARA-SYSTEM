@@ -86,7 +86,7 @@
  <· —[¥: {FUNKTION} :¥]
  <· —[Ħ: {ABI} :Ħ]
  <· —[º: {OPCODE} :º]
- <· —[ºº: {MACODE} :ºº]
+ <· —[ſ: {MACODE} :ſ]
  <· —[§: {NET} :§]
  <· —[$: {PFAD} :$]
  <· —[Ŋ: {STROM} :Ŋ]
@@ -140,7 +140,7 @@
 
 ¢!
 »—[¥: BOXIS-BXHT-MASCHINENCODE :¥]«««~: BAUMODUS FUNKTION SPEICHER ABRUF :~«
- °°: ^ :°°
+ ſ: ^ :ſ
 !¢
 
 ¢!
