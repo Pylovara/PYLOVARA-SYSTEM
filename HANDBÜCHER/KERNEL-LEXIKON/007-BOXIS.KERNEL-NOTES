@@ -3792,6 +3792,12 @@ MUTTERWABEN-KATEGORIE ⠆⢁⠅⠌ ENDWABE
  AXIOM ¡ ⠆⢁⠅⠊ ⦱
 
 ###====================================|====================================###
+
+fehlerhafter bereich system-id's zeichen problen mit ⠆
+
+ alle beheben ! da ich nur raten könnte ... 
+
+###====================================|====================================###
 ###=================================BOXIS-RAM===============================###
 ###====================================|====================================###
 
@@ -4927,6 +4933,9 @@ MUTTERWABEN-KATEGORIE ⠆⡠⠤⠊ ENDWABE
  PFAD-BION     = BX007MK007HT018ST018EG014CB014ED015
  PFAD-BSK      = BXMK+BXHT-SHELL+BXST-SHELL+BXEG-SHELL+BXCB-SHELL+BXED-SHELL
  PLASK-KOMPAKT = {BXMK:BXHT-SHELL:BXST-SHELL=BXST-SHELLS=BXST-SHELLE:BXEG-SHELL=BXEG-SHELLSI:BXCB-SHELL=BXCB-SHELLSIE:BXED-SHELL}
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+ fehlerhafter bereich : 
 
  PFAD-PROGRAMM = RAM
  PFAD-BION-ID  = ⠆⢂⣀⠤ ⠆⢂⠔⠃ ⠆⢂⠑⡐ ⠆⢁⡈⠊ ⠆⢁⠃⡈ ⠆⡠⠤⠉
