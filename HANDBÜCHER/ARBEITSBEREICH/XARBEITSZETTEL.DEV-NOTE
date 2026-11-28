@@ -303,6 +303,137 @@
 
 
 
+ notiz : 
+
+
+ wenn ich später das thema überarbeite und frisch aufsetze und das lexikon an der 
+ stelle schreibe boxis 
+
+ denk an die pontifex 
+
+
+ ich denke da sollte noch combinationen rein und erweiterungen 
+
+ zum beispiel 
+
+ sollten alle auf | wenn vorhanden | basieren wie 
+
+ aber das sollte dann einen zusatz haben der generalisiert wird ... 
+
+ das zeichen selbst ist noch nicht fest .... ich nutze stern als halter als ideen anker 
+
+ |&*| |?*| |=*| 
+
+ solche spielchen ... 
+
+ ich gehe die boxis und die expliziten zuordnungen dann im garten heute durch 
+ und kontrolliere nochmal die pontifex ... 
+
+ ich muss so oder so die kompakte pfad angabe noch schreiben ... 
+
+ und beim thema boxis und zordnung , weil das defintiv eine 
+
+ vorgeschriebene gesamt erklärung brauch welche komponente was tut .. 
+ aber das blatt in dem zustand nicht lexikon würdig wäre , weil ich es 
+ in ghetto sprache schreibe ... gehjt schnell 
+
+ und darauf hin die restlichen boxi zuordnungen dann explizit bestimmen kann 
+ , gerade wegen den ppontifex und nectar ausgabe bereiche und protein bindungen 
+
+ kann ich exzellent die pontifex vorab schonmal auf einen basis stand bringen 
+ der generell für viele schreib weisen passen kann ... 
+
+ die wo einzel boxis schreiben wollen mikt direktem anschluss zur nächsten , 
+ sind in dem punkt dann sogar noch besser bedient , weil die restlichen 
+ noch schwammigen einsatz gebiete der boxi geklärt wäre ... 
+
+ das ändert nichts an der seite , da die tabellen später das dann machen . 
+
+ aber das implementiert dann die mehrfach boxis methode und diese schreibweise 
+ und die benutzung von pontifex operatoren quasi ... 
+
+ das wäre noch ein binde glied das zwar in der gesammten arbeit 
+ in vielen formen vorliegt aber gerade der bereich mehrere boxis 
+ war immer eine baustelle die ich auf später verschoben haben 
+
+
+ das wird jetzt nach geholt ... 
+
+ das einzige was ich für problematisch halte ist das die systeme 
+ alle meist  über die shell selbst gesteuert werden ... 
+
+
+ ich muss also das shell prinzip in gewissen bereichen auseinander reißen .. 
+
+ und das wird erstmal ein kniff ... 
+
+
+ den syscalls sind syscalls ... muss seperat laufen können 
+ abis ebenfalls 
+ macode ebenfalls 
+ opcode ebenfalls 
+
+ und shell sollte nur den befehl des systeem verbinden 
+ das dann in den boxis vorher skizziert wurde .... 
+
+ damit alles seine ordnung hat und nachvollziehbar ist 
+ im code .... den ich werde defintiv nicht den schrott 
+ übernehmen , den die zusammen gemurgst haben ... 
+
+
+ erstens steck da überall unterbautes english drinne ... 
+
+
+
+ zweitens wurde zuviel zusammen geschmissen aus bequemlichkeits gründen 
+
+ und drittens müssen die unterlegten Langs die das alles binden 
+ aussortiert werden können ... 
+
+
+ wenn dann wird das in reihnem mcs geschrieben ! 
+
+ ich natürlich auf stufe 0 also ausführlich 
+
+ damit stufe eins funktioniert ... 
+
+ dab da dann die meisten wahrscheibnlich auf stufe 2  
+
+ bis hin zu stufe 3 wo nur noch abgerufen wird 
+
+ und die ganz faulen und die höchste abstraktion dann stufe 4 
+ 
+
+ aber alle stufen werden vom tws und dann in mcs nahtlos zusammen 
+ unterstützt weil die verschachtelung eine sprache ist .. 
+
+ dadurch ist stufe 4 performanter als c oder andere 
+
+ den die verstecken alles andere , dadurch geht nur high level 
+
+ aber mcs kann beides ... low und high .. 
+
+ all in one ... und ich werde das koordinaten thema nicht vergessen . 
+
+ was selbst python mit pyhtouch fabriziert , also nochmal abstrahierter 
+
+ wird in mcs nativ gehen in der selben syntax mit der selben sprache mit der 
+ selben syntax ... 
+
+ das hab ich 6 jahre lang heraus gearbeitet und es geht nur noch darum 
+ was welche explizite aufgabe bekommt ... 
+
+ und kein einziges sonderzeichen ist syntaxzucker sondern 
+ explizite zustände ... 
+
+ mit verfütterten text ... als das was unix wollte „ alles ist ein wort “
+
+ aber nein .... eben nicht .... nicht alles .... 
+
+
+
+
+
 
 
 
