@@ -234,7 +234,72 @@
  und das ist was ich respektiere ! 
 
 
+ notiz an mich : 
 
+ ich muss das boxi system besser erklären .... 
+
+ abi = isa 
+ syscall = anruf 
+ macode = binary vorbereitung 
+ 
+ usw ... 
+
+ ich hab den koopf gerade nicht dazu und die boxis sind zwar explizit 
+ aber sind noch nicht final zugeordnet ... 
+
+ bevor ich jetzt die syscall und die abi falsch rum erkläre ... 
+ lösch ich den aspekt ... 
+
+ vor allem aber auch sollte es kein studenten deutsch beinhalten ... 
+
+
+ es muss jeder verstehen .... und zwar jeder .... nicht nur eine ausgewählte 
+ karste an auserwählten löffelsprachler ... sondern normale menschen ... 
+
+ das ist extrem wichtig ... 
+
+
+ ich denke ich nehme mein boxis system ...., schreibe auf einem extra blatt 
+ was ich mir darunter vorstelle wie die abfolgen sein sollen .. 
+
+ gehe das kurz logisch mit irgend einer ki durch ob es technisch umsetzbar ist 
+ und die einteilung explizit sein können .. 
+
+ schreibe danach für jeden abschnitt , wenn es sein muss und es muss sein , 
+ eine ellen lange erklärung . 
+
+ und orientiere mich an den daten an den honigtropfen tabellen ... 
+
+ wenn das gemacht ist , kann das mcd-bion dann aufgebaut werden bzw später 
+ und das viel genaue ... 
+
+ und somit wäre das abfolge system dann auch wunderbar klar .. 
+
+ ich darf nicht vergessen das ich die pontifex in der ersten version 
+ implementiert habe ... 
+
+ das muss ich berücksichtigen ... 
+
+
+ was klar und deutlich steht ist wo gerechnet wird ... alu ! 
+
+ was klar steht wo die befehle hinkommen = mcd 
+
+ was klar ist wo mcs funktionen geschrieben werden = funktion 
+
+ uefi und utf boxis erklären sich fast von alleine ... sind aber 
+ explizite ansteuerungen von programmen die auf allen hardware typen 
+ gleichermaßen existieren und deswegen überhaupt einen boxi bekommen . 
+
+ also langsam mit den pferden .... ich schreib keinen schrott auf ! 
+
+
+ das muss auch ein hauptschüler verstehen können der noch nie was mit 
+ computer zu tun hatte und auch mein eigenes wissen verbessert im kopf 
+
+
+ also ANKER-SPRACHE und kein arabische sprechender japanischer albanischer mathematische 
+ adliger aus Oxford für das fachdiplom = alien slang 
 
 
 
